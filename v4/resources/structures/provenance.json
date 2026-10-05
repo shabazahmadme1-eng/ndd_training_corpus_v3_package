@@ -1,0 +1,3527 @@
+{
+  "AIRE__9606__e6aac992e36a": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "ASPA__9606__fd33f7110370": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "ADSL__9606__f6777a97981f": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "CBS__9606__1e7cf97e4650": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "BRCA1__9606__80d7199c8d15": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "FKRP__9606__8ef7e7ee077b": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "DLG4__9606__eaa4e0dc7e76": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "HMGCR__9606__53ca26e9a4ee": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "GDI1__9606__151cd778d4fb": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "JAG1__9606__9e09344716f8": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "HRAS__9606__d9360238882c": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "KCNQ1__9606__5cec1050068d": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "KCNQ2__9606__a3002bf1c1ab": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "KRAS__9606__9a0ed04ef46e": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "LARGE1__9606__69e472d47028": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "MAPK1__9606__1670aefbe2d9": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "MTHFR__9606__afd5e62b903e": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "OTC__9606__35d9672d82f6": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "PALB2__9606__848e1c837f05": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "BRCA2__9606__02fa9247ce63": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/P51587"
+  },
+  "PSAT1__9606__47ac6e9f63a7": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "PTEN__9606__2675a6cc9460": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "SHOC2__9606__f7c01224ad8e": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "SPOP__9606__9947d2c5b5dd": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "SUMO1__9606__2f67b0398c76": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "TPK1__9606__f0559a57916f": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "TSC2__9606__6c6795ffc0f6": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "UBR5__9606__864587b8306f": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "KCNE1__9606__07505bc0d400": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "KCNE1__9606__1f7b8c1a071f": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P15382.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15382-F1-model_v6.pdb",
+    "sha256": "3603aa8ec5666e9f9f8f9b8bad99ed5eb45e61efdadbf1c18cbf045530782d30",
+    "download_date": "2026-09-19"
+  },
+  "PAX6__9606__aebeb991234c": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "PAX6__9606__ae367c5fa236": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P26367-F1-model_v6.pdb",
+    "sha256": "791a6e07e636ebbf9c8863fcbee0d24198fd1118fad78a5a6f095fcc7d48d9ae",
+    "download_date": "2026-09-19"
+  },
+  "ACE2__9606__87630d0ccd9e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BYF1-F1-model_v6.pdb",
+    "sha256": "8cbe67772923f9e3ba7f5281d3d68234dbbd7cd01aa3e10d73413c5398d904a5",
+    "download_date": "2026-09-19"
+  },
+  "ADRB2__9606__9abd88979dbb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07550-F1-model_v6.pdb",
+    "sha256": "f6c92a8e92db8ec97f473b961905ddca11eaea1d896c53ec61ebff42648df519",
+    "download_date": "2026-09-19"
+  },
+  "APP__9606__0f79dd8c1ea2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P05067-F1-model_v6.pdb",
+    "sha256": "62a4cde3cd6fd44cc88533552d103eb06f99ac31e49f57e07f0c4714f42f1c22",
+    "download_date": "2026-09-19"
+  },
+  "CRX__9606__e4f3ee088fb5": {
+    "status": "exact_reference_cache",
+    "source": "existing_validated_cache"
+  },
+  "CRX__9606__16817fe0ae92": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43186-F1-model_v6.pdb",
+    "sha256": "5d42a2abceafc2af8420706c6a66939396ce36cb5258840fb6ee1f5f9771eab2",
+    "download_date": "2026-09-19"
+  },
+  "AICDA__9606__042b90517121": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9GZX7-F1-model_v6.pdb",
+    "sha256": "43587d2482ea7c42aa72f4eec3c56c9c952a14c19494b366dbdbca62093fd262",
+    "download_date": "2026-09-19"
+  },
+  "AMFR__9606__ba8bd075361c": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9UKV5.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKV5-F1-model_v6.pdb",
+    "sha256": "b104b1da3ea93ac22e3855b78d9518370166496bb0080e8d802402b8f000efb0",
+    "download_date": "2026-09-19"
+  },
+  "BCL2L11__9606__394475cc5b09": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43521-F1-model_v6.pdb",
+    "sha256": "1fc542acb7dcb8cea90ef3999b943fc17f064a4e8a280dca95547894fd4c53f2",
+    "download_date": "2026-09-19"
+  },
+  "CARD11__9606__23f728c9d0c8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BXL7-F1-model_v6.pdb",
+    "sha256": "88f18495da14fe8c4728ef1b608577f668c333057fa508e6ae855a9313d70bfa",
+    "download_date": "2026-09-19"
+  },
+  "CASP3__9606__db97616a5420": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P42574.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P42574-F1-model_v6.pdb",
+    "sha256": "75d6e2d5c382cfb603061a6d3db0ed7e7f45ede18971cc654f0bc1822b9ee93d",
+    "download_date": "2026-09-19"
+  },
+  "CALM1__9606__4a9f2f38a0af": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P0DP23-F1-model_v6.pdb",
+    "sha256": "cdd689a81534aa8a8bcd3bfec668476e617bfb4e8f7ca0d1eeb8331b0f8a69ab",
+    "download_date": "2026-09-19"
+  },
+  "CASP7__9606__213d8a15168f": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P55210.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P55210-F1-model_v6.pdb",
+    "sha256": "70a284cfc6c1ed65e3c25206235c47591fc1638727437ec59407885fb8196606",
+    "download_date": "2026-09-19"
+  },
+  "CPA2__9606__1e3ef36e6f48": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P48052-F1-model_v6.pdb",
+    "sha256": "feda89bbe39804219e07cbf1ae222b2807d18c1230c4700e3d7b1777fb8fc6b8",
+    "download_date": "2026-09-19"
+  },
+  "CCR5__9606__7474668859b4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51681-F1-model_v6.pdb",
+    "sha256": "0622e69d341b9886bd6182579ec1760a02d6a6eef2fba8e60923c488ca857d66",
+    "download_date": "2026-09-19"
+  },
+  "CBX4__9606__98af4350fbb8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O00257-F1-model_v6.pdb",
+    "sha256": "3e695f1e1c74eda2f974fabbaeedf0f62465c511da121048d997fba66ddc0f45",
+    "download_date": "2026-09-19"
+  },
+  "CD19__9606__955c84069203": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15391-F1-model_v6.pdb",
+    "sha256": "2e5f5d32967ac8a29bc2e3a07c8d93cdd53a4f1232eec91decd1f30b014f4b32",
+    "download_date": "2026-09-19"
+  },
+  "CYP2C9__9606__3f891626b668": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P11712-F1-model_v6.pdb",
+    "sha256": "ff037d0dfb02ccc1c715cc4659f38c2f1804c479166db38842dfbc6a523e0b7d",
+    "download_date": "2026-09-19"
+  },
+  "DNAJA1__9606__0d16c663f2ef": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P31689-F1-model_v6.pdb",
+    "sha256": "309b02e74604752cb7642c67fc0164dd65a767844b0828b5c8f0318374b1d332",
+    "download_date": "2026-09-19"
+  },
+  "EPHB2__9606__27e98b898370": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P29323-F1-model_v6.pdb",
+    "sha256": "80ae0d641968d7867da5b87509df18b8334d2ec6a6a7361a03803d1e0f04d0f2",
+    "download_date": "2026-09-19"
+  },
+  "FKBP3__9606__22de585899af": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q00688-F1-model_v6.pdb",
+    "sha256": "d9fc081a5e80d8a764a337f5ba36540a7d4820279086b9cda5c2d046382a06d4",
+    "download_date": "2026-09-19"
+  },
+  "ERBB2__9606__a5f256fc6535": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04626-F1-model_v6.pdb",
+    "sha256": "67779a57b099b435e48bb163ad1238d9e86df0e57a898bce4ec3a3c4b8880e3c",
+    "download_date": "2026-09-19"
+  },
+  "GYPA__9606__89d0c58de71d": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P02724.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P02724-F1-model_v6.pdb",
+    "sha256": "f3465a3a99432cb7d77242b80a909addc5b1163db9fbddd9c2e80b2a5cb5fc0e",
+    "download_date": "2026-09-19"
+  },
+  "GRB2__9606__da732b5e8d2d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P62993-F1-model_v6.pdb",
+    "sha256": "08979a48f238c055df0f49c6f7953a22e0ac7e97e5738f481c80a4b6b299a35d",
+    "download_date": "2026-09-19"
+  },
+  "GRB2__9606__bc2932bb336e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P62993-F1-model_v6.pdb",
+    "sha256": "08979a48f238c055df0f49c6f7953a22e0ac7e97e5738f481c80a4b6b299a35d",
+    "download_date": "2026-09-19"
+  },
+  "HMBS__9606__0357a836b3f2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08397-F1-model_v6.pdb",
+    "sha256": "548ae4358fbbc21a53a43b974c2724d990e89c449e6b16c5a78fb5f85ac5f8e7",
+    "download_date": "2026-09-19"
+  },
+  "GCK__9606__48ae6d5533dd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35557-F1-model_v6.pdb",
+    "sha256": "24b4919ad9fc7217608fafae53646dcf8cb4ebf67eb42ee648515d6a369d6416",
+    "download_date": "2026-09-19"
+  },
+  "ILF3__9606__3aa0de5eb3e5": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q12906.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12906-F1-model_v6.pdb",
+    "sha256": "22b449ed0362dcf45ae1399e1699976fe786ce9e1164073aa94a0a1c646c2263",
+    "download_date": "2026-09-19"
+  },
+  "HECTD1__9606__d11d776b9031": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9ULT8.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ULT8-F1-model_v6.pdb",
+    "sha256": "0f94a4546e30700306665c96ce86c2ac8f1f417e653352f0f56d162e26944c79",
+    "download_date": "2026-09-19"
+  },
+  "HECTD1__9606__405d2baec806": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ULT8-F1-model_v6.pdb",
+    "sha256": "0f94a4546e30700306665c96ce86c2ac8f1f417e653352f0f56d162e26944c79",
+    "download_date": "2026-09-19"
+  },
+  "KCNH2__9606__287332153da3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12809-F1-model_v6.pdb",
+    "sha256": "d5644b21edad1c1ff2a46e92d18d6fe8ebcf4961d991ba95913e56104eb85254",
+    "download_date": "2026-09-19"
+  },
+  "SELL__9606__28ea52e4a2c9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P14151-F1-model_v6.pdb",
+    "sha256": "a23fbe7aaebef241b7e381fa2bd069bf167df08d7a6094e609be42d5d9c83d19",
+    "download_date": "2026-09-19"
+  },
+  "MET__9606__81df7bdf1ca2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08581-F1-model_v6.pdb",
+    "sha256": "89e72b972fc7d870780430ef88a5fca1cef5b4ff37d7f96f8aef91273e812f6d",
+    "download_date": "2026-09-19"
+  },
+  "KCNJ2__10090__88bfbcddd595": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35561-F1-model_v6.pdb",
+    "sha256": "e8325e0ef66249f39a085f9492713b90647ddfb368b8b7dea30f1195f43ba92b",
+    "download_date": "2026-09-19"
+  },
+  "MSH2__9606__e27b898beec9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P43246-F1-model_v6.pdb",
+    "sha256": "3c8f3e5f7655a35578bfd2c53ae80d7611b89a353b7e8927951221b3e73783f1",
+    "download_date": "2026-09-19"
+  },
+  "NKX3-1__9606__c9f6965638d2": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q99801.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99801-F1-model_v6.pdb",
+    "sha256": "a9cb8afac74de259edacfecf35c25945ba0f87b22bc95c735a5510ee43e26742",
+    "download_date": "2026-09-19"
+  },
+  "OBSCN__9606__9548d3ecc642": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q5VST9"
+  },
+  "NPC1__9606__4e24d009a2dd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15118-F1-model_v6.pdb",
+    "sha256": "ce685f668ae91f1c13254297361e2467987b1c1226e5debdbe6a7f98a8855947",
+    "download_date": "2026-09-19"
+  },
+  "NUDT15__9606__14995400edc5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NV35-F1-model_v6.pdb",
+    "sha256": "b8eaa7589ee357377f3573a51f751059a3b998deecb4aaa4a6ba89fabf943d4f",
+    "download_date": "2026-09-19"
+  },
+  "RHO__9606__b59611b13c35": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08100-F1-model_v6.pdb",
+    "sha256": "66e377efef971e8869fa4c24597263544ce6d3e3595903deade7d43acab27f21",
+    "download_date": "2026-09-19"
+  },
+  "OTUD7A__9606__873d9a9b99d4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TE49-F1-model_v6.pdb",
+    "sha256": "0f37801b72389f270ef97a9c342891ab0d28e4bf7e008d2046f1e862cb9a374b",
+    "download_date": "2026-09-19"
+  },
+  "SERPINE1__9606__85dcfe09ecc8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P05121-F1-model_v6.pdb",
+    "sha256": "751a02d2349abbcd425536b0f30383f9bc853b81dcfa271fa6c90ce586a3811d",
+    "download_date": "2026-09-19"
+  },
+  "PIN1__9606__32f6115513f3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13526-F1-model_v6.pdb",
+    "sha256": "78cf96be8eb998260ecf281354a3578a8ccd6de2cdaa768a6c45fcabe52e3d01",
+    "download_date": "2026-09-19"
+  },
+  "PIN1__9606__2ea4ebaa6beb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13526-F1-model_v6.pdb",
+    "sha256": "78cf96be8eb998260ecf281354a3578a8ccd6de2cdaa768a6c45fcabe52e3d01",
+    "download_date": "2026-09-19"
+  },
+  "TP53__9606__a5cec053cd19": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P04637.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04637-F1-model_v6.pdb",
+    "sha256": "5a7051e8f97848d43b3747268825b29cafb5fa99d2e3fff6f58efcdb74e74cc3",
+    "download_date": "2026-09-19"
+  },
+  "TP53__9606__e3ca60f18e3b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04637-F1-model_v6.pdb",
+    "sha256": "5a7051e8f97848d43b3747268825b29cafb5fa99d2e3fff6f58efcdb74e74cc3",
+    "download_date": "2026-09-19"
+  },
+  "PITX2__9606__f33cf1a6bd36": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q99697.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99697-F1-model_v6.pdb",
+    "sha256": "8462481c7a60342b2b098f94d3da26551595b72db2b4cf1ed004adb498c21320",
+    "download_date": "2026-09-19"
+  },
+  "PKN1__9606__eacd7c467afd": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q16512.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q16512-F1-model_v6.pdb",
+    "sha256": "f7394474bfa3fe9b98ad87a9062e56436d4ca91071842a90e9f696b42f9b3f2e",
+    "download_date": "2026-09-19"
+  },
+  "PKN1__9606__7559ff8f3c76": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q16512-F1-model_v6.pdb",
+    "sha256": "f7394474bfa3fe9b98ad87a9062e56436d4ca91071842a90e9f696b42f9b3f2e",
+    "download_date": "2026-09-19"
+  },
+  "PPM1D__9606__eb3fd6e99114": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15297-F1-model_v6.pdb",
+    "sha256": "1dffab97c80c8887b430ea9eafe28e44956a3c2a8538e05dd72804afe00fe035",
+    "download_date": "2026-09-19"
+  },
+  "PPARG__9606__1a9d5667abcf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P37231-F1-model_v6.pdb",
+    "sha256": "f317ff662ca91befffb74c9046a2139c0169c992323e851ade88d992a946aae8",
+    "download_date": "2026-09-19"
+  },
+  "PRKN__9606__f1c95f90cb66": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60260-F1-model_v6.pdb",
+    "sha256": "ac3b46c4a2734d8f132c99368bc161358a2848f1f0c9517909c2f1dace257713",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__4c0794fea109": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__d863247402b5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__2696056fab25": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__fd1f58e53ec4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__0c2e956d7be7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40A__9606__c5ed58a705f4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75400-F1-model_v6.pdb",
+    "sha256": "7e2a26717373bfbddb870a560a5c383ed5ab08aee53b16867eb67ee59ecf15b8",
+    "download_date": "2026-09-19"
+  },
+  "HLA-A__9606__a77c8fd26c1e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q53Z42-F1-model_v6.pdb",
+    "sha256": "be81f22d62b71af89d926359d313c8e9d63789d2f4ec2891242f2b0556ebfd6a",
+    "download_date": "2026-09-19"
+  },
+  "RAF1__9606__cccfc1d98eae": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04049-F1-model_v6.pdb",
+    "sha256": "5cf638eb37037d8672fa502d9bcb946b989ba94b9ead0282e77447cc33afb1a9",
+    "download_date": "2026-09-19"
+  },
+  "RAF1__9606__3a14c517bcce": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04049-F1-model_v6.pdb",
+    "sha256": "5cf638eb37037d8672fa502d9bcb946b989ba94b9ead0282e77447cc33afb1a9",
+    "download_date": "2026-09-19"
+  },
+  "RAD23A__9606__563296d6558a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P54725-F1-model_v6.pdb",
+    "sha256": "08bb1bc69b772be7e2f557b0feb81191b8dbe6f247b336c51ef12e53d8656370",
+    "download_date": "2026-09-19"
+  },
+  "SLC22A1__9606__d601ee0a15fe": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15245-F1-model_v6.pdb",
+    "sha256": "1bb20fdfab402171eb0b9b19a739202cab2405badda965898a731d04b21935b1",
+    "download_date": "2026-09-19"
+  },
+  "SLC6A4__9606__08ab69187b31": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P31645-F1-model_v6.pdb",
+    "sha256": "e44b00dd3290a000749281f7383e4b17254ab58e16ac59da648767d9821546e8",
+    "download_date": "2026-09-19"
+  },
+  "SCN5A__9606__3b1719ba4947": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14524-F1-model_v6.pdb",
+    "sha256": "a0a3b4090d83680e7d55fda3c4538d4df66de03c58c714975f2e42bb016e6970",
+    "download_date": "2026-09-19"
+  },
+  "RALBP1__9606__bed87fed8b26": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q15311.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15311-F1-model_v6.pdb",
+    "sha256": "5615bc36de8425232075822e4f831eb0d1939af6ff7e590a3e98c866943da7e3",
+    "download_date": "2026-09-19"
+  },
+  "SOX30__9606__1e7d90f7e45b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94993-F1-model_v6.pdb",
+    "sha256": "25ac3a96381521680734dbd4b937832e53f02eb95e81f9edb7563cc9dc379cc5",
+    "download_date": "2026-09-19"
+  },
+  "SOX30__9606__40971285e28d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94993-F1-model_v6.pdb",
+    "sha256": "25ac3a96381521680734dbd4b937832e53f02eb95e81f9edb7563cc9dc379cc5",
+    "download_date": "2026-09-19"
+  },
+  "SORBS1__9606__9a91e2de3c98": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9BX66.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BX66-F1-model_v6.pdb",
+    "sha256": "e72323a5dc10e16091424202098d625e0f43679ac72a3b84f34009418807423d",
+    "download_date": "2026-09-19"
+  },
+  "SRC__9606__bfb0c691493b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P12931-F1-model_v6.pdb",
+    "sha256": "4100b194cf6b79da38a3de8e182f165e22d873413e5527781c22d42a76691168",
+    "download_date": "2026-09-19"
+  },
+  "SRC__9606__d2f882771368": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P12931-F1-model_v6.pdb",
+    "sha256": "4100b194cf6b79da38a3de8e182f165e22d873413e5527781c22d42a76691168",
+    "download_date": "2026-09-19"
+  },
+  "SNCA__9606__a421d4b21d11": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P37840.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P37840-F1-model_v6.pdb",
+    "sha256": "bef9b9c64f0a002d00320c22e1d220341aca3c4704b09d6bfd953f30044ed44b",
+    "download_date": "2026-09-19"
+  },
+  "TNKS2__9606__fcbf51690593": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9H2K2.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H2K2-F1-model_v6.pdb",
+    "sha256": "6070695834ad4768f927d31d361f99efdc149d565258ea853b04afa0181fbc8c",
+    "download_date": "2026-09-19"
+  },
+  "TARDBP__9606__db904fb6bea3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13148-F1-model_v6.pdb",
+    "sha256": "bc613cf7e5082034080715b783822b76348204cc79b469a36fa2ad39583fe4cb",
+    "download_date": "2026-09-19"
+  },
+  "TARDBP__9606__984b7abd13ec": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13148-F1-model_v6.pdb",
+    "sha256": "bc613cf7e5082034080715b783822b76348204cc79b469a36fa2ad39583fe4cb",
+    "download_date": "2026-09-19"
+  },
+  "TPMT__9606__059d7c2c8feb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51580-F1-model_v6.pdb",
+    "sha256": "ca6db754a7ab4574fe2d7540993a0583c5ba383ffeef63975454ed47445a75e1",
+    "download_date": "2026-09-19"
+  },
+  "MPL__9606__a74ceb2bf389": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P40238.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P40238-F1-model_v6.pdb",
+    "sha256": "41697458d58ce09f130add14da648469eca18c52ca9f6e97062de4865511aaf8",
+    "download_date": "2026-09-19"
+  },
+  "UBE2I__9606__3210d6959f17": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\P63279.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P63279-F1-model_v6.pdb",
+    "sha256": "e8217e0e5beb67b5715784f18b9debb1f611fe8653f830c38fe6d0c4fc459acb",
+    "download_date": "2026-09-19"
+  },
+  "VKORC1__9606__f8e6c25683dd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BQB6-F1-model_v6.pdb",
+    "sha256": "c6af4431d3fabcaa0c846dbc35b79403e3b09e3e157b1e04bd3726834e75e5c6",
+    "download_date": "2026-09-19"
+  },
+  "UBE4B__9606__538bf66468f7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95155-F1-model_v6.pdb",
+    "sha256": "3b5322be1facf7fe1c1f1e3269b90d3d7bd43fac083498a7b8b5cd89beb58fb6",
+    "download_date": "2026-09-19"
+  },
+  "UBE4B__9606__8fab300cf4c0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95155-F1-model_v6.pdb",
+    "sha256": "3b5322be1facf7fe1c1f1e3269b90d3d7bd43fac083498a7b8b5cd89beb58fb6",
+    "download_date": "2026-09-19"
+  },
+  "YAP1__9606__1f9731060cb9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P46937-F1-model_v6.pdb",
+    "sha256": "191425816c40b1574c7cba44b5a327c5cd3eab57efd945a75add64e917664d62",
+    "download_date": "2026-09-19"
+  },
+  "YAP1__9606__e26f51351499": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P46937-F1-model_v6.pdb",
+    "sha256": "191425816c40b1574c7cba44b5a327c5cd3eab57efd945a75add64e917664d62",
+    "download_date": "2026-09-19"
+  },
+  "YAP1__9606__fe41289e3afc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P46937-F1-model_v6.pdb",
+    "sha256": "191425816c40b1574c7cba44b5a327c5cd3eab57efd945a75add64e917664d62",
+    "download_date": "2026-09-19"
+  },
+  "YAP1__9606__24e4812f379f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P46937-F1-model_v6.pdb",
+    "sha256": "191425816c40b1574c7cba44b5a327c5cd3eab57efd945a75add64e917664d62",
+    "download_date": "2026-09-19"
+  },
+  "UBE4B__10090__e41f60f5bb7e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ES00-F1-model_v6.pdb",
+    "sha256": "9f3094c894147ffe632426b95d5eb095a11410296b209022a085149573245338",
+    "download_date": "2026-09-19"
+  },
+  "ABL1__9606__3dd47db91dcf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P00519-F1-model_v6.pdb",
+    "sha256": "5584d2df9817f991ca9355670fc817e97c0b8f7e043cfb3f85302e3796d62c1b",
+    "download_date": "2026-09-19"
+  },
+  "ABLIM3__9606__5c3e82c20923": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94929-F1-model_v6.pdb",
+    "sha256": "517e8bbc63c245501135d63bfcfe82c7dd31f8eb3466bd890983845b5caec93a",
+    "download_date": "2026-09-19"
+  },
+  "ABLIM3__9606__c31c2957a31d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94929-F1-model_v6.pdb",
+    "sha256": "517e8bbc63c245501135d63bfcfe82c7dd31f8eb3466bd890983845b5caec93a",
+    "download_date": "2026-09-19"
+  },
+  "ADARB1__9606__1b605394aca2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78563-F1-model_v6.pdb",
+    "sha256": "9cc2d51c3ba1bec3c4e23113579d221586e91bdd15418b0d94bd95bf1728c95f",
+    "download_date": "2026-09-19"
+  },
+  "ADAR__9606__c1787b934def": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P55265-F1-model_v6.pdb",
+    "sha256": "4d14202f7024dbefeee8aa9cd1a74d3b012ac4eab31a41ab249226e4ea4444fd",
+    "download_date": "2026-09-19"
+  },
+  "ADAR__9606__4b8541aac4b7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P55265-F1-model_v6.pdb",
+    "sha256": "4d14202f7024dbefeee8aa9cd1a74d3b012ac4eab31a41ab249226e4ea4444fd",
+    "download_date": "2026-09-19"
+  },
+  "ADNP__9606__f0d0a0a6508c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H2P0-F1-model_v6.pdb",
+    "sha256": "ddb82a496708f44bfe8229c06778155e6c87cca7526e6a84af926efdf07b39e5",
+    "download_date": "2026-09-19"
+  },
+  "AHI1__9606__00d2987be2c3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N157-F1-model_v6.pdb",
+    "sha256": "46c5d98f29aaed0d8f362a62f25bf2b427a6b59dc54048413251831fb9ca9d07",
+    "download_date": "2026-09-19"
+  },
+  "ALX1__9606__5f933199470f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15699-F1-model_v6.pdb",
+    "sha256": "7ee6b2a358b73777bf735f12636a7fe6564c9d52e6a796aa29a27f459777f8e4",
+    "download_date": "2026-09-19"
+  },
+  "ALX3__9606__c22de4252c17": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95076-F1-model_v6.pdb",
+    "sha256": "e6818fd9a930c79032a6af99b19166fb3f2da90a28e96847f298958990f8183a",
+    "download_date": "2026-09-19"
+  },
+  "ALX4__9606__c2421913b6ee": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H161-F1-model_v6.pdb",
+    "sha256": "6eb044f00fa4f3dcd1c618173038c6d1395afff48b8ea81d9fe6865c31c15685",
+    "download_date": "2026-09-19"
+  },
+  "ANK2__9606__c56e98c67dc8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01484-7-F1-model_v6.pdb",
+    "sha256": "923b1d23423d6c20b86a35e83d5a9346f9c8e6ea48fefcf4c2d10737d03c6e17",
+    "download_date": "2026-09-19"
+  },
+  "ANKS1B__9606__6ca5256665d2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z6G8-F1-model_v6.pdb",
+    "sha256": "1cd040bed90bbfa39715bba79b35e0b3293224c659f77237a645553c9fbabed2",
+    "download_date": "2026-09-19"
+  },
+  "ANK1__9606__3fbc5a02468f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P16157-F1-model_v6.pdb",
+    "sha256": "9c1881654a9b2f5adece974f7929ed2ccbe901d9095cc77c8874b372eb2ecc2c",
+    "download_date": "2026-09-19"
+  },
+  "ANK3__9606__1e0ccf789526": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12955-7-F1-model_v6.pdb",
+    "sha256": "29c76dbc18d8348864949d08165253832a7e42e12bf18f1f04196ab2238f6f97",
+    "download_date": "2026-09-19"
+  },
+  "ANKS6__9606__50b14d4280a9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q68DC2-F1-model_v6.pdb",
+    "sha256": "f1a81b1523a83433af8245d54eb909ddbaf80fbb88596fb950be25fb2581504f",
+    "download_date": "2026-09-19"
+  },
+  "ARAF__9606__66833d3836e1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10398-F1-model_v6.pdb",
+    "sha256": "551c2820ab65f1bed630741183140fd7112ef51cf6bce1cbaf3a4d3348b6c64a",
+    "download_date": "2026-09-19"
+  },
+  "ARID2__9606__8d4dc8d6102e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q68CP9-F1-model_v6.pdb",
+    "sha256": "41b8fd7642dd9b30cd30930f7340bf6d3a9a439461f52d5b836121e12d79f492",
+    "download_date": "2026-09-19"
+  },
+  "ARK2C__9606__033103878fcf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6ZSG1-F1-model_v6.pdb",
+    "sha256": "0420aba091c628d0b1a932ef71a87bf8ba8316d4fb4e0914e833b8255e880648",
+    "download_date": "2026-09-19"
+  },
+  "ARHGEF28__9606__a30de74f7e7e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N1W1-F1-model_v6.pdb",
+    "sha256": "81cc0f8fe21f0ff4080254941eb6dc260b69d9ce744d771b5266a8538e24d839",
+    "download_date": "2026-09-19"
+  },
+  "ARX__9606__743ff1c7b5f8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96QS3-F1-model_v6.pdb",
+    "sha256": "ee4f9b1edbe488b2749c99e5816d36a376d0aa3cfd7d630c8d89f3a10d1240ac",
+    "download_date": "2026-09-19"
+  },
+  "ASB14__9606__603dfec51191": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-A6NK59-F1-model_v6.pdb",
+    "sha256": "ef4850631d3268f72dfb4678f34c7162f27f1a95e7be0e66f3f9136eb1af0324",
+    "download_date": "2026-09-19"
+  },
+  "AR__9606__40dcb7979e52": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10275-F1-model_v6.pdb",
+    "sha256": "770a7afba3d90490ad9ee1c7ee4398a8cf5ccf4693c2a1495596bd201db7f4c5",
+    "download_date": "2026-09-19"
+  },
+  "ASZ1__9606__1d52b95a1c5f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8WWH4-F1-model_v6.pdb",
+    "sha256": "19b9a4c3c7d2294542d6eb661789165b4bb116c9b09d688d2701be773468aede",
+    "download_date": "2026-09-19"
+  },
+  "ASPM__9606__3ecf8fd74aa3": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q8IZT6.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IZT6-2-F1-model_v6.pdb",
+    "sha256": "a444c1f60a0be48f9f6e9c773bb96a14962590ab07407fe61a4eb297b0032aea",
+    "download_date": "2026-09-19"
+  },
+  "ATXN7__9606__7c1251f8510e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15265-F1-model_v6.pdb",
+    "sha256": "247086ecae1f97438bd581f2b10ffc95a02ff1abfa06e773982fbfae67ef8d63",
+    "download_date": "2026-09-19"
+  },
+  "BAG3__9606__cb092bbf67b8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95817-F1-model_v6.pdb",
+    "sha256": "3936726ab79667d6cb92790e99ff4b059e1264b30cb3769866b33e4cc934dd9d",
+    "download_date": "2026-09-19"
+  },
+  "AVIL__9606__7d749ba2b347": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75366-F1-model_v6.pdb",
+    "sha256": "62ac1baf8963dca3ae3e010d98c1636d47ad12b58358c669eea833722a2bf35c",
+    "download_date": "2026-09-19"
+  },
+  "BPTF__9606__5847b1da2419": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q12830"
+  },
+  "BAG5__9606__e10735054779": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UL15-F1-model_v6.pdb",
+    "sha256": "f0bbfa941fe6e01cb8ee0e3f3411e003334560902d70d0e28383a3121e7f6b44",
+    "download_date": "2026-09-19"
+  },
+  "BLK__9606__761e30af36fa": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51451-F1-model_v6.pdb",
+    "sha256": "5f7c3cfaaf0ec6c92d2a6ba1345d1ee58cd58e1e1f8179fd3e42c666772d62a2",
+    "download_date": "2026-09-19"
+  },
+  "BRAF__9606__38fe9ed5b25a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15056-F1-model_v6.pdb",
+    "sha256": "73e7fde74dca04df65fb3370fd969cd485d83b2f9dd102975f10a87fdfa78766",
+    "download_date": "2026-09-19"
+  },
+  "BAZ2B__9606__6a0601fa85cc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UIF8-F1-model_v6.pdb",
+    "sha256": "4e565ccaa74b95ddbc3322fc644063b1d19970c845c2a997b0aaaef7ff2fd7ca",
+    "download_date": "2026-09-19"
+  },
+  "CABP2__9606__5eee9e6d7896": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NPB3-F1-model_v6.pdb",
+    "sha256": "13bd66fe8e25a655ab8dd22efc6effbf38347428dd3fbd15bd202167e1c130fc",
+    "download_date": "2026-09-19"
+  },
+  "BTK__9606__f63fffca6cbd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q06187-F1-model_v6.pdb",
+    "sha256": "84e0dfa98c835797ccf5ca449d242a2ef2fb3095d56a94c229186b42356bfe18",
+    "download_date": "2026-09-19"
+  },
+  "BRD4__9606__65c469b7bb28": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60885-F1-model_v6.pdb",
+    "sha256": "134e2790b943b704ee30c81e9590c1a073bd9c4b41ee3343417e7900f716ad2a",
+    "download_date": "2026-09-19"
+  },
+  "CALML4__9606__90ca9c99ffdd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96GE6-F1-model_v6.pdb",
+    "sha256": "21c0e642a7dba49a1aab91edab0fbc7b83a88a6dafb1102a69ae028d13067be3",
+    "download_date": "2026-09-19"
+  },
+  "CALML4__9606__06f0d612e28f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96GE6-F1-model_v6.pdb",
+    "sha256": "21c0e642a7dba49a1aab91edab0fbc7b83a88a6dafb1102a69ae028d13067be3",
+    "download_date": "2026-09-19"
+  },
+  "CASK__9606__0ed6082c8c83": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14936-F1-model_v6.pdb",
+    "sha256": "9ab996e52e0425efb1e6cd43f6b889eff0a69ad8de5466b3e874ef7888cdfda6",
+    "download_date": "2026-09-19"
+  },
+  "CBX5__9606__02d59fea3ce1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P45973-F1-model_v6.pdb",
+    "sha256": "7e41dffa918a9b224223bfe2a09a3d6d852b8221d64389023c929faf76fe8001",
+    "download_date": "2026-09-19"
+  },
+  "CAPN15__9606__21488897f9df": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75808-F1-model_v6.pdb",
+    "sha256": "b97f2aa66d141f461c29f53c039d8a0fa4eaaeee6b344d2b7ed6f8699037cfbf",
+    "download_date": "2026-09-19"
+  },
+  "CBL__9606__8621a8c7cd10": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P22681-F1-model_v6.pdb",
+    "sha256": "3fe3566fe227f14e7e9b44dc800a2222269901d4c678815b48b40a71e0b091f3",
+    "download_date": "2026-09-19"
+  },
+  "CCNF__9606__26e118742b4f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P41002-F1-model_v6.pdb",
+    "sha256": "94f765175c3bc8231eea3ec9f40b3e6192a453be3e6019e90388561a9135097d",
+    "download_date": "2026-09-19"
+  },
+  "CCAR1__9606__0b82f6188d56": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IX12-F1-model_v6.pdb",
+    "sha256": "f112077c4678636191d1fabbceb1155beba02532259565dcbe9c0be93b06972c",
+    "download_date": "2026-09-19"
+  },
+  "CD2AP__9606__e9a93e2893dd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y5K6-F1-model_v6.pdb",
+    "sha256": "0f2413608cbf0350bb71a2acea2cc4122227b32b4e5b97fcec516fb0eb682f96",
+    "download_date": "2026-09-19"
+  },
+  "CD2AP__9606__3d8581f8dedd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y5K6-F1-model_v6.pdb",
+    "sha256": "0f2413608cbf0350bb71a2acea2cc4122227b32b4e5b97fcec516fb0eb682f96",
+    "download_date": "2026-09-19"
+  },
+  "CD2AP__9606__ef4289e74369": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y5K6-F1-model_v6.pdb",
+    "sha256": "0f2413608cbf0350bb71a2acea2cc4122227b32b4e5b97fcec516fb0eb682f96",
+    "download_date": "2026-09-19"
+  },
+  "CHD3__9606__d0bd02026abc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12873-F1-model_v6.pdb",
+    "sha256": "67251ee3e78bbdd9e7bdd0cceeda8edd6c6eb365d30771f18a297e187b7180df",
+    "download_date": "2026-09-19"
+  },
+  "CHD7__9606__5b585a7a848b": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9P2D1.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P2D1-4-F1-model_v6.pdb",
+    "sha256": "d474c08aab0832905ab10159b57a52589c2ca72bee72131b113267435a59b8d7",
+    "download_date": "2026-09-19"
+  },
+  "CHD4__9606__398fda63bcb5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14839-F1-model_v6.pdb",
+    "sha256": "d7adcd2540ee02b8bc1db4c1986157688d7e62faefa33eb50b0d8751350f837e",
+    "download_date": "2026-09-19"
+  },
+  "CHD4__9606__39cde8b1f024": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14839-F1-model_v6.pdb",
+    "sha256": "d7adcd2540ee02b8bc1db4c1986157688d7e62faefa33eb50b0d8751350f837e",
+    "download_date": "2026-09-19"
+  },
+  "CHD4__9606__e7a09b3a2471": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14839-F1-model_v6.pdb",
+    "sha256": "d7adcd2540ee02b8bc1db4c1986157688d7e62faefa33eb50b0d8751350f837e",
+    "download_date": "2026-09-19"
+  },
+  "CIDEB__9606__f9272ade2439": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UHD4-F1-model_v6.pdb",
+    "sha256": "2e4ffde10a1e7a44f53ca95b5199a022b91d39667afaf4156dc8c9bbfa0d33e9",
+    "download_date": "2026-09-19"
+  },
+  "CHD5__9606__a17d18c87596": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI0-F1-model_v6.pdb",
+    "sha256": "a8fd9a774dfd70137dee0f6ce0fcfd772f3a7570b9fb16ab23f54cd21b5f7746",
+    "download_date": "2026-09-19"
+  },
+  "CHD5__9606__98c0d3ad8591": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI0-F1-model_v6.pdb",
+    "sha256": "a8fd9a774dfd70137dee0f6ce0fcfd772f3a7570b9fb16ab23f54cd21b5f7746",
+    "download_date": "2026-09-19"
+  },
+  "CHD5__9606__10132ea1ae93": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDI0-F1-model_v6.pdb",
+    "sha256": "a8fd9a774dfd70137dee0f6ce0fcfd772f3a7570b9fb16ab23f54cd21b5f7746",
+    "download_date": "2026-09-19"
+  },
+  "CKS1B__9606__5eacfaa833f6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P61024-F1-model_v6.pdb",
+    "sha256": "5b804494a3cc1ab8e05b101714ca21dbd10819441be8898b8669d0c023415bdb",
+    "download_date": "2026-09-19"
+  },
+  "CRYBA1__9606__12fa0e71057e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P05813-F1-model_v6.pdb",
+    "sha256": "218353a3a82d098de1b4ca0c3621f0ae6a2a0a2d1346f4508077d4d81ca26641",
+    "download_date": "2026-09-19"
+  },
+  "CPEB2__9606__8c24e9ba9fc8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z5Q1-F1-model_v6.pdb",
+    "sha256": "dcccaaebbe454234e20279986e91ff57447a33f08980b843c1874916ed957662",
+    "download_date": "2026-09-19"
+  },
+  "CNKSR2__9606__eb8061d93683": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8WXI2-F1-model_v6.pdb",
+    "sha256": "d11021d0321959722ae207670773f7d7a47b0988f301dad0d12b77d9d58fff41",
+    "download_date": "2026-09-19"
+  },
+  "CRYBA4__9606__2ed85b1e2f17": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P53673-F1-model_v6.pdb",
+    "sha256": "bf6ec3782f9e1a50bb529eaafbc32754b2be56c290feee8d66ca35effbf21b5c",
+    "download_date": "2026-09-19"
+  },
+  "CRYBB1__9606__1f9ae3fa8d8d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P53674-F1-model_v6.pdb",
+    "sha256": "b212a766d145312be9ba2615cef0693f3f1d1b5f7bc986229bb3724bc45314fc",
+    "download_date": "2026-09-19"
+  },
+  "CRYBB2__9606__361cb267754e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P43320-F1-model_v6.pdb",
+    "sha256": "03e782dfe0038ab0a61007c37a433d0bc82653a18f367fef77860bd389ba87e9",
+    "download_date": "2026-09-19"
+  },
+  "CRYGA__9606__b77e24b4c843": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P11844-F1-model_v6.pdb",
+    "sha256": "ab25d453540eb65e80f4ce4b0f679521a373b4b105bec1d4a103a81698f19c53",
+    "download_date": "2026-09-19"
+  },
+  "CRYGB__9606__fb018b2114e4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07316-F1-model_v6.pdb",
+    "sha256": "bc0bbe0f8ee6f991d4a1e6fd0f0fe553de069dca887c1bd503fcb9d3ac052be5",
+    "download_date": "2026-09-19"
+  },
+  "CRYGB__9606__4bb5f7079a58": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07316-F1-model_v6.pdb",
+    "sha256": "bc0bbe0f8ee6f991d4a1e6fd0f0fe553de069dca887c1bd503fcb9d3ac052be5",
+    "download_date": "2026-09-19"
+  },
+  "CRYBG2__9606__1336553eaa6e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N1P7-F1-model_v6.pdb",
+    "sha256": "c8414b63e89e4cbf454ace9dc350d42b019b4e60397d3ff219df0078ee1b5da9",
+    "download_date": "2026-09-19"
+  },
+  "CRYGC__9606__3c3fad9eda06": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07315-F1-model_v6.pdb",
+    "sha256": "ba8766fa6682a971d033fc1bcb95dd7e6b46626dd864a4a0b810d9faf784205d",
+    "download_date": "2026-09-19"
+  },
+  "CRYGC__9606__1447f9eb2d64": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07315-F1-model_v6.pdb",
+    "sha256": "ba8766fa6682a971d033fc1bcb95dd7e6b46626dd864a4a0b810d9faf784205d",
+    "download_date": "2026-09-19"
+  },
+  "CRYGD__9606__7d483153c8e2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07320-F1-model_v6.pdb",
+    "sha256": "983149d6ffc35e7a9f35241cd55860628ebc3a10f6fa90ac5366b2a049f9d882",
+    "download_date": "2026-09-19"
+  },
+  "CRYGS__9606__cbb84c1747a1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P22914-F1-model_v6.pdb",
+    "sha256": "11abb57ba86b6a85748a36ac384cc6d389227a62070fccc6fe762c89a3444bf9",
+    "download_date": "2026-09-19"
+  },
+  "CSDE1__9606__95d9b236ef9c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75534-F1-model_v6.pdb",
+    "sha256": "bf6c8cf151c78c5b8874a1567a4ef0c3a221af7113a72be979f133015afe1cc4",
+    "download_date": "2026-09-19"
+  },
+  "CSDE1__9606__fcf087dc4e59": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75534-F1-model_v6.pdb",
+    "sha256": "bf6c8cf151c78c5b8874a1567a4ef0c3a221af7113a72be979f133015afe1cc4",
+    "download_date": "2026-09-19"
+  },
+  "CSDE1__9606__d6134bb1e34f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75534-F1-model_v6.pdb",
+    "sha256": "bf6c8cf151c78c5b8874a1567a4ef0c3a221af7113a72be979f133015afe1cc4",
+    "download_date": "2026-09-19"
+  },
+  "CUX1__9606__513f46e2e1ac": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P39880-F1-model_v6.pdb",
+    "sha256": "75162c00d9f08800d26d8b4c97d08e1f14e54d3050f8525871ab2370669d7639",
+    "download_date": "2026-09-19"
+  },
+  "CUX1__9606__a69d113a3677": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P39880-F1-model_v6.pdb",
+    "sha256": "75162c00d9f08800d26d8b4c97d08e1f14e54d3050f8525871ab2370669d7639",
+    "download_date": "2026-09-19"
+  },
+  "CUX1__9606__4e9c1f7ee42a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P39880-F1-model_v6.pdb",
+    "sha256": "75162c00d9f08800d26d8b4c97d08e1f14e54d3050f8525871ab2370669d7639",
+    "download_date": "2026-09-19"
+  },
+  "CUL9__9606__540061f565bb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IWT3-F1-model_v6.pdb",
+    "sha256": "bbdc0589fd3aa5dd6e0a80adec6595094ba9f629d306b6bc133d9af8b302cee4",
+    "download_date": "2026-09-19"
+  },
+  "CUL9__9606__fe0e60f2b391": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IWT3-F1-model_v6.pdb",
+    "sha256": "bbdc0589fd3aa5dd6e0a80adec6595094ba9f629d306b6bc133d9af8b302cee4",
+    "download_date": "2026-09-19"
+  },
+  "CUX2__9606__1854285b8445": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14529-F1-model_v6.pdb",
+    "sha256": "b69888a93aee6dfe8dc8bd45bb0aa0107402877e523cea9ea5cac78066dce86b",
+    "download_date": "2026-09-19"
+  },
+  "CUX2__9606__783a983befa2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14529-F1-model_v6.pdb",
+    "sha256": "b69888a93aee6dfe8dc8bd45bb0aa0107402877e523cea9ea5cac78066dce86b",
+    "download_date": "2026-09-19"
+  },
+  "DBT__9606__dfa998646edd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P11182-F1-model_v6.pdb",
+    "sha256": "a21049145d763ce6a8cccc7bc0e5aec5e9951c017fb556e2ef988a179d400abe",
+    "download_date": "2026-09-19"
+  },
+  "DLG4__9606__adb963198f9d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78352-F1-model_v6.pdb",
+    "sha256": "8302c370d066bea89b4307ab46283711abc7762c83e124c1708f9cdb36bdbdf4",
+    "download_date": "2026-09-19"
+  },
+  "DLG4__9606__0c92790fa932": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78352-F1-model_v6.pdb",
+    "sha256": "8302c370d066bea89b4307ab46283711abc7762c83e124c1708f9cdb36bdbdf4",
+    "download_date": "2026-09-19"
+  },
+  "DLG4__9606__583db0ad7390": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78352-F1-model_v6.pdb",
+    "sha256": "8302c370d066bea89b4307ab46283711abc7762c83e124c1708f9cdb36bdbdf4",
+    "download_date": "2026-09-19"
+  },
+  "DLG3__9606__94a659b00dc6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92796-F1-model_v6.pdb",
+    "sha256": "afeee86b79afcf2e3a6b0c906ca38a5fb0a37766ad2d0296a4e56329908f8bdc",
+    "download_date": "2026-09-19"
+  },
+  "DLG3__9606__ef8ab0539577": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92796-F1-model_v6.pdb",
+    "sha256": "afeee86b79afcf2e3a6b0c906ca38a5fb0a37766ad2d0296a4e56329908f8bdc",
+    "download_date": "2026-09-19"
+  },
+  "DDHD2__9606__2ceab73eee68": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94830-F1-model_v6.pdb",
+    "sha256": "6d49f9fe9bb88978f2f1c465f462812757e2590dc51ac97166fb28df197e7add",
+    "download_date": "2026-09-19"
+  },
+  "DNAJB11__9606__3a35f82e86b4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBS4-F1-model_v6.pdb",
+    "sha256": "6657379d5c247611e9661dc308b2a70bece18b4da6659a883f0bbd37f2b70c05",
+    "download_date": "2026-09-19"
+  },
+  "DIDO1__9606__82a41e32f066": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BTC0-F1-model_v6.pdb",
+    "sha256": "44917dcbbed21c2af409fecd2547ffc7334a5a5de935a823013667eeb1ba513d",
+    "download_date": "2026-09-19"
+  },
+  "DMBX1__9606__3890838a5cf7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NFW5-F1-model_v6.pdb",
+    "sha256": "8d26ba63c4efbf4fb849ba897c5c0d6a9a723695814655c5614fa1a06d0f4e37",
+    "download_date": "2026-09-19"
+  },
+  "DMTF1__9606__5343cbfbd88b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y222-F1-model_v6.pdb",
+    "sha256": "bcc312199944633416458ead203368794162f980d26cb6de0559b5ec476e59a3",
+    "download_date": "2026-09-19"
+  },
+  "DNAJB1__9606__87fc6439a0a1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P25685-F1-model_v6.pdb",
+    "sha256": "d0e5a9a222106defabeee4c6db7e40101996548dafed93a504af586072b7bdd2",
+    "download_date": "2026-09-19"
+  },
+  "DNAJB5__9606__839fc99e926a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75953-F1-model_v6.pdb",
+    "sha256": "c0a99e9501d95add1ad68e833b52baf154509c2bc7183c89452a4bad261bc77b",
+    "download_date": "2026-09-19"
+  },
+  "DNAJB7__9606__f83eaa0af16b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z6W7-F1-model_v6.pdb",
+    "sha256": "14b55077ef4ed3f1936d35a8ce42793ec7576e0756d4c5766e5ef0718b1b1654",
+    "download_date": "2026-09-19"
+  },
+  "DNAJC1__9606__2703d976d4f6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96KC8-F1-model_v6.pdb",
+    "sha256": "e1560ac1a87f6a82581a624960f633b108bb6234a4f175d6e631876afb923c51",
+    "download_date": "2026-09-19"
+  },
+  "DNAJC21__9606__dbbcd5d3bbff": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5F1R6-F1-model_v6.pdb",
+    "sha256": "a7ee8ef2baff9114554c502556d534195d6b7c8cb133f944e7d26e3c2b1ac11a",
+    "download_date": "2026-09-19"
+  },
+  "DNAJC5__9606__e453638bd07d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H3Z4-F1-model_v6.pdb",
+    "sha256": "748df23793969a1af092366656cc76354cefd3bd60c7c8daa55cd6e99a02ac27",
+    "download_date": "2026-09-19"
+  },
+  "DNAJC2__9606__7febfd8b4c1b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99543-F1-model_v6.pdb",
+    "sha256": "8f29bc2bbd046f267fd6400bafbd0a57e7354a19a0ca38f2e220a8d7686ebf88",
+    "download_date": "2026-09-19"
+  },
+  "DNAJC7__9606__9d7ab7af2de9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99615-F1-model_v6.pdb",
+    "sha256": "bed7a371e773c6eeda8fec45773f00ae909d90b9f4943007f5ad23c7c1a96318",
+    "download_date": "2026-09-19"
+  },
+  "DPH3__9606__90421c11b341": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96FX2-F1-model_v6.pdb",
+    "sha256": "4cb65126ce8006eabf4b3f987c3e087200ad6a59c7f4c9740425729c857d1e38",
+    "download_date": "2026-09-19"
+  },
+  "DTNA__9606__f21e72ee5f91": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y4J8-F1-model_v6.pdb",
+    "sha256": "230e871544c53b486768418f81f3b47c8375b0bd07be3bede15b7748cef35d60",
+    "download_date": "2026-09-19"
+  },
+  "DVL1__9606__d047661f97c2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14640-F1-model_v6.pdb",
+    "sha256": "c4f6c84e3e50bcc00cfb46cee824183d0952b85d80334e2dc57ccf11bc86df9e",
+    "download_date": "2026-09-19"
+  },
+  "DVL1__9606__4d7fdab36aff": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14640-F1-model_v6.pdb",
+    "sha256": "c4f6c84e3e50bcc00cfb46cee824183d0952b85d80334e2dc57ccf11bc86df9e",
+    "download_date": "2026-09-19"
+  },
+  "DVL3__9606__290ce5332cf7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92997-F1-model_v6.pdb",
+    "sha256": "dbfadaa7ef31b912082708a57d61551bd03a3892d695867dd057b5886dce3f29",
+    "download_date": "2026-09-19"
+  },
+  "ELF3__9606__2e48ac06c175": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78545-F1-model_v6.pdb",
+    "sha256": "a2f976a6138805e7aa2a2d139ac40bb27f3e4554844e46cb39aee174007e0fce",
+    "download_date": "2026-09-19"
+  },
+  "DNMBP__9606__e91528672378": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6XZF7-F1-model_v6.pdb",
+    "sha256": "8245c921cc692b720c8aa2e28f0a87705c974e7a94f7ca0bdeb609b0edff755a",
+    "download_date": "2026-09-19"
+  },
+  "DNMBP__9606__207ac60b3980": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6XZF7-F1-model_v6.pdb",
+    "sha256": "8245c921cc692b720c8aa2e28f0a87705c974e7a94f7ca0bdeb609b0edff755a",
+    "download_date": "2026-09-19"
+  },
+  "DNMBP__9606__a430be0ff593": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6XZF7-F1-model_v6.pdb",
+    "sha256": "8245c921cc692b720c8aa2e28f0a87705c974e7a94f7ca0bdeb609b0edff755a",
+    "download_date": "2026-09-19"
+  },
+  "DNMBP__9606__340cbbfb1cc5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6XZF7-F1-model_v6.pdb",
+    "sha256": "8245c921cc692b720c8aa2e28f0a87705c974e7a94f7ca0bdeb609b0edff755a",
+    "download_date": "2026-09-19"
+  },
+  "ELF5__9606__eba4577fe34f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKW6-F1-model_v6.pdb",
+    "sha256": "42bc7f6ada544de54c158650df49b49517353d7c3267cfa93eb063c00dd72cc6",
+    "download_date": "2026-09-19"
+  },
+  "ELOF1__9606__ca7d9fa6dcdb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P60002-F1-model_v6.pdb",
+    "sha256": "e02f8ab61786c1853f3254cbe0698b001b65d843f3d926e8c47c72e0d33b2e3f",
+    "download_date": "2026-09-19"
+  },
+  "EPS8__9606__ab41538c562d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12929-F1-model_v6.pdb",
+    "sha256": "5b6f02fb9d9bed5d63f4697234521ebe394b22f68805322d694059533a3e00f9",
+    "download_date": "2026-09-19"
+  },
+  "EPS8__9606__b9842b6ab508": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12929-F1-model_v6.pdb",
+    "sha256": "5b6f02fb9d9bed5d63f4697234521ebe394b22f68805322d694059533a3e00f9",
+    "download_date": "2026-09-19"
+  },
+  "EPRS1__9606__67011c1a3abd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P07814-F1-model_v6.pdb",
+    "sha256": "9552b61be508ed7459217a3cd414ee448f8410852f4576a3ca64293630b948c8",
+    "download_date": "2026-09-19"
+  },
+  "EP300__9606__7922d58c1f25": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q09472-F1-model_v6.pdb",
+    "sha256": "51745629d4d4b0197b556349fbe4c751c1ec471ba5d71383152a3c8b1b5767c2",
+    "download_date": "2026-09-19"
+  },
+  "ERBIN__9606__c47693fc7690": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96RT1-F1-model_v6.pdb",
+    "sha256": "0e45840cee427a0de7163500ef18f07191101e1d905a17fbce1cf6a845859288",
+    "download_date": "2026-09-19"
+  },
+  "ERI1__9606__6d0f9b5d3806": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IV48-F1-model_v6.pdb",
+    "sha256": "739b49781a0b5729fb3c823b89bc7565273f7de076598da8417c619e232d9b05",
+    "download_date": "2026-09-19"
+  },
+  "ERG__9606__43e27d0348bd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P11308-F1-model_v6.pdb",
+    "sha256": "5b1f9a3fe53aad5145597df1b006c8e199070bacbac2a8f469ad1221a149d5c3",
+    "download_date": "2026-09-19"
+  },
+  "ESRRB__9606__311b488d7d22": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95718-F1-model_v6.pdb",
+    "sha256": "9adc557a2a96be6f51f43509e29b8c69df7931fab68d31a3292b927ea99257db",
+    "download_date": "2026-09-19"
+  },
+  "ETS1__9606__734c9040c4ed": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P14921-F1-model_v6.pdb",
+    "sha256": "1c1396b0eab131c1a93dc06257abcb10257df64209df42d37c7fc9395d6b9b89",
+    "download_date": "2026-09-19"
+  },
+  "FADD__9606__343d8055e9d9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13158-F1-model_v6.pdb",
+    "sha256": "ad7128f6905613a46271f3878011afff6fcbe2d2501dd9724599dcf7270ef26e",
+    "download_date": "2026-09-19"
+  },
+  "FBXO11__9606__f298893cff0c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86XK2-F1-model_v6.pdb",
+    "sha256": "8adb00cc6c531c22c2347e96585f0f471bacc54316ca4ed5384bcce70af75ee7",
+    "download_date": "2026-09-19"
+  },
+  "FANCL__9606__587d7c73d4c7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NW38-F1-model_v6.pdb",
+    "sha256": "8f38f1fa15d7bcbdfe67d608c1c1c05430c49195b874b317a3f22f2a5358bc9b",
+    "download_date": "2026-09-19"
+  },
+  "FBXO22__9606__6b7c7a5029e8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NEZ5-F1-model_v6.pdb",
+    "sha256": "36b32c868e73c2a20a21feb8b21c74eb72ac51b6b34f1f310ac79706316fdcca",
+    "download_date": "2026-09-19"
+  },
+  "FEZF1__9606__db0eff76e4c1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-A0PJY2-F1-model_v6.pdb",
+    "sha256": "6e21b2da12090fef37b1b84925120d3a1459097c9affa4094145ffdf7a4274d5",
+    "download_date": "2026-09-19"
+  },
+  "FCHSD1__9606__de95430d5996": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86WN1-F1-model_v6.pdb",
+    "sha256": "31e2be1385b3a4d81241457b702b6ad540d2902661aeedb2c4bc1a9e7f6bfe2f",
+    "download_date": "2026-09-19"
+  },
+  "FHL2__9606__2acbebc5ad0a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14192-F1-model_v6.pdb",
+    "sha256": "9434acfd482013dac458319d364bb7bcebaef9ee5e95a81cfc043a48afb0ed8f",
+    "download_date": "2026-09-19"
+  },
+  "FHL1__9606__5daaa47ac32e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13642-F1-model_v6.pdb",
+    "sha256": "1b70e2627181ce408de62975cd5b3b958eabd60436cb289c7f6abaacf310b0f8",
+    "download_date": "2026-09-19"
+  },
+  "FHL1__9606__15aa898a554f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13642-F1-model_v6.pdb",
+    "sha256": "1b70e2627181ce408de62975cd5b3b958eabd60436cb289c7f6abaacf310b0f8",
+    "download_date": "2026-09-19"
+  },
+  "FLI1__9606__fd4f4c70f2b8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01543-F1-model_v6.pdb",
+    "sha256": "41ebdcb700994762fd33a40dbee212d1280e1a420a7ba86032419c37b7b4abaa",
+    "download_date": "2026-09-19"
+  },
+  "FNBP4__9606__86d82220e5e3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N3X1-F1-model_v6.pdb",
+    "sha256": "900957d9bf55318cd60f6975f8651e20b2af167f37d2ef2553060170b0a0981f",
+    "download_date": "2026-09-19"
+  },
+  "FNBP4__9606__852aee99fbf9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N3X1-F1-model_v6.pdb",
+    "sha256": "900957d9bf55318cd60f6975f8651e20b2af167f37d2ef2553060170b0a0981f",
+    "download_date": "2026-09-19"
+  },
+  "FMR1__9606__554d1da9cf6d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q06787-F1-model_v6.pdb",
+    "sha256": "09eb92236b00e6f9fad526ce18c52aba1ee69c370d304a89cc5327760e15629e",
+    "download_date": "2026-09-19"
+  },
+  "FLNB__9606__df1fde84f566": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75369-F1-model_v6.pdb",
+    "sha256": "5aeedf0d255e19e3629c504190dccbf27b107d8190d361abf9dacca3e7b4b402",
+    "download_date": "2026-09-19"
+  },
+  "FLNB__9606__b249d3aafa96": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75369-F1-model_v6.pdb",
+    "sha256": "5aeedf0d255e19e3629c504190dccbf27b107d8190d361abf9dacca3e7b4b402",
+    "download_date": "2026-09-19"
+  },
+  "FLNB__9606__c4e1cffd9121": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75369-F1-model_v6.pdb",
+    "sha256": "5aeedf0d255e19e3629c504190dccbf27b107d8190d361abf9dacca3e7b4b402",
+    "download_date": "2026-09-19"
+  },
+  "FRMPD4__9606__87f58659edbc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14CM0-F1-model_v6.pdb",
+    "sha256": "bd6fe1ff4ac1ab7b722670fb8beaaa4495d701c92d1c20b26b05c8e2c140a101",
+    "download_date": "2026-09-19"
+  },
+  "FUBP3__9606__ac50461214cb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96I24-F1-model_v6.pdb",
+    "sha256": "65a36138d3be19e53506d2af2c911583635f34ed2fb31f4c7f94fa73c276e829",
+    "download_date": "2026-09-19"
+  },
+  "FUBP1__9606__0a871b83abac": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96AE4-F1-model_v6.pdb",
+    "sha256": "a2a124e971e0b0b7688374038a0dd37f60a0fcd91dd000472d7aa67e84a16689",
+    "download_date": "2026-09-19"
+  },
+  "FUBP1__9606__28025eeb6611": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96AE4-F1-model_v6.pdb",
+    "sha256": "a2a124e971e0b0b7688374038a0dd37f60a0fcd91dd000472d7aa67e84a16689",
+    "download_date": "2026-09-19"
+  },
+  "FYN__9606__4c913494c94f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P06241-F1-model_v6.pdb",
+    "sha256": "303c3394a37b7c21b5b53807d2d61ce0566b9a63375ea3253b45e3643c78e69c",
+    "download_date": "2026-09-19"
+  },
+  "GABPA__9606__fcab2de581cc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q06546-F1-model_v6.pdb",
+    "sha256": "759b71b3c8a51f2b2e325c69f765d1b29b81d4fb2bca6533c9a8edc72eed45c4",
+    "download_date": "2026-09-19"
+  },
+  "GAS2L1__9606__68bcd9e6904d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99501-F1-model_v6.pdb",
+    "sha256": "29ae157d34f92e8673f063aee1aac6d86e88f72fa538a6d3ce8a8e6a89cc5df0",
+    "download_date": "2026-09-19"
+  },
+  "GATAD2B__9606__17668b03496b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8WXI9-F1-model_v6.pdb",
+    "sha256": "5c2073a72997888dc38ff2eb8049a042e6c78c2a428f076db8e41c264ef42a69",
+    "download_date": "2026-09-19"
+  },
+  "GFI1B__9606__d7a5299dcf4d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5VTD9-F1-model_v6.pdb",
+    "sha256": "d3ec974f4425b3888aab99526d0cc99f0a119357c2b70cdda31cfecd8c9a1b19",
+    "download_date": "2026-09-19"
+  },
+  "GFI1__9606__ec9757907d7f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99684-F1-model_v6.pdb",
+    "sha256": "2fe14648dfd3aa1aab0bca23f2c62569427d626cc7e475ea49d3100337b661ae",
+    "download_date": "2026-09-19"
+  },
+  "GFI1__9606__b7f441dd2da0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q99684-F1-model_v6.pdb",
+    "sha256": "2fe14648dfd3aa1aab0bca23f2c62569427d626cc7e475ea49d3100337b661ae",
+    "download_date": "2026-09-19"
+  },
+  "GLI1__9606__74b7311b012a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08151-F1-model_v6.pdb",
+    "sha256": "7109a051b2ba06101442b16b744b5401d0b001e1769e825e30c5435614de4b4c",
+    "download_date": "2026-09-19"
+  },
+  "GLI2__9606__266991531e22": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10070-F1-model_v6.pdb",
+    "sha256": "651f9d4a8fc711a61970c21b1add2c0cbae49fe49ee7108dacbd2677b07fb3ad",
+    "download_date": "2026-09-19"
+  },
+  "GLIS3__9606__449f24de8c2e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NEA6-F1-model_v6.pdb",
+    "sha256": "9a98a3d502009f6ee62d65ece1f124896d0299e17a28ec4a6a7e2c589cfa651b",
+    "download_date": "2026-09-19"
+  },
+  "GLIS3__9606__0a3ba673a0ee": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NEA6-F1-model_v6.pdb",
+    "sha256": "9a98a3d502009f6ee62d65ece1f124896d0299e17a28ec4a6a7e2c589cfa651b",
+    "download_date": "2026-09-19"
+  },
+  "GLI3__9606__90183eb431ba": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10071-F1-model_v6.pdb",
+    "sha256": "a40fc1234eed4cce1a9559da0c97ea9a1c29764913fe15bf86bcb80f5d6c165f",
+    "download_date": "2026-09-19"
+  },
+  "GRIP1__9606__378111de5792": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y3R0-F1-model_v6.pdb",
+    "sha256": "bf454ff8c8987db514b8133757978eecc8b2f5b322781d02702b4d62235fa401",
+    "download_date": "2026-09-19"
+  },
+  "GRLF1__9606__6996f3a8871e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-A2RRE5-F1-model_v6.pdb",
+    "sha256": "85007ee8fd4dcc74494881977ddc7f8c1f9de78caca803afdf9caec81819c82d",
+    "download_date": "2026-09-19"
+  },
+  "GSC__9606__0498bcf6133d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P56915-F1-model_v6.pdb",
+    "sha256": "c968ef40fc7fdfa40230b9d93c9390ae6649d77ec52b2765663ba418b7883b73",
+    "download_date": "2026-09-19"
+  },
+  "H1-6__9606__684ae90a12af": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P22492-F1-model_v6.pdb",
+    "sha256": "2b28e59f1fd3f1c4301aaa0a42147f8bc9574bb1180177cc6f59d96c8dd8126c",
+    "download_date": "2026-09-19"
+  },
+  "GSX2__9606__28f9afb3bfe0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BZM3-F1-model_v6.pdb",
+    "sha256": "761f754b9a9ced6d2ff7efe5a4c77a178323bef833d9ac6b8dd4ca0e4074cf9a",
+    "download_date": "2026-09-19"
+  },
+  "HCK__9606__769097865caf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08631-F1-model_v6.pdb",
+    "sha256": "06162a8f3645f8f70476678b2481f1b9b4f5671916fa6f8e1a667f3628d40a88",
+    "download_date": "2026-09-19"
+  },
+  "HARS1__9606__1af68c701b58": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P12081-F1-model_v6.pdb",
+    "sha256": "9880dd43a09ab4ea0a4581886662c6358a3cc52a58c3bfd9ebc905f382c280a3",
+    "download_date": "2026-09-19"
+  },
+  "HERC2__9606__35b98c97130d": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/O95714"
+  },
+  "GTF2F2__9606__78a06b607d35": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P13984-F1-model_v6.pdb",
+    "sha256": "520c552567bc7146f10cc71df72f39b0e879c100becb7571d2a47dff4997966a",
+    "download_date": "2026-09-19"
+  },
+  "HECW2__9606__e17d031721ae": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P2P5-F1-model_v6.pdb",
+    "sha256": "1d843f4f0088b7d4f036e9fb89171039db36792fa8f677350c018b13f7ab1e2d",
+    "download_date": "2026-09-19"
+  },
+  "HESX1__9606__01b648414ab2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBX0-F1-model_v6.pdb",
+    "sha256": "a7fa465686fd7ef81204fe6cb2300c03e1bc737ae469be1d8be499ece201548d",
+    "download_date": "2026-09-19"
+  },
+  "HMG20A__9606__f52b12a0a76c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NP66-F1-model_v6.pdb",
+    "sha256": "6bff4607297524005a073ed303ff96c639a764d64e19cbbee8a8c7aaf2eac001",
+    "download_date": "2026-09-19"
+  },
+  "HNRNPUL1__9606__70084bab1900": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BUJ2-F1-model_v6.pdb",
+    "sha256": "ba213d1c1b78eaa8ddd6d61d0f736c6111cb2b6f619341b4fa0c2d29cb4905c1",
+    "download_date": "2026-09-19"
+  },
+  "HNRNPU__9606__43b89e35b694": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q00839-F1-model_v6.pdb",
+    "sha256": "73d147f4c4072c713a951a3b337b829aac844ef0bf633fc80bd780a18d0c2717",
+    "download_date": "2026-09-19"
+  },
+  "HNRNPUL2__9606__35c2b13968d8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q1KMD3-F1-model_v6.pdb",
+    "sha256": "bf9229ac015c3b32784139226337a3ab2d5769455057448e145a7f4cb703818f",
+    "download_date": "2026-09-19"
+  },
+  "HOXB1__9606__de8a41010fc4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P14653-F1-model_v6.pdb",
+    "sha256": "c1dd0bb9447fdc7276de3fb3b21114ae4192d4b018177d099d8828c68f3dacab",
+    "download_date": "2026-09-19"
+  },
+  "HUWE1__9606__53eb61d89e3d": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q7Z6Z7"
+  },
+  "ITK__9606__fabe26890747": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q08881-F1-model_v6.pdb",
+    "sha256": "a75e815efa8bbc405bd23b8111047e84996cda7516cb6cd302aeb8c07652b676",
+    "download_date": "2026-09-19"
+  },
+  "ITCH__9606__48bb4ecc787a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96J02-F1-model_v6.pdb",
+    "sha256": "ea587166257e839216d10e28559e5c1b4fb07da413f4fd481df46e2eab18e358",
+    "download_date": "2026-09-19"
+  },
+  "ITCH__9606__adc8d2bd3030": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96J02-F1-model_v6.pdb",
+    "sha256": "ea587166257e839216d10e28559e5c1b4fb07da413f4fd481df46e2eab18e358",
+    "download_date": "2026-09-19"
+  },
+  "INTS12__9606__5db0f981b589": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96CB8-F1-model_v6.pdb",
+    "sha256": "133201874ceb2a3c5224d3861dda5a4477c4a7436a823a9f7d31c40362481525",
+    "download_date": "2026-09-19"
+  },
+  "KANSL2__9606__49f9d33a3b7a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H9L4-F1-model_v6.pdb",
+    "sha256": "323003d9b618470f30db9b2223516c5f781ee9e06d92143e0a66672977d97eaa",
+    "download_date": "2026-09-19"
+  },
+  "ITSN2__9606__6698a8ca0f4c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NZM3-F1-model_v6.pdb",
+    "sha256": "11257253d5f7d11c1c1b44df269e6356d75026a2e3eb3dfb4e156d3f54bbbb48",
+    "download_date": "2026-09-19"
+  },
+  "ITSN1__9606__6994dc66d8ae": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15811-F1-model_v6.pdb",
+    "sha256": "f78317b04cdca116e01eeaf4a029511bef014728796c2f69668756de509f405e",
+    "download_date": "2026-09-19"
+  },
+  "ITSN1__9606__03da489c95a9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15811-F1-model_v6.pdb",
+    "sha256": "f78317b04cdca116e01eeaf4a029511bef014728796c2f69668756de509f405e",
+    "download_date": "2026-09-19"
+  },
+  "ITSN1__9606__dd6c68bdc80c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15811-F1-model_v6.pdb",
+    "sha256": "f78317b04cdca116e01eeaf4a029511bef014728796c2f69668756de509f405e",
+    "download_date": "2026-09-19"
+  },
+  "KCMF1__9606__8b1ead76b30c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P0J7-F1-model_v6.pdb",
+    "sha256": "116971c4554f6b24629c121a3fc2a07ae5e169ec6f71c4f17a661d5e914472bf",
+    "download_date": "2026-09-19"
+  },
+  "KDM1A__9606__6537a731ed27": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60341-F1-model_v6.pdb",
+    "sha256": "3b04c2eba27ee479ecdaaa85b445961e74d4b7ddb739b32c2b391e1982c4e019",
+    "download_date": "2026-09-19"
+  },
+  "KDM5C__9606__c52e77de935f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P41229-F1-model_v6.pdb",
+    "sha256": "470ad1cc7df8d09e83a75610666a2810da787ec70bf0974f9a4b28ce7a761f77",
+    "download_date": "2026-09-19"
+  },
+  "KDM1B__9606__c107373be755": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NB78-F1-model_v6.pdb",
+    "sha256": "1848b0b4c9bd3b49e6802d8de6485874cd96814602b94d6120e5d2f0c9676d67",
+    "download_date": "2026-09-19"
+  },
+  "KDM2B__9606__edaa6866971b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8NHM5-F1-model_v6.pdb",
+    "sha256": "e9b11e9bb8f753510acaab09dd2b51ec888262b56e01665e2de1326173980e15",
+    "download_date": "2026-09-19"
+  },
+  "KHSRP__9606__370d804c7271": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92945-F1-model_v6.pdb",
+    "sha256": "ed16e456ec932ab1a0a7f0d424eec78e5e7bd6f91b9f34c3e77fa843fc9daf1d",
+    "download_date": "2026-09-19"
+  },
+  "KMT2A__9606__b4c729f7330e": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q03164"
+  },
+  "KLF11__9606__432e7622b48b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14901-F1-model_v6.pdb",
+    "sha256": "8f80f226f224c607f34793732c98da82e856dd50941ca73769df968866d25346",
+    "download_date": "2026-09-19"
+  },
+  "LATS1__9606__0f0d37c909f0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95835-F1-model_v6.pdb",
+    "sha256": "f5a1d4a5df5bbd3f64e096742321d3014e6af50500e90a154682197345aafb2e",
+    "download_date": "2026-09-19"
+  },
+  "KIF16B__9606__df2fc2b58cc8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96L93-F1-model_v6.pdb",
+    "sha256": "106b1046176a134fca54abd28666e46e4e3e92d979c73c519a369ff9ac8be36a",
+    "download_date": "2026-09-19"
+  },
+  "LCK__9606__4877a28b5acf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P06239-F1-model_v6.pdb",
+    "sha256": "58f21c7792f70595aadac9537d10613c6e86ebe4e10384373c2a606362baf357",
+    "download_date": "2026-09-19"
+  },
+  "LCOR__9606__890aaa19cc70": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96JN0-F1-model_v6.pdb",
+    "sha256": "375be9f7430b9428a0bc473f5ebf2bd58dfb3f08173526fa3a2afca861b5fa87",
+    "download_date": "2026-09-19"
+  },
+  "LCP1__9606__542739ae436a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P13796-F1-model_v6.pdb",
+    "sha256": "c5952247e4d031bf1fcdc625251f0e9d094de56204800497ca1d1e1a61ed1053",
+    "download_date": "2026-09-19"
+  },
+  "LDB3__9606__bcf6ce6eaaf6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75112-F1-model_v6.pdb",
+    "sha256": "7c11728ed360484e03cceaf58f38e17ee8e69838f2d34960fbd960d2bb7506db",
+    "download_date": "2026-09-19"
+  },
+  "LIMS2__9606__090d83a2fef3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z4I7-F1-model_v6.pdb",
+    "sha256": "8e48596d5d4c3b20ffd7cbf33a1fbe365a3153251a049ed9d82a4722bec4159b",
+    "download_date": "2026-09-19"
+  },
+  "LSM14A__9606__7220c24ee741": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8ND56-F1-model_v6.pdb",
+    "sha256": "83990f587c78681e3249cb492d0fc90afdf223c4c61c1c6194fb139f5c0848c0",
+    "download_date": "2026-09-19"
+  },
+  "MAEL__9606__08f079c232dd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96JY0-F1-model_v6.pdb",
+    "sha256": "1a1e53e9ceab1c78dcad8b2658c782a2de034f5e23eba05759cd436aa529695b",
+    "download_date": "2026-09-19"
+  },
+  "MAGI1__9606__ff69ea27f23d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96QZ7-F1-model_v6.pdb",
+    "sha256": "be56329b0ab58842bd5bef642958dccca76594c6510bfcbca6e72d1d97fb70eb",
+    "download_date": "2026-09-19"
+  },
+  "MAGI1__9606__bc499fdaf88b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96QZ7-F1-model_v6.pdb",
+    "sha256": "be56329b0ab58842bd5bef642958dccca76594c6510bfcbca6e72d1d97fb70eb",
+    "download_date": "2026-09-19"
+  },
+  "MAGI3__9606__9e539dabb5c7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5TCQ9-F1-model_v6.pdb",
+    "sha256": "e0b985a356746b27317d0badcc7e199a5384435aa293fd6f0eb050dc2d3b47f9",
+    "download_date": "2026-09-19"
+  },
+  "MAGI2__9606__ca3aacfb458a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UL8-F1-model_v6.pdb",
+    "sha256": "9f5a102d5e547528955d802bfb0d4f191ffe3945dc2b8a7f1d1eb1720df3af7c",
+    "download_date": "2026-09-19"
+  },
+  "MAGI2__9606__1cb570001d77": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UL8-F1-model_v6.pdb",
+    "sha256": "9f5a102d5e547528955d802bfb0d4f191ffe3945dc2b8a7f1d1eb1720df3af7c",
+    "download_date": "2026-09-19"
+  },
+  "MAGI2__9606__dfa86e001c64": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UL8-F1-model_v6.pdb",
+    "sha256": "9f5a102d5e547528955d802bfb0d4f191ffe3945dc2b8a7f1d1eb1720df3af7c",
+    "download_date": "2026-09-19"
+  },
+  "MAGI2__9606__ed6bc02608b4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UL8-F1-model_v6.pdb",
+    "sha256": "9f5a102d5e547528955d802bfb0d4f191ffe3945dc2b8a7f1d1eb1720df3af7c",
+    "download_date": "2026-09-19"
+  },
+  "MAMSTR__9606__4c06b78641c9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6ZN01-F1-model_v6.pdb",
+    "sha256": "9ae59836adb84ea93afa957d5f853a81e7100b9580688d79b94f8759fd8e8f83",
+    "download_date": "2026-09-19"
+  },
+  "MAP3K20__9606__84dc031e3a51": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NYL2-F1-model_v6.pdb",
+    "sha256": "197ddcba7337d64540b88e516e4d6687cdacfe4756af2482adeea50dd68e957b",
+    "download_date": "2026-09-19"
+  },
+  "MAP2K5__9606__242eed510577": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13163-F1-model_v6.pdb",
+    "sha256": "361afc1cf8c9bb677396f6aa5d0a162ce9941d3fa8c72ab8ed6de1d345101071",
+    "download_date": "2026-09-19"
+  },
+  "HNRNPK__9606__55a4125af712": {
+    "status": "sequence_only",
+    "reason": "HTTPSConnectionPool(host='alphafold.ebi.ac.uk', port=443): Max retries exceeded with url: /files/AF-P61978-F1-model_v6.pdb (Caused by ConnectTimeoutError(<HTTPSConnection(host='alphafold.ebi.ac.uk', port=443) at 0x1ef1c3b4a00>, 'Connection to alphafold.ebi.ac.uk timed out. (connect timeout=90)'))"
+  },
+  "MCM10__9606__7db83ca68639": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7L590-F1-model_v6.pdb",
+    "sha256": "a849531864c11c9fbd8a39eed3c86cf14ba1750df7d63f180dfc5364abfcd469",
+    "download_date": "2026-09-19"
+  },
+  "MDM2__9606__003663c169ff": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q00987-F1-model_v6.pdb",
+    "sha256": "750aeb3d3e893a26c2db2209733c90690c87d0efb9e0aaf43b68b65672161a68",
+    "download_date": "2026-09-19"
+  },
+  "MDM4__9606__91a6ff78edd3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15151-F1-model_v6.pdb",
+    "sha256": "5b399ccbacbe041601fc85112ec1e9dd5baf16974caed70fa1f8546eec2af560",
+    "download_date": "2026-09-19"
+  },
+  "MEX3C__9606__5f6850e20589": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5U5Q3-F1-model_v6.pdb",
+    "sha256": "ae9d35477e37f1ab6a7ff79038041c1d811add9d00424739418992376006d010",
+    "download_date": "2026-09-19"
+  },
+  "MECP2__9606__0861b4d6bbad": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51608-F1-model_v6.pdb",
+    "sha256": "897240c4b5e0b8640370a50d842e45dbfc70a77fa14873cb6177d3d664285008",
+    "download_date": "2026-09-19"
+  },
+  "MID1__9606__33eb901c8063": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15344-F1-model_v6.pdb",
+    "sha256": "fe19eead884efd7c05be319aea47c55de23f496acf22c2cbe0ddc6db6b7ea376",
+    "download_date": "2026-09-19"
+  },
+  "MIB1__9606__760f31fd9af3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86YT6-F1-model_v6.pdb",
+    "sha256": "76494d3423485554ff719c87d082f0d1e87a01189c456f3dd7c0c96c37ae9f1f",
+    "download_date": "2026-09-19"
+  },
+  "MEX3D__9606__077dc91450bf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86XN8-F1-model_v6.pdb",
+    "sha256": "f8e10f5af6e823b0526b9f0f9ac61666e378d97b6de0de5711ad07c334eb370d",
+    "download_date": "2026-09-19"
+  },
+  "MID2__9606__54cf4ab98ede": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UJV3-F1-model_v6.pdb",
+    "sha256": "c4f77c3222c922587e0488f9866e221dc0100fb739882b9cf76d24de8f9cf4dc",
+    "download_date": "2026-09-19"
+  },
+  "MKRN1__9606__2131fc3d47db": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UHC7-F1-model_v6.pdb",
+    "sha256": "d56b0d57ea84af5810d44e1032e917c51627a5ac75362f3065f38eeec670e94d",
+    "download_date": "2026-09-19"
+  },
+  "MKRN2__9606__057a37b674b7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H000-F1-model_v6.pdb",
+    "sha256": "0cea01fc67a2ca0d4fdb2f24fd55dd4204cc66db830eb90b1636acd9667f0056",
+    "download_date": "2026-09-19"
+  },
+  "MIS18BP1__9606__538e0e9a98e4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6P0N0-F1-model_v6.pdb",
+    "sha256": "7ab8d8d9043f4e45b2e33837f0aa30af8a3afb437f0c8a97bf7ff582dafea6ba",
+    "download_date": "2026-09-19"
+  },
+  "MPP3__9606__761554880ce3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13368-F1-model_v6.pdb",
+    "sha256": "85dac45ebf07f1d1ec7e9a713db780b1ef2698db157ebbca1179eadc2704b0aa",
+    "download_date": "2026-09-19"
+  },
+  "MSX1__9606__b4734c844ef2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P28360-F1-model_v6.pdb",
+    "sha256": "cd10c21200b20eae81848e7ac7867f8cbd4be1b7505ba89bcffd1ab5dd724100",
+    "download_date": "2026-09-19"
+  },
+  "MRTFA__9606__10a07d000c2f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q969V6-F1-model_v6.pdb",
+    "sha256": "b4c4a4a82f5032a4ee22be9ecf124a69c7bdb405c0b9803d0e537b65343572f1",
+    "download_date": "2026-09-19"
+  },
+  "MPDZ__9606__a02428106742": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75970-F1-model_v6.pdb",
+    "sha256": "c47744477eefee0bd7ca07ceff0dab3a2569f8a31fb1013b8d9915311f3ef4f5",
+    "download_date": "2026-09-19"
+  },
+  "MPDZ__9606__b23766691e68": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75970-F1-model_v6.pdb",
+    "sha256": "c47744477eefee0bd7ca07ceff0dab3a2569f8a31fb1013b8d9915311f3ef4f5",
+    "download_date": "2026-09-19"
+  },
+  "MPDZ__9606__c4e8be008f34": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75970-F1-model_v6.pdb",
+    "sha256": "c47744477eefee0bd7ca07ceff0dab3a2569f8a31fb1013b8d9915311f3ef4f5",
+    "download_date": "2026-09-19"
+  },
+  "MPDZ__9606__72724f70b02a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75970-F1-model_v6.pdb",
+    "sha256": "c47744477eefee0bd7ca07ceff0dab3a2569f8a31fb1013b8d9915311f3ef4f5",
+    "download_date": "2026-09-19"
+  },
+  "MSX2__9606__99375709d7e7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35548-F1-model_v6.pdb",
+    "sha256": "ccde7f08606d47be5a42eb258a6d546903c6fecbcc5395e2ca9427d0e5dc1ece",
+    "download_date": "2026-09-19"
+  },
+  "MXD1__9606__ee0087d0422c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q05195-F1-model_v6.pdb",
+    "sha256": "81b5bfd419817281d49be9c37d3959a7cd913917ab278968b65e405db7daae31",
+    "download_date": "2026-09-19"
+  },
+  "MTA3__9606__6a7b5ee9c402": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BTC8-F1-model_v6.pdb",
+    "sha256": "cc189b89c0ff84e49e9ca6a97d67987266e348e250fba3195f8f2280769d08e8",
+    "download_date": "2026-09-19"
+  },
+  "MXI1__9606__03663265b3ac": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P50539-F1-model_v6.pdb",
+    "sha256": "855e94f4651e41d67338ba8ac9ad21ce3b60dc52f510a84b4fa6552438546a59",
+    "download_date": "2026-09-19"
+  },
+  "MYB__9606__a3a0ff83bf1d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10242-F1-model_v6.pdb",
+    "sha256": "91fed33c949e0ae3e436c5c87361f2c611481aaf5b9d274270d117709cc6f77e",
+    "download_date": "2026-09-19"
+  },
+  "MYB__9606__c8628afe14ba": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10242-F1-model_v6.pdb",
+    "sha256": "91fed33c949e0ae3e436c5c87361f2c611481aaf5b9d274270d117709cc6f77e",
+    "download_date": "2026-09-19"
+  },
+  "MYO1E__9606__b04612997d3f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12965-F1-model_v6.pdb",
+    "sha256": "1315d4b1234b03bf963f6fab381b2d14671f28aa20f6d6d3bcbfd295d21b00c0",
+    "download_date": "2026-09-19"
+  },
+  "MYOCD__9606__696ac2775927": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IZQ8-F1-model_v6.pdb",
+    "sha256": "edc4423d61cfe7b01b2aab1a5c5c6903d7cd20a0a8aff98240632ec4a0130b02",
+    "download_date": "2026-09-19"
+  },
+  "MYSM1__9606__ae5ec558f394": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5VVJ2-F1-model_v6.pdb",
+    "sha256": "179f8c4911a8f39a01ea665948e883b2f2fe12f6ece02046e1b87b4d504c1d30",
+    "download_date": "2026-09-19"
+  },
+  "NANOS2__9606__9ce3f0bee649": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P60321-F1-model_v6.pdb",
+    "sha256": "42af4e514681102bff95b7e70b4b3d924f815cb0e9f368f34e374a542df4f868",
+    "download_date": "2026-09-19"
+  },
+  "NEB__9606__e8fdd2a796c6": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/P20929"
+  },
+  "NCF1__9606__3cce6ea190bc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P14598-F1-model_v6.pdb",
+    "sha256": "4fe46a16349caa95dba335627eb9bdbb9b6c537d9c5b4151b093afba54db43f9",
+    "download_date": "2026-09-19"
+  },
+  "NCF2__9606__de4d9f391fde": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P19878-F1-model_v6.pdb",
+    "sha256": "17d18864f51ec8c8970022e3f0c8383f80b3c3505bf804bca9dac83a6d2484ba",
+    "download_date": "2026-09-19"
+  },
+  "NCF2__9606__586006993ea2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P19878-F1-model_v6.pdb",
+    "sha256": "17d18864f51ec8c8970022e3f0c8383f80b3c3505bf804bca9dac83a6d2484ba",
+    "download_date": "2026-09-19"
+  },
+  "NCF2__9606__614da9ad75b0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P19878-F1-model_v6.pdb",
+    "sha256": "17d18864f51ec8c8970022e3f0c8383f80b3c3505bf804bca9dac83a6d2484ba",
+    "download_date": "2026-09-19"
+  },
+  "NEDD4L__9606__d2fe703c1ebf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96PU5-F1-model_v6.pdb",
+    "sha256": "60e86e21730efdd39e0e0bc3950651d98d71d2b123d46533edb2220773d20e32",
+    "download_date": "2026-09-19"
+  },
+  "NEDD4L__9606__4ce05a0fa619": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96PU5-F1-model_v6.pdb",
+    "sha256": "60e86e21730efdd39e0e0bc3950651d98d71d2b123d46533edb2220773d20e32",
+    "download_date": "2026-09-19"
+  },
+  "NEDD4L__9606__fa8e5ff5d1e9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96PU5-F1-model_v6.pdb",
+    "sha256": "60e86e21730efdd39e0e0bc3950651d98d71d2b123d46533edb2220773d20e32",
+    "download_date": "2026-09-19"
+  },
+  "NEDD4__9606__c5389500544d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P46934-F1-model_v6.pdb",
+    "sha256": "890d28dfb483e2bc56940ae8d28b5210bbebd572982f9e51d28e23b41c701e35",
+    "download_date": "2026-09-19"
+  },
+  "NEIL3__9606__1decca60c802": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TAT5-F1-model_v6.pdb",
+    "sha256": "363969615d4f9914ec54f403f63b4610acd0df701f30866cd33546d151e8b971",
+    "download_date": "2026-09-19"
+  },
+  "NCOR2__9606__10efe53c0f6b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y618-F1-model_v6.pdb",
+    "sha256": "fff4cbd66111f20a8e705dde15d4d68f57fdaeed43eb9bab3db129685a99e648",
+    "download_date": "2026-09-19"
+  },
+  "NPHP1__9606__5d30ad7a5cfd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15259-F1-model_v6.pdb",
+    "sha256": "f58e48dbfcd8b516e0c458e932d7168240d203a73369e33f832645df03d9b9a9",
+    "download_date": "2026-09-19"
+  },
+  "NR1D2__9606__0f88d0d67c49": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14995-F1-model_v6.pdb",
+    "sha256": "2d16e714519d9dd0f391a21a9543b6bef10d55bc3268c0b2723d1e0d40784487",
+    "download_date": "2026-09-19"
+  },
+  "NR2F1__9606__de618fc288b0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10589-F1-model_v6.pdb",
+    "sha256": "891a2eefb451674239ffa5a9aede8339d677dac0a893833d9575b1f4bbe4f2ee",
+    "download_date": "2026-09-19"
+  },
+  "NR4A2__9606__4152aaff95f2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P43354-F1-model_v6.pdb",
+    "sha256": "fb5785465e410a4b04018535e7be2f1a59490c06e83705804174983913d85ac6",
+    "download_date": "2026-09-19"
+  },
+  "NR3C1__9606__eec791d7db03": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P04150-F1-model_v6.pdb",
+    "sha256": "4f00257335896b2c74f664d392b65ddca4518665942d8f913aaee287eb47d0c2",
+    "download_date": "2026-09-19"
+  },
+  "NR3C2__9606__c0702ea71e75": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P08235-F1-model_v6.pdb",
+    "sha256": "05a8f1827f2b8cdd68814a319971c3ab30ce34810b5468ab29e8f9c2f5005536",
+    "download_date": "2026-09-19"
+  },
+  "OTX2__9606__43800732255f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P32243-F1-model_v6.pdb",
+    "sha256": "1a0e59f50c0e5d636dd0a445e27e380e05261c6f75f1568054938c9a8c6683a2",
+    "download_date": "2026-09-19"
+  },
+  "OVOL2__9606__087809761300": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BRP0-F1-model_v6.pdb",
+    "sha256": "ee936124c8c17aa96b8e2182b38d0b8d4127529ef2ad976ebcc1b287f6c520b1",
+    "download_date": "2026-09-19"
+  },
+  "PACSIN1__9606__e2c177ff1558": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BY11-F1-model_v6.pdb",
+    "sha256": "e6352313416338951c3fd7e9f31c31e8f13e00124f31b2729bb113e054ef1b79",
+    "download_date": "2026-09-19"
+  },
+  "PACSIN2__9606__79f067fc1f20": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UNF0-F1-model_v6.pdb",
+    "sha256": "b031a2194c6b32f54693857f5aa6bd35252f039214b4477c4ed1f92bb20cd6ea",
+    "download_date": "2026-09-19"
+  },
+  "PACSIN3__9606__a2599af57388": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKS6-F1-model_v6.pdb",
+    "sha256": "6490b657c7abb1bae19b613ffbc347683fbeba626d287dd8691318ade7ba2bd1",
+    "download_date": "2026-09-19"
+  },
+  "PARD3B__9606__0fac20bb6ef4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TEW8-F1-model_v6.pdb",
+    "sha256": "861fa49ba3e152cabc9cbb2f91f1d0c93309a790b5c80da11439431f78bde082",
+    "download_date": "2026-09-19"
+  },
+  "PAX7__9606__6ce871f5b509": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P23759-F1-model_v6.pdb",
+    "sha256": "9f3aaccd617c6f9a126cccc99b6ef2f145acd260b9f4eecee33fc65990361bb0",
+    "download_date": "2026-09-19"
+  },
+  "PARD3__9606__67ec8034cb4b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TEW0-F1-model_v6.pdb",
+    "sha256": "6c04cb155bdf73884f634b3f880681d5f16e49f4272404d52e6f65643f3dd413",
+    "download_date": "2026-09-19"
+  },
+  "PCBP1__9606__303eb29c8979": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15365-F1-model_v6.pdb",
+    "sha256": "971f4b577dd0a6bce5be66b47ee3e88d555c92e730a951cfa57ebdf08f7ac88c",
+    "download_date": "2026-09-19"
+  },
+  "PBRM1__9606__169097715acf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86U86-F1-model_v6.pdb",
+    "sha256": "43074619abadfe2d76e2b709125faeaeb57e3651636772c4ffb5700c422f8d28",
+    "download_date": "2026-09-19"
+  },
+  "PCLO__9606__534dd1944b26": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q9Y6V0.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y6V0-3-F1-model_v6.pdb",
+    "sha256": "5115597398549ebc1d6274909bdbca38cf824921c136e294a5a4ad04854dfcb5",
+    "download_date": "2026-09-19"
+  },
+  "PDLIM2__9606__1b8c05e80bcd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96JY6-F1-model_v6.pdb",
+    "sha256": "e5f9f9699e48b3d8a264280b5d39b47572a035608a06255f1386ce661d6832c5",
+    "download_date": "2026-09-19"
+  },
+  "PDHX__9606__585fccfd7626": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O00330-F1-model_v6.pdb",
+    "sha256": "6bf0a699bf24180ead9cafcd9793e0230e1bca75d1ad65ff320ff464717e0c0a",
+    "download_date": "2026-09-19"
+  },
+  "PDZRN3__9606__f595f89616fe": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UPQ7-F1-model_v6.pdb",
+    "sha256": "839d184b6e63c84d4e15d5bebc091c228757910f22a6e0d8a9c41ed622708dee",
+    "download_date": "2026-09-19"
+  },
+  "PDZRN3__9606__6b44e4b1e71b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UPQ7-F1-model_v6.pdb",
+    "sha256": "839d184b6e63c84d4e15d5bebc091c228757910f22a6e0d8a9c41ed622708dee",
+    "download_date": "2026-09-19"
+  },
+  "PHOX2A__9606__9c0f6e0eed1f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14813-F1-model_v6.pdb",
+    "sha256": "f4c8d55d0d8413491efda6b128e4d8a223a3918d3c97eaf7dabf1a2a872c798a",
+    "download_date": "2026-09-19"
+  },
+  "PMS1__9606__654407be7193": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P54277-F1-model_v6.pdb",
+    "sha256": "916d91534cd4a3a9426ad73f2a867fce5f70a9b6e5d91b8fdce74fff9b6927c4",
+    "download_date": "2026-09-19"
+  },
+  "PLCG2__9606__71fbae8891de": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P16885-F1-model_v6.pdb",
+    "sha256": "3bb8f4dedb38f9b824655c4c3a177c2037de5320eb81fb0b5a47626ad037a3fd",
+    "download_date": "2026-09-19"
+  },
+  "POU1F1__9606__58f9a00a13a6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P28069-F1-model_v6.pdb",
+    "sha256": "e21d9a96f907018c5ea025d4276202bf6c79b8bd4cb0c81bf989dcf3254cd733",
+    "download_date": "2026-09-19"
+  },
+  "POU2F1__9606__2fa9f0d50f4a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P14859-F1-model_v6.pdb",
+    "sha256": "3dcacf0a5acb7dc5ba43fcd7df733240911882d3dd4824e7d1cdff870552b6aa",
+    "download_date": "2026-09-19"
+  },
+  "POU3F1__9606__4b2d6cb3c357": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q03052-F1-model_v6.pdb",
+    "sha256": "558965663472377dd9202779f9b79793239e53a883efa97fa909c5784cda528d",
+    "download_date": "2026-09-19"
+  },
+  "POU2F2__9606__44fa5a87d7df": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P09086-F1-model_v6.pdb",
+    "sha256": "34cc809f960e912dfdd38287d223258c3e667271ff34005f618c92b0e558bae9",
+    "download_date": "2026-09-19"
+  },
+  "POU3F2__9606__035f5b0460c0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P20265-F1-model_v6.pdb",
+    "sha256": "91e10c242a52f170b3412e460874d4a93d0fcc4ce08f7e19be2e10dd0a33b75f",
+    "download_date": "2026-09-19"
+  },
+  "POU3F2__9606__d0889e7fe578": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P20265-F1-model_v6.pdb",
+    "sha256": "91e10c242a52f170b3412e460874d4a93d0fcc4ce08f7e19be2e10dd0a33b75f",
+    "download_date": "2026-09-19"
+  },
+  "POU2F3__9606__0ddc18103428": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKI9-F1-model_v6.pdb",
+    "sha256": "e315c822c3c3c503d8962c35eaee8f776c05f2a376e76009b6985d891dc79753",
+    "download_date": "2026-09-19"
+  },
+  "POU3F3__9606__885d19c83b45": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P20264-F1-model_v6.pdb",
+    "sha256": "54b9391a2f6306ff74a8ab69f467c96ef3655b18ba84b1477307adf4460fa9ef",
+    "download_date": "2026-09-19"
+  },
+  "POU3F3__9606__94a116a37478": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P20264-F1-model_v6.pdb",
+    "sha256": "54b9391a2f6306ff74a8ab69f467c96ef3655b18ba84b1477307adf4460fa9ef",
+    "download_date": "2026-09-19"
+  },
+  "POU3F4__9606__65f851be3dcc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P49335-F1-model_v6.pdb",
+    "sha256": "9d217fccc7485a25ee85571f1e4763accd6ee382de51651d6fb55f1db38a6eab",
+    "download_date": "2026-09-19"
+  },
+  "POU4F1__9606__e5de26cd3900": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01851-F1-model_v6.pdb",
+    "sha256": "4cf72409794c1ec4a90e1ed97de3eae839b21f911d10902321a1be3e4deaac93",
+    "download_date": "2026-09-19"
+  },
+  "POU4F2__9606__ea6782ccbe8d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12837-F1-model_v6.pdb",
+    "sha256": "e2bb350c68e9847a0a0318525c5d8b59e9d63f83079fbc4e7ab36ebb9b38d8a8",
+    "download_date": "2026-09-19"
+  },
+  "POU4F3__9606__9d28de30af44": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15319-F1-model_v6.pdb",
+    "sha256": "abd54c3184faaf26c905893ecc5d50a0d8bb48bf5cad0d8097769a8dbb2ec9c6",
+    "download_date": "2026-09-19"
+  },
+  "POU5F1__9606__336986d041bd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01860-F1-model_v6.pdb",
+    "sha256": "94605cb436222753de060792129b9bfcf4816d89f216e3a59764d2b27956d07e",
+    "download_date": "2026-09-19"
+  },
+  "POU6F1__9606__07bb169b1ffb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14863-F1-model_v6.pdb",
+    "sha256": "49e7fc5693b52797616d8ba4c54205094e6f148f12c543a1fd36f6da22aaf0f5",
+    "download_date": "2026-09-19"
+  },
+  "PPARD__9606__9faaf0eadba3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q03181-F1-model_v6.pdb",
+    "sha256": "bec74529409514d392e9e3f58cfa46ee256a5091f582a6c9bfd7a005e11ae4ab",
+    "download_date": "2026-09-19"
+  },
+  "POU6F2__9606__89b5f61608bb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P78424-F1-model_v6.pdb",
+    "sha256": "2f151d5244b30f1fa8070d924a0a7cfac8cf3428cfd00f84e12b5fd793068c38",
+    "download_date": "2026-09-19"
+  },
+  "PPP1R9A__9606__591e90981c79": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ULJ8-F1-model_v6.pdb",
+    "sha256": "1e0ac336a435be6b8b6266f09d15ddd93e91e832f52a338d656ddbe026bb2f27",
+    "download_date": "2026-09-19"
+  },
+  "PRDM15__9606__90d2afd0de90": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P57071-F1-model_v6.pdb",
+    "sha256": "34bf126b2f60bc2fbb98f802a006628cbd97edbed9e89624087217785e05235b",
+    "download_date": "2026-09-19"
+  },
+  "PRKCD__9606__21aa481bccd3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q05655-F1-model_v6.pdb",
+    "sha256": "372f82014b31c7a29c25d7e763258d2ea5e1fe65a634a9651808233abe3a3419",
+    "download_date": "2026-09-19"
+  },
+  "PRDM16__9606__66e410cd5dae": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HAZ2-F1-model_v6.pdb",
+    "sha256": "ff9873185f04ee0d360904947aa69fe3a993a3cc0fd8abfd26a2b09df3f83dd5",
+    "download_date": "2026-09-19"
+  },
+  "PRDM5__9606__a1fbc56a2cc1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NQX1-F1-model_v6.pdb",
+    "sha256": "75df6140b598d6c83f97432448a9e3bdaa7f2b433ebd648b96f61004b2e480b9",
+    "download_date": "2026-09-19"
+  },
+  "PRDM8__9606__c0acb2a983b6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NQV8-F1-model_v6.pdb",
+    "sha256": "9e578f3d9882b098837e21f20e84c6785c69f6c416e22df0ae2bff3448c7863f",
+    "download_date": "2026-09-19"
+  },
+  "PROP1__9606__dd4b4c75b950": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75360-F1-model_v6.pdb",
+    "sha256": "da92ce0eb7149c2554797c1a89c313c581d7d025d1dd77082aee74926ef5557d",
+    "download_date": "2026-09-19"
+  },
+  "PRPF3__9606__ef071bca7244": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43395-F1-model_v6.pdb",
+    "sha256": "813415626d08bbf2674cd2144bc099f58eff93b3dedd52d97338ab2d591ece28",
+    "download_date": "2026-09-19"
+  },
+  "PRRX1__9606__d9d1d4e5c75a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P54821-F1-model_v6.pdb",
+    "sha256": "88d5f0a8f6c8b7598ae9ec96b2b646e5997f70b3a700ec0d6b251b8cb2ed3ccb",
+    "download_date": "2026-09-19"
+  },
+  "PRPF40B__9606__32643312529d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6NWY9-F1-model_v6.pdb",
+    "sha256": "57238bd8933d73f09661415e6d702fd99738b26812111c66dc5a639570d1645d",
+    "download_date": "2026-09-19"
+  },
+  "PSTPIP1__9606__c8e8c84b5151": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43586-F1-model_v6.pdb",
+    "sha256": "ca1f506770d565f10f284b7fc7cb92c15db84c219258541b2a21315dd90e5aba",
+    "download_date": "2026-09-19"
+  },
+  "RANBP2__9606__32d9e1439d62": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/P49792"
+  },
+  "RANBP2__9606__22071022627e": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/P49792"
+  },
+  "PYCARD__9606__ff714cd41c30": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ULZ3-F1-model_v6.pdb",
+    "sha256": "266b12faceceed8b9bd57dbca51a56962d879735be1df8e4bd83a8885ad503c4",
+    "download_date": "2026-09-19"
+  },
+  "RAD23B__9606__8c12f21a8bbb": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P54727-F1-model_v6.pdb",
+    "sha256": "c6121434be696a0e28055ac5d47fc8090629e77748ebc36768166a4c0ed0e67e",
+    "download_date": "2026-09-19"
+  },
+  "RAD23B__9606__6018972a41ed": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P54727-F1-model_v6.pdb",
+    "sha256": "c6121434be696a0e28055ac5d47fc8090629e77748ebc36768166a4c0ed0e67e",
+    "download_date": "2026-09-19"
+  },
+  "RAG2__9606__0a3108bfa012": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P55895-F1-model_v6.pdb",
+    "sha256": "eff71c73be0a4572b5a166ac4ee4cbd0648fe4ab8f9859de3de51c6a856f88c3",
+    "download_date": "2026-09-19"
+  },
+  "RARB__9606__6a09bd76cd6a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P10826-F1-model_v6.pdb",
+    "sha256": "db57290b36a7870a8f07b3068e5f13f77184c348478c1a6bdd4d67e4f28df072",
+    "download_date": "2026-09-19"
+  },
+  "RASA1__9606__a074d69878a0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P20936-F1-model_v6.pdb",
+    "sha256": "094dd76d3ec0ce30562e2d3a6bb9bc5c30deb46e74fc14fd6ffed963f1fef1d5",
+    "download_date": "2026-09-19"
+  },
+  "RBCK1__9606__60dc8288494b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BYM8-F1-model_v6.pdb",
+    "sha256": "7316eb5be49e38fdab4c939ba5b8ccfead337fb2c99d17c190ad118c4db9171e",
+    "download_date": "2026-09-19"
+  },
+  "RASA4__9606__3763b6cb481f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43374-F1-model_v6.pdb",
+    "sha256": "4510897610ddc9b110429c48079b9dafe6de3cd58a9084b42ffd992362cadd88",
+    "download_date": "2026-09-19"
+  },
+  "RASGRP1__9606__e4ebc6357f0f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95267-F1-model_v6.pdb",
+    "sha256": "3fd9c24e1cb4cf2e7311f8613003b4cadb04158bd369c274631c5d2e2aae08ba",
+    "download_date": "2026-09-19"
+  },
+  "RCOR1__9606__4691b3e31468": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKL0-F1-model_v6.pdb",
+    "sha256": "89ce2df1cb0ab0d1bd739ac33029f28522b47feeb2b9c77fbfccb56aeebea893",
+    "download_date": "2026-09-19"
+  },
+  "RCOR3__9606__b577b1e219b5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P2K3-F1-model_v6.pdb",
+    "sha256": "9a4d088cce9777f967814d380f61f11f1e2ff2b214ae4b16d07d7d804346715c",
+    "download_date": "2026-09-19"
+  },
+  "RBM10__9606__a020d1be3bde": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P98175-F1-model_v6.pdb",
+    "sha256": "b57085c0fc6253edbf3d451d380bea5e6ce0008538d096f2ce1749e624575f50",
+    "download_date": "2026-09-19"
+  },
+  "RBM10__9606__b253e6b1bc63": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P98175-F1-model_v6.pdb",
+    "sha256": "b57085c0fc6253edbf3d451d380bea5e6ce0008538d096f2ce1749e624575f50",
+    "download_date": "2026-09-19"
+  },
+  "RERE__9606__9327023b7416": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P2R6-F1-model_v6.pdb",
+    "sha256": "ab8ff6cb3af1dc774f0fce9f9b4e37ee3e3fe63a7a680b70c0efbd0f1b5bc115",
+    "download_date": "2026-09-19"
+  },
+  "RIPK2__9606__3aa6c230bef8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43353-F1-model_v6.pdb",
+    "sha256": "b27fe5e6539a362f1c69b4b3ff6769a4d2ef9c48c21909296aed3c9b33471268",
+    "download_date": "2026-09-19"
+  },
+  "RNF113A__9606__5d7b132dea91": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15541-F1-model_v6.pdb",
+    "sha256": "9c20296c26e73923ee60ea68dd12f32c6d4b885f45e27ef600690a95aaa4415b",
+    "download_date": "2026-09-19"
+  },
+  "RFC1__9606__34a01854ab7d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35251-F1-model_v6.pdb",
+    "sha256": "60b7cc51fd156a77a8817489b08924557968b24d3f93ed44ee6d665d7efe7c13",
+    "download_date": "2026-09-19"
+  },
+  "RNF7__9606__93ba22713555": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBF6-F1-model_v6.pdb",
+    "sha256": "b4c68b26f8d3f4062deaad50ffe43c07ae8910350dbc6e4479c6c161de8e92ec",
+    "download_date": "2026-09-19"
+  },
+  "RNF126__9606__516ffc849064": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BV68-F1-model_v6.pdb",
+    "sha256": "39ade5cf2343296f93429a421177488f9558ad98c98bcdc43a436a0ef6c05d53",
+    "download_date": "2026-09-19"
+  },
+  "RNF32__9606__7fbed3b5c7e6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H0A6-F1-model_v6.pdb",
+    "sha256": "0423200c1459c5b2fd8799f0b2869fed5f0900e56a38a5f4bdaf7c41b3fc4710",
+    "download_date": "2026-09-19"
+  },
+  "RPL35__9606__201b0f9d876c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P42766-F1-model_v6.pdb",
+    "sha256": "230088f29b8efcdc56083af5a30869511e9081ebecc17dc5c53bb9b7105116bc",
+    "download_date": "2026-09-19"
+  },
+  "RSL24D1__9606__6b366abc99e4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UHA3-F1-model_v6.pdb",
+    "sha256": "57d68640f7126f7f318643f979942591b912f843ff640bab79ab21c9f3be6a8d",
+    "download_date": "2026-09-19"
+  },
+  "RUFY1__9606__d8de561e3fab": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96T51-F1-model_v6.pdb",
+    "sha256": "c0e583a840315126da8a2274692450f41cf8a738638163ccc5b90c3c09efd2cb",
+    "download_date": "2026-09-19"
+  },
+  "RXRA__9606__151068290c13": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P19793-F1-model_v6.pdb",
+    "sha256": "a5b9d73d5d66d7006b105d9bb7fa5f7b92b5a43f9f2ad01e1f07549595ceef43",
+    "download_date": "2026-09-19"
+  },
+  "SAFB2__9606__2f11de670810": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14151-F1-model_v6.pdb",
+    "sha256": "723e537ab262a0c2384cb1c307fdc106e992b94b370c1705ce49e04160307bbd",
+    "download_date": "2026-09-19"
+  },
+  "SAFB__9606__72d0b2db3923": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15424-F1-model_v6.pdb",
+    "sha256": "bec822e90cad0e7880ebbf613dd98a984337e7d35b560aee73017ddd0a77440c",
+    "download_date": "2026-09-19"
+  },
+  "SALL1__9606__515cac188493": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NSC2-F1-model_v6.pdb",
+    "sha256": "0286aeccc9ee7d56aee5648b14497f693ab692a0b4b43bc9d678498bb3ca3631",
+    "download_date": "2026-09-19"
+  },
+  "SARNP__9606__5a41fe0873fa": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P82979-F1-model_v6.pdb",
+    "sha256": "89c0ee9341e2f3d2ee55c8c795834f01705516340da59693e30a69cf071f1479",
+    "download_date": "2026-09-19"
+  },
+  "SALL4__9606__898a6eb30959": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UJQ4-F1-model_v6.pdb",
+    "sha256": "6b6c181f54d58e94807ddbb67b6b5e3d3b66c19a7d84a8d0b167adcc3dcba349",
+    "download_date": "2026-09-19"
+  },
+  "SALL4__9606__9b66c04bfc5e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UJQ4-F1-model_v6.pdb",
+    "sha256": "6b6c181f54d58e94807ddbb67b6b5e3d3b66c19a7d84a8d0b167adcc3dcba349",
+    "download_date": "2026-09-19"
+  },
+  "SALL4__9606__4402d7488c3c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UJQ4-F1-model_v6.pdb",
+    "sha256": "6b6c181f54d58e94807ddbb67b6b5e3d3b66c19a7d84a8d0b167adcc3dcba349",
+    "download_date": "2026-09-19"
+  },
+  "SAMD9__9606__8b2bd5f48d13": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5K651-F1-model_v6.pdb",
+    "sha256": "d7262f19e7f6d19f4a74bc883a44a3d315709f40b6b4411f3a83d3cbe7a29d4f",
+    "download_date": "2026-09-19"
+  },
+  "SATB1__9606__db1398705fea": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01826-F1-model_v6.pdb",
+    "sha256": "f37325d7f71d044b5517c99dbe5dcc24d00b30f31c8d7697adab3b9b842a0eaf",
+    "download_date": "2026-09-19"
+  },
+  "SATB1__9606__6c7c7b406dd2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01826-F1-model_v6.pdb",
+    "sha256": "f37325d7f71d044b5517c99dbe5dcc24d00b30f31c8d7697adab3b9b842a0eaf",
+    "download_date": "2026-09-19"
+  },
+  "SATB1__9606__ed06b4116cda": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q01826-F1-model_v6.pdb",
+    "sha256": "f37325d7f71d044b5517c99dbe5dcc24d00b30f31c8d7697adab3b9b842a0eaf",
+    "download_date": "2026-09-19"
+  },
+  "SASH1__9606__4396906f68c2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O94885-F1-model_v6.pdb",
+    "sha256": "a194c6bff79a0fe05550e6b4964861048b2281402616eab79416bc40c24319cc",
+    "download_date": "2026-09-19"
+  },
+  "SATB2__9606__043555f98dcf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UPW6-F1-model_v6.pdb",
+    "sha256": "10d116fd76e918b3a44fb9bb8c4505dac13521cfc6d983d7f2c417868d34ee7d",
+    "download_date": "2026-09-19"
+  },
+  "SATB2__9606__cd356c6d9bbe": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UPW6-F1-model_v6.pdb",
+    "sha256": "10d116fd76e918b3a44fb9bb8c4505dac13521cfc6d983d7f2c417868d34ee7d",
+    "download_date": "2026-09-19"
+  },
+  "SCRIB__9606__28bca5931af2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14160-F1-model_v6.pdb",
+    "sha256": "bfff1f9a2df64f802fe2936f6db1da699d7576a5ac8ad31a486885e351a3c57d",
+    "download_date": "2026-09-19"
+  },
+  "SH3PXD2B__9606__76a08b3969da": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-A1X283-F1-model_v6.pdb",
+    "sha256": "fff01c6920fe64a5ec7876b6464c89d2795a3738f76bfd4a520243ea971575f8",
+    "download_date": "2026-09-19"
+  },
+  "SH3PXD2B__9606__2ed0fc356926": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-A1X283-F1-model_v6.pdb",
+    "sha256": "fff01c6920fe64a5ec7876b6464c89d2795a3738f76bfd4a520243ea971575f8",
+    "download_date": "2026-09-19"
+  },
+  "SH3D19__9606__4de956046ef7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5HYK7-F1-model_v6.pdb",
+    "sha256": "3d5409f026bef807753d43cbf4798ae4f91215e0ec605d6a08d3670ae371d460",
+    "download_date": "2026-09-19"
+  },
+  "SHOX__9606__17ed4ae3c0df": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15266-F1-model_v6.pdb",
+    "sha256": "e68c4707aba9b3181da80e910d2f985b8b4fd61ccea372e9a96c5946781eba64",
+    "download_date": "2026-09-19"
+  },
+  "SETD2__9606__e3a7f7843e33": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9BYW2-F1-model_v6.pdb",
+    "sha256": "4d3a6e9074f4231fb6ea91fe27abd54f1f6745f591b7c08f78bfd12df68f13f9",
+    "download_date": "2026-09-19"
+  },
+  "SIX1__9606__48050e72d3d3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15475-F1-model_v6.pdb",
+    "sha256": "16f41d420cc3978cbebc0ecc8ebf38cfd5de076bcf3819b528282b903f6fbb15",
+    "download_date": "2026-09-19"
+  },
+  "SIX2__9606__b038a46f20a9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NPC8-F1-model_v6.pdb",
+    "sha256": "3843ae125d78fbc454dc55786fbc4946a556ff5bb4cbec2e7d6b3e60798c988b",
+    "download_date": "2026-09-19"
+  },
+  "SIX3__9606__954e99cdbd1c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95343-F1-model_v6.pdb",
+    "sha256": "f7b9a8643ac515956dd6ee2cfb0d196df5a09d1622ecdc28e791ce774b53802b",
+    "download_date": "2026-09-19"
+  },
+  "SHROOM4__9606__b5f99796b153": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9ULL8-F1-model_v6.pdb",
+    "sha256": "052e38b02cad693340bb30af4886aaa0af52167cb480058b36856b2e2e79d919",
+    "download_date": "2026-09-19"
+  },
+  "SIX6__9606__a7c15755263d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95475-F1-model_v6.pdb",
+    "sha256": "6ff4242c670147921b272185ebe2d1b9eb1d88e262f4dfb7584bcb1bfd57e6e7",
+    "download_date": "2026-09-19"
+  },
+  "SLTM__9606__0c670a1fcb08": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NWH9-F1-model_v6.pdb",
+    "sha256": "9121080f8687ddd6ea73d66237b64c68f1a11f1a8a008c0d4882f91a34d07fff",
+    "download_date": "2026-09-19"
+  },
+  "SMARCB1__9606__1a58df4fadff": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12824-F1-model_v6.pdb",
+    "sha256": "1dd008b081d3e7ec061163fccb74123404f1f04637fbc011c12cfdff37cafaa0",
+    "download_date": "2026-09-19"
+  },
+  "SMARCA4__9606__d8c92d3b735f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51532-F1-model_v6.pdb",
+    "sha256": "4dc2d38298ab03fb1a94dd932d21c0bf1f2ead87e8918580a5f4f3c24658f77c",
+    "download_date": "2026-09-19"
+  },
+  "SMARCC1__9606__154409f19f0f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92922-F1-model_v6.pdb",
+    "sha256": "d8499c2ea3e62e654aeb3b000cb1a6b9684536bd88c12568f3bb96c5a15a1a85",
+    "download_date": "2026-09-19"
+  },
+  "SMURF2__9606__f1343fa150a4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HAU4-F1-model_v6.pdb",
+    "sha256": "b5fe1d76fb13e7437b53c73cccc9df0ddd050bc85b53bf7743d7b757a50b45fc",
+    "download_date": "2026-09-19"
+  },
+  "SMARCC2__9606__162e234bd8a8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TAQ2-F1-model_v6.pdb",
+    "sha256": "d57b5db1f4789910769ebda17d92289ac67e6daeda59e8f4b84c934f89aeee9f",
+    "download_date": "2026-09-19"
+  },
+  "SMARCE1__9606__b3fe94231be1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q969G3-F1-model_v6.pdb",
+    "sha256": "66af8232c963cec16db070c9646d025e162ce958cdb6d8352b5f663ee82a5c4b",
+    "download_date": "2026-09-19"
+  },
+  "SNTA1__9606__2661e3f4220d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13424-F1-model_v6.pdb",
+    "sha256": "04312a841c3a39cabc7da33533e53b1fdf0a394cf8ca64c675ff194e670c9b2a",
+    "download_date": "2026-09-19"
+  },
+  "SOX11__9606__282469319dc2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35716-F1-model_v6.pdb",
+    "sha256": "8a1afd3e8661f736045d4b59c4294e4017ac751da305fd3832a719544d05e8c1",
+    "download_date": "2026-09-19"
+  },
+  "SOX17__9606__dfd782cb0d47": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H6I2-F1-model_v6.pdb",
+    "sha256": "a3a4fa6f331da14303bc51b96ea2ab31e9bdebc0966c57d95b91739de390d22f",
+    "download_date": "2026-09-19"
+  },
+  "SOX18__9606__0a1f4be1b8d5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35713-F1-model_v6.pdb",
+    "sha256": "14932ea6a6eede4d5feb081d2471a729b7223cdfb618c9dab82340991293a5db",
+    "download_date": "2026-09-19"
+  },
+  "SOX2__9606__b9687c58ecf0": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P48431-F1-model_v6.pdb",
+    "sha256": "e9f5c76c59c1a171c5313659e415dfe9939bf3607166bed7c78396acdedf5421",
+    "download_date": "2026-09-19"
+  },
+  "SOX3__9606__300a07284bb8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P41225-F1-model_v6.pdb",
+    "sha256": "c7555441a9298124e6c99a63fda98e55e4df224dc7a19842b6f296978262bfa6",
+    "download_date": "2026-09-19"
+  },
+  "SOX4__9606__67dcd3b62ac1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q06945-F1-model_v6.pdb",
+    "sha256": "8e93e10a0a212e0645c584cf21214c723ec81d7d1f0ce53870f4a1430edb7cf3",
+    "download_date": "2026-09-19"
+  },
+  "SOX5__9606__95d8c70fb862": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35711-F1-model_v6.pdb",
+    "sha256": "2910ee69a7dc9c75546da24f2cbf6fa9b90e3629ea3ef78bb232f39cc4215583",
+    "download_date": "2026-09-19"
+  },
+  "SOX6__9606__3231aaaed8ba": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P35712-F1-model_v6.pdb",
+    "sha256": "34561006144851772016de04fcb624c342b4e0aa5cf73e0e1ce0702c126bc66a",
+    "download_date": "2026-09-19"
+  },
+  "SP7__9606__c4fd69ff9391": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8TDD2-F1-model_v6.pdb",
+    "sha256": "fb4a5f5b41edbb2e07b1b4008aec4cd96fabdcbaebfaec54e4dd576501af1ac9",
+    "download_date": "2026-09-19"
+  },
+  "SOX8__9606__9acbdd530d06": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P57073-F1-model_v6.pdb",
+    "sha256": "85ce8083c981909a5b8b6fd0fcd5abbefcdbc85078cb2f123e16237b1f5d2c27",
+    "download_date": "2026-09-19"
+  },
+  "SQSTM1__9606__16dcb3815ed8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13501-F1-model_v6.pdb",
+    "sha256": "82dd4526160660667d9c41793d08203bacd049ae1eec5c18205dda9bfd287460",
+    "download_date": "2026-09-19"
+  },
+  "SQSTM1__9606__42247a61e4fd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13501-F1-model_v6.pdb",
+    "sha256": "82dd4526160660667d9c41793d08203bacd049ae1eec5c18205dda9bfd287460",
+    "download_date": "2026-09-19"
+  },
+  "SPTA1__9606__5350f92cc33e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P02549-F1-model_v6.pdb",
+    "sha256": "f38258289deab86dde35bd3c121d4e3d30937d9d0c3643a22edb3fc679ce6b7f",
+    "download_date": "2026-09-19"
+  },
+  "SRGAP1__9606__8db6a3fb276d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z6B7-F1-model_v6.pdb",
+    "sha256": "79ea7a1e868a199082207490cb01a03ee1bdb90a8b93f733cee3c3e98a936b83",
+    "download_date": "2026-09-19"
+  },
+  "SPTAN1__9606__5898a56b9749": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13813-F1-model_v6.pdb",
+    "sha256": "e828969ec3817461521695c1ce77aff1598d75269837c18532e50d06a467409d",
+    "download_date": "2026-09-19"
+  },
+  "SRY__9606__d78face99c33": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q05066-F1-model_v6.pdb",
+    "sha256": "1f32996cc7b090dd2eeb987b89831d0910159682651f6fca5208701f4f4e61a4",
+    "download_date": "2026-09-19"
+  },
+  "SRGAP3__9606__d4589044a988": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43295-F1-model_v6.pdb",
+    "sha256": "5840a3ea0c037f4b89a8de87453e0967301e6df781d8ed541ff623fda26d6a4a",
+    "download_date": "2026-09-19"
+  },
+  "STAU1__9606__f9f43907c1dc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95793-F1-model_v6.pdb",
+    "sha256": "b1c74989888769d1c151ac9e109c2675ea84d42045d9cec487dcba2a1d452124",
+    "download_date": "2026-09-19"
+  },
+  "STXBP4__9606__b177c1a06936": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6ZWJ1-F1-model_v6.pdb",
+    "sha256": "d2cba38adf9f97773172fa12182496ce282060147e629a9eaa63d49fdc66b345",
+    "download_date": "2026-09-19"
+  },
+  "STOX1__9606__6568ad8a540a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q6ZVD7-F1-model_v6.pdb",
+    "sha256": "c91f6f5f7c32cdaa337db5dcb3e2e333c7a9291bcc247010826e16bf09d8b091",
+    "download_date": "2026-09-19"
+  },
+  "STOX2__9606__65607e7e3e9f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9P2F5-F1-model_v6.pdb",
+    "sha256": "8d3d97c061b86dda3126af97a9168b52e6c4e52dc62d5cf6f2fbe513464a94df",
+    "download_date": "2026-09-19"
+  },
+  "SUOX__9606__75d2c2eb49f9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51687-F1-model_v6.pdb",
+    "sha256": "9ee7bd06218101d7d24e1d2982f7f0328162e3be6099be381b1a25c7eefe5dd7",
+    "download_date": "2026-09-19"
+  },
+  "TADA2A__9606__4238dc85a735": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75478-F1-model_v6.pdb",
+    "sha256": "acee31356466656d5a7d557a28ed80d97bd7f4271768664ff33745e1615dfb48",
+    "download_date": "2026-09-19"
+  },
+  "TAB3__9606__6800ffa5caa3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N5C8-F1-model_v6.pdb",
+    "sha256": "5ec2d2d438a4aec9f97cd3fe2b19375a80ebdd96d3bcdd69ed2a3b6d7efd2655",
+    "download_date": "2026-09-19"
+  },
+  "TCEANC__9606__1bdb7d364e89": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8N8B7-F1-model_v6.pdb",
+    "sha256": "9c0b8206d351c93617dbb143f97ebfb580411f0c80b9041d2ad44793ebea9b33",
+    "download_date": "2026-09-19"
+  },
+  "TAX1BP1__9606__7a9750a516c1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86VP1-F1-model_v6.pdb",
+    "sha256": "aa15234003181bd928b0c9a81f4d37e42601a5a701c8e07e8282b7979736c053",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1L__9606__d0704159307c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5VWI1-F1-model_v6.pdb",
+    "sha256": "aa56bffc326fb531a1a2ed885bb2f54f37f35f88ce8809c1a83026aa7909d993",
+    "download_date": "2026-09-19"
+  },
+  "TERF2__9606__ce0b44fb6cc6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15554-F1-model_v6.pdb",
+    "sha256": "098bcb271e69c45d2f87c0355195ba2e1067414b57af5d2b8f3511862d74e489",
+    "download_date": "2026-09-19"
+  },
+  "TDRD3__9606__263eb95ab08b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H7E2-F1-model_v6.pdb",
+    "sha256": "23918a6596eac8baf22cf15701b2f087e198ae8a61d9270208b7a737eff48d55",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1__9606__713ec78370ea": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14776-F1-model_v6.pdb",
+    "sha256": "cc63fa7df1a23bfcb1b3bc051d70fab1e1dde8cd0046b82223cccd7387b09537",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1__9606__8742b80536ef": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14776-F1-model_v6.pdb",
+    "sha256": "cc63fa7df1a23bfcb1b3bc051d70fab1e1dde8cd0046b82223cccd7387b09537",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1__9606__94a4c89c08b5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14776-F1-model_v6.pdb",
+    "sha256": "cc63fa7df1a23bfcb1b3bc051d70fab1e1dde8cd0046b82223cccd7387b09537",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1__9606__f6a7cada15b6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14776-F1-model_v6.pdb",
+    "sha256": "cc63fa7df1a23bfcb1b3bc051d70fab1e1dde8cd0046b82223cccd7387b09537",
+    "download_date": "2026-09-19"
+  },
+  "TCERG1__9606__11cdf887ec67": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O14776-F1-model_v6.pdb",
+    "sha256": "cc63fa7df1a23bfcb1b3bc051d70fab1e1dde8cd0046b82223cccd7387b09537",
+    "download_date": "2026-09-19"
+  },
+  "TESMIN__9606__256db4407102": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y4I5-F1-model_v6.pdb",
+    "sha256": "63f97c99757f84451c9b97b9678994fb8f5d3fb272a113d51aa5cfbfba795b03",
+    "download_date": "2026-09-19"
+  },
+  "TNNC2__9606__f6b12bf30e42": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P02585-F1-model_v6.pdb",
+    "sha256": "2cecf6cf19aace76baac1c8bb2101919761bb7b1e7a8c5ef5f8488df900a3499",
+    "download_date": "2026-09-19"
+  },
+  "TFG__9606__96306ddf51f3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q92734-F1-model_v6.pdb",
+    "sha256": "dd653169e91c91c3845403d5284e8623a6f9b29eaeb3211d6aebe9ba35b9eab2",
+    "download_date": "2026-09-19"
+  },
+  "TJP2__9606__4cea5d50597b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UDY2-F1-model_v6.pdb",
+    "sha256": "1dd62483382aa75904a84a56aaf21e43c75cd1b45c903e29e4767778309a0877",
+    "download_date": "2026-09-19"
+  },
+  "TJP2__9606__c1a585a95f2e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UDY2-F1-model_v6.pdb",
+    "sha256": "1dd62483382aa75904a84a56aaf21e43c75cd1b45c903e29e4767778309a0877",
+    "download_date": "2026-09-19"
+  },
+  "TIAM1__9606__b134565a1b3d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13009-F1-model_v6.pdb",
+    "sha256": "e8f21a107ee1bbf5dbefaef6d5ed4e2e02c018f270336bf3a2db1f694534d26b",
+    "download_date": "2026-09-19"
+  },
+  "TOE1__9606__1490fbe4de28": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96GM8-F1-model_v6.pdb",
+    "sha256": "3b168590e3bad86b7afbb016b8b3c4c86d5006ca51af4dc7a946c164db0aeb43",
+    "download_date": "2026-09-19"
+  },
+  "TOP3A__9606__ef24fb40c27f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13472-F1-model_v6.pdb",
+    "sha256": "5e5a2160e9fb759d971d867a481bcdfee2c28f8e586e5b1869d2eac740708d94",
+    "download_date": "2026-09-19"
+  },
+  "TOP3A__9606__9038da1a6b34": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13472-F1-model_v6.pdb",
+    "sha256": "5e5a2160e9fb759d971d867a481bcdfee2c28f8e586e5b1869d2eac740708d94",
+    "download_date": "2026-09-19"
+  },
+  "TOX3__9606__5039ea366e77": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15405-F1-model_v6.pdb",
+    "sha256": "85f7e06ba9aefa3a77094c9c9868169c6a77f161cdd94ca1a36e95e5bd267c74",
+    "download_date": "2026-09-19"
+  },
+  "TP63__9606__f8a5691be608": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H3D4-F1-model_v6.pdb",
+    "sha256": "7f449bfe7ce2bed87c60f67aa512f8b204bc479242571429d4e8e11f0ba50356",
+    "download_date": "2026-09-19"
+  },
+  "TRIM26__9606__40f6edb4a0bf": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q12899-F1-model_v6.pdb",
+    "sha256": "cd7ad2c92c5a9ddfa2709da9221e39e03719672d9ac99bc7a538906672eae8a4",
+    "download_date": "2026-09-19"
+  },
+  "TP73__9606__1841a595f9cd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O15350-F1-model_v6.pdb",
+    "sha256": "d2cd2afc3246d026c6ef818f50733fb10f381cccdd65c46d45ccbeae2e0c7876",
+    "download_date": "2026-09-19"
+  },
+  "TRIM36__9606__385ef2445115": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NQ86-F1-model_v6.pdb",
+    "sha256": "3c0d78823250bb627208549395fb94cdd0710d781d117acc725189f7d4a43401",
+    "download_date": "2026-09-19"
+  },
+  "TRIM28__9606__e5d5e1d8be8f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q13263-F1-model_v6.pdb",
+    "sha256": "6c456d21c61da3dd8607af11b502c2632bd00efb5f40149449f6ab5c48b2142e",
+    "download_date": "2026-09-19"
+  },
+  "TRIM44__9606__4b81d44a79e9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96DX7-F1-model_v6.pdb",
+    "sha256": "c2cce3240f92e3f813fbbd795d0ac8ed4f5836c67ca4cb709202457d5df3c610",
+    "download_date": "2026-09-19"
+  },
+  "TRIM3__9606__3cab7b37ed23": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75382-F1-model_v6.pdb",
+    "sha256": "a146c4506dd5ad735357a034b0e32ae8522b539d820c95ec8f8cf9b5b87396bf",
+    "download_date": "2026-09-19"
+  },
+  "TRIM49C__9606__da10ac8636dc": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P0CI26-F1-model_v6.pdb",
+    "sha256": "b06b80f0ef72b14f8d5f3a5def12fa642cf9e05e5b08b7fd819c6558ea328980",
+    "download_date": "2026-09-19"
+  },
+  "TRIM6__9606__1d666bcec42e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9C030-F1-model_v6.pdb",
+    "sha256": "9613b0f8a64048bb775be476b3c2486c305d1f25674ad3b0cb9608ce26c76805",
+    "download_date": "2026-09-19"
+  },
+  "TRIM71__9606__17d1f0252a3c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q2Q1W2-F1-model_v6.pdb",
+    "sha256": "404990187ce975bb9ccdaa49c3aab13d970620be639c27e83822b7d00579369e",
+    "download_date": "2026-09-19"
+  },
+  "TRMT13__9606__44287df31baa": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NUP7-F1-model_v6.pdb",
+    "sha256": "3dd8aa25e9212dd4f7ffdfa83ce91d9f8cfc69b37f5eb00000e1c794691e304c",
+    "download_date": "2026-09-19"
+  },
+  "UBE2K__9606__4717570aac98": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P61086-F1-model_v6.pdb",
+    "sha256": "985ab0cbe9c727c19aa8baf7f0d6527b0a5ae64f1965ce68620d13aa8876a0c5",
+    "download_date": "2026-09-19"
+  },
+  "UBE3A__9606__74b241a3a715": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q05086-F1-model_v6.pdb",
+    "sha256": "a444fbb34215954298ec9ea13494114147fce63f9ab3a6611c70c238054fd365",
+    "download_date": "2026-09-19"
+  },
+  "TTC3__9606__0e83c0758d35": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P53804-F1-model_v6.pdb",
+    "sha256": "5adb15debf1b75a39f199352b2f824b3abded135ccc951618a78ac9f3818f711",
+    "download_date": "2026-09-19"
+  },
+  "UBQLN3__9606__6452bd3d2190": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H347-F1-model_v6.pdb",
+    "sha256": "b7175b3ad0f3776f332fab69c06ed346b6d44dafe2682fb4feac944977f2c9b1",
+    "download_date": "2026-09-19"
+  },
+  "UBTF__9606__ebf201031d20": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P17480-F1-model_v6.pdb",
+    "sha256": "9542d66bab43d7a9f6a5a254b56f03821364608eb5a7b544f54128c4068e09a0",
+    "download_date": "2026-09-19"
+  },
+  "UBXN2B__9606__4a10ad73ab2a": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14CS0-F1-model_v6.pdb",
+    "sha256": "b15d13116dc0e1a39f3be49b7e37feff6a332a6e44a067a0ecbf1ab2be107d37",
+    "download_date": "2026-09-19"
+  },
+  "UFM1__9606__720604a649d8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P61960-F1-model_v6.pdb",
+    "sha256": "db39f1871e27208e512db3c385679c1726fb82a696a41fa635236b1ed0c30100",
+    "download_date": "2026-09-19"
+  },
+  "USH1C__9606__93f527d33b96": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y6N9-F1-model_v6.pdb",
+    "sha256": "a88d59a93789603a8e5789693cf9ddbfeeb3368348465f4f8a3b35a7f42b2c84",
+    "download_date": "2026-09-19"
+  },
+  "VCP__9606__a9cf2e588fe5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P55072-F1-model_v6.pdb",
+    "sha256": "ab6e263d116bbe487d9322e62a17c1b2afdcb4ff62ddf6fc7a1df9536d1b6b5d",
+    "download_date": "2026-09-19"
+  },
+  "VAX1__9606__ea7035c757c2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q5SQQ9-F1-model_v6.pdb",
+    "sha256": "284cfa3fb51271ca75ba3ee116c3a2569d3d4eb96b39cf074ca5bb4d600b8999",
+    "download_date": "2026-09-19"
+  },
+  "VAV1__9606__eb962337edc3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15498-F1-model_v6.pdb",
+    "sha256": "b69f31ea551bd0e5ad8ae5568d35246a57958cb1c4719272d8f808aaaf5d5f5f",
+    "download_date": "2026-09-19"
+  },
+  "VAV1__9606__337d9f290928": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P15498-F1-model_v6.pdb",
+    "sha256": "b69f31ea551bd0e5ad8ae5568d35246a57958cb1c4719272d8f808aaaf5d5f5f",
+    "download_date": "2026-09-19"
+  },
+  "VIL1__9606__d261ceefff8e": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P09327-F1-model_v6.pdb",
+    "sha256": "e6d4a8e5076fe107f2703bade51ce79b2bac71743338dc9743b1bd0cd85d3805",
+    "download_date": "2026-09-19"
+  },
+  "WBP4__9606__40cdb6a461b3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O75554-F1-model_v6.pdb",
+    "sha256": "a009611b1b35e97c0c4a62ed3597762ba829ffb0f999128c5d2e1c6101ec0a4b",
+    "download_date": "2026-09-19"
+  },
+  "WWP1__9606__2ab9ede62cd7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H0M0-F1-model_v6.pdb",
+    "sha256": "4357abd9924913a71b4004b31387a8f30d387a4bb69c2551a71761b1972d72a2",
+    "download_date": "2026-09-19"
+  },
+  "WSB2__9606__3e66c987b885": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NYS7-F1-model_v6.pdb",
+    "sha256": "7d8a9197da91d1b96d63bcc837da021a50726d37b27c5d379a382ab9b1de0f43",
+    "download_date": "2026-09-19"
+  },
+  "WWP2__9606__bd827c0e4b01": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O00308-F1-model_v6.pdb",
+    "sha256": "60b8dfb35bccd010a5bfb8d6fe51554c6fa6b5005e96c1a3c7527e410081462a",
+    "download_date": "2026-09-19"
+  },
+  "WNK1__9606__75280030f744": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H4A3-F1-model_v6.pdb",
+    "sha256": "d7f81bfc5e978275a7e467eed0b1953c6a1ac4c27e658c463942fcd2593fb5ed",
+    "download_date": "2026-09-19"
+  },
+  "WWTR1__9606__671c1f8ff7d8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9GZV5-F1-model_v6.pdb",
+    "sha256": "f178cab03a32048b285244137f52edba552667d4f5d32f7037c4440909c9e3c9",
+    "download_date": "2026-09-19"
+  },
+  "XRCC6__9606__35d6f7b2dd03": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P12956-F1-model_v6.pdb",
+    "sha256": "0c24f4d0917c8e63e61e8bb9823a97c27ab1b6d166f219a0616c11ef61e5e5b7",
+    "download_date": "2026-09-19"
+  },
+  "YBX1__9606__6ea56228a32d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P67809-F1-model_v6.pdb",
+    "sha256": "3c4297b61ffa8cdbf820a26e8acd5611bf386ea60bb78ecc009d5df48be20d0f",
+    "download_date": "2026-09-19"
+  },
+  "YY1__9606__5d9cf9e82ac1": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P25490-F1-model_v6.pdb",
+    "sha256": "356f30d51440dce61b77ddc922ca85b47d350d89d09dae3f23b63fe302e38e8b",
+    "download_date": "2026-09-19"
+  },
+  "YBX2__9606__e3d86f9ee316": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y2T7-F1-model_v6.pdb",
+    "sha256": "f39b94b23fb1439ebea8e21d08c9f764a11e405bd1a3b99b06c8d668eb7bf984",
+    "download_date": "2026-09-19"
+  },
+  "YBX3__9606__1e9b96d74e06": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P16989-F1-model_v6.pdb",
+    "sha256": "551b1e29ee3d8dce3be6b3c12aa5fb86a39b80950a3e6c0fab6da88b875863e4",
+    "download_date": "2026-09-19"
+  },
+  "ZC3H10__9606__9dd6f5197448": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q96K80-F1-model_v6.pdb",
+    "sha256": "8924b3320fffd0a2cd36f8e2ef37108ef1e95479dbff36e10dc7f93a6c372880",
+    "download_date": "2026-09-19"
+  },
+  "ZC3H15__9606__a0a6f7b215ca": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8WU90-F1-model_v6.pdb",
+    "sha256": "bd524817c107a9facaa0a94ccbaea7be4f642634d6aab73ddd82907209f9136e",
+    "download_date": "2026-09-19"
+  },
+  "ZBTB20__9606__e92a92a3d289": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HC78-F1-model_v6.pdb",
+    "sha256": "a7d8d71ed09a2ad84f6caaa03cb9881b5a78dd463e6a4ed6649bb8a4e9d95916",
+    "download_date": "2026-09-19"
+  },
+  "ZBTB20__9606__6bf0a7c57a3c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HC78-F1-model_v6.pdb",
+    "sha256": "a7d8d71ed09a2ad84f6caaa03cb9881b5a78dd463e6a4ed6649bb8a4e9d95916",
+    "download_date": "2026-09-19"
+  },
+  "ZBTB20__9606__78cfd2630107": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HC78-F1-model_v6.pdb",
+    "sha256": "a7d8d71ed09a2ad84f6caaa03cb9881b5a78dd463e6a4ed6649bb8a4e9d95916",
+    "download_date": "2026-09-19"
+  },
+  "ZBTB24__9606__234393d3df65": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43167-F1-model_v6.pdb",
+    "sha256": "7931938fd92f280e4e0961dc91061aedbf93931bf8424dd988d26d105ebad52a",
+    "download_date": "2026-09-19"
+  },
+  "ZBTB24__9606__9d979a80dd51": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O43167-F1-model_v6.pdb",
+    "sha256": "7931938fd92f280e4e0961dc91061aedbf93931bf8424dd988d26d105ebad52a",
+    "download_date": "2026-09-19"
+  },
+  "ZFC3H1__9606__7b1edbc4faf8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60293-F1-model_v6.pdb",
+    "sha256": "4042e1064bcc07499ce00f21c30c28b65f6bfc505377bda4bdd3af63e2fead38",
+    "download_date": "2026-09-19"
+  },
+  "ZC3H7A__9606__e4fd043865cd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IWR0-F1-model_v6.pdb",
+    "sha256": "bae3407739205dc269e9bd7878a681cf0539426dc72618e48b81f13d4f3c29c6",
+    "download_date": "2026-09-19"
+  },
+  "ZFHX3__9606__ac5c02e05e88": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q15911"
+  },
+  "ZFHX3__9606__93b8983a34bc": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q15911"
+  },
+  "ZFHX3__9606__df22b8257f76": {
+    "status": "sequence_only",
+    "reason": "404 Client Error: Not Found for url: https://alphafold.ebi.ac.uk/api/prediction/Q15911"
+  },
+  "ZEB1__9606__4841b03c2ba2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P37275-F1-model_v6.pdb",
+    "sha256": "815b78c052ea6c6c361eef173aa5755715b92687aa4f5d27581691aed4a68f72",
+    "download_date": "2026-09-19"
+  },
+  "ZFHX2__9606__00c1a85c4ddd": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9C0A1-F1-model_v6.pdb",
+    "sha256": "b1d69cf6057a31f5d8989c4c8a73aa2bfc1fd123a7874e45b98b8da1521e0d78",
+    "download_date": "2026-09-19"
+  },
+  "ZFP30__9606__e77fb43cfc37": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y2G7-F1-model_v6.pdb",
+    "sha256": "eb8f701790f288ecf42eb5ad2e30fb7684e64cec1817f15c9d484c0bdad9e760",
+    "download_date": "2026-09-19"
+  },
+  "ZFHX4__9606__7213da396ca6": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q86UP3.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UP3-3-F1-model_v6.pdb",
+    "sha256": "c133858197fa4a52308f7f61a2e9efb09aa5cc9435b743dd07ef1fb38d6c8474",
+    "download_date": "2026-09-19"
+  },
+  "ZFHX4__9606__7acd6cad6ae2": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q86UP3.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UP3-3-F1-model_v6.pdb",
+    "sha256": "c133858197fa4a52308f7f61a2e9efb09aa5cc9435b743dd07ef1fb38d6c8474",
+    "download_date": "2026-09-19"
+  },
+  "ZFHX4__9606__e2cea3bef965": {
+    "status": "sequence_only",
+    "reason": "v4\\sources\\alphafold\\Q86UP3.pdb: requires one exact sequence-matched chain per conformer; found 0",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q86UP3-3-F1-model_v6.pdb",
+    "sha256": "c133858197fa4a52308f7f61a2e9efb09aa5cc9435b743dd07ef1fb38d6c8474",
+    "download_date": "2026-09-19"
+  },
+  "ZFP36L2__9606__90309946c12b": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P47974-F1-model_v6.pdb",
+    "sha256": "ca3416d1097dcd6933dca398f540ff7e3d629798a022fa504c7959e1ec6141e9",
+    "download_date": "2026-09-19"
+  },
+  "ZFP36__9606__8b8a878d705c": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P26651-F1-model_v6.pdb",
+    "sha256": "e85bee039b364174a8263031899ac54227e74e566c135ae9038ff9e0891faa99",
+    "download_date": "2026-09-19"
+  },
+  "ZFP57__9606__4236fc40aae4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9NU63-F1-model_v6.pdb",
+    "sha256": "54cde1cd8be77d047b582e369da00b2c42998f2c9da8177aa9f172cfbdb2b757",
+    "download_date": "2026-09-19"
+  },
+  "ZHX1__9606__1dcc16a090c7": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UKY1-F1-model_v6.pdb",
+    "sha256": "83e100ed1e61c997c1cb526624b9e1915464a41ac439098d3ccb3a6bcbadc115",
+    "download_date": "2026-09-19"
+  },
+  "ZFYVE16__9606__e619d8518162": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q7Z3T8-F1-model_v6.pdb",
+    "sha256": "47dc2e867580014f7c645b469e2d9183c74dcc139f0a4b81b6ec61983a937de3",
+    "download_date": "2026-09-19"
+  },
+  "ZIC2__9606__6f77baacb60d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95409-F1-model_v6.pdb",
+    "sha256": "bf7f99e73f6c4d2570f9a0737ad65a01300e45e59f93b92277accd2cd921b684",
+    "download_date": "2026-09-19"
+  },
+  "ZIC3__9606__9b570a34b8e4": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60481-F1-model_v6.pdb",
+    "sha256": "259ff6047fbb5f75eaa759707e707478c7d94702daddb77692a157701742f0e0",
+    "download_date": "2026-09-19"
+  },
+  "ZMAT3__9606__1a5535890e69": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9HA38-F1-model_v6.pdb",
+    "sha256": "7e274af60a9bd57d2906b14b61a355533bcb95da0a06567345b61e40fd44fd13",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM2__9606__51c1895d123f": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBW7-F1-model_v6.pdb",
+    "sha256": "543fba54174cace6e9cd9af24b33f45529abd8ba994d0a78db125d3f134c8b91",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM5__9606__29ad53c2e246": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UJ78-F1-model_v6.pdb",
+    "sha256": "ad8381876c2e36474b865021c33b1c59859ea839194ec7ec0995439cd655087b",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM3__9606__364e9346a813": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14202-F1-model_v6.pdb",
+    "sha256": "7854cbe34914320123682a7b67514e03ee73e00c1f5d6b2ae8150eeddbd9d53a",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM3__9606__2ef54cf3ae10": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14202-F1-model_v6.pdb",
+    "sha256": "7854cbe34914320123682a7b67514e03ee73e00c1f5d6b2ae8150eeddbd9d53a",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM3__9606__188aadb66967": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14202-F1-model_v6.pdb",
+    "sha256": "7854cbe34914320123682a7b67514e03ee73e00c1f5d6b2ae8150eeddbd9d53a",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM3__9606__4a909fb5ac89": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q14202-F1-model_v6.pdb",
+    "sha256": "7854cbe34914320123682a7b67514e03ee73e00c1f5d6b2ae8150eeddbd9d53a",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM6__9606__0f38f89122e8": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95789-F1-model_v6.pdb",
+    "sha256": "743d7aa9fa5ff55dde47de2d6f79f8ee8a07a938162e849f00be8df8b6eb466b",
+    "download_date": "2026-09-19"
+  },
+  "ZMYM6__9606__15dbf695563d": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95789-F1-model_v6.pdb",
+    "sha256": "743d7aa9fa5ff55dde47de2d6f79f8ee8a07a938162e849f00be8df8b6eb466b",
+    "download_date": "2026-09-19"
+  },
+  "ZNF148__9606__6cc5962be5e3": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9UQR1-F1-model_v6.pdb",
+    "sha256": "142132077ec274d8d99c997c26ea3bd1748e13930148d25bd26213fa1126bb43",
+    "download_date": "2026-09-19"
+  },
+  "ZNF408__9606__71f66544f3d6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9H9D4-F1-model_v6.pdb",
+    "sha256": "91abdeb2cbcbba03a8acb7e9e4b11d6f0e79d683b3464fab0f8fde00f30d3ef1",
+    "download_date": "2026-09-19"
+  },
+  "ZNF292__9606__04bee269b0f6": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60281-2-F1-model_v6.pdb",
+    "sha256": "e9686b8ca3ec1c5568f759e2e8ffadda02aded9cb2078c75f8ff740975781123",
+    "download_date": "2026-09-19"
+  },
+  "ZNF711__9606__8ef6ab4f67d2": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y462-F1-model_v6.pdb",
+    "sha256": "a2cc2bb2b4497884545b96fad24a4d65baea08ea0b7acea3322baf0d30aac8d9",
+    "download_date": "2026-09-19"
+  },
+  "ZNF81__9606__164fddbff066": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51508-F1-model_v6.pdb",
+    "sha256": "1336e13d9680065297fcad143f57cbcc84e6ca3dc5bd4f10eb5758805700c5ad",
+    "download_date": "2026-09-19"
+  },
+  "ZNF81__9606__ad277461c9f9": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-P51508-F1-model_v6.pdb",
+    "sha256": "1336e13d9680065297fcad143f57cbcc84e6ca3dc5bd4f10eb5758805700c5ad",
+    "download_date": "2026-09-19"
+  },
+  "ZRANB2__9606__d807f5938744": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95218-F1-model_v6.pdb",
+    "sha256": "e96f2abc5062ba1953f90995453edf88666c6ba44aa897579276b5ce43b19bc8",
+    "download_date": "2026-09-19"
+  },
+  "ZRANB2__9606__14d229f4f8b5": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O95218-F1-model_v6.pdb",
+    "sha256": "e96f2abc5062ba1953f90995453edf88666c6ba44aa897579276b5ce43b19bc8",
+    "download_date": "2026-09-19"
+  },
+  "ZYX__9606__1b2312396757": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q15942-F1-model_v6.pdb",
+    "sha256": "e2d2d0079a52e1778d492f8139ff1263bd2a6c7b56814f2046b02c02954bdb6d",
+    "download_date": "2026-09-19"
+  },
+  "ZZZ3__9606__8d1e9c4b1695": {
+    "status": "exact_unique_sequence_match_or_crop",
+    "url": "https://alphafold.ebi.ac.uk/files/AF-Q8IYH5-F1-model_v6.pdb",
+    "sha256": "96adaa86191f2fb1d2c4887b51c222e9cee6404671d6c30461c9549d72acf06c",
+    "download_date": "2026-09-19"
+  }
+}

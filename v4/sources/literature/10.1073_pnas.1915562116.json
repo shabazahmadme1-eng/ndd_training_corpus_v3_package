@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1073/pnas.1915562116\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31796585",
+        "source": "MED",
+        "pmid": "31796585",
+        "pmcid": "PMC6926029",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6926029"
+          ]
+        },
+        "doi": "10.1073/pnas.1915562116",
+        "title": "Molecular determinants of chaperone interactions on MHC-I for folding and antigen repertoire selection.",
+        "authorString": "McShan AC, Devlin CA, Overall SA, Park J, Toor JS, Moschidi D, Flores-Solis D, Choi H, Tripathi S, Procko E, Sgourakis NG.",
+        "journalTitle": "Proc Natl Acad Sci U S A",
+        "issue": "51",
+        "journalVolume": "116",
+        "pubYear": "2019",
+        "journalIssn": "0027-8424; 1091-6490; ",
+        "pageInfo": "25602-25613",
+        "pubType": "research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 60,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "PDB"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2019-12-03",
+        "firstIndexDate": "2019-12-05"
+      }
+    ]
+  }
+}

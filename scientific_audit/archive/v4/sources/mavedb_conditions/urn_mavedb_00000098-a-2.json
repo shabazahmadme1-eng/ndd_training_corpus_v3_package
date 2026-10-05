@@ -1,0 +1,1061 @@
+{
+  "title": "SCN5A response to veratridine+brevetoxin+ouabain mixture",
+  "methodText": "Variant scores were calculated by taking the frequency of all barcode counts for each variant and taking the $log_10\\left(\\frac{f_d}{f_i}\\right)$ where $f_d$ is the frequency post-drug challenge and $f_i$ is the frequency in the initial library. These scores were averaged across the 6 replicates and linearly rescaled such that the mean nonsense variants score was 0 and the mean synonymous variant score was 100. The 95% confidence interval was calculated using the replicate measurements.\r\n\r\nVariants with a score and 95% confidence interval falling completely within, above, or below the target sequence 95% confidence interval were considered wild-type-like, gain-of-function, or loss-of-function, respectively.",
+  "abstractText": "Deep mutational scan of 12 amino acids in voltage-sensing helix 4 of human SCN5A, screened for functional protein by challenging HEK293T cells with drug mixture of veratridine+brevetoxin+ouabain.",
+  "shortDescription": "Deep mutational scan of human SCN5A by measuring response to veratridine+brevetoxin+ouabain drugs.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000098-a-2",
+  "numVariants": 252,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "supersededScoreSet": {
+    "urn": "urn:mavedb:00000098-a-1",
+    "title": "SCN5A response to veratridine+brevetoxin+ouabain mixture",
+    "recordType": "ShorterScoreSet"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "31928070",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Deep Mutational Scan of an SCN5A Voltage Sensor.",
+      "authors": [
+        {
+          "name": "Glazer, Andrew M",
+          "primary": true
+        },
+        {
+          "name": "Kroncke, Brett M",
+          "primary": false
+        },
+        {
+          "name": "Matreyek, Kenneth A",
+          "primary": false
+        },
+        {
+          "name": "Yang, Tao",
+          "primary": false
+        },
+        {
+          "name": "Wada, Yuko",
+          "primary": false
+        },
+        {
+          "name": "Shields, Tiffany",
+          "primary": false
+        },
+        {
+          "name": "Salem, Joe-Elie",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Roden, Dan M",
+          "primary": false
+        }
+      ],
+      "abstract": "BACKGROUND: Variants in ion channel genes have classically been studied in low throughput by patch clamping. Deep mutational scanning is a complementary approach that can simultaneously assess function of thousands of variants.\nMETHODS: We have developed and validated a method to perform a deep mutational scan of variants in \nRESULTS: In preliminary experiments, challenge with 3 drugs (veratridine, brevetoxin, and ouabain) could discriminate wild-type channels from gain- and loss-of-function pathogenic variants. High-throughput sequencing of the pre- and postdrug challenge pools was used to count the prevalence of each variant and identify variants with abnormal function. The deep mutational scan scores identified 40 putative gain-of-function and 33 putative loss-of-function variants. For 8 of 9 variants, patch clamping data were consistent with the scores.\nCONCLUSIONS: These experiments demonstrate the accuracy of a high-throughput in vitro scan of ",
+      "doi": "10.1161/CIRCGEN.119.002786",
+      "publicationYear": 2020,
+      "publicationJournal": "Circ Genom Precis Med",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/31928070",
+      "referenceHtml": "Glazer AM, <i>et al</i>. Deep Mutational Scan of an SCN5A Voltage Sensor. Deep Mutational Scan of an SCN5A Voltage Sensor. 2020; 13:e002786. doi: 10.1161/CIRCGEN.119.002786",
+      "id": 76
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2025-10-22",
+  "creationDate": "2025-10-21",
+  "modificationDate": "2026-06-02",
+  "createdBy": {
+    "orcidId": "0000-0002-7565-2463",
+    "firstName": "Jeremy",
+    "lastName": "Stone",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-7565-2463",
+    "firstName": "Jeremy",
+    "lastName": "Stone",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "SCN5A",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "Q14524",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/Q14524"
+          },
+          "offset": 1620,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 7798,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "protein",
+        "sequence": "LFRVIRLARIGR",
+        "label": "SCN5A",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "SCN5A",
+      "uniprotIdFromMappedMetadata": "Q14524"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "se",
+      "ci_lower",
+      "ci_upper",
+      "variant_classification"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [
+    {
+      "orcidId": "0000-0003-1474-605X",
+      "recordType": "Contributor",
+      "givenName": "Alan",
+      "familyName": "Rubin"
+    }
+  ],
+  "scoreCalibrations": [
+    {
+      "title": "Investigator-provided functional classes",
+      "researchUseOnly": false,
+      "baselineScore": 100.0,
+      "functionalClassifications": [
+        {
+          "label": "LOF",
+          "functionalClassification": "abnormal",
+          "class": "LOF",
+          "id": 5019,
+          "recordType": "FunctionalClassification",
+          "variantCount": 33
+        },
+        {
+          "label": "possiblyLOF",
+          "functionalClassification": "abnormal",
+          "class": "possiblyLOF",
+          "id": 5020,
+          "recordType": "FunctionalClassification",
+          "variantCount": 51
+        },
+        {
+          "label": "possiblyWT",
+          "functionalClassification": "normal",
+          "class": "possiblyWT",
+          "id": 5021,
+          "recordType": "FunctionalClassification",
+          "variantCount": 81
+        },
+        {
+          "label": "WT",
+          "functionalClassification": "normal",
+          "class": "WT",
+          "id": 5022,
+          "recordType": "FunctionalClassification",
+          "variantCount": 29
+        },
+        {
+          "label": "possiblyGOF",
+          "functionalClassification": "not_specified",
+          "class": "possiblyGOF",
+          "id": 5023,
+          "recordType": "FunctionalClassification",
+          "variantCount": 14
+        },
+        {
+          "label": "GOF",
+          "functionalClassification": "not_specified",
+          "class": "GOF",
+          "id": 5024,
+          "recordType": "FunctionalClassification",
+          "variantCount": 40
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "31928070",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Deep Mutational Scan of an SCN5A Voltage Sensor.",
+          "authors": [
+            {
+              "name": "Glazer, Andrew M",
+              "primary": true
+            },
+            {
+              "name": "Kroncke, Brett M",
+              "primary": false
+            },
+            {
+              "name": "Matreyek, Kenneth A",
+              "primary": false
+            },
+            {
+              "name": "Yang, Tao",
+              "primary": false
+            },
+            {
+              "name": "Wada, Yuko",
+              "primary": false
+            },
+            {
+              "name": "Shields, Tiffany",
+              "primary": false
+            },
+            {
+              "name": "Salem, Joe-Elie",
+              "primary": false
+            },
+            {
+              "name": "Fowler, Douglas M",
+              "primary": false
+            },
+            {
+              "name": "Roden, Dan M",
+              "primary": false
+            }
+          ],
+          "abstract": "BACKGROUND: Variants in ion channel genes have classically been studied in low throughput by patch clamping. Deep mutational scanning is a complementary approach that can simultaneously assess function of thousands of variants.\nMETHODS: We have developed and validated a method to perform a deep mutational scan of variants in \nRESULTS: In preliminary experiments, challenge with 3 drugs (veratridine, brevetoxin, and ouabain) could discriminate wild-type channels from gain- and loss-of-function pathogenic variants. High-throughput sequencing of the pre- and postdrug challenge pools was used to count the prevalence of each variant and identify variants with abnormal function. The deep mutational scan scores identified 40 putative gain-of-function and 33 putative loss-of-function variants. For 8 of 9 variants, patch clamping data were consistent with the scores.\nCONCLUSIONS: These experiments demonstrate the accuracy of a high-throughput in vitro scan of ",
+          "doi": "10.1161/CIRCGEN.119.002786",
+          "publicationYear": 2020,
+          "publicationJournal": "Circ Genom Precis Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31928070",
+          "referenceHtml": "Glazer AM, <i>et al</i>. Deep Mutational Scan of an SCN5A Voltage Sensor. Deep Mutational Scan of an SCN5A Voltage Sensor. 2020; 13:e002786. doi: 10.1161/CIRCGEN.119.002786",
+          "id": 76
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 829,
+      "urn": "urn:mavedb:calibration-61a7cb30-1d62-4777-a82b-157d21987e86",
+      "scoreSetId": 4360,
+      "investigatorProvided": true,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "0000-0002-7565-2463",
+        "firstName": "Jeremy",
+        "lastName": "Stone",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0002-7565-2463",
+        "firstName": "Jeremy",
+        "lastName": "Stone",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2026-02-22"
+    },
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: Missense Variants Only",
+      "researchUseOnly": false,
+      "baselineScore": 100.0,
+      "functionalClassifications": [
+        {
+          "label": "LOF",
+          "functionalClassification": "abnormal",
+          "class": "LOF",
+          "id": 5031,
+          "recordType": "FunctionalClassification",
+          "variantCount": 33
+        },
+        {
+          "label": "possiblyLOF",
+          "functionalClassification": "abnormal",
+          "class": "possiblyLOF",
+          "id": 5032,
+          "recordType": "FunctionalClassification",
+          "variantCount": 51
+        },
+        {
+          "label": "possiblyWT",
+          "functionalClassification": "normal",
+          "class": "possiblyWT",
+          "id": 5033,
+          "recordType": "FunctionalClassification",
+          "variantCount": 81
+        },
+        {
+          "label": "WT",
+          "functionalClassification": "normal",
+          "class": "WT",
+          "id": 5034,
+          "recordType": "FunctionalClassification",
+          "variantCount": 29
+        },
+        {
+          "label": "possiblyGOF",
+          "functionalClassification": "not_specified",
+          "class": "possiblyGOF",
+          "id": 5035,
+          "recordType": "FunctionalClassification",
+          "variantCount": 14
+        },
+        {
+          "label": "GOF",
+          "functionalClassification": "not_specified",
+          "class": "GOF",
+          "id": 5036,
+          "recordType": "FunctionalClassification",
+          "variantCount": 40
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "31928070",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Deep Mutational Scan of an SCN5A Voltage Sensor.",
+          "authors": [
+            {
+              "name": "Glazer, Andrew M",
+              "primary": true
+            },
+            {
+              "name": "Kroncke, Brett M",
+              "primary": false
+            },
+            {
+              "name": "Matreyek, Kenneth A",
+              "primary": false
+            },
+            {
+              "name": "Yang, Tao",
+              "primary": false
+            },
+            {
+              "name": "Wada, Yuko",
+              "primary": false
+            },
+            {
+              "name": "Shields, Tiffany",
+              "primary": false
+            },
+            {
+              "name": "Salem, Joe-Elie",
+              "primary": false
+            },
+            {
+              "name": "Fowler, Douglas M",
+              "primary": false
+            },
+            {
+              "name": "Roden, Dan M",
+              "primary": false
+            }
+          ],
+          "abstract": "BACKGROUND: Variants in ion channel genes have classically been studied in low throughput by patch clamping. Deep mutational scanning is a complementary approach that can simultaneously assess function of thousands of variants.\nMETHODS: We have developed and validated a method to perform a deep mutational scan of variants in \nRESULTS: In preliminary experiments, challenge with 3 drugs (veratridine, brevetoxin, and ouabain) could discriminate wild-type channels from gain- and loss-of-function pathogenic variants. High-throughput sequencing of the pre- and postdrug challenge pools was used to count the prevalence of each variant and identify variants with abnormal function. The deep mutational scan scores identified 40 putative gain-of-function and 33 putative loss-of-function variants. For 8 of 9 variants, patch clamping data were consistent with the scores.\nCONCLUSIONS: These experiments demonstrate the accuracy of a high-throughput in vitro scan of ",
+          "doi": "10.1161/CIRCGEN.119.002786",
+          "publicationYear": 2020,
+          "publicationJournal": "Circ Genom Precis Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31928070",
+          "referenceHtml": "Glazer AM, <i>et al</i>. Deep Mutational Scan of an SCN5A Voltage Sensor. Deep Mutational Scan of an SCN5A Voltage Sensor. 2020; 13:e002786. doi: 10.1161/CIRCGEN.119.002786",
+          "id": 76
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 831,
+      "urn": "urn:mavedb:calibration-5e9d96d6-63bb-43a9-81aa-07f7085d2448",
+      "scoreSetId": 4360,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0002-7565-2463",
+        "firstName": "Jeremy",
+        "lastName": "Stone",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2026-02-22"
+    },
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: All Variants",
+      "researchUseOnly": false,
+      "baselineScore": 100.0,
+      "functionalClassifications": [
+        {
+          "label": "LOF",
+          "functionalClassification": "abnormal",
+          "class": "LOF",
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 3.5,
+          "id": 5025,
+          "recordType": "FunctionalClassification",
+          "variantCount": 33
+        },
+        {
+          "label": "possiblyLOF",
+          "functionalClassification": "abnormal",
+          "class": "possiblyLOF",
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 3.5,
+          "id": 5026,
+          "recordType": "FunctionalClassification",
+          "variantCount": 51
+        },
+        {
+          "label": "possiblyWT",
+          "functionalClassification": "normal",
+          "class": "possiblyWT",
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "MODERATE",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 0.125,
+          "id": 5027,
+          "recordType": "FunctionalClassification",
+          "variantCount": 81
+        },
+        {
+          "label": "WT",
+          "functionalClassification": "normal",
+          "class": "WT",
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "MODERATE",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 0.125,
+          "id": 5028,
+          "recordType": "FunctionalClassification",
+          "variantCount": 29
+        },
+        {
+          "label": "possiblyGOF",
+          "functionalClassification": "not_specified",
+          "class": "possiblyGOF",
+          "id": 5029,
+          "recordType": "FunctionalClassification",
+          "variantCount": 14
+        },
+        {
+          "label": "GOF",
+          "functionalClassification": "not_specified",
+          "class": "GOF",
+          "id": 5030,
+          "recordType": "FunctionalClassification",
+          "variantCount": 40
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "31928070",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Deep Mutational Scan of an SCN5A Voltage Sensor.",
+          "authors": [
+            {
+              "name": "Glazer, Andrew M",
+              "primary": true
+            },
+            {
+              "name": "Kroncke, Brett M",
+              "primary": false
+            },
+            {
+              "name": "Matreyek, Kenneth A",
+              "primary": false
+            },
+            {
+              "name": "Yang, Tao",
+              "primary": false
+            },
+            {
+              "name": "Wada, Yuko",
+              "primary": false
+            },
+            {
+              "name": "Shields, Tiffany",
+              "primary": false
+            },
+            {
+              "name": "Salem, Joe-Elie",
+              "primary": false
+            },
+            {
+              "name": "Fowler, Douglas M",
+              "primary": false
+            },
+            {
+              "name": "Roden, Dan M",
+              "primary": false
+            }
+          ],
+          "abstract": "BACKGROUND: Variants in ion channel genes have classically been studied in low throughput by patch clamping. Deep mutational scanning is a complementary approach that can simultaneously assess function of thousands of variants.\nMETHODS: We have developed and validated a method to perform a deep mutational scan of variants in \nRESULTS: In preliminary experiments, challenge with 3 drugs (veratridine, brevetoxin, and ouabain) could discriminate wild-type channels from gain- and loss-of-function pathogenic variants. High-throughput sequencing of the pre- and postdrug challenge pools was used to count the prevalence of each variant and identify variants with abnormal function. The deep mutational scan scores identified 40 putative gain-of-function and 33 putative loss-of-function variants. For 8 of 9 variants, patch clamping data were consistent with the scores.\nCONCLUSIONS: These experiments demonstrate the accuracy of a high-throughput in vitro scan of ",
+          "doi": "10.1161/CIRCGEN.119.002786",
+          "publicationYear": 2020,
+          "publicationJournal": "Circ Genom Precis Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31928070",
+          "referenceHtml": "Glazer AM, <i>et al</i>. Deep Mutational Scan of an SCN5A Voltage Sensor. Deep Mutational Scan of an SCN5A Voltage Sensor. 2020; 13:e002786. doi: 10.1161/CIRCGEN.119.002786",
+          "id": 76
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 833,
+      "urn": "urn:mavedb:calibration-4f8daf84-e74b-439a-a2bb-0566902883dd",
+      "scoreSetId": 4360,
+      "investigatorProvided": false,
+      "primary": true,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0002-7565-2463",
+        "firstName": "Jeremy",
+        "lastName": "Stone",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2026-02-22"
+    },
+    {
+      "title": "ExCALIBR calibration",
+      "researchUseOnly": true,
+      "thresholdSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "evidenceSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "methodSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "calibrationMetadata": {
+        "prior_probability_pathogenicity": 0.8718578288
+      },
+      "recordType": "ScoreCalibration",
+      "id": 2344,
+      "urn": "urn:mavedb:calibration-4898f94e-cd05-4a64-b368-7ac863587a63",
+      "scoreSetId": 4360,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2026-02-24",
+      "modificationDate": "2026-02-24"
+    }
+  ],
+  "experiment": {
+    "title": "SCN5A response to veratridine+brevetoxin+ouabain mixture",
+    "shortDescription": "Deep mutational scan of human SCN5A by measuring response to veratridine+brevetoxin+ouabain drugs.",
+    "abstractText": "Deep mutational scan of 12 amino acids in voltage-sensing helix 4 of human SCN5A, screened for functional protein by challenging HEK293T cells with drug mixture of veratridine+brevetoxin+ouabain.",
+    "methodText": "Comprehensive mutagenesis of the 12-amino-acid region (1621-1632aa) of the voltage-sensing helix 4 of human SCN5A, using inverse polymerase chain reaction with degenerate primers. Inserted 18-mer random barcodes into the plasmids, resulting in 7205 unique barcoded plasmids.\r\n\r\nMutants were screened transformed into HEK293T cells and selected for functional protein by challenging cells with a drug mixture of veratridine+brevetoxin+ouabain. The relative function under drugs of 253 mutations were measured. Six replicates were performed.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000098-a",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2022-07-28",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2022-07-28",
+    "experimentSetUrn": "urn:mavedb:00000098",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "31928070",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Deep Mutational Scan of an SCN5A Voltage Sensor.",
+        "authors": [
+          {
+            "name": "Glazer, Andrew M",
+            "primary": true
+          },
+          {
+            "name": "Kroncke, Brett M",
+            "primary": false
+          },
+          {
+            "name": "Matreyek, Kenneth A",
+            "primary": false
+          },
+          {
+            "name": "Yang, Tao",
+            "primary": false
+          },
+          {
+            "name": "Wada, Yuko",
+            "primary": false
+          },
+          {
+            "name": "Shields, Tiffany",
+            "primary": false
+          },
+          {
+            "name": "Salem, Joe-Elie",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Roden, Dan M",
+            "primary": false
+          }
+        ],
+        "abstract": "BACKGROUND: Variants in ion channel genes have classically been studied in low throughput by patch clamping. Deep mutational scanning is a complementary approach that can simultaneously assess function of thousands of variants.\nMETHODS: We have developed and validated a method to perform a deep mutational scan of variants in \nRESULTS: In preliminary experiments, challenge with 3 drugs (veratridine, brevetoxin, and ouabain) could discriminate wild-type channels from gain- and loss-of-function pathogenic variants. High-throughput sequencing of the pre- and postdrug challenge pools was used to count the prevalence of each variant and identify variants with abnormal function. The deep mutational scan scores identified 40 putative gain-of-function and 33 putative loss-of-function variants. For 8 of 9 variants, patch clamping data were consistent with the scores.\nCONCLUSIONS: These experiments demonstrate the accuracy of a high-throughput in vitro scan of ",
+        "doi": "10.1161/CIRCGEN.119.002786",
+        "publicationYear": 2020,
+        "publicationJournal": "Circ Genom Precis Med",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/31928070",
+        "referenceHtml": "Glazer AM, <i>et al</i>. Deep Mutational Scan of an SCN5A Voltage Sensor. Deep Mutational Scan of an SCN5A Voltage Sensor. 2020; 13:e002786. doi: 10.1161/CIRCGEN.119.002786",
+        "id": 76
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+      {
+        "keyword": {
+          "key": "Delivery Method",
+          "label": "Chemical-based transfection",
+          "special": false,
+          "description": "How the variant library was delivered to the model system for phenotype evaluation."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method Mechanism",
+          "label": "Extra-local construct insertion",
+          "special": false,
+          "description": "The mechanism for integration or expression of an exogenous construct"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method System",
+          "label": "Oligo-directed mutagenic PCR",
+          "special": false,
+          "description": "The type of method used to generate the library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Dimensionality",
+          "label": "Single-dimensional data",
+          "special": false,
+          "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Mechanism",
+          "label": "Gain or loss of function",
+          "special": false,
+          "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Model System",
+          "label": "Immortalized human cells",
+          "special": false,
+          "description": "The model system context that influences expression of the phenotype."
+        },
+        "description": "Homo sapiens (NCBI:txid9606)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Profiling Strategy",
+          "label": "Barcode sequencing",
+          "special": false,
+          "description": "The strategy used to profile the variant library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Sequencing Read Type",
+          "label": "Single-segment (short read)",
+          "special": false,
+          "description": "The sequencing method used"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Variant Library Creation Method",
+          "label": "In vitro construct library method",
+          "special": false,
+          "description": "A methodology for generating a variant library at an endogenous locus"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Method",
+          "label": "Cell fitness",
+          "special": false,
+          "description": "The assay method, defining the molecular properties interrogated."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Molecular Mechanism Assessed",
+          "label": "Monoatomic ion transport and Sodium ion transport",
+          "special": false,
+          "description": "The biological or molecular process investigated by the assay"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      }
+    ],
+    "scoreSetUrns": [
+      "urn:mavedb:00000098-a-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [
+    {
+      "badgeName": "MaveMD",
+      "name": "MaveMD",
+      "urn": "urn:mavedb:collection-603dafbf-4a3f-4d70-ab8c-aafb226fbff4",
+      "scoreSetUrns": [
+        "urn:mavedb:00000657-a-1",
+        "urn:mavedb:00000657-b-1",
+        "urn:mavedb:00000662-0-1",
+        "urn:mavedb:00001250-a-1",
+        "urn:mavedb:00001222-a-2",
+        "urn:mavedb:00001222-b-2",
+        "urn:mavedb:00000097-0-2",
+        "urn:mavedb:00001224-a-1",
+        "urn:mavedb:00001263-a-1",
+        "urn:mavedb:00001268-0-1",
+        "urn:mavedb:00001268-a-1",
+        "urn:mavedb:00001268-b-1",
+        "urn:mavedb:00001268-c-1",
+        "urn:mavedb:00001242-a-1",
+        "urn:mavedb:00000001-c-1",
+        "urn:mavedb:00001226-a-1",
+        "urn:mavedb:00001226-b-1",
+        "urn:mavedb:00000005-a-5",
+        "urn:mavedb:00000005-a-6",
+        "urn:mavedb:00001205-a-1",
+        "urn:mavedb:00001227-a-2",
+        "urn:mavedb:00001262-a-1",
+        "urn:mavedb:00001228-a-1",
+        "urn:mavedb:00001200-0-1",
+        "urn:mavedb:00001200-a-1",
+        "urn:mavedb:00001200-b-1",
+        "urn:mavedb:00001200-c-1",
+        "urn:mavedb:00001200-d-1",
+        "urn:mavedb:00001200-e-1",
+        "urn:mavedb:00001197-a-5",
+        "urn:mavedb:00001266-b-1",
+        "urn:mavedb:00000096-a-1",
+        "urn:mavedb:00000096-b-1",
+        "urn:mavedb:00000108-0-1",
+        "urn:mavedb:00000108-a-1",
+        "urn:mavedb:00000108-b-1",
+        "urn:mavedb:00001198-a-1",
+        "urn:mavedb:00000674-a-2",
+        "urn:mavedb:00000674-b-1",
+        "urn:mavedb:00000674-c-1",
+        "urn:mavedb:00001230-a-2",
+        "urn:mavedb:00001229-a-2",
+        "urn:mavedb:00001231-a-2",
+        "urn:mavedb:00000094-a-2",
+        "urn:mavedb:00000094-a-3",
+        "urn:mavedb:00001254-a-1",
+        "urn:mavedb:00000050-a-1",
+        "urn:mavedb:00000663-a-1",
+        "urn:mavedb:00000112-a-1",
+        "urn:mavedb:00001259-a-1",
+        "urn:mavedb:00000665-a-1",
+        "urn:mavedb:00000665-b-1",
+        "urn:mavedb:00000665-c-1",
+        "urn:mavedb:00000665-d-1",
+        "urn:mavedb:00000013-a-1",
+        "urn:mavedb:00000054-a-1",
+        "urn:mavedb:00000673-0-1",
+        "urn:mavedb:00001260-a-1",
+        "urn:mavedb:00000099-a-1",
+        "urn:mavedb:00000098-a-2",
+        "urn:mavedb:00001233-a-1",
+        "urn:mavedb:00000659-a-1",
+        "urn:mavedb:00000060-a-1",
+        "urn:mavedb:00000060-a-2",
+        "urn:mavedb:00001235-a-1",
+        "urn:mavedb:00001236-0-1",
+        "urn:mavedb:00000068-0-1",
+        "urn:mavedb:00000068-a-1",
+        "urn:mavedb:00000068-b-1",
+        "urn:mavedb:00000068-c-1",
+        "urn:mavedb:00001234-0-1",
+        "urn:mavedb:00001234-a-1",
+        "urn:mavedb:00001234-b-1",
+        "urn:mavedb:00001234-c-1",
+        "urn:mavedb:00001234-d-1",
+        "urn:mavedb:00001234-e-1",
+        "urn:mavedb:00001234-f-1",
+        "urn:mavedb:00001234-g-1",
+        "urn:mavedb:00001234-h-1",
+        "urn:mavedb:00001251-a-1",
+        "urn:mavedb:00001267-b-1",
+        "urn:mavedb:00000675-a-1",
+        "urn:mavedb:00001264-a-1",
+        "urn:mavedb:00001267-a-2"
+      ],
+      "experimentUrns": []
+    }
+  ],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

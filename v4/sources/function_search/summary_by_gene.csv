@@ -1,0 +1,11 @@
+gene,abundance,activity,binding,fitness,corpus_tasks
+ADSL,0,5,0,0,consensus
+ASPA,0,0,0,1,consensus
+BRAF,0,0,0,1,stability
+CBS,0,4,0,0,consensus|fitness
+KCNQ2,0,18,0,0,consensus
+KRAS,3,0,23,0,abundance|binding|consensus
+PAX6,0,0,4,0,consensus|stability
+PSAT1,0,0,0,1,consensus|fitness
+TSC2,4,2,0,0,consensus
+YAP1,0,0,1,0,binding|stability

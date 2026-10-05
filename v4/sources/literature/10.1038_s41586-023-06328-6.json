@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41586-023-06328-6\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37468638",
+        "source": "MED",
+        "pmid": "37468638",
+        "pmcid": "PMC10412457",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10412457"
+          ]
+        },
+        "doi": "10.1038/s41586-023-06328-6",
+        "title": "Mega-scale experimental analysis of protein folding stability in biology and design.",
+        "authorString": "Tsuboyama K, Dauparas J, Chen J, Laine E, Mohseni Behbahani Y, Weinstein JJ, Mangan NM, Ovchinnikov S, Rocklin GJ.",
+        "journalTitle": "Nature",
+        "issue": "7973",
+        "journalVolume": "620",
+        "pubYear": "2023",
+        "journalIssn": "0028-0836; 1476-4687; ",
+        "pageInfo": "434-444",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 332,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2023-07-19",
+        "firstIndexDate": "2023-07-22"
+      }
+    ]
+  }
+}

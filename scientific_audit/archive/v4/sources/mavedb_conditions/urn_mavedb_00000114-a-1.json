@@ -1,0 +1,138 @@
+{
+  "title": "Parkin (PRKN) cellular abundance",
+  "methodText": "Only the sequencing reads with an exact barcode match were counted. Scores were calculated per barcode and replicate as a simple mean of FACS bin index and averaged firstly for barcodes describing the same amino acid variant and secondly for biological and FACS replicates. Scores were normalized to nonsense and synonymous wild-type variants.",
+  "abstractText": "We used the variant abundance by massively parallel sequencing (VAMP-seq) approach to quantify the abundance of Parkin (PRKN) missense variants in cultured human cells",
+  "shortDescription": "Protein abundance scores of Parkin variants in human cells measured by VAMP-seq experiment",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000114-a-1",
+  "numVariants": 9220,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2023-06-08",
+  "creationDate": "2023-06-08",
+  "modificationDate": "2025-01-03",
+  "createdBy": {
+    "orcidId": "0000-0001-6054-0461",
+    "firstName": "Kristoffer En\u00f8e",
+    "lastName": "Johansson",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0001-6054-0461",
+    "firstName": "Kristoffer En\u00f8e",
+    "lastName": "Johansson",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "PRKN",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "RefSeq",
+            "identifier": "NM_004562",
+            "recordType": "ExternalGeneIdentifier"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        },
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "O60260",
+            "recordType": "ExternalGeneIdentifier"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 600,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGATCGTGTTTGTGCGCTTCAACAGCTCCCACGGCTTTCCAGTGGAGGTGGACTCTGATACCAGCATCTTCCAGCTGAAGGAGGTGGTGGCAAAGAGGCAGGGAGTGCCAGCCGACCAGCTGAGAGTGATCTTCGCCGGCAAGGAGCTGAGAAACGATTGGACAGTGCAGAATTGCGACCTGGATCAGCAGTCCATCGTGCACATCGTGCAGCGGCCCTGGAGAAAGGGACAGGAGATGAACGCAACCGGCGGCGACGATCCAAGGAATGCAGCAGGAGGATGTGAGAGGGAGCCTCAGTCTCTGACCAGAGTGGACCTGTCTAGCTCCGTGCTGCCTGGCGATAGCGTGGGCCTGGCCGTGATCCTGCACACCGACTCCAGGAAGGATTCTCCACCTGCAGGCAGCCCAGCAGGCCGGAGCATCTATAACTCCTTTTACGTGTATTGCAAGGGACCATGTCAGCGGGTGCAGCCTGGCAAGCTGAGAGTGCAGTGCAGCACCTGTAGGCAGGCCACACTGACCCTGACACAGGGCCCTTCCTGCTGGGACGATGTGCTGATCCCAAATAGAATGTCTGGCGAGTGCCAGAGCCCTCACTGTCCAGGCACATCCGCCGAGTTCTTTTTCAAGTGTGGCGCCCACCCCACCTCCGACAAGGAGACATCTGTGGCCCTGCACCTGATCGCCACCAACTCTCGGAATATCACATGCATCACCTGTACAGACGTGAGATCTCCTGTGCTGGTGTTTCAGTGCAACAGCAGGCACGTGATCTGCCTGGATTGTTTCCACCTGTATTGCGTGACCAGGCTGAATGACCGCCAGTTTGTGCACGATCCACAGCTGGGATACTCCCTGCCATGCGTGGCAGGATGTCCCAACTCTCTGATCAAGGAGCTGCACCACTTCAGGATCCTGGGCGAGGAGCAGTACAATCGCTATCAGCAGTACGGAGCAGAGGAGTGCGTGCTGCAGATGGGAGGCGTGCTGTGCCCACGCCCCGGCTGTGGAGCAGGCCTGCTGCCTGAGCCAGACCAGAGGAAGGTGACCTGCGAGGGAGGAAACGGCCTGGGATGTGGATTTGCCTTCTGCCGGGAGTGTAAGGAGGCCTATCACGAGGGCGAGTGCAGCGCCGTGTTTGAGGCATCCGGAACCACAACCCAGGCATACAGGGTGGATGAGAGAGCAGCAGAGCAGGCAAGATGGGAGGCAGCATCCAAGGAGACAATCAAGAAGACAACCAAGCCCTGCCCTAGGTGTCACGTGCCTGTGGAGAAGAATGGCGGCTGCATGCACATGAAGTGTCCACAGCCCCAGTGCAGACTGGAGTGGTGTTGGAACTGCGGCTGTGAGTGGAATAGGGTGTGCATGGGCGACCACTGGTTCGATGTG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "uniprotIdFromMappedMetadata": "O60260"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "barcodes",
+      "score",
+      "std"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Parkin (PRKN) cellular abundance",
+    "shortDescription": "Protein abundance scores of Parkin variants in human cells measured by VAMP-seq experiment",
+    "abstractText": "Only the sequencing reads with an exact barcode match were counted. Scores were calculated per barcode and replicate as a simple mean of FACS bin index and averaged firstly for barcodes describing the same amino acid variant and secondly for biological and FACS replicates. Scores were normalized to nonsense and synonymous wild-type variants.\n",
+    "methodText": "A site-saturation library of codon optimized human parkin were custom synthesized and barcoded. A variant-barcode map was made from long-read sequencing. Constructs of PRKN variants fused to GFP and an IRES-mCherry expression control were integrated into a HEK293T landing pad cell line. Each of four biological replicates were FACS sorted in three replicates and each of the four sorted bins were sequenced in two replicates.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000114-a",
+    "createdBy": {
+      "orcidId": "0000-0001-6054-0461",
+      "firstName": "Kristoffer En\u00f8e",
+      "lastName": "Johansson",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0001-6054-0461",
+      "firstName": "Kristoffer En\u00f8e",
+      "lastName": "Johansson",
+      "recordType": "User"
+    },
+    "creationDate": "2023-06-05",
+    "modificationDate": "2023-06-08",
+    "publishedDate": "2023-06-08",
+    "experimentSetUrn": "urn:mavedb:00000114",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000114-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "incomplete",
+  "mappingState": "complete"
+}

@@ -1,0 +1,17 @@
+# TYK2 (P29597) - role: contrast
+
+Best pair shares **22513** WT-verified missense substitutions on UniProt coordinates.
+
+## Assay 1: proposed task `abundance` (REVIEW REQUIRED)
+- URN: urn:mavedb:00001271-a-1 | license: CC0 | published: 2026-03-03
+- Title: TYK2-VampDMS
+- Experiment: Deep mutational scanning of >23,000 single amino acid substitutions across TYK2, measuring variant effects on IFN-α signaling and protein abundance in engineered HEK293T cells with and without pharmacological inhibition. (urn:mavedb:00001271-a)
+- Variants: 23698 listed, 22516 mapped missense, 0 WT mismatches, offset 0, target len 1187
+- Method: Variant library construction: The TYK2 coding sequence (UniProt: P29597) was divided into 17 sub-libraries of ~210 bp each. Pools of ~270 bp DNA oligos (Twist Bioscience) encoding every possible single amino acid substitution were synthesized. DNA barcodes were appended to variant alleles during initial amplification, and variant-barcode linked amplicons were cloned into sub-library-specific destination plasmids. A second cloning step integrated the full reporter cassette between the variant allele and barcode. Libraries were co-transfected with Bxb1 recombinase into engineered HEK293T cells and selected with 10 µg/mL Blasticidin for ~14 days, yielding a library of HEK293T cells each containing a single TYK2 allele-barcode combination integrated in single copy at the H11 safe harbor locus. Tyrosine Kinase 2 (TYK2) is a genetically defined target for autoimmune disease, with first-generation inhibitors showing clinical success in some but not all associated indications. To build a deeper understanding of TYK2 structure-function, protein-ligand interactions, and the impact of human variants, Deep Mutational Scanning (DMS) was applied to assess >23,000 amino acid substitutions across t
+
+## Assay 2: proposed task `activity` (REVIEW REQUIRED)
+- URN: urn:mavedb:00001270-a-1 | license: CC0 | published: 2026-03-03
+- Title: TYK2-DMS: IFN-alpha, 1U/mL
+- Experiment: Deep mutational scanning reveals pharmacologically relevant insights into TYK2 signaling and disease (urn:mavedb:00001270-a)
+- Variants: 23723 listed, 22536 mapped missense, 0 WT mismatches, offset 0, target len 1187
+- Method: **Variant library construction**: The TYK2 coding sequence (UniProt: P29597) was divided into 17 sub-libraries of ~210 bp each. Pools of ~270 bp DNA oligos (Twist Bioscience) encoding every possible single amino acid substitution were synthesized. DNA barcodes were appended to variant alleles during initial amplification, and variant-barcode linked amplicons were cloned into sub-library-specific destination plasmids. A second cloning step integrated the full reporter cassette between the variant allele and barcode. Libraries were co-transfected with Bxb1 recombinase into engineered HEK293T cells and selected with 10 µg/mL Blasticidin for ~14 days, yielding a library of HEK293T cells each containing a single TYK2 allele-barcode combination integrated in single copy at the H11 safe harbor lo Tyrosine Kinase 2 (TYK2) is a genetically defined target for autoimmune disease, with first-generation inhibitors showing clinical success in some but not all associated indications. To build a deeper understanding of TYK2 structure-function, protein-ligand interactions, and the impact of human variants, Deep Mutational Scanning (DMS) was applied to assess >23,000 amino acid substitutions across t

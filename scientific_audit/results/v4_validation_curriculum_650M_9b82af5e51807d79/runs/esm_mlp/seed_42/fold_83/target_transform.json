@@ -1,0 +1,32 @@
+{
+  "abundance": {
+    "center": 0.571541562931264,
+    "scale": 0.7015903991511204,
+    "genes": 14
+  },
+  "activity": {
+    "center": 0.145125149,
+    "scale": 1.124966279280949,
+    "genes": 17
+  },
+  "binding": {
+    "center": 0.0849999999999999,
+    "scale": 0.832268063700369,
+    "genes": 6
+  },
+  "consensus": {
+    "center": 0.0,
+    "scale": 1.0,
+    "genes": 22
+  },
+  "fitness": {
+    "center": 0.277686144,
+    "scale": 0.7752753076352853,
+    "genes": 25
+  },
+  "stability": {
+    "center": -0.196087329503163,
+    "scale": 0.36804684394906795,
+    "genes": 426
+  }
+}

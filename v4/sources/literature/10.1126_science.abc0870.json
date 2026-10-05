@@ -1,0 +1,61 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1126/science.abc0870\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32753553",
+        "source": "MED",
+        "pmid": "32753553",
+        "pmcid": "PMC7574912",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7574912"
+          ]
+        },
+        "doi": "10.1126/science.abc0870",
+        "title": "Engineering human ACE2 to optimize binding to the spike protein of SARS coronavirus 2.",
+        "authorString": "Chan KK, Dorosky D, Sharma P, Abbasi SA, Dye JM, Kranz DM, Herbert AS, Procko E.",
+        "journalTitle": "Science",
+        "issue": "6508",
+        "journalVolume": "369",
+        "pubYear": "2020",
+        "journalIssn": "0036-8075; 1095-9203; ",
+        "pageInfo": "1261-1265",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 563,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-08-04",
+        "firstIndexDate": "2020-08-09"
+      }
+    ]
+  }
+}

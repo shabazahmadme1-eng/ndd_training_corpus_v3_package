@@ -1,0 +1,502 @@
+gene,ndd_verified,evidence_basis,panelapp_confidence,panelapp_version,panelapp_phenotypes,inheritance,ddg2p_ids,ddg2p_diseases,mechanisms,evidence_date
+ABL1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+ABLIM3,0,not_verified_by_selected_rule,,,,,,,,
+ACE2,0,not_verified_by_selected_rule,1,11.31,Intellectual disability,Unknown,,,,2026-09-19
+ADAR,1,PanelApp285_green,3,11.31,"Aicardi-Goutieres syndrome 6, OMIM:615010|Dyschromatosis symmetrica hereditaria, OMIM:127400","BOTH monoallelic and biallelic, autosomal or pseudoautosomal",,,,2026-09-19
+ADARB1,1,PanelApp285_green,3,11.31,"Neurodevelopmental disorder with hypotonia, microcephaly, and seizures, 618862","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+ADNP,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"MENTAL RETARDATION, AUTOSOMAL DOMINANT, 28|MRD28","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01021,ADNP-related neurodevelopmental disorder (Helsmoortel-Van der Aa Syndrome),loss of function,2026-09-19
+ADRB2,0,not_verified_by_selected_rule,,,,,,,,
+ADSL,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"ade(-)I bifunctional Adenylosuccinase deficiency, 103050|ADENYLOSUCCINASE DEFICIENCY (ADSL DEFICIENCY)","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00673,ADSL-related adenylosuccinase deficiency,undetermined,2026-09-19
+AHI1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,Joubert syndrome 3  608629,"BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P01653,AHI1-related Joubert syndrome,loss of function,2026-09-19
+AICDA,0,not_verified_by_selected_rule,,,,,,,,
+AIRE,0,not_verified_by_selected_rule,2,11.31,"Autoimmune polyendocrinopathy syndrome , type I, with or without reversible metaphyseal dysplasia, OMIM:240300|autoimmune polyendocrine syndrome type 1, MONDO:0009411","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+ALX1,1,DDG2P_NDD_phenotype,1,11.31,?Frontonasal dysplasia 3 613456,"BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00429,ALX1-related frontonasal dysplasia,loss of function,2026-09-19
+ALX3,1,DDG2P_NDD_phenotype,2,11.31,Gene2Phenotype confirmed gene with ID HPO,"BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P01052,ALX3-related frontonasal dysplasia,loss of function,2026-09-19
+ALX4,0,not_verified_by_selected_rule,2,11.31,"Parietal foramina|Parietal foramina 2, (AD), 609597|Frontonasal dysplasia 2, (AR), 613451","BOTH monoallelic and biallelic, autosomal or pseudoautosomal",,,,2026-09-19
+AMFR,1,DDG2P_NDD_phenotype,,11.31,,biallelic_autosomal,G2P03504,AMFR-related spastic paraplegia with or without neurodevelopmental delay,loss of function,2026-09-19
+ANK1,0,not_verified_by_selected_rule,,,,,,,,
+ANK2,1,PanelApp285_green,3,11.31,"Complex neurodevelopmental disorder, MONDO:0100038","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+ANK3,1,PanelApp285_green,3,11.31,"Intellectual developmental disorder, autosomal recessive 37, OMIM:615493|intellectual disability-hypotonia-spasticity-sleep disorder syndrome, MONDO:0014210","BOTH monoallelic and biallelic, autosomal or pseudoautosomal",,,,2026-09-19
+ANKS1B,0,not_verified_by_selected_rule,2,11.31,"complex neurodevelopmental disorder, MONDO:0100038","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+ANKS6,0,not_verified_by_selected_rule,,,,,,,,
+APP,0,not_verified_by_selected_rule,,,,,,,,
+AR,0,not_verified_by_selected_rule,1,11.31,"Androgen insensitivity, OMIM:300068|Androgen insensitivity, partial, with or without breast cancer, OMIM:312300|Hypospadias 1, X-linked, OMIM:300633|Spinal and bulbar muscular atrophy of Kennedy, OMIM:313200","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+ARAF,0,not_verified_by_selected_rule,,,,,,,,
+ARHGEF28,0,not_verified_by_selected_rule,,,,,,,,
+ARID2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 6, 617808|ARID2-Coffin-Siris like disorder","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01890,ARID2-related Coffin-Siris like disorder,loss of function,2026-09-19
+ARK2C,0,not_verified_by_selected_rule,,,,,,,,
+ARX,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Epileptic encephalopathy, early infantile, 1, 308350Lissencephaly, X-linked 2, 300215Mental retardation, X-linked 29 and others, 300419Proud syndrome, 300004Partington syndrome, 309510Hydranencephaly with abnormal genitalia, 300215|MENTAL RETARDATION X-LINKED ARX-RELATED (MRXARX)","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P00062,ARX-related neurodevelopmental spectrum including lissencephaly with genital anomalies and epilepsy to non-syndromic intellectual disability,loss of function,2026-09-19
+ASB14,0,not_verified_by_selected_rule,,,,,,,,
+ASPA,1,PanelApp285_green,3,11.31,"Canavan disease, 271900|CANAVAN DISEASE","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+ASPM,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Microcephaly 5, primary, autosomal recessive, OMIM:608716","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00459,ASPM-related pirmary microcephaly,loss of function,2026-09-19
+ASZ1,0,not_verified_by_selected_rule,,,,,,,,
+ATXN7,0,not_verified_by_selected_rule,1,11.31,"Spinocerebellar ataxia 7, OMIM:164500",Other,,,,2026-09-19
+AVIL,0,not_verified_by_selected_rule,,,,,,,,
+BAG3,0,not_verified_by_selected_rule,,,,,,,,
+BAG5,0,not_verified_by_selected_rule,,,,,,,,
+BAZ2B,1,PanelApp285_green,3,11.31,"neurodevelopmental disorder, MONDO:0700092|intellectual disability, MONDO:0001071","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+BCL2L11,0,not_verified_by_selected_rule,,,,,,,,
+BLK,0,not_verified_by_selected_rule,,,,,,,,
+BPTF,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental disorder with dysmorphic facies and distal limb anomalies, 617755|intellectual disability","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02369,"BPTF-related developmental and speech delay, postnatal microcephaly, and dysmorphic features",loss of function,2026-09-19
+BRAF,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Melanoma, malignant, somaticColorectal cancer, somaticAdenocarcinoma of lung, somatic, 211980Nonsmall cell lung cancer, somaticCardiofaciocutaneous syndrome, 115150Noonan syndrome 7, 613706LEOPARD syndrome 3, 613707|NOONAN SYNDROME TYPE 7 (NS7)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00833,BRAF-related cardiofaciocutaneous syndrome,gain of function,2026-09-19
+BRCA1,0,not_verified_by_selected_rule,1,11.31,"{Breast-ovarian cancer, familial, 1} 604370 autosomal dominant|{Pancreatic cancer, susceptibility to, 4} 614320 autosomal dominant|intellectual disability recessive","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+BRCA2,0,not_verified_by_selected_rule,1,11.31,"Fanconi anemia, complementation group D1, OMIM:605724","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+BRD4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Cornelia de Lange syndrome 6, OMIM:620568","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02656,BRD4-related Cornelia de Lange-like syndrome,loss of function,2026-09-19
+BTK,0,not_verified_by_selected_rule,1,11.31,"Agammaglobulinemia and isolated hormone deficiency 307200|Agammaglobulinemia, X-linked 1 300755","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+CABP2,0,not_verified_by_selected_rule,,,,,,,,
+CALM1,0,not_verified_by_selected_rule,,,,,,,,
+CALML4,0,not_verified_by_selected_rule,,,,,,,,
+CAPN15,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Oculogastrointestinal neurodevelopmental syndrome, OMIM:619318","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P03777,CAPN15-related oculogastrointestinal neurodevelopmental syndrome,loss of function,2026-09-19
+CARD11,0,not_verified_by_selected_rule,,,,,,,,
+CASK,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation and microcephaly with pontine and cerebellar hypoplasia, 300749FG syndrome 4, 300422Mental retardation, with or without nystagmus, 300422|MENTAL RETARDATION X-LINKED CASK-RELATED (MRXCASK)","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_hemizygous|monoallelic_X_heterozygous",G2P00495|G2P01604,"CASK-related intellectual developmental disorder|CASK-related intellectual developmental disorder, with or without nystagmus",loss of function|undetermined,2026-09-19
+CASP3,0,not_verified_by_selected_rule,,,,,,,,
+CASP7,0,not_verified_by_selected_rule,,,,,,,,
+CBL,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia, 613563|NOONAN SYNDROME-LIKE DISORDER WITH OR WITHOUT JUVENILE MEYLOMONOCYTIC LEUKEMIA","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00036,CBL-related Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia,gain of function,2026-09-19
+CBS,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Homocystinuria, B6-responsive and nonresponsive types, 236200|Thrombosis, hyperhomocysteinemic, 236200|CYSTATHIONINE BETA-SYNTHASE DEFICIENCY (CBSD)","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00828,CBS-related homocystinuria due to cystathionine beta-synthase deficiency,loss of function,2026-09-19
+CBX4,0,not_verified_by_selected_rule,,,,,,,,
+CBX5,0,not_verified_by_selected_rule,,,,,,,,
+CCAR1,0,not_verified_by_selected_rule,,,,,,,,
+CCNF,0,not_verified_by_selected_rule,,,,,,,,
+CCR5,0,not_verified_by_selected_rule,,,,,,,,
+CD19,0,not_verified_by_selected_rule,,,,,,,,
+CD2AP,0,not_verified_by_selected_rule,,,,,,,,
+CHD3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Global developmental delay|Intellectual disability|Macrocephaly|Snijders Blok-Campeau syndrome, 618205","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02440,CHD3-related macrocephaly and impaired speech and language,undetermined,2026-09-19
+CHD4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,Sifrim-Hitz-Weiss syndrome OMIM:617159|Sifrim-Hitz-Weiss syndrome MONDO:0014946,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01765,CHD4-related syndromic intellectual disability with or without congenital heart disease,loss of function,2026-09-19
+CHD5,1,PanelApp285_green,3,11.31,"Parenti-Mignot neurodevelopmental syndrome, OMIM:610771|Intellectual disability, MONDO:0001071|Epilepsy, MONDO:0005027","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+CHD7,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"CHARGE syndrome, 214800{Scoliosis, idiopathic 3}, 608765Hypogonadotropic hypogonadism 5 with or without anosmia, 612370|KALLMANN SYNDROME TYPE 5 (KAL5)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01399,CHD7-related CHARGE syndrome,loss of function,2026-09-19
+CIDEB,0,not_verified_by_selected_rule,,,,,,,,
+CKS1B,0,not_verified_by_selected_rule,,,,,,,,
+CNKSR2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Intellectual developmental disorder, X-linked, syndromic, Houge type, OMIM:301008|intellectual disability, X-linked, syndromic, Houge type, MONDO:0030909","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P01148,CNKSR2-related intellectual disability with epilepsy,loss of function,2026-09-19
+CPA2,0,not_verified_by_selected_rule,,,,,,,,
+CPEB2,0,not_verified_by_selected_rule,,,,,,,,
+CRX,0,not_verified_by_selected_rule,1,11.31,"Cone-rod retinal dystrophy-2, 120970|Leber congenital|amaurosis 7, 613829","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYBA1,0,not_verified_by_selected_rule,1,11.31,"Cataract 10, multiple types, 600881","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYBA4,0,not_verified_by_selected_rule,1,11.31,Cataract 23  610425,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYBB1,0,not_verified_by_selected_rule,1,11.31,"Cataract 17, multiple types, 611544","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+CRYBB2,0,not_verified_by_selected_rule,1,11.31,"Cataract 3, multiple types, 601547","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYBG2,0,not_verified_by_selected_rule,,,,,,,,
+CRYGA,0,not_verified_by_selected_rule,,,,,,,,
+CRYGB,0,not_verified_by_selected_rule,,,,,,,,
+CRYGC,0,not_verified_by_selected_rule,1,11.31,"Cataract 2, multiple types  604307","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYGD,0,not_verified_by_selected_rule,1,11.31,"Cataract 4, multiple types, 115700","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CRYGS,0,not_verified_by_selected_rule,,,,,,,,
+CSDE1,1,PanelApp285_green,3,11.31,Autism|Global developmental delay|Intellectual disability,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+CUL9,0,not_verified_by_selected_rule,,,,,,,,
+CUX1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Global developmental delay with or without impaired intellectual development, 618330","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02990,CUX1-related neurodevelopmental disorder,loss of function,2026-09-19
+CUX2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Developmental and epileptic encephalopathy 67, OMIM:618141|Seizures|Intellectual disability|Autistic behaviour","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02420,CUX2-related developmental epileptic encephalopathy,undetermined,2026-09-19
+CXCR4,0,not_verified_by_selected_rule,,,,,,,,
+CYP2C9,0,not_verified_by_selected_rule,,,,,,,,
+DBT,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Maple syrup urine disease, type II, 248600|MAPLE SYRUP URINE DISEASEQ","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00734,DBT-related maple syrup urine disease,loss of function,2026-09-19
+DDHD2,1,PanelApp285_green,3,11.31,"Spastic paraplegia 54, autosomal recessive, 615033|COMPLEX HEREDITARY SPASTIC PARAPLEGIA","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+DIDO1,0,not_verified_by_selected_rule,,,,,,,,
+DLG3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation, X-linked 90, 300850|MENTAL RETARDATION X-LINKED TYPE 90 (MRX90)","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P01297,DLG3-related intellectual developmental disorder,loss of function,2026-09-19
+DLG4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,Intellectual disability|Marfanoid habitus|Intellectual developmental disorder 62 #618793,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01892,DLG4-related intellectual disability,loss of function,2026-09-19
+DMBX1,0,not_verified_by_selected_rule,,,,,,,,
+DMTF1,0,not_verified_by_selected_rule,,,,,,,,
+DNAJA1,0,not_verified_by_selected_rule,,,,,,,,
+DNAJB1,0,not_verified_by_selected_rule,,,,,,,,
+DNAJB11,0,not_verified_by_selected_rule,,,,,,,,
+DNAJB5,0,not_verified_by_selected_rule,,,,,,,,
+DNAJB7,0,not_verified_by_selected_rule,,,,,,,,
+DNAJC1,0,not_verified_by_selected_rule,,,,,,,,
+DNAJC2,0,not_verified_by_selected_rule,,,,,,,,
+DNAJC21,0,not_verified_by_selected_rule,,,,,,,,
+DNAJC5,0,not_verified_by_selected_rule,,,,,,,,
+DNAJC7,0,not_verified_by_selected_rule,,,,,,,,
+DNMBP,0,not_verified_by_selected_rule,,,,,,,,
+DPH3,0,not_verified_by_selected_rule,,,,,,,,
+DTNA,0,not_verified_by_selected_rule,,,,,,,,
+DVL1,0,not_verified_by_selected_rule,1,11.31,NA,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+DVL3,1,DDG2P_NDD_phenotype,1,11.31,AUTOSOMAL-DOMINANT ROBINOW SYNDROME,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01723,DVL3-related Robinow syndrome,dominant negative,2026-09-19
+ELF3,0,not_verified_by_selected_rule,,,,,,,,
+ELF5,0,not_verified_by_selected_rule,,,,,,,,
+ELOF1,0,not_verified_by_selected_rule,,,,,,,,
+EP300,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,RUBINSTEIN-TAYBI SYNDROME TYPE 2 (RSTS2),"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00793,EP300-related Rubinstein-Taybi syndrome,loss of function,2026-09-19
+EPHB2,0,not_verified_by_selected_rule,,,,,,,,
+EPRS1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+EPS8,0,not_verified_by_selected_rule,,,,,,,,
+ERBB2,0,not_verified_by_selected_rule,,,,,,,,
+ERBIN,0,not_verified_by_selected_rule,,,,,,,,
+ERG,0,not_verified_by_selected_rule,,,,,,,,
+ERI1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"intellectual disability, MONDO:0001071","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P03516,ERI1-related brachydactyly and mild neurodevelopmental delay,loss of function,2026-09-19
+ESRRB,0,not_verified_by_selected_rule,,,,,,,,
+ETS1,0,not_verified_by_selected_rule,,,,,,,,
+FADD,0,not_verified_by_selected_rule,,,,,,,,
+FANCL,1,DDG2P_NDD_phenotype,,11.31,,biallelic_autosomal,G2P01575,FANCL-related Fanconi anemia,loss of function,2026-09-19
+FBXO11,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities 618089,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02617,FBXO11-related variable neurodevelopmental disorder,loss of function,2026-09-19
+FBXO22,1,PanelApp285_green,3,11.31,"Tayoun-Maawali syndrome, OMIM:621184","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+FCHSD1,0,not_verified_by_selected_rule,,,,,,,,
+FEZF1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+FHL1,0,not_verified_by_selected_rule,1,11.31,"Scapuloperoneal myopathy, X-linked dominant, 300695|Myopathy, X-linked, with postural muscle atrophy, 300696|Myopathy, reducing body, X-linked, severe early-onset, 300717|Myopathy, reducing body, X-linked, childhood-onset, 300718|Emery-Dreifuss muscular dystrophy 6, X-linked, 300696","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+FHL2,0,not_verified_by_selected_rule,,,,,,,,
+FKBP3,0,not_verified_by_selected_rule,,,,,,,,
+FKRP,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 5, 613153Muscular dystrophy-dystroglycanopathy (congenital with or without mental retardation), type B, 5,606612Muscular dystrophy-dystroglycanopathy (limb-girdle), type C, 5, 607155|MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY LIMB-GIRDLE TYPE C5 (MDDGC5)","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00294,FKRP-related congenital alpha-dystroglycanopathy with brain and eye anomalies,loss of function,2026-09-19
+FLI1,0,not_verified_by_selected_rule,,,,,,,,
+FLNB,1,DDG2P_NDD_phenotype,1,11.31,"Spondylocarpotarsal synostosis syndrome, 272460|Larsen syndrome, 150250|Atelosteogenesis, type I, 108720|Atelosteogenesis, type III, 108721|Boomerang dysplasia, 112310","BOTH monoallelic and biallelic, autosomal or pseudoautosomal|monoallelic_autosomal",G2P00289,FLNB-related Larsen syndrome,undetermined,2026-09-19
+FMR1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Fragile X syndrome, OMIM:300624|Fragile X tremor/ataxia syndrome, OMIM:300623","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_hemizygous",G2P00658,FMR1-related fragile X syndrome,loss of function,2026-09-19
+FNBP4,0,not_verified_by_selected_rule,,,,,,,,
+FRMPD4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation, X-linked 104, 300983|global developmental delay|intellectual disability","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_hemizygous",G2P02008,FRMPD4-related intellectual disability,loss of function,2026-09-19
+FUBP1,0,not_verified_by_selected_rule,,,,,,,,
+FUBP3,0,not_verified_by_selected_rule,,,,,,,,
+FYN,0,not_verified_by_selected_rule,,,,,,,,
+G6PD,0,not_verified_by_selected_rule,,,,,,,,
+GABPA,0,not_verified_by_selected_rule,,,,,,,,
+GAS2L1,0,not_verified_by_selected_rule,,,,,,,,
+GATAD2B,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation, autosomal dominant 18, 615074|NONSPECIFIC SEVERE ID","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00882,GATAD2B-related nonspecific severe intellectual disability,loss of function,2026-09-19
+GCK,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+GDI1,1,PanelApp285_green,3,11.31,"Mental retardation, X-linked 41, 300849|MENTAL RETARDATION X-LINKED TYPE 41 (MRX41)","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+GFI1,0,not_verified_by_selected_rule,,,,,,,,
+GFI1B,0,not_verified_by_selected_rule,,,,,,,,
+GLI1,0,not_verified_by_selected_rule,,,,,,,,
+GLI2,1,PanelApp285_green,3,11.31,"Holoprosencephaly-9, 610829|GLI2-RELATED HOLOPROSENCEPHALY","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+GLI3,0,not_verified_by_selected_rule,2,11.31,"Greig cephalopolysyndactyly syndrome, OMIM:175700|Pallister-Hall syndrome, OMIM:146510","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+GLIS3,1,PanelApp285_green,3,11.31,"Diabetes mellitus, neonatal, with congenital hypothyroidism, 610199","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+GRB2,0,not_verified_by_selected_rule,,,,,,,,
+GRIP1,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+GRLF1,0,not_verified_by_selected_rule,,,,,,,,
+GSC,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+GSX2,0,not_verified_by_selected_rule,2,11.31,Diencephalic-mesencephalic junction dysplasia syndrome 2	618646|Intellectual disability|Dystonia|Spastic tetra paresis,"BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+GTF2F2,0,not_verified_by_selected_rule,,,,,,,,
+GYPA,0,not_verified_by_selected_rule,,,,,,,,
+H1-6,0,not_verified_by_selected_rule,,,,,,,,
+HARS1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+HCK,0,not_verified_by_selected_rule,,,,,,,,
+HECTD1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+HECW2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental disorder with hypotonia, seizures, and absent language, OMIM:617268","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01893,HECW2-related neurodevelopmental disorder (monoallelic),undetermined,2026-09-19
+HERC2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation, autosomal recessive 38, OMIM:615516","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P03157,HERC2-related neurodevelopmental disorder,loss of function,2026-09-19
+HESX1,1,PanelApp285_green,3,11.31,"Growth hormone deficiency with pituitary anomalies, OMIM:182230|Pituitary hormone deficiency, combined, 5, OMIM:182230|Septooptic dysplasia, OMIM:182230","BOTH monoallelic and biallelic, autosomal or pseudoautosomal",,,,2026-09-19
+HLA-A,0,not_verified_by_selected_rule,,,,,,,,
+HMBS,0,not_verified_by_selected_rule,,,,,,,,
+HMG20A,0,not_verified_by_selected_rule,,,,,,,,
+HMGCR,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+HNRNPK,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Au-Kline syndrome, 616580|intellectual disability","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02651,HNRNPK-related Au-Kline syndrome,loss of function,2026-09-19
+HNRNPU,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Developmental and epileptic encephalopathy 54, OMIM:617391","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01366,HNRNPU-related epileptic encephalopathy,loss of function,2026-09-19
+HNRNPUL1,0,not_verified_by_selected_rule,,,,,,,,
+HNRNPUL2,0,not_verified_by_selected_rule,,,,,,,,
+HOXB1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+HRAS,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"{Bladder cancer, somatic}, 109800Costello syndrome, 218040{Thyroid carcinoma, follicular, somatic}, 188470Congenital myopathy with excess of muscle spindles, 218040{Nevus sebaceous, somatic}, 162900Schimmelpenning-Feuerstein-Mims syndrome, somatic mosaic, 163200|COSTELLO SYNDROME","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00024|G2P00466,HRAS-related Costello syndrome|HRAS-related congenital myopathy with excess of muscle spindles,gain of function,2026-09-19
+HUWE1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Intellectual developmental disorder, X-linked syndromic, Turner type, OMIM:309590","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_heterozygous",G2P00191,"HUWE1-related syndromic intellectual developmental disorder, Turner type",undetermined,2026-09-19
+ILF3,0,not_verified_by_selected_rule,,,,,,,,
+INSR,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+INTS12,0,not_verified_by_selected_rule,,,,,,,,
+ITCH,1,DDG2P_NDD_phenotype,1,11.31,"Autoimmune disease, multisystem, with facial dysmorphism, 613385","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00300,"ITCH-related autoimmune disease, syndromic multisystem",loss of function,2026-09-19
+ITK,0,not_verified_by_selected_rule,,,,,,,,
+ITSN1,1,PanelApp285_green,3,11.31,"neurodevelopmental disorder, MONDO:0700092|intellectual disability, MONDO:0001071","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+ITSN2,0,not_verified_by_selected_rule,,,,,,,,
+JAG1,0,not_verified_by_selected_rule,1,11.31,"Alagille syndrome 1, OMIM:118450","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+KANSL2,0,not_verified_by_selected_rule,,,,,,,,
+KCMF1,0,not_verified_by_selected_rule,,,,,,,,
+KCNE1,0,not_verified_by_selected_rule,1,11.31,"Jervell and Lange-Nielsen syndrome 2, OMIM:612347|Long QT syndrome 5, OMIM:613695","BOTH monoallelic and biallelic, autosomal or pseudoautosomal",,,,2026-09-19
+KCNH2,0,not_verified_by_selected_rule,,,,,,,,
+KCNJ2,0,not_verified_by_selected_rule,1,11.31,"Short QT syndrome 3, OMIM:609622","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+KCNQ1,0,not_verified_by_selected_rule,1,11.31,"Long QT syndrome 1, 192500|Jervell and Lange-Nielsen syndrome, 220400|Atrial fibrillation, familial, 3, 607554|Short QT syndrome 2, 609621|{Long QT syndrome 1, acquired, susceptibility to}, 192500","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+KCNQ2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Developmental and epileptic encephalopathy 7, OMIM:613720","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00789|G2P01456,KCNQ2-related benign neonatal epilepsy|KCNQ2-related epileptic encephalopathy,gain of function|loss of function,2026-09-19
+KDM1A,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Cleft palate, psychomotor retardation, and distinctive facial features, 616728|Developmental delay","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02308,KDM1A-related developmental delay and distinctive facial features,undetermined,2026-09-19
+KDM1B,0,not_verified_by_selected_rule,,,,,,,,
+KDM2B,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities, OMIM:621474","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P03439,KDM2B-related neurodevelopmental disorder,undetermined,2026-09-19
+KDM5C,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental retardation, X-linked, syndromic, Claes-Jensen type, OMIM:300534","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_hemizygous",G2P01265,KDM5C-related syndromic intellectual developmental disorder,loss of function,2026-09-19
+KHSRP,0,not_verified_by_selected_rule,,,,,,,,
+KIF16B,0,not_verified_by_selected_rule,,,,,,,,
+KLF11,0,not_verified_by_selected_rule,,,,,,,,
+KMT2A,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Wiedemann-Steiner syndrome, OMIM:605130","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01406,KMT2A-related Wiedemann-Steiner syndrome,loss of function,2026-09-19
+KRAS,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Lung cancer, somatic, 211980Bladder cancer, somatic, 109800Pancreatic carcinoma, somatic, 260350Gastric cancer, somatic, 137215Leukemia, acute myelogenousNoonan syndrome 3, 609942Cardiofaciocutaneous syndrome 2, 615278Breast cancer, somatic, 114480SFM syndrome, somatic mosaic, 163200|CARDIOFACIOCUTANEOUS SYNDROME (CFC SYNDROME)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00720|G2P00817,KRAS-related cardiofaciocutaneous syndrome|KRAS-related Noonan syndrome,gain of function,2026-09-19
+LARGE1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A, 6, 613154|Muscle-eye-brain disease|MDDGA6|Walker-Warburg syndrome|Muscular dystrophy-dystroglycanopathy (congenital with mental retardation), type B, 6, 608840|congenital muscular dystrophy-dystroglycanopathy with mental retardation|MDDGB6|Intellectual disability","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P02800,LARGE1-related muscular dystrophy-dystroglycanopathy congenital with intellectual developmental disorder,loss of function,2026-09-19
+LATS1,0,not_verified_by_selected_rule,,,,,,,,
+LCK,0,not_verified_by_selected_rule,,,,,,,,
+LCOR,0,not_verified_by_selected_rule,,,,,,,,
+LCP1,0,not_verified_by_selected_rule,,,,,,,,
+LDB3,0,not_verified_by_selected_rule,1,11.31,"Myopathy, myofibrillar, 4, 609452|Cardiomyopathy, dilated 1C, 601493|Left ventricular noncompaction 3, with or without dilated cardiomyopathy, 601493","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+LDLR,0,not_verified_by_selected_rule,,,,,,,,
+LIMS2,0,not_verified_by_selected_rule,,,,,,,,
+LSM14A,0,not_verified_by_selected_rule,,,,,,,,
+MAEL,0,not_verified_by_selected_rule,,,,,,,,
+MAGI1,0,not_verified_by_selected_rule,,,,,,,,
+MAGI2,0,not_verified_by_selected_rule,1,11.31,Epileptic encephalopathy|Infantile spasms,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+MAGI3,0,not_verified_by_selected_rule,,,,,,,,
+MAMSTR,0,not_verified_by_selected_rule,,,,,,,,
+MAP2K5,0,not_verified_by_selected_rule,,,,,,,,
+MAP3K20,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+MAPK1,1,PanelApp285_green,3,11.31,"Noonan syndrome 13, OMIM:619087","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+MCM10,0,not_verified_by_selected_rule,,,,,,,,
+MDM2,0,not_verified_by_selected_rule,,,,,,,,
+MDM4,0,not_verified_by_selected_rule,,,,,,,,
+MECP2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Encephalopathy, neonatal severe, OMIM:300673|Intellectual developmental disorder, X-linked syndromic 13, OMIM:300055|Intellectual developmental disorder, X-linked syndromic, Lubs type, OMIM:300260|Rett syndrome, OMIM:312750|Rett syndrome, atypical, OMIM:312750|Rett syndrome, preserved speech variant, OMIM:312750","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_hemizygous",G2P01023|G2P01392,MECP2-related duplication syndrome|MECP2-related encephalopathy neonatal severe,loss of function|undetermined,2026-09-19
+MET,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+MEX3C,0,not_verified_by_selected_rule,,,,,,,,
+MEX3D,0,not_verified_by_selected_rule,,,,,,,,
+MIB1,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+MID1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Opitz GBBB syndrome, type I, 300000|OPITZ G/BBB SYNDROME, X-LINKED","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P00969,MID1-related Opitz GBBB syndrome,loss of function,2026-09-19
+MID2,0,not_verified_by_selected_rule,,,,,,,,
+MIS18BP1,0,not_verified_by_selected_rule,,,,,,,,
+MKRN1,0,not_verified_by_selected_rule,,,,,,,,
+MKRN2,0,not_verified_by_selected_rule,,,,,,,,
+MPDZ,0,not_verified_by_selected_rule,1,11.31,"Hydrocephalus, nonsyndromic, autosomal recessive 2","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+MPL,0,not_verified_by_selected_rule,,,,,,,,
+MPP3,0,not_verified_by_selected_rule,,,,,,,,
+MRTFA,0,not_verified_by_selected_rule,,,,,,,,
+MSH2,0,not_verified_by_selected_rule,,,,,,,,
+MSX1,0,not_verified_by_selected_rule,1,11.31,"Ectodermal dysplasia 3, Witkop type, OMIM:189500|Orofacial cleft 5, OMIM:608874|Tooth agenesis, selective, 1, with or without orofacial cleft, OMIM:106600","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+MSX2,0,not_verified_by_selected_rule,1,11.31,"Craniosynostosis, type 2, 604757|Parietal foramina 1, 168500|Parietal foramina with cleidocranial dysplasia, 168550","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+MTA3,0,not_verified_by_selected_rule,,,,,,,,
+MTHFR,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,METHYLENETETRAHYDROFOLATE REDUCTASE DEFICIENCY (MTHFRD),"BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00855,MTHFR-related methylenetetrahydrofolate deductase deficiency,loss of function,2026-09-19
+MXD1,0,not_verified_by_selected_rule,,,,,,,,
+MXI1,0,not_verified_by_selected_rule,,,,,,,,
+MYB,0,not_verified_by_selected_rule,,,,,,,,
+MYO1E,0,not_verified_by_selected_rule,,,,,,,,
+MYOCD,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+MYSM1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+NANOS2,0,not_verified_by_selected_rule,,,,,,,,
+NCF1,0,not_verified_by_selected_rule,,,,,,,,
+NCF2,0,not_verified_by_selected_rule,,,,,,,,
+NCOR2,0,not_verified_by_selected_rule,,,,,,,,
+NEB,0,not_verified_by_selected_rule,1,11.31,"Nemaline myopathy 2, autosomal recessive, 256030","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+NEDD4,0,not_verified_by_selected_rule,,,,,,,,
+NEDD4L,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Periventricular nodular heterotopia 7, 617201","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00563,"NEDD4L-related periventricular nodular heterotopia with intellectual disability, cleft palate, and 2-3 toe syndactyly",undetermined,2026-09-19
+NEIL3,0,not_verified_by_selected_rule,,,,,,,,
+NKX3-1,0,not_verified_by_selected_rule,,,,,,,,
+NPC1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"NIEMANN-PICK DISEASE, TYPE C1","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P01294,NPC1-related Niemann-Pick disease,loss of function,2026-09-19
+NPHP1,1,PanelApp285_green,3,11.31,"Nephronophthisis 1, juvenile, 256100Senior-Loken syndrome-1, 266900Joubert syndrome 4, 609583|SENIOR-LOKEN SYNDROME TYPE 1 (SLSN1)","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+NR1D2,0,not_verified_by_selected_rule,,,,,,,,
+NR2F1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Bosch-Boonstra-Schaaf optic atrophy syndrome, OMIM:615722","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00270,NR2F1-related Bosch-Boonstra-Schaaf optic atrophy syndrome,loss of function,2026-09-19
+NR3C1,0,not_verified_by_selected_rule,,,,,,,,
+NR3C2,0,not_verified_by_selected_rule,,,,,,,,
+NR4A2,1,PanelApp285_green,3,11.31,"Intellectual developmental disorder with language impairment and early-onset DOPA-responsive dystonia-parkinsonism, OMIM:619911","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+NUDT15,0,not_verified_by_selected_rule,,,,,,,,
+OBSCN,0,not_verified_by_selected_rule,,,,,,,,
+OTC,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"CGD Ornithine transcarbamylase deficiency, 311250|ORNITHINE TRANSCARBAMYLASE DEFICIENCY","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P00088,OTC-related ornithine transcarbamylase deficiency,loss of function,2026-09-19
+OTUD7A,1,PanelApp285_green,3,11.31,"developmental and epileptic encephalopathy, MONDO:0100062|intellectual disability, MONDO:0001071","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+OTX2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,MICROPHTHALMIA SYNDROMIC TYPE 5 (MCOPS5),"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01003,OTX2-related syndromic microphthalmia,loss of function,2026-09-19
+OVOL2,0,not_verified_by_selected_rule,,,,,,,,
+PACSIN1,0,not_verified_by_selected_rule,,,,,,,,
+PACSIN2,0,not_verified_by_selected_rule,,,,,,,,
+PACSIN3,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+PALB2,0,not_verified_by_selected_rule,1,11.31,"Fanconi anemia, complementation group N, 610832|{Breast cancer, susceptibility to}, 114480|{Pancreatic cancer, susceptibility to, 3}, 613348","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+PARD3,0,not_verified_by_selected_rule,,,,,,,,
+PARD3B,0,not_verified_by_selected_rule,,,,,,,,
+PAX6,1,DDG2P_NDD_phenotype,1,11.31,"Aniridia, Cerebellar Ataxia, And Mental Retardation|Aniridia, 106210Peters anomaly, 604229Cataract with late-onset corneal dystrophy, 106210Keratitis, 148190Foveal hyperplasia, 136520Morning glory disc anomaly, 120430Optic nerve hypoplasia, 165550Coloboma, ocular, 120200Coloboma of optic nerve, 120430Gillespie syndrome, 206700|KERATITIS HEREDITARY (KERH)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01555,PAX6-related aniridia,loss of function,2026-09-19
+PAX7,0,not_verified_by_selected_rule,1,11.31,"Hypotonia|Axial hypotonia|Ptosis|Scoliosis|Delayed motor milestones|Myopathy, congenital, progressive, with scoliosis, 618578","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+PBRM1,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+PCBP1,0,not_verified_by_selected_rule,,,,,,,,
+PCLO,0,not_verified_by_selected_rule,1,11.31,"Pontocerebellar hypoplasia, type 3, OMIM:608027|PEHO syndrome, MONDO:0009841|progressive encephalopathy with edema, hypsarrhythmia and optic atrophy","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+PDHX,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Lacticacidemia due to PDX1 deficiency, OMIM:245349","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P00862,PDHX-related lacticacidemia due to PDX1 deficiency,loss of function,2026-09-19
+PDLIM2,0,not_verified_by_selected_rule,,,,,,,,
+PDZRN3,0,not_verified_by_selected_rule,,,,,,,,
+PHOX2A,0,not_verified_by_selected_rule,,,,,,,,
+PIN1,0,not_verified_by_selected_rule,,,,,,,,
+PITX2,0,not_verified_by_selected_rule,1,11.31,"Axenfeld-Rieger syndrome, type 1, 180500|Iridogoniodysgenesis, type 2, 137600|Ring dermoid of cornea, 180550|Peters anomaly, 604229","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+PKN1,0,not_verified_by_selected_rule,,,,,,,,
+PLCG2,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+PMS1,0,not_verified_by_selected_rule,,,,,,,,
+POU1F1,1,DDG2P_NDD_phenotype,2,11.31,"Pituitary hormone deficiency, combined or isolated, 1, OMIM:613038","BOTH monoallelic and biallelic, autosomal or pseudoautosomal|biallelic_autosomal",G2P01517,POU1F1-related combined pituitary hormone deficiency,loss of function,2026-09-19
+POU2F1,0,not_verified_by_selected_rule,,,,,,,,
+POU2F2,0,not_verified_by_selected_rule,,,,,,,,
+POU2F3,0,not_verified_by_selected_rule,,,,,,,,
+POU3F1,0,not_verified_by_selected_rule,,,,,,,,
+POU3F2,1,PanelApp285_green,3,11.31,neurodevelopmental delay with hyperphagic obesity,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+POU3F3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Snijders Blok-Fisher syndrome, 618604|Generalized hypotonia|Delayed speech and language development|Global developmental delay|Intellectual disability|Autistic behavior","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02759,POU3F3-related intellectual disability,undetermined,2026-09-19
+POU3F4,0,not_verified_by_selected_rule,,,,,,,,
+POU4F1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+POU4F2,0,not_verified_by_selected_rule,,,,,,,,
+POU4F3,0,not_verified_by_selected_rule,,,,,,,,
+POU5F1,0,not_verified_by_selected_rule,,,,,,,,
+POU6F1,0,not_verified_by_selected_rule,,,,,,,,
+POU6F2,0,not_verified_by_selected_rule,,,,,,,,
+PPARD,0,not_verified_by_selected_rule,,,,,,,,
+PPARG,0,not_verified_by_selected_rule,,,,,,,,
+PPM1D,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Intellectual developmental disorder with gastrointestinal difficulties and high pain threshold, 617450|IDDGIP","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01708,PPM1D-related developmental disorder (Jansen-de Vries syndrome),loss of function,2026-09-19
+PPP1R9A,0,not_verified_by_selected_rule,,,,,,,,
+PRDM15,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+PRDM16,0,not_verified_by_selected_rule,,,,,,,,
+PRDM5,0,not_verified_by_selected_rule,,,,,,,,
+PRDM8,0,not_verified_by_selected_rule,,,,,,,,
+PRKCD,0,not_verified_by_selected_rule,,,,,,,,
+PRKN,0,not_verified_by_selected_rule,1,11.31,"Parkinson disease, juvenile, type 2, 600116|Adenocarcinoma of lung, somatic, 211980|Adenocarcinoma, ovarian, somatic, 167000|{Leprosy, susceptibility to}, 607572","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+PROP1,0,not_verified_by_selected_rule,1,11.31,"Pituitary hormone deficiency, combined, 2, 262600","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+PRPF3,0,not_verified_by_selected_rule,,,,,,,,
+PRPF40A,0,not_verified_by_selected_rule,,,,,,,,
+PRPF40B,0,not_verified_by_selected_rule,,,,,,,,
+PRRX1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+PSAT1,1,DDG2P_NDD_phenotype,1,11.31,"Phosphoserine aminotransferase deficiency, OMIM:610992|Neu-Laxova syndrome 2, OMIM:616038","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P01642,PSAT1-related Neu-Laxova syndrome,loss of function,2026-09-19
+PSTPIP1,0,not_verified_by_selected_rule,,,,,,,,
+PTEN,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Cowden syndrome 1, 158350Lhermitte-Duclos syndrome, 158350Bannayan-Riley-Ruvalcaba syndrome, 153480{Meningioma}, 607174{Glioma susceptibility 2}, 613028Macrocephaly/autism syndrome, 605309PTEN hamartoma tumor syndromeVATER association with macrocephaly and ventriculomegaly, 276950{Prostate cancer, somatic}, 176807Thyroid carcinoma, follicular, somatic, 188470Malignant melanoma, somatic, 155600Endometrial carcinoma, somatic, 608089Squamous cell carcinoma, head and neck, somatic, 275355|PROTEUS SYNDROME","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00413,PTEN-related hamartoma tumour syndrome (Cowden syndrome),loss of function,2026-09-19
+PYCARD,0,not_verified_by_selected_rule,,,,,,,,
+RAD23A,0,not_verified_by_selected_rule,,,,,,,,
+RAD23B,0,not_verified_by_selected_rule,,,,,,,,
+RAF1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Noonan syndrome 5, 611553LEOPARD syndrome 2, 611554|NOONAN SYNDROME 5","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P03311,RAF1-related Noonan syndrome,gain of function,2026-09-19
+RAG2,0,not_verified_by_selected_rule,,,,,,,,
+RALBP1,0,not_verified_by_selected_rule,,,,,,,,
+RANBP2,1,DDG2P_NDD_phenotype,1,11.31,"{Encephalopathy, acute, infection-induced, 3, susceptibility to}	608033","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01534,RANBP2-related susceptibility to acute necrotizing encephalopathy,undetermined,2026-09-19
+RARB,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Microphthalmia, syndromic 12, OMIM:615524|neurodevelopmental disorder, MONDO:0700092","BOTH monoallelic and biallelic, autosomal or pseudoautosomal|biallelic_autosomal",G2P00851,RARB-related microphthalmia syndromic,loss of function,2026-09-19
+RASA1,0,not_verified_by_selected_rule,1,11.31,"Parkes Weber syndrome, 608355|Capillary|malformation-arteriovenous malformation, 608354|Basal cell carcinoma, somatic, 605462","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+RASA4,0,not_verified_by_selected_rule,,,,,,,,
+RASGRP1,0,not_verified_by_selected_rule,,,,,,,,
+RBCK1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+RBM10,1,PanelApp285_green,3,11.31,"TARP syndrome, 311900|TARP SYNDROME","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+RCOR1,0,not_verified_by_selected_rule,,,,,,,,
+RCOR3,0,not_verified_by_selected_rule,,,,,,,,
+RERE,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental disorder with or without anomalies of the brain, eye, or heart 616975","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P01734,RERE-related phenocopy of proximal 1p36 deletions,loss of function,2026-09-19
+RFC1,0,not_verified_by_selected_rule,,,,,,,,
+RHO,0,not_verified_by_selected_rule,,,,,,,,
+RIPK2,0,not_verified_by_selected_rule,,,,,,,,
+RNF113A,1,PanelApp285_green,3,11.31,"Trichothiodystrophy 5, nonphotosensitive, OMIM:300953","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)",,,,2026-09-19
+RNF126,0,not_verified_by_selected_rule,,,,,,,,
+RNF32,0,not_verified_by_selected_rule,,,,,,,,
+RNF7,0,not_verified_by_selected_rule,,,,,,,,
+RPL35,0,not_verified_by_selected_rule,,,,,,,,
+RSL24D1,0,not_verified_by_selected_rule,,,,,,,,
+RUFY1,0,not_verified_by_selected_rule,,,,,,,,
+RXRA,0,not_verified_by_selected_rule,,,,,,,,
+SAFB,0,not_verified_by_selected_rule,,,,,,,,
+SAFB2,0,not_verified_by_selected_rule,,,,,,,,
+SALL1,1,DDG2P_NDD_phenotype,2,11.31,"Townes-Brocks branchiootorenal-like syndrome, 107480|Townes-Brocks syndrome 1, 107480|TBS","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P00094,SALL1-related Townes-Brocks syndrome,loss of function,2026-09-19
+SALL4,0,not_verified_by_selected_rule,1,11.31,"Duane-radial ray syndrome, 607323|IVIC syndrome, 147750","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SAMD9,1,PanelApp285_green,3,11.31,"MIRAGE syndrome, 617053","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SARNP,0,not_verified_by_selected_rule,,,,,,,,
+SASH1,0,not_verified_by_selected_rule,,,,,,,,
+SATB1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,intellectual disability|developmental disorders,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02893,SATB1-related developmental disorder,loss of function,2026-09-19
+SATB2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Cleft palate and mental retardation, 119540|CLEFT PALATE ISOLATED (CPI)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00222,SATB2-related Glass syndrome,loss of function,2026-09-19
+SCN5A,0,not_verified_by_selected_rule,,,,,,,,
+SCRIB,0,not_verified_by_selected_rule,1,11.31,8Q24.3 DELETION-LIKE,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+SELL,0,not_verified_by_selected_rule,,,,,,,,
+SERPINE1,0,not_verified_by_selected_rule,,,,,,,,
+SETD2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Luscan-Lumish syndrome, 616831|intellectual disability","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02421,SETD2-related overgrowth syndrome (Luscan-Lumish syndrome),loss of function,2026-09-19
+SH3D19,0,not_verified_by_selected_rule,,,,,,,,
+SH3PXD2B,0,not_verified_by_selected_rule,1,11.31,"Frank-ter Haar syndrome, 249420","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+SHOC2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Noonan-like syndrome with loose anagen hair, 607721|NOONAN-LIKE SYNDROME WITH LOOSE ANAGEN HAIR","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01633,SHOC2-related Noonan-like syndrome with loose anagen hair,gain of function,2026-09-19
+SHOX,0,not_verified_by_selected_rule,1,11.31,"Langer mesomelic dysplasia, OMIM:249700 (PR)|Leri-Weill dyschondrosteosis, OMIM:127300 (PD)|Short stature, idiopathic familial, OMIM:300582","BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal",,,,2026-09-19
+SHROOM4,0,not_verified_by_selected_rule,2,11.31,"neurodevelopmental disorder, MONDO:0700092|X-linked intellectual disability, Stocco dos Santos type, MONDO:0010325","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+SIX1,0,not_verified_by_selected_rule,1,11.31,"Brachiootic syndrome 3, 608389|Deafness, autosomal dominant 23, 605192","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SIX2,0,not_verified_by_selected_rule,,,,,,,,
+SIX3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Holoprosencephaly-2, 157170|Schizensephaly, 269160|HOLOPROSENCEPHALY","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01034,SIX3-related holoprosencephaly,loss of function,2026-09-19
+SIX6,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+SLC22A1,0,not_verified_by_selected_rule,,,,,,,,
+SLC6A4,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+SLTM,0,not_verified_by_selected_rule,,,,,,,,
+SMARCA4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 4, OMIM:614609","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00396,SMARCA4-related Coffin Siris,undetermined,2026-09-19
+SMARCB1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 3, OMIM:614608","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01546,SMARCB1-related Coffin-Siris syndrome,undetermined,2026-09-19
+SMARCC1,0,not_verified_by_selected_rule,1,11.31,,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SMARCC2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Global developmental delay|Intellectual disability|neurodevelopmental delay and growth retardation|prominent speech impairment, hypotonia, feeding difficulties, behavioral abnormalities, and dysmorphic features","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02636,SMARCC2-related syndromic intellectual disability and developmental delay,loss of function,2026-09-19
+SMARCE1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 5, OMIM:616938","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00174,SMARCE1-related Coffin Siris,undetermined,2026-09-19
+SMURF2,0,not_verified_by_selected_rule,,,,,,,,
+SNCA,0,not_verified_by_selected_rule,1,11.31,"Parkinson disease 4, 605543|Dementia, Lewy body, 127750|Parkinson disease 1, 168601","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SNTA1,0,not_verified_by_selected_rule,,,,,,,,
+SOD1,1,PanelApp285_green,3,11.31,"Spastic tetraplegia and axial hypotonia, progressive, OMIM:618598","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+SORBS1,0,not_verified_by_selected_rule,,,,,,,,
+SOX11,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 9, OMIM:615866","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00338,SOX11-related neurodevelopmental disorder,undetermined,2026-09-19
+SOX17,0,not_verified_by_selected_rule,1,11.31,"Vesicoureteral reflux 3, 613674","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+SOX18,0,not_verified_by_selected_rule,,,,,,,,
+SOX2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,AEG SYNDROME,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01126,SOX2-related microphthalmia syndromic,loss of function,2026-09-19
+SOX3,1,DDG2P_NDD_phenotype,2,11.31,"Intellectual developmental disorder, X-linked, with isolated growth hormone deficiency, OMIM:300123|X-linked intellectual disability with isolated growth hormone deficiency, MONDO:0019032","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P01222,SOX3-related intellectual developmental disorder with isolated growth hormone deficiency,loss of function,2026-09-19
+SOX30,0,not_verified_by_selected_rule,,,,,,,,
+SOX4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Coffin-Siris syndrome 10, OMIM:618506|Syndromic intellectual disability|Global developmental delay|Intellectual disability|Growth delay|Clinodactyly of the 5th finger|facial dysmorphism","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02643,SOX4-related neurodevelopmental disease associated with mild dysmorphism,undetermined,2026-09-19
+SOX5,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,12P12.5 INTRAGENIC DELETIONS ASSOCIATED WITH INTELLECTUAL DISABILITY,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01376,SOX5-related 12p12.5 intragenic deletions associated with intellectual disability,loss of function,2026-09-19
+SOX6,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,intellectual diability|ADHD|Craniosynostosis|Osteochondromas,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02967,SOX6-related neurodevelopmental syndrome,loss of function,2026-09-19
+SOX8,0,not_verified_by_selected_rule,,,,,,,,
+SP7,0,not_verified_by_selected_rule,,,,,,,,
+SPOP,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Nabais Sa-de Vries syndrome, type 1, 618828|Nabais Sa-de Vries syndrome, type 2, 618829","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02936|G2P02937,"SPOP-related neurodevelopmental disorder, gain of function|SPOP-related neurodevelopmental disorder, dominant negative",dominant negative|gain of function,2026-09-19
+SPTA1,0,not_verified_by_selected_rule,,,,,,,,
+SPTAN1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Developmental and epileptic encephalopathy 5, OMIM:613477|Developmental delay with or without epilepsy, OMIM:620540|Spastic paraplegia 91, autosomal dominant, with or without cerebellar ataxia, OMIM:620538","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00546,SPTAN1-related neurodevelopmental disorder with epilepsy and spastic paraplegia,dominant negative,2026-09-19
+SQSTM1,0,not_verified_by_selected_rule,,,,,,,,
+SRC,0,not_verified_by_selected_rule,,,,,,,,
+SRGAP1,0,not_verified_by_selected_rule,,,,,,,,
+SRGAP3,0,not_verified_by_selected_rule,2,11.31,"3p- syndrome, MIM:613792 (includes intellectual disability)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+SRY,0,not_verified_by_selected_rule,1,11.31,46XY SEX REVERSAL 1,Other - please specifiy in evaluation comments,,,,2026-09-19
+STAU1,0,not_verified_by_selected_rule,,,,,,,,
+STOX1,0,not_verified_by_selected_rule,,,,,,,,
+STOX2,0,not_verified_by_selected_rule,,,,,,,,
+STXBP4,0,not_verified_by_selected_rule,,,,,,,,
+SUMO1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+SUOX,1,PanelApp285_green,3,11.31,"Sulfite oxidase deficiency, 272300","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+TAB3,0,not_verified_by_selected_rule,,,,,,,,
+TADA2A,0,not_verified_by_selected_rule,,,,,,,,
+TARDBP,0,not_verified_by_selected_rule,1,11.31,"Amyotrophic lateral sclerosis 10, with or without FTD, 612069|Frontotemporal lobar degeneration, TARDBP-related, 612069","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+TAX1BP1,0,not_verified_by_selected_rule,,,,,,,,
+TCEANC,0,not_verified_by_selected_rule,,,,,,,,
+TCERG1,0,not_verified_by_selected_rule,,,,,,,,
+TCERG1L,0,not_verified_by_selected_rule,,,,,,,,
+TDRD3,0,not_verified_by_selected_rule,,,,,,,,
+TERF2,0,not_verified_by_selected_rule,,,,,,,,
+TESMIN,0,not_verified_by_selected_rule,,,,,,,,
+TFG,1,PanelApp285_green,3,11.31,"Spastic paraplegia 57, autosomal recessive, OMIM:615658","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+TIAM1,1,PanelApp285_green,3,11.31,"Neurodevelopmental disorder with language delay and seizures, OMIM:619908","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+TJP2,0,not_verified_by_selected_rule,,,,,,,,
+TNKS2,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+TNNC2,0,not_verified_by_selected_rule,,,,,,,,
+TOE1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Pontocerebellar hypoplasia, type 7  614969","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P02257,TOE1-related pontocerebellar hypoplasia,loss of function,2026-09-19
+TOP3A,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+TOX3,0,not_verified_by_selected_rule,,,,,,,,
+TP53,0,not_verified_by_selected_rule,,,,,,,,
+TP63,1,DDG2P_NDD_phenotype,1,11.31,"ADULT syndrome, OMIM:103285|Ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 3, OMIM:604292|Hay-Wells syndrome, OMIM:106260|Limb-mammary syndrome, OMIM:603543|Orofacial cleft 8, OMIM:618149|Rapp-Hodgkin syndrome, OMIM:129400|Split-hand/foot malformation 4, OMIM:605289","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P00761,"TP63-related ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome",loss of function,2026-09-19
+TP73,1,PanelApp285_green,3,11.31,"Ciliary dyskinesia, primary, 47, and lissencephaly, OMIM:619466","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+TPK1,0,not_verified_by_selected_rule,1,11.31,,,,,,2026-09-19
+TPMT,0,not_verified_by_selected_rule,,,,,,,,
+TRIM26,0,not_verified_by_selected_rule,,,,,,,,
+TRIM28,0,not_verified_by_selected_rule,,,,,,,,
+TRIM3,0,not_verified_by_selected_rule,,,,,,,,
+TRIM36,0,not_verified_by_selected_rule,,,,,,,,
+TRIM44,0,not_verified_by_selected_rule,,,,,,,,
+TRIM49C,0,not_verified_by_selected_rule,,,,,,,,
+TRIM6,0,not_verified_by_selected_rule,,,,,,,,
+TRIM71,1,DDG2P_NDD_phenotype,,11.31,,monoallelic_autosomal,G2P03899,TRIM71-related neurodevelopmental disorder with ventriculomegaly and hydrocephalus,loss of function,2026-09-19
+TRMT13,0,not_verified_by_selected_rule,,,,,,,,
+TSC2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Tuberous sclerosis-2, 613254Lymphangioleiomyomatosis, somatic, 606690|LYMPHANGIOLEIOMYOMATOSIS (LAM)","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01636,TSC2-related tuberous sclerosis,loss of function,2026-09-19
+TTC3,0,not_verified_by_selected_rule,,,,,,,,
+TYK2,0,not_verified_by_selected_rule,,,,,,,,
+UBE2I,0,not_verified_by_selected_rule,,,,,,,,
+UBE2K,0,not_verified_by_selected_rule,,,,,,,,
+UBE3A,1,PanelApp285_green,3,11.31,"Angelman syndrome, 105830|ANGELMAN SYNDROME","MONOALLELIC, autosomal or pseudoautosomal, paternally imprinted (maternal allele expressed)",,,,2026-09-19
+UBE4B,0,not_verified_by_selected_rule,,,,,,,,
+UBQLN3,0,not_verified_by_selected_rule,,,,,,,,
+UBR5,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental disorder with speech delay and behavioral abnormalities, OMIM:621372","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P03734,UBR5-related neurodevelopmental disorder,loss of function,2026-09-19
+UBTF,1,PanelApp285_green,3,11.31,"Neurodegeneration, childhood-onset, with brain atrophy, OMIM:617672","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+UBXN2B,0,not_verified_by_selected_rule,,,,,,,,
+UFM1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"global developmental delay with progressive microcephaly|Leukodystrophy hypomyelinating 14, 617899|Leukodystrophy, hypomyelinating, 14, 617899","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P02543,UFM1-related severe early-onset encephalopathy with progressive microcephaly,loss of function,2026-09-19
+USH1C,0,not_verified_by_selected_rule,,,,,,,,
+VAV1,0,not_verified_by_selected_rule,,,,,,,,
+VAX1,0,not_verified_by_selected_rule,,,,,,,,
+VCP,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"neurodevelopmental disorder, MONDO:0700092|intellectual disability, MONDO:0001071","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P02870,VCP-related neurodevelopmental disorder,loss of function,2026-09-19
+VIL1,0,not_verified_by_selected_rule,,,,,,,,
+VKORC1,0,not_verified_by_selected_rule,,,,,,,,
+WBP4,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopemental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities, OMIM:620852|neurodevelopmental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities, MONDO:0971043","BIALLELIC, autosomal or pseudoautosomal|biallelic_autosomal",G2P03724,"WBP4-related neurodevelopmental disorder with hypotonia, feeding difficulties, facial dysmorphism, and brain abnormalities",loss of function,2026-09-19
+WNK1,0,not_verified_by_selected_rule,,,,,,,,
+WSB2,0,not_verified_by_selected_rule,2,11.31,"Luo-Agrawal neurodevelopmental syndrome, OMIM:621552|neurodevelopmental disorder, MONDO:0700092","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+WWP1,0,not_verified_by_selected_rule,,,,,,,,
+WWP2,0,not_verified_by_selected_rule,,,,,,,,
+WWTR1,0,not_verified_by_selected_rule,,,,,,,,
+XRCC6,0,not_verified_by_selected_rule,,,,,,,,
+YAP1,1,DDG2P_NDD_phenotype,1,11.31,"Coloboma, ocular, with or without hearing impairment, cleft lip/palate, and/or mental retardation, 120433","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00008,"YAP1-related coloboma, ocular, with or without hearing impairment, cleft lip/palate, and/or intellectual developmental disorder",loss of function,2026-09-19
+YBX1,0,not_verified_by_selected_rule,,,,,,,,
+YBX2,0,not_verified_by_selected_rule,,,,,,,,
+YBX3,0,not_verified_by_selected_rule,1,11.31,Neurological disorder,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+YY1,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,Gabriele-de Vries syndrome	617557,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00744,YY1-related intellectual disability,undetermined,2026-09-19
+ZBTB20,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Primrose syndrome, OMIM:259050","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P01603,ZBTB20-related Primrose syndrome,dominant negative,2026-09-19
+ZBTB24,1,PanelApp285_green,3,11.31,"Immunodeficiency-centromeric instability-facial anomalies syndrome 2, 614069|intellectual disability","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+ZC3H10,0,not_verified_by_selected_rule,,,,,,,,
+ZC3H15,0,not_verified_by_selected_rule,,,,,,,,
+ZC3H7A,0,not_verified_by_selected_rule,,,,,,,,
+ZEB1,0,not_verified_by_selected_rule,,11.31,,,,,,2026-09-19
+ZFC3H1,0,not_verified_by_selected_rule,,,,,,,,
+ZFHX2,0,not_verified_by_selected_rule,,,,,,,,
+ZFHX3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,syndromic intellectual disability,"MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02901,ZFHX3-related neurodevelopmental disorder,loss of function,2026-09-19
+ZFHX4,1,PanelApp285_green,3,11.31,"Developmental disorders|intellectual disability, dysmorphic features","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown",,,,2026-09-19
+ZFP30,0,not_verified_by_selected_rule,,,,,,,,
+ZFP36,0,not_verified_by_selected_rule,,,,,,,,
+ZFP36L2,0,not_verified_by_selected_rule,,,,,,,,
+ZFP57,0,not_verified_by_selected_rule,2,11.31,"Diabetes mellitus, transient neonatal, 1, 601410","BIALLELIC, autosomal or pseudoautosomal",,,,2026-09-19
+ZFYVE16,0,not_verified_by_selected_rule,,,,,,,,
+ZHX1,0,not_verified_by_selected_rule,,,,,,,,
+ZIC2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Holoprosencephaly-5, 609637|HOLOPROSENCEPHALY","MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted|monoallelic_autosomal",G2P00564,ZIC2-related holoprosencephaly,loss of function,2026-09-19
+ZIC3,0,not_verified_by_selected_rule,1,11.31,"Heterotaxy, visceral, 1, X-linked 306955|Congenital heart  defects, nonsyndromic, 1, X-linked, 306955|VACTERL association, X-linked, 314390","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+ZMAT3,0,not_verified_by_selected_rule,,,,,,,,
+ZMYM2,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Neurodevelopmental-craniofacial syndrome with variable renal and cardiac abnormalities, OMIM:619522","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02903,ZMYM2-related developmental disorder,loss of function,2026-09-19
+ZMYM3,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Intellectual developmental disorder, X-linked 112, OMIM:301111","X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)|monoallelic_X_heterozygous",G2P03426,ZMYM3-related neurodevelopmental disorder,undetermined,2026-09-19
+ZMYM5,0,not_verified_by_selected_rule,,,,,,,,
+ZMYM6,0,not_verified_by_selected_rule,1,11.31,INTELLECTUAL DISABILITY,"MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted",,,,2026-09-19
+ZNF148,1,DDG2P_NDD_phenotype,2,11.31,"Global developmental delay, absent or hypoplastic corpus callosum, and dysmorphic facies, 617260","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02904,ZNF148-related neurodevelopmental disorder,loss of function,2026-09-19
+ZNF292,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Intellectual developmental disorder, autosomal dominant 64, OMIM:619188|intellectual developmental disorder, autosomal dominant 64, MONDO:0030934","MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown|monoallelic_autosomal",G2P02871,ZNF292-related developmental disorder,loss of function,2026-09-19
+ZNF408,0,not_verified_by_selected_rule,,,,,,,,
+ZNF711,1,PanelApp285_green_and_DDG2P_NDD,3,11.31,"Mental Retardation, X-linked|Mental retardation, X-linked 97, 300803|MENTAL RETARDATION X-LINKED ZNF711-RELATED (MRXZ)","X-LINKED: hemizygous mutation in males, biallelic mutations in females|monoallelic_X_hemizygous",G2P00292,ZNF711-related intellectual developmental disorder,loss of function,2026-09-19
+ZNF81,0,not_verified_by_selected_rule,1,11.31,"Mental Retardation, X-linked|Mental retardation, X-linked 45, 300498","X-LINKED: hemizygous mutation in males, biallelic mutations in females",,,,2026-09-19
+ZRANB2,0,not_verified_by_selected_rule,,,,,,,,
+ZYX,0,not_verified_by_selected_rule,,,,,,,,
+ZZZ3,0,not_verified_by_selected_rule,,,,,,,,

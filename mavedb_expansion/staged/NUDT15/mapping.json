@@ -1,0 +1,38 @@
+{
+ "gene": "NUDT15",
+ "uniprot": "Q9NV35",
+ "role": "contrast",
+ "shared_missense": 2844,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00000055-b-1",
+   "title": "NUDT15 activity scores",
+   "license": "CC0",
+   "n_variants": 3100,
+   "heuristic_task": "activity",
+   "mapped_missense": 2934,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 495,
+   "experiment_urn": "urn:mavedb:00000055-b",
+   "experiment_title": "NUDT15 activity scores",
+   "experiment_method": "The NUDT15 variant library was synthesized by Twist Biosciences. The library included all possible single amino acid changes across the gene's coding region. Each variant was tagged with a random sequence barcode and the association between barcodes and variants was determined using PacBio SMRT sequencing as previously described for VAMP-seq. The barcoded library was introduced into a HEK293T landing pad cell line.\r\nThiopurine cytotoxicity was measured by comparing cells that were treated with 3$\\mu$m 6-thioguanine or culture media for 6 days. After treatment, genomic DNA was extracted and barcodes were sequenced on an Illumina HiSeq 2000 to obtain variant-barcode counts. Each drug treatment had 4 replicates. This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+   "published": "2021-01-12"
+  },
+  {
+   "urn": "urn:mavedb:00000055-a-1",
+   "title": "NUDT15 protein stability scores",
+   "license": "CC0",
+   "n_variants": 3100,
+   "heuristic_task": "abundance",
+   "mapped_missense": 2922,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 495,
+   "experiment_urn": "urn:mavedb:00000055-a",
+   "experiment_title": "NUDT15 protein stability assay",
+   "experiment_method": "The NUDT15 variant library was synthesized by Twist Biosciences. The library included all possible single amino acid changes across the gene's coding region. Each variant was tagged with a random sequence barcode and the association between barcodes and variants was determined using PacBio SMRT sequencing as previously described for VAMP-seq. The barcoded library was introduced into a HEK293T landing pad cell line.\r\n\r\nCells expressing NUDT15 variants fused to EGFP were sorted into 4 bins based on EGFP signal normalized to mCherry by FACS. Genomic DNA was extracted from each bin and barcodes were sequenced on an Illumina HiSeq 2000 to obtain binwise variant-barcode counts. An unspecified number of replicates were performed. This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+   "published": "2021-01-12"
+  }
+ ]
+}

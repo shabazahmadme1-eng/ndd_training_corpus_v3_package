@@ -1,0 +1,64 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1186/s13073-021-00984-x\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34649609",
+        "source": "MED",
+        "pmid": "34649609",
+        "pmcid": "PMC8518224",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8518224"
+          ]
+        },
+        "doi": "10.1186/s13073-021-00984-x",
+        "title": "Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers.",
+        "authorString": "Matreyek KA, Stephany JJ, Ahler E, Fowler DM.",
+        "journalTitle": "Genome Med",
+        "issue": "1",
+        "journalVolume": "13",
+        "pubYear": "2021",
+        "journalIssn": "1756-994x",
+        "pageInfo": "165",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "refseq",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2021-10-14",
+        "firstIndexDate": "2021-10-16"
+      }
+    ]
+  }
+}

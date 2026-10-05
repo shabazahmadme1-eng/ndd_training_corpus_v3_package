@@ -1,0 +1,9 @@
+{
+  "epochs_run": 10,
+  "max_epochs": 16,
+  "best_epoch": 3,
+  "best_validation_spearman": 0.5286156173377048,
+  "stop_reason": "early_stopping",
+  "selection_metric": "macro_gene_spearman",
+  "patience": 6
+}

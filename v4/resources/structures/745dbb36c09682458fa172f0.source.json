@@ -1,0 +1,8 @@
+{
+  "gene": "CXCR4__9606__745dbb36c096",
+  "source": "mavedb_expansion\\staged_structures\\P61073.pdb",
+  "chain": null,
+  "confidence": "plddt",
+  "exact_subsequence_crop_allowed": true,
+  "conformers": 1
+}

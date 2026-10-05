@@ -1,0 +1,13 @@
+model,seed,fold,folder,complete,epochs_run,max_epochs,best_epoch,best_validation_spearman,stop_reason,selection_metric,patience,torch
+mipo,42,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/mipo/seed_42/fold_83,True,11,20,4,0.5855354407499018,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+mipo,123,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/mipo/seed_123/fold_83,True,20,20,19,0.5940698314219713,epoch_cap,macro_gene_spearman,6,2.11.0+cu128
+mipo,2026,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/mipo/seed_2026/fold_83,True,19,20,12,0.5969362436161114,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+esm_mlp,42,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/esm_mlp/seed_42/fold_83,True,15,20,8,0.6008947039611746,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+esm_mlp,123,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/esm_mlp/seed_123/fold_83,True,8,20,1,0.5760854340174755,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+esm_mlp,2026,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/esm_mlp/seed_2026/fold_83,True,20,20,16,0.5907251412474827,epoch_cap,macro_gene_spearman,6,2.11.0+cu128
+fixed_heads,42,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/fixed_heads/seed_42/fold_83,True,11,20,4,0.5669702306284652,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+fixed_heads,123,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/fixed_heads/seed_123/fold_83,True,14,20,7,0.5886165817256297,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+fixed_heads,2026,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/fixed_heads/seed_2026/fold_83,True,20,20,15,0.517049914893157,epoch_cap,macro_gene_spearman,6,2.11.0+cu128
+no_structure,42,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/no_structure/seed_42/fold_83,True,14,20,7,0.5892195469649975,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+no_structure,123,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/no_structure/seed_123/fold_83,True,10,20,3,0.5817271733357384,early_stopping,macro_gene_spearman,6,2.11.0+cu128
+no_structure,2026,83,/content/drive/MyDrive/MIPO_NDD/v4_validation_direct_650M_0ac5f3bae0d8b330/runs/no_structure/seed_2026/fold_83,True,20,20,16,0.5945494463637352,epoch_cap,macro_gene_spearman,6,2.11.0+cu128

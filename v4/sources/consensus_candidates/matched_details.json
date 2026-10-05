@@ -1,0 +1,150 @@
+{
+ "ASPA": {
+  "urn": "urn:mavedb:00000657-a-1",
+  "title": "Aspartoacylase (ASPA) cellular abundance",
+  "short": "Protein abundance scores of ASPA variants in human cells measured by VAMP-seq experiments",
+  "method": "A site-saturation library of codon optimized human ASPA were custom synthesized and barcoded. A variant-barcode map was made from long-read sequencing. Constructs of ASPA variants fused to GFP and an IRES-mCherry expression control were integrated into a HEK29",
+  "doi": [
+   "10.1038/s41467-024-48481-0"
+  ],
+  "lic": "CC0",
+  "rho": 1.0,
+  "coverage": "1.0"
+ },
+ "CRX": {
+  "urn": "urn:mavedb:00001227-a-2",
+  "title": "Scores from deep mutational scanning CRX transcription factor in HEK 293-derived cells",
+  "short": "Deep mutational scan of CRX variants in HEK 293-derived cells expressing a synthetic fluorescent reporter",
+  "method": "Reads were cleaned with fastp, followed by barcode extraction and counting using custom Python scripts, with variant barcodes mapped to specific variants based on PacBio sequencing data and error-corrected up to a Hamming distance of 1 for unambiguous matches.",
+  "doi": [
+   "10.1101/gr.279415.124"
+  ],
+  "lic": "CC0",
+  "rho": 1.0,
+  "coverage": "1.0"
+ },
+ "FKRP": {
+  "urn": "urn:mavedb:00001197-a-5",
+  "title": "FKRP variants effects on alpha-DG glycosylation",
+  "short": "FKRP variants effects on alpha-DG glycosylation",
+  "method": "**Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)** is an accessible workflow for deep mutational scanning (DMS) studies. The manuscript is currently available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2023.07.12.548370v4). This workflow",
+  "doi": [
+   "10.1101/2023.07.12.548370"
+  ],
+  "lic": "CC BY 4.0",
+  "rho": 1.0,
+  "coverage": "1.0"
+ },
+ "KCNQ1": {
+  "urn": "urn:mavedb:00000094-a-15",
+  "title": "Normalized currents of 62 KCNQ1 missense SNVs in the homozygous state.",
+  "short": "13. Normalized currents of 62 KCNQ1 missense SNVs in the homozygous state.",
+  "method": " ",
+  "doi": [],
+  "lic": "CC0",
+  "rho": 1.0,
+  "coverage": "1.0"
+ },
+ "MAPK1": {
+  "urn": "urn:mavedb:00000103-b-1",
+  "title": "MAPK1 DOX",
+  "short": "MAPK1 Induced with DOX",
+  "method": " ",
+  "doi": [
+   "10.1016/j.celrep.2016.09.061"
+  ],
+  "lic": "CC0",
+  "rho": -1.0,
+  "coverage": "1.0"
+ },
+ "OTC": {
+  "urn": "urn:mavedb:00000112-a-1",
+  "title": "SNV-accessible missense variant scores for OTC",
+  "short": "Variant growth scores reported relative to an arg3 deletion mutant (0) and wild type yOTC (1).",
+  "method": "Estimate of the growth of each yOTC variant relative to the growth of null controls (set to 0) and the growth of wild type yOTC (set to 1). See the methods section on the Experiment page for further details.",
+  "doi": [
+   "10.1016/j.ajhg.2023.03.019"
+  ],
+  "lic": "CC BY-NC-SA 4.0",
+  "rho": 1.0,
+  "coverage": "1.0"
+ },
+ "SPOP": {
+  "urn": "urn:mavedb:00001258-a-1",
+  "title": "Selection of loss-of-function SPOP via yeast survival assay",
+  "short": "An amino acid level deep mutational scan of human SPOP using yeast survival assay.",
+  "method": "Count matrices from two biological replicates were analyzed using DESeq2. Enrichment ratios between SPOP-expressed and non-expressed pools were quantified as z-scores, derived from the log2 fold-changes and their standard errors. Variant identification utilize",
+  "doi": [],
+  "lic": "CC0",
+  "rho": -1.0,
+  "coverage": "1.0"
+ },
+ "BRCA2": {
+  "urn": "urn:mavedb:00001224-a-1",
+  "title": "Scores from arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+  "short": "Arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+  "method": "A homology-directed repair (HDR) assay was employed wherein full-length _BRCA2_ cDNA with introduced missense variants was co-transfected with iSce1 expression vector into brca2-deficient V-C8 cells containing a DR-GFP reporter. The proportion of viable cells ",
+  "doi": [
+   "10.1016/j.ajhg.2024.02.002"
+  ],
+  "lic": "CC0",
+  "rho": 0.9999999999999998,
+  "coverage": "1.0"
+ },
+ "LARGE1": {
+  "urn": "urn:mavedb:00001254-a-1",
+  "title": "LARGE1 variants effects on alpha-DG glycosylation",
+  "short": "LARGE1 variants effects on alpha-DG glycosylation",
+  "method": "**Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)** is an accessible workflow for deep mutational scanning (DMS) studies. The manuscript is currently available on [BioRxiv](https://www.biorxiv.org/content/10.1101/2023.07.12.548370v4). This workflow",
+  "doi": [
+   "10.1101/2023.07.12.548370"
+  ],
+  "lic": "CC BY 4.0",
+  "rho": 0.9999999999999998,
+  "coverage": "1.0"
+ },
+ "SUMO1": {
+  "urn": "urn:mavedb:00000001-b-2",
+  "title": "SUMO1 DMS-TileSeq",
+  "short": "A Deep Mutational Scan of the human SUMO1 using functional complementation in yeast via DMS-TileSeq",
+  "method": "##Scoring procedure: DMS-TileSeq reads were processed using the [dmsPipeline](https://bitbucket.org/rothlabto/dmspipeline) software. Briefly, TileSeq read counts were used to establish relative allele frequencies in each condition. Non-mutagenized control coun",
+  "doi": [
+   "10.15252/msb.20177908"
+  ],
+  "lic": "CC0",
+  "rho": 0.9999201440894244,
+  "coverage": "0.9265242313705054"
+ },
+ "PALB2": {
+  "urn": "urn:mavedb:00001278-a-1",
+  "title": "Scores from site-saturation functional screen of PALB2 missense variants in mES cells",
+  "short": "Site-saturation fuctional screen of PALB2 missense variants in the CC and WD40 domains in mouse embryonic stem cells using PARPi sensitivity as a readout for homologous recombination",
+  "method": "FASTQ files for each sample were analyzed using Enrich2. Reads containing insertions, deletions or multiple amino acid substitutions and variants with SE >0.5 were filtered out. Depletion scores were calculated for remaining variants by comparing variant frequ",
+  "doi": [
+   "10.1038/s41467-025-67252-z"
+  ],
+  "lic": "CC0",
+  "rho": 0.9965249757398876,
+  "coverage": "1.0"
+ },
+ "PSAT1": {
+  "urn": "urn:mavedb:00000107-b-1",
+  "title": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast.",
+  "short": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast via a solid growth assay.",
+  "method": "Yeast strains were arrayed and grown on solid minimal medium lacking serine. Strain growth was measured by an automated image analysis pipeline (https://github.com/lacyk3/PyPl8/tree/main/src/PyPl8), and adjusted for plate, neighbor, and edge effects. Growth sc",
+  "doi": [],
+  "lic": "CC BY-NC-SA 4.0",
+  "rho": 0.9934615321046156,
+  "coverage": "0.9994778067885117"
+ },
+ "TSC2": {
+  "urn": "urn:mavedb:00001267-0-1",
+  "title": "TSC2 Combined Scores",
+  "short": "Scores for both Tuberin and RapGAP domains and functional classes.",
+  "method": "This meta-analysis combines the two domain-level score analysis and adds functional classes. Variant functional classes were determined using a GMM approach.",
+  "doi": [],
+  "lic": "CC0",
+  "rho": 0.9919982206523033,
+  "coverage": "0.9877791356515943"
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "gene": "G6PD__9606__0725c9221fe1",
+  "source": "mavedb_expansion\\staged_structures\\P11413.pdb",
+  "chain": null,
+  "confidence": "plddt",
+  "exact_subsequence_crop_allowed": true,
+  "conformers": 1
+}

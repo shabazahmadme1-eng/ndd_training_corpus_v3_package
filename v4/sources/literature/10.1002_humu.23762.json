@@ -1,0 +1,58 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1002/humu.23762\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30977563",
+        "source": "MED",
+        "pmid": "30977563",
+        "pmcid": "PMC7027811",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7027811"
+          ]
+        },
+        "doi": "10.1002/humu.23762",
+        "title": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach.",
+        "authorString": "Wan A, Place E, Pierce EA, Comander J.",
+        "journalTitle": "Hum Mutat",
+        "issue": "8",
+        "journalVolume": "40",
+        "pubYear": "2019",
+        "journalIssn": "1059-7794; 1098-1004; ",
+        "pageInfo": "1127-1144",
+        "pubType": "research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 39,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "uniprot",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2019-06-22",
+        "firstIndexDate": "2019-04-13"
+      }
+    ]
+  }
+}

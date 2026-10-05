@@ -1,0 +1,3614 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001224-a-1",
+   "title": "Scores from arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+   "shortDescription": "Arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 462,
+   "experiment": {
+    "title": "Arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+    "shortDescription": "Arrayed screen of BRCA2 homology directed repair function in VC-8 cells",
+    "abstractText": "Variants of uncertain significance (VUSs) in _BRCA2_ are a common result of hereditary cancer genetic testing. While more than 4,000 unique VUSs, comprised of missense or intronic variants, have been identified in _BRCA2_, the few missense variants now classified clinically as pathogenic or likely pathogenic are predominantly located in the region encoding the C-terminal DNA binding domain (DBD). We report on functional evaluation of the influence of 462 _BRCA2_ missense variants affecting the DBD on DNA repair activity of _BRCA2_ using a homology-directed DNA double-strand break repair assay. Of these, 137 were functionally abnormal, 313 were functionally normal, and 12 demonstrated intermediate function. Comparisons with other functional studies of _BRCA2_ missense variants yielded strong correlations. Sequence-based in silico prediction models had high sensitivity, but limited specificity, relative to the homology-directed repair assay. Combining the functional results with clinical and genetic data in an American College of Medical Genetics (ACMG)/Association for Molecular Pathology (AMP)-like variant classification framework from a clinical testing laboratory, after excluding known splicing variants and functionally intermediate variants, classified 431 of 442 (97.5%) missense variants (129 as pathogenic/likely pathogenic and 302 as benign/likely benign). Functionally abnormal variants classified as pathogenic by ACMG/AMP rules were associated with a slightly lower risk of breast cancer (odds ratio [OR] 5.15, 95% confidence interval [CI] 3.43-7.83) than _BRCA2_ DBD protein truncating variants (OR 8.56, 95% CI 6.03-12.36). Overall, functional studies of _BRCA2_ variants using validated assays substantially improved the variant classification yield from ACMG/AMP models and are expected to improve clinical management of many individuals found to harbor germline _BRCA2_ missense VUS.",
+    "methodText": "A fluorescent reporter assay was used to measure homology directed repair activity.  _BRCA2_-deficient V-C8 cells containing the DR-GFP reporter were co-transfected with _BRCA2_ variant constructs and the iSce1 expression vector. This creates a double-stranded break in an inactive GFP allele which can be repaired through homology-directed repair (HDR) using another inactive GFP allele as template, resulting in functional GFP expression only if the _BRCA2_ variant is functional. The proportion of viable cells displaying green fluorescent protein (GFP+) was quantified by flow cytometry after 72 hours.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001224-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001224",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "38417439",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Functional analysis and clinical classification of 462 germline BRCA2 missense variants affecting the DNA binding domain.",
+      "authors": [
+       {
+        "name": "Hu C",
+        "primary": true
+       },
+       {
+        "name": "Huang H",
+        "primary": false
+       },
+       {
+        "name": "Na J",
+        "primary": false
+       },
+       {
+        "name": "Lumby C",
+        "primary": false
+       },
+       {
+        "name": "Abozaid M",
+        "primary": false
+       },
+       {
+        "name": "Holdren MA",
+        "primary": false
+       },
+       {
+        "name": "Rao TJ",
+        "primary": false
+       },
+       {
+        "name": "Karam R",
+        "primary": false
+       },
+       {
+        "name": "Pesaran T",
+        "primary": false
+       },
+       {
+        "name": "Weyandt JD",
+        "primary": false
+       },
+       {
+        "name": "Csuy CM",
+        "primary": false
+       },
+       {
+        "name": "Seelaus CA",
+        "primary": false
+       },
+       {
+        "name": "Young CC",
+        "primary": false
+       },
+       {
+        "name": "Fulk K",
+        "primary": false
+       },
+       {
+        "name": "Heidari Z",
+        "primary": false
+       },
+       {
+        "name": "Morais Lyra PC",
+        "primary": false
+       },
+       {
+        "name": "Couch RE",
+        "primary": false
+       },
+       {
+        "name": "Persons B",
+        "primary": false
+       },
+       {
+        "name": "Polley EC",
+        "primary": false
+       },
+       {
+        "name": "Gnanaolivu RD",
+        "primary": false
+       },
+       {
+        "name": "Boddicker NJ",
+        "primary": false
+       },
+       {
+        "name": "Monteiro ANA",
+        "primary": false
+       },
+       {
+        "name": "Yadav S",
+        "primary": false
+       },
+       {
+        "name": "Domchek SM",
+        "primary": false
+       },
+       {
+        "name": "Richardson ME",
+        "primary": false
+       },
+       {
+        "name": "Couch FJ",
+        "primary": false
+       }
+      ],
+      "abstract": "Variants of uncertain significance (VUSs) in BRCA2 are a common result of hereditary cancer genetic testing. While more than 4,000 unique VUSs, comprised of missense or intronic variants, have been identified in BRCA2, the few missense variants now classified clinically as pathogenic or likely pathogenic are predominantly located in the region encoding the C-terminal DNA binding domain (DBD). We report on functional evaluation of the influence of 462 BRCA2 missense variants affecting the DBD on DNA repair activity of BRCA2 using a homology-directed DNA double-strand break repair assay. Of these, 137 were functionally abnormal, 313 were functionally normal, and 12 demonstrated intermediate function. Comparisons with other functional studies of BRCA2 missense variants yielded strong correlations. Sequence-based in silico prediction models had high sensitivity, but limited specificity, relative to the homology-directed repair assay. Combining the functional results with clinical and genetic data in an American College of Medical Genetics (ACMG)/Association for Molecular Pathology (AMP)-like variant classification framework from a clinical testing laboratory, after excluding known splicing variants and functionally intermediate variants, classified 431 of 442 (97.5%) missense variants (129 as pathogenic/likely pathogenic and 302 as benign/likely benign). Functionally abnormal variants classified as pathogenic by ACMG/AMP rules were associated with a slightly lower risk of breast cancer (odds ratio [OR] 5.15, 95% confidence interval [CI] 3.43-7.83) than BRCA2 DBD protein truncating variants (OR 8.56, 95% CI 6.03-12.36). Overall, functional studies of BRCA2 variants using validated assays substantially improved the variant classification yield from ACMG/AMP models and are expected to improve clinical management of many individuals found to harbor germline BRCA2 missense VUS.",
+      "doi": "10.1016/j.ajhg.2024.02.002",
+      "publicationYear": 2024,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/38417439",
+      "referenceHtml": "Hu C, <i>et al</i>. Functional analysis and clinical classification of 462 germline BRCA2 missense variants affecting the DNA binding domain. Am J Hum Genet. 2024; 111:584-593. 10.1016/j.ajhg.2024.02.002",
+      "id": 113
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "DNA repair and Double-strand break repair via homologous recombination",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Cricetulus griseus (NCBI:txid10029)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001224-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "38417439",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Functional analysis and clinical classification of 462 germline BRCA2 missense variants affecting the DNA binding domain.",
+     "authors": [
+      {
+       "name": "Hu C",
+       "primary": true
+      },
+      {
+       "name": "Huang H",
+       "primary": false
+      },
+      {
+       "name": "Na J",
+       "primary": false
+      },
+      {
+       "name": "Lumby C",
+       "primary": false
+      },
+      {
+       "name": "Abozaid M",
+       "primary": false
+      },
+      {
+       "name": "Holdren MA",
+       "primary": false
+      },
+      {
+       "name": "Rao TJ",
+       "primary": false
+      },
+      {
+       "name": "Karam R",
+       "primary": false
+      },
+      {
+       "name": "Pesaran T",
+       "primary": false
+      },
+      {
+       "name": "Weyandt JD",
+       "primary": false
+      },
+      {
+       "name": "Csuy CM",
+       "primary": false
+      },
+      {
+       "name": "Seelaus CA",
+       "primary": false
+      },
+      {
+       "name": "Young CC",
+       "primary": false
+      },
+      {
+       "name": "Fulk K",
+       "primary": false
+      },
+      {
+       "name": "Heidari Z",
+       "primary": false
+      },
+      {
+       "name": "Morais Lyra PC",
+       "primary": false
+      },
+      {
+       "name": "Couch RE",
+       "primary": false
+      },
+      {
+       "name": "Persons B",
+       "primary": false
+      },
+      {
+       "name": "Polley EC",
+       "primary": false
+      },
+      {
+       "name": "Gnanaolivu RD",
+       "primary": false
+      },
+      {
+       "name": "Boddicker NJ",
+       "primary": false
+      },
+      {
+       "name": "Monteiro ANA",
+       "primary": false
+      },
+      {
+       "name": "Yadav S",
+       "primary": false
+      },
+      {
+       "name": "Domchek SM",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "Couch FJ",
+       "primary": false
+      }
+     ],
+     "abstract": "Variants of uncertain significance (VUSs) in BRCA2 are a common result of hereditary cancer genetic testing. While more than 4,000 unique VUSs, comprised of missense or intronic variants, have been identified in BRCA2, the few missense variants now classified clinically as pathogenic or likely pathogenic are predominantly located in the region encoding the C-terminal DNA binding domain (DBD). We report on functional evaluation of the influence of 462 BRCA2 missense variants affecting the DBD on DNA repair activity of BRCA2 using a homology-directed DNA double-strand break repair assay. Of these, 137 were functionally abnormal, 313 were functionally normal, and 12 demonstrated intermediate function. Comparisons with other functional studies of BRCA2 missense variants yielded strong correlations. Sequence-based in silico prediction models had high sensitivity, but limited specificity, relative to the homology-directed repair assay. Combining the functional results with clinical and genetic data in an American College of Medical Genetics (ACMG)/Association for Molecular Pathology (AMP)-like variant classification framework from a clinical testing laboratory, after excluding known splicing variants and functionally intermediate variants, classified 431 of 442 (97.5%) missense variants (129 as pathogenic/likely pathogenic and 302 as benign/likely benign). Functionally abnormal variants classified as pathogenic by ACMG/AMP rules were associated with a slightly lower risk of breast cancer (odds ratio [OR] 5.15, 95% confidence interval [CI] 3.43-7.83) than BRCA2 DBD protein truncating variants (OR 8.56, 95% CI 6.03-12.36). Overall, functional studies of BRCA2 variants using validated assays substantially improved the variant classification yield from ACMG/AMP models and are expected to improve clinical management of many individuals found to harbor germline BRCA2 missense VUS.",
+     "doi": "10.1016/j.ajhg.2024.02.002",
+     "publicationYear": 2024,
+     "publicationJournal": "Am J Hum Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/38417439",
+     "referenceHtml": "Hu C, <i>et al</i>. Functional analysis and clinical classification of 462 germline BRCA2 missense variants affecting the DNA binding domain. Am J Hum Genet. 2024; 111:584-593. 10.1016/j.ajhg.2024.02.002",
+     "id": 113
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2026-05-13",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7509,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGCCTATTGGATCCAAAGAGAGGCCAACATTTTTTGAAATTTTTAAGACACGCTGCAACAAAGCAGATTTAGGACCAATAAGTCTTAATTGGTTTGAAGAACTTTCTTCAGAAGCTCCACCCTATAATTCTGAACCTGCAGAAGAATCTGAACATAAAAACAACAATTACGAACCAAACCTATTTAAAACTCCACAAAGGAAACCATCTTATAATCAGCTGGCTTCAACTCCAATAATATTCAAAGAGCAAGGGCTGACTCTGCCGCTGTACCAATCTCCTGTAAAAGAATTAGATAAATTCAAATTAGACTTAGGAAGGAATGTTCCCAATAGTAGACATAAAAGTCTTCGCACAGTGAAAACTAAAATGGATCAAGCAGATGATGTTTCCTGTCCACTTCTAAATTCTTGTCTTAGTGAAAGTCCTGTTGTTCTACAATGTACACATGTAACACCACAAAGAGATAAGTCAGTGGTATGTGGGAGTTTGTTTCATACACCAAAGTTTGTGAAGGGTCGTCAGACACCAAAACATATTTCTGAAAGTCTAGGAGCTGAGGTGGATCCTGATATGTCTTGGTCAAGTTCTTTAGCTACACCACCCACCCTTAGTTCTACTGTGCTCATAGTCAGAAATGAAGAAGCATCTGAAACTGTATTTCCTCATGATACTACTGCTAATGTGAAAAGCTATTTTTCCAATCATGATGAAAGTCTGAAGAAAAATGATAGATTTATCGCTTCTGTGACAGACAGTGAAAACACAAATCAAAGAGAAGCTGCAAGTCATGGATTTGGAAAAACATCAGGGAATTCATTTAAAGTAAATAGCTGCAAAGACCACATTGGAAAGTCAATGCCAAATGTCCTAGAAGATGAAGTATATGAAACAGTTGTAGATACCTCTGAAGAAGATAGTTTTTCATTATGTTTTTCTAAATGTAGAACAAAAAATCTACAAAAAGTAAGAACTAGCAAGACTAGGAAAAAAATTTTCCATGAAGCAAACGCTGATGAATGTGAAAAATCTAAAAACCAAGTGAAAGAAAAATACTCATTTGTATCTGAAGTGGAACCAAATGATACTGATCCATTAGATTCAAATGTAGCAAATCAGAAGCCCTTTGAGAGTGGAAGTGACAAAATCTCCAAGGAAGTTGTACCGTCTTTGGCCTGTGAATGGTCTCAACTAACCCTTTCAGGTCTAAATGGAGCCCAGATGGAGAAAATACCCCTATTGCATATTTCTTCATGTGACCAAAATATTTCAGAAAAAGACCTATTAGACACAGAGAACAAAAGAAAGAAAGATTTTCTTACTTCAGAGAATTCTTTGCCACGTATTTCTAGCCTACCAAAATCAGAGAAGCCATTAAATGAGGAAACAGTGGTAAATAAGAGAGATGAAGAGCAGCATCTTGAATCTCATACAGACTGCATTCTTGCAGTAAAGCAGGCAATATCTGGAACTTCTCCAGTGGCTTCTTCATTTCAGGGTATCAAAAAGTCTATATTCAGAATAAGAGAATCACCTAAAGAGACTTTCAATGCAAGTTTTTCAGGTCATATGACTGATCCAAACTTTAAAAAAGAAACTGAAGCCTCTGAAAGTGGACTGGAAATACATACTGTTTGCTCACAGAAGGAGGACTCCTTATGTCCAAATTTAATTGATAATGGAAGCTGGCCAGCCACCACCACACAGAATTCTGTAGCTTTGAAGAATGCAGGTTTAATATCCACTTTGAAAAAGAAAACAAATAAGTTTATTTATGCTATACATGATGAAACATCTTATAAAGGAAAAAAAATACCGAAAGACCAAAAATCAGAACTAATTAACTGTTCAGCCCAGTTTGAAGCAAATGCTTTTGAAGCACCACTTACATTTGCAAATGCTGATTCAGGTTTATTGCATTCTTCTGTGAAAAGAAGCTGTTCACAGAATGATTCTGAAGAACCAACTTTGTCCTTAACTAGCTCTTTTGGGACAATTCTGAGGAAATGTTCTAGAAATGAAACATGTTCTAATAATACAGTAATCTCTCAGGATCTTGATTATAAAGAAGCAAAATGTAATAAGGAAAAACTACAGTTATTTATTACCCCAGAAGCTGATTCTCTGTCATGCCTGCAGGAAGGACAGTGTGAAAATGATCCAAAAAGCAAAAAAGTTTCAGATATAAAAGAAGAGGTCTTGGCTGCAGCATGTCACCCAGTACAACATTCAAAAGTGGAATACAGTGATACTGACTTTCAATCCCAGAAAAGTCTTTTATATGATCATGAAAATGCCAGCACTCTTATTTTAACTCCTACTTCCAAGGATGTTCTGTCAAACCTAGTCATGATTTCTAGAGGCAAAGAATCATACAAAATGTCAGACAAGCTCAAAGGTAACAATTATGAATCTGATGTTGAATTAACCAAAAATATTCCCATGGAAAAGAATCAAGATGTATGTGCTTTAAATGAAAATTATAAAAACGTTGAGCTGTTGCCACCTGAAAAATACATGAGAGTAGCATCACCTTCAAGAAAGGTACAATTCAACCAAAACACAAATCTAAGAGTAATCCAAAAAAATCAAGAAGAAACTACTTCAATTTCAAAAATAACTGTCAATCCAGACTCTGAAGAACTTTTCTCAGACAATGAGAATAATTTTGTCTTCCAAGTAGCTAATGAAAGGAATAATCTTGCTTTAGGAAATACTAAGGAACTTCATGAAACAGACTTGACTTGTGTAAACGAACCCATTTTCAAGAACTCTACCATGGTTTTATATGGAGACACAGGTGATAAACAAGCAACCCAAGTGTCAATTAAAAAAGATTTGGTTTATGTTCTTGCAGAGGAGAACAAAAATAGTGTAAAGCAGCATATAAAAATGACTCTAGGTCAAGATTTAAAATCGGACATCTCCTTGAATATAGATAAAATACCAGAAAAAAATAATGATTACATGAACAAATGGGCAGGACTCTTAGGTCCAATTTCAAATCACAGTTTTGGAGGTAGCTTCAGAACAGCTTCAAATAAGGAAATCAAGCTCTCTGAACATAACATTAAGAAGAGCAAAATGTTCTTCAAAGATATTGAAGAACAATATCCTACTAGTTTAGCTTGTGTTGAAATTGTAAATACCTTGGCATTAGATAATCAAAAGAAACTGAGCAAGCCTCAGTCAATTAATACTGTATCTGCACATTTACAGAGTAGTGTAGTTGTTTCTGATTGTAAAAATAGTCATATAACCCCTCAGATGTTATTTTCCAAGCAGGATTTTAATTCAAACCATAATTTAACACCTAGCCAAAAGGCAGAAATTACAGAACTTTCTACTATATTAGAAGAATCAGGAAGTCAGTTTGAATTTACTCAGTTTAGAAAACCAAGCTACATATTGCAGAAGAGTACATTTGAAGTGCCTGAAAACCAGATGACTATCTTAAAGACCACTTCTGAGGAATGCAGAGATGCTGATCTTCATGTCATAATGAATGCCCCATCGATTGGTCAGGTAGACAGCAGCAAGCAATTTGAAGGTACAGTTGAAATTAAACGGAAGTTTGCTGGCCTGTTGAAAAATGACTGTAACAAAAGTGCTTCTGGTTATTTAACAGATGAAAATGAAGTGGGGTTTAGGGGCTTTTATTCTGCTCATGGCACAAAACTGAATGTTTCTACTGAAGCTCTGCAAAAAGCTGTGAAACTGTTTAGTGATATTGAGAATATTAGTGAGGAAACTTCTGCAGAGGTACATCCAATAAGTTTATCTTCAAGTAAATGTCATGATTCTGTTGTTTCAATGTTTAAGATAGAAAATCATAATGATAAAACTGTAAGTGAAAAAAATAATAAATGCCAACTGATATTACAAAATAATATTGAAATGACTACTGGCACTTTTGTTGAAGAAATTACTGAAAATTACAAGAGAAATACTGAAAATGAAGATAACAAATATACTGCTGCCAGTAGAAATTCTCATAACTTAGAATTTGATGGCAGTGATTCAAGTAAAAATGATACTGTTTGTATTCATAAAGATGAAACGGACTTGCTATTTACTGATCAGCACAACATATGTCTTAAATTATCTGGCCAGTTTATGAAGGAGGGAAACACTCAGATTAAAGAAGATTTGTCAGATTTAACTTTTTTGGAAGTTGCGAAAGCTCAAGAAGCATGTCATGGTAATACTTCAAATAAAGAACAGTTAACTGCTACTAAAACGGAGCAAAATATAAAAGATTTTGAGACTTCTGATACATTTTTTCAGACTGCAAGTGGGAAAAATATTAGTGTCGCCAAAGAGTCATTTAATAAAATTGTAAATTTCTTTGATCAGAAACCAGAAGAATTGCATAACTTTTCCTTAAATTCTGAATTACATTCTGACATAAGAAAGAACAAAATGGACATTCTAAGTTATGAGGAAACAGACATAGTTAAACACAAAATACTGAAAGAAAGTGTCCCAGTTGGTACTGGAAATCAACTAGTGACCTTCCAGGGACAACCCGAACGTGATGAAAAGATCAAAGAACCTACTCTATTGGGTTTTCATACAGCTAGCGGGAAAAAAGTTAAAATTGCAAAGGAATCTTTGGACAAAGTGAAAAACCTTTTTGATGAAAAAGAGCAAGGTACTAGTGAAATCACCAGTTTTAGCCATCAATGGGCAAAGACCCTAAAGTACAGAGAGGCCTGTAAAGACCTTGAATTAGCATGTGAGACCATTGAGATCACAGCTGCCCCAAAGTGTAAAGAAATGCAGAATTCTCTCAATAATGATAAAAACCTTGTTTCTATTGAGACTGTGGTGCCACCTAAGCTCTTAAGTGATAATTTATGTAGACAAACTGAAAATCTCAAAACATCAAAAAGTATCTTTTTGAAAGTTAAAGTACATGAAAATGTAGAAAAAGAAACAGCAAAAAGTCCTGCAACTTGTTACACAAATCAGTCCCCTTATTCAGTCATTGAAAATTCAGCCTTAGCTTTTTACACAAGTTGTAGTAGAAAAACTTCTGTGAGTCAGACTTCATTACTTGAAGCAAAAAAATGGCTTAGAGAAGGAATATTTGATGGTCAACCAGAAAGAATAAATACTGCAGATTATGTAGGAAATTATTTGTATGAAAATAATTCAAACAGTACTATAGCTGAAAATGACAAAAATCATCTCTCCGAAAAACAAGATACTTATTTAAGTAACAGTAGCATGTCTAACAGCTATTCCTACCATTCTGATGAGGTATATAATGATTCAGGATATCTCTCAAAAAATAAACTTGATTCTGGTATTGAGCCAGTATTGAAGAATGTTGAAGATCAAAAAAACACTAGTTTTTCCAAAGTAATATCCAATGTAAAAGATGCAAATGCATACCCACAAACTGTAAATGAAGATATTTGCGTTGAGGAACTTGTGACTAGCTCTTCACCCTGCAAAAATAAAAATGCAGCCATTAAATTGTCCATATCTAATAGTAATAATTTTGAGGTAGGGCCACCTGCATTTAGGATAGCCAGTGGTAAAATCGTTTGTGTTTCACATGAAACAATTAAAAAAGTGAAAGACATATTTACAGACAGTTTCAGTAAAGTAATTAAGGAAAACAACGAGAATAAATCAAAAATTTGCCAAACGAAAATTATGGCAGGTTGTTACGAGGCATTGGATGATTCAGAGGATATTCTTCATAACTCTCTAGATAATGATGAATGTAGCACGCATTCACATAAGGTTTTTGCTGACATTCAGAGTGAAGAAATTTTACAACATAACCAAAATATGTCTGGATTGGAGAAAGTTTCTAAAATATCACCTTGTGATGTTAGTTTGGAAACTTCAGATATATGTAAATGTAGTATAGGGAAGCTTCATAAGTCAGTCTCATCTGCAAATACTTGTGGGATTTTTAGCACAGCAAGTGGAAAATCTGTCCAGGTATCAGATGCTTCATTACAAAACGCAAGACAAGTGTTTTCTGAAATAGAAGATAGTACCAAGCAAGTCTTTTCCAAAGTATTGTTTAAAAGTAACGAACATTCAGACCAGCTCACAAGAGAAGAAAATACTGCTATACGTACTCCAGAACATTTAATATCCCAAAAAGGCTTTTCATATAATGTGGTAAATTCATCTGCTTTCTCTGGATTTAGTACAGCAAGTGGAAAGCAAGTTTCCATTTTAGAAAGTTCCTTACACAAAGTTAAGGGAGTGTTAGAGGAATTTGATTTAATCAGAACTGAGCATAGTCTTCACTATTCACCTACGTCTAGACAAAATGTATCAAAAATACTTCCTCGTGTTGATAAGAGAAACCCAGAGCACTGTGTAAACTCAGAAATGGAAAAAACCTGCAGTAAAGAATTTAAATTATCAAATAACTTAAATGTTGAAGGTGGTTCTTCAGAAAATAATCACTCTATTAAAGTTTCTCCATATCTCTCTCAATTTCAACAAGACAAACAACAGTTGGTATTAGGAACCAAAGTGTCACTTGTTGAGAACATTCATGTTTTGGGAAAAGAACAGGCTTCACCTAAAAACGTAAAAATGGAAATTGGTAAAACTGAAACTTTTTCTGATGTTCCTGTGAAAACAAATATAGAAGTTTGTTCTACTTACTCCAAAGATTCAGAAAACTACTTTGAAACAGAAGCAGTAGAAATTGCTAAAGCTTTTATGGAAGATGATGAACTGACAGATTCTAAACTGCCAAGTCATGCCACACATTCTCTTTTTACATGTCCCGAAAATGAGGAAATGGTTTTGTCAAATTCAAGAATTGGAAAAAGAAGAGGAGAGCCCCTTATCTTAGTGGGAGAACCCTCAATCAAAAGAAACTTATTAAATGAATTTGACAGGATAATAGAAAATCAAGAAAAATCCTTAAAGGCTTCAAAAAGCACTCCAGATGGCACAATAAAAGATCGAAGATTGTTTATGCATCATGTTTCTTTAGAGCCGATTACCTGTGTACCCTTTCGCACAACTAAGGAACGTCAAGAGATACAGAATCCAAATTTTACCGCACCTGGTCAAGAATTTCTGTCTAAATCTCATTTGTATGAACATCTGACTTTGGAAAAATCTTCAAGCAATTTAGCAGTTTCAGGACATCCATTTTATCAAGTTTCTGCTACAAGAAATGAAAAAATGAGACACTTGATTACTACAGGCAGACCAACCAAAGTCTTTGTTCCACCTTTTAAAACTAAATCACATTTTCACAGAGTTGAACAGTGTGTTAGGAATATTAACTTGGAGGAAAACAGACAAAAGCAAAACATTGATGGACATGGCTCTGATGATAGTAAAAATAAGATTAATGACAATGAGATTCATCAGTTTAACAAAAACAACTCCAATCAAGCAGTAGCTGTAACTTTCACAAAGTGTGAAGAAGAACCTTTAGATTTAATTACAAGTCTTCAGAATGCCAGAGATATACAGGATATGCGAATTAAGAAGAAACAAAGGCAACGCGTCTTTCCACAGCCAGGCAGTCTGTATCTTGCAAAAACATCCACTCTGCCTCGAATCTCTCTGAAAGCAGCAGTAGGAGGCCAAGTTCCCTCTGCGTGTTCTCATAAACAGCTGTATACGTATGGCGTTTCTAAACATTGCATAAAAATTAACAGCAAAAATGCAGAGTCTTTTCAGTTTCACACTGAAGATTATTTTGGTAAGGAAAGTTTATGGACTGGAAAAGGAATACAGTTGGCTGATGGTGGATGGCTCATACCCTCCAATGATGGAAAGGCTGGAAAAGAAGAATTTTATAGGGCTCTGTGTGACACTCCAGGTGTGGATCCAAAGCTTATTTCTAGAATTTGGGTTTATAATCACTATAGATGGATCATATGGAAACTGGCAGCTATGGAATGTGCCTTTCCTAAGGAATTTGCTAATAGATGCCTAAGCCCAGAAAGGGTGCTTCTTCAACTAAAATACAGATATGATACGGAAATTGATAGAAGCAGAAGATCGGCTATAAAAAAGATAATGGAAAGGGATGACACAGCTGCAAAAACACTTGTTCTCTGTGTTTCTGACATAATTTCATTGAGCGCAAATATATCTGAAACTTCTAGCAATAAAACTAGTAGTGCAGATACCCAAAAAGTGGCCATTATTGAACTTACAGATGGGTGGTATGCTGTTAAGGCCCAGTTAGATCCTCCCCTCTTAGCTGTCTTAAAGAATGGCAGACTGACAGTTGGTCAGAAGATTATTCTTCATGGAGCAGAACTGGTGGGCTCTCCTGATGCCTGTACACCTCTTGAAGCCCCAGAATCTCTTATGTTAAAGATTTCTGCTAACAGTACTCGGCCTGCTCGCTGGTATACCAAACTTGGATTCTTTCCTGACCCTAGACCTTTTCCTCTGCCCTTATCATCGCTTTTCAGTGATGGAGGAAATGTTGGTTGTGTTGATGTAATTATTCAAAGAGCATACCCTATACAGTGGATGGAGAAGACATCATCTGGATTATACATATTTCGCAATGAAAGAGAGGAAGAAAAGGAAGCAGCAAAATATGTGGAGGCCCAACAAAAGAGACTAGAAGCCTTATTCACTAAAATTCAGGAGGAATTTGAAGAACATGAAGAAAACACAACAAAACCATATTTACCATCACGTGCACTAACAAGACAGCAAGTTCGTGCTTTGCAAGATGGTGCAGAGCTTTATGAAGCAGTGAAGAATGCAGCAGACCCAGCTTACCTTGAGGGTTATTTCAGTGAAGAGCAGTTAAGAGCCTTGAATAATCACAGGCAAATGTTGAATGATAAGAAACAAGCTCAGATCCAGTTGGAAATTAGGAAGGCCATGGAATCTGCTGAACAAAAGGAACAAGGTTTATCAAGGGATGTCACAACCGTGTGGAAGTTGCGTATTGTAAGCTATTCAAAAAAAGAAAAAGATTCAGTTATACTGAGTATTTGGCGTCCATCATCAGATTTATATTCTCTGTTAACAGAAGGAAAGAGATACAGAATTTATCATCTTGCAACTTCAAAATCTAAAAGTAAATCTGAAAGAGCTAACATACAGTTAGCAGCGACAAAAAAAACTCAGTATCAACAACTACCGGTTTCAGATGAAATTTTATTTCAGATTTACCAGCCACGGGAGCCCCTTCACTTCAGCAAATTTTTAGATCCAGACTTTCAGCCATCTTGTTCTGAGGTGGACCTAATAGGATTTGTCGTTTCTGTTGTGAAAAAAACAGGACTTGCCCCTTTCGTCTATTTGTCAGACGAATGTTACAATTTACTGGCAATAAAGTTTTGGATAGACCTTAATGAGGACATTATTAAGCCTCATATGTTAATTGCTGCAAGCAACCTCCAGTGGCGACCAGAATCCAAATCAGGCCTTCTTACTTTATTTGCTGGAGATTTTTCTGTGTTTTCTGCTAGTCCAAAAGAGGGCCACTTTCAAGAGACATTCAACAAAATGAAAAATACTGTTGAGAATATTGACATACTTTGCAATGAAGCAGAAAACAAGCTTATGCATATACTGCATGCAAATGATCCCAAGTGGTCCACCCCAACTAAAGACTGTACTTCAGGGCCGTACACTGCTCAAATCATTCCTGGTACAGGAAACAAGCTTCTGATGTCTTCTCCTAATTGTGAGATATATTATCAAAGTCCTTTATCACTTTGTATGGCCAAAAGGAAGTCTGTTTCCACACCTGTCTCAGCCCAGATGACTTCAAAGTCTTGTAAAGGGGAGAAAGAGATTGATGACCAAAAGAACTGCAAAAAGAGAAGAGCCTTGGATTTCTTGAGTAGACTGCCTTTACCTCCACCTGTTAGTCCCATTTGTACATTTGTTTCTCCGGCTGCACAGAAGGCATTTCAGCCACCAAGGAGTTGTGGCACCAAATACGAAACACCCATAAAGAAAAAAGAACTGAATTCTCCTCAGATGACTCCATTTAAAAAATTCAATGAAATTTCTCTTTTGGAAAGTAATTCAATAGCTGACGAAGAACTTGCATTGATAAATACCCAAGCTCTTTTGTCTGGTTCAACAGGAGAAAAACAATTTATATCTGTCAGTGAATCCACTAGGACTGCTCCCACCAGTTCAGAAGATTATCTCAGACTGAAACGACGTTGTACTACATCTCTGATCAAAGAACAGGAGAGTTCCCAGGCCAGTACGGAAGAATGTGAGAAAAATAAGCAGGACACAATTACAACTAAAAAATATATCTAA",
+      "label": "BRCA2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": "P51587"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001268-0-1",
+   "title": "Global scores from saturation mutagenesis of BRCA2 exon 13",
+   "shortDescription": "Saturation mutagenesis of BRCA2 exon 13 (weighted average of cisplatin, olaparib, and control assays)",
+   "publishedDate": "2026-02-21",
+   "replacesId": null,
+   "numVariants": 252,
+   "experiment": {
+    "title": "Global scores from saturation mutagenesis of BRCA2 exon 13",
+    "shortDescription": "Saturation mutagenesis of BRCA2 exon 13 (weighted average of cisplatin, olaparib, and control assays)",
+    "abstractText": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (_BRCA2_) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human _BRCA2_ for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 _BRCA2_ variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of _BRCA2_ VUS.",
+    "methodText": "Functional scores were calculated independently for each treatment condition as log2 ratios of variant frequency at day 14 relative to day 3. Position bias correction was applied using LOESS regression modeling on variants with ratios >1.25 to account for position-dependent editing efficiency. The corrected scores were linearly scaled within exon segments and normalized such that median synonymous and nonsense variant scores aligned with global medians across exon 13. A weighted mean functional score was then computed using weights of 0.4 for DMSO, 0.25 for cisplatin, and 0.25 for olaparib.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001268-0",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-21",
+    "modificationDate": "2026-02-21",
+    "publishedDate": "2026-02-21",
+    "experimentSetUrn": "urn:mavedb:00001268",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001268-0-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "37713444",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+     "authors": [
+      {
+       "name": "Sahu S",
+       "primary": true
+      },
+      {
+       "name": "Sullivan TL",
+       "primary": false
+      },
+      {
+       "name": "Mitrophanov AY",
+       "primary": false
+      },
+      {
+       "name": "Galloux M",
+       "primary": false
+      },
+      {
+       "name": "Nousome D",
+       "primary": false
+      },
+      {
+       "name": "Southon E",
+       "primary": false
+      },
+      {
+       "name": "Caylor D",
+       "primary": false
+      },
+      {
+       "name": "Mishra AP",
+       "primary": false
+      },
+      {
+       "name": "Evans CN",
+       "primary": false
+      },
+      {
+       "name": "Clapp ME",
+       "primary": false
+      },
+      {
+       "name": "Burkett S",
+       "primary": false
+      },
+      {
+       "name": "Malys T",
+       "primary": false
+      },
+      {
+       "name": "Chari R",
+       "primary": false
+      },
+      {
+       "name": "Biswas K",
+       "primary": false
+      },
+      {
+       "name": "Sharan SK",
+       "primary": false
+      }
+     ],
+     "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+     "doi": "10.1371/journal.pgen.1010940",
+     "publicationYear": 2023,
+     "publicationJournal": "PLoS Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+     "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+     "id": 121
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-21",
+   "modificationDate": "2026-05-13",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7968,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001263-a-2",
+   "title": "Saturation Genome Editing of BRCA2 scores",
+   "shortDescription": "We used saturation genome editing to measure the effect of SNVs and 3-base pair deletions on BRCA2-dependent HAP1 cell survival",
+   "publishedDate": "2026-06-08",
+   "replacesId": null,
+   "numVariants": 871,
+   "experiment": {
+    "title": "Saturation Genome Editing of BRCA2",
+    "shortDescription": "We used saturation genome editing to measure the effect of SNVs and 3-base pair deletions on BRCA2-dependent HAP1 cell survival",
+    "abstractText": "Systematic interrogation of the functional consequences of variants of uncertain significance (VUS) is critical to interpretation of clinical genetic testing.  We applied Saturation Genome Editing (SGE) to assess  SNVs and in-frame deletions for their effect of cell survival.",
+    "methodText": "Functional scores for SNVs and 3-bp deletions were calculated by applying a negative binomial regression model to variant counts across all sampled time points and replicates. Variants near 0 represent no change, loss of function variants have progressively more negative scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001263-a",
+    "createdBy": {
+     "orcidId": "0009-0007-5494-7477",
+     "firstName": "Nahum",
+     "lastName": "Smith",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0009-0007-5494-7477",
+     "firstName": "Nahum",
+     "lastName": "Smith",
+     "recordType": "User"
+    },
+    "creationDate": "2025-11-04",
+    "modificationDate": "2026-01-10",
+    "publishedDate": "2026-01-10",
+    "experimentSetUrn": "urn:mavedb:00001263",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7433-4343",
+      "recordType": "Contributor",
+      "givenName": "Matthew",
+      "familyName": "Snyder"
+     },
+     {
+      "orcidId": "0000-0003-2870-5099",
+      "recordType": "Contributor",
+      "givenName": "Lea",
+      "familyName": "Starita"
+     },
+     {
+      "orcidId": "0000-0003-2619-5662",
+      "recordType": "Contributor",
+      "givenName": "Silvia",
+      "familyName": "Casadei"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell proliferation assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001263-a-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-06-02",
+   "modificationDate": "2026-06-08",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8189,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": null,
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001223-a-1",
+   "title": "Scores from saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+   "shortDescription": "Saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 420,
+   "experiment": {
+    "title": "Saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+    "shortDescription": "Saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells",
+    "abstractText": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (_NPC1_), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that _NPC1_ is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the _BRCA2_ gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+    "methodText": "A cell survival assay was used to measure _BRCA2_ essentiality.  Saturation prime editing was used to introduce _BRCA2_ variants into locally haploidized HEK293T cells.  Cells were harvested every two days between days 6 and 16. Genomic DNA from both time points was amplified and sequenced using Illumina NextSeq 500/MiSeq to determine variant frequency.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001223-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001223",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "35190686",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation variant interpretation using CRISPR prime editing.",
+      "authors": [
+       {
+        "name": "Erwood S",
+        "primary": true
+       },
+       {
+        "name": "Bily TMI",
+        "primary": false
+       },
+       {
+        "name": "Lequyer J",
+        "primary": false
+       },
+       {
+        "name": "Yan J",
+        "primary": false
+       },
+       {
+        "name": "Gulati N",
+        "primary": false
+       },
+       {
+        "name": "Brewer RA",
+        "primary": false
+       },
+       {
+        "name": "Zhou L",
+        "primary": false
+       },
+       {
+        "name": "Pelletier L",
+        "primary": false
+       },
+       {
+        "name": "Ivakine EA",
+        "primary": false
+       },
+       {
+        "name": "Cohn RD",
+        "primary": false
+       }
+      ],
+      "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+      "doi": "10.1038/s41587-021-01201-1",
+      "publicationYear": 2022,
+      "publicationJournal": "Nat Biotechnol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+      "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+      "id": 114
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001223-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "35190686",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation variant interpretation using CRISPR prime editing.",
+     "authors": [
+      {
+       "name": "Erwood S",
+       "primary": true
+      },
+      {
+       "name": "Bily TMI",
+       "primary": false
+      },
+      {
+       "name": "Lequyer J",
+       "primary": false
+      },
+      {
+       "name": "Yan J",
+       "primary": false
+      },
+      {
+       "name": "Gulati N",
+       "primary": false
+      },
+      {
+       "name": "Brewer RA",
+       "primary": false
+      },
+      {
+       "name": "Zhou L",
+       "primary": false
+      },
+      {
+       "name": "Pelletier L",
+       "primary": false
+      },
+      {
+       "name": "Ivakine EA",
+       "primary": false
+      },
+      {
+       "name": "Cohn RD",
+       "primary": false
+      }
+     ],
+     "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+     "doi": "10.1038/s41587-021-01201-1",
+     "publicationYear": 2022,
+     "publicationJournal": "Nat Biotechnol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+     "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+     "id": 114
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2025-08-28",
+   "targetGenes": [
+    {
+     "name": "ENST00000380152.8",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7508,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "ENST00000380152.8",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001232-a-1",
+   "title": "Scores from saturation prime editing of NCP1 in locally haploidized HEK293T cells",
+   "shortDescription": "Saturation prime editing of NCP1 in locally haploidized HEK293T cells as assessed by a fluorescence-based lysosome accumulation assay",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 978,
+   "experiment": {
+    "title": "Saturation prime editing of NCP1 in locally haploidized HEK293T cells",
+    "shortDescription": "Saturation prime editing of NCP1 in locally haploidized HEK293T cells as assessed by a fluorescence-based lysosome accumulation assay",
+    "abstractText": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (_NPC1_), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that _NPC1_ is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the _BRCA2_ gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+    "methodText": "An _NPC1_ haploidized HEK293T cell line was generated by deleting specific regions of two _NPC1_ alleles using CRISPR-Cas9, allowing variant assessment in isolation. Saturation Prime Editing was used to introduce variants into _NPC1_.  Cells were then sorted cells into high/low LysoTracker fluorescence gates (reflecting lysosomal accumulation) 10 days post-transfection. Genomic DNA from both populations was amplified and sequenced using Illumina NextSeq 500/MiSeq to determine variant frequency in both the high and low populations.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001232-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001232",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "35190686",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation variant interpretation using CRISPR prime editing.",
+      "authors": [
+       {
+        "name": "Erwood S",
+        "primary": true
+       },
+       {
+        "name": "Bily TMI",
+        "primary": false
+       },
+       {
+        "name": "Lequyer J",
+        "primary": false
+       },
+       {
+        "name": "Yan J",
+        "primary": false
+       },
+       {
+        "name": "Gulati N",
+        "primary": false
+       },
+       {
+        "name": "Brewer RA",
+        "primary": false
+       },
+       {
+        "name": "Zhou L",
+        "primary": false
+       },
+       {
+        "name": "Pelletier L",
+        "primary": false
+       },
+       {
+        "name": "Ivakine EA",
+        "primary": false
+       },
+       {
+        "name": "Cohn RD",
+        "primary": false
+       }
+      ],
+      "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+      "doi": "10.1038/s41587-021-01201-1",
+      "publicationYear": 2022,
+      "publicationJournal": "Nat Biotechnol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+      "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+      "id": 114
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001232-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "35190686",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation variant interpretation using CRISPR prime editing.",
+     "authors": [
+      {
+       "name": "Erwood S",
+       "primary": true
+      },
+      {
+       "name": "Bily TMI",
+       "primary": false
+      },
+      {
+       "name": "Lequyer J",
+       "primary": false
+      },
+      {
+       "name": "Yan J",
+       "primary": false
+      },
+      {
+       "name": "Gulati N",
+       "primary": false
+      },
+      {
+       "name": "Brewer RA",
+       "primary": false
+      },
+      {
+       "name": "Zhou L",
+       "primary": false
+      },
+      {
+       "name": "Pelletier L",
+       "primary": false
+      },
+      {
+       "name": "Ivakine EA",
+       "primary": false
+      },
+      {
+       "name": "Cohn RD",
+       "primary": false
+      }
+     ],
+     "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+     "doi": "10.1038/s41587-021-01201-1",
+     "publicationYear": 2022,
+     "publicationJournal": "Nat Biotechnol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+     "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+     "id": 114
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2025-06-18",
+   "targetGenes": [
+    {
+     "name": "ENST00000269228.10",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7518,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "ENST00000269228.10",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": "NPC1",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001232-b-1",
+   "title": "Scores from saturation prime editing of NCP1 in locally haploidized RPE1 cells",
+   "shortDescription": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells as assessed by a fluorescence-based lysosome accumulation assay",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 84,
+   "experiment": {
+    "title": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells",
+    "shortDescription": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells as assessed by a fluorescence-based lysosome accumulation assay",
+    "abstractText": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (_NPC1_), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that _NPC1_ is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the _BRCA2_ gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+    "methodText": "An _NPC1_ haploidized RPE1 cell line was generated by deleting specific regions of two _NPC1_ alleles using CRISPR-Cas9, allowing variant assessment in isolation. Saturation Prime Editing was used to introduce variants into _NPC1_.  Cells were then sorted cells into high/low LysoTracker fluorescence gates (reflecting lysosomal accumulation) 10 days post-transfection. Genomic DNA from both populations was amplified and sequenced using Illumina NextSeq 500/MiSeq to determine variant frequency in both the high and low populations.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001232-b",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001232",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "35190686",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation variant interpretation using CRISPR prime editing.",
+      "authors": [
+       {
+        "name": "Erwood S",
+        "primary": true
+       },
+       {
+        "name": "Bily TMI",
+        "primary": false
+       },
+       {
+        "name": "Lequyer J",
+        "primary": false
+       },
+       {
+        "name": "Yan J",
+        "primary": false
+       },
+       {
+        "name": "Gulati N",
+        "primary": false
+       },
+       {
+        "name": "Brewer RA",
+        "primary": false
+       },
+       {
+        "name": "Zhou L",
+        "primary": false
+       },
+       {
+        "name": "Pelletier L",
+        "primary": false
+       },
+       {
+        "name": "Ivakine EA",
+        "primary": false
+       },
+       {
+        "name": "Cohn RD",
+        "primary": false
+       }
+      ],
+      "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+      "doi": "10.1038/s41587-021-01201-1",
+      "publicationYear": 2022,
+      "publicationJournal": "Nat Biotechnol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+      "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+      "id": 114
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001232-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "35190686",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation variant interpretation using CRISPR prime editing.",
+     "authors": [
+      {
+       "name": "Erwood S",
+       "primary": true
+      },
+      {
+       "name": "Bily TMI",
+       "primary": false
+      },
+      {
+       "name": "Lequyer J",
+       "primary": false
+      },
+      {
+       "name": "Yan J",
+       "primary": false
+      },
+      {
+       "name": "Gulati N",
+       "primary": false
+      },
+      {
+       "name": "Brewer RA",
+       "primary": false
+      },
+      {
+       "name": "Zhou L",
+       "primary": false
+      },
+      {
+       "name": "Pelletier L",
+       "primary": false
+      },
+      {
+       "name": "Ivakine EA",
+       "primary": false
+      },
+      {
+       "name": "Cohn RD",
+       "primary": false
+      }
+     ],
+     "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+     "doi": "10.1038/s41587-021-01201-1",
+     "publicationYear": 2022,
+     "publicationJournal": "Nat Biotechnol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+     "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+     "id": 114
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2025-06-18",
+   "targetGenes": [
+    {
+     "name": "ENST00000269228.10",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7519,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "ENST00000269228.10",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": "NPC1",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001268-c-1",
+   "title": "Scores from SGE of BRCA2 exon 13",
+   "shortDescription": "Saturation mutagenesis of BRCA2 exon 13",
+   "publishedDate": "2026-02-19",
+   "replacesId": null,
+   "numVariants": 252,
+   "experiment": {
+    "title": "SGE of BRCA2 exon 13",
+    "shortDescription": "Saturation mutagenesis of BRCA2 exon 13",
+    "abstractText": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (_BRCA2_) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human _BRCA2_ for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 _BRCA2_ variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of _BRCA2_ VUS.",
+    "methodText": "A BRCA2 variant library was introduced into PL2F7/F7 mouse embryonic stem cells harboring a single-copy human BRCA2 transgene. These cells were derived from PL2F7 cells (Brca2cko/ko) by integrating a 127kb BAC containing full-length human BRCA2 at chromosome 12 position A3, with endogenous mouse Brca2 deleted by Cre-mediated recombination. Cells were nucleofected with 3\u03bcg sgRNA/Cas9 plasmid and 6\u03bcg of 180-mer ssODN library. Following nucleofection, 3x10^7 cells were cultured on feeder cells for 72 hours, then replated and maintained until day 14. Cell pellets were harvested at day 3 and day 14. Genomic DNA was extracted and amplicon sequencing (1-3 million reads/sample) was performed to determine variant frequency at each time point, with function scores calculated as log2(day14/day3) ratios.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001268-c",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-18",
+    "modificationDate": "2026-02-19",
+    "publishedDate": "2026-02-19",
+    "experimentSetUrn": "urn:mavedb:00001268",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "37713444",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+      "authors": [
+       {
+        "name": "Sahu S",
+        "primary": true
+       },
+       {
+        "name": "Sullivan TL",
+        "primary": false
+       },
+       {
+        "name": "Mitrophanov AY",
+        "primary": false
+       },
+       {
+        "name": "Galloux M",
+        "primary": false
+       },
+       {
+        "name": "Nousome D",
+        "primary": false
+       },
+       {
+        "name": "Southon E",
+        "primary": false
+       },
+       {
+        "name": "Caylor D",
+        "primary": false
+       },
+       {
+        "name": "Mishra AP",
+        "primary": false
+       },
+       {
+        "name": "Evans CN",
+        "primary": false
+       },
+       {
+        "name": "Clapp ME",
+        "primary": false
+       },
+       {
+        "name": "Burkett S",
+        "primary": false
+       },
+       {
+        "name": "Malys T",
+        "primary": false
+       },
+       {
+        "name": "Chari R",
+        "primary": false
+       },
+       {
+        "name": "Biswas K",
+        "primary": false
+       },
+       {
+        "name": "Sharan SK",
+        "primary": false
+       }
+      ],
+      "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+      "doi": "10.1371/journal.pgen.1010940",
+      "publicationYear": 2023,
+      "publicationJournal": "PLoS Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+      "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+      "id": 121
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Nucleofection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Molecular function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Murine primary cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001268-c-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "37713444",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+     "authors": [
+      {
+       "name": "Sahu S",
+       "primary": true
+      },
+      {
+       "name": "Sullivan TL",
+       "primary": false
+      },
+      {
+       "name": "Mitrophanov AY",
+       "primary": false
+      },
+      {
+       "name": "Galloux M",
+       "primary": false
+      },
+      {
+       "name": "Nousome D",
+       "primary": false
+      },
+      {
+       "name": "Southon E",
+       "primary": false
+      },
+      {
+       "name": "Caylor D",
+       "primary": false
+      },
+      {
+       "name": "Mishra AP",
+       "primary": false
+      },
+      {
+       "name": "Evans CN",
+       "primary": false
+      },
+      {
+       "name": "Clapp ME",
+       "primary": false
+      },
+      {
+       "name": "Burkett S",
+       "primary": false
+      },
+      {
+       "name": "Malys T",
+       "primary": false
+      },
+      {
+       "name": "Chari R",
+       "primary": false
+      },
+      {
+       "name": "Biswas K",
+       "primary": false
+      },
+      {
+       "name": "Sharan SK",
+       "primary": false
+      }
+     ],
+     "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+     "doi": "10.1371/journal.pgen.1010940",
+     "publicationYear": 2023,
+     "publicationJournal": "PLoS Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+     "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+     "id": 121
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-18",
+   "modificationDate": "2026-05-13",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7957,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001268-a-1",
+   "title": "Scores from SGE of BRCA2 exon 13 with cisplatin drug selection",
+   "shortDescription": "Saturation mutagenesis of BRCA2 exon 13 with cisplatin drug selection",
+   "publishedDate": "2026-02-18",
+   "replacesId": null,
+   "numVariants": 252,
+   "experiment": {
+    "title": "SGE of BRCA2 exon 13 with cisplatin drug selection",
+    "shortDescription": "Saturation mutagenesis of BRCA2 exon 13 with cisplatin drug selection",
+    "abstractText": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (_BRCA2_) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human _BRCA2_ for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 _BRCA2_ variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of _BRCA2_ VUS.",
+    "methodText": "A BRCA2 variant library was introduced into PL2F7/F7 mouse embryonic stem cells containing a single-copy human BRCA2 transgene integrated at chromosome 12, replacing the deleted endogenous Brca2. Following nucleofection (3x10^7 cells with 3\u03bcg sgRNA/Cas9 and 6\u03bcg ssODN) and 7 days of culture on feeder cells, 10^7 cells were replated and treated with 0.4\u03bcM cisplatin from day 8-14 with media changes every 48 hours. Cell pellets were harvested at day 3 (pre-treatment) and day 14 (post-treatment). Genomic DNA was extracted and amplicon sequencing was performed to determine variant frequency, with function scores calculated as log2(day14/day3) ratios under cisplatin selection.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001268-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-18",
+    "modificationDate": "2026-02-18",
+    "publishedDate": "2026-02-18",
+    "experimentSetUrn": "urn:mavedb:00001268",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "37713444",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+      "authors": [
+       {
+        "name": "Sahu S",
+        "primary": true
+       },
+       {
+        "name": "Sullivan TL",
+        "primary": false
+       },
+       {
+        "name": "Mitrophanov AY",
+        "primary": false
+       },
+       {
+        "name": "Galloux M",
+        "primary": false
+       },
+       {
+        "name": "Nousome D",
+        "primary": false
+       },
+       {
+        "name": "Southon E",
+        "primary": false
+       },
+       {
+        "name": "Caylor D",
+        "primary": false
+       },
+       {
+        "name": "Mishra AP",
+        "primary": false
+       },
+       {
+        "name": "Evans CN",
+        "primary": false
+       },
+       {
+        "name": "Clapp ME",
+        "primary": false
+       },
+       {
+        "name": "Burkett S",
+        "primary": false
+       },
+       {
+        "name": "Malys T",
+        "primary": false
+       },
+       {
+        "name": "Chari R",
+        "primary": false
+       },
+       {
+        "name": "Biswas K",
+        "primary": false
+       },
+       {
+        "name": "Sharan SK",
+        "primary": false
+       }
+      ],
+      "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+      "doi": "10.1371/journal.pgen.1010940",
+      "publicationYear": 2023,
+      "publicationJournal": "PLoS Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+      "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+      "id": 121
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Nucleofection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Cellular response to cisplatin, DNA repair and Double-strand break repair via homologous recombination",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Murine primary cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001268-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "37713444",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+     "authors": [
+      {
+       "name": "Sahu S",
+       "primary": true
+      },
+      {
+       "name": "Sullivan TL",
+       "primary": false
+      },
+      {
+       "name": "Mitrophanov AY",
+       "primary": false
+      },
+      {
+       "name": "Galloux M",
+       "primary": false
+      },
+      {
+       "name": "Nousome D",
+       "primary": false
+      },
+      {
+       "name": "Southon E",
+       "primary": false
+      },
+      {
+       "name": "Caylor D",
+       "primary": false
+      },
+      {
+       "name": "Mishra AP",
+       "primary": false
+      },
+      {
+       "name": "Evans CN",
+       "primary": false
+      },
+      {
+       "name": "Clapp ME",
+       "primary": false
+      },
+      {
+       "name": "Burkett S",
+       "primary": false
+      },
+      {
+       "name": "Malys T",
+       "primary": false
+      },
+      {
+       "name": "Chari R",
+       "primary": false
+      },
+      {
+       "name": "Biswas K",
+       "primary": false
+      },
+      {
+       "name": "Sharan SK",
+       "primary": false
+      }
+     ],
+     "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+     "doi": "10.1371/journal.pgen.1010940",
+     "publicationYear": 2023,
+     "publicationJournal": "PLoS Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+     "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+     "id": 121
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-18",
+   "modificationDate": "2026-05-13",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7955,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001268-b-1",
+   "title": "Scores from SGE of BRCA2 exon 13 with olaparib drug selection",
+   "shortDescription": "Scores from SGE of BRCA2 exon 13 with olaparib drug selection",
+   "publishedDate": "2026-02-18",
+   "replacesId": null,
+   "numVariants": 252,
+   "experiment": {
+    "title": "SGE of BRCA2 exon 13 with olaparib drug selection",
+    "shortDescription": "Saturation mutagenesis of BRCA2 exon 13 with olaparib drug selection",
+    "abstractText": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (_BRCA2_) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human _BRCA2_ for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 _BRCA2_ variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of _BRCA2_ VUS.",
+    "methodText": "A BRCA2 variant library was introduced into PL2F7/F7 mouse embryonic stem cells containing a BAC-integrated single-copy human BRCA2 transgene (replacing endogenous mouse Brca2 following HAT selection for HPRT minigene reconstitution). Following nucleofection and 7 days of culture, cells were treated with 0.05\u03bcM olaparib from day 8-14. Cell pellets were harvested at day 3 (pre-treatment) and day 14 (post-treatment). Genomic DNA was extracted and paired-end sequencing was performed to determine variant frequency, with function scores calculated as log2(day14/day3) ratios under olaparib selection.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001268-b",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-18",
+    "modificationDate": "2026-02-18",
+    "publishedDate": "2026-02-18",
+    "experimentSetUrn": "urn:mavedb:00001268",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "37713444",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+      "authors": [
+       {
+        "name": "Sahu S",
+        "primary": true
+       },
+       {
+        "name": "Sullivan TL",
+        "primary": false
+       },
+       {
+        "name": "Mitrophanov AY",
+        "primary": false
+       },
+       {
+        "name": "Galloux M",
+        "primary": false
+       },
+       {
+        "name": "Nousome D",
+        "primary": false
+       },
+       {
+        "name": "Southon E",
+        "primary": false
+       },
+       {
+        "name": "Caylor D",
+        "primary": false
+       },
+       {
+        "name": "Mishra AP",
+        "primary": false
+       },
+       {
+        "name": "Evans CN",
+        "primary": false
+       },
+       {
+        "name": "Clapp ME",
+        "primary": false
+       },
+       {
+        "name": "Burkett S",
+        "primary": false
+       },
+       {
+        "name": "Malys T",
+        "primary": false
+       },
+       {
+        "name": "Chari R",
+        "primary": false
+       },
+       {
+        "name": "Biswas K",
+        "primary": false
+       },
+       {
+        "name": "Sharan SK",
+        "primary": false
+       }
+      ],
+      "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+      "doi": "10.1371/journal.pgen.1010940",
+      "publicationYear": 2023,
+      "publicationJournal": "PLoS Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+      "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+      "id": 121
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Nucleofection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "DNA repair and Double-strand break repair via homologous recombination",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Murine primary cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001268-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "37713444",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants.",
+     "authors": [
+      {
+       "name": "Sahu S",
+       "primary": true
+      },
+      {
+       "name": "Sullivan TL",
+       "primary": false
+      },
+      {
+       "name": "Mitrophanov AY",
+       "primary": false
+      },
+      {
+       "name": "Galloux M",
+       "primary": false
+      },
+      {
+       "name": "Nousome D",
+       "primary": false
+      },
+      {
+       "name": "Southon E",
+       "primary": false
+      },
+      {
+       "name": "Caylor D",
+       "primary": false
+      },
+      {
+       "name": "Mishra AP",
+       "primary": false
+      },
+      {
+       "name": "Evans CN",
+       "primary": false
+      },
+      {
+       "name": "Clapp ME",
+       "primary": false
+      },
+      {
+       "name": "Burkett S",
+       "primary": false
+      },
+      {
+       "name": "Malys T",
+       "primary": false
+      },
+      {
+       "name": "Chari R",
+       "primary": false
+      },
+      {
+       "name": "Biswas K",
+       "primary": false
+      },
+      {
+       "name": "Sharan SK",
+       "primary": false
+      }
+     ],
+     "abstract": "The unknown pathogenicity of a significant number of variants found in cancer-related genes is attributed to limited epidemiological data, resulting in their classification as variant of uncertain significance (VUS). To date, Breast Cancer gene-2 (BRCA2) has the highest number of VUSs, which has necessitated the development of several robust functional assays to determine their functional significance. Here we report the use of a humanized-mouse embryonic stem cell (mESC) line expressing a single copy of the human BRCA2 for a CRISPR-Cas9-based high-throughput functional assay. As a proof-of-principle, we have saturated 11 codons encoded by BRCA2 exons 3, 18, 19 and all possible single-nucleotide variants in exon 13 and multiplexed these variants for their functional categorization. Specifically, we used a pool of 180-mer single-stranded donor DNA to generate all possible combination of variants. Using a high throughput sequencing-based approach, we show a significant drop in the frequency of non-functional variants, whereas functional variants are enriched in the pool of the cells. We further demonstrate the response of these variants to the DNA-damaging agents, cisplatin and olaparib, allowing us to use cellular survival and drug response as parameters for variant classification. Using this approach, we have categorized 599 BRCA2 variants including 93-single nucleotide variants (SNVs) across the 11 codons, of which 28 are reported in ClinVar. We also functionally categorized 252 SNVs from exon 13 into 188 functional and 60 non-functional variants, demonstrating that saturation genome editing (SGE) coupled with drug sensitivity assays can enhance functional annotation of BRCA2 VUS.",
+     "doi": "10.1371/journal.pgen.1010940",
+     "publicationYear": 2023,
+     "publicationJournal": "PLoS Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/37713444",
+     "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing of 11 codons and exon 13 of BRCA2 coupled with chemotherapeutic drug response accurately determines pathogenicity of variants. PLoS Genet. 2023; 19:e1010940. 10.1371/journal.pgen.1010940",
+     "id": 121
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-18",
+   "modificationDate": "2026-05-13",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7956,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001242-a-1",
+   "title": "Scores from sGE of BRCA2 exons 15\u201326 in humanized mouse embryonic stem cells",
+   "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 in a humanized mouse embryonic stem cell line",
+   "publishedDate": "2025-07-01",
+   "replacesId": null,
+   "numVariants": 6545,
+   "experiment": {
+    "title": "SGE of BRCA2 exons 15\u201326 in humanized mouse embryonic stem cells",
+    "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 in a humanized mouse embryonic stem cell line",
+    "abstractText": "Sequencing-based genetic tests have uncovered a vast array of _BRCA2_ sequence variants. Owing to limited clinical, familial and epidemiological data, thousands of variants are considered to be variants of uncertain significance (VUS). Here we have utilized CRISPR-Cas9-based saturation genome editing in a humanized mouse embryonic stem cell line to determine the functional effect of VUS. We have categorized nearly all possible single nucleotide variants (SNVs) in the region that encodes the carboxylate-terminal DNA-binding domain of _BRCA2_. We have generated function scores for 6,551 SNVs, covering 96.4% of possible SNVs in exons 15-26 spanning _BRCA2_ residues 2479-3216. These variants include 1,282 SNVs that are categorized as missense VUS in the clinical variant database ClinVar, with 77.2% of these classified as benign and 20.4% classified as pathogenic using our functional score. Our assay provides evidence that 3,384 of the SNVs in the region are benign and 776 are pathogenic. Our classification aligns closely with pathogenicity data from ClinVar, orthogonal functional assays and computational meta predictors. We have integrated our embryonic stem cell-based _BRCA2_-saturation genome editing dataset with other available evidence and utilized the American College of Medical Genetics and Genomics/Association for Molecular Pathology guidelines for clinical classification of all possible SNVs. This classification is available as a sequence-function map and serves as a valuable resource for interpreting unidentified variants in the population and for physicians and genetic counsellors to assess _BRCA2_ VUS in patients.",
+    "methodText": "A cell survival assay was used to measure _BRCA2_ essentiality. A mouse ES cell line expressing a single copy of human _BRCA2_ was transfected with sgRNA-Cas9 plasmids and an ssODN oligonucleotide library. Cells were harvested at day 3 and day 14. Direct sequencing was then used to determine the frequency of each variant at each time point.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001242-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-06-28",
+    "modificationDate": "2025-07-01",
+    "publishedDate": "2025-07-01",
+    "experimentSetUrn": "urn:mavedb:00001242",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "39779848",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation genome editing-based clinical classification of BRCA2 variants.",
+      "authors": [
+       {
+        "name": "Sahu S",
+        "primary": true
+       },
+       {
+        "name": "Galloux M",
+        "primary": false
+       },
+       {
+        "name": "Southon E",
+        "primary": false
+       },
+       {
+        "name": "Caylor D",
+        "primary": false
+       },
+       {
+        "name": "Sullivan T",
+        "primary": false
+       },
+       {
+        "name": "Arnaudi M",
+        "primary": false
+       },
+       {
+        "name": "Zanti M",
+        "primary": false
+       },
+       {
+        "name": "Geh J",
+        "primary": false
+       },
+       {
+        "name": "Chari R",
+        "primary": false
+       },
+       {
+        "name": "Michailidou K",
+        "primary": false
+       },
+       {
+        "name": "Papaleo E",
+        "primary": false
+       },
+       {
+        "name": "Sharan SK",
+        "primary": false
+       }
+      ],
+      "abstract": "Sequencing-based genetic tests have uncovered a vast array of BRCA2 sequence variants1. Owing to limited clinical, familial and epidemiological data, thousands of variants are considered to be variants of uncertain significance2-4 (VUS). Here we have utilized CRISPR-Cas9-based saturation genome editing in a humanized mouse embryonic stem cell line to determine the functional effect of VUS. We have categorized nearly all possible single nucleotide variants (SNVs) in the region that encodes the carboxylate-terminal DNA-binding domain of BRCA2. We have generated function scores for 6,551 SNVs, covering 96.4% of possible SNVs in exons 15-26 spanning BRCA2 residues 2479-3216. These variants include 1,282 SNVs that are categorized as missense VUS in the clinical variant database ClinVar, with 77.2% of these classified as benign and 20.4% classified as pathogenic using our functional score. Our assay provides evidence that 3,384 of the SNVs in the region are benign and 776 are pathogenic. Our classification aligns closely with pathogenicity data from ClinVar, orthogonal functional assays and computational meta predictors. We have integrated our embryonic stem cell-based BRCA2-saturation genome editing dataset with other available evidence and utilized the American College of Medical Genetics and Genomics/Association for Molecular Pathology guidelines for clinical classification of all possible SNVs. This classification is available as a sequence-function map and serves as a valuable resource for interpreting unidentified variants in the population and for physicians and genetic counsellors to assess BRCA2 VUS in patients.",
+      "doi": "10.1038/s41586-024-08349-1",
+      "publicationYear": 2025,
+      "publicationJournal": "Nature",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779848",
+      "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing-based clinical classification of BRCA2 variants. Nature. 2025; 638:538-545. 10.1038/s41586-024-08349-1",
+      "id": 136
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001242-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "39779848",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Saturation genome editing-based clinical classification of BRCA2 variants.",
+     "authors": [
+      {
+       "name": "Sahu S",
+       "primary": true
+      },
+      {
+       "name": "Galloux M",
+       "primary": false
+      },
+      {
+       "name": "Southon E",
+       "primary": false
+      },
+      {
+       "name": "Caylor D",
+       "primary": false
+      },
+      {
+       "name": "Sullivan T",
+       "primary": false
+      },
+      {
+       "name": "Arnaudi M",
+       "primary": false
+      },
+      {
+       "name": "Zanti M",
+       "primary": false
+      },
+      {
+       "name": "Geh J",
+       "primary": false
+      },
+      {
+       "name": "Chari R",
+       "primary": false
+      },
+      {
+       "name": "Michailidou K",
+       "primary": false
+      },
+      {
+       "name": "Papaleo E",
+       "primary": false
+      },
+      {
+       "name": "Sharan SK",
+       "primary": false
+      }
+     ],
+     "abstract": "Sequencing-based genetic tests have uncovered a vast array of BRCA2 sequence variants1. Owing to limited clinical, familial and epidemiological data, thousands of variants are considered to be variants of uncertain significance2-4 (VUS). Here we have utilized CRISPR-Cas9-based saturation genome editing in a humanized mouse embryonic stem cell line to determine the functional effect of VUS. We have categorized nearly all possible single nucleotide variants (SNVs) in the region that encodes the carboxylate-terminal DNA-binding domain of BRCA2. We have generated function scores for 6,551 SNVs, covering 96.4% of possible SNVs in exons 15-26 spanning BRCA2 residues 2479-3216. These variants include 1,282 SNVs that are categorized as missense VUS in the clinical variant database ClinVar, with 77.2% of these classified as benign and 20.4% classified as pathogenic using our functional score. Our assay provides evidence that 3,384 of the SNVs in the region are benign and 776 are pathogenic. Our classification aligns closely with pathogenicity data from ClinVar, orthogonal functional assays and computational meta predictors. We have integrated our embryonic stem cell-based BRCA2-saturation genome editing dataset with other available evidence and utilized the American College of Medical Genetics and Genomics/Association for Molecular Pathology guidelines for clinical classification of all possible SNVs. This classification is available as a sequence-function map and serves as a valuable resource for interpreting unidentified variants in the population and for physicians and genetic counsellors to assess BRCA2 VUS in patients.",
+     "doi": "10.1038/s41586-024-08349-1",
+     "publicationYear": 2025,
+     "publicationJournal": "Nature",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779848",
+     "referenceHtml": "Sahu S, <i>et al</i>. Saturation genome editing-based clinical classification of BRCA2 variants. Nature. 2025; 638:538-545. 10.1038/s41586-024-08349-1",
+     "id": 136
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-06-28",
+   "modificationDate": "2025-07-01",
+   "targetGenes": [
+    {
+     "name": "ENST00000380152.8",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7708,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "ENST00000380152.8",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001225-a-1",
+   "title": "Scores from sGE of BRCA2 exons 15 to 26 in Hap1 cells",
+   "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 of BRCA2 for human HAP1 cells",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 6959,
+   "experiment": {
+    "title": "SGE of BRCA2 exons 15 to 26 in Hap1 cells",
+    "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 of BRCA2 for human HAP1 cells",
+    "abstractText": "Germline _BRCA2_ loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all _BRCA2_ variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the _BRCA2_ DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology for clinical classification of _BRCA2_ variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a _BRCA2_ variant.",
+    "methodText": "A cell survival assay was used to measure _BRCA2_ essentiality. LIG4-KO HAP1 cells were transfected with a Cas9/gRNA construct was transfected and a library of plasmids containing all SNVs across the target sequence. Cells were harvested at day 4 and day 14. Direct sequencing was then used to determine the frequency of each variant at each time point.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001225-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001225",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "39779857",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Functional evaluation and clinical classification of BRCA2 variants.",
+      "authors": [
+       {
+        "name": "Huang H",
+        "primary": true
+       },
+       {
+        "name": "Hu C",
+        "primary": false
+       },
+       {
+        "name": "Na J",
+        "primary": false
+       },
+       {
+        "name": "Hart SN",
+        "primary": false
+       },
+       {
+        "name": "Gnanaolivu RD",
+        "primary": false
+       },
+       {
+        "name": "Abozaid M",
+        "primary": false
+       },
+       {
+        "name": "Rao T",
+        "primary": false
+       },
+       {
+        "name": "Tecleab YA",
+        "primary": false
+       },
+       {
+        "name": "CARRIERS Consortium",
+        "primary": false
+       },
+       {
+        "name": "Pesaran T",
+        "primary": false
+       },
+       {
+        "name": "Lyra PCM",
+        "primary": false
+       },
+       {
+        "name": "Karam R",
+        "primary": false
+       },
+       {
+        "name": "Yadav S",
+        "primary": false
+       },
+       {
+        "name": "Nathanson KL",
+        "primary": false
+       },
+       {
+        "name": "Domchek SM",
+        "primary": false
+       },
+       {
+        "name": "de la Hoya M",
+        "primary": false
+       },
+       {
+        "name": "Robson M",
+        "primary": false
+       },
+       {
+        "name": "Mehine M",
+        "primary": false
+       },
+       {
+        "name": "Bandlamudi C",
+        "primary": false
+       },
+       {
+        "name": "Mandelker D",
+        "primary": false
+       },
+       {
+        "name": "Monteiro ANA",
+        "primary": false
+       },
+       {
+        "name": "Iversen ES",
+        "primary": false
+       },
+       {
+        "name": "Boddicker N",
+        "primary": false
+       },
+       {
+        "name": "Chen W",
+        "primary": false
+       },
+       {
+        "name": "Richardson ME",
+        "primary": false
+       },
+       {
+        "name": "Couch FJ",
+        "primary": false
+       }
+      ],
+      "abstract": "Germline BRCA2 loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers1-5. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all BRCA2 variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the BRCA2 DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells6. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay7. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model8. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology9 for clinical classification of BRCA2 variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a BRCA2 variant.",
+      "doi": "10.1038/s41586-024-08388-8",
+      "publicationYear": 2025,
+      "publicationJournal": "Nature",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779857",
+      "referenceHtml": "Huang H, <i>et al</i>. Functional evaluation and clinical classification of BRCA2 variants. Nature. 2025; 638:528-537. 10.1038/s41586-024-08388-8",
+      "id": 129
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+     },
+     {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001225-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "39779857",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Functional evaluation and clinical classification of BRCA2 variants.",
+     "authors": [
+      {
+       "name": "Huang H",
+       "primary": true
+      },
+      {
+       "name": "Hu C",
+       "primary": false
+      },
+      {
+       "name": "Na J",
+       "primary": false
+      },
+      {
+       "name": "Hart SN",
+       "primary": false
+      },
+      {
+       "name": "Gnanaolivu RD",
+       "primary": false
+      },
+      {
+       "name": "Abozaid M",
+       "primary": false
+      },
+      {
+       "name": "Rao T",
+       "primary": false
+      },
+      {
+       "name": "Tecleab YA",
+       "primary": false
+      },
+      {
+       "name": "CARRIERS Consortium",
+       "primary": false
+      },
+      {
+       "name": "Pesaran T",
+       "primary": false
+      },
+      {
+       "name": "Lyra PCM",
+       "primary": false
+      },
+      {
+       "name": "Karam R",
+       "primary": false
+      },
+      {
+       "name": "Yadav S",
+       "primary": false
+      },
+      {
+       "name": "Nathanson KL",
+       "primary": false
+      },
+      {
+       "name": "Domchek SM",
+       "primary": false
+      },
+      {
+       "name": "de la Hoya M",
+       "primary": false
+      },
+      {
+       "name": "Robson M",
+       "primary": false
+      },
+      {
+       "name": "Mehine M",
+       "primary": false
+      },
+      {
+       "name": "Bandlamudi C",
+       "primary": false
+      },
+      {
+       "name": "Mandelker D",
+       "primary": false
+      },
+      {
+       "name": "Monteiro ANA",
+       "primary": false
+      },
+      {
+       "name": "Iversen ES",
+       "primary": false
+      },
+      {
+       "name": "Boddicker N",
+       "primary": false
+      },
+      {
+       "name": "Chen W",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "Couch FJ",
+       "primary": false
+      }
+     ],
+     "abstract": "Germline BRCA2 loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers1-5. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all BRCA2 variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the BRCA2 DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells6. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay7. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model8. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology9 for clinical classification of BRCA2 variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a BRCA2 variant.",
+     "doi": "10.1038/s41586-024-08388-8",
+     "publicationYear": 2025,
+     "publicationJournal": "Nature",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779857",
+     "referenceHtml": "Huang H, <i>et al</i>. Functional evaluation and clinical classification of BRCA2 variants. Nature. 2025; 638:528-537. 10.1038/s41586-024-08388-8",
+     "id": 129
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2025-08-28",
+   "targetGenes": [
+    {
+     "name": "ENST00000380152.8",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7510,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "ENST00000380152.8",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001279-a-1",
+   "title": "Scores from SGE of BRCA2 exons 15 to 26 in Hap1 cells",
+   "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 of BRCA2 for human HAP1 cells",
+   "publishedDate": "2026-07-23",
+   "replacesId": null,
+   "numVariants": 6959,
+   "experiment": {
+    "title": "SGE of BRCA2 exons 15 to 26 in Hap1 cells",
+    "shortDescription": "SGE CRISPR-Cas9 based knock-in assay in exons 15 to 26 of BRCA2 for human HAP1 cells",
+    "abstractText": "Germline _BRCA2_ loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers1-5. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all _BRCA2_ variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the BRCA2 DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells6. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay7. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model8. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology9 for clinical classification of _BRCA2_ variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a _BRCA2_ variant.",
+    "methodText": "A cell survival assay was used to measure _BRCA2_ essentiality. LIG4-KO HAP1 cells were transfected with a Cas9/gRNA construct was transfected and a library of plasmids containing all SNVs across the target sequence. Cells were harvested at day 4 and day 14. Direct sequencing was then used to determine the frequency of each variant at each time point.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001279-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-06-16",
+    "modificationDate": "2026-06-16",
+    "publishedDate": "2026-06-16",
+    "experimentSetUrn": "urn:mavedb:00001279",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "39779857",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Functional evaluation and clinical classification of BRCA2 variants.",
+      "authors": [
+       {
+        "name": "Huang H",
+        "primary": true
+       },
+       {
+        "name": "Hu C",
+        "primary": false
+       },
+       {
+        "name": "Na J",
+        "primary": false
+       },
+       {
+        "name": "Hart SN",
+        "primary": false
+       },
+       {
+        "name": "Gnanaolivu RD",
+        "primary": false
+       },
+       {
+        "name": "Abozaid M",
+        "primary": false
+       },
+       {
+        "name": "Rao T",
+        "primary": false
+       },
+       {
+        "name": "Tecleab YA",
+        "primary": false
+       },
+       {
+        "name": "CARRIERS Consortium",
+        "primary": false
+       },
+       {
+        "name": "Pesaran T",
+        "primary": false
+       },
+       {
+        "name": "Lyra PCM",
+        "primary": false
+       },
+       {
+        "name": "Karam R",
+        "primary": false
+       },
+       {
+        "name": "Yadav S",
+        "primary": false
+       },
+       {
+        "name": "Nathanson KL",
+        "primary": false
+       },
+       {
+        "name": "Domchek SM",
+        "primary": false
+       },
+       {
+        "name": "de la Hoya M",
+        "primary": false
+       },
+       {
+        "name": "Robson M",
+        "primary": false
+       },
+       {
+        "name": "Mehine M",
+        "primary": false
+       },
+       {
+        "name": "Bandlamudi C",
+        "primary": false
+       },
+       {
+        "name": "Mandelker D",
+        "primary": false
+       },
+       {
+        "name": "Monteiro ANA",
+        "primary": false
+       },
+       {
+        "name": "Iversen ES",
+        "primary": false
+       },
+       {
+        "name": "Boddicker N",
+        "primary": false
+       },
+       {
+        "name": "Chen W",
+        "primary": false
+       },
+       {
+        "name": "Richardson ME",
+        "primary": false
+       },
+       {
+        "name": "Couch FJ",
+        "primary": false
+       }
+      ],
+      "abstract": "Germline BRCA2 loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers1-5. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all BRCA2 variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the BRCA2 DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells6. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay7. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model8. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology9 for clinical classification of BRCA2 variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a BRCA2 variant.",
+      "doi": "10.1038/s41586-024-08388-8",
+      "publicationYear": 2025,
+      "publicationJournal": "Nature",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779857",
+      "referenceHtml": "Huang H, <i>et al</i>. Functional evaluation and clinical classification of BRCA2 variants. Nature. 2025; 638:528-537. 10.1038/s41586-024-08388-8",
+      "id": 129
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Molecular function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001279-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "39779857",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Functional evaluation and clinical classification of BRCA2 variants.",
+     "authors": [
+      {
+       "name": "Huang H",
+       "primary": true
+      },
+      {
+       "name": "Hu C",
+       "primary": false
+      },
+      {
+       "name": "Na J",
+       "primary": false
+      },
+      {
+       "name": "Hart SN",
+       "primary": false
+      },
+      {
+       "name": "Gnanaolivu RD",
+       "primary": false
+      },
+      {
+       "name": "Abozaid M",
+       "primary": false
+      },
+      {
+       "name": "Rao T",
+       "primary": false
+      },
+      {
+       "name": "Tecleab YA",
+       "primary": false
+      },
+      {
+       "name": "CARRIERS Consortium",
+       "primary": false
+      },
+      {
+       "name": "Pesaran T",
+       "primary": false
+      },
+      {
+       "name": "Lyra PCM",
+       "primary": false
+      },
+      {
+       "name": "Karam R",
+       "primary": false
+      },
+      {
+       "name": "Yadav S",
+       "primary": false
+      },
+      {
+       "name": "Nathanson KL",
+       "primary": false
+      },
+      {
+       "name": "Domchek SM",
+       "primary": false
+      },
+      {
+       "name": "de la Hoya M",
+       "primary": false
+      },
+      {
+       "name": "Robson M",
+       "primary": false
+      },
+      {
+       "name": "Mehine M",
+       "primary": false
+      },
+      {
+       "name": "Bandlamudi C",
+       "primary": false
+      },
+      {
+       "name": "Mandelker D",
+       "primary": false
+      },
+      {
+       "name": "Monteiro ANA",
+       "primary": false
+      },
+      {
+       "name": "Iversen ES",
+       "primary": false
+      },
+      {
+       "name": "Boddicker N",
+       "primary": false
+      },
+      {
+       "name": "Chen W",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "Couch FJ",
+       "primary": false
+      }
+     ],
+     "abstract": "Germline BRCA2 loss-of function variants, which can be identified through clinical genetic testing, predispose to several cancers1-5. However, variants of uncertain significance limit the clinical utility of test results. Thus, there is a need for functional characterization and clinical classification of all BRCA2 variants to facilitate the clinical management of individuals with these variants. Here we analysed all possible single-nucleotide variants from exons 15 to 26 that encode the BRCA2 DNA-binding domain hotspot for pathogenic missense variants. To enable this, we used saturation genome editing CRISPR-Cas9-based knock-in endogenous targeting of human haploid HAP1 cells6. The assay was calibrated relative to nonsense and silent variants and was validated using pathogenic and benign standards from ClinVar and results from a homology-directed repair functional assay7. Variants (6,959 out of 6,960 evaluated) were assigned to seven categories of pathogenicity based on a VarCall Bayesian model8. Single-nucleotide variants that encode loss-of-function missense variants were associated with increased risks of breast cancer and ovarian cancer. The functional assay results were integrated into models from ClinGen, the American College of Medical Genetics and Genomics, and the Association for Molecular Pathology9 for clinical classification of BRCA2 variants. Using this approach, 91% were classified as pathogenic or likely pathogenic or as benign or likely benign. These classified variants can be used to improve clinical management of individuals with a BRCA2 variant.",
+     "doi": "10.1038/s41586-024-08388-8",
+     "publicationYear": 2025,
+     "publicationJournal": "Nature",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/39779857",
+     "referenceHtml": "Huang H, <i>et al</i>. Functional evaluation and clinical classification of BRCA2 variants. Nature. 2025; 638:528-537. 10.1038/s41586-024-08388-8",
+     "id": 129
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-06-16",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "BRCA2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8200,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_000059.4",
+      "isBaseEditor": false,
+      "assembly": null,
+      "gene": "BRCA2",
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "BRCA2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 12
+}

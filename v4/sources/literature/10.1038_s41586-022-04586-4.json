@@ -1,0 +1,50 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41586-022-04586-4\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35388192",
+        "source": "MED",
+        "pmid": "35388192",
+        "doi": "10.1038/s41586-022-04586-4",
+        "title": "Mapping the energetic and allosteric landscapes of protein binding domains.",
+        "authorString": "Faure AJ, Domingo J, Schmiedel JM, Hidalgo-Carcedo C, Diss G, Lehner B.",
+        "journalTitle": "Nature",
+        "issue": "7904",
+        "journalVolume": "604",
+        "pubYear": "2022",
+        "journalIssn": "0028-0836; 1476-4687; ",
+        "pageInfo": "175-183",
+        "pubType": "journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 267,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-04-06",
+        "firstIndexDate": "2022-04-07"
+      }
+    ]
+  }
+}

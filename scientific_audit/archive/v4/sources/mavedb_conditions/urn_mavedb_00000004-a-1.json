@@ -1,0 +1,321 @@
+{
+  "title": "Enrich scores for E4B",
+  "methodText": "Scores were calculated using the Enrich software package, corrected for nonspecific carryover as described in (1). Uncorrected log2 enrichment ratios are also provided. This dataset used only the variant counts in the input and round 3 selected time points as the basis for the log ratio scoring.",
+  "abstractText": "This study identified multiple gain-of-function mutations in the ubiquitination factor E4B U-box domain by measuring auto-ubiquitination in a phage display system. E4B is an E3 ligase, responsible for transferring a ubiquitin from an E2 ligase to the target (in this case the phage displaying E4B). Many of these mutations are not specific to one E2 enzyme and so may be generalizable for mutiple E2s and E3s.",
+  "shortDescription": "Scores as presented in Starita et al. 2013, analyzed using the Enrich software package.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000004-a-1",
+  "numVariants": 98298,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [
+    {
+      "identifier": "23509263",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Activity-enhancing mutations in an E3 ubiquitin ligase identified by high-throughput mutagenesis.",
+      "authors": [
+        {
+          "name": "Starita, Lea M",
+          "primary": true
+        },
+        {
+          "name": "Pruneda, Jonathan N",
+          "primary": false
+        },
+        {
+          "name": "Lo, Russell S",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Kim, Helen J",
+          "primary": false
+        },
+        {
+          "name": "Hiatt, Joseph B",
+          "primary": false
+        },
+        {
+          "name": "Shendure, Jay",
+          "primary": false
+        },
+        {
+          "name": "Brzovic, Peter S",
+          "primary": false
+        },
+        {
+          "name": "Fields, Stanley",
+          "primary": false
+        },
+        {
+          "name": "Klevit, Rachel E",
+          "primary": false
+        }
+      ],
+      "abstract": "Although ubiquitination plays a critical role in virtually all cellular processes, mechanistic details of ubiquitin (Ub) transfer are still being defined. To identify the molecular determinants within E3 ligases that modulate activity, we scored each member of a library of nearly 100,000 protein variants of the murine ubiquitination factor E4B (Ube4b) U-box domain for auto-ubiquitination activity in the presence of the E2 UbcH5c. This assay identified mutations that enhance activity both in vitro and in cellular p53 degradation assays. The activity-enhancing mutations fall into two distinct mechanistic classes: One increases the U-box:E2-binding affinity, and the other allosterically stimulates the formation of catalytically active conformations of the E2\u223cUb conjugate. The same mutations enhance E3 activity in the presence of another E2, Ube2w, implying a common allosteric mechanism, and therefore the general applicability of our observations to other E3s. A comparison of the E3 activity with the two different E2s identified an additional variant that exhibits E3:E2 specificity. Our results highlight the general utility of high-throughput mutagenesis in delineating the molecular basis of enzyme activity.",
+      "doi": "10.1073/pnas.1303309110",
+      "publicationYear": 2013,
+      "publicationJournal": "Proc Natl Acad Sci U S A",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/23509263",
+      "referenceHtml": "Starita LM, <i>et al</i>. Activity-enhancing mutations in an E3 ubiquitin ligase identified by high-throughput mutagenesis. <i>Proc. Natl. Acad. Sci. U.S.A</i>. 2013; <b>110</b>:E1263-72.",
+      "id": 5
+    },
+    {
+      "identifier": "22006916",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Enrich: software for analysis of protein function by enrichment and depletion of variants.",
+      "authors": [
+        {
+          "name": "Fowler, Douglas M",
+          "primary": true
+        },
+        {
+          "name": "Araya, Carlos L",
+          "primary": false
+        },
+        {
+          "name": "Gerard, Wayne",
+          "primary": false
+        },
+        {
+          "name": "Fields, Stanley",
+          "primary": false
+        }
+      ],
+      "abstract": "SUMMARY: Measuring the consequences of mutation in proteins is critical to understanding their function. These measurements are essential in such applications as protein engineering, drug development, protein design and genome sequence analysis. Recently, high-throughput sequencing has been coupled to assays of protein activity, enabling the analysis of large numbers of mutations in parallel. We present Enrich, a tool for analyzing such deep mutational scanning data. Enrich identifies all unique variants (mutants) of a protein in high-throughput sequencing datasets and can correct for sequencing errors using overlapping paired-end reads. Enrich uses the frequency of each variant before and after selection to calculate an enrichment ratio, which is used to estimate fitness. Enrich provides an interactive interface to guide users. It generates user-accessible output for downstream analyses as well as several visualizations of the effects of mutation on function, thereby allowing the user to rapidly quantify and comprehend sequence-function relationships.\nAVAILABILITY AND IMPLEMENTATION: Enrich is implemented in Python and is available under a FreeBSD license at http://depts.washington.edu/sfields/software/enrich/. Enrich includes detailed documentation as well as a small example dataset.\nCONTACT: dfowler@uw.edu; fields@uw.edu\nSUPPLEMENTARY INFORMATION: Supplementary data is available at Bioinformatics online.",
+      "doi": "10.1093/bioinformatics/btr577",
+      "publicationYear": 2011,
+      "publicationJournal": "Bioinformatics",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/22006916",
+      "referenceHtml": "Fowler DM, <i>et al</i>. Enrich: software for analysis of protein function by enrichment and depletion of variants. <i>Bioinformatics</i>. 2011; <b>27</b>:3430-1.",
+      "id": 6
+    }
+  ],
+  "publishedDate": "2018-12-02",
+  "creationDate": "2018-10-14",
+  "modificationDate": "2026-06-17",
+  "createdBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "E4B",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "RefSeq",
+            "identifier": "NM_022022.3",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_022022.3"
+          },
+          "offset": 3939,
+          "recordType": "ExternalGeneIdentifierOffset"
+        },
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "Q9ES00",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/Q9ES00"
+          },
+          "offset": 1071,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 17,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATAGAGAAGTTTAAACTTCTTGCAGAGAAAGTGGAGGAAATCGTGGCAAAGAATGCGCGGGCAGAAATAGACTACAGCGATGCCCCGGACGAGTTCAGAGACCCTCTGATGGACACCCTGATGACCGATCCCGTGAGACTGCCCTCTGGCACCGTCATGGACCGTTCTATCATCCTGCGGCATCTGCTCAACTCCCCCACCGACCCCTTCAACCGCCAGATGCTGACTGAGAGCATGCTGGAGCCAGTGCCAGAGCTAAAGGAGCAGATTCAGGCCTGGATGAGAGAGAAACAGAGCAGTGACCACTGA",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 10090,
+          "organismName": "Mus musculus",
+          "commonName": "house mouse",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid10090",
+          "genomeIdentifierId": 8,
+          "id": 91,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=10090"
+        }
+      }
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "log2_ratio"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Deep mutational scan of E4B (Ube4b) U-box domain auto-ubiquitination",
+    "shortDescription": "Deep mutational scan of the murine E4B (Ube4b) U-box domain using a phage display auto-ubiquitination assay.",
+    "abstractText": "This study identified multiple gain-of-function mutations in the ubiquitination factor E4B U-box domain by measuring auto-ubiquitination in a phage display system. E4B is an E3 ligase, responsible for transferring a ubiquitin from an E2 ligase to the target (in this case the phage displaying E4B). Many of these mutations are not specific to one E2 enzyme and so may be generalizable for mutiple E2s and E3s.",
+    "methodText": "The variant library was constructed using doped oligo synthesis, with a 2% error rate, corresponding to 0.225% of incorporating each incorrect base at each position. The phage display was performed using T7 phage and selected for Flag-Ub binding to anti-Flag beads. Full-length variant sequences were associated with 18-base DNA barcodes using the subassembly method [Hiatt et al.]. Barcodes were sequenced and counted for each of four time points in two replicates, and the barcode counts were used to quantify variant enrichment/depletion.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000004-a",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2018-10-14",
+    "modificationDate": "2019-07-28",
+    "publishedDate": "2018-12-03",
+    "experimentSetUrn": "urn:mavedb:00000004",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+      {
+        "identifier": "23509263",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Activity-enhancing mutations in an E3 ubiquitin ligase identified by high-throughput mutagenesis.",
+        "authors": [
+          {
+            "name": "Starita, Lea M",
+            "primary": true
+          },
+          {
+            "name": "Pruneda, Jonathan N",
+            "primary": false
+          },
+          {
+            "name": "Lo, Russell S",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Kim, Helen J",
+            "primary": false
+          },
+          {
+            "name": "Hiatt, Joseph B",
+            "primary": false
+          },
+          {
+            "name": "Shendure, Jay",
+            "primary": false
+          },
+          {
+            "name": "Brzovic, Peter S",
+            "primary": false
+          },
+          {
+            "name": "Fields, Stanley",
+            "primary": false
+          },
+          {
+            "name": "Klevit, Rachel E",
+            "primary": false
+          }
+        ],
+        "abstract": "Although ubiquitination plays a critical role in virtually all cellular processes, mechanistic details of ubiquitin (Ub) transfer are still being defined. To identify the molecular determinants within E3 ligases that modulate activity, we scored each member of a library of nearly 100,000 protein variants of the murine ubiquitination factor E4B (Ube4b) U-box domain for auto-ubiquitination activity in the presence of the E2 UbcH5c. This assay identified mutations that enhance activity both in vitro and in cellular p53 degradation assays. The activity-enhancing mutations fall into two distinct mechanistic classes: One increases the U-box:E2-binding affinity, and the other allosterically stimulates the formation of catalytically active conformations of the E2\u223cUb conjugate. The same mutations enhance E3 activity in the presence of another E2, Ube2w, implying a common allosteric mechanism, and therefore the general applicability of our observations to other E3s. A comparison of the E3 activity with the two different E2s identified an additional variant that exhibits E3:E2 specificity. Our results highlight the general utility of high-throughput mutagenesis in delineating the molecular basis of enzyme activity.",
+        "doi": "10.1073/pnas.1303309110",
+        "publicationYear": 2013,
+        "publicationJournal": "Proc Natl Acad Sci U S A",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/23509263",
+        "referenceHtml": "Starita LM, <i>et al</i>. Activity-enhancing mutations in an E3 ubiquitin ligase identified by high-throughput mutagenesis. <i>Proc. Natl. Acad. Sci. U.S.A</i>. 2013; <b>110</b>:E1263-72.",
+        "id": 5
+      },
+      {
+        "identifier": "20081835",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Parallel, tag-directed assembly of locally derived short sequence reads.",
+        "authors": [
+          {
+            "name": "Hiatt, Joseph B",
+            "primary": true
+          },
+          {
+            "name": "Patwardhan, Rupali P",
+            "primary": false
+          },
+          {
+            "name": "Turner, Emily H",
+            "primary": false
+          },
+          {
+            "name": "Lee, Choli",
+            "primary": false
+          },
+          {
+            "name": "Shendure, Jay",
+            "primary": false
+          }
+        ],
+        "abstract": "We demonstrate subassembly, an in vitro library construction method that extends the utility of short-read sequencing platforms to applications requiring long, accurate reads. A long DNA fragment library is converted to a population of nested sublibraries, and a tag sequence directs grouping of short reads derived from the same long fragment, enabling localized assembly of long fragment sequences. Subassembly may facilitate accurate de novo genome assembly and metagenome sequencing.",
+        "doi": "10.1038/nmeth.1416",
+        "publicationYear": 2010,
+        "publicationJournal": "Nat Methods",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/20081835",
+        "referenceHtml": "Hiatt JB, <i>et al</i>. Parallel, tag-directed assembly of locally derived short sequence reads. <i>Nat. Methods</i>. 2010; <b>7</b>:119-22.",
+        "id": 14
+      }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000004-a-1",
+      "urn:mavedb:00000004-a-2",
+      "urn:mavedb:00000004-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 3,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "failed",
+  "mappingErrors": {
+    "error_message": "Experiment for urn:mavedb:00000004-a-1 contains non-human targets"
+  }
+}

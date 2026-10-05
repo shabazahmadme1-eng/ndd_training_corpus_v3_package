@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2022.12.06.519122\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR581985",
+        "source": "PPR",
+        "doi": "10.1101/2022.12.06.519122",
+        "title": "The energetic and allosteric landscape for KRAS inhibition",
+        "authorString": "Weng C, Faure AJ, Lehner B.",
+        "pubYear": "2022",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2022
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-12-08",
+        "firstIndexDate": "2022-12-10"
+      }
+    ]
+  }
+}

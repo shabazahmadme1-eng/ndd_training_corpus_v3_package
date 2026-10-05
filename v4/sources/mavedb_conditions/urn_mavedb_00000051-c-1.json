@@ -1,0 +1,233 @@
+{
+  "title": "Helix region of Glycophorin A",
+  "methodText": "The helix region of GpA is used as the membrane-spanning segment for dsT$\\beta$L in this experiment. The frequency of the count of each mutant relative to wild-type in the selected and reference pools was computed. Variants with <100 counts in the reference population were removed. The selection coefficients were calculated as the ratio of variant relative frequency in the selected and reference pool. The selection coeffcients were then transformed to apparent changes in free energy due to each single-point substitution through the Gibbs free-energy equation: \r\n\r\n$$ \\Delta\\Delta G^{app} = -RT\\ln(s) $$\r\n\r\nwhere R is the gas constant and T is the absolute temperature (310K). The count data table includes the count of each variant in the reference and selected pool.",
+  "abstractText": "This study mutated the residues on GpA helix region of the bacterial inner membrane. The experiment links the insertion and self-association property of the tested region to the survive of bacteria and studied the membrane-protein energetics landscape of missense mutations of the target.",
+  "shortDescription": "A deep mutational scanning experiment targeting the GpA helix region on the bacterial inner membrane.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000051-c-1",
+  "numVariants": 300,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [
+    {
+      "identifier": "10.7554/eLife.12125",
+      "id": 11,
+      "recordType": "DoiIdentifier",
+      "url": "https://doi.org/10.7554/eLife.12125"
+    }
+  ],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "26824389",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Mutational scanning reveals the determinants of protein insertion and association energetics in the plasma membrane.",
+      "authors": [
+        {
+          "name": "Elazar, Assaf",
+          "primary": true
+        },
+        {
+          "name": "Weinstein, Jonathan",
+          "primary": false
+        },
+        {
+          "name": "Biran, Ido",
+          "primary": false
+        },
+        {
+          "name": "Fridman, Yearit",
+          "primary": false
+        },
+        {
+          "name": "Bibi, Eitan",
+          "primary": false
+        },
+        {
+          "name": "Fleishman, Sarel Jacob",
+          "primary": false
+        }
+      ],
+      "abstract": "Insertion of helix-forming segments into the membrane and their association determines the structure, function, and expression levels of all plasma membrane proteins. However, systematic and reliable quantification of membrane-protein energetics has been challenging. We developed a deep mutational scanning method to monitor the effects of hundreds of point mutations on helix insertion and self-association within the bacterial inner membrane. The assay quantifies insertion energetics for all natural amino acids at 27 positions across the membrane, revealing that the hydrophobicity of biological membranes is significantly higher than appreciated. We further quantitate the contributions to membrane-protein insertion from positively charged residues at the cytoplasm-membrane interface and reveal large and unanticipated differences among these residues. Finally, we derive comprehensive mutational landscapes in the membrane domains of Glycophorin A and the ErbB2 oncogene, and find that insertion and self-association are strongly coupled in receptor homodimers.",
+      "doi": "10.7554/eLife.12125",
+      "publicationYear": 2016,
+      "publicationJournal": "Elife",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/26824389",
+      "referenceHtml": "Elazar A, <i>et al</i>. Mutational scanning reveals the determinants of protein insertion and association energetics in the plasma membrane. <i>Elife</i>. 2016; <b>5</b>:None.",
+      "id": 28
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2020-12-10",
+  "creationDate": "2020-08-23",
+  "modificationDate": "2026-06-29",
+  "createdBy": {
+    "orcidId": "0000-0003-2449-7034",
+    "firstName": "Yunfan",
+    "lastName": "Fu",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "Glycophorin A",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "P02724",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/P02724"
+          },
+          "offset": 93,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 140,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "CTCATTATTTTTGGGGTGATGGCTGGTGTTATTGGAACGATCCTG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "GYPA",
+      "uniprotIdFromMappedMetadata": "P02724"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "frequency_ref",
+      "frequency_sel",
+      "ratio"
+    ],
+    "countColumns": [
+      "count_reference",
+      "count_selected"
+    ],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr4:144116886-144116931&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&Glycophorin_00000051-c-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Helix region of Glycophorin A (GpA)",
+    "shortDescription": "A deep mutational scanning experiment targeting the GpA helix region on the bacterial inner membrane.",
+    "abstractText": "This study mutated the residues on GpA helix region of the bacterial inner membrane. The experiment links the insertion and self-association property of the tested region to the survive of bacteria and studied the membrane-protein energetics landscape of missense mutations of the target.",
+    "methodText": "The helix region of GpA is used as the membrane-spanning segment for dsT$\\beta$L in this experiment. The authors created forward and reverse primers of lengths 40-85 base pairs with the central codon replaced by NNS which encodes all possible amino acid substitutions on the target sequence. They leveraged a traditional assay, the TOXCAT-$\\beta$-lactamase (T$\\beta$L) screen, and adapted it to deep mutational scanning studies (dsT$\\beta$L). The tested sequence is expressed in between a chimera of ToxR dimerization-dependent transcriptional activator of a chloramphenicol-resistance gene and $\\beta$-lactamase. In this construct, the membrane integration of target sequence determines the bacterial resistance to ampicillin and the self-association correlates with the chloramphenicol resistance. Besides, the orientation to the membrane of this chimera is also crucial for survival. The selection result was determined by deep-sequencing using Illumina.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000051-c",
+    "createdBy": {
+      "orcidId": "0000-0003-2449-7034",
+      "firstName": "Yunfan",
+      "lastName": "Fu",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2020-08-23",
+    "modificationDate": "2020-12-10",
+    "publishedDate": "2020-12-10",
+    "experimentSetUrn": "urn:mavedb:00000051",
+    "doiIdentifiers": [
+      {
+        "identifier": "10.7554/eLife.12125",
+        "id": 11,
+        "recordType": "DoiIdentifier",
+        "url": "https://doi.org/10.7554/eLife.12125"
+      }
+    ],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "26824389",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Mutational scanning reveals the determinants of protein insertion and association energetics in the plasma membrane.",
+        "authors": [
+          {
+            "name": "Elazar, Assaf",
+            "primary": true
+          },
+          {
+            "name": "Weinstein, Jonathan",
+            "primary": false
+          },
+          {
+            "name": "Biran, Ido",
+            "primary": false
+          },
+          {
+            "name": "Fridman, Yearit",
+            "primary": false
+          },
+          {
+            "name": "Bibi, Eitan",
+            "primary": false
+          },
+          {
+            "name": "Fleishman, Sarel Jacob",
+            "primary": false
+          }
+        ],
+        "abstract": "Insertion of helix-forming segments into the membrane and their association determines the structure, function, and expression levels of all plasma membrane proteins. However, systematic and reliable quantification of membrane-protein energetics has been challenging. We developed a deep mutational scanning method to monitor the effects of hundreds of point mutations on helix insertion and self-association within the bacterial inner membrane. The assay quantifies insertion energetics for all natural amino acids at 27 positions across the membrane, revealing that the hydrophobicity of biological membranes is significantly higher than appreciated. We further quantitate the contributions to membrane-protein insertion from positively charged residues at the cytoplasm-membrane interface and reveal large and unanticipated differences among these residues. Finally, we derive comprehensive mutational landscapes in the membrane domains of Glycophorin A and the ErbB2 oncogene, and find that insertion and self-association are strongly coupled in receptor homodimers.",
+        "doi": "10.7554/eLife.12125",
+        "publicationYear": 2016,
+        "publicationJournal": "Elife",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/26824389",
+        "referenceHtml": "Elazar A, <i>et al</i>. Mutational scanning reveals the determinants of protein insertion and association energetics in the plasma membrane. <i>Elife</i>. 2016; <b>5</b>:None.",
+        "id": 28
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000051-c-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

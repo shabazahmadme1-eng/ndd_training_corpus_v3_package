@@ -1,0 +1,74 @@
+{
+  "code_and_resources_sha256": "53ede5db1e9fd8831535712ccefb7b9b56902340bcd6cee95fca045698ce4cbb",
+  "corpus_sha256": "ad07b7da773fb2cc23e2c8a3e7d55996be275736287d046cdc7e272dbeca26d4",
+  "split_sha256": "c935fcc77ef784af4a82edad9644cf2c1499de96f0d3dbd66f5e009e8241e1a7",
+  "metadata_sha256": "615352bd52d644602932609e4aeb436bf0705709e71c5483f3a5920aca082b6c",
+  "config": {
+    "model": "mipo",
+    "hidden": 128,
+    "mechanisms": 8,
+    "field_layers": 3,
+    "sequence_layers": 2,
+    "anchors": 16,
+    "window_radius": 25,
+    "max_nodes": 256,
+    "neighbors": 16,
+    "max_conformers": 4,
+    "structure": true,
+    "global_kernel": true,
+    "chemistry": true,
+    "use_llr": true,
+    "require_llr": true,
+    "dropout": 0.1,
+    "modality_dropout": 0.1,
+    "batch_size": 8,
+    "grad_accum": 4,
+    "steps_per_epoch": 3000,
+    "lr": 0.0002,
+    "seed": 42,
+    "ranking_weight": 0.2,
+    "patience": 6,
+    "amp": true,
+    "stages": [
+      {
+        "name": "generic_and_legacy_auxiliary",
+        "epochs": 5,
+        "tiers": [
+          "E_GENERIC_HUMAN_DMS",
+          "A_LEGACY_CONSENSUS"
+        ],
+        "ndd_filter": "unverified"
+      },
+      {
+        "name": "family_teachers",
+        "epochs": 3,
+        "tiers": [
+          "D_NDD_FAMILY_TEACHER"
+        ],
+        "ndd_filter": "any"
+      },
+      {
+        "name": "verified_ndd",
+        "epochs": 8,
+        "tiers": [
+          "A_LEGACY_CONSENSUS",
+          "B_DIRECT_NDD_FUNCTIONAL",
+          "C_DIRECT_NDD_STABILITY"
+        ],
+        "ndd_filter": "verified",
+        "freeze_backbone": true
+      }
+    ],
+    "selection_metric": "macro_gene_spearman",
+    "min_validation_genes": 5
+  },
+  "model_size": "650M",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "folds": [
+    83
+  ]
+}

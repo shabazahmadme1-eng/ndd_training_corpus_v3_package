@@ -1,0 +1,232 @@
+{
+  "title": "Deaminase activity of AID in generation 3",
+  "methodText": "The variant library is built by a cassette mutagenesis approach with NNS degenerate codons at the target codon and a silent mutation on subsequent codon as barcode. The library is then expressed in _E coli._ and selected for rifampin resistance. The initial and selected count of each variant are determined by 454 pyrosequencing and used to quantify the deaminase activity for each variant.\r\nIn this experiment, the colonies are selected for 3 generations (cycle).\r\n\r\nThe paper provides two ways to analyze the count results:\r\n\r\n* Analyzed as __variant frequency__, as shown in Figure 3 of the paper.\r\n    1. The total variant count for each codon in the selected library ($C_{p}^{sel}$) is firstly calculated:\r\n$$C_{p}^{sel}=\\sum{c_{p,i}^{sel}}$$\r\n    where $c_{p,i}^{sel}$ represents individual variant ($i$) count on codon $p$ in the selected library.\r\n    2. The variant frequency is calculated as: $f_{p,i}^{sel}=\\frac{c_{p,i}^{sel}}{C_{p}^{sel}}$\r\n    3. This result is reported in the `selected_codon_freq` column.\r\n\r\n* Analyzed as __normalized variant frequency__, as shown in Figure S4B of the paper.\r\n    1. Variant frequency in initial library (generation 0: G0) ($f_{p,i}^{init}$) in calculated same as the above approach: $f_{p,i}^{init}=\\frac{c_{p,i}^{init}}{C_{p}^{init}}$\r\n    2. The normalized frequency ($s$) is calculated by the ratio of variant frequency in selected and initial library: $s_{p,i}=\\frac{f_{p,i}^{sel}}{f_{p,i}^{init}}$ which became our `score` column\r\n\r\nThe extra columns show the count and frequency in the initial or selected library,",
+  "abstractText": "The author developed Sat-Sel-Seq method to iteratively select the deaminase activity of AID. A saturated AID library is incoporated to _E. coli_ and selected for rifampin resistance. Functioning AID, together with uracil DNA glycosylase inhibitor (UGI), can cause mutations in RNA polymerase B (_rpoB_) which will become resistant to rifampin and make the host survive. Growth rate of the bacteria can reflect the deaminase activity of AID.",
+  "shortDescription": "Three generations of selection on codon-optimized AID variants",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000106-c-1",
+  "numVariants": 231,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [
+    {
+      "identifier": "10.1093/nar/gku689",
+      "id": 38,
+      "recordType": "DoiIdentifier",
+      "url": "http://doi.org/10.1093/nar/gku689"
+    }
+  ],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "25064858",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase.",
+      "authors": [
+        {
+          "name": "Gajula, Kiran S",
+          "primary": true
+        },
+        {
+          "name": "Huwe, Peter J",
+          "primary": false
+        },
+        {
+          "name": "Mo, Charlie Y",
+          "primary": false
+        },
+        {
+          "name": "Crawford, Daniel J",
+          "primary": false
+        },
+        {
+          "name": "Stivers, James T",
+          "primary": false
+        },
+        {
+          "name": "Radhakrishnan, Ravi",
+          "primary": false
+        },
+        {
+          "name": "Kohli, Rahul M",
+          "primary": false
+        }
+      ],
+      "abstract": "Antibody maturation is a critical immune process governed by the enzyme activation-induced deaminase (AID), a member of the AID/APOBEC DNA deaminase family. AID/APOBEC deaminases preferentially target cytosine within distinct preferred sequence motifs in DNA, with specificity largely conferred by a small 9-11 residue protein loop that differs among family members. Here, we aimed to determine the key functional characteristics of this protein loop in AID and to thereby inform our understanding of the mode of DNA engagement. To this end, we developed a methodology (Sat-Sel-Seq) that couples saturation mutagenesis at each position across the targeting loop, with iterative functional selection and next-generation sequencing. This high-throughput mutational analysis revealed dominant characteristics for residues within the loop and additionally yielded enzymatic variants that enhance deaminase activity. To rationalize these functional requirements, we performed molecular dynamics simulations that suggest that AID and its hyperactive variants can engage DNA in multiple specific modes. These findings align with AID's competing requirements for specificity and flexibility to efficiently drive antibody maturation. Beyond insights into the AID-DNA interface, our Sat-Sel-Seq approach also serves to further expand the repertoire of techniques for deep positional scanning and may find general utility for high-throughput analysis of protein function.",
+      "doi": "10.1093/nar/gku689",
+      "publicationYear": 2014,
+      "publicationJournal": "Nucleic Acids Res",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/25064858",
+      "referenceHtml": "Gajula KS, <i>et al</i>. High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase. High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase. 2014; 42:9964-75. doi: 10.1093/nar/gku689",
+      "id": 84
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2022-10-17",
+  "creationDate": "2022-10-12",
+  "modificationDate": "2025-01-04",
+  "createdBy": {
+    "orcidId": "0000-0003-2449-7034",
+    "firstName": "Yunfan",
+    "lastName": "Fu",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "AID",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 369,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "protein",
+        "sequence": "MDSLLMNRRKFLYQFKNVRWAKGRRETYLCYVVKRRDSATSFSLDFGYLRNKNGCHVELLFLRYISDWDLDPGRCYRVTWFTSWSPCYDCARHVADFLRGNPNLSLRIFTARLYFCEDRKAEPEGLRRLHRAGVQIAIMTFKDYFYCWNTFVENHERTFKAWEGLHENSVRLSRQLRRILLPLYEVDDLRDAFRTLGL",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "uniprotIdFromMappedMetadata": "Q9GZX7"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "count_selected",
+      "count_initial",
+      "selected_codon_freq",
+      "initial_codon_freq"
+    ],
+    "countColumns": [
+      "count_selected",
+      "count_initial",
+      "selected_codon_freq",
+      "initial_codon_freq"
+    ],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr12:8605272-8605305&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&AID_00000106-c-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Deaminase activity of AID in generation 3",
+    "shortDescription": "Three generations of selection on codon-optimized AID variants",
+    "abstractText": "The author developed Sat-Sel-Seq method to iteratively select the deaminase activity of AID. A saturated AID library is incoporated to _E. coli_ and selected for rifampin resistance. Functioning AID, together with uracil DNA glycosylase inhibitor (UGI), can cause mutations in RNA polymerase B (_rpoB_) which will become resistant to rifampin and make the host survive. Growth rate of the bacteria can reflect the deaminase activity of AID.",
+    "methodText": "The variant library is built by a cassette mutagenesis approach with NNS degenerate codons at the target codon and a silent mutation on subsequent codon as barcode. The library is then expressed in _E coli._ and selected for rifampin resistance. The initial and selected count of each variant are determined by 454 pyrosequencing and used to quantify the deaminase activity for each variant.\r\nIn this experiment, the colonies are selected for 3 generations (cycle).",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000106-c",
+    "createdBy": {
+      "orcidId": "0000-0003-2449-7034",
+      "firstName": "Yunfan",
+      "lastName": "Fu",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2022-10-12",
+    "modificationDate": "2022-10-17",
+    "publishedDate": "2022-10-17",
+    "experimentSetUrn": "urn:mavedb:00000106",
+    "doiIdentifiers": [
+      {
+        "identifier": "10.1093/nar/gku689",
+        "id": 38,
+        "recordType": "DoiIdentifier",
+        "url": "http://doi.org/10.1093/nar/gku689"
+      }
+    ],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "25064858",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase.",
+        "authors": [
+          {
+            "name": "Gajula, Kiran S",
+            "primary": true
+          },
+          {
+            "name": "Huwe, Peter J",
+            "primary": false
+          },
+          {
+            "name": "Mo, Charlie Y",
+            "primary": false
+          },
+          {
+            "name": "Crawford, Daniel J",
+            "primary": false
+          },
+          {
+            "name": "Stivers, James T",
+            "primary": false
+          },
+          {
+            "name": "Radhakrishnan, Ravi",
+            "primary": false
+          },
+          {
+            "name": "Kohli, Rahul M",
+            "primary": false
+          }
+        ],
+        "abstract": "Antibody maturation is a critical immune process governed by the enzyme activation-induced deaminase (AID), a member of the AID/APOBEC DNA deaminase family. AID/APOBEC deaminases preferentially target cytosine within distinct preferred sequence motifs in DNA, with specificity largely conferred by a small 9-11 residue protein loop that differs among family members. Here, we aimed to determine the key functional characteristics of this protein loop in AID and to thereby inform our understanding of the mode of DNA engagement. To this end, we developed a methodology (Sat-Sel-Seq) that couples saturation mutagenesis at each position across the targeting loop, with iterative functional selection and next-generation sequencing. This high-throughput mutational analysis revealed dominant characteristics for residues within the loop and additionally yielded enzymatic variants that enhance deaminase activity. To rationalize these functional requirements, we performed molecular dynamics simulations that suggest that AID and its hyperactive variants can engage DNA in multiple specific modes. These findings align with AID's competing requirements for specificity and flexibility to efficiently drive antibody maturation. Beyond insights into the AID-DNA interface, our Sat-Sel-Seq approach also serves to further expand the repertoire of techniques for deep positional scanning and may find general utility for high-throughput analysis of protein function.",
+        "doi": "10.1093/nar/gku689",
+        "publicationYear": 2014,
+        "publicationJournal": "Nucleic Acids Res",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/25064858",
+        "referenceHtml": "Gajula KS, <i>et al</i>. High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase. High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase. 2014; 42:9964-75. doi: 10.1093/nar/gku689",
+        "id": 84
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000106-c-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

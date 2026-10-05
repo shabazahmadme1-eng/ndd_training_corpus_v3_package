@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.molcel.2019.02.003\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30956043",
+        "source": "MED",
+        "pmid": "30956043",
+        "pmcid": "PMC6474823",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6474823"
+          ]
+        },
+        "doi": "10.1016/j.molcel.2019.02.003",
+        "title": "A Combined Approach Reveals a Regulatory Mechanism Coupling Src's Kinase Activity, Localization, and Phosphotransferase-Independent Functions.",
+        "authorString": "Ahler E, Register AC, Chakraborty S, Fang L, Dieter EM, Sitko KA, Vidadala RSR, Trevillian BM, Golkowski M, Gelman H, Stephany JJ, Rubin AF, Merritt EA, Fowler DM, Maly DJ.",
+        "journalTitle": "Mol Cell",
+        "issue": "2",
+        "journalVolume": "74",
+        "pubYear": "2019",
+        "journalIssn": "1097-2765; 1097-4164; ",
+        "pageInfo": "393-408.e20",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 71,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2019-04-04",
+        "firstIndexDate": "2019-04-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1678 @@
+{
+  "FP_1RX4_1DDR_1DDR_1DYJ_5DFR": {
+    "gene": "FP_1RX4_1DDR_1DDR_1DYJ_5DFR",
+    "status": "structure",
+    "source_pdb": "1RX4.pdb",
+    "conformers": 1,
+    "covered": 158,
+    "seq_len": 159,
+    "mutated_sites": 36,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RX4.pdb",
+        "status": "accepted",
+        "identity": 0.9937,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 158,
+        "seq_len": 159
+      }
+    ]
+  },
+  "FP_3D2A_1ISP_3D2C": {
+    "gene": "FP_3D2A_1ISP_3D2C",
+    "status": "structure",
+    "source_pdb": "3D2A.pdb",
+    "conformers": 1,
+    "covered": 175,
+    "seq_len": 212,
+    "mutated_sites": 15,
+    "uncovered_mutated_sites": [
+      145,
+      163,
+      188
+    ],
+    "attempts": [
+      {
+        "pdb": "3D2A.pdb",
+        "status": "accepted",
+        "identity": 0.9777,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 175,
+        "seq_len": 212
+      }
+    ]
+  },
+  "FP_1IOB_2NVH": {
+    "gene": "FP_1IOB_2NVH",
+    "status": "structure",
+    "source_pdb": "1IOB.pdb",
+    "conformers": 1,
+    "covered": 153,
+    "seq_len": 269,
+    "mutated_sites": 7,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1IOB.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 153,
+        "seq_len": 269
+      }
+    ]
+  },
+  "FP_1BNI_1A2P": {
+    "gene": "FP_1BNI_1A2P",
+    "status": "structure",
+    "source_pdb": "1BNI.pdb",
+    "conformers": 1,
+    "covered": 108,
+    "seq_len": 157,
+    "mutated_sites": 72,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BNI.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 108,
+        "seq_len": 157
+      }
+    ]
+  },
+  "FP_1LZ1_1REX_2BQA_1LHM": {
+    "gene": "FP_1LZ1_1REX_2BQA_1LHM",
+    "status": "structure",
+    "source_pdb": "1LZ1.pdb",
+    "conformers": 1,
+    "covered": 130,
+    "seq_len": 148,
+    "mutated_sites": 63,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1LZ1.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 130,
+        "seq_len": 148
+      }
+    ]
+  },
+  "FP_4LYZ": {
+    "gene": "FP_4LYZ",
+    "status": "structure",
+    "source_pdb": "4LYZ.pdb",
+    "conformers": 1,
+    "covered": 129,
+    "seq_len": 147,
+    "mutated_sites": 33,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "4LYZ.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 129,
+        "seq_len": 147
+      }
+    ]
+  },
+  "FP_1CYC": {
+    "gene": "FP_1CYC",
+    "status": "structure",
+    "source_pdb": "1CYC.pdb",
+    "conformers": 1,
+    "covered": 103,
+    "seq_len": 104,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1CYC.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 103,
+        "seq_len": 104
+      }
+    ]
+  },
+  "FP_1BPI_5PTI": {
+    "gene": "FP_1BPI_5PTI",
+    "status": "structure",
+    "source_pdb": "1BPI.pdb",
+    "conformers": 1,
+    "covered": 58,
+    "seq_len": 100,
+    "mutated_sites": 48,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BPI.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 58,
+        "seq_len": 100
+      }
+    ]
+  },
+  "FP_1STN_1EY0": {
+    "gene": "FP_1STN_1EY0",
+    "status": "structure",
+    "source_pdb": "1STN.pdb",
+    "conformers": 1,
+    "covered": 136,
+    "seq_len": 231,
+    "mutated_sites": 135,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1STN.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 136,
+        "seq_len": 231
+      }
+    ]
+  },
+  "FP_1CEY": {
+    "gene": "FP_1CEY",
+    "status": "structure",
+    "source_pdb": "1CEY.pdb",
+    "conformers": 1,
+    "covered": 128,
+    "seq_len": 129,
+    "mutated_sites": 14,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1CEY.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 128,
+        "seq_len": 129
+      }
+    ]
+  },
+  "FP_1BVC": {
+    "gene": "FP_1BVC",
+    "status": "structure",
+    "source_pdb": "1BVC.pdb",
+    "conformers": 1,
+    "covered": 153,
+    "seq_len": 154,
+    "mutated_sites": 54,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BVC.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 153,
+        "seq_len": 154
+      }
+    ]
+  },
+  "FP_1C2R": {
+    "gene": "FP_1C2R",
+    "status": "structure",
+    "source_pdb": "1C2R.pdb",
+    "conformers": 1,
+    "covered": 116,
+    "seq_len": 137,
+    "mutated_sites": 6,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1C2R.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 116,
+        "seq_len": 137
+      }
+    ]
+  },
+  "FP_2RN2": {
+    "gene": "FP_2RN2",
+    "status": "structure",
+    "source_pdb": "2RN2.pdb",
+    "conformers": 1,
+    "covered": 155,
+    "seq_len": 155,
+    "mutated_sites": 30,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2RN2.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 155,
+        "seq_len": 155
+      }
+    ]
+  },
+  "FP_1BP2_1G4I": {
+    "gene": "FP_1BP2_1G4I",
+    "status": "structure",
+    "source_pdb": "1BP2.pdb",
+    "conformers": 1,
+    "covered": 123,
+    "seq_len": 145,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BP2.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 123,
+        "seq_len": 145
+      }
+    ]
+  },
+  "FP_1WQ5": {
+    "gene": "FP_1WQ5",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "1WQ5.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.5078,
+        "chain": "A",
+        "chain_len": 258,
+        "seq_len": 268
+      }
+    ],
+    "mutated_sites": 20
+  },
+  "FP_1RN1": {
+    "gene": "FP_1RN1",
+    "status": "structure",
+    "source_pdb": "1RN1.pdb",
+    "conformers": 1,
+    "covered": 104,
+    "seq_len": 130,
+    "mutated_sites": 29,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RN1.pdb",
+        "status": "parse_failed",
+        "reason": "C:\\Users\\shaba\\Downloads\\ndd_training_corpus_v3_package\\external_data\\fireprot_benchmark\\pdbs\\1RN1.pdb: chain A found 0 "
+      },
+      {
+        "pdb": "1RN1.pdb",
+        "status": "accepted_alt_chain",
+        "identity": 1.0,
+        "chain": "C",
+        "runner_up_identity": 0.0,
+        "conformers": 1,
+        "covered": 104,
+        "seq_len": 130
+      }
+    ]
+  },
+  "FP_1POH": {
+    "gene": "FP_1POH",
+    "status": "structure",
+    "source_pdb": "1POH.pdb",
+    "conformers": 1,
+    "covered": 85,
+    "seq_len": 85,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1POH.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 85,
+        "seq_len": 85
+      }
+    ]
+  },
+  "FP_1IGV": {
+    "gene": "FP_1IGV",
+    "status": "structure",
+    "source_pdb": "1IGV.pdb",
+    "conformers": 1,
+    "covered": 75,
+    "seq_len": 79,
+    "mutated_sites": 13,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1IGV.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 75,
+        "seq_len": 79
+      }
+    ]
+  },
+  "FP_3PGK": {
+    "gene": "FP_3PGK",
+    "status": "structure",
+    "source_pdb": "3PGK.pdb",
+    "conformers": 1,
+    "covered": 405,
+    "seq_len": 416,
+    "mutated_sites": 7,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "3PGK.pdb",
+        "status": "accepted",
+        "identity": 0.9759,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 405,
+        "seq_len": 416
+      }
+    ]
+  },
+  "FP_1AXB_1BTL_1XPB_1ZG4": {
+    "gene": "FP_1AXB_1BTL_1XPB_1ZG4",
+    "status": "structure",
+    "source_pdb": "1AXB.pdb",
+    "conformers": 1,
+    "covered": 261,
+    "seq_len": 286,
+    "mutated_sites": 5,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1AXB.pdb",
+        "status": "accepted",
+        "identity": 0.9924,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 261,
+        "seq_len": 286
+      }
+    ]
+  },
+  "FP_1CYO": {
+    "gene": "FP_1CYO",
+    "status": "structure",
+    "source_pdb": "1CYO.pdb",
+    "conformers": 1,
+    "covered": 88,
+    "seq_len": 134,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1CYO.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 88,
+        "seq_len": 134
+      }
+    ]
+  },
+  "FP_2TRX": {
+    "gene": "FP_2TRX",
+    "status": "structure",
+    "source_pdb": "2TRX.pdb",
+    "conformers": 1,
+    "covered": 108,
+    "seq_len": 109,
+    "mutated_sites": 9,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2TRX.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 108,
+        "seq_len": 109
+      }
+    ]
+  },
+  "FP_2LZM_1L63": {
+    "gene": "FP_2LZM_1L63",
+    "status": "structure",
+    "source_pdb": "2LZM.pdb",
+    "conformers": 1,
+    "covered": 162,
+    "seq_len": 164,
+    "mutated_sites": 114,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2LZM.pdb",
+        "status": "accepted",
+        "identity": 0.9878,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 162,
+        "seq_len": 164
+      }
+    ]
+  },
+  "FP_1A23": {
+    "gene": "FP_1A23",
+    "status": "structure",
+    "source_pdb": "1A23.pdb",
+    "conformers": 1,
+    "covered": 189,
+    "seq_len": 208,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1A23.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 189,
+        "seq_len": 208
+      }
+    ]
+  },
+  "FP_1BTA": {
+    "gene": "FP_1BTA",
+    "status": "structure",
+    "source_pdb": "1BTA.pdb",
+    "conformers": 1,
+    "covered": 89,
+    "seq_len": 90,
+    "mutated_sites": 12,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BTA.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 89,
+        "seq_len": 90
+      }
+    ]
+  },
+  "FP_1CAH": {
+    "gene": "FP_1CAH",
+    "status": "structure",
+    "source_pdb": "1CAH.pdb",
+    "conformers": 1,
+    "covered": 258,
+    "seq_len": 260,
+    "mutated_sites": 10,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1CAH.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 258,
+        "seq_len": 260
+      }
+    ]
+  },
+  "FP_1AKK_1I5T": {
+    "gene": "FP_1AKK_1I5T",
+    "status": "structure",
+    "source_pdb": "1AKK.pdb",
+    "conformers": 1,
+    "covered": 104,
+    "seq_len": 105,
+    "mutated_sites": 6,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1AKK.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 104,
+        "seq_len": 105
+      }
+    ]
+  },
+  "FP_1AG2": {
+    "gene": "FP_1AG2",
+    "status": "structure",
+    "source_pdb": "1AG2.pdb",
+    "conformers": 1,
+    "covered": 103,
+    "seq_len": 254,
+    "mutated_sites": 10,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1AG2.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 103,
+        "seq_len": 254
+      }
+    ]
+  },
+  "FP_2ABD": {
+    "gene": "FP_2ABD",
+    "status": "structure",
+    "source_pdb": "2ABD.pdb",
+    "conformers": 1,
+    "covered": 86,
+    "seq_len": 87,
+    "mutated_sites": 25,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2ABD.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 86,
+        "seq_len": 87
+      }
+    ]
+  },
+  "FP_1FTG_1FLV_1QHE": {
+    "gene": "FP_1FTG_1FLV_1QHE",
+    "status": "structure",
+    "source_pdb": "1FTG.pdb",
+    "conformers": 1,
+    "covered": 168,
+    "seq_len": 170,
+    "mutated_sites": 43,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1FTG.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 168,
+        "seq_len": 170
+      }
+    ]
+  },
+  "FP_451C": {
+    "gene": "FP_451C",
+    "status": "structure",
+    "source_pdb": "451C.pdb",
+    "conformers": 1,
+    "covered": 82,
+    "seq_len": 104,
+    "mutated_sites": 9,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "451C.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 82,
+        "seq_len": 104
+      }
+    ]
+  },
+  "FP_3BLS_1KE4": {
+    "gene": "FP_3BLS_1KE4",
+    "status": "structure",
+    "source_pdb": "3BLS.pdb",
+    "conformers": 1,
+    "covered": 357,
+    "seq_len": 377,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "3BLS.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 357,
+        "seq_len": 377
+      }
+    ]
+  },
+  "FP_2AKY_1AKY": {
+    "gene": "FP_2AKY_1AKY",
+    "status": "structure",
+    "source_pdb": "2AKY.pdb",
+    "conformers": 1,
+    "covered": 217,
+    "seq_len": 222,
+    "mutated_sites": 6,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2AKY.pdb",
+        "status": "accepted",
+        "identity": 0.9954,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 217,
+        "seq_len": 222
+      }
+    ]
+  },
+  "FP_2HMB_1HMS": {
+    "gene": "FP_2HMB_1HMS",
+    "status": "structure",
+    "source_pdb": "2HMB.pdb",
+    "conformers": 1,
+    "covered": 131,
+    "seq_len": 133,
+    "mutated_sites": 14,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2HMB.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 131,
+        "seq_len": 133
+      }
+    ]
+  },
+  "FP_2AFG_1RG8": {
+    "gene": "FP_2AFG_1RG8",
+    "status": "structure",
+    "source_pdb": "2AFG.pdb",
+    "conformers": 1,
+    "covered": 129,
+    "seq_len": 155,
+    "mutated_sites": 16,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2AFG.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 129,
+        "seq_len": 155
+      }
+    ]
+  },
+  "FP_1TTG_1FNA_1FNF": {
+    "gene": "FP_1TTG_1FNA_1FNF",
+    "status": "structure",
+    "source_pdb": "1TTG.pdb",
+    "conformers": 1,
+    "covered": 94,
+    "seq_len": 2477,
+    "mutated_sites": 15,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1TTG.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 94,
+        "seq_len": 2477
+      }
+    ]
+  },
+  "FP_1TEN": {
+    "gene": "FP_1TEN",
+    "status": "structure",
+    "source_pdb": "1TEN.pdb",
+    "conformers": 1,
+    "covered": 89,
+    "seq_len": 2201,
+    "mutated_sites": 7,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1TEN.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 89,
+        "seq_len": 2201
+      }
+    ]
+  },
+  "FP_1ONC": {
+    "gene": "FP_1ONC",
+    "status": "structure",
+    "source_pdb": "1ONC.pdb",
+    "conformers": 1,
+    "covered": 103,
+    "seq_len": 104,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1ONC.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 103,
+        "seq_len": 104
+      }
+    ]
+  },
+  "FP_2HPR_2HID": {
+    "gene": "FP_2HPR_2HID",
+    "status": "structure",
+    "source_pdb": "2HPR.pdb",
+    "conformers": 1,
+    "covered": 80,
+    "seq_len": 88,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2HPR.pdb",
+        "status": "accepted",
+        "identity": 0.9302,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 80,
+        "seq_len": 88
+      }
+    ]
+  },
+  "FP_1OIA": {
+    "gene": "FP_1OIA",
+    "status": "structure",
+    "source_pdb": "1OIA.pdb",
+    "conformers": 1,
+    "covered": 90,
+    "seq_len": 282,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1OIA.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 90,
+        "seq_len": 282
+      }
+    ]
+  },
+  "FP_1RTB_1KF2_1KF3_1KF5": {
+    "gene": "FP_1RTB_1KF2_1KF3_1KF5",
+    "status": "structure",
+    "source_pdb": "1RTB.pdb",
+    "conformers": 1,
+    "covered": 124,
+    "seq_len": 150,
+    "mutated_sites": 23,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RTB.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 124,
+        "seq_len": 150
+      }
+    ]
+  },
+  "FP_1MGR": {
+    "gene": "FP_1MGR",
+    "status": "structure",
+    "source_pdb": "1MGR.pdb",
+    "conformers": 1,
+    "covered": 97,
+    "seq_len": 141,
+    "mutated_sites": 8,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1MGR.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 97,
+        "seq_len": 141
+      }
+    ]
+  },
+  "FP_1DIL_3SIL": {
+    "gene": "FP_1DIL_3SIL",
+    "status": "structure",
+    "source_pdb": "1DIL.pdb",
+    "conformers": 1,
+    "covered": 381,
+    "seq_len": 382,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1DIL.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 381,
+        "seq_len": 382
+      }
+    ]
+  },
+  "FP_1EL1": {
+    "gene": "FP_1EL1",
+    "status": "structure",
+    "source_pdb": "1EL1.pdb",
+    "conformers": 1,
+    "covered": 129,
+    "seq_len": 129,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1EL1.pdb",
+        "status": "accepted",
+        "identity": 0.9923,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 129,
+        "seq_len": 129
+      }
+    ]
+  },
+  "FP_1ANK": {
+    "gene": "FP_1ANK",
+    "status": "structure",
+    "source_pdb": "1ANK.pdb",
+    "conformers": 1,
+    "covered": 214,
+    "seq_len": 214,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1ANK.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 214,
+        "seq_len": 214
+      }
+    ]
+  },
+  "FP_1SUP": {
+    "gene": "FP_1SUP",
+    "status": "structure",
+    "source_pdb": "1SUP.pdb",
+    "conformers": 1,
+    "covered": 275,
+    "seq_len": 382,
+    "mutated_sites": 6,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1SUP.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 275,
+        "seq_len": 382
+      }
+    ]
+  },
+  "FP_1TPK": {
+    "gene": "FP_1TPK",
+    "status": "structure",
+    "source_pdb": "1TPK.pdb",
+    "conformers": 1,
+    "covered": 88,
+    "seq_len": 562,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1TPK.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 88,
+        "seq_len": 562
+      }
+    ]
+  },
+  "FP_1CHK": {
+    "gene": "FP_1CHK",
+    "status": "structure",
+    "source_pdb": "1CHK.pdb",
+    "conformers": 1,
+    "covered": 237,
+    "seq_len": 278,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1CHK.pdb",
+        "status": "accepted",
+        "identity": 0.9958,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 237,
+        "seq_len": 278
+      }
+    ]
+  },
+  "FP_1A5E": {
+    "gene": "FP_1A5E",
+    "status": "structure",
+    "source_pdb": "1A5E.pdb",
+    "conformers": 1,
+    "covered": 156,
+    "seq_len": 156,
+    "mutated_sites": 3,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1A5E.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 156,
+        "seq_len": 156
+      }
+    ]
+  },
+  "FP_1QGV": {
+    "gene": "FP_1QGV",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "1QGV.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.7634,
+        "chain": "A",
+        "chain_len": 131,
+        "seq_len": 142
+      }
+    ],
+    "mutated_sites": 1
+  },
+  "FP_1KFW": {
+    "gene": "FP_1KFW",
+    "status": "structure",
+    "source_pdb": "1KFW.pdb",
+    "conformers": 1,
+    "covered": 428,
+    "seq_len": 577,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1KFW.pdb",
+        "status": "accepted",
+        "identity": 0.9839,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 428,
+        "seq_len": 577
+      }
+    ]
+  },
+  "FP_1RTP": {
+    "gene": "FP_1RTP",
+    "status": "structure",
+    "source_pdb": "1RTP.pdb",
+    "conformers": 1,
+    "covered": 109,
+    "seq_len": 110,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RTP.pdb",
+        "status": "parse_failed",
+        "reason": "C:\\Users\\shaba\\Downloads\\ndd_training_corpus_v3_package\\external_data\\fireprot_benchmark\\pdbs\\1RTP.pdb: chain A found 0 "
+      },
+      {
+        "pdb": "1RTP.pdb",
+        "status": "accepted_alt_chain",
+        "identity": 1.0,
+        "chain": "1",
+        "runner_up_identity": 0.0,
+        "conformers": 1,
+        "covered": 109,
+        "seq_len": 110
+      }
+    ]
+  },
+  "FP_2ADA": {
+    "gene": "FP_2ADA",
+    "status": "structure",
+    "source_pdb": "2ADA.pdb",
+    "conformers": 1,
+    "covered": 349,
+    "seq_len": 352,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2ADA.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 349,
+        "seq_len": 352
+      }
+    ]
+  },
+  "FP_1IMQ": {
+    "gene": "FP_1IMQ",
+    "status": "structure",
+    "source_pdb": "1IMQ.pdb",
+    "conformers": 1,
+    "covered": 86,
+    "seq_len": 86,
+    "mutated_sites": 9,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1IMQ.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 86,
+        "seq_len": 86
+      }
+    ]
+  },
+  "FP_1HME": {
+    "gene": "FP_1HME",
+    "status": "structure",
+    "source_pdb": "1HME.pdb",
+    "conformers": 1,
+    "covered": 77,
+    "seq_len": 215,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1HME.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 77,
+        "seq_len": 215
+      }
+    ]
+  },
+  "FP_1H7M": {
+    "gene": "FP_1H7M",
+    "status": "structure",
+    "source_pdb": "1H7M.pdb",
+    "conformers": 1,
+    "covered": 96,
+    "seq_len": 101,
+    "mutated_sites": 26,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1H7M.pdb",
+        "status": "accepted",
+        "identity": 0.9798,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 96,
+        "seq_len": 101
+      }
+    ]
+  },
+  "FP_1LS4_1AEP": {
+    "gene": "FP_1LS4_1AEP",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "1LS4.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.6951,
+        "chain": "A",
+        "chain_len": 164,
+        "seq_len": 179
+      },
+      {
+        "pdb": "1AEP.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.6928,
+        "chain": "A",
+        "chain_len": 153,
+        "seq_len": 179
+      }
+    ],
+    "mutated_sites": 4
+  },
+  "FP_1IFB_1IFC_2IFB": {
+    "gene": "FP_1IFB_1IFC_2IFB",
+    "status": "structure",
+    "source_pdb": "1IFB.pdb",
+    "conformers": 1,
+    "covered": 131,
+    "seq_len": 132,
+    "mutated_sites": 12,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1IFB.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 131,
+        "seq_len": 132
+      }
+    ]
+  },
+  "FP_1IO2": {
+    "gene": "FP_1IO2",
+    "status": "structure",
+    "source_pdb": "1IO2.pdb",
+    "conformers": 1,
+    "covered": 213,
+    "seq_len": 228,
+    "mutated_sites": 13,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1IO2.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 213,
+        "seq_len": 228
+      }
+    ]
+  },
+  "FP_1BNL": {
+    "gene": "FP_1BNL",
+    "status": "structure",
+    "source_pdb": "1BNL.pdb",
+    "conformers": 1,
+    "covered": 177,
+    "seq_len": 1754,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BNL.pdb",
+        "status": "accepted",
+        "identity": 0.9944,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 177,
+        "seq_len": 1754
+      }
+    ]
+  },
+  "FP_4BLM": {
+    "gene": "FP_4BLM",
+    "status": "structure",
+    "source_pdb": "4BLM.pdb",
+    "conformers": 1,
+    "covered": 256,
+    "seq_len": 307,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "4BLM.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 256,
+        "seq_len": 307
+      }
+    ]
+  },
+  "FP_2Q98": {
+    "gene": "FP_2Q98",
+    "status": "structure",
+    "source_pdb": "2Q98.pdb",
+    "conformers": 1,
+    "covered": 188,
+    "seq_len": 227,
+    "mutated_sites": 9,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2Q98.pdb",
+        "status": "accepted",
+        "identity": 0.9843,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 188,
+        "seq_len": 227
+      }
+    ]
+  },
+  "FP_1QJP": {
+    "gene": "FP_1QJP",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "1QJP.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.5547,
+        "chain": "A",
+        "chain_len": 137,
+        "seq_len": 346
+      }
+    ],
+    "mutated_sites": 11
+  },
+  "FP_1THQ": {
+    "gene": "FP_1THQ",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "1THQ.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.7891,
+        "chain": "A",
+        "chain_len": 147,
+        "seq_len": 186
+      }
+    ],
+    "mutated_sites": 19
+  },
+  "FP_1AQH": {
+    "gene": "FP_1AQH",
+    "status": "structure",
+    "source_pdb": "1AQH.pdb",
+    "conformers": 1,
+    "covered": 448,
+    "seq_len": 669,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1AQH.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 448,
+        "seq_len": 669
+      }
+    ]
+  },
+  "FP_1BCX": {
+    "gene": "FP_1BCX",
+    "status": "structure",
+    "source_pdb": "1BCX.pdb",
+    "conformers": 1,
+    "covered": 184,
+    "seq_len": 213,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BCX.pdb",
+        "status": "accepted",
+        "identity": 0.9946,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 184,
+        "seq_len": 213
+      }
+    ]
+  },
+  "FP_1BRF": {
+    "gene": "FP_1BRF",
+    "status": "structure",
+    "source_pdb": "1BRF.pdb",
+    "conformers": 1,
+    "covered": 53,
+    "seq_len": 54,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1BRF.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 53,
+        "seq_len": 54
+      }
+    ]
+  },
+  "FP_1RRO": {
+    "gene": "FP_1RRO",
+    "status": "structure",
+    "source_pdb": "1RRO.pdb",
+    "conformers": 1,
+    "covered": 108,
+    "seq_len": 109,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RRO.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 108,
+        "seq_len": 109
+      }
+    ]
+  },
+  "FP_3HHR_1HGU": {
+    "gene": "FP_3HHR_1HGU",
+    "status": "sequence_only",
+    "attempts": [
+      {
+        "pdb": "3HHR.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.8162,
+        "chain": "A",
+        "chain_len": 185,
+        "seq_len": 217
+      },
+      {
+        "pdb": "1HGU.pdb",
+        "status": "alignment_rejected",
+        "identity": 0.7594,
+        "chain": "A",
+        "chain_len": 187,
+        "seq_len": 217
+      }
+    ],
+    "mutated_sites": 1
+  },
+  "FP_1FXA": {
+    "gene": "FP_1FXA",
+    "status": "structure",
+    "source_pdb": "1FXA.pdb",
+    "conformers": 1,
+    "covered": 98,
+    "seq_len": 99,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1FXA.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 98,
+        "seq_len": 99
+      }
+    ]
+  },
+  "FP_1HZ6": {
+    "gene": "FP_1HZ6",
+    "status": "structure",
+    "source_pdb": "1HZ6.pdb",
+    "conformers": 1,
+    "covered": 62,
+    "seq_len": 719,
+    "mutated_sites": 29,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1HZ6.pdb",
+        "status": "accepted",
+        "identity": 0.9254,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 62,
+        "seq_len": 719
+      }
+    ]
+  },
+  "FP_2CHF": {
+    "gene": "FP_2CHF",
+    "status": "structure",
+    "source_pdb": "2CHF.pdb",
+    "conformers": 1,
+    "covered": 128,
+    "seq_len": 129,
+    "mutated_sites": 29,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2CHF.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 128,
+        "seq_len": 129
+      }
+    ]
+  },
+  "FP_1APS": {
+    "gene": "FP_1APS",
+    "status": "structure",
+    "source_pdb": "1APS.pdb",
+    "conformers": 1,
+    "covered": 98,
+    "seq_len": 99,
+    "mutated_sites": 26,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1APS.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 98,
+        "seq_len": 99
+      }
+    ]
+  },
+  "FP_1FRD": {
+    "gene": "FP_1FRD",
+    "status": "structure",
+    "source_pdb": "1FRD.pdb",
+    "conformers": 1,
+    "covered": 98,
+    "seq_len": 99,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1FRD.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 98,
+        "seq_len": 99
+      }
+    ]
+  },
+  "FP_1KCQ": {
+    "gene": "FP_1KCQ",
+    "status": "structure",
+    "source_pdb": "1KCQ.pdb",
+    "conformers": 1,
+    "covered": 103,
+    "seq_len": 782,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1KCQ.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 103,
+        "seq_len": 782
+      }
+    ]
+  },
+  "FP_1QND": {
+    "gene": "FP_1QND",
+    "status": "structure",
+    "source_pdb": "1QND.pdb",
+    "conformers": 1,
+    "covered": 123,
+    "seq_len": 547,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1QND.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 123,
+        "seq_len": 547
+      }
+    ]
+  },
+  "FP_2DRI": {
+    "gene": "FP_2DRI",
+    "status": "structure",
+    "source_pdb": "2DRI.pdb",
+    "conformers": 1,
+    "covered": 271,
+    "seq_len": 296,
+    "mutated_sites": 2,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "2DRI.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 271,
+        "seq_len": 296
+      }
+    ]
+  },
+  "FP_1C52": {
+    "gene": "FP_1C52",
+    "status": "structure",
+    "source_pdb": "1C52.pdb",
+    "conformers": 1,
+    "covered": 131,
+    "seq_len": 131,
+    "mutated_sites": 1,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1C52.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 131,
+        "seq_len": 131
+      }
+    ]
+  },
+  "FP_1XAS_1E0W": {
+    "gene": "FP_1XAS_1E0W",
+    "status": "structure",
+    "source_pdb": "1XAS.pdb",
+    "conformers": 1,
+    "covered": 293,
+    "seq_len": 477,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1XAS.pdb",
+        "status": "accepted",
+        "identity": 0.9932,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 293,
+        "seq_len": 477
+      }
+    ]
+  },
+  "FP_1RBP": {
+    "gene": "FP_1RBP",
+    "status": "structure",
+    "source_pdb": "1RBP.pdb",
+    "conformers": 1,
+    "covered": 174,
+    "seq_len": 201,
+    "mutated_sites": 4,
+    "uncovered_mutated_sites": [],
+    "attempts": [
+      {
+        "pdb": "1RBP.pdb",
+        "status": "accepted",
+        "identity": 1.0,
+        "chain": "A",
+        "conformers": 1,
+        "covered": 174,
+        "seq_len": 201
+      }
+    ]
+  }
+}

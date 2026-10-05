@@ -1,0 +1,3 @@
+accession,hgvs_nt,hgvs_splice,hgvs_pro,score,SEM,replicates,Shifted V1/2 (mV)
+urn:mavedb:00000664-a-8#1,c.2506G>T,NA,p.Glu836Ter,-27.09,1.34,10,-1.85
+urn:mavedb:00000664-a-8#2,c.2593_2595del,NA,p.Val865del,-28.41,1.79,6,-3.16

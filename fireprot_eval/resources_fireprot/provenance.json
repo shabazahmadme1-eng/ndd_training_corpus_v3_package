@@ -1,0 +1,10 @@
+{
+  "bundle": "fireprot_15a post-exclusion-2427x80",
+  "built_utc": "2026-10-05T06:28:01Z",
+  "inputs": {
+    "fireprot_eval/corpus_fireprot.csv": "bad4f692b2e8",
+    "fireprot_eval/resources_fireprot/sequences.json": "c31b5739c2a0",
+    "mipo/fireprot.py": "f6f6199eeef4",
+    "scripts/evaluate_fireprot.py": "feb5d599815c"
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "title": "Rhodopsin surface expression",
+  "methodText": "Variants were counted by identifying 20bp \u201cprobes\u201d unique to each of the variants tested in the assay. Variants were counted using grep.\r\n\r\nThe score was calculated as: \r\n\r\n$$s_v = \\log_2 \\left( \\frac{\\frac{c_{v,high}}{c_{wt,high}} {\\frac{c_{v,low}}{c_{wt,low}} \\right)$$\r\n\r\nThree biological replicates were performed and used to calculate average scores and confidence intervals for each variant. Note that the confidence level chosen was not reported.\r\n\r\nResults from the single-plex RHO surface assay are also reported, as \u2018single_plex_mean\u2019 and \u2018single_plex_stderr\u2019.",
+  "abstractText": "This study presents a cell-based assay for functional characterization of variants of unknown significance (VUS) in rhodopsin (RHO). 210 previously-observed RHO variants were assayed for cell surface expression using a flow cytometry-based assay.",
+  "shortDescription": "Rhodopsin VUS surface expression",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000099-a-1",
+  "numVariants": 211,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "30977563",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach.",
+      "authors": [
+        {
+          "name": "Wan, Aliete",
+          "primary": true
+        },
+        {
+          "name": "Place, Emily",
+          "primary": false
+        },
+        {
+          "name": "Pierce, Eric A",
+          "primary": false
+        },
+        {
+          "name": "Comander, Jason",
+          "primary": false
+        }
+      ],
+      "abstract": "Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (RHO) variants from literature and in-house genetic diagnostic testing were created to efficiently detect pathogenic RHO variants that fail to express on the cell surface. This study, while focused on RHO, demonstrates a streamlined, generalizable method for detecting pathogenic VUS. A relatively simple next-generation sequencing-based readout was developed so that a flow cytometry-based assay could be performed simultaneously on all variants in a pooled format, without the need for barcodes or viral transduction. The resulting dataset characterized the surface expression of every RHO library variant with a high degree of reproducibility (r",
+      "doi": "10.1002/humu.23762",
+      "publicationYear": 2019,
+      "publicationJournal": "Hum Mutat",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/30977563",
+      "referenceHtml": "Wan A, <i>et al</i>. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. 2019; 40:1127-1144. doi: 10.1002/humu.23762",
+      "id": 77
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2022-08-16",
+  "creationDate": "2022-08-16",
+  "modificationDate": "2026-06-02",
+  "createdBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "RHO",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "RefSeq",
+            "identifier": "NM_000539.3",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_000539.3"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 352,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGAATGGCACAGAAGGCCCTAACTTCTACGTGCCCTTCTCCAATGCGACGGGTGTGGTACGCAGCCCCTTCGAGTACCCACAGTACTACCTGGCTGAGCCATGGCAGTTCTCCATGCTGGCCGCCTACATGTTTCTGCTGATCGTGCTGGGCTTCCCCATCAACTTCCTCACGCTCTACGTCACCGTCCAGCACAAGAAGCTGCGCACGCCTCTCAACTACATCCTGCTCAACCTAGCCGTGGCTGACCTCTTCATGGTCCTAGGTGGCTTCACCAGCACCCTCTACACCTCTCTGCATGGATACTTCGTCTTCGGGCCCACAGGATGCAATTTGGAGGGCTTCTTTGCCACCCTGGGCGGTGAAATTGCCCTGTGGTCCTTGGTGGTCCTGGCCATCGAGCGGTACGTGGTGGTGTGTAAGCCCATGAGCAACTTCCGCTTCGGGGAGAACCATGCCATCATGGGCGTTGCCTTCACCTGGGTCATGGCGCTGGCCTGCGCCGCACCCCCACTCGCCGGCTGGTCCAGGTACATCCCCGAGGGCCTGCAGTGCTCGTGTGGAATCGACTACTACACGCTCAAGCCGGAGGTCAACAACGAGTCTTTTGTCATCTACATGTTCGTGGTCCACTTCACCATCCCCATGATTATCATCTTTTTCTGCTATGGGCAGCTCGTCTTCACCGTCAAGGAGGCCGCTGCCCAGCAGCAGGAGTCAGCCACCACACAGAAGGCAGAGAAGGAGGTCACCCGCATGGTCATCATCATGGTCATCGCTTTCCTGATCTGCTGGGTGCCCTACGCCAGCGTGGCATTCTACATCTTCACCCACCAGGGCTCCAACTTCGGTCCCATCTTCATGACCATCCCAGCGTTCTTTGCCAAGAGCGCCGCCATCTACAACCCTGTCATCTATATCATGATGAACAAGCAGTTCCGGAACTGCATGCTCACCACCATCTGCTGCGGCAAGAACCCACTGGGTGACGATGAGGCCTCTGCTACCGTGTCCAAGACGGAGACGAGCCAGGTGGCCCCGGCCTAA",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "RHO",
+      "uniprotIdFromMappedMetadata": "P08100"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "ci_low",
+      "ci_high",
+      "single_plex_mean",
+      "single_plex_stderr"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:129528743-129533716&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&RHO_00000099-a-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: All Variants",
+      "researchUseOnly": false,
+      "thresholdSources": [],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 827,
+      "urn": "urn:mavedb:calibration-b284228f-d814-4da0-bc92-cafa8bfeafc0",
+      "scoreSetId": 352,
+      "investigatorProvided": false,
+      "primary": true,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: Missense Variants Only",
+      "researchUseOnly": false,
+      "thresholdSources": [],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 826,
+      "urn": "urn:mavedb:calibration-983ebc19-53b3-4a64-b664-c1cd679f0766",
+      "scoreSetId": 352,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "Investigator-provided functional classes",
+      "researchUseOnly": false,
+      "notes": "Functional classes were determined by a method which is not currently compatible with our data model.  We are actively working on getting this information into MaveDB.",
+      "functionalClassifications": [
+        {
+          "label": "low",
+          "functionalClassification": "abnormal",
+          "class": "low",
+          "id": 7125,
+          "recordType": "FunctionalClassification",
+          "variantCount": 25
+        },
+        {
+          "label": "very low",
+          "functionalClassification": "abnormal",
+          "class": "very low",
+          "id": 7126,
+          "recordType": "FunctionalClassification",
+          "variantCount": 87
+        },
+        {
+          "label": "high",
+          "functionalClassification": "normal",
+          "class": "high",
+          "id": 7127,
+          "recordType": "FunctionalClassification",
+          "variantCount": 79
+        },
+        {
+          "label": "indeterminate",
+          "functionalClassification": "not_specified",
+          "class": "indeterminate",
+          "id": 7128,
+          "recordType": "FunctionalClassification",
+          "variantCount": 19
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "30977563",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach.",
+          "authors": [
+            {
+              "name": "Wan, Aliete",
+              "primary": true
+            },
+            {
+              "name": "Place, Emily",
+              "primary": false
+            },
+            {
+              "name": "Pierce, Eric A",
+              "primary": false
+            },
+            {
+              "name": "Comander, Jason",
+              "primary": false
+            }
+          ],
+          "abstract": "Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (RHO) variants from literature and in-house genetic diagnostic testing were created to efficiently detect pathogenic RHO variants that fail to express on the cell surface. This study, while focused on RHO, demonstrates a streamlined, generalizable method for detecting pathogenic VUS. A relatively simple next-generation sequencing-based readout was developed so that a flow cytometry-based assay could be performed simultaneously on all variants in a pooled format, without the need for barcodes or viral transduction. The resulting dataset characterized the surface expression of every RHO library variant with a high degree of reproducibility (r",
+          "doi": "10.1002/humu.23762",
+          "publicationYear": 2019,
+          "publicationJournal": "Hum Mutat",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/30977563",
+          "referenceHtml": "Wan A, <i>et al</i>. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. 2019; 40:1127-1144. doi: 10.1002/humu.23762",
+          "id": 77
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [
+        {
+          "identifier": "30977563",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach.",
+          "authors": [
+            {
+              "name": "Wan, Aliete",
+              "primary": true
+            },
+            {
+              "name": "Place, Emily",
+              "primary": false
+            },
+            {
+              "name": "Pierce, Eric A",
+              "primary": false
+            },
+            {
+              "name": "Comander, Jason",
+              "primary": false
+            }
+          ],
+          "abstract": "Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (RHO) variants from literature and in-house genetic diagnostic testing were created to efficiently detect pathogenic RHO variants that fail to express on the cell surface. This study, while focused on RHO, demonstrates a streamlined, generalizable method for detecting pathogenic VUS. A relatively simple next-generation sequencing-based readout was developed so that a flow cytometry-based assay could be performed simultaneously on all variants in a pooled format, without the need for barcodes or viral transduction. The resulting dataset characterized the surface expression of every RHO library variant with a high degree of reproducibility (r",
+          "doi": "10.1002/humu.23762",
+          "publicationYear": 2019,
+          "publicationJournal": "Hum Mutat",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/30977563",
+          "referenceHtml": "Wan A, <i>et al</i>. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. 2019; 40:1127-1144. doi: 10.1002/humu.23762",
+          "id": 77
+        }
+      ],
+      "recordType": "ScoreCalibration",
+      "id": 825,
+      "urn": "urn:mavedb:calibration-397d59b8-7054-41db-8ace-150bb9ba7a73",
+      "scoreSetId": 352,
+      "investigatorProvided": true,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "0000-0003-1474-605X",
+        "firstName": "Alan",
+        "lastName": "Rubin",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0003-1474-605X",
+        "firstName": "Alan",
+        "lastName": "Rubin",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "ExCALIBR calibration",
+      "researchUseOnly": true,
+      "functionalClassifications": [
+        {
+          "label": "PS3 Supporting (1)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.4602965819866391,
+            0.5341819888509359
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": 1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6593,
+          "recordType": "FunctionalClassification",
+          "variantCount": 4
+        },
+        {
+          "label": "PS3 Moderate (2)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.36952308212478874,
+            0.4602965819866391
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE",
+            "points": 2,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6594,
+          "recordType": "FunctionalClassification",
+          "variantCount": 2
+        },
+        {
+          "label": "PS3 Moderate+ (3)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.23441833814436025,
+            0.36952308212478874
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE_PLUS",
+            "points": 3,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6595,
+          "recordType": "FunctionalClassification",
+          "variantCount": 25
+        },
+        {
+          "label": "PS3 Strong (4)",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.23441833814436025
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 4,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6596,
+          "recordType": "FunctionalClassification",
+          "variantCount": 66
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "evidenceSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "methodSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "calibrationMetadata": {
+        "prior_probability_pathogenicity": 0.5006533118
+      },
+      "recordType": "ScoreCalibration",
+      "id": 2343,
+      "urn": "urn:mavedb:calibration-177ce5eb-b6a4-4eaa-9c3c-f49d290d559f",
+      "scoreSetId": 352,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2026-02-24",
+      "modificationDate": "2026-02-24"
+    }
+  ],
+  "experiment": {
+    "title": "Rhodopsin surface expression",
+    "shortDescription": "Rhodopsin VUS surface expression",
+    "abstractText": "This study presents a cell-based assay for functional characterization of variants of unknown significance (VUS) in rhodopsin (RHO). 210 previously-observed RHO variants were assayed for cell surface expression using a flow cytometry-based assay.",
+    "methodText": "The variant library was constructed from 189 variants from literature, 11 variants from synonymous controls, and 10 additional variants of uncertain significance. Site-directed mutagenesis was used to construct an expression plasmid library containing RHO variants. Each variant plasmid was transfected into HEK293T cells pooled. Two flow cytometry methods were used to compare the 210 variants: standard unpooled flow cytometry assay and a pooled assay.\r\n\r\nThe cells were stained with a fluorescent antibody and were sorted by levels of expression. Immunofluorescence staining distinguishes wildtype RHO from LoF-mutant RHO. Each variant was transfected and sorted into two pools: \u201chigh\u201d surface-RHO-expressing cells and \u201clow\u201d surface-RHO-expressing cells.\r\n\r\nTo quantify the pathogenicity of each variant, The residual plasmid was isolated from each cell pool, amplified by PCR and sequenced by Illumina MiSeq.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000099-a",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2022-08-16",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2022-08-16",
+    "experimentSetUrn": "urn:mavedb:00000099",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "30977563",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Characterizing variants of unknown significance in rhodopsin: A functional genomics approach.",
+        "authors": [
+          {
+            "name": "Wan, Aliete",
+            "primary": true
+          },
+          {
+            "name": "Place, Emily",
+            "primary": false
+          },
+          {
+            "name": "Pierce, Eric A",
+            "primary": false
+          },
+          {
+            "name": "Comander, Jason",
+            "primary": false
+          }
+        ],
+        "abstract": "Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (RHO) variants from literature and in-house genetic diagnostic testing were created to efficiently detect pathogenic RHO variants that fail to express on the cell surface. This study, while focused on RHO, demonstrates a streamlined, generalizable method for detecting pathogenic VUS. A relatively simple next-generation sequencing-based readout was developed so that a flow cytometry-based assay could be performed simultaneously on all variants in a pooled format, without the need for barcodes or viral transduction. The resulting dataset characterized the surface expression of every RHO library variant with a high degree of reproducibility (r",
+        "doi": "10.1002/humu.23762",
+        "publicationYear": 2019,
+        "publicationJournal": "Hum Mutat",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/30977563",
+        "referenceHtml": "Wan A, <i>et al</i>. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. 2019; 40:1127-1144. doi: 10.1002/humu.23762",
+        "id": 77
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+      {
+        "keyword": {
+          "key": "Molecular Mechanism Assessed",
+          "label": "Protein localization to plasma membrane",
+          "special": false,
+          "description": "The biological or molecular process investigated by the assay"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Delivery Method",
+          "label": "Chemical-based transfection",
+          "special": false,
+          "description": "How the variant library was delivered to the model system for phenotype evaluation."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method Mechanism",
+          "label": "Plasmid (not integrated)",
+          "special": false,
+          "description": "The mechanism for integration or expression of an exogenous construct"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method System",
+          "label": "Oligo-directed mutagenic PCR",
+          "special": false,
+          "description": "The type of method used to generate the library"
+        },
+        "description": "gateway cloning",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Dimensionality",
+          "label": "Single-dimensional data",
+          "special": false,
+          "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Mechanism",
+          "label": "Loss of function",
+          "special": false,
+          "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Model System",
+          "label": "Immortalized human cells",
+          "special": false,
+          "description": "The model system context that influences expression of the phenotype."
+        },
+        "description": "Homo sapiens (NCBI:txid9606)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Profiling Strategy",
+          "label": "Direct sequencing",
+          "special": false,
+          "description": "The strategy used to profile the variant library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Sequencing Read Type",
+          "label": "Single-segment (short read)",
+          "special": false,
+          "description": "The sequencing method used"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Variant Library Creation Method",
+          "label": "In vitro construct library method",
+          "special": false,
+          "description": "A methodology for generating a variant library at an endogenous locus"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Method",
+          "label": "Reporter",
+          "special": false,
+          "description": "The assay method, defining the molecular properties interrogated."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      }
+    ],
+    "scoreSetUrns": [
+      "urn:mavedb:00000099-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [
+    {
+      "badgeName": "MaveMD",
+      "name": "MaveMD",
+      "urn": "urn:mavedb:collection-603dafbf-4a3f-4d70-ab8c-aafb226fbff4",
+      "scoreSetUrns": [
+        "urn:mavedb:00000657-a-1",
+        "urn:mavedb:00000657-b-1",
+        "urn:mavedb:00000662-0-1",
+        "urn:mavedb:00001250-a-1",
+        "urn:mavedb:00001222-a-2",
+        "urn:mavedb:00001222-b-2",
+        "urn:mavedb:00000097-0-2",
+        "urn:mavedb:00001224-a-1",
+        "urn:mavedb:00001263-a-1",
+        "urn:mavedb:00001268-0-1",
+        "urn:mavedb:00001268-a-1",
+        "urn:mavedb:00001268-b-1",
+        "urn:mavedb:00001268-c-1",
+        "urn:mavedb:00001242-a-1",
+        "urn:mavedb:00000001-c-1",
+        "urn:mavedb:00001226-a-1",
+        "urn:mavedb:00001226-b-1",
+        "urn:mavedb:00000005-a-5",
+        "urn:mavedb:00000005-a-6",
+        "urn:mavedb:00001205-a-1",
+        "urn:mavedb:00001227-a-2",
+        "urn:mavedb:00001262-a-1",
+        "urn:mavedb:00001228-a-1",
+        "urn:mavedb:00001200-0-1",
+        "urn:mavedb:00001200-a-1",
+        "urn:mavedb:00001200-b-1",
+        "urn:mavedb:00001200-c-1",
+        "urn:mavedb:00001200-d-1",
+        "urn:mavedb:00001200-e-1",
+        "urn:mavedb:00001197-a-5",
+        "urn:mavedb:00001266-b-1",
+        "urn:mavedb:00000096-a-1",
+        "urn:mavedb:00000096-b-1",
+        "urn:mavedb:00000108-0-1",
+        "urn:mavedb:00000108-a-1",
+        "urn:mavedb:00000108-b-1",
+        "urn:mavedb:00001198-a-1",
+        "urn:mavedb:00000674-a-2",
+        "urn:mavedb:00000674-b-1",
+        "urn:mavedb:00000674-c-1",
+        "urn:mavedb:00001230-a-2",
+        "urn:mavedb:00001229-a-2",
+        "urn:mavedb:00001231-a-2",
+        "urn:mavedb:00000094-a-2",
+        "urn:mavedb:00000094-a-3",
+        "urn:mavedb:00001254-a-1",
+        "urn:mavedb:00000050-a-1",
+        "urn:mavedb:00000663-a-1",
+        "urn:mavedb:00000112-a-1",
+        "urn:mavedb:00001259-a-1",
+        "urn:mavedb:00000665-a-1",
+        "urn:mavedb:00000665-b-1",
+        "urn:mavedb:00000665-c-1",
+        "urn:mavedb:00000665-d-1",
+        "urn:mavedb:00000013-a-1",
+        "urn:mavedb:00000054-a-1",
+        "urn:mavedb:00000673-0-1",
+        "urn:mavedb:00001260-a-1",
+        "urn:mavedb:00000099-a-1",
+        "urn:mavedb:00000098-a-2",
+        "urn:mavedb:00001233-a-1",
+        "urn:mavedb:00000659-a-1",
+        "urn:mavedb:00000060-a-1",
+        "urn:mavedb:00000060-a-2",
+        "urn:mavedb:00001235-a-1",
+        "urn:mavedb:00001236-0-1",
+        "urn:mavedb:00000068-0-1",
+        "urn:mavedb:00000068-a-1",
+        "urn:mavedb:00000068-b-1",
+        "urn:mavedb:00000068-c-1",
+        "urn:mavedb:00001234-0-1",
+        "urn:mavedb:00001234-a-1",
+        "urn:mavedb:00001234-b-1",
+        "urn:mavedb:00001234-c-1",
+        "urn:mavedb:00001234-d-1",
+        "urn:mavedb:00001234-e-1",
+        "urn:mavedb:00001234-f-1",
+        "urn:mavedb:00001234-g-1",
+        "urn:mavedb:00001234-h-1",
+        "urn:mavedb:00001251-a-1",
+        "urn:mavedb:00001267-b-1",
+        "urn:mavedb:00000675-a-1",
+        "urn:mavedb:00001264-a-1",
+        "urn:mavedb:00001267-a-2"
+      ],
+      "experimentUrns": []
+    }
+  ],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

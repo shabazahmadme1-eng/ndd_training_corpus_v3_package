@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1073/pnas.1209751109\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "23035249",
+        "source": "MED",
+        "pmid": "23035249",
+        "pmcid": "PMC3479514",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3479514"
+          ]
+        },
+        "doi": "10.1073/pnas.1209751109",
+        "title": "A fundamental protein property, thermodynamic stability, revealed solely from large-scale measurements of protein function.",
+        "authorString": "Araya CL, Fowler DM, Chen W, Muniez I, Kelly JW, Fields S.",
+        "journalTitle": "Proc Natl Acad Sci U S A",
+        "issue": "42",
+        "journalVolume": "109",
+        "pubYear": "2012",
+        "journalIssn": "0027-8424; 1091-6490; ",
+        "pageInfo": "16858-16863",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 224,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2012-10-03",
+        "firstIndexDate": "2012-10-05"
+      }
+    ]
+  }
+}

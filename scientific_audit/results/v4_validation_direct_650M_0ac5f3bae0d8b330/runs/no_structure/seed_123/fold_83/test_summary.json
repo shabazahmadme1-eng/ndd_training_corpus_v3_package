@@ -1,0 +1,38 @@
+{
+  "macro_gene_spearman": 0.5241139871721814,
+  "genes": 1,
+  "genes_with_defined_spearman": 1,
+  "assays": 3,
+  "unsupported_task_rows": 0,
+  "metric_units": "training_task_transformed_score",
+  "per_gene": {
+    "PTEN": 0.5241139871721814
+  },
+  "per_task": {
+    "abundance": {
+      "macro_gene_spearman": 0.5310322265935277,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 0.026952587054888844,
+      "macro_gene_gaussian_nll": 7.575843876812341,
+      "macro_gene_coverage_calibrated": null
+    },
+    "activity": {
+      "macro_gene_spearman": 0.4802529386111053,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 0.08429752066115702,
+      "macro_gene_gaussian_nll": 36.71352843926124,
+      "macro_gene_coverage_calibrated": 0.2612947658402204
+    },
+    "consensus": {
+      "macro_gene_spearman": 0.5610567963119112,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 0.9702825159914712,
+      "macro_gene_gaussian_nll": -0.06549472425519075,
+      "macro_gene_coverage_calibrated": 0.9264392324093816
+    }
+  },
+  "calibrated_interval_rows": 14764,
+  "rows_without_calibrated_intervals": 5083,
+  "calibration_alpha": 0.1,
+  "scale_transfer_limitation": "Training-only task scales are transferred to unseen assays; absolute scores and intervals require separate validation."
+}

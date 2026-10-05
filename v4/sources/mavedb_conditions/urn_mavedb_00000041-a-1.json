@@ -1,0 +1,295 @@
+{
+  "title": "Amino acid scores for Src CD",
+  "methodText": "Variant scores were calculated using Enrich2 weighted least squares regression and wild-type normalization. The `activity_score` is `-1 * score`, because negative scores indicate depletion in the population, which is associated with higher kinase activity.\r\n\r\nVariants were classified as \"gain of function\" \"neutral\" or \"loss of function\" based on whether they were within +/- 2 standard deviations of the mean score of synonymous variants (variants with wild type amino acid sequence). These categories are denoted by 1, 0, or -1 in the table respectively.",
+  "abstractText": "This study infers the activity of variants in Src kinases's catalytic domain by measuring their effects on yeast growth, and therefore phosphotransferase activity. The resulting dataset includes variants classified as gain of function, loss of function. or neutral.",
+  "shortDescription": "Amino acid scores for deep mutational scan of the Src kinase catalytic domain.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000041-a-1",
+  "numVariants": 3506,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "30956043",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A Combined Approach Reveals a Regulatory Mechanism Coupling Src's Kinase Activity, Localization, and Phosphotransferase-Independent Functions.",
+      "authors": [
+        {
+          "name": "Ahler, Ethan",
+          "primary": true
+        },
+        {
+          "name": "Register, Ames C",
+          "primary": false
+        },
+        {
+          "name": "Chakraborty, Sujata",
+          "primary": false
+        },
+        {
+          "name": "Fang, Linglan",
+          "primary": false
+        },
+        {
+          "name": "Dieter, Emily M",
+          "primary": false
+        },
+        {
+          "name": "Sitko, Katherine A",
+          "primary": false
+        },
+        {
+          "name": "Vidadala, Rama Subba Rao",
+          "primary": false
+        },
+        {
+          "name": "Trevillian, Bridget M",
+          "primary": false
+        },
+        {
+          "name": "Golkowski, Martin",
+          "primary": false
+        },
+        {
+          "name": "Gelman, Hannah",
+          "primary": false
+        },
+        {
+          "name": "Stephany, Jason J",
+          "primary": false
+        },
+        {
+          "name": "Rubin, Alan F",
+          "primary": false
+        },
+        {
+          "name": "Merritt, Ethan A",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Maly, Dustin J",
+          "primary": false
+        }
+      ],
+      "abstract": "Multiple layers of regulation modulate the activity and localization of protein kinases. However, many details of kinase regulation remain incompletely understood. Here, we apply saturation mutagenesis and a chemical genetic method for allosterically modulating kinase global conformation to Src kinase, providing insight into known regulatory mechanisms and revealing a previously undiscovered interaction between Src's SH4 and catalytic domains. Abrogation of this interaction increased phosphotransferase activity, promoted membrane association, and provoked phosphotransferase-independent alterations in cell morphology. Thus, Src's SH4 domain serves as an intramolecular regulator coupling catalytic activity, global conformation, and localization, as well as mediating a phosphotransferase-independent function. Sequence conservation suggests that the SH4 domain regulatory interaction exists in other Src-family kinases. Our combined approach's ability to reveal a regulatory mechanism in one of the best-studied kinases suggests that it could be applied broadly to provide insight into kinase structure, regulation, and function.",
+      "doi": "10.1016/j.molcel.2019.02.003",
+      "publicationYear": 2019,
+      "publicationJournal": "Mol Cell",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/30956043",
+      "referenceHtml": "Ahler E, <i>et al</i>. A Combined Approach Reveals a Regulatory Mechanism Coupling Src's Kinase Activity, Localization, and Phosphotransferase-Independent Functions. <i>Mol. Cell</i>. 2019; <b>74</b>:393-408.e20.",
+      "id": 19
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2019-08-08",
+  "creationDate": "2019-08-08",
+  "modificationDate": "2026-06-22",
+  "createdBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "Src catalytic domain",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "P12931",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/P12931"
+          },
+          "offset": 269,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 98,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "CTGCGGCTGGAGGTCAAGCTGGGCCAGGGCTGCTTTGGCGAGGTGTGGATGGGGACCTGGAACGGTACCACCAGGGTGGCCATCAAAACCCTGAAGCCTGGCACGATGTCTCCAGAGGCCTTCCTGCAGGAGGCCCAGGTCATGAAGAAGCTGAGGCATGAGAAGCTGGTGCAGTTGTATGCTGTGGTTTCAGAGGAGCCCATTTACATCGTCACGGAGTACATGAGCAAGGGGAGTTTGCTGGACTTTCTCAAGGGGGAGACAGGCAAGTACCTGCGGCTGCCTCAGCTGGTGGACATGGCTGCTCAGATCGCCTCAGGCATGGCGTACGTGGAGCGGATGAACTACGTCCACCGGGACCTTCGTGCAGCCAACATCCTGGTGGGAGAGAACCTGGTGTGCAAAGTGGCCGACTTTGGGCTGGCTCGGCTCATTGAAGACAATGAGTACACGGCGCGGCAAGGTGCCAAATTCCCCATCAAGTGGACGGCTCCAGAAGCTGCCCTCTATGGCCGCTTCACCATCAAGTCGGACGTGTGGTCCTTCGGGATCCTGCTGACTGAGCTCACCACAAAGGGACGGGTGCCCTACCCTGGGATGGTGAACCGCGAGGTGCTGGACCAGGTGGAGCGGGGCTACCGGATGCCCTGCCCGCCGGAGTGTCCCGAGTCCCTGCACGACCTCATGTGCCAGTGCTGGCGGAAGGAGCCTGAGGAGCGGCCCACCTTCGAGTACCTGCAGGCCTTCCTG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "SRC",
+      "uniprotIdFromMappedMetadata": "P12931"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "std",
+      "epsilon",
+      "activity_score"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:37397802-37403325&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&Src_00000041-a-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Deep mutational scan of Src CD",
+    "shortDescription": "Deep mutational scan of the Src kinase catalytic domain.",
+    "abstractText": "This study infers the activity of variants in Src kinases's catalytic domain by measuring their effects on yeast growth, and therefore phosphotransferase activity. The resulting dataset includes variants classified as gain of function, loss of function. or neutral.",
+    "methodText": "Variants in the Src catalytic domain were generated using NNK mutagenesis. Barcodes were associated with each variant and barcode-variant mapping was determined using subassembly. Variants were transformed into yeast on plasmids and the plasmid barcodes were sequenced at three time points determined by OD. Barcodes were sequenced on an Illumina NextSeq.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000041-a",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2019-08-08",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2019-08-08",
+    "experimentSetUrn": "urn:mavedb:00000041",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "30956043",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "A Combined Approach Reveals a Regulatory Mechanism Coupling Src's Kinase Activity, Localization, and Phosphotransferase-Independent Functions.",
+        "authors": [
+          {
+            "name": "Ahler, Ethan",
+            "primary": true
+          },
+          {
+            "name": "Register, Ames C",
+            "primary": false
+          },
+          {
+            "name": "Chakraborty, Sujata",
+            "primary": false
+          },
+          {
+            "name": "Fang, Linglan",
+            "primary": false
+          },
+          {
+            "name": "Dieter, Emily M",
+            "primary": false
+          },
+          {
+            "name": "Sitko, Katherine A",
+            "primary": false
+          },
+          {
+            "name": "Vidadala, Rama Subba Rao",
+            "primary": false
+          },
+          {
+            "name": "Trevillian, Bridget M",
+            "primary": false
+          },
+          {
+            "name": "Golkowski, Martin",
+            "primary": false
+          },
+          {
+            "name": "Gelman, Hannah",
+            "primary": false
+          },
+          {
+            "name": "Stephany, Jason J",
+            "primary": false
+          },
+          {
+            "name": "Rubin, Alan F",
+            "primary": false
+          },
+          {
+            "name": "Merritt, Ethan A",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Maly, Dustin J",
+            "primary": false
+          }
+        ],
+        "abstract": "Multiple layers of regulation modulate the activity and localization of protein kinases. However, many details of kinase regulation remain incompletely understood. Here, we apply saturation mutagenesis and a chemical genetic method for allosterically modulating kinase global conformation to Src kinase, providing insight into known regulatory mechanisms and revealing a previously undiscovered interaction between Src's SH4 and catalytic domains. Abrogation of this interaction increased phosphotransferase activity, promoted membrane association, and provoked phosphotransferase-independent alterations in cell morphology. Thus, Src's SH4 domain serves as an intramolecular regulator coupling catalytic activity, global conformation, and localization, as well as mediating a phosphotransferase-independent function. Sequence conservation suggests that the SH4 domain regulatory interaction exists in other Src-family kinases. Our combined approach's ability to reveal a regulatory mechanism in one of the best-studied kinases suggests that it could be applied broadly to provide insight into kinase structure, regulation, and function.",
+        "doi": "10.1016/j.molcel.2019.02.003",
+        "publicationYear": 2019,
+        "publicationJournal": "Mol Cell",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/30956043",
+        "referenceHtml": "Ahler E, <i>et al</i>. A Combined Approach Reveals a Regulatory Mechanism Coupling Src's Kinase Activity, Localization, and Phosphotransferase-Independent Functions. <i>Mol. Cell</i>. 2019; <b>74</b>:393-408.e20.",
+        "id": 19
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+      {
+        "identifier": "PRJNA464305",
+        "id": 8,
+        "recordType": "RawReadIdentifier",
+        "url": "http://www.ebi.ac.uk/ena/data/view/PRJNA464305"
+      }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000041-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

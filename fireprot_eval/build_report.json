@@ -1,0 +1,29 @@
+{
+  "input_rows": 2511,
+  "excluded_pdbs": [
+    "1QLP",
+    "1B5M",
+    "1IET"
+  ],
+  "excluded_input_rows": 50,
+  "eval_rows": 2427,
+  "genes": 80,
+  "variants_averaged": 34,
+  "max_replicate_spread": 2.1799999999999997,
+  "with_structure": 74,
+  "sequence_only": [
+    "FP_1WQ5",
+    "FP_1QGV",
+    "FP_1LS4_1AEP",
+    "FP_1QJP",
+    "FP_1THQ",
+    "FP_3HHR_1HGU"
+  ],
+  "sites_lacking_coords": {
+    "FP_3D2A_1ISP_3D2C": [
+      145,
+      163,
+      188
+    ]
+  }
+}

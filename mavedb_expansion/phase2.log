@@ -1,0 +1,200 @@
+164 score sets for 25 genes
+  PRKN                         urn:mavedb:00001281-a-1    abundance listed   9205 missense   9205
+  PRKN CDNA                    urn:mavedb:00001281-a-2    activity  listed   9176 missense   9176
+  PARKIN                       urn:mavedb:00001274-a-1    activity  listed   9632 missense   9212
+  PRKN                         urn:mavedb:00000114-a-1    abundance listed   9220 missense   9218
+  SOD1                         urn:mavedb:00001217-a-4    activity  listed   2910 missense   2776
+  SOD1                         urn:mavedb:00001217-a-3    abundance listed   2906 missense   2771
+  KRAS                         urn:mavedb:00000115-a-14   binding   listed   5949 missense    968
+  KRAS                         urn:mavedb:00000115-a-1    binding   listed   3553 missense   3342
+  KRAS                         urn:mavedb:00000115-a-4    binding   listed   3553 missense   3082
+  KRAS                         urn:mavedb:00000115-a-8    binding   listed   4970 missense    901
+  KRAS                         urn:mavedb:00000115-a-13   binding   listed   3361 missense    636
+  KRAS                         urn:mavedb:00000115-a-2    binding   listed   3553 missense   3264
+  KRAS                         urn:mavedb:00000115-a-26   binding   listed  12607 missense   1247
+  KRAS                         urn:mavedb:00000115-a-11   binding   listed   8666 missense   1159
+  KRAS                         urn:mavedb:00000115-a-10   binding   listed   4515 missense    803
+  KRAS                         urn:mavedb:00000115-a-9    binding   listed   8657 missense   1163
+  KRAS                         urn:mavedb:00000115-a-5    binding   listed   3553 missense   2983
+  KRAS                         urn:mavedb:00000115-a-12   binding   listed  14859 missense   1253
+  KRAS                         urn:mavedb:00000115-a-6    binding   listed   3553 missense   3301
+  KRAS                         urn:mavedb:00000115-a-3    binding   listed   3553 missense   2984
+  KRAS                         urn:mavedb:00000115-a-24   binding   listed   5163 missense    954
+  KRAS                         urn:mavedb:00000115-a-22   binding   listed  14044 missense   1252
+  KRAS                         urn:mavedb:00000115-a-21   binding   listed  13676 missense   1247
+  KRAS                         urn:mavedb:00000115-a-27   abundance listed   8912 missense   1183
+  KRAS                         urn:mavedb:00000115-a-20   binding   listed   5606 missense    972
+  KRAS                         urn:mavedb:00000115-a-25   binding   listed   7459 missense   1099
+  KRAS                         urn:mavedb:00000115-a-28   abundance listed   4695 missense    861
+  KRAS                         urn:mavedb:00000115-a-19   binding   listed   3351 missense    611
+  KRAS                         urn:mavedb:00000115-a-18   binding   listed  11096 missense   1240
+  KRAS                         urn:mavedb:00000115-a-23   abundance listed  13845 missense   1250
+  KRAS                         urn:mavedb:00000115-a-17   binding   listed   6893 missense   1047
+  KRAS                         urn:mavedb:00000115-a-16   binding   listed   3833 missense    714
+  KRAS                         urn:mavedb:00000115-a-15   binding   listed  12637 missense   1251
+  LDLR                         urn:mavedb:00001269-b-1    abundance listed  16796 missense  15811
+  LDLR                         urn:mavedb:00001269-a-1    activity  listed  17390 missense  16320
+  RAF1 RAF-LIKE RAS-BINDING DO urn:mavedb:00001002-a-1    abundance listed   1421 missense   1316
+  RAF                          urn:mavedb:00000061-e-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-f-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-g-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-a-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-h-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-b-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-c-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-i-1    binding   listed    298 missense    297
+  RAF                          urn:mavedb:00000061-d-1    binding   listed    298 missense    297
+  INSR                         urn:mavedb:00001239-a-5    activity  listed  19100 missense  14054
+  INSR                         urn:mavedb:00001239-a-3    binding   listed  19100 missense  14063
+  INSR                         urn:mavedb:00001239-a-2    binding   listed  19100 missense  13912
+  INSR                         urn:mavedb:00001239-a-1    activity  listed  19100 missense  14186
+  INSR                         urn:mavedb:00001239-a-7    abundance listed  19100 missense  14189
+  INSR                         urn:mavedb:00001239-a-4    activity  listed  19100 missense  14071
+  INSR                         urn:mavedb:00001239-a-6    binding   listed  19100 missense  13927
+  LCK                          urn:mavedb:00000151-0-1    activity  listed   2343 missense   1083
+  LCK SH3 DOMAIN               urn:mavedb:00000875-a-1    abundance listed   1161 missense   1131
+  FYN SH3 DOMAIN               urn:mavedb:00000116-0-1    activity  listed   1629 missense   1090
+  FYN SH3 DOMAIN               urn:mavedb:00000439-0-1    activity  listed   1659 missense   1116
+  FYN SH3 DOMAIN (E24S)        urn:mavedb:00000117-0-1    activity  listed   1276 missense   1099
+  FYN SH3 DOMAIN (F20A)        urn:mavedb:00000118-0-1    activity  listed   1278 missense   1099
+  FYN SH3 DOMAIN               urn:mavedb:00000823-a-1    abundance listed   1221 missense   1203
+  FYN SH3 DOMAIN (L7S)         urn:mavedb:00000119-0-1    activity  listed   1276 missense   1098
+  FYN SH3 DOMAIN (V55A)        urn:mavedb:00000120-0-1    activity  listed   1276 missense   1097
+  G6PD                         urn:mavedb:00001266-0-1    abundance listed   9504 missense   9069
+  G6PD                         urn:mavedb:00001266-b-1    abundance listed  10674 missense  10184
+  G6PD                         urn:mavedb:00001266-a-1    fitness   listed  10675 missense   8698
+  G6PD                         urn:mavedb:00001266-c-1    activity  listed   9145 missense   8709
+  SRC CATALYTIC DOMAIN         urn:mavedb:00000041-a-1    activity  listed   3506 missense   3506
+  SRC SH4 DOMAIN               urn:mavedb:00000041-b-1    activity  listed    360 missense    360
+  SRC SH3 DOMAIN               urn:mavedb:00001079-a-1    abundance listed   1141 missense   1004
+  GCK                          urn:mavedb:00000096-b-1    abundance listed   9201 missense   8822
+  GCK                          urn:mavedb:00000096-a-1    activity  listed   9362 missense   9003
+  ALPHA-SYNUCLEIN              urn:mavedb:00001249-a-1    fitness   listed   2800 missense   2725
+  ALPHA-SYNUCLEIN              urn:mavedb:00001249-a-3    fitness   listed   2800 missense   2731
+  ALPHA-SYNUCLEIN              urn:mavedb:00001249-a-2    fitness   listed   2800 missense   2733
+  ALPHA-SYNUCLEIN              urn:mavedb:00001249-a-4    fitness   listed   2800 missense   2643
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-k-1    abundance listed   2800 missense   2728
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-l-1    fitness   listed   2800 missense   2738
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-g-1    fitness   listed   2800 missense   2643
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-b-1    fitness   listed   2800 missense   1927
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-d-1    fitness   listed   2800 missense   2643
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-e-1    fitness   listed   2800 missense   1926
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-a-1    fitness   listed   2800 missense   2387
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-c-1    fitness   listed   2800 missense   2727
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-i-1    fitness   listed   2800 missense   2643
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-f-1    fitness   listed   2800 missense   2392
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-j-1    fitness   listed   2800 missense   2393
+  ALPHA-SYNUCLEIN              urn:mavedb:00000045-h-1    fitness   listed   2800 missense   2739
+  S505N MPL                    urn:mavedb:00000043-a-2    activity  listed   1966 missense    591
+  MPL                          urn:mavedb:00000043-a-1    fitness   listed   2415 missense    591
+  MPL                          urn:mavedb:00001214-j-1    abundance listed    978 missense    978
+  MPL                          urn:mavedb:00001214-c-1    binding   listed    972 missense    972
+  MPL                          urn:mavedb:00001214-d-2    binding   listed    976 missense    976
+  MPL                          urn:mavedb:00001214-h-1    binding   listed    970 missense    970
+  MPL                          urn:mavedb:00001214-p-1    binding   listed    970 missense    970
+  MPL                          urn:mavedb:00001214-i-1    binding   listed    978 missense    978
+  MPL                          urn:mavedb:00001214-l-2    binding   listed    970 missense    970
+  MPL                          urn:mavedb:00001214-f-2    binding   listed    969 missense    969
+  MPL                          urn:mavedb:00001214-g-1    binding   listed    959 missense    959
+  MPL                          urn:mavedb:00001214-o-1    binding   listed    948 missense    948
+  MPL                          urn:mavedb:00001214-n-1    binding   listed    961 missense    961
+  CD86                         urn:mavedb:00000046-a-3    fitness   listed   7635 missense    515
+  CD86                         urn:mavedb:00000046-a-1    abundance listed  32347 missense    538
+  CD86                         urn:mavedb:00000046-a-2    fitness   listed   4360 missense    492
+  TSC2                         urn:mavedb:00001267-0-3    activity  listed   9496 missense   8946
+  TSC2                         urn:mavedb:00001267-0-1    activity  listed   9253 missense   8891
+  TSC2 RAPGAP                  urn:mavedb:00001267-b-3    abundance listed   5731 missense   5415
+  TSC2 RAPGAP                  urn:mavedb:00001267-b-1    abundance listed   5648 missense   5409
+  CCR5                         urn:mavedb:00000047-b-1    binding   listed   7020 missense   6894
+  CCR5                         urn:mavedb:00000047-c-1    binding   listed   7020 missense   6981
+  CCR5                         urn:mavedb:00000047-a-1    abundance listed   7020 missense   6988
+  PTEN                         urn:mavedb:00000102-0-1    abundance listed   5477 missense   5477
+  PTEN                         urn:mavedb:00000054-a-1    activity  listed   8681 missense   7635
+  PTEN                         urn:mavedb:00000013-a-1    abundance listed   4409 missense   4252
+  PTEN                         urn:mavedb:00000101-a-1    abundance listed   4514 missense   4514
+  CXCR4                        urn:mavedb:00000048-c-1    binding   listed   7021 missense   6995
+  CXCR4                        urn:mavedb:00000048-b-1    binding   listed   7021 missense   6995
+  CXCR4                        urn:mavedb:00000048-a-1    abundance listed   7021 missense   6995
+  DLG4 PDZ DOMAIN              urn:mavedb:00000768-a-1    abundance listed   1761 missense   1760
+  DLG4 PDZ DOMAIN              urn:mavedb:00000769-a-1    abundance listed   1881 missense   1868
+  DLG4 PDZ DOMAIN              urn:mavedb:00000770-a-1    abundance listed   1801 missense   1768
+  PSD95 PDZ3                   urn:mavedb:00000053-a-1    fitness   listed 648022 missense      0
+  PSD95 PDZ3                   urn:mavedb:00000053-a-2    fitness   listed   1235 missense      0
+  BTK                          urn:mavedb:00000183-0-1    activity  listed   2005 missense      0
+  BTK SH3 DOMAIN               urn:mavedb:00000710-a-1    abundance listed   1181 missense      0
+  TARDBP TAR DNA-BINDING PROTE urn:mavedb:00001090-a-1    abundance listed   1441 missense      0
+  TARDBP                       urn:mavedb:00000060-a-1    fitness   listed    704 missense    704
+  TARDBP                       urn:mavedb:00000060-a-2    fitness   listed    714 missense    714
+  PKN1                         urn:mavedb:00000206-0-1    activity  listed   1559 missense   1342
+  PKN1 HR1 RHO-BINDING DOMAIN  urn:mavedb:00000961-a-1    abundance listed   1221 missense   1178
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001287-a-1    activity  listed   3523 missense   3523
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001288-a-1    activity  listed   3523 missense   3523
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001289-a-1    activity  listed   3526 missense   3526
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001290-a-1    activity  listed   3524 missense   3524
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001291-a-1    activity  listed   3525 missense   3525
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001292-a-1    activity  listed   3529 missense   3529
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001293-a-1    activity  listed   3529 missense   3529
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001294-a-1    activity  listed   3511 missense   3511
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001295-a-1    activity  listed   3523 missense   3523
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001296-a-1    activity  listed   3528 missense   3528
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001297-a-1    activity  listed   3524 missense   3524
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001298-a-1    activity  listed   3524 missense   3524
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001299-a-1    abundance listed   3533 missense   3533
+  ABSCISIC ACID RECEPTOR PYL1  urn:mavedb:00001300-a-1    abundance listed   3533 missense   3533
+  NUDT15                       urn:mavedb:00000055-0-1    abundance listed   3015 missense   2844
+  NUDT15                       urn:mavedb:00000055-b-1    activity  listed   3100 missense   2935
+  NUDT15                       urn:mavedb:00000055-a-1    abundance listed   3100 missense   2923
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-c-1    fitness   listed    558 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-c-3    fitness   listed   6232 missense   6232
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-b-1    fitness   listed   6231 missense   6231
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-b-3    fitness   listed    558 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-a-3    fitness   listed   6239 missense   6239
+  SARS-COV-2 PLPRO             urn:mavedb:00001248-a-1    fitness   listed    563 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-a-2    activity  listed    570 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-f-2    activity  listed   6243 missense   6242
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-f-1    activity  listed    554 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-c-2    activity  listed    550 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-e-1    activity  listed    575 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-d-3    abundance listed   6045 missense   6044
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-b-1    activity  listed    577 missense      0
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-d-1    abundance listed   5515 missense   5514
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-e-2    activity  listed   6250 missense   6249
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-c-1    activity  listed   6236 missense   6235
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-b-2    activity  listed   6250 missense   6249
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-a-1    activity  listed   6247 missense   6246
+  SARS-COV-2 PLPRO             urn:mavedb:00000672-d-4    abundance listed    479 missense      0
+
+Best shared missense per gene:
+                                                      best_shared  pairs  same_seqlen
+gene                                                                                 
+LDLR                                                        15391      1         True
+INSR                                                        14060     15         True
+PARKIN                                                       9212      1        False
+PRKN                                                         9169      2         True
+PRKN CDNA                                                    9112      1        False
+G6PD                                                         8698      5         True
+GCK                                                          8670      1         True
+CXCR4                                                        6995      2         True
+CCR5                                                         6981      2         True
+SARS-COV-2 PLPRO                                             6239    108         True
+PTEN                                                         5026      3         True
+ABSCISIC ACID RECEPTOR PYL1                                  3529     24         True
+NUDT15                                                       2844      2         True
+ALPHA-SYNUCLEIN                                              2728     15         True
+SOD1                                                         2611      1         True
+KRAS                                                         1250     72         True
+LCK                                                          1073      1        False
+MPL                                                           976     21         True
+S505N MPL                                                     571     12         True
+CD86                                                          515      2         True
+FYN SH3 DOMAIN (F20A)                                          76      1        False
+FYN SH3 DOMAIN (E24S)                                          76      1        False
+FYN SH3 DOMAIN                                                 76      4        False
+PKN1                                                           37      1        False
+SRC SH4 DOMAIN                                                 32      1        False
+SRC CATALYTIC DOMAIN                                           25      1        False
+RAF1 RAF-LIKE RAS-BINDING DOMAIN                                6      9        False
+TARDBP TAR DNA-BINDING PROTEIN 43, N-TERMINAL DOMAIN            0      2        False
+DLG4 PDZ DOMAIN                                                 0      6        False
+BTK                                                             0      1        False
+TSC2                                                            0      4        False

@@ -1,0 +1,118 @@
+539 sets, 61 genes
+O14776   TCERG1 FF domain               sets=23 mapped_variants=16777
+O15259   NPHP1                          sets=10 mapped_variants=11077
+O43186   CRX Homeobox domain            sets=2 mapped_variants=6292
+O60260   PRKN                           sets=4 mapped_variants=35015
+O75400   PRPF40A                        sets=8 mapped_variants=8422
+O94993   SOX30                          sets=4 mapped_variants=4405
+O95155   UBE4B                          sets=4 mapped_variants=5118
+P00441   SOD1                           sets=2 mapped_variants=5287
+P00740   F9                             sets=8 mapped_variants=51604
+P01116   KRAS                           sets=28 mapped_variants=39439
+P01130   LDLR promoter                  sets=5 mapped_variants=37270
+P02417   rplI                           sets=19 mapped_variants=13266
+P02640   VIL1                           sets=14 mapped_variants=14626
+P02829   HSP90                          sets=9 mapped_variants=5673
+P02943   LamB                           sets=2 mapped_variants=2083
+P04049   RAF1 Raf-like Ras-binding doma sets=10 mapped_variants=3923
+P04637   TP53                           sets=19 mapped_variants=68475
+P05067   APP                            sets=3 mapped_variants=843
+P06213   INSR                           sets=7 mapped_variants=98402
+P06239   LCK                            sets=4 mapped_variants=4324
+P06241   FYN SH3 domain                 sets=19 mapped_variants=20660
+P07751   SPTAN1                         sets=58 mapped_variants=41068
+P0A9X9   cspA Cold-shock protein, DNA-b sets=13 mapped_variants=16506
+P0CG63   Ubiquitin                      sets=4 mapped_variants=2914
+P11413   G6PD                           sets=5 mapped_variants=34690
+P11961   pdhC                           sets=13 mapped_variants=10119
+P12931   Src catalytic domain           sets=3 mapped_variants=4677
+P17480   UBTF                           sets=4 mapped_variants=3958
+P20936   RASA1                          sets=4 mapped_variants=4569
+P29597   TYK2                           sets=11 mapped_variants=247858
+P32081   cspB Cold-shock protein, DNA-b sets=10 mapped_variants=12549
+P35557   GCK                            sets=3 mapped_variants=24549
+P37840   alpha-synuclein                sets=17 mapped_variants=43314
+P38398   BRCA1 RING domain              sets=10 mapped_variants=18175
+P40040   THO1                           sets=10 mapped_variants=8862
+P40238   MPL                            sets=30 mapped_variants=13627
+P42081   CD86                           sets=3 mapped_variants=1467
+P46934   NEDD4                          sets=4 mapped_variants=3093
+P46937   YAP1 WW domain                 sets=5 mapped_variants=3367
+P49815   TSC2                           sets=7 mapped_variants=35802
+P51587   BRCA2                          sets=7 mapped_variants=462
+P51681   CCR5                           sets=3 mapped_variants=2033
+P60484   PTEN                           sets=4 mapped_variants=20995
+P61073   CXCR4                          sets=3 mapped_variants=1593
+P78352   DLG4 PDZ domain                sets=4 mapped_variants=5185
+Q06187   BTK                            sets=4 mapped_variants=4413
+Q13148   TARDBP TAR DNA-binding protein sets=3 mapped_variants=1364
+Q13501   SQSTM1                         sets=5 mapped_variants=4498
+Q13526   PIN1                           sets=19 mapped_variants=8907
+Q13813   SPTAN1 (A10S)                  sets=13 mapped_variants=10531
+Q15743   GPR68                          sets=3 mapped_variants=21264
+Q16512   PKN1                           sets=4 mapped_variants=4975
+Q7Z6Z7   HUWE1                          sets=4 mapped_variants=3003
+Q8VZS8   Abscisic acid receptor PYL1    sets=14 mapped_variants=46926
+Q96J02   ITCH                           sets=5 mapped_variants=3747
+Q9BUJ2   HNRNPUL1                       sets=4 mapped_variants=2780
+Q9H0M0   WWP1                           sets=4 mapped_variants=3070
+Q9H161   ALX4                           sets=4 mapped_variants=3740
+Q9NV35   NUDT15                         sets=3 mapped_variants=8700
+Q9ULT8   HECTD1                         sets=4 mapped_variants=5004
+Q9Y5K6   CD2AP (pross9)                 sets=6 mapped_variants=3225
+
+DONE phase3: genes with >=1 pair sharing >=8 substitutions: 52
+                                                         gene  best_shared  pairs                       tasks
+uniprot                                                                                                      
+P29597                                                   TYK2        22513     10                   abundance
+P01130                                                   LDLR        14617      2          abundance/activity
+P06213                                                   INSR        14060     15  abundance/activity/binding
+O60260                                                 Parkin         8750      4          abundance/activity
+P35557                                                    GCK         8255      3          abundance/activity
+P11413                                                   G6PD         8217      5           abundance/fitness
+P04637                                            TP53 (P72R)         7448     59    activity/binding/fitness
+Q15743                                                  GPR68         7065      2                   abundance
+P49815                                                   TSC2         5415     14          activity/stability
+P60484                                                   PTEN         4839      3          abundance/activity
+P38398                                      BRCA1 RING domain         3428     10            activity/binding
+Q8VZS8                            Abscisic acid receptor PYL1         3355     24                    activity
+P01116                                                   KRAS         2994     84           abundance/binding
+Q9NV35                                                 NUDT15         2844      3          activity/stability
+P37840                                        alpha-synuclein         2728     31   abundance/binding/fitness
+P00441                                                   SOD1         2495      1                    activity
+P0A9X9            cspA Cold-shock protein, DNA-binding domain         1266     12                   abundance
+P32081            cspB Cold-shock protein, DNA-binding domain         1256      9                   abundance
+P02640                                                   VIL1         1234     24                   stability
+P0CG63                                              Ubiquitin         1176      3                     binding
+P20936                                       RASA1 SH3 domain         1136      3         abundance/stability
+O95155                                                  UBE4B         1129      3                   stability
+Q16512                            PKN1 HR1 rho-binding domain         1113      3         abundance/stability
+O15259                                                  NPHP1         1103      9         abundance/stability
+Q06187                                         BTK SH3 domain         1088      3         abundance/stability
+P06241                                         FYN SH3 domain         1080     18         abundance/stability
+P07751                                      SPTAN1 SH3 domain         1073     42         abundance/stability
+P06239                                         LCK SH3 domain         1073      3         abundance/stability
+O94993                   SOX30 High mobility group box domain          992      3         abundance/stability
+O43186                                    CRX Homeobox domain          974      1                   abundance
+P40238                                                    MPL          927     71  abundance/activity/fitness
+O75400                                                PRPF40A          907      3         abundance/stability
+Q9H161                                   ALX4 Homeobox domain          887      3         abundance/stability
+Q13501                      SQSTM1 Sequestosome-1, UBA domain          845      3         abundance/stability
+P40040                                                   THO1          812      6         abundance/stability
+P02417                                                   rplI          797     15         abundance/stability
+P11961                 pdhC Peripheral subunit-binding domain          791     12         abundance/stability
+P46934                                                  NEDD4          745      3                   stability
+Q7Z6Z7                                                  HUWE1          738      3                   stability
+P51681                                                   CCR5          678      2                     binding
+Q9BUJ2                                    HNRNPUL1 SAP domain          645      3         abundance/stability
+Q13526                                                   PIN1          633     12         abundance/stability
+Q96J02                                                   ITCH          594      3                   stability
+P61073                                                  CXCR4          531      2                     binding
+P46937                                         YAP1 WW domain          511      4                   abundance
+P42081                                                   CD86          489      2           abundance/fitness
+P04049                       RAF1 Raf-like Ras-binding domain          234      9                   abundance
+P02943                                                   LamB          213      1                     fitness
+P02829                                                  HSP90          171      7                     fitness
+P05067                                                    APP           87      1                     binding
+P78352                                        DLG4 PDZ domain           57      1                   abundance
+Q13148   TARDBP TAR DNA-binding protein 43, N-terminal domain           31      2                   abundance

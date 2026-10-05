@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.7554/eLife.54895\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33084570",
+        "source": "MED",
+        "pmid": "33084570",
+        "pmcid": "PMC7707821",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7707821"
+          ]
+        },
+        "doi": "10.7554/elife.54895",
+        "title": "Structural and functional characterization of G protein-coupled receptors with deep mutational scanning.",
+        "authorString": "Jones EM, Lubock NB, Venkatakrishnan AJ, Wang J, Tseng AM, Paggi JM, Latorraca NR, Cancilla D, Satyadi M, Davis JE, Babu MM, Dror RO, Kosuri S.",
+        "journalTitle": "Elife",
+        "journalVolume": "9",
+        "pubYear": "2020",
+        "journalIssn": "2050-084x",
+        "pageInfo": "e54895",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 161,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "gen",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2020-10-21",
+        "firstIndexDate": "2020-10-22"
+      }
+    ]
+  }
+}

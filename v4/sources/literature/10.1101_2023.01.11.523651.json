@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2023.01.11.523651\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR597053",
+        "source": "PPR",
+        "doi": "10.1101/2023.01.11.523651",
+        "title": "Predicting the functional effect of compound heterozygous genotypes from large scale variant effect maps",
+        "authorString": "Xie MJ, Cromie GA, Owens K, Timour MS, Tang M, Kutz JN, El-Hattab AW, McLaughlin RN, Dudley AM.",
+        "pubYear": "2023",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2023
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2023-01-15",
+        "firstIndexDate": "2023-01-24"
+      }
+    ]
+  }
+}

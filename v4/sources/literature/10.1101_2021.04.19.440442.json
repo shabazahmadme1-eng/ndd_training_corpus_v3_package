@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2021.04.19.440442\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR313919",
+        "source": "PPR",
+        "doi": "10.1101/2021.04.19.440442",
+        "title": "Deep Mutagenesis of a Transporter for Uptake of a Non-Native Substrate Identifies Conformationally Dynamic Regions",
+        "authorString": "Ellis HJ, Chan M, Selvam B, Walter E, Devlin CA, Szymanski SK, Henry LK, Shukla D, Procko E.",
+        "pubYear": "2021",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2021
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-04-19",
+        "firstIndexDate": "2021-04-21"
+      }
+    ]
+  }
+}

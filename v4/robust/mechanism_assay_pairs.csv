@@ -1,0 +1,12 @@
+gene,assay_a,assay_b,task_a,task_b,shared_variants,abundance_anchored
+PTEN,PTEN::PTEN_HUMAN_Matreyek_2021,PTEN::PTEN_HUMAN_Mighell_2018,abundance,activity,4839,True
+KRAS,KRAS::RASK_HUMAN_Weng_2022_abundance,KRAS::RASK_HUMAN_Weng_2022_binding-DARPin_K55,abundance,binding,2948,True
+SLC22A1,SLC22A1::S22A1_HUMAN_Yee_2023_abundance,SLC22A1::S22A1_HUMAN_Yee_2023_activity,abundance,activity,9715,True
+GCK,GCK::HXK4_HUMAN_Gersing_2022_activity,GCK::HXK4_HUMAN_Gersing_2023_abundance,fitness,abundance,8255,True
+KCNJ2,KCNJ2::KCNJ2_MOUSE_Coyote-Maestas_2022_function,KCNJ2::KCNJ2_MOUSE_Coyote-Maestas_2022_surface,activity,abundance,6789,True
+CYP2C9,CYP2C9::CP2C9_HUMAN_Amorosi_2021_abundance,CYP2C9::CP2C9_HUMAN_Amorosi_2021_activity,abundance,binding,4421,True
+SRC,SRC::SRC_HUMAN_Ahler_2019,SRC::SRC_HUMAN_Nguyen_2022,activity,fitness,3366,False
+SRC,SRC::SRC_HUMAN_Chakraborty_2023_binding-DAS_25uM,SRC::SRC_HUMAN_Nguyen_2022,activity,fitness,3356,False
+HLA-A,HLA-A::Q53Z42_HUMAN_McShan_2019_binding-TAPBPR,HLA-A::Q53Z42_HUMAN_McShan_2019_expression,binding,abundance,3344,True
+KCNE1,KCNE1::KCNE1_HUMAN_Muhammad_2023_expression,KCNE1::KCNE1_HUMAN_Muhammad_2023_function,abundance,activity,2312,True
+VKORC1,VKORC1::VKOR1_HUMAN_Chiasson_2020_abundance,VKORC1::VKOR1_HUMAN_Chiasson_2020_activity,abundance,activity,692,True

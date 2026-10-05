@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.hrthm.2020.05.041\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32522694",
+        "source": "MED",
+        "pmid": "32522694",
+        "pmcid": "PMC7704534",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7704534"
+          ]
+        },
+        "doi": "10.1016/j.hrthm.2020.05.041",
+        "title": "High-throughput discovery of trafficking-deficient variants in the cardiac potassium channel K<sub>V</sub>11.1.",
+        "authorString": "Kozek KA, Glazer AM, Ng CA, Blackwell D, Egly CL, Vanags LR, Blair M, Mitchell D, Matreyek KA, Fowler DM, Knollmann BC, Vandenberg JI, Roden DM, Kroncke BM.",
+        "journalTitle": "Heart Rhythm",
+        "issue": "12",
+        "journalVolume": "17",
+        "pubYear": "2020",
+        "journalIssn": "1547-5271; 1556-3871; ",
+        "pageInfo": "2180-2189",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 60,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-06-06",
+        "firstIndexDate": "2020-06-12"
+      }
+    ]
+  }
+}

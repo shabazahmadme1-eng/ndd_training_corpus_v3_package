@@ -1,0 +1,206 @@
+{
+  "title": "RAF variant selected after 2h",
+  "methodText": "Samples are collected after 2h and sequenced by Illumina. The counts for each variant is first added by 1, then divided by total sequence counts at this time point to calculate variant frequency. The functional score equals the division of a variant frequency at this time point and its frequency in initial library. Further normalizing the functional scores by wild type scores will give the relative enrichment values. The score data includes scores from three replicates which are suffixed by: _rep1, _rep2 & _rep3. The final score is the median of them.",
+  "abstractText": "The authors generated a library of RAF variant and use the PACS system to test KRAS4b/RAF protein-protein interaction (PPI). The experimental data revealed positions along the binding interface as well as which substitutions are tolerated at each position.",
+  "shortDescription": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000061-a-1",
+  "numVariants": 298,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [
+    {
+      "identifier": "10.1021/acschembio.9b00669",
+      "id": 7,
+      "recordType": "DoiIdentifier",
+      "url": "https://doi.org/10.1021/acschembio.9b00669"
+    }
+  ],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "31808666",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A Phage-Assisted Continuous Selection Approach for Deep Mutational Scanning of Protein-Protein Interactions.",
+      "authors": [
+        {
+          "name": "Zinkus-Boltz, Julia",
+          "primary": true
+        },
+        {
+          "name": "DeValk, Craig",
+          "primary": false
+        },
+        {
+          "name": "Dickinson, Bryan C",
+          "primary": false
+        }
+      ],
+      "abstract": "Protein-protein interactions (PPIs) are critical for organizing molecules in a cell and mediating signaling pathways. Dysregulation of PPIs is often a key driver of disease. To better understand the biophysical basis of such disease processes-and to potentially target them-it is critical to understand the molecular determinants of PPIs. Deep mutational scanning (DMS) facilitates the acquisition of large amounts of biochemical data by coupling selection with high throughput sequencing (HTS). The challenging and labor-intensive design and optimization of a relevant selection platform for DMS, however, limits the use of powerful directed evolution and selection approaches. To address this limitation, we designed a versatile new phage-assisted continuous selection (PACS) system using our previously reported proximity-dependent split RNA polymerase (RNAP) biosensors, with the aim of greatly simplifying and streamlining the design of a new selection platform for PPIs. After characterization and validation using the model KRAS/RAF PPI, we generated a library of RAF variants and subjected them to PACS and DMS. Our HTS data revealed positions along the binding interface that are both tolerant and intolerant to mutations, as well as which substitutions are tolerated at each position. Critically, the \"functional scores\" obtained from enrichment data through continuous selection for individual variants correlated with ",
+      "doi": "10.1021/acschembio.9b00669",
+      "publicationYear": 2019,
+      "publicationJournal": "ACS Chem Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/31808666",
+      "referenceHtml": "Zinkus-Boltz J, <i>et al</i>. A Phage-Assisted Continuous Selection Approach for Deep Mutational Scanning of Protein-Protein Interactions. <i>ACS Chem. Biol</i>. 2019; <b>14</b>:2757-2767.",
+      "id": 27
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2021-04-14",
+  "creationDate": "2020-12-03",
+  "modificationDate": "2026-07-07",
+  "createdBy": {
+    "orcidId": "0000-0003-2449-7034",
+    "firstName": "Yunfan",
+    "lastName": "Fu",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "RAF",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "P04049",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/P04049"
+          },
+          "offset": 51,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 164,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "TCTAAGACAAGCAACACTATCCGTGTTTTCTTGCCGAACAAGCAAAGAACAGTGGTCAATGTGCGAAATGGAATGAGCTTGCATGACTGCCTTATGAAAGCACTCAAGGTGAGGGGC",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "RAF1",
+      "uniprotIdFromMappedMetadata": "P04049"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "score_rep1",
+      "score_rep2",
+      "score_rep3"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr3:12611999-12618568&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&RAF_00000061-a-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "RAF variant selected after 2h",
+    "shortDescription": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+    "abstractText": "The authors generated a library of RAF variant and use the PACS system to test KRAS4b/RAF protein-protein interaction (PPI). The experimental data revealed positions along the binding interface as well as which substitutions are tolerated at each position.",
+    "methodText": "A library of RAF variants is generated by introducing mutations into the RAF gene using error prone PCR. The library was introduced into a PACS system. In this system, bacteriophages express mutated RAF proteins and bacteria express KRAS proteins. The KRAS and RAF proteins are engineered and will induce the production of gIII when they are binded which is essential for the replication of phages. The enrichment of RAF mutations are determined at 2h by Illumina sequencing.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000061-a",
+    "createdBy": {
+      "orcidId": "0000-0003-2449-7034",
+      "firstName": "Yunfan",
+      "lastName": "Fu",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2020-12-03",
+    "modificationDate": "2021-04-14",
+    "publishedDate": "2021-04-14",
+    "experimentSetUrn": "urn:mavedb:00000061",
+    "doiIdentifiers": [
+      {
+        "identifier": "10.1021/acschembio.9b00669",
+        "id": 7,
+        "recordType": "DoiIdentifier",
+        "url": "https://doi.org/10.1021/acschembio.9b00669"
+      }
+    ],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "31808666",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "A Phage-Assisted Continuous Selection Approach for Deep Mutational Scanning of Protein-Protein Interactions.",
+        "authors": [
+          {
+            "name": "Zinkus-Boltz, Julia",
+            "primary": true
+          },
+          {
+            "name": "DeValk, Craig",
+            "primary": false
+          },
+          {
+            "name": "Dickinson, Bryan C",
+            "primary": false
+          }
+        ],
+        "abstract": "Protein-protein interactions (PPIs) are critical for organizing molecules in a cell and mediating signaling pathways. Dysregulation of PPIs is often a key driver of disease. To better understand the biophysical basis of such disease processes-and to potentially target them-it is critical to understand the molecular determinants of PPIs. Deep mutational scanning (DMS) facilitates the acquisition of large amounts of biochemical data by coupling selection with high throughput sequencing (HTS). The challenging and labor-intensive design and optimization of a relevant selection platform for DMS, however, limits the use of powerful directed evolution and selection approaches. To address this limitation, we designed a versatile new phage-assisted continuous selection (PACS) system using our previously reported proximity-dependent split RNA polymerase (RNAP) biosensors, with the aim of greatly simplifying and streamlining the design of a new selection platform for PPIs. After characterization and validation using the model KRAS/RAF PPI, we generated a library of RAF variants and subjected them to PACS and DMS. Our HTS data revealed positions along the binding interface that are both tolerant and intolerant to mutations, as well as which substitutions are tolerated at each position. Critically, the \"functional scores\" obtained from enrichment data through continuous selection for individual variants correlated with ",
+        "doi": "10.1021/acschembio.9b00669",
+        "publicationYear": 2019,
+        "publicationJournal": "ACS Chem Biol",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/31808666",
+        "referenceHtml": "Zinkus-Boltz J, <i>et al</i>. A Phage-Assisted Continuous Selection Approach for Deep Mutational Scanning of Protein-Protein Interactions. <i>ACS Chem. Biol</i>. 2019; <b>14</b>:2757-2767.",
+        "id": 27
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000061-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

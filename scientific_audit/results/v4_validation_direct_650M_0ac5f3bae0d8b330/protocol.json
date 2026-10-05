@@ -1,0 +1,45 @@
+{
+  "code_and_resources_sha256": "53ede5db1e9fd8831535712ccefb7b9b56902340bcd6cee95fca045698ce4cbb",
+  "corpus_sha256": "a8976abd8c776babe6fc31d6b501d1e152d4153424a64d923beeeafc1ab2b641",
+  "split_sha256": "b2de9129e3e24b5882d1fc6b1e9a8598b5cbdcbda2e17158865002d6a43b3e98",
+  "metadata_sha256": "615352bd52d644602932609e4aeb436bf0705709e71c5483f3a5920aca082b6c",
+  "config": {
+    "model": "mipo",
+    "hidden": 128,
+    "mechanisms": 8,
+    "field_layers": 3,
+    "sequence_layers": 2,
+    "anchors": 16,
+    "window_radius": 25,
+    "max_nodes": 256,
+    "neighbors": 16,
+    "max_conformers": 4,
+    "structure": true,
+    "global_kernel": true,
+    "chemistry": true,
+    "use_llr": true,
+    "require_llr": true,
+    "dropout": 0.1,
+    "modality_dropout": 0.1,
+    "batch_size": 8,
+    "grad_accum": 4,
+    "steps_per_epoch": 3000,
+    "epochs": 20,
+    "lr": 0.0003,
+    "seed": 42,
+    "ranking_weight": 0.2,
+    "patience": 6,
+    "amp": true,
+    "selection_metric": "macro_gene_spearman",
+    "min_validation_genes": 5
+  },
+  "model_size": "650M",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "folds": [
+    83
+  ]
+}

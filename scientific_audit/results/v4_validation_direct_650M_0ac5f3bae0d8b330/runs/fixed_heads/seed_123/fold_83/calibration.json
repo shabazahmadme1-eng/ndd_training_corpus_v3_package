@@ -1,0 +1,27 @@
+{
+  "alpha": 0.1,
+  "method": "empirical_split_normalized_residual",
+  "tasks": {
+    "activity": {
+      "q": 3.171048879623413,
+      "rows": 3134,
+      "genes": 1
+    },
+    "consensus": {
+      "q": 1.3062793016433716,
+      "rows": 1915,
+      "genes": 1
+    },
+    "fitness": {
+      "q": 1.6438568830490112,
+      "rows": 1914,
+      "genes": 1
+    },
+    "stability": {
+      "q": 1.6919989585876465,
+      "rows": 1168,
+      "genes": 1
+    }
+  },
+  "limitation": "Variant exchangeability across new genes is not assured; these are empirical intervals, not guaranteed gene-OOD coverage."
+}

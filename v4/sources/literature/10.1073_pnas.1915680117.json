@@ -1,0 +1,57 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1073/pnas.1915680117\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32094176",
+        "source": "MED",
+        "pmid": "32094176",
+        "pmcid": "PMC7071893",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7071893"
+          ]
+        },
+        "doi": "10.1073/pnas.1915680117",
+        "title": "Massively parallel variant characterization identifies <i>NUDT15</i> alleles associated with thiopurine toxicity.",
+        "authorString": "Suiter CC, Moriyama T, Matreyek KA, Yang W, Scaletti ER, Nishii R, Yang W, Hoshitsuki K, Singh M, Trehan A, Parish C, Smith C, Li L, Bhojwani D, Yuen LYP, Li CK, Li CH, Yang YL, Walker GJ, Goodhand JR, Kennedy NA, Klussmann FA, Bhatia S, Relling MV, Kato M, Hori H, Bhatia P, Ahmad T, Yeoh AEJ, Stenmark P, Fowler DM, Yang JJ.",
+        "journalTitle": "Proc Natl Acad Sci U S A",
+        "issue": "10",
+        "journalVolume": "117",
+        "pubYear": "2020",
+        "journalIssn": "0027-8424; 1091-6490; ",
+        "pageInfo": "5394-5401",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 123,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-02-24",
+        "firstIndexDate": "2020-02-26"
+      }
+    ]
+  }
+}

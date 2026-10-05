@@ -1,0 +1,39 @@
+{
+  "macro_gene_spearman": 0.5961168592794223,
+  "genes": 3,
+  "genes_with_defined_spearman": 3,
+  "assays": 7,
+  "unsupported_task_rows": 0,
+  "metric_units": "training_task_transformed_score",
+  "per_gene": {
+    "OTC": 0.44076044338964326,
+    "UBTF": 0.6737408425476095,
+    "YAP1": 0.6738492919010143
+  },
+  "per_task": {
+    "activity": {
+      "macro_gene_spearman": 0.5854663322477163,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 1.0,
+      "macro_gene_gaussian_nll": 0.8312309522002005
+    },
+    "binding": {
+      "macro_gene_spearman": 0.662174825748859,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 0.8922651933701657,
+      "macro_gene_gaussian_nll": 1.588650408218721
+    },
+    "consensus": {
+      "macro_gene_spearman": 0.29605455453157026,
+      "genes": 1,
+      "macro_gene_coverage_90_gaussian": 1.0,
+      "macro_gene_gaussian_nll": 0.3625180974624645
+    },
+    "stability": {
+      "macro_gene_spearman": 0.6757408115830044,
+      "genes": 2,
+      "macro_gene_coverage_90_gaussian": 0.9590438259540865,
+      "macro_gene_gaussian_nll": 0.8273894592629388
+    }
+  }
+}

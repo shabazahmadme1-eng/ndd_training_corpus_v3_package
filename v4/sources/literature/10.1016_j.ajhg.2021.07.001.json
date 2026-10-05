@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.ajhg.2021.07.001\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34314704",
+        "source": "MED",
+        "pmid": "34314704",
+        "pmcid": "PMC8456167",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8456167"
+          ]
+        },
+        "doi": "10.1016/j.ajhg.2021.07.001",
+        "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+        "authorString": "Amorosi CJ, Chiasson MA, McDonald MG, Wong LH, Sitko KA, Boyle G, Kowalski JP, Rettie AE, Fowler DM, Dunham MJ.",
+        "journalTitle": "Am J Hum Genet",
+        "issue": "9",
+        "journalVolume": "108",
+        "pubYear": "2021",
+        "journalIssn": "0002-9297; 1537-6605; ",
+        "pageInfo": "1735-1751",
+        "pubType": "research support, non-u.s. gov't; research-article; validation study; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 122,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "uniprot",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2021-07-26",
+        "firstIndexDate": "2021-07-28"
+      }
+    ]
+  }
+}

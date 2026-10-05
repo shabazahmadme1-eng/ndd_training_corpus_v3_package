@@ -1,0 +1,38 @@
+{
+ "gene": "G6PD",
+ "uniprot": "P11413",
+ "role": "contrast",
+ "shared_missense": 8217,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00001266-b-1",
+   "title": "G6PD VAMP-seq Scores",
+   "license": "CC0",
+   "n_variants": 10674,
+   "heuristic_task": "abundance",
+   "mapped_missense": 9676,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 515,
+   "experiment_urn": "urn:mavedb:00001266-b",
+   "experiment_title": "G6PD VAMP-seq",
+   "experiment_method": "The variant library was ordered from Twist Biosciences and assembled into a plasmid along with the variant barcode. These plasmids were transfected into HEK293T cells containing a Bxb1 Tet-on landing pad for stable integration. Cells were sorted using a BD Aria III FACS machine and barcodes from each bin were sequenced using an Illumina NextSeq 2000. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara. This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence in G6PD. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+   "published": "2026-02-09"
+  },
+  {
+   "urn": "urn:mavedb:00001266-c-1",
+   "title": "G6PD Yeast Growth (Control) Scores",
+   "license": "CC0",
+   "n_variants": 9145,
+   "heuristic_task": "activity",
+   "mapped_missense": 8227,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 516,
+   "experiment_urn": "urn:mavedb:00001266-c",
+   "experiment_title": "G6PD Yeast Growth (Control)",
+   "experiment_method": "A Saccharomyces cerevisiae strain with a deletion of ZWF1, the yeast homolog for G6PD, were transformed with a barcoded plasmid library containing human G6PD variants. The variant library was ordered from Twist Biosciences. Continuous culture turbidostats were used to grow the yeast in control medium with methionine added. Variant barcodes were sequenced from samples taken at ten time points over 72 hours. Barcodes were sequenced using an Illumina NextSeq 550. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara. This is a growth-based assay for G6PD function in Saccharomyces cerevisiae using a continuous culture turbidostat system. It directly measures protein function by growing the yeast under conditions under non-selective conditions.",
+   "published": "2026-02-19"
+  }
+ ]
+}

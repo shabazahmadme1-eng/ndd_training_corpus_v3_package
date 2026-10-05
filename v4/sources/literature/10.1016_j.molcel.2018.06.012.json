@@ -1,0 +1,50 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.molcel.2018.06.012\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "29979965",
+        "source": "MED",
+        "pmid": "29979965",
+        "doi": "10.1016/j.molcel.2018.06.012",
+        "title": "A Systematic p53 Mutation Library Links Differential Functional Impact to Cancer Mutation Pattern and Evolutionary Conservation.",
+        "authorString": "Kotler E, Shani O, Goldfeld G, Lotan-Pompan M, Tarcic O, Gershoni A, Hopf TA, Marks DS, Oren M, Segal E.",
+        "journalTitle": "Mol Cell",
+        "issue": "1",
+        "journalVolume": "71",
+        "pubYear": "2018",
+        "journalIssn": "1097-2765; 1097-4164; ",
+        "pageInfo": "178-190.e8",
+        "pubType": "research support, non-u.s. gov't; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 241,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2018-07-01",
+        "firstIndexDate": "2018-07-07"
+      }
+    ]
+  }
+}

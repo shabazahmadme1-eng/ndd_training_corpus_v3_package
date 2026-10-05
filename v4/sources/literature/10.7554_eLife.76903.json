@@ -1,0 +1,58 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.7554/eLife.76903\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35639599",
+        "source": "MED",
+        "pmid": "35639599",
+        "pmcid": "PMC9273215",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9273215"
+          ]
+        },
+        "doi": "10.7554/elife.76903",
+        "title": "Determinants of trafficking, conduction, and disease within a K<sup>+</sup> channel revealed through multiparametric deep mutational scanning.",
+        "authorString": "Coyote-Maestas W, Nedrud D, He Y, Schmidt D.",
+        "journalTitle": "Elife",
+        "journalVolume": "11",
+        "pubYear": "2022",
+        "journalIssn": "2050-084x",
+        "pageInfo": "e76903",
+        "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 67,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "uniprot",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2022-05-31",
+        "firstIndexDate": "2022-06-01"
+      }
+    ]
+  }
+}

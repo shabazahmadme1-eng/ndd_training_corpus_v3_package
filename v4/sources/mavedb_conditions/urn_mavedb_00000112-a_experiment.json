@@ -1,0 +1,195 @@
+{
+  "title": "Functional Assay of Human OTC Missense Variants",
+  "shortDescription": "The impact of 1,570 SNV-accessible missense variants in Human Ornithine Transcarbamylase (OTC) was examined using a yeast-based functional complementation assay.",
+  "abstractText": "Deleterious mutations in the X-linked gene encoding ornithine transcarbamylase (OTC) cause the most common urea cycle disorder, OTC deficiency. This rare, but highly actionable disease can present with severe neonatal onset in males or with later onset in either sex. Neonatal onset patients appear normal at birth but rapidly develop hyperammonemia, which can progress to cerebral edema, coma, and death, outcomes ameliorated by rapid diagnosis and treatment. Here, we develop a high throughput functional assay for human OTC and individually measure the impact of 1,570 variants, 84% of all SNV-accessible missense mutations. Comparison to existing clinical significance calls, demonstrated that our assay distinguishes known benign from pathogenic variants and variants with neonatal onset from late-onset disease presentation. This functional stratification allowed us to identify score ranges corresponding to clinically relevant levels of impairment of OTC activity. Examining the results of our assay in the context of protein structure further allowed us to identify a 13 amino acid domain, the SMG loop, whose function appears to be required in human cells but not in yeast. Finally, inclusion of our data as PS3 evidence under the current ACMG guidelines, in a pilot reclassification of 34 variants with complete loss of activity, would change the classification of 22 from variants of unknown significance to clinically actionable likely pathogenic. These results illustrate how large-scale functional assays are especially powerful when applied to rare genetic diseases.",
+  "methodText": "The OTC protein coding sequence (GenBank: NM_000531.6) was optimized for expression in yeast (hereafter yOTC, GenBank: ON872185), using a custom, in-house method designed to match the codon usage frequency of S. cerevisiae. Since the Arg3 ortholog in yeast is cytoplasmic, the mitochondrial leader sequence (amino acids 2-32) of the human OTC was omitted from yOTC. However, stated variant amino acid positions refer to positions of the native, full-length OTC protein. \r\n\r\nThe variant library was designed to capture the single amino acid substitutions resulting from all SNV-accessible missense mutations (defined relative to the native human OTC sequence), excluding the start and stop, in the human OTC cDNA sequence (GenBank: NM_000531.6). yOTC derivatives encoding the complete set of these unique amino acid substitutions (n = 1,879) were synthesized by Twist Biosciences as a pARG3-yOTC-tTRP2-NatMX variant library in which each well of a 96-well plate contained an approximately equal pool of genotypes encoding each of the 4-7 possible amino acid substitutions at a given codon.\r\n \r\nSeparate library DNA PCR amplification reactions and subsequent integrative transformations into a yeast arg3\u03940 strain were then performed (placing yOTC under the control of the native ARG3 promoter and a TRP2 terminator) for each Twist well, i.e. a separate transformation for each amino acid position tested (n=323). From each transformation, single colonies were isolated such that a total of 5,700 individual transformants were arrayed into 96-well. This number of colonies was chosen such that approximately three independent transformants of each variant would be isolated and assayed. For downstream phenotype normalization, each library plate also contained replicates of the same control strains: two deletion (arg3\u03940) and four wild type (yOTC). \r\n\r\nFor phenotyping, 96-well cultures were pinned onto solid omniplates containing minimal (SD) medium (lacking arginine) using a Biomek i7 robot outfitted with a V&P Scientific 96 floating-pin replicator head. Pinning onto SD plates was done in triplicate, followed by growth at 30\u00b0 C for 72 hours. Plates were photographed and growth phenotypes were extracted from the images using a custom pipeline, PyPL8 (https://github.com/lacyk3/PyPl8). Briefly, a pseudo patch \u201cvolume\u201d for each pinned isolate was generated consisting of the product (\u201cIntDen\u201d) of the patch area and the mean patch pixel intensity (grayscale).\r\n\r\nRaw phenotypic values were normalized, quality control filters were applied to each isolate, and a final relative growth estimate for each yOTC variant (across all isolates) was determined. Briefly, normalization steps to account for the effects of plate-to-plate variation, relative growth of neighboring patches, and plate edge effects were applied to the data using a custom script. Any yOTC variants that had discordant growth estimates between isolates were removed. A linear model, fit using weighted least squares regression, was used to estimate the relative growth of each yOTC variant, on a scale with growth of null controls set to 0 and growth of wild type yOTC set to 1.\r\n\r\nVariant library sequence confirmation was performed using long-read Oxford Nanopore sequencing, with the pipeline validated by Illumina sequencing. Isolates with (non-synonymous) secondary mutations were removed from the dataset.",
+  "extraMetadata": {},
+  "recordType": "Experiment",
+  "urn": "urn:mavedb:00000112-a",
+  "createdBy": {
+    "orcidId": "0000-0002-0369-7259",
+    "firstName": "Russell",
+    "lastName": "Lo",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-7565-2463",
+    "firstName": "Jeremy",
+    "lastName": "Stone",
+    "recordType": "User"
+  },
+  "creationDate": "2023-02-27",
+  "modificationDate": "2025-09-21",
+  "publishedDate": "2023-03-21",
+  "experimentSetUrn": "urn:mavedb:00000112",
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "37146589",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "The functional impact of 1,570 individual amino acid substitutions in human OTC.",
+      "authors": [
+        {
+          "name": "Lo RS",
+          "primary": true
+        },
+        {
+          "name": "Cromie GA",
+          "primary": false
+        },
+        {
+          "name": "Tang M",
+          "primary": false
+        },
+        {
+          "name": "Teng K",
+          "primary": false
+        },
+        {
+          "name": "Owens K",
+          "primary": false
+        },
+        {
+          "name": "Sirr A",
+          "primary": false
+        },
+        {
+          "name": "Kutz JN",
+          "primary": false
+        },
+        {
+          "name": "Morizono H",
+          "primary": false
+        },
+        {
+          "name": "Caldovic L",
+          "primary": false
+        },
+        {
+          "name": "Ah Mew N",
+          "primary": false
+        },
+        {
+          "name": "Gropman A",
+          "primary": false
+        },
+        {
+          "name": "Dudley AM",
+          "primary": false
+        }
+      ],
+      "abstract": "Deleterious mutations in the X-linked gene encoding ornithine transcarbamylase (OTC) cause the most common urea cycle disorder, OTC deficiency. This rare but highly actionable disease can present with severe neonatal onset in males or with later onset in either sex. Individuals with neonatal onset appear normal at birth but rapidly develop hyperammonemia, which can progress to cerebral edema, coma, and death, outcomes ameliorated by rapid diagnosis and treatment. Here, we develop a high-throughput functional assay for human OTC and individually measure the impact of 1,570 variants, 84% of all SNV-accessible missense mutations. Comparison to existing clinical significance calls, demonstrated that our assay distinguishes known benign from pathogenic variants and variants with neonatal onset from late-onset disease presentation. This functional stratification allowed us to identify score ranges corresponding to clinically relevant levels of impairment of OTC activity. Examining the results of our assay in the context of protein structure further allowed us to identify a 13 amino acid domain, the SMG loop, whose function appears to be required in human cells but not in yeast. Finally, inclusion of our data as PS3 evidence under the current ACMG guidelines, in a pilot reclassification of 34 variants with complete loss of activity, would change the classification of 22 from variants of unknown significance to clinically actionable likely pathogenic variants. These results illustrate how large-scale functional assays are especially powerful when applied to rare genetic diseases.",
+      "doi": "10.1016/j.ajhg.2023.03.019",
+      "publicationYear": 2023,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/37146589",
+      "referenceHtml": "Lo RS, <i>et al</i>. The functional impact of 1,570 individual amino acid substitutions in human OTC. Am J Hum Genet. 2023; 110:863-879. 10.1016/j.ajhg.2023.03.019",
+      "id": 145
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "rawReadIdentifiers": [],
+  "contributors": [],
+  "keywords": [
+    {
+      "keyword": {
+        "key": "Delivery Method",
+        "label": "Chemical or heat shock transformation",
+        "special": false,
+        "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": "Separate PCR amplification reactions and subsequent integrative yeast transformations were performed for each well. Approximately 500 ng of each PCR-amplified amino acid variant pool was transformed into a MATa haploid deletion strain (arg3D0) via standard methods. From each transformation, single colonies were isolated such that a total of 5,700 individual transformants were arrayed into 96-well plates.",
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "In Vitro Construct Library Method Mechanism",
+        "label": "Plasmid (not integrated)",
+        "special": false,
+        "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "In Vitro Construct Library Method System",
+        "label": "Oligo-directed mutagenic PCR",
+        "special": false,
+        "description": "The type of method used to generate the library"
+      },
+      "description": "yOTC derivatives encoding the complete set of amino acid substitutions were synthesized as a pARG3-yOTC-tTRP2-NatMX variant library.",
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Dimensionality",
+        "label": "Single-dimensional data",
+        "special": false,
+        "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Mechanism",
+        "label": "Loss of function",
+        "special": false,
+        "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Model System",
+        "label": "Yeast",
+        "special": false,
+        "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Profiling Strategy",
+        "label": "Direct sequencing",
+        "special": false,
+        "description": "The strategy used to profile the variant library"
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Sequencing Read Type",
+        "label": "Single-segment (long read)",
+        "special": false,
+        "description": "The sequencing method used"
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Variant Library Creation Method",
+        "label": "In vitro construct library method",
+        "special": false,
+        "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "recordType": "ExperimentControlledKeyword"
+    },
+    {
+      "keyword": {
+        "key": "Phenotypic Assay Method",
+        "label": "Cell fitness",
+        "special": false,
+        "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "recordType": "ExperimentControlledKeyword"
+    }
+  ],
+  "scoreSetUrns": [
+    "urn:mavedb:00000112-a-1"
+  ],
+  "externalLinks": {},
+  "numScoreSets": 1,
+  "officialCollections": []
+}

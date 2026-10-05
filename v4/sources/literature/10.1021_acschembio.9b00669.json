@@ -1,0 +1,45 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1021/acschembio.9b00669\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31808666",
+        "source": "MED",
+        "pmid": "31808666",
+        "doi": "10.1021/acschembio.9b00669",
+        "title": "A Phage-Assisted Continuous Selection Approach for Deep Mutational Scanning of Protein-Protein Interactions.",
+        "authorString": "Zinkus-Boltz J, DeValk C, Dickinson BC.",
+        "journalTitle": "ACS Chem Biol",
+        "issue": "12",
+        "journalVolume": "14",
+        "pubYear": "2019",
+        "journalIssn": "1554-8929; 1554-8937; ",
+        "pageInfo": "2757-2767",
+        "pubType": "journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 34,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2019-12-06",
+        "firstIndexDate": "2019-12-06"
+      }
+    ]
+  }
+}

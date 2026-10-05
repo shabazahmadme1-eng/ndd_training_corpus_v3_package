@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2021.10.06.463360\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR405097",
+        "source": "PPR",
+        "doi": "10.1101/2021.10.06.463360",
+        "title": "A systematic genotype-phenotype map for missense variants in the human intellectual disability-associated gene  <i>GDI1</i>",
+        "authorString": "Silverstein RA, Sun S, Verby M, Weile J, Wu Y, Gebbia M, Fotiadou I, Kitaygorodsky J, Roth FP.",
+        "pubYear": "2021",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2021
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-10-06",
+        "firstIndexDate": "2021-10-09"
+      }
+    ]
+  }
+}

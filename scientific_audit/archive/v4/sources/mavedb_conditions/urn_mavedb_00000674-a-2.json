@@ -1,0 +1,1108 @@
+{
+  "title": "Trafficking scores for KCNE1 in the presence of KCNQ1",
+  "methodText": "We measured cell surface trafficking of the KCNE1-HA library in the presence and absence of KCNQ1, using LP-KCNQ1 and LP cells, respectively. Each experiment was performed in triplicate (three independently transfected, stained, sorted, and sequenced replicates). As a general overview for the trafficking MAVE assay, we 1) generated a pool of HEK293 cells, each expressing one KCNE1 variant from the KCNE1 variant library, 2) labeled cell surface abundance of KCNE1 using an anti-HA antibody covalently bound to a fluorophore, 3) flow sorted the pool of cells into four groups based on fluorescence (indicating KCNE1 surface abundance), 4) isolated DNA from each of the four sorted pools and deep sequenced these samples to quantify the barcodes present in each pool, and 5) used each variant\u2019s abundance in each of the four sorted pools to quantify cell surface abundance of each variant. The cells were then stained with anti-HA Alexa Fluor 647 conjugated antibody and  sorted into four groups of approximately equal size (~25% each) based on cell surface KCNE1 labeling for downstream sequencing. Genomic DNA was extracted from each group and the barcodes were sequenced on the Illumina NovaSeq PE150 with at least 25 million reads per sample. \n\nTo calculate trafficking scores, reads that matched the expected 6-base sequences before and after each barcode were retained and aggregated. Only barcodes in the list of 80,282 \u201cgood\u201d barcodes from the subassembly were used for subsequent analyses. The barcode counts were normalized to the total number of reads in each sample to calculate a \"reads per million\" metric. Next, the read counts were aggregated by variant  and a weighted average was then calculated for each variant (Wv) based on counts in each bin. Next, the weighted averages were linearly transformed so that synonymous variants would have a median score of 1, and trafficking-null nonsense variants would have a median score of 0. \nVariants with a total frequency lower than 100 in each replicate were dropped from trafficking score calculations. The normalized scores were averaged across 3 replicates and standard error of the mean calculated. Variants were divided into 6 categories: loss-of-trafficking, partial loss-of-trafficking, possible loss-of-trafficking, normal trafficking, possible gain-of-trafficking, or gain-of-trafficking Loss-of-trafficking variants were defined as variants with trafficking score point estimates less than 97.5th percentile of the early nonsense variant score distribution (0.2). Partial loss-of-trafficking variants were defined as variants with score estimates (95% confidence interval) between 0.2 and 0.83 (2.5th percentile of the synonymous variant scores). Possible loss-of-trafficking variants were defined as variants with a point estimate near 0.83, and the confidence interval for the variant trafficking score spanning 0.83. Normal trafficking variants were defined as those with score estimates (95% confidence interval) between 2.5th and 97.5th percentile respectively (0.83 and 1.18). Possible gain-of-trafficking variants were defined as variants with a point estimate near 1.18, and the confidence interval for the variant trafficking score spanning 1.18. Gain-of-trafficking variants were defined as variants with a point estimate and confidence interval above 1.18.",
+  "abstractText": "In this study, we obtained trafficking scores for 2,554/2,709 KCNE1 variants in the presence of WT KCNQ1, and classified them as loss-of-function, partial loss-of-function, possible loss-of-function, normal function, possible gain-of-function, or gain-of-function.",
+  "shortDescription": "This data set includes mean, standard deviation, standard error, confidence interval and trafficking category in the presence of KCNQ1. \n\n",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000674-a-2",
+  "numVariants": 2554,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "38816749",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+      "authors": [
+        {
+          "name": "Muhammad A",
+          "primary": true
+        },
+        {
+          "name": "Calandranis ME",
+          "primary": false
+        },
+        {
+          "name": "Li B",
+          "primary": false
+        },
+        {
+          "name": "Yang T",
+          "primary": false
+        },
+        {
+          "name": "Blackwell DJ",
+          "primary": false
+        },
+        {
+          "name": "Harvey ML",
+          "primary": false
+        },
+        {
+          "name": "Smith JE",
+          "primary": false
+        },
+        {
+          "name": "Chew AE",
+          "primary": false
+        },
+        {
+          "name": "Capra JA",
+          "primary": false
+        },
+        {
+          "name": "Matreyek KA",
+          "primary": false
+        },
+        {
+          "name": "Fowler DM",
+          "primary": false
+        },
+        {
+          "name": "Roden DM",
+          "primary": false
+        },
+        {
+          "name": "Glazer AM",
+          "primary": false
+        }
+      ],
+      "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+      "doi": "10.1101/2023.04.28.538612",
+      "publicationYear": 2023,
+      "publicationJournal": "bioRxiv",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+      "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+      "id": 102
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2024-04-25",
+  "creationDate": "2024-04-25",
+  "modificationDate": "2026-05-29",
+  "createdBy": {
+    "orcidId": "0000-0003-0870-2923",
+    "firstName": "Ayesha",
+    "lastName": "Muhammad",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-0870-2923",
+    "firstName": "Ayesha",
+    "lastName": "Muhammad",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "KCNE1",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 2801,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "protein",
+        "sequence": "MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNTHLPETKPSP",
+        "label": "KCNE1",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "KCNE1",
+      "uniprotIdFromMappedMetadata": "P15382"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "sd",
+      "se",
+      "ci_lower",
+      "ci_upper",
+      "category"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: All Variants",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "thresholdSources": [],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 748,
+      "urn": "urn:mavedb:calibration-e0f8cbdd-7ce0-435b-b0c3-bb41b323cd71",
+      "scoreSetId": 2607,
+      "investigatorProvided": false,
+      "primary": true,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: Missense Variants Only",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "thresholdSources": [],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 747,
+      "urn": "urn:mavedb:calibration-e20edfe8-d4c7-4570-884a-835435791e4b",
+      "scoreSetId": 2607,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "Investigator-provided functional classes",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "functionalClassifications": [
+        {
+          "label": "Loss",
+          "functionalClassification": "abnormal",
+          "class": "Loss",
+          "id": 7160,
+          "recordType": "FunctionalClassification",
+          "variantCount": 154
+        },
+        {
+          "label": "Possible",
+          "functionalClassification": "abnormal",
+          "class": "Possible",
+          "id": 7161,
+          "recordType": "FunctionalClassification",
+          "variantCount": 581
+        },
+        {
+          "label": "Partial",
+          "functionalClassification": "abnormal",
+          "class": "Partial",
+          "id": 7162,
+          "recordType": "FunctionalClassification",
+          "variantCount": 388
+        },
+        {
+          "label": "Normal",
+          "functionalClassification": "normal",
+          "class": "Normal",
+          "id": 7163,
+          "recordType": "FunctionalClassification",
+          "variantCount": 655
+        },
+        {
+          "label": "Gain",
+          "functionalClassification": "not_specified",
+          "class": "Gain",
+          "id": 7164,
+          "recordType": "FunctionalClassification",
+          "variantCount": 334
+        },
+        {
+          "label": "PossibleGain",
+          "functionalClassification": "not_specified",
+          "class": "PossibleGain",
+          "id": 7165,
+          "recordType": "FunctionalClassification",
+          "variantCount": 442
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "38816749",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+          "authors": [
+            {
+              "name": "Muhammad A",
+              "primary": true
+            },
+            {
+              "name": "Calandranis ME",
+              "primary": false
+            },
+            {
+              "name": "Li B",
+              "primary": false
+            },
+            {
+              "name": "Yang T",
+              "primary": false
+            },
+            {
+              "name": "Blackwell DJ",
+              "primary": false
+            },
+            {
+              "name": "Harvey ML",
+              "primary": false
+            },
+            {
+              "name": "Smith JE",
+              "primary": false
+            },
+            {
+              "name": "Chew AE",
+              "primary": false
+            },
+            {
+              "name": "Capra JA",
+              "primary": false
+            },
+            {
+              "name": "Matreyek KA",
+              "primary": false
+            },
+            {
+              "name": "Fowler DM",
+              "primary": false
+            },
+            {
+              "name": "Roden DM",
+              "primary": false
+            },
+            {
+              "name": "Glazer AM",
+              "primary": false
+            }
+          ],
+          "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+          "doi": "10.1101/2023.04.28.538612",
+          "publicationYear": 2023,
+          "publicationJournal": "bioRxiv",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+          "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+          "id": 102
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [
+        {
+          "identifier": "38816749",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+          "authors": [
+            {
+              "name": "Muhammad A",
+              "primary": true
+            },
+            {
+              "name": "Calandranis ME",
+              "primary": false
+            },
+            {
+              "name": "Li B",
+              "primary": false
+            },
+            {
+              "name": "Yang T",
+              "primary": false
+            },
+            {
+              "name": "Blackwell DJ",
+              "primary": false
+            },
+            {
+              "name": "Harvey ML",
+              "primary": false
+            },
+            {
+              "name": "Smith JE",
+              "primary": false
+            },
+            {
+              "name": "Chew AE",
+              "primary": false
+            },
+            {
+              "name": "Capra JA",
+              "primary": false
+            },
+            {
+              "name": "Matreyek KA",
+              "primary": false
+            },
+            {
+              "name": "Fowler DM",
+              "primary": false
+            },
+            {
+              "name": "Roden DM",
+              "primary": false
+            },
+            {
+              "name": "Glazer AM",
+              "primary": false
+            }
+          ],
+          "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+          "doi": "10.1101/2023.04.28.538612",
+          "publicationYear": 2023,
+          "publicationJournal": "bioRxiv",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+          "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+          "id": 102
+        }
+      ],
+      "recordType": "ScoreCalibration",
+      "id": 746,
+      "urn": "urn:mavedb:calibration-c9da013f-38c9-4e10-a753-35e35baf39d6",
+      "scoreSetId": 2607,
+      "investigatorProvided": true,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "0000-0003-0870-2923",
+        "firstName": "Ayesha",
+        "lastName": "Muhammad",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0002-7565-2463",
+        "firstName": "Jeremy",
+        "lastName": "Stone",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2026-07-23"
+    },
+    {
+      "title": "ExCALIBR calibration",
+      "researchUseOnly": true,
+      "functionalClassifications": [
+        {
+          "label": "BS3 Supporting (-1)",
+          "functionalClassification": "normal",
+          "range": [
+            1.0838479555541243,
+            null
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": -1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6365,
+          "recordType": "FunctionalClassification",
+          "variantCount": 788
+        },
+        {
+          "label": "PS3 Supporting (1)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.6452111384502252,
+            0.6706935251913502
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": 1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6366,
+          "recordType": "FunctionalClassification",
+          "variantCount": 36
+        },
+        {
+          "label": "PS3 Moderate (2)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.6243155813225025,
+            0.6452111384502252
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE",
+            "points": 2,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6367,
+          "recordType": "FunctionalClassification",
+          "variantCount": 21
+        },
+        {
+          "label": "PS3 Moderate+ (3)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.6049489673992475,
+            0.6243155813225025
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE_PLUS",
+            "points": 3,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6368,
+          "recordType": "FunctionalClassification",
+          "variantCount": 18
+        },
+        {
+          "label": "PS3 Strong (4)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.5843931754280733,
+            0.6049489673992475
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 4,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6369,
+          "recordType": "FunctionalClassification",
+          "variantCount": 23
+        },
+        {
+          "label": "PS3 Strong (5)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.5658759743961891,
+            0.5843931754280733
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 5,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6370,
+          "recordType": "FunctionalClassification",
+          "variantCount": 15
+        },
+        {
+          "label": "PS3 Strong (6)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.5453201824250149,
+            0.5658759743961891
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 6,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6371,
+          "recordType": "FunctionalClassification",
+          "variantCount": 19
+        },
+        {
+          "label": "PS3 Strong (7)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.5262933336583082,
+            0.5453201824250149
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 7,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6372,
+          "recordType": "FunctionalClassification",
+          "variantCount": 19
+        },
+        {
+          "label": "PS3 Very Strong (8)",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.5262933336583082
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "VERY_STRONG",
+            "points": 8,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6373,
+          "recordType": "FunctionalClassification",
+          "variantCount": 322
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "evidenceSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "methodSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "calibrationMetadata": {
+        "prior_probability_pathogenicity": 0.2175406568
+      },
+      "recordType": "ScoreCalibration",
+      "id": 2320,
+      "urn": "urn:mavedb:calibration-f46fdaa1-97e6-4282-87b9-0a214c849fcc",
+      "scoreSetId": 2607,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2026-02-24",
+      "modificationDate": "2026-02-24"
+    }
+  ],
+  "experiment": {
+    "title": "Cell Surface and Functional Scores for KCNE1",
+    "shortDescription": "This study contains three multiplexed assays of KCNE1 variants",
+    "abstractText": "In this study, we generated cell surface expression scores for HA-tagged KCNE1 in HEK293T cells in the presence and absence of KCNQ1 for 2,559/2,709 variants. We also generated fitness scores for 2,534/2,709 KCNE1 variants in HEK293T cells in the presence of a gain-of-function KCNQ1 variant (S140G).",
+    "methodText": "An HA epitope tag was cloned into the extracellular region of KCNE1. Saturation mutagenesis was used to create a plasmid library of 2,592 distinct single amino acid KCNE1 variants (95.7% of total possible variants). Each plasmid was associated with a random 18-base barcode and the plasmid library was \u201csubassembled\u201d, i.e., deep sequenced to associate each barcode to its corresponding KCNE1 variant. To express one KCNE1-HA variant per cell, the library was integrated into Human Embryonic Kidney (HEK) 293T cells engineered to include a \u201clanding pad.\u201d19 The landing pad is a single promoter expression system with standardized locus expression. To determine cell surface expression, KCNE1-HA variants were expressed with or without WT KCNQ1 and the cell pool was stained with an anti-HA antibody. Cells were sorted into 4 bins based on the level of cell surface labeling, and each bin was deep sequenced to quantify variants. To determine channel function, KCNE1-HA variants were expressed with a gain-of-function KCNQ1 variant for 20 days to deplete cells with normally functioning IKs channels. The cell pool was deep sequenced at day 0, 8 and 20 to quantify variants. Each assay was conducted in triplicate, and each variant was represented by an average of 30.7 barcodes in each replicate, allowing for internal and external validation.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000674-a",
+    "createdBy": {
+      "orcidId": "0000-0003-0870-2923",
+      "firstName": "Ayesha",
+      "lastName": "Muhammad",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2024-04-19",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2024-04-24",
+    "experimentSetUrn": "urn:mavedb:00000674",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "38816749",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+        "authors": [
+          {
+            "name": "Muhammad A",
+            "primary": true
+          },
+          {
+            "name": "Calandranis ME",
+            "primary": false
+          },
+          {
+            "name": "Li B",
+            "primary": false
+          },
+          {
+            "name": "Yang T",
+            "primary": false
+          },
+          {
+            "name": "Blackwell DJ",
+            "primary": false
+          },
+          {
+            "name": "Harvey ML",
+            "primary": false
+          },
+          {
+            "name": "Smith JE",
+            "primary": false
+          },
+          {
+            "name": "Chew AE",
+            "primary": false
+          },
+          {
+            "name": "Capra JA",
+            "primary": false
+          },
+          {
+            "name": "Matreyek KA",
+            "primary": false
+          },
+          {
+            "name": "Fowler DM",
+            "primary": false
+          },
+          {
+            "name": "Roden DM",
+            "primary": false
+          },
+          {
+            "name": "Glazer AM",
+            "primary": false
+          }
+        ],
+        "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+        "doi": "10.1101/2023.04.28.538612",
+        "publicationYear": 2023,
+        "publicationJournal": "bioRxiv",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+        "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+        "id": 102
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Method",
+          "label": "Reporter",
+          "special": false,
+          "description": "The assay method, defining the molecular properties interrogated."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Molecular Mechanism Assessed",
+          "label": "Protein localization to plasma membrane",
+          "special": false,
+          "description": "The biological or molecular process investigated by the assay"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method System",
+          "label": "Oligo pool synthesis",
+          "special": false,
+          "description": "The type of method used to generate the library"
+        },
+        "description": "Saturation mutagenesis: KCNE1-HA, was subcloned into the pIRES2-dsRED2 plasmid using PCR with ag409 and ag410 and NotI restriction digestion (NEB) to create pKCNE1-HA:pIRES2:dsRED2. All plasmid sequences were verified with Sanger sequencing. Using NotI restriction digestion, the KCNE1-HA gene was moved to an AttB plasmid containing pIRES:mCherry:BlastR to create pKCNE1-HA:IRES:mCherry:BlastR (mCherry for fluorescence and blasticidin resistance)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Sequencing Read Type",
+          "label": "Single-segment (short read)",
+          "special": false,
+          "description": "The sequencing method used"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Variant Library Creation Method",
+          "label": "In vitro construct library method",
+          "special": false,
+          "description": "A methodology for generating a variant library at an endogenous locus"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Delivery Method",
+          "label": "Chemical-based transfection",
+          "special": false,
+          "description": "How the variant library was delivered to the model system for phenotype evaluation."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method Mechanism",
+          "label": "Extra-local construct insertion",
+          "special": false,
+          "description": "The mechanism for integration or expression of an exogenous construct"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Dimensionality",
+          "label": "Single-dimensional data",
+          "special": false,
+          "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Mechanism",
+          "label": "Loss of function",
+          "special": false,
+          "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Model System",
+          "label": "Immortalized human cells",
+          "special": false,
+          "description": "The model system context that influences expression of the phenotype."
+        },
+        "description": "Homo sapiens (NCBI:txid9606)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Profiling Strategy",
+          "label": "Barcode sequencing",
+          "special": false,
+          "description": "The strategy used to profile the variant library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      }
+    ],
+    "scoreSetUrns": [
+      "urn:mavedb:00000674-a-2",
+      "urn:mavedb:00000674-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "officialCollections": []
+  },
+  "officialCollections": [
+    {
+      "badgeName": "MaveMD",
+      "name": "MaveMD",
+      "urn": "urn:mavedb:collection-603dafbf-4a3f-4d70-ab8c-aafb226fbff4",
+      "scoreSetUrns": [
+        "urn:mavedb:00000657-a-1",
+        "urn:mavedb:00000657-b-1",
+        "urn:mavedb:00000662-0-1",
+        "urn:mavedb:00001250-a-1",
+        "urn:mavedb:00001222-a-2",
+        "urn:mavedb:00001222-b-2",
+        "urn:mavedb:00000097-0-2",
+        "urn:mavedb:00001224-a-1",
+        "urn:mavedb:00001263-a-1",
+        "urn:mavedb:00001268-0-1",
+        "urn:mavedb:00001268-a-1",
+        "urn:mavedb:00001268-b-1",
+        "urn:mavedb:00001268-c-1",
+        "urn:mavedb:00001242-a-1",
+        "urn:mavedb:00000001-c-1",
+        "urn:mavedb:00001226-a-1",
+        "urn:mavedb:00001226-b-1",
+        "urn:mavedb:00000005-a-5",
+        "urn:mavedb:00000005-a-6",
+        "urn:mavedb:00001205-a-1",
+        "urn:mavedb:00001227-a-2",
+        "urn:mavedb:00001262-a-1",
+        "urn:mavedb:00001228-a-1",
+        "urn:mavedb:00001200-0-1",
+        "urn:mavedb:00001200-a-1",
+        "urn:mavedb:00001200-b-1",
+        "urn:mavedb:00001200-c-1",
+        "urn:mavedb:00001200-d-1",
+        "urn:mavedb:00001200-e-1",
+        "urn:mavedb:00001197-a-5",
+        "urn:mavedb:00001266-b-1",
+        "urn:mavedb:00000096-a-1",
+        "urn:mavedb:00000096-b-1",
+        "urn:mavedb:00000108-0-1",
+        "urn:mavedb:00000108-a-1",
+        "urn:mavedb:00000108-b-1",
+        "urn:mavedb:00001198-a-1",
+        "urn:mavedb:00000674-a-2",
+        "urn:mavedb:00000674-b-1",
+        "urn:mavedb:00000674-c-1",
+        "urn:mavedb:00001230-a-2",
+        "urn:mavedb:00001229-a-2",
+        "urn:mavedb:00001231-a-2",
+        "urn:mavedb:00000094-a-2",
+        "urn:mavedb:00000094-a-3",
+        "urn:mavedb:00001254-a-1",
+        "urn:mavedb:00000050-a-1",
+        "urn:mavedb:00000663-a-1",
+        "urn:mavedb:00000112-a-1",
+        "urn:mavedb:00001259-a-1",
+        "urn:mavedb:00000665-a-1",
+        "urn:mavedb:00000665-b-1",
+        "urn:mavedb:00000665-c-1",
+        "urn:mavedb:00000665-d-1",
+        "urn:mavedb:00000013-a-1",
+        "urn:mavedb:00000054-a-1",
+        "urn:mavedb:00000673-0-1",
+        "urn:mavedb:00001260-a-1",
+        "urn:mavedb:00000099-a-1",
+        "urn:mavedb:00000098-a-2",
+        "urn:mavedb:00001233-a-1",
+        "urn:mavedb:00000659-a-1",
+        "urn:mavedb:00000060-a-1",
+        "urn:mavedb:00000060-a-2",
+        "urn:mavedb:00001235-a-1",
+        "urn:mavedb:00001236-0-1",
+        "urn:mavedb:00000068-0-1",
+        "urn:mavedb:00000068-a-1",
+        "urn:mavedb:00000068-b-1",
+        "urn:mavedb:00000068-c-1",
+        "urn:mavedb:00001234-0-1",
+        "urn:mavedb:00001234-a-1",
+        "urn:mavedb:00001234-b-1",
+        "urn:mavedb:00001234-c-1",
+        "urn:mavedb:00001234-d-1",
+        "urn:mavedb:00001234-e-1",
+        "urn:mavedb:00001234-f-1",
+        "urn:mavedb:00001234-g-1",
+        "urn:mavedb:00001234-h-1",
+        "urn:mavedb:00001251-a-1",
+        "urn:mavedb:00001267-b-1",
+        "urn:mavedb:00000675-a-1",
+        "urn:mavedb:00001264-a-1",
+        "urn:mavedb:00001267-a-2"
+      ],
+      "experimentUrns": []
+    }
+  ],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

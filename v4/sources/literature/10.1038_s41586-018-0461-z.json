@@ -1,0 +1,65 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41586-018-0461-z\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30209399",
+        "source": "MED",
+        "pmid": "30209399",
+        "pmcid": "PMC6181777",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6181777"
+          ]
+        },
+        "doi": "10.1038/s41586-018-0461-z",
+        "title": "Accurate classification of BRCA1 variants with saturation genome editing.",
+        "authorString": "Findlay GM, Daza RM, Martin B, Zhang MD, Leith AP, Gasperini M, Janizek JD, Huang X, Starita LM, Shendure J.",
+        "journalTitle": "Nature",
+        "issue": "7726",
+        "journalVolume": "562",
+        "pubYear": "2018",
+        "journalIssn": "0028-0836; 1476-4687; ",
+        "pageInfo": "217-222",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 784,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL",
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "go",
+            "refseq",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2018-09-12",
+        "firstIndexDate": "2018-09-13"
+      }
+    ]
+  }
+}

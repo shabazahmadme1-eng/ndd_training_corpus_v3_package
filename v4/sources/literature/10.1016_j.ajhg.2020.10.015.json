@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.ajhg.2020.10.015\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33202260",
+        "source": "MED",
+        "pmid": "33202260",
+        "pmcid": "PMC7820631",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7820631"
+          ]
+        },
+        "doi": "10.1016/j.ajhg.2020.10.015",
+        "title": "Multiplexed Functional Assessment of Genetic Variants in CARD11.",
+        "authorString": "Meitlis I, Allenspach EJ, Bauman BM, Phan IQ, Dabbah G, Schmitt EG, Camp ND, Torgerson TR, Nickerson DA, Bamshad MJ, Hagin D, Luthers CR, Stinson JR, Gray J, Lundgren I, Church JA, Butte MJ, Jordan MB, Aceves SS, Schwartz DM, Milner JD, Schuval S, Skoda-Smith S, Cooper MA, Starita LM, Rawlings DJ, Snow AL, James RG.",
+        "journalTitle": "Am J Hum Genet",
+        "issue": "6",
+        "journalVolume": "107",
+        "pubYear": "2020",
+        "journalIssn": "0002-9297; 1537-6605; ",
+        "pageInfo": "1029-1043",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 78,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "omim",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2020-11-16",
+        "firstIndexDate": "2020-11-18"
+      }
+    ]
+  }
+}

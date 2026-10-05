@@ -1,0 +1,243 @@
+{
+  "direct": {
+    "rows": 286256,
+    "genes": 135,
+    "outer_folds": 135,
+    "corpus_sha256": "631b40b5775eafd9d45e421669bc469dc6f7b0f5f87affb9cf0b3d380a8f42ff",
+    "all_gene_and_sequence_boundaries_passed": true,
+    "pilot_task_support": {
+      "12": {
+        "test": [
+          "ASPA"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 1,
+            "validation": 1,
+            "calibration": 1,
+            "test": 1
+          },
+          "activity": {
+            "train": 6,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "binding": {
+            "train": 1,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "fitness": {
+            "train": 10,
+            "validation": 1,
+            "calibration": 0,
+            "test": 1
+          },
+          "stability": {
+            "train": 112,
+            "validation": 2,
+            "calibration": 2,
+            "test": 0
+          }
+        }
+      },
+      "57": {
+        "test": [
+          "KCNQ2"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 1,
+            "validation": 2,
+            "calibration": 1,
+            "test": 0
+          },
+          "activity": {
+            "train": 5,
+            "validation": 1,
+            "calibration": 1,
+            "test": 1
+          },
+          "binding": {
+            "train": 1,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "fitness": {
+            "train": 10,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "stability": {
+            "train": 113,
+            "validation": 2,
+            "calibration": 1,
+            "test": 0
+          }
+        }
+      },
+      "76": {
+        "test": [
+          "PAX6"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 2,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "activity": {
+            "train": 6,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "binding": {
+            "train": 1,
+            "validation": 1,
+            "calibration": 0,
+            "test": 1
+          },
+          "fitness": {
+            "train": 10,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "stability": {
+            "train": 112,
+            "validation": 2,
+            "calibration": 1,
+            "test": 1
+          }
+        }
+      }
+    }
+  },
+  "curriculum": {
+    "rows": 1083731,
+    "genes": 496,
+    "outer_folds": 135,
+    "corpus_sha256": "2c10e062387b1e15b8885601513318950ae6e48419a79320ff7751830c09d643",
+    "all_gene_and_sequence_boundaries_passed": true,
+    "pilot_task_support": {
+      "12": {
+        "test": [
+          "ASPA"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 22,
+            "validation": 1,
+            "calibration": 1,
+            "test": 1
+          },
+          "activity": {
+            "train": 27,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "binding": {
+            "train": 9,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "fitness": {
+            "train": 28,
+            "validation": 1,
+            "calibration": 0,
+            "test": 1
+          },
+          "stability": {
+            "train": 427,
+            "validation": 2,
+            "calibration": 2,
+            "test": 0
+          }
+        }
+      },
+      "57": {
+        "test": [
+          "KCNQ2"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 22,
+            "validation": 2,
+            "calibration": 1,
+            "test": 0
+          },
+          "activity": {
+            "train": 26,
+            "validation": 1,
+            "calibration": 1,
+            "test": 1
+          },
+          "binding": {
+            "train": 9,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "fitness": {
+            "train": 28,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "stability": {
+            "train": 428,
+            "validation": 2,
+            "calibration": 1,
+            "test": 0
+          }
+        }
+      },
+      "76": {
+        "test": [
+          "PAX6"
+        ],
+        "tasks": {
+          "abundance": {
+            "train": 23,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "activity": {
+            "train": 27,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "binding": {
+            "train": 8,
+            "validation": 1,
+            "calibration": 1,
+            "test": 1
+          },
+          "fitness": {
+            "train": 28,
+            "validation": 1,
+            "calibration": 1,
+            "test": 0
+          },
+          "stability": {
+            "train": 427,
+            "validation": 2,
+            "calibration": 1,
+            "test": 1
+          }
+        }
+      }
+    }
+  },
+  "passed": true
+}

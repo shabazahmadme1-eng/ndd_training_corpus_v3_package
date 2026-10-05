@@ -1,0 +1,38 @@
+{
+ "gene": "MPL",
+ "uniprot": "P40238",
+ "role": "contrast",
+ "shared_missense": 927,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00001214-j-1",
+   "title": "Surface presentation level of hTpoR variants",
+   "license": "CC0",
+   "n_variants": 978,
+   "heuristic_task": "abundance",
+   "mapped_missense": 929,
+   "wt_mismatch": 0,
+   "uniprot_offset": 480,
+   "target_len": 147,
+   "experiment_urn": "urn:mavedb:00001214-j",
+   "experiment_title": "Sequence requirements for surface expression of hTpoR variants",
+   "experiment_method": "The variant libraries were constructed using overlap extension PCR with degenerate oligos targeting the transmembrane and juxtamembrane regions of TpoR. We selected the libraries based on TpoR surface staining to measure protein abundance.\n \nCells were harvested after selection and RNA extracted to generate cDNA, which was indexed and prepared for direct Illumina sequencing. Raw sequenced data were trimmed and deduplicated before being analyzed with the DiMSum pipeline. We ensured at least two biological replicates were performed per datasets.\n \nFunctional scores were derived by comparing Surface expression levels (high vs. low) and were normalised so that the mean of nonsense variants was set to 0 (poor surface presentation) and the mean of synonymous variants (normal surface presentation The human thrombopoietin receptor (hTpoR/MPL) plays a crucial role in platelet production and is the target of several biologic and small-molecule agonists used to treat thrombocytopenia. Mutations that cause constitutive hTpoR signalling through JAK2 can drive myeloproliferative diseases such as essential thrombocythemia and primary myelofibrosis. Several of the above drugs, and most disease-asso",
+   "published": "2024-12-05"
+  },
+  {
+   "urn": "urn:mavedb:00001214-i-1",
+   "title": "TpoR activation by high dosage of Tpo",
+   "license": "CC0",
+   "n_variants": 978,
+   "heuristic_task": "binding",
+   "mapped_missense": 929,
+   "wt_mismatch": 0,
+   "uniprot_offset": 480,
+   "target_len": 147,
+   "experiment_urn": "urn:mavedb:00001214-i",
+   "experiment_title": "TpoR activation by high dosage of Tpo",
+   "experiment_method": "The variant libraries were constructed using overlap extension PCR with degenerate oligos targeting the transmembrane and juxtamembrane regions of TpoR. We selected the libraries on cytokine dependent cell lines, where cell growth depended on TpoR activation to measure function in the context of different stimuli.\nCells were harvested after selection and RNA extracted to generate cDNA, which was indexed and prepared for direct Illumina sequencing. Raw sequenced data were trimmed and deduplicated before being analyzed with the DiMSum pipeline. We ensured at least two biological replicates were performed per datasets.\nFunctional scores were derived by comparing agonist-treated cells against IL3 treated (non-selective) controls. Functional scores were normalised so that the mean of nonsense v The human thrombopoietin receptor (hTpoR/MPL) plays a crucial role in platelet production and is the target of several biologic and small-molecule agonists used to treat thrombocytopenia. Mutations that cause constitutive hTpoR signalling through JAK2 can drive myeloproliferative diseases such as essential thrombocythemia and primary myelofibrosis. Several of the above drugs, and most disease-asso",
+   "published": "2024-12-05"
+  }
+ ]
+}

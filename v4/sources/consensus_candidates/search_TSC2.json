@@ -1,0 +1,1205 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001201-a-1",
+   "title": "TSC2 functional assay using prime editing in HAP1s",
+   "shortDescription": "A curated loci prime editing (cliPE) approach to generate functional scores on over 200 variants in the TSC2 gene",
+   "publishedDate": "2024-07-10",
+   "replacesId": null,
+   "numVariants": 208,
+   "experiment": {
+    "title": "Multimodal framework to resolve variants of uncertain significance in TSC2",
+    "shortDescription": "Using genome editing in the endogenous TSC2 locus paired with a functional assay to determine function of known pathogenic, benign, and variants of uncertain significance.",
+    "abstractText": "We developed Tuberous sclerosis classifier to Resolve variants of Uncertain Significance in TSC2 (TRUST), a machine learning model to predict pathogenicity of TSC2 missense VUS. To test whether these predictions are accurate, we further introduce curated loci prime editing (cliPE) as an accessible strategy for performing scalable multiplexed assays of variant effect (MAVEs). Using cliPE, we tested the effects of more than 200 TSC2 variants, including 106 VUS. ",
+    "methodText": "The gDNA of the fixed, FACS-sorted HAP1 cells was extracted using the PureLink\u2122 Genomic DNA Mini Kit (Invitrogen #K182002). Manufacturer\u2019s instructions were followed with the exception of an added incubation (40-60 minutes, 90\u00b0C) to reverse formaldehyde-induced crosslinks. The target regions of TSC2 were then amplified via PCR (Bio-Rad iProof system), followed by an additional barcoding PCR reaction. The locus was then sequenced via shortread amplicon sequencing (Illumina MiniSeq System; 100,000 minimum read-depth). Reads were aligned to the human genome (hg38) and variant allele frequencies were calculated using the jellyfish k-mer counting package. Variants with allele frequency below 0.1% in unsorted cells were filtered out. Variant allele frequencies were then used to calculate a functional (enrichment) score using the Enrich2 statistical framework. Functional scores were then\nnormalized across exons. The normalized functional score is referred to as the constitutive mTORC1 activity score (CMAS).",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001201-a",
+    "createdBy": {
+     "orcidId": "0000-0003-0554-2231",
+     "firstName": "Jeffrey",
+     "lastName": "Calhoun",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-0554-2231",
+     "firstName": "Jeffrey",
+     "lastName": "Calhoun",
+     "recordType": "User"
+    },
+    "creationDate": "2024-06-11",
+    "modificationDate": "2024-07-10",
+    "publishedDate": "2024-07-10",
+    "experimentSetUrn": "urn:mavedb:00001201",
+    "doiIdentifiers": [
+     {
+      "identifier": "10.1101/2024.06.07.597916",
+      "id": 62,
+      "recordType": "DoiIdentifier",
+      "url": "https://doi.org/10.1101/2024.06.07.597916"
+     }
+    ],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001201-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2024-07-09",
+   "modificationDate": "2024-12-16",
+   "targetGenes": [
+    {
+     "name": "TSC2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 4196,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCCAAACCAACAAGCAAAGATTCAGGCTTGAAGGAGAAGTTTAAGATTCTGTTGGGACTGGGAACACCGAGGCCAAATCCCAGGTCTGCAGAGGGTAAACAGACGGAGTTTATCATCACCGCGGAAATACTGAGAGAACTGAGCATGGAATGTGGCCTCAACAATCGCATCCGGATGATAGGGCAGATTTGTGAAGTCGCAAAAACCAAGAAATTTGAAGAGCACGCAGTGGAAGCACTCTGGAAGGCGGTCGCGGATCTGTTGCAGCCGGAGCGGCCGCTGGAGGCCCGGCACGCGGTGCTGGCTCTGCTGAAGGCCATCGTGCAGGGGCAGGGCGAGCGTTTGGGGGTCCTCAGAGCCCTCTTCTTTAAGGTCATCAAGGATTACCCTTCCAACGAAGACCTTCACGAAAGGCTGGAGGTTTTCAAGGCCCTCACAGACAATGGGAGACACATCACCTACTTGGAGGAAGAGCTGGCTGACTTTGTCCTGCAGTGGATGGATGTTGGCTTGTCCTCGGAATTCCTTCTGGTGCTGGTGAACTTGGTCAAATTCAATAGCTGTTACCTCGACGAGTACATCGCAAGGATGGTTCAGATGATCTGTCTGCTGTGCGTCCGGACCGCGTCCTCTGTGGACATAGAGGTCTCCCTGCAGGTGCTGGACGCCGTGGTCTGCTACAACTGCCTGCCGGCTGAGAGCCTCCCGCTGTTCATCGTTACCCTCTGTCGCACCATCAACGTCAAGGAGCTCTGCGAGCCTTGCTGGAAGCTGATGCGGAACCTCCTTGGCACCCACCTGGGCCACAGCGCCATCTACAACATGTGCCACCTCATGGAGGACAGAGCCTACATGGAGGACGCGCCCCTGCTGAGAGGAGCCGTGTTTTTTGTGGGCATGGCTCTCTGGGGAGCCCACCGGCTCTATTCTCTCAGGAACTCGCCGACATCTGTGTTGCCATCATTTTACCAGGCCATGGCATGTCCGAACGAGGTGGTGTCCTATGAGATCGTCCTGTCCATCACCAGGCTCATCAAGAAGTATAGGAAGGAGCTCCAGGTGGTGGCGTGGGACATTCTGCTGAACATCATCGAACGGCTCCTTCAGCAGCTCCAGACCTTGGACAGCCCGGAGCTCAGGACCATCGTCCATGACCTGTTGACCACGGTGGAGGAGCTGTGTGACCAGAACGAGTTCCACGGGTCTCAGGAGAGATACTTTGAACTGGTGGAGAGATGTGCGGACCAGAGGCCTGAGTCCTCCCTCCTGAACCTGATCTCCTATAGAGCGCAGTCCATCCACCCGGCCAAGGACGGCTGGATTCAGAACCTGCAGGCGCTGATGGAGAGATTCTTCAGGAGCGAGTCCCGAGGCGCCGTGCGCATCAAGGTGCTGGACGTGCTGTCCTTTGTGCTGCTCATCAACAGGCAGTTCTATGAGGAGGAGCTGATTAACTCAGTGGTCATCTCGCAGCTCTCCCACATCCCCGAGGATAAAGACCACCAGGTCCGAAAGCTGGCCACCCAGTTGCTGGTGGACCTGGCAGAGGGCTGCCACACACACCACTTCAACAGCCTGCTGGACATCATCGAGAAGGTGATGGCCCGCTCCCTCTCCCCACCCCCGGAGCTGGAAGAAAGGGATGTGGCCGCATACTCGGCCTCCTTGGAGGATGTGAAGACAGCCGTCCTGGGGCTTCTGGTCATCCTTCAGACCAAGCTGTACACCCTGCCTGCAAGCCACGCCACGCGTGTGTATGAGATGCTGGTCAGCCACATTCAGCTCCACTACAAGCACAGCTACACCCTGCCAATCGCGAGCAGCATCCGGCTGCAGGCCTTTGACTTCCTGTTGCTGCTGCGGGCCGACTCACTGCACCGCCTGGGCCTGCCCAACAAGGATGGAGTCGTGCGGTTCAGCCCCTACTGCGTCTGCGACTACATGGAGCCAGAGAGAGGCTCTGAGAAGAAGACCAGCGGCCCCCTTTCTCCTCCCACAGGGCCTCCTGGCCCGGCGCCTGCAGGCCCCGCCGTGCGGCTGGGGTCCGTGCCCTACTCCCTGCTCTTCCGCGTCCTGCTGCAGTGCTTGAAGCAGGAGTCTGACTGGAAGGTGCTGAAGCTGGTTCTGGGCAGGCTGCCTGAGTCCCTGCGCTATAAAGTGCTCATCTTTACTTCCCCTTGCAGTGTGGACCAGCTGTGCTCTGCTCTCTGCTCCATGCTTTCAGGCCCAAAGACACTGGAGCGGCTCCGAGGCGCCCCAGAAGGCTTCTCCAGAACTGACTTGCACCTGGCCGTGGTTCCAGTGCTGACAGCATTAATCTCTTACCATAACTACCTGGACAAAACCAAACAGCGCGAGATGGTCTACTGCCTGGAGCAGGGCCTCATCCACCGCTGTGCCAGCCAGTGCGTCGTGGCCTTGTCCATCTGCAGCGTGGAGATGCCTGACATCATCATCAAGGCGCTGCCTGTTCTGGTGGTGAAGCTCACGCACATCTCAGCCACAGCCAGCATGGCCGTCCCACTGCTGGAGTTCCTGTCCACTCTGGCCAGGCTGCCGCACCTCTACAGGAACTTTGCCGCGGAGCAGTATGCCAGTGTGTTCGCCATCTCCCTGCCGTACACCAACCCCTCCAAGTTTAATCAGTACATCGTGTGTCTGGCCCATCACGTCATAGCCATGTGGTTCATCAGGTGCCGCCTGCCCTTCCGGAAGGATTTTGTCCCTTTCATCACTAAGGGCCTGCGGTCCAATGTCCTCTTGTCTTTTGATGACACCCCCGAGAAGGACAGCTTCAGGGCCCGGAGTACTAGTCTCAACGAGAGACCCAAGAGTCTGAGGATAGCCAGACCCCCCAAACAAGGCTTGAATAACTCTCCACCCGTGAAAGAATTCAAGGAGAGCTCTGCAGCCGAGGCCTTCCGGTGCCGCAGCATCAGTGTGTCTGAACATGTGGTCCGCAGCAGGATACAGACGTCCCTCACCAGTGCCAGCTTGGGGTCTGCAGATGAGAACTCCGTGGCCCAGGCTGACGATAGCCTGAAAAACCTCCACCTGGAGCTCACGGAAACCTGTCTGGACATGATGGCTCGATACGTCTTCTCCAACTTCACGGCTGTCCCGAAGAGGTCTCCTGTGGGCGAGTTCCTCCTAGCGGGTGGCAGGACCAAAACCTGGCTGGTTGGGAACAAGCTTGTCACTGTGACGACAAGCGTGGGAACCGGGACCCGGTCGTTACTAGGCCTGGACTCGGGGGAGCTGCAGTCCGGCCCGGAGTCGAGCTCCAGCCCCGGGGTGCATGTGAGACAGACCAAGGAGGCGCCGGCCAAGCTGGAGTCCCAGGCTGGGCAGCAGGTGTCCCGTGGGGCCCGGGATCGGGTCCGTTCCATGTCGGGGGGCCATGGTCTTCGAGTTGGCGCCCTGGACGTGCCGGCCTCCCAGTTCCTGGGCAGTGCCACTTCTCCAGGACCACGGACTGCACCAGCCGCGAAACCTGAGAAGGCCTCAGCTGGCACCCGGGTTCCTGTGCAGGAGAAGACGAACCTGGCGGCCTATGTGCCCCTGCTGACCCAGGGCTGGGCGGAGATCCTGGTCCGGAGGCCCACAGGGAACACCAGCTGGCTGATGAGCCTGGAGAACCCGCTCAGCCCTTTCTCCTCGGACATCAACAACATGCCCCTGCAGGAGCTGTCTAACGCCCTCATGGCGGCTGAGCGCTTCAAGGAGCACCGGGACACAGCCCTGTACAAGTCACTGTCGGTGCCGGCAGCCAGCACGGCCAAACCCCCTCCTCTGCCTCGCTCCAACACAGTGGCCTCTTTCTCCTCCCTGTACCAGTCCAGCTGCCAAGGACAGCTGCACAGGAGCGTTTCCTGGGCAGACTCCGCCGTGGTCATGGAGGAGGGAAGTCCGGGCGAGGTTCCTGTGCTGGTGGAGCCCCCAGGGTTGGAGGACGTTGAGGCAGCGCTAGGCATGGACAGGCGCACGGATGCCTACAGCAGGTCGTCCTCAGTCTCCAGCCAGGAGGAGAAGTCGCTCCACGCGGAGGAGCTGGTTGGCAGGGGCATCCCCATCGAGCGAGTCGTCTCCTCGGAGGGTGGCCGGCCCTCTGTGGACCTCTCCTTCCAGCCCTCGCAGCCCCTGAGCAAGTCCAGCTCCTCTCCCGAGCTGCAGACTCTGCAGGACATCCTCGGGGACCCTGGGGACAAGGCCGACGTGGGCCGGCTGAGCCCTGAGGTTAAGGCCCGGTCACAGTCAGGGACCCTGGACGGGGAAAGTGCTGCCTGGTCGGCCTCGGGCGAAGACAGTCGGGGCCAGCCCGAGGGTCCCTTGCCTTCCAGCTCCCCCCGCTCGCCCAGTGGCCTCCGGCCCCGAGGTTACACCATCTCCGACTCGGCCCCATCACGCAGGGGCAAGAGAGTAGAGAGGGACGCCTTAAAGAGCAGAGCCACAGCCTCCAATGCAGAGAAAGTGCCAGGCATCAACCCCAGTTTCGTGTTCCTGCAGCTCTACCATTCCCCCTTCTTTGGCGACGAGTCAAACAAGCCAATCCTGCTGCCCAATGAGTCACAGTCCTTTGAGCGGTCGGTGCAGCTCCTCGACCAGATCCCATCATACGACACCCACAAGATCGCCGTCCTGTATGTTGGAGAAGGCCAGAGCAACAGCGAGCTCGCCATCCTGTCCAATGAGCATGGCTCCTACAGGTACACGGAGTTCCTGACGGGCCTGGGCCGGCTCATCGAGCTGAAGGACTGCCAGCCGGACAAGGTGTACCTGGGAGGCCTGGACGTGTGTGGTGAGGACGGCCAGTTCACCTACTGCTGGCACGATGACATCATGCAAGCCGTCTTCCACATCGCCACCCTGATGCCCACCAAGGACGTGGACAAGCACCGCTGCGACAAGAAGCGCCACCTGGGCAACGACTTTGTGTCCATTGTCTACAATGACTCCGGTGAGGACTTCAAGCTTGGCACCATCAAGGGCCAGTTCAACTTTGTCCACGTGATCGTCACCCCGCTGGACTACGAGTGCAACCTGGTGTCCCTGCAGTGCAGGAAAGACATGGAGGGCCTTGTGGACACCAGCGTGGCCAAGATCGTGTCTGACCGCAACCTGCCCTTCGTGGCCCGCCAGATGGCCCTGCACGCAAATATGGCCTCACAGGTGCATCATAGCCGCTCCAACCCCACCGATATCTACCCCTCCAAGTGGATTGCCCGGCTCCGCCACATCAAGCGGCTCCGCCAGCGGATCTGCGAGGAAGCCGCCTACTCCAACCCCAGCCTACCTCTGGTGCACCCTCCGTCCCATAGCAAAGCCCCTGCACAGACTCCAGCCGAGCCCACACCTGGCTATGAGGTGGGCCAGCGGAAGCGCCTCATCTCCTCGGTGGAGGACTTCACCGAGTTTGTGTGA",
+      "label": "TSC2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-0-3",
+   "title": "TSC2 Updated Combined Scores",
+   "shortDescription": "Scores for both Tuberin and RapGAP domains and functional classes analysed with the CountESS pipeline.",
+   "publishedDate": "2026-09-15",
+   "replacesId": null,
+   "numVariants": 9496,
+   "experiment": {
+    "title": "TSC2 Combined Scores",
+    "shortDescription": "Scores for both Tuberin and RapGAP domains and functional classes.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "This meta-analysis combines the two domain-level score analysis and adds functional classes. Variant functional classes were determined using a GMM approach.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-0",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-10",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-0-1",
+     "urn:mavedb:00001267-0-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-09-15",
+   "modificationDate": "2026-09-15",
+   "targetGenes": [
+    {
+     "name": "TSC2",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P49815",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": null,
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 8244,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MAKPTSKDSGLKEKFKILLGLGTPRPNPRSAEGKQTEFIITAEILRELSMECGLNNRIRMIGQICEVAKTKKFEEHAVEALWKAVADLLQPERPLEARHAVLALLKAIVQGQGERLGVLRALFFKVIKDYPSNEDLHERLEVFKALTDNGRHITYLEEELADFVLQWMDVGLSSEFLLVLVNLVKFNSCYLDEYIARMVQMICLLCVRTASSVDIEVSLQVLDAVVCYNCLPAESLPLFIVTLCRTINVKELCEPCWKLMRNLLGTHLGHSAIYNMCHLMEDRAYMEDAPLLRGAVFFVGMALWGAHRLYSLRNSPTSVLPSFYQAMACPNEVVSYEIVLSITRLIKKYRKELQVVAWDILLNIIERLLQQLQTLDSPELRTIVHDLLTTVEELCDQNEFHGSQERYFELVERCADQRPESSLLNLISYRAQSIHPAKDGWIQNLQALMERFFRSESRGAVRIKVLDVLSFVLLINRQFYEEELINSVVISQLSHIPEDKDHQVRKLATQLLVDLAEGCHTHHFNSLLDIIEKVMARSLSPPPELEERDVAAYSASLEDVKTAVLGLLVILQTKLYTLPASHATRVYEMLVSHIQLHYKHSYTLPIASSIRLQAFDFLLLLRADSLHRLGLPNKDGVVRFSPYCVCDYMEPERGSEKKTSGPLSPPTGPPGPAPAGPAVRLGSVPYSLLFRVLLQCLKQESDWKVLKLVLGRLPESLRYKVLIFTSPCSVDQLCSALCSMLSGPKTLERLRGAPEGFSRTDLHLAVVPVLTALISYHNYLDKTKQREMVYCLEQGLIHRCASQCVVALSICSVEMPDIIIKALPVLVVKLTHISATASMAVPLLEFLSTLARLPHLYRNFAAEQYASVFAISLPYTNPSKFNQYIVCLAHHVIAMWFIRCRLPFRKDFVPFITKGLRSNVLLSFDDTPEKDSFRARSTSLNERPKSLRIARPPKQGLNNSPPVKEFKESSAAEAFRCRSISVSEHVVRSRIQTSLTSASLGSADENSVAQADDSLKNLHLELTETCLDMMARYVFSNFTAVPKRSPVGEFLLAGGRTKTWLVGNKLVTVTTSVGTGTRSLLGLDSGELQSGPESSSSPGVHVRQTKEAPAKLESQAGQQVSRGARDRVRSMSGGHGLRVGALDVPASQFLGSATSPGPRTAPAAKPEKASAGTRVPVQEKTNLAAYVPLLTQGWAEILVRRPTGNTSWLMSLENPLSPFSSDINNMPLQELSNALMAAERFKEHRDTALYKSLSVPAASTAKPPPLPRSNTVASFSSLYQSSCQGQLHRSVSWADSAVVMEEGSPGEVPVLVEPPGLEDVEAALGMDRRTDAYSRSSSVSSQEEKSLHAEELVGRGIPIERVVSSEGGRPSVDLSFQPSQPLSKSSSSPELQTLQDILGDPGDKADVGRLSPEVKARSQSGTLDGESAAWSASGEDSRGQPEGPLPSSSPRSPSGLRPRGYTISDSAPSRRGKRVERDALKSRATASNAEKVPGINPSFVFLQLYHSPFFGDESNKPILLPNESQSFERSVQLLDQIPSYDTHKIAVLYVGEGQSNSELAILSNEHGSYRYTEFLTGLGRLIELKDCQPDKVYLGGLDVCGEDGQFTYCWHDDIMQAVFHIATLMPTKDVDKHRCDKKRHLGNDFVSIVYNDSGEDFKLGTIKGQFNFVHVIVTPLDYECNLVSLQCRKDMEGLVDTSVAKIVSDRNLPFVARQMALHANMASQVHHSRSNPTDIYPSKWIARLRHIKRLRQRICEEAAYSNPSLPLVHPPSHSKAPAQTPAEPTPGYEVGQRKRLISSVEDFTEFV",
+      "label": "TSC2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-0-1",
+   "title": "TSC2 Combined Scores",
+   "shortDescription": "Scores for both Tuberin and RapGAP domains and functional classes.",
+   "publishedDate": "2026-02-10",
+   "replacesId": null,
+   "numVariants": 9253,
+   "experiment": {
+    "title": "TSC2 Combined Scores",
+    "shortDescription": "Scores for both Tuberin and RapGAP domains and functional classes.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "This meta-analysis combines the two domain-level score analysis and adds functional classes. Variant functional classes were determined using a GMM approach.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-0",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-10",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-0-1",
+     "urn:mavedb:00001267-0-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-10",
+   "modificationDate": "2026-06-05",
+   "targetGenes": [
+    {
+     "name": "TSC2",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P49815",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": null,
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 7947,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MAKPTSKDSGLKEKFKILLGLGTPRPNPRSAEGKQTEFIITAEILRELSMECGLNNRIRMIGQICEVAKTKKFEEHAVEALWKAVADLLQPERPLEARHAVLALLKAIVQGQGERLGVLRALFFKVIKDYPSNEDLHERLEVFKALTDNGRHITYLEEELADFVLQWMDVGLSSEFLLVLVNLVKFNSCYLDEYIARMVQMICLLCVRTASSVDIEVSLQVLDAVVCYNCLPAESLPLFIVTLCRTINVKELCEPCWKLMRNLLGTHLGHSAIYNMCHLMEDRAYMEDAPLLRGAVFFVGMALWGAHRLYSLRNSPTSVLPSFYQAMACPNEVVSYEIVLSITRLIKKYRKELQVVAWDILLNIIERLLQQLQTLDSPELRTIVHDLLTTVEELCDQNEFHGSQERYFELVERCADQRPESSLLNLISYRAQSIHPAKDGWIQNLQALMERFFRSESRGAVRIKVLDVLSFVLLINRQFYEEELINSVVISQLSHIPEDKDHQVRKLATQLLVDLAEGCHTHHFNSLLDIIEKVMARSLSPPPELEERDVAAYSASLEDVKTAVLGLLVILQTKLYTLPASHATRVYEMLVSHIQLHYKHSYTLPIASSIRLQAFDFLLLLRADSLHRLGLPNKDGVVRFSPYCVCDYMEPERGSEKKTSGPLSPPTGPPGPAPAGPAVRLGSVPYSLLFRVLLQCLKQESDWKVLKLVLGRLPESLRYKVLIFTSPCSVDQLCSALCSMLSGPKTLERLRGAPEGFSRTDLHLAVVPVLTALISYHNYLDKTKQREMVYCLEQGLIHRCASQCVVALSICSVEMPDIIIKALPVLVVKLTHISATASMAVPLLEFLSTLARLPHLYRNFAAEQYASVFAISLPYTNPSKFNQYIVCLAHHVIAMWFIRCRLPFRKDFVPFITKGLRSNVLLSFDDTPEKDSFRARSTSLNERPKSLRIARPPKQGLNNSPPVKEFKESSAAEAFRCRSISVSEHVVRSRIQTSLTSASLGSADENSVAQADDSLKNLHLELTETCLDMMARYVFSNFTAVPKRSPVGEFLLAGGRTKTWLVGNKLVTVTTSVGTGTRSLLGLDSGELQSGPESSSSPGVHVRQTKEAPAKLESQAGQQVSRGARDRVRSMSGGHGLRVGALDVPASQFLGSATSPGPRTAPAAKPEKASAGTRVPVQEKTNLAAYVPLLTQGWAEILVRRPTGNTSWLMSLENPLSPFSSDINNMPLQELSNALMAAERFKEHRDTALYKSLSVPAASTAKPPPLPRSNTVASFSSLYQSSCQGQLHRSVSWADSAVVMEEGSPGEVPVLVEPPGLEDVEAALGMDRRTDAYSRSSSVSSQEEKSLHAEELVGRGIPIERVVSSEGGRPSVDLSFQPSQPLSKSSSSPELQTLQDILGDPGDKADVGRLSPEVKARSQSGTLDGESAAWSASGEDSRGQPEGPLPSSSPRSPSGLRPRGYTISDSAPSRRGKRVERDALKSRATASNAEKVPGINPSFVFLQLYHSPFFGDESNKPILLPNESQSFERSVQLLDQIPSYDTHKIAVLYVGEGQSNSELAILSNEHGSYRYTEFLTGLGRLIELKDCQPDKVYLGGLDVCGEDGQFTYCWHDDIMQAVFHIATLMPTKDVDKHRCDKKRHLGNDFVSIVYNDSGEDFKLGTIKGQFNFVHVIVTPLDYECNLVSLQCRKDMEGLVDTSVAKIVSDRNLPFVARQMALHANMASQVHHSRSNPTDIYPSKWIARLRHIKRLRQRICEEAAYSNPSLPLVHPPSHSKAPAQTPAEPTPGYEVGQRKRLISSVEDFTEFV",
+      "label": "TSC2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TSC2",
+     "uniprotIdFromMappedMetadata": "P49815"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-b-1",
+   "title": "TSC2 RapGAP Domain Scores",
+   "shortDescription": "Scores for the TSC2 RapGAP domain VAMP-seq assay.",
+   "publishedDate": "2026-02-10",
+   "replacesId": null,
+   "numVariants": 5648,
+   "experiment": {
+    "title": "TSC2 RapGAP",
+    "shortDescription": "VAMP-seq assay for the TSC2 RapGAP domain.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence in the RapGAP domain of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "The variant library was ordered from Twist Biosciences and assembled into a plasmid along with the variant barcode. These plasmids were transfected into HEK293T cells containing a Bxb1 Tet-on landing pad for stable integration. Cells were sorted using FACS and barcodes from each bin were sequenced using Illumina. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-09",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Flow cytometry assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-b-1",
+     "urn:mavedb:00001267-b-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-09",
+   "modificationDate": "2026-02-10",
+   "targetGenes": [
+    {
+     "name": "TSC2 RapGAP",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7946,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "DESNKPILLPNESQSFERSVQLLDQIPSYDTHKIAVLYVGEGQSNSELAILSNEHGSYRYTEFLTGLGRLIELKDCQPDKVYLGGLDVCGEDGQFTYCWHDDIMQAVFHIATLMPTKDVDKHRCDKKRHLGNDFVSIVYNDSGEDFKLGTIKGQFNFVHVIVTPLDYECNLVSLQCRKDMEGLVDTSVAKIVSDRNLPFVARQMALHANMASQVHHSRSNPTDIYPSKWIARLRHIKRLRQRICEEAAYSNPSLPLVHPPSHSKAPAQTPAEPTPGYEVGQRKRLISSVEDFTE",
+      "label": "TSC2_RapGAP",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TSC2",
+     "uniprotIdFromMappedMetadata": "P49815"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-b-3",
+   "title": "TSC2 RapGAP Domain Updated Scores",
+   "shortDescription": "Scores for the TSC2 RapGAP domain VAMP-seq assay analysed with the CountESS pipeline.",
+   "publishedDate": "2026-09-15",
+   "replacesId": null,
+   "numVariants": 5731,
+   "experiment": {
+    "title": "TSC2 RapGAP",
+    "shortDescription": "VAMP-seq assay for the TSC2 RapGAP domain.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence in the RapGAP domain of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "The variant library was ordered from Twist Biosciences and assembled into a plasmid along with the variant barcode. These plasmids were transfected into HEK293T cells containing a Bxb1 Tet-on landing pad for stable integration. Cells were sorted using FACS and barcodes from each bin were sequenced using Illumina. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-09",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Flow cytometry assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-b-1",
+     "urn:mavedb:00001267-b-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-09-15",
+   "modificationDate": "2026-09-15",
+   "targetGenes": [
+    {
+     "name": "TSC2 RapGAP",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8243,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "DESNKPILLPNESQSFERSVQLLDQIPSYDTHKIAVLYVGEGQSNSELAILSNEHGSYRYTEFLTGLGRLIELKDCQPDKVYLGGLDVCGEDGQFTYCWHDDIMQAVFHIATLMPTKDVDKHRCDKKRHLGNDFVSIVYNDSGEDFKLGTIKGQFNFVHVIVTPLDYECNLVSLQCRKDMEGLVDTSVAKIVSDRNLPFVARQMALHANMASQVHHSRSNPTDIYPSKWIARLRHIKRLRQRICEEAAYSNPSLPLVHPPSHSKAPAQTPAEPTPGYEVGQRKRLISSVEDFTE",
+      "label": "TSC2_RapGAP",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TSC2",
+     "uniprotIdFromMappedMetadata": "P49815"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-a-3",
+   "title": "TSC2 Tuberin Domain Updated Scores",
+   "shortDescription": "Scores for the TSC2 Tuberin domain VAMP-seq assay analysed with the CountESS pipeline.",
+   "publishedDate": "2026-09-15",
+   "replacesId": null,
+   "numVariants": 3765,
+   "experiment": {
+    "title": "TSC2 Tuberin",
+    "shortDescription": "VAMP-seq assay for the TSC2 Tuberin domain.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence in the Tuberin domain of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "The variant library was ordered from Twist Biosciences and assembled into a plasmid along with the variant barcode. These plasmids were transfected into HEK293T cells containing a Bxb1 Tet-on landing pad for stable integration. Cells were sorted using FACS and barcodes from each bin were sequenced using Illumina. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-09",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Flow cytometry assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-a-1",
+     "urn:mavedb:00001267-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-09-15",
+   "modificationDate": "2026-09-15",
+   "targetGenes": [
+    {
+     "name": "TSC2 Tuberin",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8242,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "SASLEDVKTAVLGLLVILQTKLYTLPASHATRVYEMLVSHIQLHYKHSYTLPIASSIRLQAFDFLLLLRADSLHRLGLPNKDGVVRFSPYCVCDYMEPERGSEKKTSGPLSPPTGPPGPAPAGPAVRLGSVPYSLLFRVLLQCLKQESDWKVLKLVLGRLPESLRYKVLIFTSPCSVDQLCSALCSMLSGPKTLERLRGAPEGF",
+      "label": "TSC2_Tuberin",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TSC2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001267-a-1",
+   "title": "TSC2 Tuberin Domain Scores",
+   "shortDescription": "Scores for the TSC2 Tuberin domain VAMP-seq assay.",
+   "publishedDate": "2026-02-10",
+   "replacesId": null,
+   "numVariants": 3605,
+   "experiment": {
+    "title": "TSC2 Tuberin",
+    "shortDescription": "VAMP-seq assay for the TSC2 Tuberin domain.",
+    "abstractText": "This study used variant abundance by massively parallel sequencing (VAMP-seq) to measure protein abundance using fluorescence in the Tuberin domain of TSC2. This assay identifies variants that are loss of function due to loss of abundance/stability.",
+    "methodText": "The variant library was ordered from Twist Biosciences and assembled into a plasmid along with the variant barcode. These plasmids were transfected into HEK293T cells containing a Bxb1 Tet-on landing pad for stable integration. Cells were sorted using FACS and barcodes from each bin were sequenced using Illumina. Barcode-variant associates were resolved using PacBio long read sequencing and analysed using Pacybara.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001267-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2026-02-09",
+    "modificationDate": "2026-02-10",
+    "publishedDate": "2026-02-10",
+    "experimentSetUrn": "urn:mavedb:00001267",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Flow cytometry assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001267-a-1",
+     "urn:mavedb:00001267-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-02-09",
+   "modificationDate": "2026-02-10",
+   "targetGenes": [
+    {
+     "name": "TSC2 Tuberin",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7945,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "SASLEDVKTAVLGLLVILQTKLYTLPASHATRVYEMLVSHIQLHYKHSYTLPIASSIRLQAFDFLLLLRADSLHRLGLPNKDGVVRFSPYCVCDYMEPERGSEKKTSGPLSPPTGPPGPAPAGPAVRLGSVPYSLLFRVLLQCLKQESDWKVLKLVLGRLPESLRYKVLIFTSPCSVDQLCSALCSMLSGPKTLERLRGAPEGF",
+      "label": "TSC2_Tuberin",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 7
+}

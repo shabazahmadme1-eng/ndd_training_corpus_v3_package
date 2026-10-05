@@ -1,0 +1,1432 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00000674-a-2",
+   "title": "Trafficking scores for KCNE1 in the presence of KCNQ1",
+   "shortDescription": "This data set includes mean, standard deviation, standard error, confidence interval and trafficking category in the presence of KCNQ1. \n\n",
+   "publishedDate": "2024-04-25",
+   "replacesId": null,
+   "numVariants": 2554,
+   "experiment": {
+    "title": "Cell Surface and Functional Scores for KCNE1",
+    "shortDescription": "This study contains three multiplexed assays of KCNE1 variants",
+    "abstractText": "In this study, we generated cell surface expression scores for HA-tagged KCNE1 in HEK293T cells in the presence and absence of KCNQ1 for 2,559/2,709 variants. We also generated fitness scores for 2,534/2,709 KCNE1 variants in HEK293T cells in the presence of a gain-of-function KCNQ1 variant (S140G).",
+    "methodText": "An HA epitope tag was cloned into the extracellular region of KCNE1. Saturation mutagenesis was used to create a plasmid library of 2,592 distinct single amino acid KCNE1 variants (95.7% of total possible variants). Each plasmid was associated with a random 18-base barcode and the plasmid library was \u201csubassembled\u201d, i.e., deep sequenced to associate each barcode to its corresponding KCNE1 variant. To express one KCNE1-HA variant per cell, the library was integrated into Human Embryonic Kidney (HEK) 293T cells engineered to include a \u201clanding pad.\u201d19 The landing pad is a single promoter expression system with standardized locus expression. To determine cell surface expression, KCNE1-HA variants were expressed with or without WT KCNQ1 and the cell pool was stained with an anti-HA antibody. Cells were sorted into 4 bins based on the level of cell surface labeling, and each bin was deep sequenced to quantify variants. To determine channel function, KCNE1-HA variants were expressed with a gain-of-function KCNQ1 variant for 20 days to deplete cells with normally functioning IKs channels. The cell pool was deep sequenced at day 0, 8 and 20 to quantify variants. Each assay was conducted in triplicate, and each variant was represented by an average of 30.7 barcodes in each replicate, allowing for internal and external validation.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000674-a",
+    "createdBy": {
+     "orcidId": "0000-0003-0870-2923",
+     "firstName": "Ayesha",
+     "lastName": "Muhammad",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2024-04-19",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2024-04-24",
+    "experimentSetUrn": "urn:mavedb:00000674",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "38816749",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+      "authors": [
+       {
+        "name": "Muhammad A",
+        "primary": true
+       },
+       {
+        "name": "Calandranis ME",
+        "primary": false
+       },
+       {
+        "name": "Li B",
+        "primary": false
+       },
+       {
+        "name": "Yang T",
+        "primary": false
+       },
+       {
+        "name": "Blackwell DJ",
+        "primary": false
+       },
+       {
+        "name": "Harvey ML",
+        "primary": false
+       },
+       {
+        "name": "Smith JE",
+        "primary": false
+       },
+       {
+        "name": "Chew AE",
+        "primary": false
+       },
+       {
+        "name": "Capra JA",
+        "primary": false
+       },
+       {
+        "name": "Matreyek KA",
+        "primary": false
+       },
+       {
+        "name": "Fowler DM",
+        "primary": false
+       },
+       {
+        "name": "Roden DM",
+        "primary": false
+       },
+       {
+        "name": "Glazer AM",
+        "primary": false
+       }
+      ],
+      "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+      "doi": "10.1101/2023.04.28.538612",
+      "publicationYear": 2023,
+      "publicationJournal": "bioRxiv",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+      "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+      "id": 102
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein localization to plasma membrane",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo pool synthesis",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "Saturation mutagenesis: KCNE1-HA, was subcloned into the pIRES2-dsRED2 plasmid using PCR with ag409 and ag410 and NotI restriction digestion (NEB) to create pKCNE1-HA:pIRES2:dsRED2. All plasmid sequences were verified with Sanger sequencing. Using NotI restriction digestion, the KCNE1-HA gene was moved to an AttB plasmid containing pIRES:mCherry:BlastR to create pKCNE1-HA:IRES:mCherry:BlastR (mCherry for fluorescence and blasticidin resistance)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000674-a-2",
+     "urn:mavedb:00000674-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "38816749",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+     "authors": [
+      {
+       "name": "Muhammad A",
+       "primary": true
+      },
+      {
+       "name": "Calandranis ME",
+       "primary": false
+      },
+      {
+       "name": "Li B",
+       "primary": false
+      },
+      {
+       "name": "Yang T",
+       "primary": false
+      },
+      {
+       "name": "Blackwell DJ",
+       "primary": false
+      },
+      {
+       "name": "Harvey ML",
+       "primary": false
+      },
+      {
+       "name": "Smith JE",
+       "primary": false
+      },
+      {
+       "name": "Chew AE",
+       "primary": false
+      },
+      {
+       "name": "Capra JA",
+       "primary": false
+      },
+      {
+       "name": "Matreyek KA",
+       "primary": false
+      },
+      {
+       "name": "Fowler DM",
+       "primary": false
+      },
+      {
+       "name": "Roden DM",
+       "primary": false
+      },
+      {
+       "name": "Glazer AM",
+       "primary": false
+      }
+     ],
+     "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+     "doi": "10.1101/2023.04.28.538612",
+     "publicationYear": 2023,
+     "publicationJournal": "bioRxiv",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+     "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+     "id": 102
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2024-04-25",
+   "modificationDate": "2026-05-29",
+   "targetGenes": [
+    {
+     "name": "KCNE1",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 2801,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNTHLPETKPSP",
+      "label": "KCNE1",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "KCNE1",
+     "uniprotIdFromMappedMetadata": "P15382"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000674-b-1",
+   "title": "Functional MAVE scores for KCNE1",
+   "shortDescription": "This data set includes mean, standard deviation, standard error, confidence interval and function category.",
+   "publishedDate": "2024-04-25",
+   "replacesId": null,
+   "numVariants": 2539,
+   "experiment": {
+    "title": "Cell Surface and Functional Scores for KCNE1",
+    "shortDescription": "This study contains three multiplexed assays of KCNE1 variants",
+    "abstractText": "In this study, we generated cell surface expression scores for HA-tagged KCNE1 in HEK293T cells in the presence and absence of KCNQ1 for 2,559/2,709 variants. We also generated fitness scores for 2,534/2,709 KCNE1 variants in HEK293T cells in the presence of a gain-of-function KCNQ1 variant (S140G).",
+    "methodText": "An HA epitope tag was cloned into the extracellular region of KCNE1. Saturation mutagenesis was used to create a plasmid library of 2,592 distinct single amino acid KCNE1 variants (95.7% of total possible variants). Each plasmid was associated with a random 18-base barcode and the plasmid library was \u201csubassembled\u201d, i.e., deep sequenced to associate each barcode to its corresponding KCNE1 variant. To express one KCNE1-HA variant per cell, the library was integrated into Human Embryonic Kidney (HEK) 293T cells engineered to include a \u201clanding pad.\u201d19 The landing pad is a single promoter expression system with standardized locus expression. To determine cell surface expression, KCNE1-HA variants were expressed with or without WT KCNQ1 and the cell pool was stained with an anti-HA antibody. Cells were sorted into 4 bins based on the level of cell surface labeling, and each bin was deep sequenced to quantify variants. To determine channel function, KCNE1-HA variants were expressed with a gain-of-function KCNQ1 variant for 20 days to deplete cells with normally functioning IKs channels. The cell pool was deep sequenced at day 0, 8 and 20 to quantify variants. Each assay was conducted in triplicate, and each variant was represented by an average of 30.7 barcodes in each replicate, allowing for internal and external validation.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000674-b",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-10-21",
+    "modificationDate": "2025-10-21",
+    "publishedDate": "2025-10-21",
+    "experimentSetUrn": "urn:mavedb:00000674",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "38816749",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+      "authors": [
+       {
+        "name": "Muhammad A",
+        "primary": true
+       },
+       {
+        "name": "Calandranis ME",
+        "primary": false
+       },
+       {
+        "name": "Li B",
+        "primary": false
+       },
+       {
+        "name": "Yang T",
+        "primary": false
+       },
+       {
+        "name": "Blackwell DJ",
+        "primary": false
+       },
+       {
+        "name": "Harvey ML",
+        "primary": false
+       },
+       {
+        "name": "Smith JE",
+        "primary": false
+       },
+       {
+        "name": "Chew AE",
+        "primary": false
+       },
+       {
+        "name": "Capra JA",
+        "primary": false
+       },
+       {
+        "name": "Matreyek KA",
+        "primary": false
+       },
+       {
+        "name": "Fowler DM",
+        "primary": false
+       },
+       {
+        "name": "Roden DM",
+        "primary": false
+       },
+       {
+        "name": "Glazer AM",
+        "primary": false
+       }
+      ],
+      "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+      "doi": "10.1101/2023.04.28.538612",
+      "publicationYear": 2023,
+      "publicationJournal": "bioRxiv",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+      "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+      "id": 102
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-0870-2923",
+      "recordType": "Contributor",
+      "givenName": "Ayesha",
+      "familyName": "Muhammad"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein localization to plasma membrane",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo pool synthesis",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "Saturation mutagenesis: KCNE1-HA, was subcloned into the pIRES2-dsRED2 plasmid using PCR with ag409 and ag410 and NotI restriction digestion (NEB) to create pKCNE1-HA:pIRES2:dsRED2. All plasmid sequences were verified with Sanger sequencing. Using NotI restriction digestion, the KCNE1-HA gene was moved to an AttB plasmid containing pIRES:mCherry:BlastR to create pKCNE1-HA:IRES:mCherry:BlastR (mCherry for fluorescence and blasticidin resistance)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000674-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "38816749",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+     "authors": [
+      {
+       "name": "Muhammad A",
+       "primary": true
+      },
+      {
+       "name": "Calandranis ME",
+       "primary": false
+      },
+      {
+       "name": "Li B",
+       "primary": false
+      },
+      {
+       "name": "Yang T",
+       "primary": false
+      },
+      {
+       "name": "Blackwell DJ",
+       "primary": false
+      },
+      {
+       "name": "Harvey ML",
+       "primary": false
+      },
+      {
+       "name": "Smith JE",
+       "primary": false
+      },
+      {
+       "name": "Chew AE",
+       "primary": false
+      },
+      {
+       "name": "Capra JA",
+       "primary": false
+      },
+      {
+       "name": "Matreyek KA",
+       "primary": false
+      },
+      {
+       "name": "Fowler DM",
+       "primary": false
+      },
+      {
+       "name": "Roden DM",
+       "primary": false
+      },
+      {
+       "name": "Glazer AM",
+       "primary": false
+      }
+     ],
+     "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+     "doi": "10.1101/2023.04.28.538612",
+     "publicationYear": 2023,
+     "publicationJournal": "bioRxiv",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+     "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+     "id": 102
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2024-04-25",
+   "modificationDate": "2026-05-29",
+   "targetGenes": [
+    {
+     "name": "KCNE1",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 2802,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNTHLPETKPSP",
+      "label": "KCNE1",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "KCNE1",
+     "uniprotIdFromMappedMetadata": "P15382"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000674-c-1",
+   "title": "Trafficking scores for KCNE1 in the absence of KCNQ1",
+   "shortDescription": "This data set includes mean, standard deviation, standard error, confidence interval and trafficking category in the absence of KCNQ1.",
+   "publishedDate": "2024-04-25",
+   "replacesId": null,
+   "numVariants": 2544,
+   "experiment": {
+    "title": "Cell Surface and Functional Scores for KCNE1",
+    "shortDescription": "This study contains three multiplexed assays of KCNE1 variants",
+    "abstractText": "In this study, we generated cell surface expression scores for HA-tagged KCNE1 in HEK293T cells in the presence and absence of KCNQ1 for 2,559/2,709 variants. We also generated fitness scores for 2,534/2,709 KCNE1 variants in HEK293T cells in the presence of a gain-of-function KCNQ1 variant (S140G).",
+    "methodText": "An HA epitope tag was cloned into the extracellular region of KCNE1. Saturation mutagenesis was used to create a plasmid library of 2,592 distinct single amino acid KCNE1 variants (95.7% of total possible variants). Each plasmid was associated with a random 18-base barcode and the plasmid library was \u201csubassembled\u201d, i.e., deep sequenced to associate each barcode to its corresponding KCNE1 variant. To express one KCNE1-HA variant per cell, the library was integrated into Human Embryonic Kidney (HEK) 293T cells engineered to include a \u201clanding pad.\u201d19 The landing pad is a single promoter expression system with standardized locus expression. To determine cell surface expression, KCNE1-HA variants were expressed with or without WT KCNQ1 and the cell pool was stained with an anti-HA antibody. Cells were sorted into 4 bins based on the level of cell surface labeling, and each bin was deep sequenced to quantify variants. To determine channel function, KCNE1-HA variants were expressed with a gain-of-function KCNQ1 variant for 20 days to deplete cells with normally functioning IKs channels. The cell pool was deep sequenced at day 0, 8 and 20 to quantify variants. Each assay was conducted in triplicate, and each variant was represented by an average of 30.7 barcodes in each replicate, allowing for internal and external validation.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000674-c",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-10-21",
+    "modificationDate": "2025-10-21",
+    "publishedDate": "2025-10-21",
+    "experimentSetUrn": "urn:mavedb:00000674",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "38816749",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+      "authors": [
+       {
+        "name": "Muhammad A",
+        "primary": true
+       },
+       {
+        "name": "Calandranis ME",
+        "primary": false
+       },
+       {
+        "name": "Li B",
+        "primary": false
+       },
+       {
+        "name": "Yang T",
+        "primary": false
+       },
+       {
+        "name": "Blackwell DJ",
+        "primary": false
+       },
+       {
+        "name": "Harvey ML",
+        "primary": false
+       },
+       {
+        "name": "Smith JE",
+        "primary": false
+       },
+       {
+        "name": "Chew AE",
+        "primary": false
+       },
+       {
+        "name": "Capra JA",
+        "primary": false
+       },
+       {
+        "name": "Matreyek KA",
+        "primary": false
+       },
+       {
+        "name": "Fowler DM",
+        "primary": false
+       },
+       {
+        "name": "Roden DM",
+        "primary": false
+       },
+       {
+        "name": "Glazer AM",
+        "primary": false
+       }
+      ],
+      "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+      "doi": "10.1101/2023.04.28.538612",
+      "publicationYear": 2023,
+      "publicationJournal": "bioRxiv",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+      "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+      "id": 102
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-0870-2923",
+      "recordType": "Contributor",
+      "givenName": "Ayesha",
+      "familyName": "Muhammad"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein localization to plasma membrane",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo pool synthesis",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "Saturation mutagenesis: KCNE1-HA, was subcloned into the pIRES2-dsRED2 plasmid using PCR with ag409 and ag410 and NotI restriction digestion (NEB) to create pKCNE1-HA:pIRES2:dsRED2. All plasmid sequences were verified with Sanger sequencing. Using NotI restriction digestion, the KCNE1-HA gene was moved to an AttB plasmid containing pIRES:mCherry:BlastR to create pKCNE1-HA:IRES:mCherry:BlastR (mCherry for fluorescence and blasticidin resistance)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000674-c-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "38816749",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "High-throughput functional mapping of variants in an arrhythmia gene, ",
+     "authors": [
+      {
+       "name": "Muhammad A",
+       "primary": true
+      },
+      {
+       "name": "Calandranis ME",
+       "primary": false
+      },
+      {
+       "name": "Li B",
+       "primary": false
+      },
+      {
+       "name": "Yang T",
+       "primary": false
+      },
+      {
+       "name": "Blackwell DJ",
+       "primary": false
+      },
+      {
+       "name": "Harvey ML",
+       "primary": false
+      },
+      {
+       "name": "Smith JE",
+       "primary": false
+      },
+      {
+       "name": "Chew AE",
+       "primary": false
+      },
+      {
+       "name": "Capra JA",
+       "primary": false
+      },
+      {
+       "name": "Matreyek KA",
+       "primary": false
+      },
+      {
+       "name": "Fowler DM",
+       "primary": false
+      },
+      {
+       "name": "Roden DM",
+       "primary": false
+      },
+      {
+       "name": "Glazer AM",
+       "primary": false
+      }
+     ],
+     "abstract": "KCNE1 encodes a 129-residue cardiac potassium channel (IKs) subunit. KCNE1 variants are associated with long QT syndrome and atrial fibrillation. However, most variants have insufficient evidence of clinical consequences and thus limited clinical utility. Here, we demonstrate the power of variant effect mapping, which couples saturation mutagenesis with high-throughput sequencing, to ascertain the function of thousands of protein coding KCNE1 variants. We comprehensively assayed KCNE1 variant cell surface expression (2,554/2,709 possible single amino acid variants) and function (2,539 variants). We identified 470 loss-of-surface expression and 588 loss-of-function variants. Out of the 588 loss-of-function variants, only 155 had low cell surface expression. The latter half of the protein is dispensable for protein trafficking but essential for channel function. 22 of the 30 KCNE1 residues (73%) highly intolerant of variation were in predicted close contact with binding partners KCNQ1 or calmodulin. Our data were highly concordant with gold standard electrophysiological data (\u03c1 = -0.65), population and patient cohorts (32/38 concordant variants), and computational metrics (\u03c1 = -0.55). Our data provide moderate-strength evidence for the ACMG/AMP functional criteria for benign and pathogenic variants. Comprehensive variant effect maps of KCNE1 can both provide insight into IKs channel biology and help reclassify variants of uncertain significance.",
+     "doi": "10.1101/2023.04.28.538612",
+     "publicationYear": 2023,
+     "publicationJournal": "bioRxiv",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/37162834/",
+     "referenceHtml": "Muhammad A, <i>et al</i>. High-throughput functional mapping of variants in an arrhythmia gene, . bioRxiv. 2023; (Unknown volume):(Unknown pages). 10.1101/2023.04.28.538612",
+     "id": 102
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2024-04-25",
+   "modificationDate": "2026-05-29",
+   "targetGenes": [
+    {
+     "name": "KCNE1",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 2805,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MILSNTTAVTPFLTKLWQETVQQGGNMSGLARRSPRSGDGKLEALYVLMVLGFFGFFTLGIMLSYIRSKKLEHSNDPFNVYIESDAWQEKDKAYVQARVLESYRSCYVVENHLAIEQPNTHLPETKPSP",
+      "label": "KCNE1",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "KCNE1",
+     "uniprotIdFromMappedMetadata": "P15382"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000094-a-15",
+   "title": "Normalized currents of 62 KCNQ1 missense SNVs in the homozygous state.",
+   "shortDescription": "13. Normalized currents of 62 KCNQ1 missense SNVs in the homozygous state.",
+   "publishedDate": "2022-06-17",
+   "replacesId": null,
+   "numVariants": 62,
+   "experiment": {
+    "title": "Proactive functional classification of all possible missense single-nucleotide variants in KCNQ4",
+    "shortDescription": "Proactive functional classification of all possible missense single-nucleotide variants in KCNQ4",
+    "abstractText": "Clinical exome sequencing has yielded extensive disease-related missense single-nucleotide variants (SNVs) with uncertain significance, leading to diagnostic uncertainty. KCNQ4 is one of the most commonly responsible genes for autosomal dominant non-syndromic hearing loss. According to the gnomAD cohort, approximately 1 in 100 people harbor missense variants in KCNQ4 (only variants with minor allele frequency < 0.1% were included), but most are of unknown consequence. To prospectively characterize the function of all 4,085 possible missense SNVs of human KCNQ4, we recorded the whole-cell currents using patch-clamp and categorized 1,059 missense SNVs as loss-of-function. Further, to mimic the heterozygous condition in DFNA2 (Deafness non-syndromic autosomal dominant 2) patients, we co-expressed 1,059 loss-of-function variants with wild-type KCNQ4, of which 501 variants exerted dominant-negative effects. Our functional classification is highly concordant with the auditory phenotypes in Kcnq4 mutant mice and the assessments of pathogenicity in clinical variant interpretations. Taken together, our results can provide functional evidence to support the pathogenicity classification of newly discovered KCNQ4 missense variants in clinical genetic testing.",
+    "methodText": "Whole-cell current amplitude scores at +40 mV for all missense SNVs of KCNQ4 were normalized by whole-cell current of WT KCNQ4 at +40 mV.  Only variants that contained at least three replicates are included. Variants with whole-cell current amplitude score less than 0.54 were classified as current-reduced variants. Variants with whole-cell current amplitude score more than 2.08 were classified as current-increased variants.\r\nContinuous curves were generated by plotting the normalized tail current against membrane potentials using the Boltzmann function I/Imax = 1/(1+ (exp(V1/2-Vm)k)), where I is the magnitude of the tail current, Imax is the maximum current magnitude, V1/2 is the half-activation voltage, Vm is the membrane potential, and k = RT/zF is the slope factor. Only variants that contained at least three replicates are included. Variants with shifted V1/2 more than +10 mV were classified as LOF. Variants with shifted V1/2 more than -10 mV were classified as GOF.\r\nThen  to mimic the effect of KCNQ4 variants in heterozygous DFNA2 patients and determine the dominant-negative effects, 1,059 LOF mutants and 114 GOF mutants were co-transfected with wild-type KCNQ4.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000094-a",
+    "createdBy": {
+     "orcidId": "0000-0002-6394-7715",
+     "firstName": "Xinhao",
+     "lastName": "Yan",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2022-02-22",
+    "modificationDate": "2025-09-22",
+    "publishedDate": "2022-06-17",
+    "experimentSetUrn": "urn:mavedb:00000094",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "35760561",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Proactive functional classification of all possible missense single-nucleotide variants in ",
+      "authors": [
+       {
+        "name": "Zheng H",
+        "primary": true
+       },
+       {
+        "name": "Yan X",
+        "primary": false
+       },
+       {
+        "name": "Li G",
+        "primary": false
+       },
+       {
+        "name": "Lin H",
+        "primary": false
+       },
+       {
+        "name": "Deng S",
+        "primary": false
+       },
+       {
+        "name": "Zhuang W",
+        "primary": false
+       },
+       {
+        "name": "Yao F",
+        "primary": false
+       },
+       {
+        "name": "Lu Y",
+        "primary": false
+       },
+       {
+        "name": "Xia X",
+        "primary": false
+       },
+       {
+        "name": "Yuan H",
+        "primary": false
+       },
+       {
+        "name": "Jin L",
+        "primary": false
+       },
+       {
+        "name": "Yan Z",
+        "primary": false
+       }
+      ],
+      "abstract": "Clinical exome sequencing has yielded extensive disease-related missense single-nucleotide variants (SNVs) of uncertain significance, leading to diagnostic uncertainty. KCNQ4 is one of the most commonly responsible genes for autosomal dominant nonsyndromic hearing loss. According to the gnomAD cohort, approximately one in 100 people harbors missense variants in KCNQ4 (missense variants with minor allele frequency > 0.1% were excluded), but most are of unknown consequence. To prospectively characterize the function of all 4085 possible missense SNVs of human KCNQ4, we recorded the whole-cell currents using the patch-clamp technique and categorized 1068 missense SNVs as loss of function, as well as 728 loss-of-function SNVs located in the transmembrane domains. Further, to mimic the heterozygous condition in Deafness nonsyndromic autosomal dominant 2 (DFNA2) patients caused by KCNQ4 variants, we coexpressed loss-of-function variants with wild-type KCNQ4 and found 516 variants showed impaired or only partially rescued heterogeneous channel function. Overall, our functional classification is highly concordant with the auditory phenotypes in Kcnq4 mutant mice and the assessments of pathogenicity in clinical variant interpretations. Taken together, our results provide strong functional evidence to support the pathogenicity classification of newly discovered KCNQ4 missense variants in clinical genetic testing.",
+      "doi": "10.1101/gr.276562.122",
+      "publicationYear": 2022,
+      "publicationJournal": "Genome Res",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/35760561",
+      "referenceHtml": "Zheng H, <i>et al</i>. Proactive functional classification of all possible missense single-nucleotide variants in . Genome Res. 2022; 32:1573-1584. 10.1101/gr.276562.122",
+      "id": 144
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Direct protein function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": "Lipofectamine 3000",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "WT KCNQ4 and variants used in patch-clamp recordings were fused with EGFP at the C terminus as a transfection marker. A modified c-Myc tag was inserted in the extracellular domain of the KCNQ4 channel. For the cotransfection experiment, EGFP was substituted with mCherry by a homologous recombination method and verified by Sanger sequencing. Additionally, full-length. cDNAs encoding WT KCNQ4 were also engineered in the vector pIRES2-EGFP as a control. Point-mutated plasmids were constructed based on PCR and homologous recombination and were Sanger sequenced to confirm that the mutation site was included and no other mutations were introduced.",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Gain or loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Cricetulus griseus (NCBI:txid10029)",
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000094-a-1",
+     "urn:mavedb:00000094-a-10",
+     "urn:mavedb:00000094-a-11",
+     "urn:mavedb:00000094-a-12",
+     "urn:mavedb:00000094-a-13",
+     "urn:mavedb:00000094-a-15",
+     "urn:mavedb:00000094-a-2",
+     "urn:mavedb:00000094-a-3",
+     "urn:mavedb:00000094-a-4",
+     "urn:mavedb:00000094-a-5",
+     "urn:mavedb:00000094-a-6",
+     "urn:mavedb:00000094-a-7",
+     "urn:mavedb:00000094-a-8",
+     "urn:mavedb:00000094-a-9"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 14,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2022-06-16",
+   "modificationDate": "2026-07-15",
+   "targetGenes": [
+    {
+     "name": "KCNQ1",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 305,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MAAASSPPRAERKRWGWGRLPGARRGSAGLAKKCPFSLELAEGGPAGGALYAPIAPGAPGPAPPASPAAPAAPPVASDLGPRPPVSLDPRVSIYSTRRPVLARTHVQGRVYNFLERPTGWKCFVYHFAVFLIVLVCLIFSVLSTIEQYAALATGTLFWMEIVLVVFFGTEYVVRLWSAGCRSKYVGLWGRLRFARKPISIIDLIVVVASMVVLCVGSKGQVFATSAIRGIRFLQILRMLHVDRQGGTWRLLGSVVFIHRQELITTLYIGFLGLIFSSYFVYLAEKDAVNESGRVEFGSYADALWWGVVTVTTIGYGDKVPQTWVGKTIASCFSVFAISFFALPAGILGSGFALKVQQKQRQKHFNRQIPAAASLIQTAWRCYAAENPDSSTWKIYIRKAPRSHTLLSPSPKPKKSVVVKKKKFKLDKDNGVTPGEKMLTVPHITCDPPEERRLDHFSVDGYDSSVRKSPTLLEVSMPHFMRTNSFAEDLDLEGETLLTPITHISQLREHHRATIKVIRRMQYFVAKKKFQQARKPYDVRDVIEQYSQGHLNLMVRIKELQRRLDQSIGKPSLFISVSEKSKDRGSNTIGARLNRVEDKVTQLDQRLALITDMLHQLLSLHGGSTPGSGGPPREGGAHITQPCGSGGSVDPELFLPSNTLPTYEQLTVPRRGPDEGS",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "KCNQ1",
+     "uniprotIdFromMappedMetadata": "P51787"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 4
+}

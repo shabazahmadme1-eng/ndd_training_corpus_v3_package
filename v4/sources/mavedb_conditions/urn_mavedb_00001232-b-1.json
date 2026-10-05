@@ -1,0 +1,244 @@
+{
+  "title": "Scores from saturation prime editing of NCP1 in locally haploidized RPE1 cells",
+  "methodText": "Function scores for _NPC1_ variants were calculated by measuring the log-fold-change of variant representation between low-fluorescence and high-fluorescence gated populations after LysoTracker staining. This was computed as log2(frequency_high/frequency_low) for each variant detected in the sequencing data. The wild-type sequencing read log-fold-change value was subtracted from each score to center the distribution and account for technical variation. These values were then normalized by dividing by the average score of nonsense mutations included as internal controls in each library, multiplied by -1, and increased by 1, resulting in a scale where functional variants approximated 1 and deleterious variants approximated 0, according to the formula: final_score = 1 - (raw_score/mean_nonsense_score). Variants with extremely low read counts at scaffold-proximal positions (1-4 nucleotides or 3-12 variants) were excluded from analysis due to spurious log-fold-changes between replicates.",
+  "abstractText": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (_NPC1_), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that _NPC1_ is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the _BRCA2_ gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+  "shortDescription": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells as assessed by a fluorescence-based lysosome accumulation assay",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00001232-b-1",
+  "numVariants": 84,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "35190686",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Saturation variant interpretation using CRISPR prime editing.",
+      "authors": [
+        {
+          "name": "Erwood S",
+          "primary": true
+        },
+        {
+          "name": "Bily TMI",
+          "primary": false
+        },
+        {
+          "name": "Lequyer J",
+          "primary": false
+        },
+        {
+          "name": "Yan J",
+          "primary": false
+        },
+        {
+          "name": "Gulati N",
+          "primary": false
+        },
+        {
+          "name": "Brewer RA",
+          "primary": false
+        },
+        {
+          "name": "Zhou L",
+          "primary": false
+        },
+        {
+          "name": "Pelletier L",
+          "primary": false
+        },
+        {
+          "name": "Ivakine EA",
+          "primary": false
+        },
+        {
+          "name": "Cohn RD",
+          "primary": false
+        }
+      ],
+      "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+      "doi": "10.1038/s41587-021-01201-1",
+      "publicationYear": 2022,
+      "publicationJournal": "Nat Biotechnol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+      "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+      "id": 114
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2025-05-08",
+  "creationDate": "2025-05-07",
+  "modificationDate": "2025-06-18",
+  "createdBy": {
+    "orcidId": "0000-0002-7565-2463",
+    "firstName": "Jeremy",
+    "lastName": "Stone",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-7565-2463",
+    "firstName": "Jeremy",
+    "lastName": "Stone",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "ENST00000269228.10",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 7519,
+      "recordType": "TargetGene",
+      "targetAccession": {
+        "accession": "ENST00000269228.10",
+        "isBaseEditor": false,
+        "assembly": "GRCh38",
+        "gene": "NPC1",
+        "recordType": "TargetAccession"
+      }
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [
+    {
+      "orcidId": "0000-0001-7187-7975",
+      "recordType": "Contributor",
+      "givenName": "Abbye Elizabeth",
+      "familyName": "McEwen"
+    },
+    {
+      "orcidId": "0000-0001-5356-1977",
+      "recordType": "Contributor",
+      "givenName": "Malvika",
+      "familyName": "Tejura"
+    }
+  ],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells",
+    "shortDescription": "Saturation prime editing of NCP1 in locally haploidized RPE1 cells as assessed by a fluorescence-based lysosome accumulation assay",
+    "abstractText": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (_NPC1_), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that _NPC1_ is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the _BRCA2_ gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+    "methodText": "An _NPC1_ haploidized RPE1 cell line was generated by deleting specific regions of two _NPC1_ alleles using CRISPR-Cas9, allowing variant assessment in isolation. Saturation Prime Editing was used to introduce variants into _NPC1_.  Cells were then sorted cells into high/low LysoTracker fluorescence gates (reflecting lysosomal accumulation) 10 days post-transfection. Genomic DNA from both populations was amplified and sequenced using Illumina NextSeq 500/MiSeq to determine variant frequency in both the high and low populations.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001232-b",
+    "createdBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001232",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "35190686",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Saturation variant interpretation using CRISPR prime editing.",
+        "authors": [
+          {
+            "name": "Erwood S",
+            "primary": true
+          },
+          {
+            "name": "Bily TMI",
+            "primary": false
+          },
+          {
+            "name": "Lequyer J",
+            "primary": false
+          },
+          {
+            "name": "Yan J",
+            "primary": false
+          },
+          {
+            "name": "Gulati N",
+            "primary": false
+          },
+          {
+            "name": "Brewer RA",
+            "primary": false
+          },
+          {
+            "name": "Zhou L",
+            "primary": false
+          },
+          {
+            "name": "Pelletier L",
+            "primary": false
+          },
+          {
+            "name": "Ivakine EA",
+            "primary": false
+          },
+          {
+            "name": "Cohn RD",
+            "primary": false
+          }
+        ],
+        "abstract": "High-throughput functional characterization of genetic variants in their endogenous locus has so far been possible only with methods that rely on homology-directed repair, which are limited by low editing efficiencies. Here, we adapted CRISPR prime editing for high-throughput variant classification and combined it with a strategy that allows for haploidization of any locus, which simplifies variant interpretation. We demonstrate the utility of saturation prime editing (SPE) by applying it to the NPC intracellular cholesterol transporter 1 gene (NPC1), mutations in which cause the lysosomal storage disorder Niemann-Pick disease type C. Our data suggest that NPC1 is very sensitive to genetic perturbation, with 410 of 706 assayed missense mutations being classified as deleterious, and that the derived function score of variants is reflective of diverse molecular defects. We further applied our approach to the BRCA2 gene, demonstrating that SPE is translatable to other genes with an appropriate cellular assay. In sum, we show that SPE allows for efficient, accurate functional characterization of genetic variants.",
+        "doi": "10.1038/s41587-021-01201-1",
+        "publicationYear": 2022,
+        "publicationJournal": "Nat Biotechnol",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/35190686",
+        "referenceHtml": "Erwood S, <i>et al</i>. Saturation variant interpretation using CRISPR prime editing. Nat Biotechnol. 2022; 40:885-895. 10.1038/s41587-021-01201-1",
+        "id": 114
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+      {
+        "orcidId": "0000-0001-7187-7975",
+        "recordType": "Contributor",
+        "givenName": "Abbye Elizabeth",
+        "familyName": "McEwen"
+      },
+      {
+        "orcidId": "0000-0001-5356-1977",
+        "recordType": "Contributor",
+        "givenName": "Malvika",
+        "familyName": "Tejura"
+      }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00001232-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

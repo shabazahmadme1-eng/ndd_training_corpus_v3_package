@@ -1,0 +1,8 @@
+{
+  "gene": "INSR__9606__0e665f54d93e",
+  "source": "mavedb_expansion\\staged_structures\\P06213.pdb",
+  "chain": null,
+  "confidence": "plddt",
+  "exact_subsequence_crop_allowed": true,
+  "conformers": 1
+}

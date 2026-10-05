@@ -1,0 +1,58 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.15252/msb.20177908\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "29269382",
+        "source": "MED",
+        "pmid": "29269382",
+        "pmcid": "PMC5740498",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5740498"
+          ]
+        },
+        "doi": "10.15252/msb.20177908",
+        "title": "A framework for exhaustively mapping functional missense variants.",
+        "authorString": "Weile J, Sun S, Cote AG, Knapp J, Verby M, Mellor JC, Wu Y, Pons C, Wong C, van Lieshout N, Yang F, Tasan M, Tan G, Yang S, Fowler DM, Nussbaum R, Bloom JD, Vidal M, Hill DE, Aloy P, Roth FP.",
+        "journalTitle": "Mol Syst Biol",
+        "issue": "12",
+        "journalVolume": "13",
+        "pubYear": "2017",
+        "journalIssn": "1744-4292",
+        "pageInfo": "957",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 214,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2017-12-21",
+        "firstIndexDate": "2017-12-23"
+      }
+    ]
+  }
+}

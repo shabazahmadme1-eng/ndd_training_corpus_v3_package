@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.celrep.2016.09.061\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27760319",
+        "source": "MED",
+        "pmid": "27760319",
+        "pmcid": "PMC5120861",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5120861"
+          ]
+        },
+        "doi": "10.1016/j.celrep.2016.09.061",
+        "title": "Phenotypic Characterization of a Comprehensive Set of MAPK1/ERK2 Missense Mutants.",
+        "authorString": "Brenan L, Andreev A, Cohen O, Pantel S, Kamburov A, Cacchiarelli D, Persky NS, Zhu C, Bagul M, Goetz EM, Burgin AB, Garraway LA, Getz G, Mikkelsen TS, Piccioni F, Root DE, Johannessen CM.",
+        "journalTitle": "Cell Rep",
+        "issue": "4",
+        "journalVolume": "17",
+        "pubYear": "2016",
+        "journalIssn": "2211-1247",
+        "pageInfo": "1171-1183",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 145,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2016-10-01",
+        "firstIndexDate": "2016-10-27"
+      }
+    ]
+  }
+}

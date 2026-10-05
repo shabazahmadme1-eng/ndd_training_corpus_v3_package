@@ -1,0 +1,84 @@
+key,gene,tasks,n_tasks,n_sets,total_variants,in_corpus_sets,gene_in_corpus
+P40238,S505N MPL,"['abundance', 'activity', 'binding', 'fitness']",4,24,16763,0,True
+P01116,KRAS,"['abundance', 'binding', 'stability']",3,28,199665,0,True
+P06213,INSR,"['abundance', 'activity', 'binding']",3,7,133700,0,False
+SARS-COV-2 PLPRO,SARS-COV-2 PLPRO,"['abundance', 'activity', 'fitness']",3,22,66475,0,False
+P11413,G6PD,"['abundance', 'activity', 'fitness']",3,4,39998,0,False
+P06241,FYN SH3 DOMAIN,"['abundance', 'activity', 'stability']",3,19,26403,1,False
+P06239,LCK,"['abundance', 'activity', 'stability']",3,4,8190,1,True
+Q06187,BTK,"['abundance', 'activity', 'stability']",3,4,7196,1,True
+Q16512,PKN1,"['abundance', 'activity', 'stability']",3,4,5898,1,True
+P78352,DLG4 PDZ DOMAIN,"['abundance', 'fitness']",2,5,654700,3,False
+P07751,SPTAN1 (F47A),"['abundance', 'stability']",2,39,67831,0,True
+P06654,SPG (A27S),"['binding', 'stability']",2,39,58557,0,False
+P19909,SPG (A27K),"['binding', 'stability']",2,36,55845,0,False
+Q8VZS8,ABSCISIC ACID RECEPTOR PYL1,"['abundance', 'activity']",2,14,49355,0,False
+P04637,TP53,"['activity', 'fitness']",2,12,46250,0,True
+ADSL,ADSL,"['activity', 'fitness']",2,5,45789,2,True
+P37840,ALPHA-SYNUCLEIN,"['abundance', 'fitness']",2,16,44800,0,False
+P42081,CD86,"['abundance', 'fitness']",2,3,44342,0,False
+P38398,BRCA1,"['activity', 'binding']",2,7,41472,0,True
+O60260,PRKN,"['abundance', 'activity']",2,4,37233,0,True
+P01130,LDLR,"['abundance', 'activity']",2,2,34186,0,False
+P49815,TSC2,"['abundance', 'activity']",2,4,30128,0,False
+P60484,PTEN,"['abundance', 'activity']",2,4,23081,0,True
+P61073,CXCR4,"['abundance', 'binding']",2,3,21063,0,False
+P51681,CCR5,"['abundance', 'binding']",2,3,21060,0,True
+P00523,SRC,"['activity', 'stability']",2,12,20421,0,True
+PALB2,PALB2,"['activity', 'fitness']",2,3,20130,0,False
+P35557,GCK,"['abundance', 'activity']",2,2,18563,0,True
+P02640,VIL1,"['abundance', 'stability']",2,10,18244,0,True
+Q9ULT8,"HECTD1 FKBP3, BASIC TILTED HELIX BUNDLE DOMAIN","['abundance', 'stability']",2,3,17639,1,True
+O14776,TCERG1 FF DOMAIN,"['abundance', 'stability']",2,17,16933,5,False
+Q13882,PTK6 SH3 DOMAIN,"['activity', 'stability']",2,3,16074,0,False
+Q05876,FYN,"['activity', 'stability']",2,9,13350,0,True
+P02417,RPLI (K12M),"['abundance', 'stability']",2,13,13261,0,False
+P0A9X9,"CSPA COLD-SHOCK PROTEIN, DNA-BINDING DOMAIN","['abundance', 'stability']",2,9,13235,0,False
+Q13813,SPTAN1 (A10S),"['abundance', 'stability']",2,9,12569,1,True
+Q13526,PIN1 (S16E MUTANT),"['abundance', 'stability']",2,13,12245,1,True
+P24604,TEC,"['activity', 'stability']",2,3,12171,0,False
+P40040,THO1 SAP DOMAIN,"['abundance', 'stability']",2,7,11477,0,False
+O95155,UBE4B,"['abundance', 'stability']",2,3,11465,1,True
+P32081,"CSPB COLD-SHOCK PROTEIN, DNA-BINDING DOMAIN","['abundance', 'stability']",2,7,10897,0,False
+P38507,SPA,"['binding', 'stability']",2,6,10593,0,False
+P11961,PDHC PERIPHERAL SUBUNIT-BINDING DOMAIN,"['abundance', 'stability']",2,9,10569,0,False
+O75400,PRPF40A FF DOMAIN,"['abundance', 'stability']",2,7,10139,5,True
+O15259,NPHP1 (F13S),"['abundance', 'stability']",2,7,9725,1,True
+Q9NV35,NUDT15,"['abundance', 'activity']",2,3,9215,0,True
+P20936,RASA1 SH3 DOMAIN,"['abundance', 'stability']",2,3,8685,1,True
+P07948,LYN,"['activity', 'stability']",2,3,8247,0,False
+P39476,SSO7D,"['binding', 'stability']",2,6,8214,0,False
+P02943,LAMB,"['activity', 'fitness']",2,2,8046,0,False
+ENST00000396946.9,ENST00000396946.9,"['activity', 'fitness']",2,2,7656,0,False
+P0ABV2,EXBD,"['activity', 'stability']",2,3,7578,0,False
+Q9LW00,MBD11,"['binding', 'stability']",2,3,7575,0,False
+P08631,HCK,"['activity', 'stability']",2,3,7152,0,True
+P00441,SOD1,"['abundance', 'activity']",2,2,5816,0,False
+Q9Y5K6,CD2AP (PROSS9),"['abundance', 'stability']",2,5,5669,3,False
+Q96J02,ITCH,"['abundance', 'stability']",2,4,5612,2,True
+Q54HC2,CALCIUM-BINDING EF-HAND DOMAIN-CONTAINING PROTEIN,"['binding', 'stability']",2,3,5517,0,False
+Q13501,"SQSTM1 SEQUESTOSOME-1, UBA DOMAIN","['abundance', 'stability']",2,4,5420,2,True
+U14UB1,U14UB1,"['binding', 'stability']",2,3,5406,0,False
+A0A066R7V5,YAJR,"['activity', 'stability']",2,3,5304,0,False
+Q9BUJ2,HNRNPUL1 SAP DOMAIN,"['abundance', 'stability']",2,3,5061,1,True
+P12931,SRC CATALYTIC DOMAIN,"['abundance', 'activity']",2,3,5007,1,False
+O54790,MAFG DNA-BINDING DOMAIN,"['binding', 'stability']",2,3,4809,0,False
+Q9H161,ALX4 HOMEOBOX DOMAIN,"['abundance', 'stability']",2,3,4573,1,True
+Q15311,RALBP1,"['binding', 'stability']",2,3,4515,0,True
+Q6H8Q1,ABLIM2 (R14S;R16S),"['binding', 'stability']",2,3,4371,0,False
+P35670,ATP7B,"['activity', 'stability']",2,3,4332,0,False
+P04049,RAF1 RAF-LIKE RAS-BINDING DOMAIN,"['abundance', 'binding']",2,10,4103,1,False
+O94993,SOX30 HIGH MOBILITY GROUP BOX DOMAIN,"['abundance', 'stability']",2,3,3851,1,True
+Q9H0M0,WWP1,"['abundance', 'stability']",2,3,3789,1,True
+Q16637,SMN TUDOR DOMAIN,"['fitness', 'stability']",2,3,3777,0,False
+Q7Z6Z7,HUWE1,"['abundance', 'stability']",2,3,3769,1,True
+P61991,SSO7A1; SSO7A2,"['binding', 'stability']",2,3,3642,0,False
+O60861,GAS7,"['fitness', 'stability']",2,3,3576,0,False
+P17480,UBTF HIGH MOBILITY GROUP BOX DOMAIN,"['abundance', 'stability']",2,3,3405,1,True
+P02976,SPA,"['binding', 'stability']",2,3,3309,0,False
+P0CG63,UBIQUITIN,"['binding', 'fitness']",2,4,3244,0,False
+P46934,NEDD4,"['abundance', 'stability']",2,3,3201,1,True
+Q13148,"TARDBP TAR DNA-BINDING PROTEIN 43, N-TERMINAL DOMAIN","['abundance', 'fitness']",2,3,2859,1,True
+O95704,APBB3,"['binding', 'stability']",2,3,1770,0,False
+H7C560,BRAF RAF-LIKE RAS-BINDING DOMAIN,"['abundance', 'fitness']",2,2,1594,1,True
+Q14524,SCN5A,"['activity', 'fitness']",2,2,301,0,True

@@ -1,0 +1,26 @@
+key,gene,tasks,sets,taxon,in_corpus,gene_in_corpus
+O60260,PRKN,"['abundance', 'activity']",4,human,0,True
+P00441,SOD1,"['abundance', 'activity']",2,human,0,False
+P01116,KRAS,"['abundance', 'binding', 'stability']",28,human,0,True
+P01130,LDLR,"['abundance', 'activity']",2,human,0,False
+P04049,RAF1 RAF-LIKE RAS-BINDING DOMAIN,"['abundance', 'binding']",10,human,1,False
+P06213,INSR,"['abundance', 'activity', 'binding']",7,human,0,False
+P06239,LCK,"['abundance', 'activity', 'stability']",4,human,1,True
+P06241,FYN SH3 DOMAIN,"['abundance', 'activity', 'stability']",19,human,1,False
+P11413,G6PD,"['abundance', 'activity', 'fitness']",4,human,0,False
+P12931,SRC CATALYTIC DOMAIN,"['abundance', 'activity']",3,human,1,False
+P35557,GCK,"['abundance', 'activity']",2,human,0,True
+P37840,ALPHA-SYNUCLEIN,"['abundance', 'fitness']",16,human,0,False
+P40238,S505N MPL,"['abundance', 'activity', 'binding', 'fitness']",13,human,0,True
+P42081,CD86,"['abundance', 'fitness']",3,human,0,False
+P49815,TSC2,"['abundance', 'activity']",4,human,0,False
+P51681,CCR5,"['abundance', 'binding']",3,human,0,True
+P60484,PTEN,"['abundance', 'activity']",4,human,0,True
+P61073,CXCR4,"['abundance', 'binding']",3,human,0,False
+P78352,DLG4 PDZ DOMAIN,"['abundance', 'fitness']",5,human,3,False
+Q06187,BTK,"['abundance', 'activity', 'stability']",4,human,1,True
+Q13148,"TARDBP TAR DNA-BINDING PROTEIN 43, N-TERMINAL DOMAIN","['abundance', 'fitness']",3,human,1,True
+Q16512,PKN1,"['abundance', 'activity', 'stability']",4,human,1,True
+Q8VZS8,ABSCISIC ACID RECEPTOR PYL1,"['abundance', 'activity']",14,thale cress,0,False
+Q9NV35,NUDT15,"['abundance', 'activity']",3,human,0,True
+SARS-COV-2 PLPRO,SARS-COV-2 PLPRO,"['abundance', 'activity', 'fitness']",19,,0,False

@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2022.05.04.490571\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR488761",
+        "source": "PPR",
+        "doi": "10.1101/2022.05.04.490571",
+        "title": "A comprehensive map of human glucokinase variant activity",
+        "authorString": "Gersing S, Cagiada M, Gebbia M, Gjesing AP, Cot\u00e9 AG, Seesankar G, Li R, Tabet D, Stein A, Gloyn AL, Hansen T, Roth FP, Lindorff-Larsen K, Hartmann-Petersen R.",
+        "pubYear": "2022",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2022
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-05-05",
+        "firstIndexDate": "2022-05-06"
+      }
+    ]
+  }
+}

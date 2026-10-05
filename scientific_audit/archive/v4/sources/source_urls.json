@@ -1,0 +1,6 @@
+{
+  "proteingym_v1.3.zip": "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip",
+  "panelapp_285.json": "https://panelapp.genomicsengland.co.uk/api/v1/panels/285/",
+  "mavedb_openapi.json": "https://api.mavedb.org/openapi.json",
+  "proteingym_reference.csv": "https://raw.githubusercontent.com/OATML-Markslab/ProteinGym/main/reference_files/DMS_substitutions.csv"
+}

@@ -1,0 +1,45 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1182/blood.2019002561\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31697803",
+        "source": "MED",
+        "pmid": "31697803",
+        "doi": "10.1182/blood.2019002561",
+        "title": "Novel drivers and modifiers of MPL-dependent oncogenic transformation identified by deep mutational scanning.",
+        "authorString": "Bridgford JL, Lee SM, Lee CMM, Guglielmelli P, Rumi E, Pietra D, Wilcox S, Chhabra Y, Rubin AF, Cazzola M, Vannucchi AM, Brooks AJ, Call ME, Call MJ.",
+        "journalTitle": "Blood",
+        "issue": "4",
+        "journalVolume": "135",
+        "pubYear": "2020",
+        "journalIssn": "0006-4971; 1528-0020; ",
+        "pageInfo": "287-292",
+        "pubType": "research support, non-u.s. gov't; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 45,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2020-01-01",
+        "firstIndexDate": "2019-11-08"
+      }
+    ]
+  }
+}

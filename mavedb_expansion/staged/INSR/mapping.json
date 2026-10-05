@@ -1,0 +1,38 @@
+{
+ "gene": "INSR",
+ "uniprot": "P06213",
+ "role": "contrast",
+ "shared_missense": 14060,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00001239-a-3",
+   "title": "mAb 83-14 Binding Assay",
+   "license": "CC0",
+   "n_variants": 19100,
+   "heuristic_task": "binding",
+   "mapped_missense": 14063,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 955,
+   "experiment_urn": "urn:mavedb:00001239-a",
+   "experiment_title": "Deep mutational scanning of the human insulin receptor ectodomain",
+   "experiment_method": "Variants were generated using nicking mutagenesis and uniquely barcoded. The library was stably transfected into MEF cells, ensuring that each cell expressed a single variant. For surface expression analysis, cells were stained with two different fluorescently labeled monoclonal anti-human receptor antibodies and sorted into four bins based on fluorescence intensity. Genomic DNA was then extracted from each bin, and the barcode region was amplified and sequenced using Illumina technology. A functional score for each variant was calculated using a predefined scoring equation.\nThis pipeline was also applied using fluorescently labelled insulin to assess ligand binding. To evaluate signalling, cells were stimulated with either insulin or one of two different antibodies, and pAKT phosphorylati This study examines the impact of missense variants in the human insulin receptor ectodomain on receptor function. The receptor variants were expressed in mouse embryonic fibroblasts. We quantified receptor expression levels using two distinct monoclonal antibodies targeting different epitopes to ensure accurate assessment of surface expression. To evaluate the effect of the variants on ligand bin",
+   "published": "2025-05-29"
+  },
+  {
+   "urn": "urn:mavedb:00001239-a-7",
+   "title": "Cell Surface Expression Assay",
+   "license": "CC0",
+   "n_variants": 19100,
+   "heuristic_task": "abundance",
+   "mapped_missense": 14189,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 955,
+   "experiment_urn": "urn:mavedb:00001239-a",
+   "experiment_title": "Deep mutational scanning of the human insulin receptor ectodomain",
+   "experiment_method": "Variants were generated using nicking mutagenesis and uniquely barcoded. The library was stably transfected into MEF cells, ensuring that each cell expressed a single variant. For surface expression analysis, cells were stained with two different fluorescently labeled monoclonal anti-human receptor antibodies and sorted into four bins based on fluorescence intensity. Genomic DNA was then extracted from each bin, and the barcode region was amplified and sequenced using Illumina technology. A functional score for each variant was calculated using a predefined scoring equation.\nThis pipeline was also applied using fluorescently labelled insulin to assess ligand binding. To evaluate signalling, cells were stimulated with either insulin or one of two different antibodies, and pAKT phosphorylati This study examines the impact of missense variants in the human insulin receptor ectodomain on receptor function. The receptor variants were expressed in mouse embryonic fibroblasts. We quantified receptor expression levels using two distinct monoclonal antibodies targeting different epitopes to ensure accurate assessment of surface expression. To evaluate the effect of the variants on ligand bin",
+   "published": "2025-05-29"
+  }
+ ]
+}

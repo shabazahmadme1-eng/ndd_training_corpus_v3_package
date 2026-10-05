@@ -1,0 +1,1121 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001259-a-2",
+   "title": "Saturation Genome Editing of PALB2 scores",
+   "shortDescription": "We used saturation genome editing to measure the effect of SNVs and 3-base pair deletions on PALB2-dependent HAP1 cell survival.",
+   "publishedDate": "2026-06-08",
+   "replacesId": null,
+   "numVariants": 12851,
+   "experiment": {
+    "title": "Saturation Genome Editing of PALB2",
+    "shortDescription": "We used saturation genome editing to measure the effect of SNVs and 3-base pair deletions on PALB2-dependent HAP1 cell survival.",
+    "abstractText": "We applied Saturation Genome Editing (SGE) to assess SNVs and in-frame deletions for their effect on cell survival and RNA expression.",
+    "methodText": "Functional scores were calculated by applying a negative binomial regression model to variant counts across all sampled time points and replicates. Variants near 0 represent no change, loss of function variants have progressively more negative scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001259-a",
+    "createdBy": {
+     "orcidId": "0009-0007-5494-7477",
+     "firstName": "Nahum",
+     "lastName": "Smith",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0009-0007-5494-7477",
+     "firstName": "Nahum",
+     "lastName": "Smith",
+     "recordType": "User"
+    },
+    "creationDate": "2025-10-31",
+    "modificationDate": "2026-01-10",
+    "publishedDate": "2026-01-10",
+    "experimentSetUrn": "urn:mavedb:00001259",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-7433-4343",
+      "recordType": "Contributor",
+      "givenName": "Matthew",
+      "familyName": "Snyder"
+     },
+     {
+      "orcidId": "0000-0003-2870-5099",
+      "recordType": "Contributor",
+      "givenName": "Lea",
+      "familyName": "Starita"
+     },
+     {
+      "orcidId": "0000-0003-2619-5662",
+      "recordType": "Contributor",
+      "givenName": "Silvia",
+      "familyName": "Casadei"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell proliferation assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001259-a-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-06-02",
+   "modificationDate": "2026-06-08",
+   "targetGenes": [
+    {
+     "name": "PALB2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8191,
+     "recordType": "ShortTargetGene",
+     "targetSequence": null,
+     "targetAccession": {
+      "accession": "NM_024675.4",
+      "isBaseEditor": false,
+      "assembly": "GRCh38",
+      "gene": null,
+      "recordType": "SavedTargetAccession"
+     },
+     "mappedHgncName": "PALB2",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001278-b-1",
+   "title": "SGE Functional scores of PALB2 variants in exon 10",
+   "shortDescription": "Saturation genome editing of PALB2 exon 10 in haploid HAP1 cells",
+   "publishedDate": "2026-07-29",
+   "replacesId": null,
+   "numVariants": 179,
+   "experiment": {
+    "title": "Saturation genome editing of PALB2 exon 10 in haploid HAP1 cells",
+    "shortDescription": "Saturation genome editing of PALB2 exon 10 in haploid HAP1 cells using cell survival as a readout, performed to validate the cDNA-based PARPi screen results.",
+    "abstractText": "Loss-of-function variants in PALB2 give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 PALB2 exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in PALB2 are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of PALB2 missense VUS and clinical management of carriers.",
+    "methodText": "SGE was used to introduce all unique SNVs in the PALB2 exon 10 region (p.G1000 to p.I1037 of the WD40 domain) in haploid HAP1 cells. Cells were co-transfected with variant library and Cas9/sgRNA using Turbofectin 8.0 (Origene). Cells were selected in puromycin (1 \u00b5g/ml) for 3 days. Cells were harvested at day 5 (24 hrs after puromycin selection) and day 20 post-transfection, and genomic DNA was extracted. The target region was amplified by PCR to add barcodes for multiplexing and PCR products were sequenced on an Illumina MiSeq.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001278-b",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-07-29",
+    "modificationDate": "2026-07-29",
+    "publishedDate": "2026-07-29",
+    "experimentSetUrn": "urn:mavedb:00001278",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "41554690",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk.",
+      "authors": [
+       {
+        "name": "Boonen RACM",
+        "primary": true
+       },
+       {
+        "name": "Knaup SC",
+        "primary": false
+       },
+       {
+        "name": "Menafra R",
+        "primary": false
+       },
+       {
+        "name": "Braspenning ME",
+        "primary": false
+       },
+       {
+        "name": "Rother MB",
+        "primary": false
+       },
+       {
+        "name": "Kleiblova P",
+        "primary": false
+       },
+       {
+        "name": "Janatova M",
+        "primary": false
+       },
+       {
+        "name": "Ruano D",
+        "primary": false
+       },
+       {
+        "name": "Hu C",
+        "primary": false
+       },
+       {
+        "name": "Huang H",
+        "primary": false
+       },
+       {
+        "name": "Joseph V",
+        "primary": false
+       },
+       {
+        "name": "Conry M",
+        "primary": false
+       },
+       {
+        "name": "Heijl S",
+        "primary": false
+       },
+       {
+        "name": "Vroling B",
+        "primary": false
+       },
+       {
+        "name": "Goeman JJ",
+        "primary": false
+       },
+       {
+        "name": "Varga M",
+        "primary": false
+       },
+       {
+        "name": "CZECANCA consortium",
+        "primary": false
+       },
+       {
+        "name": "Richardson ME",
+        "primary": false
+       },
+       {
+        "name": "Kloet SL",
+        "primary": false
+       },
+       {
+        "name": "Couch FJ",
+        "primary": false
+       },
+       {
+        "name": "Vreeswijk MPG",
+        "primary": false
+       },
+       {
+        "name": "van Attikum H",
+        "primary": false
+       }
+      ],
+      "abstract": "Loss-of-function variants in PALB2 give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 PALB2 exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in PALB2 are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of PALB2 missense VUS and clinical management of carriers.",
+      "doi": "10.1038/s41467-025-67252-z",
+      "publicationYear": 2026,
+      "publicationJournal": "Nat Commun",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/41554690",
+      "referenceHtml": "Boonen RACM, <i>et al</i>. Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk. Nat Commun. 2026; 17:775. 10.1038/s41467-025-67252-z",
+      "id": 191
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "Endogenous locus library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method System",
+       "label": "SpCas9",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The system used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Endogenous Locus Library Method Mechanism",
+       "label": "Nuclease",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The functional mechanism of the library generation method"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Molecular function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001278-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "41554690",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk.",
+     "authors": [
+      {
+       "name": "Boonen RACM",
+       "primary": true
+      },
+      {
+       "name": "Knaup SC",
+       "primary": false
+      },
+      {
+       "name": "Menafra R",
+       "primary": false
+      },
+      {
+       "name": "Braspenning ME",
+       "primary": false
+      },
+      {
+       "name": "Rother MB",
+       "primary": false
+      },
+      {
+       "name": "Kleiblova P",
+       "primary": false
+      },
+      {
+       "name": "Janatova M",
+       "primary": false
+      },
+      {
+       "name": "Ruano D",
+       "primary": false
+      },
+      {
+       "name": "Hu C",
+       "primary": false
+      },
+      {
+       "name": "Huang H",
+       "primary": false
+      },
+      {
+       "name": "Joseph V",
+       "primary": false
+      },
+      {
+       "name": "Conry M",
+       "primary": false
+      },
+      {
+       "name": "Heijl S",
+       "primary": false
+      },
+      {
+       "name": "Vroling B",
+       "primary": false
+      },
+      {
+       "name": "Goeman JJ",
+       "primary": false
+      },
+      {
+       "name": "Varga M",
+       "primary": false
+      },
+      {
+       "name": "CZECANCA consortium",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "Kloet SL",
+       "primary": false
+      },
+      {
+       "name": "Couch FJ",
+       "primary": false
+      },
+      {
+       "name": "Vreeswijk MPG",
+       "primary": false
+      },
+      {
+       "name": "van Attikum H",
+       "primary": false
+      }
+     ],
+     "abstract": "Loss-of-function variants in PALB2 give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 PALB2 exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in PALB2 are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of PALB2 missense VUS and clinical management of carriers.",
+     "doi": "10.1038/s41467-025-67252-z",
+     "publicationYear": 2026,
+     "publicationJournal": "Nat Commun",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/41554690",
+     "referenceHtml": "Boonen RACM, <i>et al</i>. Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk. Nat Commun. 2026; 17:775. 10.1038/s41467-025-67252-z",
+     "id": 191
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-07-29",
+   "modificationDate": "2026-07-29",
+   "targetGenes": [
+    {
+     "name": "PALB2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8213,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MDEPPGKPLSCEEKEKLKEKLAFLKREYSKTLARLQRAQRAEKIKHSIKKTVEEQDCLSQQDLSPQLKHSEPKNKICVYDKLHIKTHLDEETGEKTSITLDVGPESFNPGDGPGGLPIQRTDDTQEHFPHRVSDPSGEQKQKLPSRRKKQQKRTFISQERDCVFGTDSLRLSGKRLKEQEEISSKNPARSPVTEIRTHLLSLKSELPDSPEPVTEINEDSVLIPPTAQPEKGVDTFLRRPNFTRATTVPLQTLSDSGSSQHLEHIPPKGSSELTTHDLKNIRFTSPVSLEAQGKKMTVSTDNLLVNKAISKSGQLPTSSNLEANISCSLNELTYNNLPANENQNLKEQNQTEKSLKSPSDTLDGRNENLQESEILSQPKSLSLEATSPLSAEKHSCTVPEGLLFPAEYYVRTTRSMSNCQRKVAVEAVIQSHLDVKKKGFKNKNKDASKNLNLSNEETDQSEIRMSGTCTGQPSSRTSQKLLSLTKVSSPAGPTEDNDLSRKAVAQAPGRRYTGKRKSACTPASDHCEPLLPTSSLSIVNRSKEEVTSHKYQHEKLFIQVKGKKSRHQKEDSLSWSNSAYLSLDDDAFTAPFHRDGMLSLKQLLSFLSITDFQLPDEDFGPLKLEKVKSCSEKPVEPFESKMFGERHLKEGSCIFPEELSPKRMDTEMEDLEEDLIVLPGKSHPKRPNSQSQHTKTGLSSSILLYTPLNTVAPDDNDRPTTDMCSPAFPILGTTPAFGPQGSYEKASTEVAGRTCCTPQLAHLKDSVCLASDTKQFDSSGSPAKPHTTLQVSGRQGQPTCDCDSVPPGTPPPIESFTFKENQLCRNTCQELHKHSVEQTETAELPASDSINPGNLQLVSELKNPSGSCSVDVSAMFWERAGCKEPCIITACEDVVSLWKALDAWQWEKLYTWHFAEVPVLQIVPVPDVYNLVCVALGNLEIREIRALFCSSDDESEKQVLLKSGNIKAVLGLTKRRLVSSSGTLSDQQVEVMTFAEDGGGKENQFLMPPEETILTFAEVQGMQEALLGTTIMNNIVIWNLKTGQLLKKMHIDDSYQASVCHKAYSEMGLLFIVLSHPCAKESESLRSPVFQLIVINPKTTLSVGVMLYCLPPGQAGRFLEGDVKDHCAAAILTSGTIAIWDLLLGQCTALLPPVSDQHWSFVKWSGTDSHLLAGQKDGNIFVYHYS",
+      "label": "PALB2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001278-a-1",
+   "title": "Scores from site-saturation functional screen of PALB2 missense variants in mES cells",
+   "shortDescription": "Site-saturation fuctional screen of PALB2 missense variants in the CC and WD40 domains in mouse embryonic stem cells using PARPi sensitivity as a readout for homologous recombination",
+   "publishedDate": "2026-07-23",
+   "replacesId": null,
+   "numVariants": 7100,
+   "experiment": {
+    "title": "Site-saturation functional screen of PALB2 missense variants in mES cells",
+    "shortDescription": "Site-saturation fuctional screen of PALB2 missense variants in the CC and WD40 domains in mouse embryonic stem cells using PARPi sensitivity as a readout for homologous recombination",
+    "abstractText": "Loss-of-function variants in _PALB2_ give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 _PALB2_ exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in _PALB2_ are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of _PALB2_ missense VUS and clinical management of carriers.",
+    "methodText": "A cDNA-based site-saturation screen was used to measure _PALB2_ function via PARPi sensitivity as a readout for homologous recombination. Palb2-knockout mouse embryonic stem cells were used to express _PALB2_ cDNA variant libraries which were at the Rosa26 locus via recombination-mediated cassette exchange. Cells expressing _PALB2_ variants were treated with PARP inhibitor (olaparib), and next-generation sequencing was used to determine the frequency of each variant in treated vs. untreated conditions. Depletion scores were generated using Enrich2.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001278-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2026-06-16",
+    "modificationDate": "2026-06-16",
+    "publishedDate": "2026-06-16",
+    "experimentSetUrn": "urn:mavedb:00001278",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "41554690",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk.",
+      "authors": [
+       {
+        "name": "Boonen RACM",
+        "primary": true
+       },
+       {
+        "name": "Knaup SC",
+        "primary": false
+       },
+       {
+        "name": "Menafra R",
+        "primary": false
+       },
+       {
+        "name": "Braspenning ME",
+        "primary": false
+       },
+       {
+        "name": "Rother MB",
+        "primary": false
+       },
+       {
+        "name": "Kleiblova P",
+        "primary": false
+       },
+       {
+        "name": "Janatova M",
+        "primary": false
+       },
+       {
+        "name": "Ruano D",
+        "primary": false
+       },
+       {
+        "name": "Hu C",
+        "primary": false
+       },
+       {
+        "name": "Huang H",
+        "primary": false
+       },
+       {
+        "name": "Joseph V",
+        "primary": false
+       },
+       {
+        "name": "Conry M",
+        "primary": false
+       },
+       {
+        "name": "Heijl S",
+        "primary": false
+       },
+       {
+        "name": "Vroling B",
+        "primary": false
+       },
+       {
+        "name": "Goeman JJ",
+        "primary": false
+       },
+       {
+        "name": "Varga M",
+        "primary": false
+       },
+       {
+        "name": "CZECANCA consortium",
+        "primary": false
+       },
+       {
+        "name": "Richardson ME",
+        "primary": false
+       },
+       {
+        "name": "Kloet SL",
+        "primary": false
+       },
+       {
+        "name": "Couch FJ",
+        "primary": false
+       },
+       {
+        "name": "Vreeswijk MPG",
+        "primary": false
+       },
+       {
+        "name": "van Attikum H",
+        "primary": false
+       }
+      ],
+      "abstract": "Loss-of-function variants in PALB2 give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 PALB2 exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in PALB2 are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of PALB2 missense VUS and clinical management of carriers.",
+      "doi": "10.1038/s41467-025-67252-z",
+      "publicationYear": 2026,
+      "publicationJournal": "Nat Commun",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/41554690",
+      "referenceHtml": "Boonen RACM, <i>et al</i>. Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk. Nat Commun. 2026; 17:775. 10.1038/s41467-025-67252-z",
+      "id": 191
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "DNA repair and Double-strand break repair via homologous recombination",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Murine primary cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001278-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "41554690",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk.",
+     "authors": [
+      {
+       "name": "Boonen RACM",
+       "primary": true
+      },
+      {
+       "name": "Knaup SC",
+       "primary": false
+      },
+      {
+       "name": "Menafra R",
+       "primary": false
+      },
+      {
+       "name": "Braspenning ME",
+       "primary": false
+      },
+      {
+       "name": "Rother MB",
+       "primary": false
+      },
+      {
+       "name": "Kleiblova P",
+       "primary": false
+      },
+      {
+       "name": "Janatova M",
+       "primary": false
+      },
+      {
+       "name": "Ruano D",
+       "primary": false
+      },
+      {
+       "name": "Hu C",
+       "primary": false
+      },
+      {
+       "name": "Huang H",
+       "primary": false
+      },
+      {
+       "name": "Joseph V",
+       "primary": false
+      },
+      {
+       "name": "Conry M",
+       "primary": false
+      },
+      {
+       "name": "Heijl S",
+       "primary": false
+      },
+      {
+       "name": "Vroling B",
+       "primary": false
+      },
+      {
+       "name": "Goeman JJ",
+       "primary": false
+      },
+      {
+       "name": "Varga M",
+       "primary": false
+      },
+      {
+       "name": "CZECANCA consortium",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "Kloet SL",
+       "primary": false
+      },
+      {
+       "name": "Couch FJ",
+       "primary": false
+      },
+      {
+       "name": "Vreeswijk MPG",
+       "primary": false
+      },
+      {
+       "name": "van Attikum H",
+       "primary": false
+      }
+     ],
+     "abstract": "Loss-of-function variants in PALB2 give rise to defects in DNA damage repair by homologous recombination (HR), increasing the risk of breast cancer in female carriers. However, genetic testing frequently reveals missense variants of uncertain significance (VUS) for which the impact on protein function and cancer risk are unclear. Here we assay 84% of all possible missense variants in 11 out of 13 PALB2 exons using site-saturation functional screens with PARP inhibitor sensitivity as a readout for HR. These exons encode the coiled-coil and WD40 domains, which we identify as the minimal regions required for HR. Furthermore, we reveal the functional impact of 6718 missense variants, classifying 3904 variants as functional (58%), 2422 as intermediate (36%), and 392 as damaging (6%). A burden-type analysis shows that damaging missense variants in PALB2 are associated with a significantly increased risk of breast cancer, similar to that observed for truncating variants. These results will be valuable for the classification of PALB2 missense VUS and clinical management of carriers.",
+     "doi": "10.1038/s41467-025-67252-z",
+     "publicationYear": 2026,
+     "publicationJournal": "Nat Commun",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/41554690",
+     "referenceHtml": "Boonen RACM, <i>et al</i>. Site-saturation functional screens identify PALB2 missense variants associated with increased breast cancer risk. Nat Commun. 2026; 17:775. 10.1038/s41467-025-67252-z",
+     "id": 191
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2026-06-16",
+   "modificationDate": "2026-07-24",
+   "targetGenes": [
+    {
+     "name": "PALB2",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 8199,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "MDEPPGKPLSCEEKEKLKEKLAFLKREYSKTLARLQRAQRAEKIKHSIKKTVEEQDCLSQQDLSPQLKHSEPKNKICVYDKLHIKTHLDEETGEKTSITLDVGPESFNPGDGPGGLPIQRTDDTQEHFPHRVSDPSGEQKQKLPSRRKKQQKRTFISQERDCVFGTDSLRLSGKRLKEQEEISSKNPARSPVTEIRTHLLSLKSELPDSPEPVTEINEDSVLIPPTAQPEKGVDTFLRRPNFTRATTVPLQTLSDSGSSQHLEHIPPKGSSELTTHDLKNIRFTSPVSLEAQGKKMTVSTDNLLVNKAISKSGQLPTSSNLEANISCSLNELTYNNLPANENQNLKEQNQTEKSLKSPSDTLDGRNENLQESEILSQPKSLSLEATSPLSAEKHSCTVPEGLLFPAEYYVRTTRSMSNCQRKVAVEAVIQSHLDVKKKGFKNKNKDASKNLNLSNEETDQSEIRMSGTCTGQPSSRTSQKLLSLTKVSSPAGPTEDNDLSRKAVAQAPGRRYTGKRKSACTPASDHCEPLLPTSSLSIVNRSKEEVTSHKYQHEKLFIQVKGKKSRHQKEDSLSWSNSAYLSLDDDAFTAPFHRDGMLSLKQLLSFLSITDFQLPDEDFGPLKLEKVKSCSEKPVEPFESKMFGERHLKEGSCIFPEELSPKRMDTEMEDLEEDLIVLPGKSHPKRPNSQSQHTKTGLSSSILLYTPLNTVAPDDNDRPTTDMCSPAFPILGTTPAFGPQGSYEKASTEVAGRTCCTPQLAHLKDSVCLASDTKQFDSSGSPAKPHTTLQVSGRQGQPTCDCDSVPPGTPPPIESFTFKENQLCRNTCQELHKHSVEQTETAELPASDSINPGNLQLVSELKNPSGSCSVDVSAMFWERAGCKEPCIITACEDVVSLWKALDAWQWEKLYTWHFAEVPVLQIVPVPDVYNLVCVALGNLEIREIRALFCSSDDESEKQVLLKSGNIKAVLGLTKRRLVSSSGTLSDQQVEVMTFAEDGGGKENQFLMPPEETILTFAEVQGMQEALLGTTIMNNIVIWNLKTGQLLKKMHIDDSYQASVCHKAYSEMGLLFIVLSHPCAKESESLRSPVFQLIVINPKTTLSVGVMLYCLPPGQAGRFLEGDVKDHCAAAILTSGTIAIWDLLLGQCTALLPPVSDQHWSFVKWSGTDSHLLAGQKDGNIFVYHYS",
+      "label": "PALB2",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 3
+}

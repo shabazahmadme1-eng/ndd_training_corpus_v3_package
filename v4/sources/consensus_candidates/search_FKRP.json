@@ -1,0 +1,595 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001197-a-5",
+   "title": "FKRP variants effects on alpha-DG glycosylation",
+   "shortDescription": "FKRP variants effects on alpha-DG glycosylation",
+   "publishedDate": "2025-11-05",
+   "replacesId": null,
+   "numVariants": 4455,
+   "experiment": {
+    "title": "Deep Mutational Scanning in FKRP and LARGE1 with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)",
+    "shortDescription": "Our inability to interpret the consequences of rare variants is an unappreciated challenge in the diagnosis of rare diseases. We developed a democratized workflow called Saturation Mutagenesis-Reinforced Functional assays (SMuRF) to inspect the direct impact variants have on enzymatic activity. We employed SMuRF to score all possible coding single nucleotide variants (SNVs) of Dystroglycanopathies-related enzyme-coding genes, FKRP and LARGE1. The utility of SMuRF scores was enhanced through the assignment of confidence scores and orthogonal assays for validation. SMuRF recapitulated and significantly expanded the knowledge gained from clinical reports and population databases, aiding in alleviating ethnic disparity in biomedical databases and improving variant classification. SMuRF expanded the training datasets of the computational predictors with the potential to improve their variant classification capability. SMuRF highlighted the critical regions in the enzyme structure which shed light on different disease mechanisms. SMuRF is the first high-throughput functional workflow to study dystroglycanopathy variants and opens the door for better variant interpretation underlying other rare diseases.",
+    "abstractText": "Our inability to interpret the consequences of rare variants is an unappreciated challenge in the diagnosis of rare diseases. We developed a democratized workflow called Saturation Mutagenesis-Reinforced Functional assays (SMuRF) to inspect the direct impact variants have on enzymatic activity. We employed SMuRF to score all possible coding single nucleotide variants (SNVs) of Dystroglycanopathies-related enzyme-coding genes, FKRP and LARGE1. The utility of SMuRF scores was enhanced through the assignment of confidence scores and orthogonal assays for validation. SMuRF recapitulated and significantly expanded the knowledge gained from clinical reports and population databases, aiding in alleviating ethnic disparity in biomedical databases and improving variant classification. SMuRF expanded the training datasets of the computational predictors with the potential to improve their variant classification capability. SMuRF highlighted the critical regions in the enzyme structure which shed light on different disease mechanisms. SMuRF is the first high-throughput functional workflow to study dystroglycanopathy variants and opens the door for better variant interpretation underlying other rare diseases.",
+    "methodText": "Saturation Mutagenesis-Reinforced Functional assays (SMuRF) : 1. the saturation mutagenesis method: PALS-C, derived from PALS, is essentially a two-way extension PCR-based method. 2. the functional assay: IIH6C4 antibody-based flow cytometry",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001197-a",
+    "createdBy": {
+     "orcidId": "0009-0001-4302-3371",
+     "firstName": "Kaiyue",
+     "lastName": "Ma",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2024-06-09",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2024-06-12",
+    "experimentSetUrn": "urn:mavedb:00001197",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein glycosylation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Lentivirus transduction",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Random locus viral integration",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "PALS-C (programmed allelic series with common reagents)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001197-a-5",
+     "urn:mavedb:00001254-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "2023.07.12.548370",
+     "dbName": "bioRxiv",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Deep Mutational Scanning in Disease-related Genes with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)",
+     "authors": [
+      {
+       "name": "Ma, K.",
+       "primary": true
+      },
+      {
+       "name": "Ng, K. K.",
+       "primary": false
+      },
+      {
+       "name": "Huang, S.",
+       "primary": false
+      },
+      {
+       "name": "Lake, N. J.",
+       "primary": false
+      },
+      {
+       "name": "Xu, J.",
+       "primary": false
+      },
+      {
+       "name": "Ge, L.",
+       "primary": false
+      },
+      {
+       "name": "Woodman, K. G.",
+       "primary": false
+      },
+      {
+       "name": "Koczwara, K. E.",
+       "primary": false
+      },
+      {
+       "name": "Lek, A.",
+       "primary": false
+      },
+      {
+       "name": "Lek, M.",
+       "primary": false
+      }
+     ],
+     "abstract": "Interpretation of disease-causing genetic variants remains a challenge in human genetics. Current costs and complexity of deep mutational scanning methods hamper crowd-sourcing approaches toward genome-wide resolution of variants in disease-related genes. Our framework, Saturation Mutagenesis-Reinforced Functional assays (SMuRF), addresses these issues by offering simple and cost-effective saturation mutagenesis, as well as streamlining functional assays to enhance the interpretation of unresolved variants. Applying SMuRF to neuromuscular disease genes FKRP and LARGE1, we generated functional scores for all possible coding single nucleotide variants, which aid in resolving clinically reported variants of uncertain significance. SMuRF also demonstrates utility in predicting disease severity, resolving critical structural regions, and providing training datasets for the development of computational predictors. Our approach opens new directions for enabling variant-to-function insights for disease genes in a manner that is broadly useful for crowd-sourcing implementation across standard research laboratories.",
+     "doi": "10.1101/2023.07.12.548370",
+     "publicationYear": 2024,
+     "publicationJournal": "Preprint",
+     "url": "https://www.biorxiv.org/content/10.1101/2023.07.12.548370",
+     "referenceHtml": ". Deep Mutational Scanning in Disease-related Genes with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF). (None). 2024; (Unknown volume):(Unknown pages). 10.1101/2023.07.12.548370",
+     "id": 109
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC BY 4.0 (Attribution)",
+    "shortName": "CC BY 4.0",
+    "active": true,
+    "link": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "4.0",
+    "id": 3,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-11-05",
+   "modificationDate": "2026-05-28",
+   "targetGenes": [
+    {
+     "name": "FKRP",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7861,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGCGGCTCACCCGCTGCCAGGCTGCCCTGGCGGCCGCCATCACCCTCAACCTTCTGGTCCTCTTCTATGTCTCGTGGCTGCAGCACCAGCCTAGGAATTCCCGGGCCCGGGGGCCCCGTCGTGCCTCTGCTGCCGGCCCCCGTGTCACCGTCCTGGTGCGGGAGTTCGAGGCATTTGACAACGCGGTGCCCGAGCTGGTAGACTCCTTCCTGCAGCAAGACCCAGCCCAGCCCGTGGTGGTGGCAGCCGACACGCTCCCCTACCCGCCCCTGGCCCTGCCCCGCATCCCCAACGTGCGTCTGGCGCTGCTCCAGCCCGCCCTGGACCGGCCAGCCGCAGCCTCGCGCCCGGAGACCTACGTGGCCACCGAGTTTGTGGCCCTAGTACCTGATGGGGCGCGGGCTGAGGCACCTGGCCTGCTGGAGCGCATGGTGGAGGCGCTCCGCGCAGGAAGCGCACGTCTGGTGGCCGCCCCGGTTGCCACGGCCAACCCTGCCAGGTGCCTGGCCCTGAACGTCAGCCTGCGAGAGTGGACCGCCCGCTATGGCGCAGCCCCCGCCGCGCCCCGCTGCGACGCCCTGGACGGAGATGCTGTGGTGCTCCTGCGCGCCCGCGACCTCTTCAACCTCTCGGCGCCCCTGGCCCGGCCGGTGGGCACCAGCCTCTTTCTGCAGACCGCCCTTCGCGGCTGGGCGGTGCAGCTGCTGGACTTGACCTTCGCCGCGGCGCGCCAGCCCCCGCTGGCCACGGCCCACGCGCGCTGGAAGGCTGAGCGCGAGGGACGCGCTCGGCGGGCGGCGCTGCTCCGCGCGCTGGGCATCCGCCTAGTGAGCTGGGAAGGCGGGCGGCTGGAGTGGTTCGGCTGCAACAAGGAGACCACGCGCTGCTTCGGAACCGTGGTGGGCGACACGCCCGCCTACCTCTACGAGGAGCGCTGGACGCCCCCCTGCTGCCTGCGCGCGCTGCGCGAGACCGCCCGCTATGTGGTGGGCGTGCTGGAGGCTGCGGGCGTGCGCTACTGGCTCGAGGGCGGCTCACTGCTGGGGGCCGCCCGCCACGGGGACATCATCCCATGGGACTACGACGTGGACCTGGGCATCTACTTGGAGGACGTGGGCAACTGCGAGCAGCTGCGGGGGGCAGAGGCCGGCTCGGTGGTGGATGAGCGCGGCTTCGTATGGGAGAAGGCGGTCGAGGGCGACTTTTTCCGCGTGCAGTACAGCGAAAGCAACCACTTGCACGTGGACCTGTGGCCCTTCTACCCCCGCAATGGCGTCATGACCAAGGACACGTGGCTGGACCACCGGCAGGATGTGGAGTTTCCCGAGCACTTCCTGCAGCCGCTGGTGCCCCTGCCCTTTGCCGGCTTCGTGGCGCAGGCGCCTAACAACTACCGCCGCTTCCTGGAGCTCAAGTTCGGGCCCGGGGTCATCGAGAACCCCCAGTACCCCAACCCGGCACTGCTGAGTCTGACGGGAAGCGGC",
+      "label": "FKRP",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "FKRP",
+     "uniprotIdFromMappedMetadata": "Q9H9S5"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001254-a-1",
+   "title": "LARGE1 variants effects on alpha-DG glycosylation",
+   "shortDescription": "LARGE1 variants effects on alpha-DG glycosylation",
+   "publishedDate": "2025-11-05",
+   "replacesId": null,
+   "numVariants": 6804,
+   "experiment": {
+    "title": "Deep Mutational Scanning in FKRP and LARGE1 with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)",
+    "shortDescription": "Our inability to interpret the consequences of rare variants is an unappreciated challenge in the diagnosis of rare diseases. We developed a democratized workflow called Saturation Mutagenesis-Reinforced Functional assays (SMuRF) to inspect the direct impact variants have on enzymatic activity. We employed SMuRF to score all possible coding single nucleotide variants (SNVs) of Dystroglycanopathies-related enzyme-coding genes, FKRP and LARGE1. The utility of SMuRF scores was enhanced through the assignment of confidence scores and orthogonal assays for validation. SMuRF recapitulated and significantly expanded the knowledge gained from clinical reports and population databases, aiding in alleviating ethnic disparity in biomedical databases and improving variant classification. SMuRF expanded the training datasets of the computational predictors with the potential to improve their variant classification capability. SMuRF highlighted the critical regions in the enzyme structure which shed light on different disease mechanisms. SMuRF is the first high-throughput functional workflow to study dystroglycanopathy variants and opens the door for better variant interpretation underlying other rare diseases.",
+    "abstractText": "Our inability to interpret the consequences of rare variants is an unappreciated challenge in the diagnosis of rare diseases. We developed a democratized workflow called Saturation Mutagenesis-Reinforced Functional assays (SMuRF) to inspect the direct impact variants have on enzymatic activity. We employed SMuRF to score all possible coding single nucleotide variants (SNVs) of Dystroglycanopathies-related enzyme-coding genes, FKRP and LARGE1. The utility of SMuRF scores was enhanced through the assignment of confidence scores and orthogonal assays for validation. SMuRF recapitulated and significantly expanded the knowledge gained from clinical reports and population databases, aiding in alleviating ethnic disparity in biomedical databases and improving variant classification. SMuRF expanded the training datasets of the computational predictors with the potential to improve their variant classification capability. SMuRF highlighted the critical regions in the enzyme structure which shed light on different disease mechanisms. SMuRF is the first high-throughput functional workflow to study dystroglycanopathy variants and opens the door for better variant interpretation underlying other rare diseases.",
+    "methodText": "Saturation Mutagenesis-Reinforced Functional assays (SMuRF) : 1. the saturation mutagenesis method: PALS-C, derived from PALS, is essentially a two-way extension PCR-based method. 2. the functional assay: IIH6C4 antibody-based flow cytometry",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001254-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-11-05",
+    "modificationDate": "2025-11-05",
+    "publishedDate": "2025-11-05",
+    "experimentSetUrn": "urn:mavedb:00001254",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0009-0001-4302-3371",
+      "recordType": "Contributor",
+      "givenName": "Kaiyue",
+      "familyName": "Ma"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein glycosylation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Lentivirus transduction",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Random locus viral integration",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "PALS-C (programmed allelic series with common reagents)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001254-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "2023.07.12.548370",
+     "dbName": "bioRxiv",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Deep Mutational Scanning in Disease-related Genes with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)",
+     "authors": [
+      {
+       "name": "Ma, K.",
+       "primary": true
+      },
+      {
+       "name": "Ng, K. K.",
+       "primary": false
+      },
+      {
+       "name": "Huang, S.",
+       "primary": false
+      },
+      {
+       "name": "Lake, N. J.",
+       "primary": false
+      },
+      {
+       "name": "Xu, J.",
+       "primary": false
+      },
+      {
+       "name": "Ge, L.",
+       "primary": false
+      },
+      {
+       "name": "Woodman, K. G.",
+       "primary": false
+      },
+      {
+       "name": "Koczwara, K. E.",
+       "primary": false
+      },
+      {
+       "name": "Lek, A.",
+       "primary": false
+      },
+      {
+       "name": "Lek, M.",
+       "primary": false
+      }
+     ],
+     "abstract": "Interpretation of disease-causing genetic variants remains a challenge in human genetics. Current costs and complexity of deep mutational scanning methods hamper crowd-sourcing approaches toward genome-wide resolution of variants in disease-related genes. Our framework, Saturation Mutagenesis-Reinforced Functional assays (SMuRF), addresses these issues by offering simple and cost-effective saturation mutagenesis, as well as streamlining functional assays to enhance the interpretation of unresolved variants. Applying SMuRF to neuromuscular disease genes FKRP and LARGE1, we generated functional scores for all possible coding single nucleotide variants, which aid in resolving clinically reported variants of uncertain significance. SMuRF also demonstrates utility in predicting disease severity, resolving critical structural regions, and providing training datasets for the development of computational predictors. Our approach opens new directions for enabling variant-to-function insights for disease genes in a manner that is broadly useful for crowd-sourcing implementation across standard research laboratories.",
+     "doi": "10.1101/2023.07.12.548370",
+     "publicationYear": 2024,
+     "publicationJournal": "Preprint",
+     "url": "https://www.biorxiv.org/content/10.1101/2023.07.12.548370",
+     "referenceHtml": ". Deep Mutational Scanning in Disease-related Genes with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF). (None). 2024; (Unknown volume):(Unknown pages). 10.1101/2023.07.12.548370",
+     "id": 109
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC BY 4.0 (Attribution)",
+    "shortName": "CC BY 4.0",
+    "active": true,
+    "link": "https://creativecommons.org/licenses/by/4.0/",
+    "version": "4.0",
+    "id": 3,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-11-05",
+   "modificationDate": "2026-05-29",
+   "targetGenes": [
+    {
+     "name": "LARGE1",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7860,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGCTGGGAATCTGCAGGGGGAGACGGAAATTCTTGGCTGCCTCGTTGAGTCTTCTCTGCATCCCAGCCATCACCTGGATTTACCTGTTTTCTGGGAGCTTCGAAGATGGAAAGCCCGTGTCTCTGTCACCGCTGGAGTCCCAGGCACACAGCCCCAGGTACACGGCCTCCAGCCAGCGGGAGCGCGAGAGCCTGGAGGTGCGCATGCGCGAGGTGGAGGAGGAGAACCGCGCCCTCCGCAGGCAGCTCAGCCTGGCCCAGGGCCGAGCCCCATCCCATCGCCGAGGCAACCACTCCAAGACCTACTCCATGGAGGAGGGCACTGGAGACAGCGAGAACCTTCGGGCTGGCATCGTGGCAGGCAACAGCTCCGAGTGTGGGCAGCAGCCGGTCGTGGAGAAATGCGAGACAATCCACGTTGCTATTGTCTGCGCCGGATACAATGCCAGCCGGGATGTCGTCACCCTGGTCAAATCCGTCCTGTTCCATAGACGGAACCCTCTGCACTTCCACCTTATTGCTGACTCCATTGCGGAGCAGATCCTGGCCACGCTCTTCCAGACCTGGATGGTGCCCGCTGTGCGTGTGGACTTCTACAATGCAGACGAGCTCAAGTCTGAAGTTTCCTGGATCCCCAATAAACATTACTCTGGGATTTATGGTCTGATGAAGCTTGTCCTGACCAAGACTCTTCCTGCCAACCTGGAGAGAGTCATCGTCCTTGACACGGATATCACCTTTGCCACTGACATTGCAGAGCTGTGGGCTGTGTTCCACAAGTTCAAAGGTCAGCAAGTCCTGGGCTTGGTGGAGAACCAGAGTGACTGGTACCTTGGAAACCTGTGGAAAAATCACCGCCCATGGCCAGCCCTTGGAAGAGGCTACAACACAGGGGTGATCCTGTTACTTCTGGATAAGCTGCGGAAGATGAAATGGGAGCAGATGTGGAGGCTGACCGCAGAGAGGGAGCTCATGGGCATGCTCTCTACATCCTTAGCTGACCAGGATATTTTCAATGCCGTCATCAAACAAAACCCCTTCCTTGTGTACCAGCTCCCCTGCTTCTGGAATGTGCAGCTGTCAGACCACACCCGCTCCGAGCAGTGCTACAGAGACGTGTCTGATCTAAAGGTCATTCACTGGAACTCCCCCAAGAAGCTCCGGGTGAAGAACAAGCATGTGGAGTTTTTTCGCAACCTCTACCTGACCTTCCTGGAGTATGACGGCAATCTTCTGAGGCGGGAACTGTTTGGCTGCCCCAGTGAGGCTGATGTCAACAGTGAAAACCTCCAGAAGCAGCTGTCTGAGCTGGACGAGGACGACCTGTGCTATGAGTTCCGGCGAGAGCGCTTCACTGTCCACCGCACCCACCTGTACTTCCTGCACTACGAGTATGAGCCTGCAGCAGACAGCACGGACGTCACCCTGGTCGCTCAGCTGTCCATGGACAGGCTCCAGATGCTGGAGGCCATCTGCAAGCACTGGGAGGGGCCCATCAGCCTGGCCCTCTACCTGTCAGACGCCGAGGCCCAGCAGTTCCTCCGCTACGCACAGGGCTCTGAGGTGCTTATGAGCCGCCACAACGTGGGCTACCACATCGTGTACAAGGAGGGCCAGTTCTACCCCGTGAACCTGCTGCGCAACGTGGCCATGAAGCACATCAGCACTCCCTACATGTTCCTGTCTGACATTGACTTCCTGCCCATGTATGGGCTCTATGAGTACCTCAGGAAGTCTGTCATCCAGCTCGATCTTGCCAACACCAAGAAAGCAATGATTGTCCCCGCGTTCGAGACACTGCGCTACCGGCTGTCCTTCCCCAAGTCAAAAGCGGAGTTGCTGTCAATGCTGGACATGGGGACCCTCTTCACATTCAGGTACCACGTCTGGACGAAAGGCCACGCACCCACAAACTTCGCCAAGTGGCGGACCGCCACCACGCCTTACCGGGTTGAGTGGGAGGCCGATTTTGAGCCGTATGTTGTTGTGAGACGTGACTGCCCGGAGTACGACCGGAGGTTTGTAGGCTTTGGCTGGAACAAAGTGGCTCATATCATGGAGCTGGATGTGCAGGAGTATGAGTTCATTGTGCTGCCCAACGCCTACATGATCCACATGCCTCATGCCCCCAGCTTCGACATTACCAAGTTCCGTTCCAACAAGCAATACCGCATCTGTCTCAAAACCCTCAAGGAAGAGTTTCAGCAGGACATGTCCCGCCGCTACGGCTTTGCTGCCCTGAAATATCTCACAGCCGAGAACAACAGC",
+      "label": "LARGE1",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "LARGE1",
+     "uniprotIdFromMappedMetadata": "O95461"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 2
+}

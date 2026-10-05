@@ -1,0 +1,227 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001198-a-1",
+   "title": "JAG1  Membrane Expression ",
+   "shortDescription": "A Deep Mutational Scan of the human JAG1 gene using a membrane expression assay and a cDNA library of variants.",
+   "publishedDate": "2024-06-15",
+   "replacesId": null,
+   "numVariants": 2832,
+   "experiment": {
+    "title": "JAG1 Membrane Expression",
+    "shortDescription": "Deep Mutational Scan of JAG1 using a membrane expression assay on a cDNA library of variants",
+    "abstractText": "Pathogenic variants in the JAG1 gene are a primary cause of the multi-system disorder Alagille syndrome. Although variant detection rates are high for this disease, there is uncertainty associated with the classification of missense variants that leads to reduced diagnostic yield. Consequently, up to 85% of reported JAG1 missense variants have uncertain or conflicting classifications. We  designed a high-throughput assay to measure JAG1 membrane expression, a requirement for normal function and characterized variants as abnormal using a truth set and OddsPath calculations.",
+    "methodText": "Following sequencing, Lima (Pacific Biosciences, Menlo Park, CA) was used to demultiplex barcoded samples on a single SMRTcell into the two collected populations (APC high;GFP+ and APC low;GFP+). Sequencing reads were aligned to JAG1 (GenBank: NM_000214.3) in the Hg38/GRCh38 reference using pbmm2 (Pacific Bioscience, Menlo Park, CA). Overestimation of reads within ~1 codon of the exon boundaries due to non-uniform alignment and sequence similarities in these regions was normalized for during downstream analysis by controlling for depth of coverage and random distribution across these variants in these positions. The depth of coverage and allele counts at each position in JAG1 exons 1-7 were obtained using the GATK (v4.3) DepthOfCoverage tool34 and the genomic positions with variants were retained for analysis. Ensembl Variant Effect Predictor (VEP)35 was used to annotate the variants, including the amino acid changes and CADD scores. Variants observed at very low abundance that could be attributed to randomly distributed sequencing errors were removed. Variants observed at a frequency of less than one standard deviation in both populations (APC high and APC low) were filtered out of the dataset. Reads covering each position (\u201canchor\u201d position) were grouped together (read group) and the frequencies of all variants were determined in each bin. JVarkit (https://lindenb.github.io/jvarkit/JvarkitCentral.html) was used to filter out reads with a second variant if the frequency of the secondary variant was higher than a threshold (mean\u2013one standard deviation of all the variants observed in the read group).\n\nResults from sequencing were calibrated and annotated to translate quantitative scores into normal or abnormal function predictions as previously described38. For each variant, a weighted and normalized membrane expression score was calculated based on the raw count of how many times a variant was observed in each bin following FACS. First, a variant frequency within bin (F_(b,v),) was calculated for each variant as the raw count of each variant for each bin divided by the sum of all counts recorded in that bin, where M was the number of variants with index v for a given bin, b, with C_(b,v) counts of a specific variant in a bin.   \nF_(b,v)=C_(b,v)/(\u2211_v^M\u2592C_(b,v) )\nSecond, the F_(b,v) for each variant was weighted (W_v). The APC low bin was assigned the value 0.1 and the APC high bin was assigned the value 0.9 (w_1=0.9 and w_2=0.1). \nW_v=(\u2211_b^B\u2592\u3016w_b F_(b,v) \u3017)/(\u2211_b^B\u2592F_(b,v) )\nThird, the W_v  was normalized using experimental data from positive and negative controls to obtain a within replicate variant score (S_v). The W_WT calibration was the mean W_v over three calibration variants [chr20:10652540-C-A, chr20:10673486-G-C, chr20:10673484-A-G (Hg38/GRCh38)] and the W_mutant was the mean W_v over the calibration variant [chr20:10673484-A-C (Hg38/GRCh38)]. Calibration variants were selected based on assay performance of pure cell lines (Figures S4-S5). \nS_v=(W_v-W_mutant)/(W_WT-W_mutant )\nS_v values from replicate runs were averaged to calculate a final membrane expression score (S_\u03b1). A minimum of two replicates were required and confidence intervals were calculated using the equation S_(\u03b1,CI)=S_\u03b1\u00b1Z_97.5 se_v where standard error (se\u00ac_v) is the standard deviation (\u03c3_\u03b1) of membrane expression scores divided by the square root of the number of replicates: \u3016se_v= \u03c3\u3017_\u03b1/\u221a(R_v ).   \n\tA set of known/predicted benign (n=111) and pathogenic (n=70) variants (variant control set) were used to establish thresholds for abnormal and normal function (Table S3). The lowest scoring 5th percentile benign variants defined the upper bound of the functionally abnormal threshold. Variants with both a mean and an upper CI below the threshold were classified as functionally abnormal and variants with a mean below the threshold and an upper CI crossing the threshold were classified as likely to be functionally abnormal. \nOddsPath calculations have been previously described39,40. Briefly, OddsPath were calculated where P_1 was the proportion of pathogenic variants in the variant control set, (total variant control set pathogenic)/(total variant control set pathogenic+total variant control set benign), and P_2 was the proportion of pathogenic variants in the variant control set with abnormal membrane expression scores out of all abnormal variants, (total variant control set pathogenic abnormal)/(total variant control set abnormal). Conversion of OddsPath calculations to ACMG/AMP evidence weight was previously described39. \n\nOddsPath=[P_2*(1-P_1 )]/[(1-P_2 )*P_1 ]",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001198-a",
+    "createdBy": {
+     "orcidId": "0000-0001-5345-1911",
+     "firstName": "Melissa",
+     "lastName": "Gilbert",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2024-06-13",
+    "modificationDate": "2025-09-22",
+    "publishedDate": "2024-06-15",
+    "experimentSetUrn": "urn:mavedb:00001198",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "Synthesized (Twist Biosciences, San Francisco, CA)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Random locus viral integration",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Mus musculus (NCBI:txid10090)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (long read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Protein localization to plasma membrane",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Lentivirus transduction",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001198-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2024-06-15",
+   "modificationDate": "2026-05-29",
+   "targetGenes": [
+    {
+     "name": "JAG1 exons 1-7",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 4176,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGCGTTCCCCACGGACGCGCGGCCGGTCCGGGCGCCCCCTAAGCCTCCTGCTCGCCCTGCTCTGTGCCCTGCGAGCCAAGGTGTGTGGGGCCTCGGGTCAGTTCGAGTTGGAGATCCTGTCCATGCAGAACGTGAACGGGGAGCTGCAGAACGGGAACTGCTGCGGCGGCGCCCGGAACCCGGGAGACCGCAAGTGCACCCGCGACGAGTGTGACACATACTTCAAAGTGTGCCTCAAGGAGTATCAGTCCCGCGTCACGGCCGGGGGGCCCTGCAGCTTCGGCTCAGGGTCCACGCCTGTCATCGGGGGCAACACCTTCAACCTCAAGGCCAGCCGCGGCAACGACCGCAACCGCATCGTGCTGCCTTTCAGTTTCGCCTGGCCGAGGTCCTATACGTTGCTTGTGGAGGCGTGGGATTCCAGTAATGACACCGTTCAACCTGACAGTATTATTGAAAAGGCTTCTCACTCGGGCATGATCAACCCCAGCCGGCAGTGGCAGACGCTGAAGCAGAACACGGGCGTTGCCCACTTTGAGTATCAGATCCGCGTGACCTGTGATGACTACTACTATGGCTTTGGCTGCAATAAGTTCTGCCGCCCCAGAGATGACTTCTTTGGACACTATGCCTGTGACCAGAATGGCAACAAAACTTGCATGGAAGGCTGGATGGGCCCCGAATGTAACAGAGCTATTTGCCGACAAGGCTGCAGTCCTAAGCATGGGTCTTGCAAACTCCCAGGTGACTGCAGGTGCCAGTACGGCTGGCAAGGCCTGTACTGTGATAAGTGCATCCCACACCCGGGATGCGTCCACGGCATCTGTAATGAGCCCTGGCAGTGCCTCTGTGAGACCAACTGGGGCGGCCAGCTCTGTGACAAAGATCTCAATTACTGTGGGACTCATCAGCCGTGTCTCAACGGGGGAACTTGTAGCAACACAGGCCCTGACAAATATCAGTGTTCCTGCCCTGAGGGGTATTCAGGACCCAACTGTGAAATTGCT",
+      "label": "JAG1_exons_1-7",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "JAG1",
+     "uniprotIdFromMappedMetadata": "P78504"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 1
+}

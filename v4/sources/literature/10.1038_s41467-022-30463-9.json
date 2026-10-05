@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41467-022-30463-9\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35773251",
+        "source": "MED",
+        "pmid": "35773251",
+        "pmcid": "PMC9246869",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9246869"
+          ]
+        },
+        "doi": "10.1038/s41467-022-30463-9",
+        "title": "Allosteric inhibition of PPM1D serine/threonine phosphatase via an altered conformational state.",
+        "authorString": "Miller PG, Sathappa M, Moroco JA, Jiang W, Qian Y, Iqbal S, Guo Q, Giacomelli AO, Shaw S, Vernier C, Bajrami B, Yang X, Raffier C, Sperling AS, Gibson CJ, Kahn J, Jin C, Ranaghan M, Caliman A, Brousseau M, Fischer ES, Lintner R, Piccioni F, Campbell AJ, Root DE, Garvie CW, Ebert BL.",
+        "journalTitle": "Nat Commun",
+        "issue": "1",
+        "journalVolume": "13",
+        "pubYear": "2022",
+        "journalIssn": "2041-1723",
+        "pageInfo": "3778",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 36,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2022-06-30",
+        "firstIndexDate": "2022-07-01"
+      }
+    ]
+  }
+}

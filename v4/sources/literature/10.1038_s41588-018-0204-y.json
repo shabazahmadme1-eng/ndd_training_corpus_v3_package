@@ -1,0 +1,51 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41588-018-0204-y\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30224644",
+        "source": "MED",
+        "pmid": "30224644",
+        "pmcid": "PMC6168352",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6168352"
+          ]
+        },
+        "doi": "10.1038/s41588-018-0204-y",
+        "title": "Mutational processes shape the landscape of TP53 mutations in human cancer.",
+        "authorString": "Giacomelli AO, Yang X, Lintner RE, McFarland JM, Duby M, Kim J, Howard TP, Takeda DY, Ly SH, Kim E, Gannon HS, Hurhula B, Sharpe T, Goodale A, Fritchman B, Steelman S, Vazquez F, Tsherniak A, Aguirre AJ, Doench JG, Piccioni F, Roberts CWM, Meyerson M, Getz G, Johannessen CM, Root DE, Hahn WC.",
+        "journalTitle": "Nat Genet",
+        "issue": "10",
+        "journalVolume": "50",
+        "pubYear": "2018",
+        "journalIssn": "1061-4036; 1546-1718; ",
+        "pageInfo": "1381-1387",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 546,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2018-09-17",
+        "firstIndexDate": "2018-09-19"
+      }
+    ]
+  }
+}

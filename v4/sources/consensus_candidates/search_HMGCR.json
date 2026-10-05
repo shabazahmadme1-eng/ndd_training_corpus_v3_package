@@ -1,0 +1,284 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00000035-a-2",
+   "title": "HMGCR no statin imputed and refined",
+   "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast via DMS-TileSeq in glucose media with no statin.",
+   "publishedDate": "2019-07-15",
+   "replacesId": null,
+   "numVariants": 18448,
+   "experiment": {
+    "title": "HMGCR yeast complementation",
+    "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast.",
+    "abstractText": "Coronary heart disease (CHD) is a leading cause of death worldwide. The risk of CHD can be reduced by LDL-cholesterol-lowering medications called statins that potently inhibit HMG-CoA reductase (HMGCR), the enzyme that catalyzes the rate-limiting reaction of the mevalonate pathway. Proactive maps of human HMGCR may be able to model patient response to statins and identify the statin with the greatest likelihood of efficacy.",
+    "methodText": "The yeast-based assay of HMGCR is a functional complementation assay that assesses the ability of human HMGCR to rescue the growth of an hmg1 hmg2 double deletion yeast strain in glucose media (Basson et al. 1988). We followed the TileSeq approach (Weile & Sun et al, MSB, 2017) to produce variant effect maps of HMGCR in glucose media without a statin, and media supplemented with atorvastatin or rosuvastatin.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000035-a",
+    "createdBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "creationDate": "2019-07-10",
+    "modificationDate": "2019-07-15",
+    "publishedDate": "2019-07-15",
+    "experimentSetUrn": "urn:mavedb:00000035",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000035-a-1",
+     "urn:mavedb:00000035-a-2",
+     "urn:mavedb:00000035-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 3,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2019-07-10",
+   "modificationDate": "2026-06-22",
+   "targetGenes": [
+    {
+     "name": "HMGCR",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 77,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTTGTCAAGACTTTTTCGAATGCATGGCCTCTTTGTGGCCTCCCATCCCTGGGAAGTCATAGTGGGGACAGTGACACTGACCATCTGCATGATGTCCATGAACATGTTTACTGGTAACAATAAGATCTGTGGTTGGAATTATGAATGTCCAAAGTTTGAAGAGGATGTTTTGAGCAGTGACATTATAATTCTGACAATAACACGATGCATAGCCATCCTGTATATTTACTTCCAGTTCCAGAATTTACGTCAACTTGGATCAAAATATATTTTGGGTATTGCTGGCCTTTTCACAATTTTCTCAAGTTTTGTATTCAGTACAGTTGTCATTCACTTCTTAGACAAAGAATTGACAGGCTTGAATGAAGCTTTGCCCTTTTTCCTACTTTTGATTGACCTTTCCAGAGCAAGCACATTAGCAAAGTTTGCCCTCAGTTCCAACTCACAGGATGAAGTAAGGGAAAATATTGCTCGTGGAATGGCAATTTTAGGTCCTACGTTTACCCTCGATGCTCTTGTTGAATGTCTTGTGATTGGAGTTGGTACCATGTCAGGGGTACGTCAGCTTGAAATTATGTGCTGCTTTGGCTGCATGTCAGTTCTTGCCAACTACTTCGTGTTCATGACTTTCTTCCCAGCTTGTGTGTCCTTGGTATTAGAGCTTTCTCGGGAAAGCCGCGAGGGTCGTCCAATTTGGCAGCTCAGCCATTTTGCCCGAGTTTTAGAAGAAGAAGAAAATAAGCCGAATCCTGTAACTCAGAGGGTCAAGATGATTATGTCTCTAGGCTTGGTTCTTGTTCATGCTCACAGTCGCTGGATAGCTGATCCTTCTCCTCAAAACAGTACAGCAGATACTTCTAAGGTTTCATTAGGACTGGATGAAAATGTGTCCAAGAGAATTGAACCAAGTGTTTCCCTCTGGCAGTTTTATCTCTCTAAAATGATCAGCATGGATATTGAACAAGTTATTACCCTAAGTTTAGCTCTCCTTCTGGCTGTCAAGTACATCTTCTTTGAACAAACAGAGACAGAATCTACACTCTCATTAAAAAACCCTATCACATCTCCTGTAGTGACACAAAAGAAAGTCCCAGACAATTGTTGTAGACGTGAACCTATGCTGGTCAGAAATAACCAGAAATGTGATTCAGTAGAGGAAGAGACAGGGATAAACCGAGAAAGAAAAGTTGAGGTTATAAAACCCTTAGTGGCTGAAACAGATACCCCAAACAGAGCTACATTTGTGGTTGGTAACTCCTCCTTACTCGATACTTCATCAGTACTGGTGACACAGGAACCTGAAATTGAACTTCCCAGGGAACCTCGGCCTAATGAAGAATGTCTACAGATACTTGGGAATGCAGAGAAAGGTGCAAAATTCCTTAGTGATGCTGAGATCATCCAGTTAGTCAATGCTAAGCATATCCCAGCCTACAAGTTGGAAACTCTGATGGAAACTCATGAGCGTGGTGTATCTATTCGCCGACAGTTACTTTCCAAGAAGCTTTCAGAACCTTCTTCTCTCCAGTACCTACCTTACAGGGATTATAATTACTCCTTGGTGATGGGAGCTTGTTGTGAGAATGTTATTGGATATATGCCCATCCCTGTTGGAGTGGCAGGACCCCTTTGCTTAGATGAAAAAGAATTTCAGGTTCCAATGGCAACAACAGAAGGTTGTCTTGTGGCCAGCACCAATAGAGGCTGCAGAGCAATAGGTCTTGGTGGAGGTGCCAGCAGCCGAGTCCTTGCAGATGGGATGACTCGTGGCCCAGTTGTGCGTCTTCCACGTGCTTGTGACTCTGCAGAAGTGAAAGCCTGGCTCGAAACATCTGAAGGGTTCGCAGTGATAAAGGAGGCATTTGACAGCACTAGCAGATTTGCACGTCTACAGAAACTTCATACAAGTATAGCTGGACGCAACCTTTATATCCGTTTCCAGTCCAGGTCAGGGGATGCCATGGGGATGAACATGATTTCAAAGGGTACAGAGAAAGCACTTTCAAAACTTCACGAGTATTTCCCTGAAATGCAGATTCTAGCCGTTAGTGGTAACTATTGTACTGACAAGAAACCTGCTGCTATAAATTGGATAGAGGGAAGAGGAAAATCTGTTGTTTGTGAAGCTGTCATTCCAGCCAAGGTTGTCAGAGAAGTATTAAAGACTACCACAGAGGCTATGATTGAGGTCAACATTAACAAGAATTTAGTGGGCTCTGCCATGGCTGGGAGCATAGGAGGCTACAACGCCCATGCAGCAAACATTGTCACCGCCATCTACATTGCCTGTGGACAGGATGCAGCACAGAATGTTGGTAGTTCAAACTGTATTACTTTAATGGAAGCAAGTGGTCCCACAAATGAAGATTTATATATCAGCTGCACCATGCCATCTATAGAGATAGGAACGGTGGGTGGTGGGACCAACCTACTACCTCAGCAAGCCTGTTTGCAGATGCTAGGTGTTCAAGGAGCATGCAAAGATAATCCTGGGGAAAATGCCCGGCAGCTTGCCCGAATTGTGTGTGGGACCGTAATGGCTGGGGAATTGTCACTTATGGCAGCATTGGCAGCAGGACATCTTGTCAAAAGTCACATGATTCACAACAGGTCGAAGATCAATTTACAAGACCTCCAAGGAGCTTGCACCAAGAAGACAGCCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "HMGCR",
+     "uniprotIdFromMappedMetadata": "P04035"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000035-a-3",
+   "title": "HMGCR atorvastatin imputed and refined",
+   "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast via DMS-TileSeq in atorvastatin media.",
+   "publishedDate": "2019-07-15",
+   "replacesId": null,
+   "numVariants": 18448,
+   "experiment": {
+    "title": "HMGCR yeast complementation",
+    "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast.",
+    "abstractText": "Coronary heart disease (CHD) is a leading cause of death worldwide. The risk of CHD can be reduced by LDL-cholesterol-lowering medications called statins that potently inhibit HMG-CoA reductase (HMGCR), the enzyme that catalyzes the rate-limiting reaction of the mevalonate pathway. Proactive maps of human HMGCR may be able to model patient response to statins and identify the statin with the greatest likelihood of efficacy.",
+    "methodText": "The yeast-based assay of HMGCR is a functional complementation assay that assesses the ability of human HMGCR to rescue the growth of an hmg1 hmg2 double deletion yeast strain in glucose media (Basson et al. 1988). We followed the TileSeq approach (Weile & Sun et al, MSB, 2017) to produce variant effect maps of HMGCR in glucose media without a statin, and media supplemented with atorvastatin or rosuvastatin.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000035-a",
+    "createdBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "creationDate": "2019-07-10",
+    "modificationDate": "2019-07-15",
+    "publishedDate": "2019-07-15",
+    "experimentSetUrn": "urn:mavedb:00000035",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000035-a-1",
+     "urn:mavedb:00000035-a-2",
+     "urn:mavedb:00000035-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 3,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2019-07-10",
+   "modificationDate": "2026-06-22",
+   "targetGenes": [
+    {
+     "name": "HMGCR",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 78,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTTGTCAAGACTTTTTCGAATGCATGGCCTCTTTGTGGCCTCCCATCCCTGGGAAGTCATAGTGGGGACAGTGACACTGACCATCTGCATGATGTCCATGAACATGTTTACTGGTAACAATAAGATCTGTGGTTGGAATTATGAATGTCCAAAGTTTGAAGAGGATGTTTTGAGCAGTGACATTATAATTCTGACAATAACACGATGCATAGCCATCCTGTATATTTACTTCCAGTTCCAGAATTTACGTCAACTTGGATCAAAATATATTTTGGGTATTGCTGGCCTTTTCACAATTTTCTCAAGTTTTGTATTCAGTACAGTTGTCATTCACTTCTTAGACAAAGAATTGACAGGCTTGAATGAAGCTTTGCCCTTTTTCCTACTTTTGATTGACCTTTCCAGAGCAAGCACATTAGCAAAGTTTGCCCTCAGTTCCAACTCACAGGATGAAGTAAGGGAAAATATTGCTCGTGGAATGGCAATTTTAGGTCCTACGTTTACCCTCGATGCTCTTGTTGAATGTCTTGTGATTGGAGTTGGTACCATGTCAGGGGTACGTCAGCTTGAAATTATGTGCTGCTTTGGCTGCATGTCAGTTCTTGCCAACTACTTCGTGTTCATGACTTTCTTCCCAGCTTGTGTGTCCTTGGTATTAGAGCTTTCTCGGGAAAGCCGCGAGGGTCGTCCAATTTGGCAGCTCAGCCATTTTGCCCGAGTTTTAGAAGAAGAAGAAAATAAGCCGAATCCTGTAACTCAGAGGGTCAAGATGATTATGTCTCTAGGCTTGGTTCTTGTTCATGCTCACAGTCGCTGGATAGCTGATCCTTCTCCTCAAAACAGTACAGCAGATACTTCTAAGGTTTCATTAGGACTGGATGAAAATGTGTCCAAGAGAATTGAACCAAGTGTTTCCCTCTGGCAGTTTTATCTCTCTAAAATGATCAGCATGGATATTGAACAAGTTATTACCCTAAGTTTAGCTCTCCTTCTGGCTGTCAAGTACATCTTCTTTGAACAAACAGAGACAGAATCTACACTCTCATTAAAAAACCCTATCACATCTCCTGTAGTGACACAAAAGAAAGTCCCAGACAATTGTTGTAGACGTGAACCTATGCTGGTCAGAAATAACCAGAAATGTGATTCAGTAGAGGAAGAGACAGGGATAAACCGAGAAAGAAAAGTTGAGGTTATAAAACCCTTAGTGGCTGAAACAGATACCCCAAACAGAGCTACATTTGTGGTTGGTAACTCCTCCTTACTCGATACTTCATCAGTACTGGTGACACAGGAACCTGAAATTGAACTTCCCAGGGAACCTCGGCCTAATGAAGAATGTCTACAGATACTTGGGAATGCAGAGAAAGGTGCAAAATTCCTTAGTGATGCTGAGATCATCCAGTTAGTCAATGCTAAGCATATCCCAGCCTACAAGTTGGAAACTCTGATGGAAACTCATGAGCGTGGTGTATCTATTCGCCGACAGTTACTTTCCAAGAAGCTTTCAGAACCTTCTTCTCTCCAGTACCTACCTTACAGGGATTATAATTACTCCTTGGTGATGGGAGCTTGTTGTGAGAATGTTATTGGATATATGCCCATCCCTGTTGGAGTGGCAGGACCCCTTTGCTTAGATGAAAAAGAATTTCAGGTTCCAATGGCAACAACAGAAGGTTGTCTTGTGGCCAGCACCAATAGAGGCTGCAGAGCAATAGGTCTTGGTGGAGGTGCCAGCAGCCGAGTCCTTGCAGATGGGATGACTCGTGGCCCAGTTGTGCGTCTTCCACGTGCTTGTGACTCTGCAGAAGTGAAAGCCTGGCTCGAAACATCTGAAGGGTTCGCAGTGATAAAGGAGGCATTTGACAGCACTAGCAGATTTGCACGTCTACAGAAACTTCATACAAGTATAGCTGGACGCAACCTTTATATCCGTTTCCAGTCCAGGTCAGGGGATGCCATGGGGATGAACATGATTTCAAAGGGTACAGAGAAAGCACTTTCAAAACTTCACGAGTATTTCCCTGAAATGCAGATTCTAGCCGTTAGTGGTAACTATTGTACTGACAAGAAACCTGCTGCTATAAATTGGATAGAGGGAAGAGGAAAATCTGTTGTTTGTGAAGCTGTCATTCCAGCCAAGGTTGTCAGAGAAGTATTAAAGACTACCACAGAGGCTATGATTGAGGTCAACATTAACAAGAATTTAGTGGGCTCTGCCATGGCTGGGAGCATAGGAGGCTACAACGCCCATGCAGCAAACATTGTCACCGCCATCTACATTGCCTGTGGACAGGATGCAGCACAGAATGTTGGTAGTTCAAACTGTATTACTTTAATGGAAGCAAGTGGTCCCACAAATGAAGATTTATATATCAGCTGCACCATGCCATCTATAGAGATAGGAACGGTGGGTGGTGGGACCAACCTACTACCTCAGCAAGCCTGTTTGCAGATGCTAGGTGTTCAAGGAGCATGCAAAGATAATCCTGGGGAAAATGCCCGGCAGCTTGCCCGAATTGTGTGTGGGACCGTAATGGCTGGGGAATTGTCACTTATGGCAGCATTGGCAGCAGGACATCTTGTCAAAAGTCACATGATTCACAACAGGTCGAAGATCAATTTACAAGACCTCCAAGGAGCTTGCACCAAGAAGACAGCCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "HMGCR",
+     "uniprotIdFromMappedMetadata": "P04035"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000035-a-1",
+   "title": "HMGCR rosuvastatin imputed and refined",
+   "shortDescription": "A deep mutational scan of HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast via DMS-TIleSeq in rosuvastatin media.",
+   "publishedDate": "2019-07-15",
+   "replacesId": null,
+   "numVariants": 18448,
+   "experiment": {
+    "title": "HMGCR yeast complementation",
+    "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast.",
+    "abstractText": "Coronary heart disease (CHD) is a leading cause of death worldwide. The risk of CHD can be reduced by LDL-cholesterol-lowering medications called statins that potently inhibit HMG-CoA reductase (HMGCR), the enzyme that catalyzes the rate-limiting reaction of the mevalonate pathway. Proactive maps of human HMGCR may be able to model patient response to statins and identify the statin with the greatest likelihood of efficacy.",
+    "methodText": "The yeast-based assay of HMGCR is a functional complementation assay that assesses the ability of human HMGCR to rescue the growth of an hmg1 hmg2 double deletion yeast strain in glucose media (Basson et al. 1988). We followed the TileSeq approach (Weile & Sun et al, MSB, 2017) to produce variant effect maps of HMGCR in glucose media without a statin, and media supplemented with atorvastatin or rosuvastatin.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000035-a",
+    "createdBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-4998-4368",
+     "firstName": "Rosanna",
+     "lastName": "Jiang",
+     "recordType": "User"
+    },
+    "creationDate": "2019-07-10",
+    "modificationDate": "2019-07-15",
+    "publishedDate": "2019-07-15",
+    "experimentSetUrn": "urn:mavedb:00000035",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000035-a-1",
+     "urn:mavedb:00000035-a-2",
+     "urn:mavedb:00000035-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 3,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2019-07-15",
+   "modificationDate": "2026-06-22",
+   "targetGenes": [
+    {
+     "name": "HMGCR",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 82,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTTGTCAAGACTTTTTCGAATGCATGGCCTCTTTGTGGCCTCCCATCCCTGGGAAGTCATAGTGGGGACAGTGACACTGACCATCTGCATGATGTCCATGAACATGTTTACTGGTAACAATAAGATCTGTGGTTGGAATTATGAATGTCCAAAGTTTGAAGAGGATGTTTTGAGCAGTGACATTATAATTCTGACAATAACACGATGCATAGCCATCCTGTATATTTACTTCCAGTTCCAGAATTTACGTCAACTTGGATCAAAATATATTTTGGGTATTGCTGGCCTTTTCACAATTTTCTCAAGTTTTGTATTCAGTACAGTTGTCATTCACTTCTTAGACAAAGAATTGACAGGCTTGAATGAAGCTTTGCCCTTTTTCCTACTTTTGATTGACCTTTCCAGAGCAAGCACATTAGCAAAGTTTGCCCTCAGTTCCAACTCACAGGATGAAGTAAGGGAAAATATTGCTCGTGGAATGGCAATTTTAGGTCCTACGTTTACCCTCGATGCTCTTGTTGAATGTCTTGTGATTGGAGTTGGTACCATGTCAGGGGTACGTCAGCTTGAAATTATGTGCTGCTTTGGCTGCATGTCAGTTCTTGCCAACTACTTCGTGTTCATGACTTTCTTCCCAGCTTGTGTGTCCTTGGTATTAGAGCTTTCTCGGGAAAGCCGCGAGGGTCGTCCAATTTGGCAGCTCAGCCATTTTGCCCGAGTTTTAGAAGAAGAAGAAAATAAGCCGAATCCTGTAACTCAGAGGGTCAAGATGATTATGTCTCTAGGCTTGGTTCTTGTTCATGCTCACAGTCGCTGGATAGCTGATCCTTCTCCTCAAAACAGTACAGCAGATACTTCTAAGGTTTCATTAGGACTGGATGAAAATGTGTCCAAGAGAATTGAACCAAGTGTTTCCCTCTGGCAGTTTTATCTCTCTAAAATGATCAGCATGGATATTGAACAAGTTATTACCCTAAGTTTAGCTCTCCTTCTGGCTGTCAAGTACATCTTCTTTGAACAAACAGAGACAGAATCTACACTCTCATTAAAAAACCCTATCACATCTCCTGTAGTGACACAAAAGAAAGTCCCAGACAATTGTTGTAGACGTGAACCTATGCTGGTCAGAAATAACCAGAAATGTGATTCAGTAGAGGAAGAGACAGGGATAAACCGAGAAAGAAAAGTTGAGGTTATAAAACCCTTAGTGGCTGAAACAGATACCCCAAACAGAGCTACATTTGTGGTTGGTAACTCCTCCTTACTCGATACTTCATCAGTACTGGTGACACAGGAACCTGAAATTGAACTTCCCAGGGAACCTCGGCCTAATGAAGAATGTCTACAGATACTTGGGAATGCAGAGAAAGGTGCAAAATTCCTTAGTGATGCTGAGATCATCCAGTTAGTCAATGCTAAGCATATCCCAGCCTACAAGTTGGAAACTCTGATGGAAACTCATGAGCGTGGTGTATCTATTCGCCGACAGTTACTTTCCAAGAAGCTTTCAGAACCTTCTTCTCTCCAGTACCTACCTTACAGGGATTATAATTACTCCTTGGTGATGGGAGCTTGTTGTGAGAATGTTATTGGATATATGCCCATCCCTGTTGGAGTGGCAGGACCCCTTTGCTTAGATGAAAAAGAATTTCAGGTTCCAATGGCAACAACAGAAGGTTGTCTTGTGGCCAGCACCAATAGAGGCTGCAGAGCAATAGGTCTTGGTGGAGGTGCCAGCAGCCGAGTCCTTGCAGATGGGATGACTCGTGGCCCAGTTGTGCGTCTTCCACGTGCTTGTGACTCTGCAGAAGTGAAAGCCTGGCTCGAAACATCTGAAGGGTTCGCAGTGATAAAGGAGGCATTTGACAGCACTAGCAGATTTGCACGTCTACAGAAACTTCATACAAGTATAGCTGGACGCAACCTTTATATCCGTTTCCAGTCCAGGTCAGGGGATGCCATGGGGATGAACATGATTTCAAAGGGTACAGAGAAAGCACTTTCAAAACTTCACGAGTATTTCCCTGAAATGCAGATTCTAGCCGTTAGTGGTAACTATTGTACTGACAAGAAACCTGCTGCTATAAATTGGATAGAGGGAAGAGGAAAATCTGTTGTTTGTGAAGCTGTCATTCCAGCCAAGGTTGTCAGAGAAGTATTAAAGACTACCACAGAGGCTATGATTGAGGTCAACATTAACAAGAATTTAGTGGGCTCTGCCATGGCTGGGAGCATAGGAGGCTACAACGCCCATGCAGCAAACATTGTCACCGCCATCTACATTGCCTGTGGACAGGATGCAGCACAGAATGTTGGTAGTTCAAACTGTATTACTTTAATGGAAGCAAGTGGTCCCACAAATGAAGATTTATATATCAGCTGCACCATGCCATCTATAGAGATAGGAACGGTGGGTGGTGGGACCAACCTACTACCTCAGCAAGCCTGTTTGCAGATGCTAGGTGTTCAAGGAGCATGCAAAGATAATCCTGGGGAAAATGCCCGGCAGCTTGCCCGAATTGTGTGTGGGACCGTAATGGCTGGGGAATTGTCACTTATGGCAGCATTGGCAGCAGGACATCTTGTCAAAAGTCACATGATTCACAACAGGTCGAAGATCAATTTACAAGACCTCCAAGGAGCTTGCACCAAGAAGACAGCCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "HMGCR",
+     "uniprotIdFromMappedMetadata": "P04035"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 3
+}

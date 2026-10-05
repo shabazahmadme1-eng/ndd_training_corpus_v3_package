@@ -1,0 +1,66 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.ajhg.2023.03.019\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37146589",
+        "source": "MED",
+        "pmid": "37146589",
+        "pmcid": "PMC10183466",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10183466"
+          ]
+        },
+        "doi": "10.1016/j.ajhg.2023.03.019",
+        "title": "The functional impact of 1,570 individual amino acid substitutions in human OTC.",
+        "authorString": "Lo RS, Cromie GA, Tang M, Teng K, Owens K, Sirr A, Kutz JN, Morizono H, Caldovic L, Ah Mew N, Gropman A, Dudley AM.",
+        "journalTitle": "Am J Hum Genet",
+        "issue": "5",
+        "journalVolume": "110",
+        "pubYear": "2023",
+        "journalIssn": "0002-9297; 1537-6605; ",
+        "pageInfo": "863-879",
+        "pubType": "research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 24,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject",
+            "gen",
+            "omim",
+            "refseq",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2023-05-01",
+        "firstIndexDate": "2023-05-07"
+      }
+    ]
+  }
+}

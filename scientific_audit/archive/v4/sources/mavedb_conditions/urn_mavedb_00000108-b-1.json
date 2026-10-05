@@ -1,0 +1,994 @@
+{
+  "title": "Missense variant effect map for the human erythroid-specific HMBS isoform",
+  "methodText": "Functional impact scores were calculated using an enrichment ratio (\u03a6) obtained from the ratio of adjusted variant frequencies in selective to non-selective libraries, after subtracting PCR and sequencing errors. A normalized score (FSMUT) was then computed as ln(\u03a6MUT/\u03a6STOP)/ln(\u03a6SYN/\u03a6STOP), where \u03a6MUT represents the enrichment ratio for a given variant, \u03a6STOP is the median enrichment ratio of nonsense variants, and \u03a6SYN is the median enrichment ratio of synonymous variants. Scores were rescaled such that FSMUT equals 0 when \u03a6MUT equals \u03a6STOP and FSMUT equals 1 when \u03a6MUT equals \u03a6SYN. Regional differences in selection stringency were addressed by rescaling the erythroid isoform scores to minimize the average Euclidean distance between scores in the maps.",
+  "abstractText": "Defects in hydroxymethylbilane synthase (HMBS) can cause acute intermittent porphyria (AIP), an acute neurological disease. Although sequencing-based diagnosis can be definitive, \u223c\u2153 of clinical HMBS variants are missense variants, and most clinically reported HMBS missense variants are designated as \"variants of uncertain significance\" (VUSs). Using saturation mutagenesis, en masse selection, and sequencing, we applied a multiplexed validated assay to both the erythroid-specific and ubiquitous isoforms of HMBS, obtaining confident functional impact scores for >84% of all possible amino acid substitutions. The resulting variant effect maps generally agreed with biochemical expectations and provide further evidence that HMBS can function as a monomer. Additionally, the maps implicated specific residues as having roles in active site dynamics, which was further supported by molecular dynamics simulations. Most importantly, these maps can help discriminate pathogenic from benign HMBS variants, proactively providing evidence even for yet-to-be-observed clinical missense variants.",
+  "shortDescription": "Missense variant effect map for the human erythroid-specific HMBS isoform via functional complementation in yeast.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000108-b-1",
+  "numVariants": 6486,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [
+    "urn:mavedb:00000108-0-1"
+  ],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "37729906",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Systematically testing human HMBS missense variants to reveal mechanism and pathogenic variation.",
+      "authors": [
+        {
+          "name": "van Loggerenberg W",
+          "primary": true
+        },
+        {
+          "name": "Sowlati-Hashjin S",
+          "primary": false
+        },
+        {
+          "name": "Weile J",
+          "primary": false
+        },
+        {
+          "name": "Hamilton R",
+          "primary": false
+        },
+        {
+          "name": "Chawla A",
+          "primary": false
+        },
+        {
+          "name": "Sheykhkarimli D",
+          "primary": false
+        },
+        {
+          "name": "Gebbia M",
+          "primary": false
+        },
+        {
+          "name": "Kishore N",
+          "primary": false
+        },
+        {
+          "name": "Fr\u00e9sard L",
+          "primary": false
+        },
+        {
+          "name": "Mustajoki S",
+          "primary": false
+        },
+        {
+          "name": "Pischik E",
+          "primary": false
+        },
+        {
+          "name": "Di Pierro E",
+          "primary": false
+        },
+        {
+          "name": "Barbaro M",
+          "primary": false
+        },
+        {
+          "name": "Floderus Y",
+          "primary": false
+        },
+        {
+          "name": "Schmitt C",
+          "primary": false
+        },
+        {
+          "name": "Gouya L",
+          "primary": false
+        },
+        {
+          "name": "Colavin A",
+          "primary": false
+        },
+        {
+          "name": "Nussbaum R",
+          "primary": false
+        },
+        {
+          "name": "Friesema ECH",
+          "primary": false
+        },
+        {
+          "name": "Kauppinen R",
+          "primary": false
+        },
+        {
+          "name": "To-Figueras J",
+          "primary": false
+        },
+        {
+          "name": "Aarsand AK",
+          "primary": false
+        },
+        {
+          "name": "Desnick RJ",
+          "primary": false
+        },
+        {
+          "name": "Garton M",
+          "primary": false
+        },
+        {
+          "name": "Roth FP",
+          "primary": false
+        }
+      ],
+      "abstract": "Defects in hydroxymethylbilane synthase (HMBS) can cause acute intermittent porphyria (AIP), an acute neurological disease. Although sequencing-based diagnosis can be definitive, \u223c\u2153 of clinical HMBS variants are missense variants, and most clinically reported HMBS missense variants are designated as \"variants of uncertain significance\" (VUSs). Using saturation mutagenesis, en masse selection, and sequencing, we applied a multiplexed validated assay to both the erythroid-specific and ubiquitous isoforms of HMBS, obtaining confident functional impact scores for >84% of all possible amino acid substitutions. The resulting variant effect maps generally agreed with biochemical expectations and provide further evidence that HMBS can function as a monomer. Additionally, the maps implicated specific residues as having roles in active site dynamics, which was further supported by molecular dynamics simulations. Most importantly, these maps can help discriminate pathogenic from benign HMBS variants, proactively providing evidence even for yet-to-be-observed clinical missense variants.",
+      "doi": "10.1016/j.ajhg.2023.08.012",
+      "publicationYear": 2023,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/37729906",
+      "referenceHtml": "van Loggerenberg W, <i>et al</i>. Systematically testing human HMBS missense variants to reveal mechanism and pathogenic variation. Am J Hum Genet. 2023; 110:1769-1786. 10.1016/j.ajhg.2023.08.012",
+      "id": 149
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2022-12-06",
+  "creationDate": "2022-12-06",
+  "modificationDate": "2026-05-29",
+  "createdBy": {
+    "orcidId": "0000-0002-4912-1044",
+    "firstName": "Warren",
+    "lastName": "van Loggerenberg",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-4912-1044",
+    "firstName": "Warren",
+    "lastName": "van Loggerenberg",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "HMBS",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "Ensembl",
+            "identifier": "ENSG00000256269",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://www.ensembl.org/id/ENSG00000256269"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        },
+        {
+          "identifier": {
+            "dbName": "RefSeq",
+            "identifier": "NM_000190.4",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_000190.4"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        },
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "P08397",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/P08397"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 396,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGTCTGGTAACGGCAATGCGGCTGCAACGGCGGAAGAAAACAGCCCAAAGATGAGAGTGATTCGCGTGGGTACCCGCAAGAGCCAGCTTGCTCGCATACAGACGGACAGTGTGGTGGCAACATTGAAAGCCTCGTACCCTGGCCTGCAGTTTGAAATCATTGCTATGTCCACCACAGGGGACAAGATTCTTGATACTGCACTCTCTAAGATTGGAGAGAAAAGCCTGTTTACCAAGGAGCTTGAACATGCCCTGGAGAAGAATGAAGTGGACCTGGTTGTTCACTCCTTGAAGGACCTGCCCACTGTGCTTCCTCCTGGCTTCACCATCGGAGCCATCTGCAAGCGGGAAAACCCTCATGATGCTGTTGTCTTTCACCCAAAATTTGTTGGGAAGACCCTAGAAACCCTGCCAGAGAAGAGTGTGGTGGGAACCAGCTCCCTGCGAAGAGCAGCCCAGCTGCAGAGAAAGTTCCCGCATCTGGAGTTCAGGAGTATTCGGGGAAACCTCAACACCCGGCTTCGGAAGCTGGACGAGCAGCAGGAGTTCAGTGCCATCATCCTGGCAACAGCTGGCCTGCAGCGCATGGGCTGGCACAACCGGGTGGGGCAGATCCTGCACCCTGAGGAATGCATGTATGCTGTGGGCCAGGGGGCCTTGGGCGTGGAAGTGCGAGCCAAGGACCAGGACATCTTGGATCTGGTGGGTGTGCTGCACGATCCCGAGACTCTGCTTCGCTGCATCGCTGAAAGGGCCTTCCTGAGGCACCTGGAAGGAGGCTGCAGTGTGCCAGTAGCCGTGCATACAGCTATGAAGGATGGGCAACTGTACCTGACTGGAGGAGTCTGGAGTCTAGACGGCTCAGATAGCATACAAGAGACCATGCAGGCTACCATCCATGTCCCTGCCCAGCATGAAGATGGCCCTGAGGATGACCCACAGTTGGTAGGCATCACTGCTCGTAACATTCCACGAGGGCCCCAGTTGGCTGCCCAGAACTTGGGCATCAGCCTGGCCAACTTGTTGCTGAGCAAAGGAGCCAAAAACATCCTGGATGTTGCACGGCAGCTTAACGATGCCCATTAA",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "HMBS",
+      "uniprotIdFromMappedMetadata": "P08397"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "sd",
+      "df",
+      "se"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [
+    {
+      "title": "ExCALIBR calibration",
+      "researchUseOnly": true,
+      "functionalClassifications": [
+        {
+          "label": "BS3 Moderate+ (-3)",
+          "functionalClassification": "normal",
+          "range": [
+            0.9709215764456446,
+            null
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "MODERATE_PLUS",
+            "points": -3,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6317,
+          "recordType": "FunctionalClassification",
+          "variantCount": 1409
+        },
+        {
+          "label": "BS3 Moderate (-2)",
+          "functionalClassification": "normal",
+          "range": [
+            0.8288324900548055,
+            0.9709215764456446
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": true,
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "MODERATE",
+            "points": -2,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6318,
+          "recordType": "FunctionalClassification",
+          "variantCount": 770
+        },
+        {
+          "label": "BS3 Supporting (-1)",
+          "functionalClassification": "normal",
+          "range": [
+            0.7579212386852686,
+            0.8288324900548055
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": true,
+          "acmgClassification": {
+            "criterion": "BS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": -1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6319,
+          "recordType": "FunctionalClassification",
+          "variantCount": 398
+        },
+        {
+          "label": "PS3 Supporting (1)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.2194222621196119,
+            0.29753127208680874
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": 1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6320,
+          "recordType": "FunctionalClassification",
+          "variantCount": 213
+        },
+        {
+          "label": "PS3 Moderate (2)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.1405135011971198,
+            0.2194222621196119
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE",
+            "points": 2,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6321,
+          "recordType": "FunctionalClassification",
+          "variantCount": 232
+        },
+        {
+          "label": "PS3 Moderate+ (3)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.05707281819461951,
+            0.1405135011971198
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE_PLUS",
+            "points": 3,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6322,
+          "recordType": "FunctionalClassification",
+          "variantCount": 234
+        },
+        {
+          "label": "PS3 Strong (4)",
+          "functionalClassification": "abnormal",
+          "range": [
+            -0.041829716610261025,
+            0.05707281819461951
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 4,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6323,
+          "recordType": "FunctionalClassification",
+          "variantCount": 328
+        },
+        {
+          "label": "PS3 Strong (5)",
+          "functionalClassification": "abnormal",
+          "range": [
+            -0.21964101233763378,
+            -0.041829716610261025
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 5,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6324,
+          "recordType": "FunctionalClassification",
+          "variantCount": 530
+        },
+        {
+          "label": "PS3 Strong (6)",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            -0.21964101233763378
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 6,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6325,
+          "recordType": "FunctionalClassification",
+          "variantCount": 706
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "evidenceSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "methodSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "calibrationMetadata": {
+        "prior_probability_pathogenicity": 0.2370244795
+      },
+      "recordType": "ScoreCalibration",
+      "id": 2315,
+      "urn": "urn:mavedb:calibration-c850a726-f822-454e-9d07-60c5ff094a12",
+      "scoreSetId": 396,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2026-02-24",
+      "modificationDate": "2026-02-24"
+    },
+    {
+      "title": "Investigator-provided functional classes",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "thresholdSources": [],
+      "evidenceSources": [],
+      "methodSources": [],
+      "recordType": "ScoreCalibration",
+      "id": 734,
+      "urn": "urn:mavedb:calibration-b178448c-28de-4210-9758-eac65d7ca035",
+      "scoreSetId": 396,
+      "investigatorProvided": true,
+      "primary": true,
+      "private": false,
+      "createdBy": {
+        "orcidId": "0000-0002-4912-1044",
+        "firstName": "Warren",
+        "lastName": "van Loggerenberg",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0002-4912-1044",
+        "firstName": "Warren",
+        "lastName": "van Loggerenberg",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    }
+  ],
+  "experiment": {
+    "title": "Missense variant effect maps for the human HMBS enzyme via multiplexed yeast functional complementation assays",
+    "shortDescription": "Missense variant effect maps for the human HMBS (ubiquitous, erythroid-specific and combined) enzyme via multiplexed yeast functional complementation assays",
+    "abstractText": "Defects in human hydroxymethylbilane synthase (HMBS), also known as porphobilinogen deaminase (PBGD) or uroporphyrinogen I synthase, may cause Acute Intermittent Porphyria (AIP), a potentially severe acute neurological disease. Here we describe missense variant effect maps for the erythroid-specific and ubiquitous HMBS isoforms. As no convincing difference between the maps was observed in any segment of HMBS, we aggregated the scores of the two maps, calculating a weighted average score for each variant.",
+    "methodText": "We implemented a previously-validated humanized yeast model (Kachroo et al, Elife, 2017) and used it to confirm that expression of human HMBS from the hORFeome collection rescued temperature-sensitive (ts) mutations in the corresponding orthologous yeast essential gene HEM3.\r\nBy coupling this efficient functional complementation assay with the TileSeq framework for multiplexed assays of variant effect (Weile et al, MSB, 2017),  we sought to measure the functional consequences of all possible missense HMBS variants. First, we constructed libraries of HMBS variants (for both erythroid-specific and ubiquitous isoforms) using our previously described POPCode mutagenesis method (Weile et al, MSB, 2017). The variant libraries, initially generated as a pool of amplicons, were transferred en masse into the appropriate yeast expression vector via two steps of recombinational subcloning. The resulting libraries of variant expression clones were then transformed en masse into the appropriate ts yeast strain. \r\n\r\nNext, pools of the yeast HMBS mutant strains were grown competitively on synthetic medium at non-permissive temperature. The \u2018allele frequencies\u2019 of each HMBS variant within this laboratory strain population were then determined, before and after selection, using the TileSeq framework, in  which  sequencing is applied to a set of amplicon \u2018tiles\u2019 that collectively span the complete coding region. These tiles are sufficiently short (~150bp) to enable sequencing of both strands (\u201cduplex sequencing\u201d), with variants called only where they are detected on both strands. Each nucleotide position was captured on both strands by ~2 million reads strands. \r\n\r\nThe sequence analysis code can be found at https://github.com/jweile/tileseqMave",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000108-b",
+    "createdBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2025-10-21",
+    "modificationDate": "2025-10-21",
+    "publishedDate": "2025-10-21",
+    "experimentSetUrn": "urn:mavedb:00000108",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "37729906",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Systematically testing human HMBS missense variants to reveal mechanism and pathogenic variation.",
+        "authors": [
+          {
+            "name": "van Loggerenberg W",
+            "primary": true
+          },
+          {
+            "name": "Sowlati-Hashjin S",
+            "primary": false
+          },
+          {
+            "name": "Weile J",
+            "primary": false
+          },
+          {
+            "name": "Hamilton R",
+            "primary": false
+          },
+          {
+            "name": "Chawla A",
+            "primary": false
+          },
+          {
+            "name": "Sheykhkarimli D",
+            "primary": false
+          },
+          {
+            "name": "Gebbia M",
+            "primary": false
+          },
+          {
+            "name": "Kishore N",
+            "primary": false
+          },
+          {
+            "name": "Fr\u00e9sard L",
+            "primary": false
+          },
+          {
+            "name": "Mustajoki S",
+            "primary": false
+          },
+          {
+            "name": "Pischik E",
+            "primary": false
+          },
+          {
+            "name": "Di Pierro E",
+            "primary": false
+          },
+          {
+            "name": "Barbaro M",
+            "primary": false
+          },
+          {
+            "name": "Floderus Y",
+            "primary": false
+          },
+          {
+            "name": "Schmitt C",
+            "primary": false
+          },
+          {
+            "name": "Gouya L",
+            "primary": false
+          },
+          {
+            "name": "Colavin A",
+            "primary": false
+          },
+          {
+            "name": "Nussbaum R",
+            "primary": false
+          },
+          {
+            "name": "Friesema ECH",
+            "primary": false
+          },
+          {
+            "name": "Kauppinen R",
+            "primary": false
+          },
+          {
+            "name": "To-Figueras J",
+            "primary": false
+          },
+          {
+            "name": "Aarsand AK",
+            "primary": false
+          },
+          {
+            "name": "Desnick RJ",
+            "primary": false
+          },
+          {
+            "name": "Garton M",
+            "primary": false
+          },
+          {
+            "name": "Roth FP",
+            "primary": false
+          }
+        ],
+        "abstract": "Defects in hydroxymethylbilane synthase (HMBS) can cause acute intermittent porphyria (AIP), an acute neurological disease. Although sequencing-based diagnosis can be definitive, \u223c\u2153 of clinical HMBS variants are missense variants, and most clinically reported HMBS missense variants are designated as \"variants of uncertain significance\" (VUSs). Using saturation mutagenesis, en masse selection, and sequencing, we applied a multiplexed validated assay to both the erythroid-specific and ubiquitous isoforms of HMBS, obtaining confident functional impact scores for >84% of all possible amino acid substitutions. The resulting variant effect maps generally agreed with biochemical expectations and provide further evidence that HMBS can function as a monomer. Additionally, the maps implicated specific residues as having roles in active site dynamics, which was further supported by molecular dynamics simulations. Most importantly, these maps can help discriminate pathogenic from benign HMBS variants, proactively providing evidence even for yet-to-be-observed clinical missense variants.",
+        "doi": "10.1016/j.ajhg.2023.08.012",
+        "publicationYear": 2023,
+        "publicationJournal": "Am J Hum Genet",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/37729906",
+        "referenceHtml": "van Loggerenberg W, <i>et al</i>. Systematically testing human HMBS missense variants to reveal mechanism and pathogenic variation. Am J Hum Genet. 2023; 110:1769-1786. 10.1016/j.ajhg.2023.08.012",
+        "id": 149
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+      {
+        "orcidId": "0000-0002-4912-1044",
+        "recordType": "Contributor",
+        "givenName": "Warren",
+        "familyName": "van Loggerenberg"
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Dimensionality",
+          "label": "Single-dimensional data",
+          "special": false,
+          "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Variant Library Creation Method",
+          "label": "In vitro construct library method",
+          "special": false,
+          "description": "A methodology for generating a variant library at an endogenous locus"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Delivery Method",
+          "label": "Chemical or heat shock transformation",
+          "special": false,
+          "description": "How the variant library was delivered to the model system for phenotype evaluation."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method Mechanism",
+          "label": "Plasmid (not integrated)",
+          "special": false,
+          "description": "The mechanism for integration or expression of an exogenous construct"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method System",
+          "label": "Oligo-directed mutagenic PCR",
+          "special": false,
+          "description": "The type of method used to generate the library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Mechanism",
+          "label": "Loss of function",
+          "special": false,
+          "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Model System",
+          "label": "Yeast",
+          "special": false,
+          "description": "The model system context that influences expression of the phenotype."
+        },
+        "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Profiling Strategy",
+          "label": "Direct sequencing",
+          "special": false,
+          "description": "The strategy used to profile the variant library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Sequencing Read Type",
+          "label": "Single-segment (short read)",
+          "special": false,
+          "description": "The sequencing method used"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Method",
+          "label": "Cell fitness",
+          "special": false,
+          "description": "The assay method, defining the molecular properties interrogated."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      }
+    ],
+    "scoreSetUrns": [
+      "urn:mavedb:00000108-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [
+    {
+      "badgeName": "MaveMD",
+      "name": "MaveMD",
+      "urn": "urn:mavedb:collection-603dafbf-4a3f-4d70-ab8c-aafb226fbff4",
+      "scoreSetUrns": [
+        "urn:mavedb:00000657-a-1",
+        "urn:mavedb:00000657-b-1",
+        "urn:mavedb:00000662-0-1",
+        "urn:mavedb:00001250-a-1",
+        "urn:mavedb:00001222-a-2",
+        "urn:mavedb:00001222-b-2",
+        "urn:mavedb:00000097-0-2",
+        "urn:mavedb:00001224-a-1",
+        "urn:mavedb:00001263-a-1",
+        "urn:mavedb:00001268-0-1",
+        "urn:mavedb:00001268-a-1",
+        "urn:mavedb:00001268-b-1",
+        "urn:mavedb:00001268-c-1",
+        "urn:mavedb:00001242-a-1",
+        "urn:mavedb:00000001-c-1",
+        "urn:mavedb:00001226-a-1",
+        "urn:mavedb:00001226-b-1",
+        "urn:mavedb:00000005-a-5",
+        "urn:mavedb:00000005-a-6",
+        "urn:mavedb:00001205-a-1",
+        "urn:mavedb:00001227-a-2",
+        "urn:mavedb:00001262-a-1",
+        "urn:mavedb:00001228-a-1",
+        "urn:mavedb:00001200-0-1",
+        "urn:mavedb:00001200-a-1",
+        "urn:mavedb:00001200-b-1",
+        "urn:mavedb:00001200-c-1",
+        "urn:mavedb:00001200-d-1",
+        "urn:mavedb:00001200-e-1",
+        "urn:mavedb:00001197-a-5",
+        "urn:mavedb:00001266-b-1",
+        "urn:mavedb:00000096-a-1",
+        "urn:mavedb:00000096-b-1",
+        "urn:mavedb:00000108-0-1",
+        "urn:mavedb:00000108-a-1",
+        "urn:mavedb:00000108-b-1",
+        "urn:mavedb:00001198-a-1",
+        "urn:mavedb:00000674-a-2",
+        "urn:mavedb:00000674-b-1",
+        "urn:mavedb:00000674-c-1",
+        "urn:mavedb:00001230-a-2",
+        "urn:mavedb:00001229-a-2",
+        "urn:mavedb:00001231-a-2",
+        "urn:mavedb:00000094-a-2",
+        "urn:mavedb:00000094-a-3",
+        "urn:mavedb:00001254-a-1",
+        "urn:mavedb:00000050-a-1",
+        "urn:mavedb:00000663-a-1",
+        "urn:mavedb:00000112-a-1",
+        "urn:mavedb:00001259-a-1",
+        "urn:mavedb:00000665-a-1",
+        "urn:mavedb:00000665-b-1",
+        "urn:mavedb:00000665-c-1",
+        "urn:mavedb:00000665-d-1",
+        "urn:mavedb:00000013-a-1",
+        "urn:mavedb:00000054-a-1",
+        "urn:mavedb:00000673-0-1",
+        "urn:mavedb:00001260-a-1",
+        "urn:mavedb:00000099-a-1",
+        "urn:mavedb:00000098-a-2",
+        "urn:mavedb:00001233-a-1",
+        "urn:mavedb:00000659-a-1",
+        "urn:mavedb:00000060-a-1",
+        "urn:mavedb:00000060-a-2",
+        "urn:mavedb:00001235-a-1",
+        "urn:mavedb:00001236-0-1",
+        "urn:mavedb:00000068-0-1",
+        "urn:mavedb:00000068-a-1",
+        "urn:mavedb:00000068-b-1",
+        "urn:mavedb:00000068-c-1",
+        "urn:mavedb:00001234-0-1",
+        "urn:mavedb:00001234-a-1",
+        "urn:mavedb:00001234-b-1",
+        "urn:mavedb:00001234-c-1",
+        "urn:mavedb:00001234-d-1",
+        "urn:mavedb:00001234-e-1",
+        "urn:mavedb:00001234-f-1",
+        "urn:mavedb:00001234-g-1",
+        "urn:mavedb:00001234-h-1",
+        "urn:mavedb:00001251-a-1",
+        "urn:mavedb:00001267-b-1",
+        "urn:mavedb:00000675-a-1",
+        "urn:mavedb:00001264-a-1",
+        "urn:mavedb:00001267-a-2"
+      ],
+      "experimentUrns": []
+    }
+  ],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

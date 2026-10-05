@@ -1,0 +1,62 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.7554/eLife.58026\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32870157",
+        "source": "MED",
+        "pmid": "32870157",
+        "pmcid": "PMC7462613",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7462613"
+          ]
+        },
+        "doi": "10.7554/elife.58026",
+        "title": "Multiplexed measurement of variant abundance and activity reveals VKOR topology, active site and human variant impact.",
+        "authorString": "Chiasson MA, Rollins NJ, Stephany JJ, Sitko KA, Matreyek KA, Verby M, Sun S, Roth FP, DeSloover D, Marks DS, Rettie AE, Fowler DM.",
+        "journalTitle": "Elife",
+        "journalVolume": "9",
+        "pubYear": "2020",
+        "journalIssn": "2050-084x",
+        "pageInfo": "e58026",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 91,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2020-09-01",
+        "firstIndexDate": "2020-09-02"
+      }
+    ]
+  }
+}

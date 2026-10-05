@@ -1,0 +1,220 @@
+{
+  "urn:mavedb:00000035-a-1": {
+    "assays": [
+      "HMDH_HUMAN_Jiang_2019"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "HMGCR rosuvastatin imputed and refined"
+  },
+  "urn:mavedb:00000049-a-6": {
+    "assays": [
+      "MTHR_HUMAN_Weile_2021"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "MTHFR at 25ug/ml folate in WT background"
+  },
+  "urn:mavedb:00000051-a-1": {
+    "assays": [
+      "LYAM1_HUMAN_Elazar_2016"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "C-terminal of L-Selectin"
+  },
+  "urn:mavedb:00000051-b-1": {
+    "assays": [
+      "ERBB2_HUMAN_Elazar_2016"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "Helix region of ErbB2"
+  },
+  "urn:mavedb:00000051-c-1": {
+    "assays": [
+      "GLPA_HUMAN_Elazar_2016"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "Helix region of Glycophorin A"
+  },
+  "urn:mavedb:00000061-a-1": {
+    "assays": [
+      "RAF1_HUMAN_Zinkus-Boltz_2019"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "RAF variant selected after 2h"
+  },
+  "urn:mavedb:00000099-a-1": {
+    "assays": [
+      "OPSD_HUMAN_Wan_2019"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "Rhodopsin surface expression"
+  },
+  "urn:mavedb:00000106-c-1": {
+    "assays": [
+      "AICDA_HUMAN_Gajula_2014_3cycles"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "Deaminase activity of AID in generation 3"
+  },
+  "urn:mavedb:00000107-b-1": {
+    "assays": [
+      "SERC_HUMAN_Xie_2023"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast."
+  },
+  "urn:mavedb:00000112-a-1": {
+    "assays": [
+      "OTC_HUMAN_Lo_2023"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "SNV-accessible missense variant scores for OTC"
+  },
+  "urn:mavedb:00000114-a-1": {
+    "assays": [
+      "PRKN_HUMAN_Clausen_2023"
+    ],
+    "match": "named by ProteinGym raw_DMS_filename",
+    "title": "Parkin (PRKN) cellular abundance"
+  },
+  "urn:mavedb:00000004-a-1": {
+    "assays": [
+      "UBE4B_MOUSE_Starita_2013"
+    ],
+    "match": "Starita 2013 E4B phage-display score set",
+    "title": "Enrich scores for E4B"
+  },
+  "urn:mavedb:00000013-b-1": {
+    "assays": [
+      "TPMT_HUMAN_Matreyek_2018"
+    ],
+    "match": "DOI 10.1038/s41588-018-0122-z, TPMT VAMP-seq",
+    "title": "TPMT VAMP-seq"
+  },
+  "urn:mavedb:00000041-a-1": {
+    "assays": [
+      "SRC_HUMAN_Ahler_2019"
+    ],
+    "match": "DOI 10.1016/j.molcel.2019.02.003, Src catalytic domain",
+    "title": "Amino acid scores for Src CD"
+  },
+  "urn:mavedb:00000050-a-1": {
+    "assays": [
+      "MSH2_HUMAN_Jia_2020"
+    ],
+    "match": "DOI 10.1016/j.ajhg.2020.12.003, HAP1 6-TG arm",
+    "title": "MSH2 LOF scores (HAP1)"
+  },
+  "urn:mavedb:00000055-a-1": {
+    "assays": [
+      "NUD15_HUMAN_Suiter_2020"
+    ],
+    "match": "VAMP-seq stability arm, for contrast",
+    "title": "NUDT15 protein stability scores"
+  },
+  "urn:mavedb:00000055-b-1": {
+    "assays": [
+      "NUD15_HUMAN_Suiter_2020"
+    ],
+    "match": "thiopurine-cytotoxicity activity arm",
+    "title": "NUDT15 activity scores"
+  },
+  "urn:mavedb:00000095-a-1": {
+    "assays": [
+      "CP2C9_HUMAN_Amorosi_2021_activity"
+    ],
+    "match": "same study, activity arm (Click-seq, humanized yeast)",
+    "title": "CYP2C9 activity scores as measured by Click-seq"
+  },
+  "urn:mavedb:00000095-b-1": {
+    "assays": [
+      "CP2C9_HUMAN_Amorosi_2021_abundance"
+    ],
+    "match": "same study, abundance arm (VAMP-seq, HEK293T)",
+    "title": "CYP2C9 abundance scores as measured by VAMP-seq"
+  },
+  "urn:mavedb:00000096-a-1": {
+    "assays": [
+      "HXK4_HUMAN_Gersing_2022_activity"
+    ],
+    "match": "DOI 10.1186/s13059-023-02935-8, activity by complementation",
+    "title": "GCK activity measured by complementation"
+  },
+  "urn:mavedb:00000096-b-1": {
+    "assays": [
+      "HXK4_HUMAN_Gersing_2023_abundance"
+    ],
+    "match": "DOI 10.1186/s13059-024-03238-2, abundance by DHFR-PCA",
+    "title": "GCK variant abundance measured by DHFR-PCA"
+  },
+  "urn:mavedb:00000098-a-2": {
+    "assays": [
+      "SCN5A_HUMAN_Glazer_2019"
+    ],
+    "match": "DOI 10.1161/CIRCGEN.119.002786",
+    "title": "SCN5A response to veratridine+brevetoxin+ouabain mixture"
+  },
+  "urn:mavedb:00000108-a-1": {
+    "assays": [
+      "HEM3_HUMAN_Loggerenberg_2023"
+    ],
+    "match": "ubiquitous HMBS isoform",
+    "title": "Missense variant effect map for the human ubiquitous HMBS isoform"
+  },
+  "urn:mavedb:00000108-b-1": {
+    "assays": [
+      "HEM3_HUMAN_Loggerenberg_2023"
+    ],
+    "match": "erythroid-specific HMBS isoform",
+    "title": "Missense variant effect map for the human erythroid-specific HMBS isoform"
+  },
+  "urn:mavedb:00000674-a-2": {
+    "assays": [
+      "KCNE1_HUMAN_Muhammad_2023_expression"
+    ],
+    "match": "DOI 10.1101/2023.04.28.538612, trafficking with KCNQ1",
+    "title": "Trafficking scores for KCNE1 in the presence of KCNQ1"
+  },
+  "urn:mavedb:00000674-b-1": {
+    "assays": [
+      "KCNE1_HUMAN_Muhammad_2023_function"
+    ],
+    "match": "DOI 10.1101/2023.04.28.538612, functional arm",
+    "title": "Functional MAVE scores for KCNE1"
+  },
+  "urn:mavedb:00000674-c-1": {
+    "assays": [
+      "KCNE1_HUMAN_Muhammad_2023_expression"
+    ],
+    "match": "DOI 10.1101/2023.04.28.538612, trafficking without KCNQ1",
+    "title": "Trafficking scores for KCNE1 in the absence of KCNQ1"
+  },
+  "urn:mavedb:00001223-a-1": {
+    "assays": [
+      "BRCA2_HUMAN_Erwood_2022_HEK293T"
+    ],
+    "match": "DOI 10.1038/s41587-021-01201-1, BRCA2 essentiality arm",
+    "title": "Scores from saturation prime editing essentiality screen of BRCA2 in locally haploidized HEK293T cells"
+  },
+  "urn:mavedb:00001232-a-1": {
+    "assays": [
+      "NPC1_HUMAN_Erwood_2022_HEK293T"
+    ],
+    "match": "DOI 10.1038/s41587-021-01201-1, HEK293T arm",
+    "title": "Scores from saturation prime editing of NCP1 in locally haploidized HEK293T cells"
+  },
+  "urn:mavedb:00001232-b-1": {
+    "assays": [
+      "NPC1_HUMAN_Erwood_2022_RPE1"
+    ],
+    "match": "DOI 10.1038/s41587-021-01201-1, RPE1 arm",
+    "title": "Scores from saturation prime editing of NCP1 in locally haploidized RPE1 cells"
+  },
+  "urn:mavedb:00000112-a": {
+    "match": "experiment record with protocol detail",
+    "title": "Functional Assay of Human OTC Missense Variants"
+  },
+  "urn:mavedb:00000041-a": {
+    "match": "experiment record with protocol detail",
+    "title": "Deep mutational scan of Src CD"
+  }
+}

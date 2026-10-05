@@ -1,0 +1,129 @@
+{
+  "title": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast.",
+  "methodText": "Yeast strains were arrayed and grown on solid minimal medium lacking serine. Strain growth was measured by an automated image analysis pipeline (https://github.com/lacyk3/PyPl8/tree/main/src/PyPl8), and adjusted for plate, neighbor, and edge effects. Growth scores were then normalized to 0-1 scale where 0 corresponds to null controls and 1 corresponds to WT controls.",
+  "abstractText": "Pathogenic variants in PHGDH, PSAT1, and PSPH cause a set of rare, autosomal recessive diseases known as serine biosynthesis defects. However, because L-serine supplementation, especially if started early, can ameliorate and in some cases even prevent symptoms, knowledge of pathogenic variants is highly actionable. Here, we apply a yeast complementation assay to measure the functional impact of 1,914 SNV-accessible amino acid substitutions in human PSAT, corresponding to ~88% of all unique SNV-accessible amino acid substitutions (n=2,182) in the human PSAT1 cDNA sequence. Results of our assay of individual variants (in haploid yeast cells) agree well with existing clinical interpretations and known protein structure-function relationships.",
+  "shortDescription": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast via a solid growth assay.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000107-b-1",
+  "numVariants": 1914,
+  "license": {
+    "longName": "CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike)",
+    "shortName": "CC BY-NC-SA 4.0",
+    "active": false,
+    "link": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "version": "4.0",
+    "id": 2,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2023-04-21",
+  "creationDate": "2023-03-07",
+  "modificationDate": "2025-01-04",
+  "createdBy": {
+    "orcidId": "0000-0003-2617-3762",
+    "firstName": "Michael",
+    "lastName": "Xie",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-2617-3762",
+    "firstName": "Michael",
+    "lastName": "Xie",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "PSAT1",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "Q9Y617",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/Q9Y617"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 424,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "protein",
+        "sequence": "MDAPRQVVNFGPGPAKLPHSVLLEIQKELLDYKGVGISVLEMSHRSSDFAKIINNTENLVRELLAVPDNYKVIFLQGGGCGQFSAVPLNLIGLKAGRCADYVVTGAWSAKAAEEAKKFGTINIVHPKLGSYTKIPDPSTWNLNPDASYVYYCANETVHGVEFDFIPDVKGAVLVCDMSSNFLSKPVDVSKFGVIFAGAQKNVGSAGVTVVIVRDDLLGFALRECPSVLEYKVQAGNSSLYNTPPCFSIYVMGLVLEWIKNNGGAAAMEKLSSIKSQTIYEIIDNSQGFYVCPVEPQNRSKMNIPFRIGNAKGDDALEKRFLDKALELNMLSLKGHRSVGGIRASLYNAVTIEDVQKLAAFMKKFLEMHQL",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "uniprotIdFromMappedMetadata": "Q9Y617"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "se"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast.",
+    "shortDescription": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast via a solid growth assay.",
+    "abstractText": "Pathogenic variants in PHGDH, PSAT1, and PSPH cause a set of rare, autosomal recessive diseases known as serine biosynthesis defects. However, because L-serine supplementation, especially if started early, can ameliorate and in some cases even prevent symptoms, knowledge of pathogenic variants is highly actionable. Here, we apply a yeast complementation assay to measure the functional impact of 1,914 SNV-accessible amino acid substitutions in human PSAT,  corresponding to ~88% of all unique SNV-accessible amino acid substitutions (n=2,182) in the human PSAT1 cDNA sequence. Results of our assay of individual variants (in haploid yeast cells) agree well with existing clinical interpretations and known protein structure-function relationships.",
+    "methodText": "Yeast strains were arrayed and grown on solid minimal medium lacking serine. Strain growth was measured by an automated image analysis pipeline (https://github.com/lacyk3/PyPl8/tree/main/src/PyPl8), and adjusted for plate, neighbor, and edge effects. Growth scores were then normalized to 0-1 scale where 0 corresponds to null controls and 1 corresponds to WT controls.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000107-b",
+    "createdBy": {
+      "orcidId": "0000-0003-2617-3762",
+      "firstName": "Michael",
+      "lastName": "Xie",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-2617-3762",
+      "firstName": "Michael",
+      "lastName": "Xie",
+      "recordType": "User"
+    },
+    "creationDate": "2023-03-07",
+    "modificationDate": "2023-04-21",
+    "publishedDate": "2023-04-21",
+    "experimentSetUrn": "urn:mavedb:00000107",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000107-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

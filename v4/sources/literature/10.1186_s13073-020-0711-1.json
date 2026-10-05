@@ -1,0 +1,59 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1186/s13073-020-0711-1\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32000841",
+        "source": "MED",
+        "pmid": "32000841",
+        "pmcid": "PMC6993387",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6993387"
+          ]
+        },
+        "doi": "10.1186/s13073-020-0711-1",
+        "title": "A proactive genotype-to-patient-phenotype map for cystathionine beta-synthase.",
+        "authorString": "Sun S, Weile J, Verby M, Wu Y, Wang Y, Cote AG, Fotiadou I, Kitaygorodsky J, Vidal M, Rine J, Je\u0161ina P, Ko\u017eich V, Roth FP.",
+        "journalTitle": "Genome Med",
+        "issue": "1",
+        "journalVolume": "12",
+        "pubYear": "2020",
+        "journalIssn": "1756-994x",
+        "pageInfo": "13",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 73,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "uniprot",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2020-01-30",
+        "firstIndexDate": "2020-02-07"
+      }
+    ]
+  }
+}

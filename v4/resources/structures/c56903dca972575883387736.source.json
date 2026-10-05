@@ -1,0 +1,8 @@
+{
+  "gene": "SOD1__9606__c56903dca972",
+  "source": "mavedb_expansion\\staged_structures\\P00441.pdb",
+  "chain": null,
+  "confidence": "plddt",
+  "exact_subsequence_crop_allowed": true,
+  "conformers": 1
+}

@@ -1,0 +1,61 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.ajhg.2021.05.009\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34214447",
+        "source": "MED",
+        "pmid": "34214447",
+        "pmcid": "PMC8322931",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8322931"
+          ]
+        },
+        "doi": "10.1016/j.ajhg.2021.05.009",
+        "title": "Shifting landscapes of human MTHFR missense-variant effects.",
+        "authorString": "Weile J, Kishore N, Sun S, Maaieh R, Verby M, Li R, Fotiadou I, Kitaygorodsky J, Wu Y, Holenstein A, B\u00fcrer C, Blomgren L, Yang S, Nussbaum R, Rozen R, Watkins D, Gebbia M, Kozich V, Garton M, Froese DS, Roth FP.",
+        "journalTitle": "Am J Hum Genet",
+        "issue": "7",
+        "journalVolume": "108",
+        "pubYear": "2021",
+        "journalIssn": "0002-9297; 1537-6605; ",
+        "pageInfo": "1283-1300",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 73,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "ensembl",
+            "omim",
+            "refseq",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2021-07-01",
+        "firstIndexDate": "2021-07-03"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+gene,tasks,shared_variants,corpus_tasks,part,ndd_verified
+SLC22A1,abundance|activity,9715,abundance|activity,mechanism_only,False
+GCK,abundance|fitness,8255,abundance|fitness,mechanism_only,False
+KCNJ2,abundance|activity,6789,abundance|activity,mechanism_only,False
+CYP2C9,abundance|binding,4421,abundance|binding,mechanism_only,False
+SRC,activity|fitness,3366,activity|fitness|stability,mechanism_only,False
+HLA-A,abundance|binding,3344,abundance|binding,mechanism_only,False
+KCNE1,abundance|activity,2312,abundance|activity|consensus,mechanism_only,False
+VKORC1,abundance|activity,692,abundance|activity,mechanism_only,False
+PTEN,abundance|activity,4839,abundance|activity|consensus,ndd_evaluation,True
+KRAS,abundance|binding,2948,abundance|binding|consensus,ndd_evaluation,True

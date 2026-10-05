@@ -1,0 +1,8 @@
+{
+  "gene": "TYK2__9606__3f6b27ef15f1",
+  "source": "mavedb_expansion\\staged_structures\\P29597.pdb",
+  "chain": null,
+  "confidence": "plddt",
+  "exact_subsequence_crop_allowed": true,
+  "conformers": 1
+}

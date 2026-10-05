@@ -1,0 +1,63 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41586-022-04928-2\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35831509",
+        "source": "MED",
+        "pmid": "35831509",
+        "pmcid": "PMC9694338",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9694338"
+          ]
+        },
+        "doi": "10.1038/s41586-022-04928-2",
+        "title": "Structure-function analysis of the SHOC2-MRAS-PP1C holophosphatase complex.",
+        "authorString": "Kwon JJ, Hajian B, Bian Y, Young LC, Amor AJ, Fuller JR, Fraley CV, Sykes AM, So J, Pan J, Baker L, Lee SJ, Wheeler DB, Mayhew DL, Persky NS, Yang X, Root DE, Barsotti AM, Stamford AW, Perry CK, Burgin A, McCormick F, Lemke CT, Hahn WC, Aguirre AJ.",
+        "journalTitle": "Nature",
+        "issue": "7926",
+        "journalVolume": "609",
+        "pubYear": "2022",
+        "journalIssn": "0028-0836; 1476-4687; ",
+        "pageInfo": "408-415",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 80,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "INTACT",
+            "INTERPRO",
+            "UNIPROT"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2022-07-13",
+        "firstIndexDate": "2022-07-15"
+      }
+    ]
+  }
+}

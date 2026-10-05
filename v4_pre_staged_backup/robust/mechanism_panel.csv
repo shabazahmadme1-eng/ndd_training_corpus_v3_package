@@ -1,0 +1,11 @@
+gene,part,previously_examined,abundance_anchored
+PTEN,ndd_evaluation,True,True
+KRAS,ndd_evaluation,False,True
+SLC22A1,mechanism_only,False,True
+GCK,mechanism_only,False,True
+KCNJ2,mechanism_only,False,True
+CYP2C9,mechanism_only,False,True
+SRC,mechanism_only,False,False
+HLA-A,mechanism_only,False,True
+KCNE1,mechanism_only,False,True
+VKORC1,mechanism_only,False,True

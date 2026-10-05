@@ -1,0 +1,6 @@
+fold,test_gene,test_reference,train_gene,train_reference,local_score,identity,test_coverage,measured_site_coverage,possible_homolog
+83,PTEN,PTEN__9606__2675a6cc9460,LARGE1,LARGE1__9606__69e472d47028,52.0,0.307,0.251,0.251,False
+83,PTEN,PTEN__9606__2675a6cc9460,SPOP,SPOP__9606__9947d2c5b5dd,50.0,0.24,0.186,0.186,False
+83,PTEN,PTEN__9606__2675a6cc9460,NPC1,NPC1__9606__4e24d009a2dd,43.0,0.246,0.141,0.141,False
+83,PTEN,PTEN__9606__2675a6cc9460,ARID2,ARID2__9606__8d4dc8d6102e,43.0,0.444,0.045,0.045,False
+83,PTEN,PTEN__9606__2675a6cc9460,TSC2,TSC2__9606__6c6795ffc0f6,42.0,0.421,0.047,0.047,False

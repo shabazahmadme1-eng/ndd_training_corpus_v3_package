@@ -1,0 +1,65 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.ajhg.2020.12.003\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33357406",
+        "source": "MED",
+        "pmid": "33357406",
+        "pmcid": "PMC7820803",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7820803"
+          ]
+        },
+        "doi": "10.1016/j.ajhg.2020.12.003",
+        "title": "Massively parallel functional testing of MSH2 missense variants conferring Lynch syndrome risk.",
+        "authorString": "Jia X, Burugula BB, Chen V, Lemons RM, Jayakody S, Maksutova M, Kitzman JO.",
+        "journalTitle": "Am J Hum Genet",
+        "issue": "1",
+        "journalVolume": "108",
+        "pubYear": "2021",
+        "journalIssn": "0002-9297; 1537-6605; ",
+        "pageInfo": "163-175",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 144,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "omim",
+            "refseq",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2020-12-23",
+        "firstIndexDate": "2020-12-29"
+      }
+    ]
+  }
+}

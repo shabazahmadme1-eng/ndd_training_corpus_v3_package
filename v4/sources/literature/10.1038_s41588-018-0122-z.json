@@ -1,0 +1,62 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41588-018-0122-z\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "29785012",
+        "source": "MED",
+        "pmid": "29785012",
+        "pmcid": "PMC5980760",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5980760"
+          ]
+        },
+        "doi": "10.1038/s41588-018-0122-z",
+        "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+        "authorString": "Matreyek KA, Starita LM, Stephany JJ, Martin B, Chiasson MA, Gray VE, Kircher M, Khechaduri A, Dines JN, Hause RJ, Bhatia S, Evans WE, Relling MV, Yang W, Shendure J, Fowler DM.",
+        "journalTitle": "Nat Genet",
+        "issue": "6",
+        "journalVolume": "50",
+        "pubYear": "2018",
+        "journalIssn": "1061-4036; 1546-1718; ",
+        "pageInfo": "874-882",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 469,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2018-05-21",
+        "firstIndexDate": "2018-05-23"
+      }
+    ]
+  }
+}

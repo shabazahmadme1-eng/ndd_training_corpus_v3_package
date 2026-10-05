@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2023.04.28.538612\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR652907",
+        "source": "PPR",
+        "doi": "10.1101/2023.04.28.538612",
+        "title": "High-throughput functional mapping of variants in an arrhythmia gene,  <i>KCNE1</i>  , reveals novel biology",
+        "authorString": "Muhammad A, Calandranis ME, Li B, Yang T, Blackwell DJ, Harvey ML, Smith JE, Chew AE, Capra JA, Matreyek KA, Fowler DM, Roden DM, Glazer AM.",
+        "pubYear": "2023",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2023
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2023-04-29",
+        "firstIndexDate": "2023-05-02"
+      }
+    ]
+  }
+}

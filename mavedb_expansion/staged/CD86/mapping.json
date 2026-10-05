@@ -1,0 +1,38 @@
+{
+ "gene": "CD86",
+ "uniprot": "P42081",
+ "role": "contrast",
+ "shared_missense": 489,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00000046-a-3",
+   "title": "CD86 susceptibility to MARCH1",
+   "license": "CC0",
+   "n_variants": 7635,
+   "heuristic_task": "fitness",
+   "mapped_missense": 489,
+   "wt_mismatch": 0,
+   "uniprot_offset": 243,
+   "target_len": 81,
+   "experiment_urn": "urn:mavedb:00000046-a",
+   "experiment_title": "MARCH1 and MIR2 recognize different features of human CD86",
+   "experiment_method": "The DMS library was made using overlap PCR with primers (IDT) containing NNN mixed bases and cloned into pHAGE-eF1a-MCS-IRES-ZsGreen using T4 ligase (NEB). Ligation reactions were transformed into XL1-Blue E. coli and colonies counted to ensure each position had at least 200 transformants to provide good coverage of 64 possible DNA variants.  Colonies were washed directly from LB-Agar plates into LB broth and grown until cultures were turbid (~2 hours) before plasmid DNA was recovered by miniprep (Qiagen).  1 \u00b5g of DNA from each position was combined to provide a deep mutational scanning library with complete coverage along the CD86 TM domain.  \r\n\r\nLentivirus produced from the library was titrated to result in ~10-20% transduction efficiency of 300,000 HeLa cells resulting in 30-60,000 tra The membrane-associated RING-CH (MARCH) proteins are E3 ubiquitin ligases that contain transmembrane (TM) domains and regulate the cell-surface levels of key immune-stimulatory ligands such as major histocompatibility complex (MHC) molecules and the T-cell costimulatory ligand CD86. Endogenous mammalian MARCHs act on these targets to regulate antigen presentation and activation of adaptive immunit",
+   "published": "2020-09-05"
+  },
+  {
+   "urn": "urn:mavedb:00000046-a-1",
+   "title": "CD86 Surface Expression",
+   "license": "CC0",
+   "n_variants": 32347,
+   "heuristic_task": "abundance",
+   "mapped_missense": 511,
+   "wt_mismatch": 0,
+   "uniprot_offset": 243,
+   "target_len": 81,
+   "experiment_urn": "urn:mavedb:00000046-a",
+   "experiment_title": "MARCH1 and MIR2 recognize different features of human CD86",
+   "experiment_method": "The DMS library was made using overlap PCR with primers (IDT) containing NNN mixed bases and cloned into pHAGE-eF1a-MCS-IRES-ZsGreen using T4 ligase (NEB). Ligation reactions were transformed into XL1-Blue E. coli and colonies counted to ensure each position had at least 200 transformants to provide good coverage of 64 possible DNA variants.  Colonies were washed directly from LB-Agar plates into LB broth and grown until cultures were turbid (~2 hours) before plasmid DNA was recovered by miniprep (Qiagen).  1 \u00b5g of DNA from each position was combined to provide a deep mutational scanning library with complete coverage along the CD86 TM domain.  \r\n\r\nLentivirus produced from the library was titrated to result in ~10-20% transduction efficiency of 300,000 HeLa cells resulting in 30-60,000 tra The membrane-associated RING-CH (MARCH) proteins are E3 ubiquitin ligases that contain transmembrane (TM) domains and regulate the cell-surface levels of key immune-stimulatory ligands such as major histocompatibility complex (MHC) molecules and the T-cell costimulatory ligand CD86. Endogenous mammalian MARCHs act on these targets to regulate antigen presentation and activation of adaptive immunit",
+   "published": "2020-09-05"
+  }
+ ]
+}

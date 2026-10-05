@@ -1,0 +1,783 @@
+{
+  "archive_sha256": "0fd8ea7aba72aefaf39d41417466c5c3727a0f76b581fde96edd6772b0817cbd",
+  "data": {
+    "rows": 994673,
+    "genes": 495,
+    "references": 598,
+    "direct_rows": 318274,
+    "direct_genes": 135,
+    "duplicate_measurements": 0,
+    "duplicate_assay_variants": 0,
+    "nonfinite_scores": 0,
+    "measurement_sigma_nonmissing": 513496,
+    "consensus_overlap_rows": 60535,
+    "direct_task_counts": {
+      "abundance": {
+        "rows": 8149,
+        "genes": 2
+      },
+      "activity": {
+        "rows": 12664,
+        "genes": 4
+      },
+      "binding": {
+        "rows": 3446,
+        "genes": 2
+      },
+      "consensus": {
+        "rows": 84304,
+        "genes": 15
+      },
+      "fitness": {
+        "rows": 49996,
+        "genes": 9
+      },
+      "stability": {
+        "rows": 159715,
+        "genes": 116
+      }
+    },
+    "direct_nonconsensus_multi_task_genes": 5,
+    "direct_stability_only_genes": 112,
+    "wt_reference_mismatches": 0
+  },
+  "splits": {
+    "direct": {
+      "folds": 135,
+      "failed_isolation_folds": []
+    },
+    "curriculum": {
+      "folds": 135,
+      "failed_isolation_folds": []
+    }
+  },
+  "indistinguishable_assay_pairs": [
+    {
+      "assays": [
+        "ITSN1::urn:mavedb:00000861-a-1",
+        "ITSN1::urn:mavedb:00000859-a-1"
+      ],
+      "shared_variants": 1021,
+      "spearman": 0.9999999999999998,
+      "mean_absolute_score_difference": 0.0
+    },
+    {
+      "assays": [
+        "NPC1::NPC1_HUMAN_Erwood_2022_RPE1",
+        "NPC1::NPC1_HUMAN_Erwood_2022_HEK293T"
+      ],
+      "shared_variants": 57,
+      "spearman": 0.9569613689395904,
+      "mean_absolute_score_difference": 0.04406554653508772
+    },
+    {
+      "assays": [
+        "TP53::P53_HUMAN_Giacomelli_2018_WT_Nutlin",
+        "TP53::P53_HUMAN_Giacomelli_2018_Null_Nutlin"
+      ],
+      "shared_variants": 7467,
+      "spearman": 0.5883753024631763,
+      "mean_absolute_score_difference": 0.6991325245891925
+    }
+  ],
+  "structure_conformer_counts": {
+    "1": 562
+  },
+  "low_confidence_geometry_probe": {
+    "all_vector_weights_zero": true,
+    "absolute_mu_change": 1.043081283569336e-07,
+    "max_field_change": 0.0004456043243408203
+  },
+  "no_structure_probe": {
+    "absolute_mu_change": 0.0
+  },
+  "results": {
+    "curriculum": {
+      "runs": [
+        {
+          "model": "esm_mlp",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 2,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "esm_mlp",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": false,
+          "best_epoch": null,
+          "best_stage": [],
+          "epochs_run": null,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "esm_mlp",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 3,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 10,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "fixed_heads",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 4,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 11,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "fixed_heads",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 1,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 2,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 1,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 2,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "no_structure",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 2,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "no_structure",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 2,
+          "best_stage": [
+            "generic_and_legacy_auxiliary"
+          ],
+          "epochs_run": 9,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        }
+      ],
+      "mean_seed_spearman": {
+        "esm_mlp": {
+          "mean": 0.48278205209509906,
+          "std": 0.012164979745333013,
+          "count": 2
+        },
+        "fixed_heads": {
+          "mean": 0.3277443378430651,
+          "std": 0.15076492715828227,
+          "count": 2
+        },
+        "mipo": {
+          "mean": 0.48188707166036343,
+          "std": 0.018589050407567857,
+          "count": 3
+        },
+        "no_structure": {
+          "mean": 0.48240123545078256,
+          "std": 0.005816084652274283,
+          "count": 2
+        }
+      },
+      "nonconsensus_mean_seed_spearman": {
+        "esm_mlp": {
+          "mean": 0.49128227482941766,
+          "std": 0.0174099870783024,
+          "count": 2
+        },
+        "fixed_heads": {
+          "mean": 0.3354876251868353,
+          "std": 0.05581763039701207,
+          "count": 2
+        },
+        "mipo": {
+          "mean": 0.4913756357890082,
+          "std": 0.018054242557473753,
+          "count": 3
+        },
+        "no_structure": {
+          "mean": 0.48657030698349873,
+          "std": 0.035476429403181006,
+          "count": 2
+        }
+      },
+      "max_recomputed_spearman_difference": 8.326672684688674e-17,
+      "task_metrics": [
+        {
+          "model": "esm_mlp",
+          "task": "abundance",
+          "spearman": 0.5274520241655105,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.9999016328939603
+        },
+        {
+          "model": "esm_mlp",
+          "task": "activity",
+          "spearman": 0.4551125254933248,
+          "coverage_calibrated": 0.5519283746556474,
+          "coverage_90_gaussian": 0.762603305785124
+        },
+        {
+          "model": "esm_mlp",
+          "task": "consensus",
+          "spearman": 0.46578160662646184,
+          "coverage_calibrated": 0.9301039445628998,
+          "coverage_90_gaussian": 1.0
+        },
+        {
+          "model": "fixed_heads",
+          "task": "abundance",
+          "spearman": 0.39775538567599755,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.995475113122172
+        },
+        {
+          "model": "fixed_heads",
+          "task": "activity",
+          "spearman": 0.27321986469767295,
+          "coverage_calibrated": 0.43787878787878787,
+          "coverage_90_gaussian": 0.7173553719008265
+        },
+        {
+          "model": "fixed_heads",
+          "task": "consensus",
+          "spearman": 0.31225776315552495,
+          "coverage_calibrated": 0.9330357142857144,
+          "coverage_90_gaussian": 0.9983342217484008
+        },
+        {
+          "model": "mipo",
+          "task": "abundance",
+          "spearman": 0.516036376397131,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.9989507508689095
+        },
+        {
+          "model": "mipo",
+          "task": "activity",
+          "spearman": 0.46671489518088544,
+          "coverage_calibrated": 0.5261707988980716,
+          "coverage_90_gaussian": 0.7646464646464647
+        },
+        {
+          "model": "mipo",
+          "task": "consensus",
+          "spearman": 0.46290994340307395,
+          "coverage_calibrated": 0.9526918976545842,
+          "coverage_90_gaussian": 0.9994225302061123
+        },
+        {
+          "model": "no_structure",
+          "task": "abundance",
+          "spearman": 0.5128936244314275,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.9986228605154437
+        },
+        {
+          "model": "no_structure",
+          "task": "activity",
+          "spearman": 0.46024698953557,
+          "coverage_calibrated": 0.515495867768595,
+          "coverage_90_gaussian": 0.7441460055096418
+        },
+        {
+          "model": "no_structure",
+          "task": "consensus",
+          "spearman": 0.47406309238535016,
+          "coverage_calibrated": 0.9403651385927505,
+          "coverage_90_gaussian": 0.9994669509594882
+        }
+      ]
+    },
+    "direct": {
+      "runs": [
+        {
+          "model": "esm_mlp",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 1,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 8,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "esm_mlp",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 16,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 20,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "esm_mlp",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 8,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 15,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "fixed_heads",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 7,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 14,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "fixed_heads",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 15,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 20,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "fixed_heads",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 4,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 11,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 19,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 20,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 12,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 19,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "mipo",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 4,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 11,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "no_structure",
+          "seed": "seed_123",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 3,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 10,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "no_structure",
+          "seed": "seed_2026",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 16,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 20,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        },
+        {
+          "model": "no_structure",
+          "seed": "seed_42",
+          "test_genes": [
+            "PTEN"
+          ],
+          "complete": true,
+          "best_epoch": 7,
+          "best_stage": [
+            "direct"
+          ],
+          "epochs_run": 14,
+          "code_mismatches": [
+            "cli.py",
+            "features.py",
+            "train.py"
+          ],
+          "corpus_hash_matches": true
+        }
+      ],
+      "mean_seed_spearman": {
+        "esm_mlp": {
+          "mean": 0.5181213871678083,
+          "std": 0.0022031836185370957,
+          "count": 3
+        },
+        "fixed_heads": {
+          "mean": 0.46044272339520664,
+          "std": 0.05443934039687271,
+          "count": 3
+        },
+        "mipo": {
+          "mean": 0.5037087577393385,
+          "std": 0.023141290202266032,
+          "count": 3
+        },
+        "no_structure": {
+          "mean": 0.527373176979978,
+          "std": 0.013428682285537272,
+          "count": 3
+        }
+      },
+      "nonconsensus_mean_seed_spearman": {
+        "esm_mlp": {
+          "mean": 0.4942492015283391,
+          "std": 0.006974442764264845,
+          "count": 3
+        },
+        "fixed_heads": {
+          "mean": 0.4409352697274916,
+          "std": 0.08699058939720421,
+          "count": 3
+        },
+        "mipo": {
+          "mean": 0.4746948882488478,
+          "std": 0.03462453798795054,
+          "count": 3
+        },
+        "no_structure": {
+          "mean": 0.5076750538754045,
+          "std": 0.0124013136227995,
+          "count": 3
+        }
+      },
+      "max_recomputed_spearman_difference": 5.551115123125783e-17,
+      "task_metrics": [
+        {
+          "model": "esm_mlp",
+          "task": "abundance",
+          "spearman": 0.49326282428214124,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.048855662666404294
+        },
+        {
+          "model": "esm_mlp",
+          "task": "activity",
+          "spearman": 0.495235578774537,
+          "coverage_calibrated": 0.3063820018365473,
+          "coverage_90_gaussian": 0.06680440771349856
+        },
+        {
+          "model": "esm_mlp",
+          "task": "consensus",
+          "spearman": 0.5658657584467467,
+          "coverage_calibrated": 0.9185323383084577,
+          "coverage_90_gaussian": 0.9499378109452735
+        },
+        {
+          "model": "fixed_heads",
+          "task": "abundance",
+          "spearman": 0.3787498076508779,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.06511902419830808
+        },
+        {
+          "model": "fixed_heads",
+          "task": "activity",
+          "spearman": 0.5031207318041053,
+          "coverage_calibrated": 0.32180899908172633,
+          "coverage_90_gaussian": 0.14958677685950408
+        },
+        {
+          "model": "fixed_heads",
+          "task": "consensus",
+          "spearman": 0.49945763073063665,
+          "coverage_calibrated": 0.9527363184079602,
+          "coverage_90_gaussian": 0.9549573560767591
+        },
+        {
+          "model": "mipo",
+          "task": "abundance",
+          "spearman": 0.4437785903563445,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.06826677159157973
+        },
+        {
+          "model": "mipo",
+          "task": "activity",
+          "spearman": 0.5056111861413511,
+          "coverage_calibrated": 0.2244719926538108,
+          "coverage_90_gaussian": 0.04481175390266296
+        },
+        {
+          "model": "mipo",
+          "task": "consensus",
+          "spearman": 0.5617364967203201,
+          "coverage_calibrated": 0.9264836531627577,
+          "coverage_90_gaussian": 0.918043710021322
+        },
+        {
+          "model": "no_structure",
+          "task": "abundance",
+          "spearman": 0.518227577201903,
+          "coverage_calibrated": null,
+          "coverage_90_gaussian": 0.0640697750672175
+        },
+        {
+          "model": "no_structure",
+          "task": "activity",
+          "spearman": 0.4971225305489059,
+          "coverage_calibrated": 0.15344352617079884,
+          "coverage_90_gaussian": 0.0473829201101928
+        },
+        {
+          "model": "no_structure",
+          "task": "consensus",
+          "spearman": 0.5667694231891249,
+          "coverage_calibrated": 0.9388770433546553,
+          "coverage_90_gaussian": 0.9442075337597725
+        }
+      ]
+    }
+  },
+  "max_recomputed_coverage_difference": 1.1102230246251565e-16
+}

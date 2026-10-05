@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+artifacts/
+checkpoints/
+dist/
+.venv/
+# Over GitHub's 100MB/file limit; kept on local disk, out of git
+/MIPO_NDD_backup.zip
+/MIPO_NDD_results_light.zip
+/external_data/megascale/Processed_K50_dG_datasets.zip

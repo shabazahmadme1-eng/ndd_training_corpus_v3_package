@@ -1,0 +1,10 @@
+{
+  "matched_rows": 19847,
+  "assays": 3,
+  "genes": 1,
+  "all_correlations_defined": true,
+  "model_macro_gene_spearman": 0.4778667400712284,
+  "llr_macro_gene_spearman": 0.5074387457212588,
+  "macro_gene_delta": -0.029572005650030358,
+  "note": "Exact shared variants, signed LLR, assay mean within gene then equal gene mean. Undefined assays suppress the headline comparison; no test-based sign selection."
+}

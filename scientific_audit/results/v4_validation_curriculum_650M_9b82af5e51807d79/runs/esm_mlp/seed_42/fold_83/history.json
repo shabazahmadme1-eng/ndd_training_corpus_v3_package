@@ -1,0 +1,622 @@
+[
+  {
+    "epoch": 0,
+    "stage": "generic_and_legacy_auxiliary",
+    "loss": 2551848200307.463,
+    "validation_spearman": 0.5059973854191814,
+    "lr": 0.00019822758808714618,
+    "improved": true,
+    "bad_epochs": 0,
+    "loss_components": {
+      "nll": 2551848200307.3047,
+      "huber": 68933.5828817281,
+      "ranking": 0.6063373548537493,
+      "field": 0.0015132426530180966,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.5957183722531817,
+      "HRAS": 0.48819764431363843,
+      "HUWE1": 0.4599546423472275,
+      "KRAS": 0.44023094662731704,
+      "ZNF292": 0.5458853215545416
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.33540955407208306,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.6027397260273972,
+        "macro_gene_gaussian_nll": 2.065919395950102
+      },
+      "activity": {
+        "macro_gene_spearman": 0.48819764431363843,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9993618379068283,
+        "macro_gene_gaussian_nll": 0.793122815116112
+      },
+      "binding": {
+        "macro_gene_spearman": 0.49147374252361403,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9863813229571985,
+        "macro_gene_gaussian_nll": 0.8189185062081872
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.49380954328625404,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 0.6445109710515484
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.6933180204414895,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.86171875,
+        "macro_gene_gaussian_nll": 1.2778330394295694
+      },
+      "stability": {
+        "macro_gene_spearman": 0.5230083733640606,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9153016891782991,
+        "macro_gene_gaussian_nll": 1.1820319944420337
+      }
+    },
+    "sample_draws": 24000
+  },
+  {
+    "epoch": 1,
+    "stage": "generic_and_legacy_auxiliary",
+    "loss": 1187093694906.819,
+    "validation_spearman": 0.5070141185431611,
+    "lr": 0.00019292006831067893,
+    "improved": true,
+    "bad_epochs": 0,
+    "loss_components": {
+      "nll": 1187093694906.673,
+      "huber": 35919.695083217295,
+      "ranking": 0.5729887072642644,
+      "field": 0.0015160462306909419,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.611379497103701,
+      "HRAS": 0.4779727453229149,
+      "HUWE1": 0.5110102655742219,
+      "KRAS": 0.3910342104212818,
+      "ZNF292": 0.5436738742936863
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.34468720052845647,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.5874103065883888,
+        "macro_gene_gaussian_nll": 2.101473234308421
+      },
+      "activity": {
+        "macro_gene_spearman": 0.4779727453229149,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9993618379068283,
+        "macro_gene_gaussian_nll": 0.827356717721488
+      },
+      "binding": {
+        "macro_gene_spearman": 0.4548086296938672,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9977302204928664,
+        "macro_gene_gaussian_nll": 0.8851553039914205
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.3736068010415215,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 0.3319738158140061
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.7208175193222516,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9671875,
+        "macro_gene_gaussian_nll": 1.1039521704249267
+      },
+      "stability": {
+        "macro_gene_spearman": 0.5431947654106973,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.897416581741925,
+        "macro_gene_gaussian_nll": 1.1821488273809195
+      }
+    },
+    "sample_draws": 48000
+  },
+  {
+    "epoch": 2,
+    "stage": "generic_and_legacy_auxiliary",
+    "loss": 3553196043665.82,
+    "validation_spearman": 0.5169021682134747,
+    "lr": 0.0001844016993299853,
+    "improved": true,
+    "bad_epochs": 0,
+    "loss_components": {
+      "nll": 3553196043665.676,
+      "huber": 116017.09836145163,
+      "ranking": 0.5671493408282597,
+      "field": 0.0015150613492684595,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.6010183106650206,
+      "HRAS": 0.4895164878025674,
+      "HUWE1": 0.5134863697391772,
+      "KRAS": 0.41437216883580796,
+      "ZNF292": 0.5661175040248002
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.3214794884901092,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.5437051532941944,
+        "macro_gene_gaussian_nll": 2.294922027103006
+      },
+      "activity": {
+        "macro_gene_spearman": 0.4895164878025674,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9993618379068283,
+        "macro_gene_gaussian_nll": 0.8795131022532264
+      },
+      "binding": {
+        "macro_gene_spearman": 0.4453456313949961,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9977302204928664,
+        "macro_gene_gaussian_nll": 0.9659353423415308
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.4762913866223185,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9939759036144579,
+        "macro_gene_gaussian_nll": 0.15721361249917323
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.7049433058378416,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.996875,
+        "macro_gene_gaussian_nll": 0.9912048428839256
+      },
+      "stability": {
+        "macro_gene_spearman": 0.548660173123797,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9072244754980807,
+        "macro_gene_gaussian_nll": 1.1713540013645218
+      }
+    },
+    "sample_draws": 72000
+  },
+  {
+    "epoch": 3,
+    "stage": "generic_and_legacy_auxiliary",
+    "loss": 815049070696.2754,
+    "validation_spearman": 0.5286156173377048,
+    "lr": 0.00017280526221625972,
+    "improved": true,
+    "bad_epochs": 0,
+    "loss_components": {
+      "nll": 815049070696.1222,
+      "huber": 64513.834443861415,
+      "ranking": 0.5926583605358998,
+      "field": 0.001677010120426227,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.6154645596428892,
+      "HRAS": 0.5067369750517603,
+      "HUWE1": 0.506095828653773,
+      "KRAS": 0.4446154833458349,
+      "ZNF292": 0.5701652399942667
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.3489568270413095,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.7893020221787345,
+        "macro_gene_gaussian_nll": 1.6151148104012143
+      },
+      "activity": {
+        "macro_gene_spearman": 0.5067369750517603,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9993618379068283,
+        "macro_gene_gaussian_nll": 0.999123587320586
+      },
+      "binding": {
+        "macro_gene_spearman": 0.4743860693235834,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 1.2668308144686606
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.5105035536726118,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 0.12651015377958935
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.7207914611075734,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 1.026763522665314
+      },
+      "stability": {
+        "macro_gene_spearman": 0.5522055537120114,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9625239916253067,
+        "macro_gene_gaussian_nll": 1.2955446539090916
+      }
+    },
+    "sample_draws": 96000
+  },
+  {
+    "epoch": 4,
+    "stage": "generic_and_legacy_auxiliary",
+    "loss": 227305520978.03568,
+    "validation_spearman": 0.528335362423263,
+    "lr": 0.00015864450025627713,
+    "improved": false,
+    "bad_epochs": 1,
+    "loss_components": {
+      "nll": 227305520278.808,
+      "huber": 49810.15399828191,
+      "ranking": 0.6513445885628462,
+      "field": 0.0016133469045501747,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.6157529101580291,
+      "HRAS": 0.5034130622052859,
+      "HUWE1": 0.5061103342207501,
+      "KRAS": 0.4469933794949599,
+      "ZNF292": 0.5694071260372898
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.3664355008675671,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9817351598173516,
+        "macro_gene_gaussian_nll": 1.434431274183718
+      },
+      "activity": {
+        "macro_gene_spearman": 0.5034130622052859,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9996809189534142,
+        "macro_gene_gaussian_nll": 1.1702834830642799
+      },
+      "binding": {
+        "macro_gene_spearman": 0.4634603265306196,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 1.6284268495749126
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.511084311086693,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 0.1763048057065894
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.7184556883346421,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 1.2407038339511556
+      },
+      "stability": {
+        "macro_gene_spearman": 0.5523453703412883,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9936765029011104,
+        "macro_gene_gaussian_nll": 1.5611648366150268
+      }
+    },
+    "sample_draws": 120000
+  },
+  {
+    "epoch": 5,
+    "stage": "family_teachers",
+    "loss": 45.19396768597762,
+    "validation_spearman": 0.31686609525805143,
+    "lr": 0.00014231777462000666,
+    "improved": false,
+    "bad_epochs": 2,
+    "loss_components": {
+      "nll": 43.60499170346061,
+      "huber": 14.505906433685372,
+      "ranking": 0.691926815956831,
+      "field": 0.0005504681503177077,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.34567772436820177,
+      "HRAS": 0.216919002729706,
+      "HUWE1": 0.1539235490712804,
+      "KRAS": 0.30277975535338264,
+      "ZNF292": 0.5650304447676864
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.12411124869649108,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.0551486245146773
+      },
+      "activity": {
+        "macro_gene_spearman": 0.216919002729706,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.4005505990746574
+      },
+      "binding": {
+        "macro_gene_spearman": 0.27498007193529184,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.488307720316967
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.509247945428365,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9539156626506025,
+        "macro_gene_gaussian_nll": 0.20511194070472136
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.17977468403754918,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.8923657596922205
+      },
+      "stability": {
+        "macro_gene_spearman": 0.37331091055023985,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9992625368731564,
+        "macro_gene_gaussian_nll": 2.0749141090219996
+      }
+    },
+    "sample_draws": 144000
+  },
+  {
+    "epoch": 6,
+    "stage": "family_teachers",
+    "loss": 15.57709212621053,
+    "validation_spearman": 0.4191882145096866,
+    "lr": 0.00012455694783314054,
+    "improved": false,
+    "bad_epochs": 3,
+    "loss_components": {
+      "nll": 14.058770822008452,
+      "huber": 13.795945152726024,
+      "ranking": 0.6936338021556536,
+      "field": 0.0005614668634710445,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.48302759047178523,
+      "HRAS": 0.3522723663632829,
+      "HUWE1": 0.3248990925131273,
+      "KRAS": 0.36579540210266276,
+      "ZNF292": 0.5699466210975745
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.248102296618279,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.169773683976551
+      },
+      "activity": {
+        "macro_gene_spearman": 0.3522723663632829,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.4696074211080483
+      },
+      "binding": {
+        "macro_gene_spearman": 0.34026293995089185,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.5913313216528953
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.5090209697388174,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9581325301204819,
+        "macro_gene_gaussian_nll": 0.23944334035589832
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.37141329053749406,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.995574254716812
+      },
+      "stability": {
+        "macro_gene_spearman": 0.47169269024241695,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 0.9992625368731564,
+        "macro_gene_gaussian_nll": 2.169842244190068
+      }
+    },
+    "sample_draws": 168000
+  },
+  {
+    "epoch": 7,
+    "stage": "family_teachers",
+    "loss": 14.074885676264763,
+    "validation_spearman": 0.4340275688996023,
+    "lr": 0.00010604455850870772,
+    "improved": false,
+    "bad_epochs": 4,
+    "loss_components": {
+      "nll": 12.517000563899677,
+      "huber": 14.191053024134288,
+      "ranking": 0.6938989948829015,
+      "field": 0.0005608601450706677,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.5006862262929789,
+      "HRAS": 0.3721940063505205,
+      "HUWE1": 0.34947223325638593,
+      "KRAS": 0.378192020064203,
+      "ZNF292": 0.5695933585339232
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.2727906648415443,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.259971672428828
+      },
+      "activity": {
+        "macro_gene_spearman": 0.3721940063505205,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.5399905881010247
+      },
+      "binding": {
+        "macro_gene_spearman": 0.3528536152248072,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.6680355332342827
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.5089317801262574,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9623493975903614,
+        "macro_gene_gaussian_nll": 0.254052665144371
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.40273205324135924,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 3.072782760101436
+      },
+      "stability": {
+        "macro_gene_spearman": 0.4841344030334982,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.252700630317177
+      }
+    },
+    "sample_draws": 192000
+  },
+  {
+    "epoch": 8,
+    "stage": "verified_ndd",
+    "loss": 1.579841513639083,
+    "validation_spearman": 0.4357188354650214,
+    "lr": 8.749202738657975e-05,
+    "improved": false,
+    "bad_epochs": 5,
+    "loss_components": {
+      "nll": 1.3769233321904515,
+      "huber": 0.6522084920618993,
+      "ranking": 0.6884866607412696,
+      "field": 0.0016303927423723507,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.5025597924331091,
+      "HRAS": 0.37409012189936064,
+      "HUWE1": 0.35275443107973176,
+      "KRAS": 0.3795053805045665,
+      "ZNF292": 0.5696844514083392
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.275282854247639,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.2586460747132016
+      },
+      "activity": {
+        "macro_gene_spearman": 0.37409012189936064,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.5384886703000116
+      },
+      "binding": {
+        "macro_gene_spearman": 0.35430948557265246,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.6664376592227717
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.5089238016934081,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9623493975903614,
+        "macro_gene_gaussian_nll": 0.25631702310402066
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.4067079409106112,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 3.0711123915268765
+      },
+      "stability": {
+        "macro_gene_spearman": 0.48564976403178206,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.2514803805203347
+      }
+    },
+    "sample_draws": 216000
+  },
+  {
+    "epoch": 9,
+    "stage": "verified_ndd",
+    "loss": 1.5685287352011072,
+    "validation_spearman": 0.4369958790134456,
+    "lr": 6.96123178334019e-05,
+    "improved": false,
+    "bad_epochs": 6,
+    "loss_components": {
+      "nll": 1.3671691794237122,
+      "huber": 0.6389389381185174,
+      "ranking": 0.6873283163458109,
+      "field": 0.0015530563711072319,
+      "auxiliary": 0.0
+    },
+    "validation_per_gene": {
+      "DLG4": 0.5039350528740456,
+      "HRAS": 0.3756724954172036,
+      "HUWE1": 0.3551254122205134,
+      "KRAS": 0.3805153406218731,
+      "ZNF292": 0.5697310939335924
+    },
+    "validation_per_task": {
+      "abundance": {
+        "macro_gene_spearman": 0.27715650648854906,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.257174700813626
+      },
+      "activity": {
+        "macro_gene_spearman": 0.3756724954172036,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.536814655175119
+      },
+      "binding": {
+        "macro_gene_spearman": 0.35547089561925843,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.664640883815871
+      },
+      "consensus": {
+        "macro_gene_spearman": 0.5089186197578117,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 0.9623493975903614,
+        "macro_gene_gaussian_nll": 0.25817840120572
+      },
+      "fitness": {
+        "macro_gene_spearman": 0.4096403557491899,
+        "genes": 1,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 3.0692128600432262
+      },
+      "stability": {
+        "macro_gene_spearman": 0.48674104157881226,
+        "genes": 3,
+        "macro_gene_coverage_90_gaussian": 1.0,
+        "macro_gene_gaussian_nll": 2.250087272306733
+      }
+    },
+    "sample_draws": 240000
+  }
+]

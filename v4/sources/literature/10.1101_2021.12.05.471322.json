@@ -1,0 +1,43 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1101/2021.12.05.471322\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR428788",
+        "source": "PPR",
+        "doi": "10.1101/2021.12.05.471322",
+        "title": "Profiling of the drug resistance of thousands of Src tyrosine kinase mutants uncovers a regulatory network that couples autoinhibition to catalytic domain dynamics",
+        "authorString": "Chakraborty S, Ahler E, Simon JJ, Fang L, Potter ZE, Sitko KA, Stephany JJ, Guttman M, Fowler DM, Maly DJ.",
+        "pubYear": "2021",
+        "pubType": "preprint",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2021
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2021-12-06",
+        "firstIndexDate": "2021-12-08"
+      }
+    ]
+  }
+}

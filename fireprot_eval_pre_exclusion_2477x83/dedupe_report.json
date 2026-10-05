@@ -1,0 +1,125 @@
+{
+  "fireprot_sequences": 83,
+  "corpus_constructs": 605,
+  "threshold": {
+    "span": 50,
+    "identity": 0.4
+  },
+  "flags": [
+    {
+      "gene": "FP_1B5M",
+      "len": 146,
+      "closest_construct": "SUOX__9606__75d2c2eb49f9",
+      "span": 63,
+      "identity": 0.5079
+    },
+    {
+      "gene": "FP_1BNL",
+      "len": 1754,
+      "closest_construct": "UBE4B__10090__e41f60f5bb7e",
+      "span": 70,
+      "identity": 0.6143
+    },
+    {
+      "gene": "FP_1HME",
+      "len": 215,
+      "closest_construct": "PMS1__9606__654407be7193",
+      "span": 60,
+      "identity": 0.5
+    },
+    {
+      "gene": "FP_1IET",
+      "len": 134,
+      "closest_construct": "SUOX__9606__75d2c2eb49f9",
+      "span": 55,
+      "identity": 0.5091
+    },
+    {
+      "gene": "FP_1QLP",
+      "len": 418,
+      "closest_construct": "SERPINE1__9606__85dcfe09ecc8",
+      "span": 62,
+      "identity": 0.4677
+    },
+    {
+      "gene": "FP_1TEN",
+      "len": 2201,
+      "closest_construct": "JAG1__9606__9e09344716f8",
+      "span": 174,
+      "identity": 0.5575
+    }
+  ],
+  "top10": [
+    {
+      "gene": "FP_1TEN",
+      "len": 2201,
+      "closest_construct": "JAG1__9606__9e09344716f8",
+      "span": 174,
+      "identity": 0.5575
+    },
+    {
+      "gene": "FP_1BNL",
+      "len": 1754,
+      "closest_construct": "UBE4B__10090__e41f60f5bb7e",
+      "span": 70,
+      "identity": 0.6143
+    },
+    {
+      "gene": "FP_1B5M",
+      "len": 146,
+      "closest_construct": "SUOX__9606__75d2c2eb49f9",
+      "span": 63,
+      "identity": 0.5079
+    },
+    {
+      "gene": "FP_1QLP",
+      "len": 418,
+      "closest_construct": "SERPINE1__9606__85dcfe09ecc8",
+      "span": 62,
+      "identity": 0.4677
+    },
+    {
+      "gene": "FP_1HME",
+      "len": 215,
+      "closest_construct": "PMS1__9606__654407be7193",
+      "span": 60,
+      "identity": 0.5
+    },
+    {
+      "gene": "FP_1IET",
+      "len": 134,
+      "closest_construct": "SUOX__9606__75d2c2eb49f9",
+      "span": 55,
+      "identity": 0.5091
+    },
+    {
+      "gene": "FP_1CYO",
+      "len": 134,
+      "closest_construct": "SUOX__9606__75d2c2eb49f9",
+      "span": 48,
+      "identity": 0.5
+    },
+    {
+      "gene": "FP_1BPI_5PTI",
+      "len": 100,
+      "closest_construct": "APP__9606__0f79dd8c1ea2",
+      "span": 47,
+      "identity": 0.5532
+    },
+    {
+      "gene": "FP_3PGK",
+      "len": 416,
+      "closest_construct": "SNCA__9606__a421d4b21d11",
+      "span": 46,
+      "identity": 0.6957
+    },
+    {
+      "gene": "FP_1QND",
+      "len": 547,
+      "closest_construct": "MSH2__9606__e27b898beec9",
+      "span": 46,
+      "identity": 0.587
+    }
+  ],
+  "verdict": "FLAG"
+}

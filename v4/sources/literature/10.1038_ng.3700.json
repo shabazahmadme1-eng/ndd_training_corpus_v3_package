@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/ng.3700\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27749844",
+        "source": "MED",
+        "pmid": "27749844",
+        "pmcid": "PMC5131844",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5131844"
+          ]
+        },
+        "doi": "10.1038/ng.3700",
+        "title": "Prospective functional classification of all possible missense variants in PPARG.",
+        "authorString": "Majithia AR, Tsuda B, Agostini M, Gnanapradeepan K, Rice R, Peloso G, Patel KA, Zhang X, Broekema MF, Patterson N, Duby M, Sharpe T, Kalkhoven E, Rosen ED, Barroso I, Ellard S, UK Monogenic Diabetes Consortium, Kathiresan S, Myocardial Infarction Genetics Consortium, O'Rahilly S, UK Congenital Lipodystrophy Consortium, Chatterjee K, Florez JC, Mikkelsen T, Savage DB, Altshuler D.",
+        "journalTitle": "Nat Genet",
+        "issue": "12",
+        "journalVolume": "48",
+        "pubYear": "2016",
+        "journalIssn": "1061-4036; 1546-1718; ",
+        "pageInfo": "1570-1575",
+        "pubType": "comparative study; research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 220,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refseq"
+          ]
+        },
+        "firstPublicationDate": "2016-10-17",
+        "firstIndexDate": "2016-10-19"
+      }
+    ]
+  }
+}

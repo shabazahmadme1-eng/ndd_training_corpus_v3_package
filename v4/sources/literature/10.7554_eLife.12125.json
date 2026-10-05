@@ -1,0 +1,55 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.7554/eLife.12125\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "26824389",
+        "source": "MED",
+        "pmid": "26824389",
+        "pmcid": "PMC4786438",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4786438"
+          ]
+        },
+        "doi": "10.7554/elife.12125",
+        "title": "Mutational scanning reveals the determinants of protein insertion and association energetics in the plasma membrane.",
+        "authorString": "Elazar A, Weinstein J, Biran I, Fridman Y, Bibi E, Fleishman SJ, Fleishman SJ.",
+        "journalTitle": "Elife",
+        "journalVolume": "5",
+        "pubYear": "2016",
+        "journalIssn": "2050-084x",
+        "pageInfo": "e12125",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 75,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2016-01-29",
+        "firstIndexDate": "2016-01-30"
+      }
+    ]
+  }
+}

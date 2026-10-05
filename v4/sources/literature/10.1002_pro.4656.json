@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1002/pro.4656\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37167432",
+        "source": "MED",
+        "pmid": "37167432",
+        "pmcid": "PMC10273359",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10273359"
+          ]
+        },
+        "doi": "10.1002/pro.4656",
+        "title": "Molecular determinants of Hsp90 dependence of Src kinase revealed by deep mutational scanning.",
+        "authorString": "Nguyen V, Ahler E, Sitko KA, Stephany JJ, Maly DJ, Fowler DM.",
+        "journalTitle": "Protein Sci",
+        "issue": "7",
+        "journalVolume": "32",
+        "pubYear": "2023",
+        "journalIssn": "0961-8368; 1469-896x; ",
+        "pageInfo": "e4656",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 14,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "EMBL"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2023-07-01",
+        "firstIndexDate": "2023-05-11"
+      }
+    ]
+  }
+}

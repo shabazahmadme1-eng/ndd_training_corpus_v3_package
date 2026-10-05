@@ -1,0 +1,58 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1073/pnas.1303309110\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "23509263",
+        "source": "MED",
+        "pmid": "23509263",
+        "pmcid": "PMC3619334",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3619334"
+          ]
+        },
+        "doi": "10.1073/pnas.1303309110",
+        "title": "Activity-enhancing mutations in an E3 ubiquitin ligase identified by high-throughput mutagenesis.",
+        "authorString": "Starita LM, Pruneda JN, Lo RS, Fowler DM, Kim HJ, Hiatt JB, Shendure J, Brzovic PS, Fields S, Klevit RE.",
+        "journalTitle": "Proc Natl Acad Sci U S A",
+        "issue": "14",
+        "journalVolume": "110",
+        "pubYear": "2013",
+        "journalIssn": "0027-8424; 1091-6490; ",
+        "pageInfo": "E1263-72",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 167,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "pfam",
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2013-03-18",
+        "firstIndexDate": "2013-03-21"
+      }
+    ]
+  }
+}

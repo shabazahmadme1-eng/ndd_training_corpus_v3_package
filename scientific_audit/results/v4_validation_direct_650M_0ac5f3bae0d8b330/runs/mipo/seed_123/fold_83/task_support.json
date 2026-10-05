@@ -1,0 +1,38 @@
+{
+  "abundance": {
+    "train": 1,
+    "validation": 0,
+    "calibration": 0,
+    "test": 1
+  },
+  "activity": {
+    "train": 1,
+    "validation": 1,
+    "calibration": 1,
+    "test": 1
+  },
+  "binding": {
+    "train": 1,
+    "validation": 1,
+    "calibration": 0,
+    "test": 0
+  },
+  "consensus": {
+    "train": 12,
+    "validation": 1,
+    "calibration": 1,
+    "test": 1
+  },
+  "fitness": {
+    "train": 7,
+    "validation": 1,
+    "calibration": 1,
+    "test": 0
+  },
+  "stability": {
+    "train": 111,
+    "validation": 4,
+    "calibration": 1,
+    "test": 0
+  }
+}

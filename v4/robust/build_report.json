@@ -1,0 +1,243 @@
+{
+  "base_sha256": "783c89bed63c97f6eaab1afc6f33d573067e01b1c506a055468a91768541d730",
+  "imported": [
+    {
+      "gene": "ASPA",
+      "task": "abundance",
+      "urn": "urn:mavedb:00000657-a-1",
+      "license": "CC0",
+      "reference": "ASPA__9606__fd33f7110370",
+      "source_sha256": "30228043830baca0d1e8f63c0f98534fe2d4ae55d4c7b0dcae5976ae221ade64",
+      "metadata_sha256": "b7572061f4402746b4f82ef497b14c7d22afc02d74de5fbf9567483cc46fe905",
+      "downloaded_rows": 6152,
+      "excluded_nonmissense_or_nonfinite": 309,
+      "retained_encoding_rows": 5843,
+      "unique_protein_substitutions": 5843,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "ASPA",
+      "task": "fitness",
+      "urn": "urn:mavedb:00000657-b-1",
+      "license": "CC0",
+      "reference": "ASPA__9606__fd33f7110370",
+      "source_sha256": "4edef266bd8fabd530993c18ce4e7691d2cf36e1fbbcb30dd055c0cf282cb56a",
+      "metadata_sha256": "dd9cad2d0ad41ad59d19e290fb5223c417ef04645fc4b5305e5971e08d453b23",
+      "downloaded_rows": 6156,
+      "excluded_nonmissense_or_nonfinite": 314,
+      "retained_encoding_rows": 5842,
+      "unique_protein_substitutions": 5842,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "KCNQ2",
+      "task": "activity",
+      "urn": "urn:mavedb:00000664-a-1",
+      "license": "CC0",
+      "reference": "KCNQ2__9606__a3002bf1c1ab",
+      "source_sha256": "98f903b803ce90d84774350a5a744e6c80c5c8f8d0f8cd3223d5b3b71c04738e",
+      "metadata_sha256": "45205c86aebe4020902ad799b81f8105f62a7f5ba5b0b330038ac67ef161edcd",
+      "downloaded_rows": 301,
+      "excluded_nonmissense_or_nonfinite": 0,
+      "retained_encoding_rows": 301,
+      "unique_protein_substitutions": 301,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "KCNQ2",
+      "task": "activity",
+      "urn": "urn:mavedb:00000664-a-4",
+      "license": "CC0",
+      "reference": "KCNQ2__9606__a3002bf1c1ab",
+      "source_sha256": "7c88b258f0f9e34e758eac67fcfc4dea7ac5bfb4a032fb199c299f8b8e637892",
+      "metadata_sha256": "29861ece2d576e01934c6e51bbe0a0b5dc791d4f268866136dfa879e15998fd4",
+      "downloaded_rows": 301,
+      "excluded_nonmissense_or_nonfinite": 0,
+      "retained_encoding_rows": 301,
+      "unique_protein_substitutions": 301,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "PAX6",
+      "task": "binding",
+      "urn": "urn:mavedb:00000665-a-1",
+      "license": "CC BY 4.0",
+      "reference": "PAX6__9606__aebeb991234c",
+      "source_sha256": "c9ab96f1dea02c35686b81cd2a3793a348b06a714604b71937986fe9a689374f",
+      "metadata_sha256": "e5c43de08da0ddf1e09ae4bc3fa538c005002eacd36aa2c268a38f45d952cb87",
+      "downloaded_rows": 7764,
+      "excluded_nonmissense_or_nonfinite": 5055,
+      "retained_encoding_rows": 2709,
+      "unique_protein_substitutions": 2709,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "PAX6",
+      "task": "binding",
+      "urn": "urn:mavedb:00000665-b-1",
+      "license": "CC0",
+      "reference": "PAX6__9606__aebeb991234c",
+      "source_sha256": "a3a70eaa9a8db51e3eb65a03cb36cd632f4cd38990335fa1b5b262b522311297",
+      "metadata_sha256": "d4d2a41bd8c011b0f5fc9fc8becc6b32d991851e59f3b7a4824fe2b19a43763e",
+      "downloaded_rows": 7391,
+      "excluded_nonmissense_or_nonfinite": 4698,
+      "retained_encoding_rows": 2693,
+      "unique_protein_substitutions": 2693,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "FKRP",
+      "task": "activity",
+      "urn": "urn:mavedb:00001197-a-5",
+      "license": "CC BY 4.0",
+      "reference": "FKRP__9606__8ef7e7ee077b",
+      "source_sha256": "b3f11ae4e7020deff0d2825dcd9b9e6e7e56e92c216ba9c954ba3caa61787dfe",
+      "metadata_sha256": "cdfac2c5a3f5353b68cd5120837d6ae0634f5e19b0e0dd7dfb610cd9c25369ad",
+      "downloaded_rows": 4455,
+      "excluded_nonmissense_or_nonfinite": 1320,
+      "retained_encoding_rows": 3135,
+      "unique_protein_substitutions": 2878,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "LARGE1",
+      "task": "activity",
+      "urn": "urn:mavedb:00001254-a-1",
+      "license": "CC BY 4.0",
+      "reference": "LARGE1__9606__69e472d47028",
+      "source_sha256": "cbe44e7d7c0e9f2b161268abb520c37cb82007e923875e42eff8544cebb1a707",
+      "metadata_sha256": "506cfda0d9b4f6c5dc67ee578e1422014c38b3be24d1b5d19187e0ea001ad65f",
+      "downloaded_rows": 6804,
+      "excluded_nonmissense_or_nonfinite": 1802,
+      "retained_encoding_rows": 5002,
+      "unique_protein_substitutions": 4484,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "ADSL",
+      "task": "fitness",
+      "urn": "urn:mavedb:00001257-a-1",
+      "license": "CC0",
+      "reference": "ADSL__9606__f6777a97981f",
+      "source_sha256": "e648216446c30630cc18e91b09ffa9d78318bd7f8ee2e299d9f619349ea95261",
+      "metadata_sha256": "cf47c8788b553252f8dc6496c8cc960fe6730caf31c339102a2bdaabf69ba6bd",
+      "downloaded_rows": 9422,
+      "excluded_nonmissense_or_nonfinite": 890,
+      "retained_encoding_rows": 8532,
+      "unique_protein_substitutions": 8532,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "ADSL",
+      "task": "fitness",
+      "urn": "urn:mavedb:00001257-a-3",
+      "license": "CC0",
+      "reference": "ADSL__9606__f6777a97981f",
+      "source_sha256": "938c7302fcbc72b0fdc4437c1f4abc5c59628b001848a0c596e48e183372268f",
+      "metadata_sha256": "2162620722e521e5b1faf07e2d2a29e8fc221161ccadaf82686cec3effe12c6e",
+      "downloaded_rows": 9022,
+      "excluded_nonmissense_or_nonfinite": 846,
+      "retained_encoding_rows": 8176,
+      "unique_protein_substitutions": 8176,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    },
+    {
+      "gene": "SPOP",
+      "task": "fitness",
+      "urn": "urn:mavedb:00001258-a-1",
+      "license": "CC0",
+      "reference": "SPOP__9606__9947d2c5b5dd",
+      "source_sha256": "6dff266152456e7e3500207092962b921e257d787a66015100cd41986a43791a",
+      "metadata_sha256": "68b0c197dc793079e61bb131d12da163126f2c18ce7828bf88211fedcb98c5c1",
+      "downloaded_rows": 7441,
+      "excluded_nonmissense_or_nonfinite": 1180,
+      "retained_encoding_rows": 6261,
+      "unique_protein_substitutions": 6261,
+      "aggregation": "arithmetic mean of deposited protein-equivalent cDNA encodings; not independent replicate count"
+    }
+  ],
+  "excluded_primary_assays": {
+    "all_consensus": 136734,
+    "ITSN1::urn:mavedb:00000861-a-1": 1021
+  },
+  "excluded_candidates": {
+    "00001257-0-1": "model-inferred enzyme activity, not independent measurement",
+    "00000091-a-1": "BRAF V600E oncogenic background/fragment requires separate construct review",
+    "00001197-a-4": "superseded FKRP deposit; use a-5 once"
+  },
+  "views": {
+    "curriculum": {
+      "rows": 1083731,
+      "genes": 496,
+      "multi_task_genes": 28,
+      "tasks": {
+        "abundance": {
+          "rows": 160114,
+          "genes": 25,
+          "assays": 27
+        },
+        "activity": {
+          "rows": 150951,
+          "genes": 29,
+          "assays": 32
+        },
+        "binding": {
+          "rows": 57965,
+          "genes": 11,
+          "assays": 13
+        },
+        "fitness": {
+          "rows": 177662,
+          "genes": 30,
+          "assays": 35
+        },
+        "stability": {
+          "rows": 537039,
+          "genes": 431,
+          "assays": 523
+        }
+      },
+      "corpus_sha256": "2c10e062387b1e15b8885601513318950ae6e48419a79320ff7751830c09d643"
+    },
+    "direct": {
+      "rows": 286256,
+      "genes": 135,
+      "multi_task_genes": 8,
+      "tasks": {
+        "abundance": {
+          "rows": 16624,
+          "genes": 4,
+          "assays": 4
+        },
+        "activity": {
+          "rows": 23283,
+          "genes": 8,
+          "assays": 10
+        },
+        "binding": {
+          "rows": 8848,
+          "genes": 3,
+          "assays": 4
+        },
+        "fitness": {
+          "rows": 78807,
+          "genes": 12,
+          "assays": 13
+        },
+        "stability": {
+          "rows": 158694,
+          "genes": 116,
+          "assays": 156
+        }
+      },
+      "corpus_sha256": "631b40b5775eafd9d45e421669bc469dc6f7b0f5f87affb9cf0b3d380a8f42ff"
+    }
+  },
+  "context_collision_assays": 0,
+  "limitations": [
+    "Additional conditions and recovered sources are not independent new genes.",
+    "No guaranteed unseen-gene interval coverage; insufficient calibration tasks are suppressed.",
+    "Error columns remain in original source tables; heterogeneous error definitions are not treated as common standard errors.",
+    "Splits isolate genes and identical references, not all homologous families."
+  ]
+}

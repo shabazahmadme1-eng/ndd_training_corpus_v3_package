@@ -1,0 +1,54 @@
+{
+ "CCR5": {
+  "urn:mavedb:00000047-c-1": "binding",
+  "urn:mavedb:00000047-a-1": "abundance"
+ },
+ "CD86": {
+  "urn:mavedb:00000046-a-3": "fitness",
+  "urn:mavedb:00000046-a-1": "abundance"
+ },
+ "CXCR4": {
+  "urn:mavedb:00000048-b-1": "binding",
+  "urn:mavedb:00000048-a-1": "abundance"
+ },
+ "G6PD": {
+  "urn:mavedb:00001266-b-1": "abundance",
+  "urn:mavedb:00001266-c-1": "fitness"
+ },
+ "GPR68": {
+  "urn:mavedb:00001207-a-2": "abundance",
+  "urn:mavedb:00001207-a-3": "activity"
+ },
+ "INSR": {
+  "urn:mavedb:00001239-a-3": "binding",
+  "urn:mavedb:00001239-a-7": "abundance"
+ },
+ "LDLR": {
+  "urn:mavedb:00001269-b-1": "abundance",
+  "urn:mavedb:00001269-a-1": "activity"
+ },
+ "MPL": {
+  "urn:mavedb:00001214-j-1": "abundance",
+  "urn:mavedb:00001214-i-1": "activity"
+ },
+ "NUDT15": {
+  "urn:mavedb:00000055-b-1": "activity",
+  "urn:mavedb:00000055-a-1": "abundance"
+ },
+ "PRKN": {
+  "urn:mavedb:00001274-a-1": "activity",
+  "urn:mavedb:00000114-a-1": "abundance"
+ },
+ "SOD1": {
+  "urn:mavedb:00001217-a-4": "activity",
+  "urn:mavedb:00001217-a-3": "abundance"
+ },
+ "TP53": {
+  "urn:mavedb:00000068-c-1": "fitness",
+  "urn:mavedb:00000068-0-1": "activity"
+ },
+ "TYK2": {
+  "urn:mavedb:00001271-a-1": "abundance",
+  "urn:mavedb:00001270-a-1": "activity"
+ }
+}

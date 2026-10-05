@@ -1,0 +1,4090 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001236-0-1",
+   "title": "Combined score from naive Bayes classifier for TP53",
+   "shortDescription": "Combined score from naive Bayes classifier trained on functional data of TP53 from Giacomelli et al. and Boettcher et al.",
+   "publishedDate": "2025-05-08",
+   "replacesId": null,
+   "numVariants": 7893,
+   "experiment": {
+    "title": "Combined score from naive Bayes classifier for TP53",
+    "shortDescription": "Combined score from naive Bayes classifier trained on functional data of TP53 from Giacomelli et al. and Boettcher et al.",
+    "abstractText": "Clinical interpretation of missense variants is challenging because the majority identified by genetic testing are rare and their functional effects are unknown. Consequently, most variants are of uncertain significance and cannot be used for clinical diagnosis or management. Although not much can be done to ameliorate variant rarity, multiplexed assays of variant effect (MAVEs), where thousands of single-nucleotide variant effects are simultaneously measured experimentally, provide functional evidence that can help resolve variants of unknown significance (VUSs). However, a rigorous assessment of the clinical value of multiplexed functional data for variant interpretation is lacking. Thus, we systematically combined previously published _BRCA1_, _TP53_, and _PTEN_ multiplexed functional data with phenotype and family history data for 324 VUSs identified by a single diagnostic testing laboratory. We curated 49,281 variant functional scores from MAVEs for these three genes and integrated four different _TP53_ multiplexed functional datasets into a single functional prediction for each variant by using machine learning. We then determined the strength of evidence provided by each multiplexed functional dataset and reevaluated 324 VUSs. Multiplexed functional data were effective in driving variant reclassification when combined with clinical data, eliminating 49% of VUSs for _BRCA1_, 69% for _TP53_, and 15% for _PTEN_. Thus, multiplexed functional data, which are being generated for numerous genes, are poised to have a major impact on clinical variant interpretation.",
+    "methodText": "The TP53 naive Bayes classifier was trained on 161 TP53 missense variants from ClinVar (129 pathogenic/likely pathogenic and 32 benign/likely benign) using function scores from four multiplexed assays: 1) TP53-null A549 cell line with positive selection for loss-of-function variants with etoposide, 2) TP53-null A549 cell line with negative selection for loss-of-function variants with nutlin-3, 3) TP53-wild-type A549 cell line with positive selection for dominant negative variants with nutlin-3, and 4) TP53-wild-type AML reporter cell line with positive selection for dominant negative variants with nutlin-3.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001236-0",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-05-07",
+    "modificationDate": "2025-05-08",
+    "publishedDate": "2025-05-08",
+    "experimentSetUrn": "urn:mavedb:00001236",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Combined functional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function or dominant-negative effect",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Not applicable (trained predictor)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Not applicable",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Not Applicable",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "N/A (meta-analysis)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001236-0-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "34793697",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Closing the gap: Systematic integration of multiplexed functional data resolves variants of uncertain significance in BRCA1, TP53, and PTEN.",
+     "authors": [
+      {
+       "name": "Fayer S",
+       "primary": true
+      },
+      {
+       "name": "Horton C",
+       "primary": false
+      },
+      {
+       "name": "Dines JN",
+       "primary": false
+      },
+      {
+       "name": "Rubin AF",
+       "primary": false
+      },
+      {
+       "name": "Richardson ME",
+       "primary": false
+      },
+      {
+       "name": "McGoldrick K",
+       "primary": false
+      },
+      {
+       "name": "Hernandez F",
+       "primary": false
+      },
+      {
+       "name": "Pesaran T",
+       "primary": false
+      },
+      {
+       "name": "Karam R",
+       "primary": false
+      },
+      {
+       "name": "Shirts BH",
+       "primary": false
+      },
+      {
+       "name": "Fowler DM",
+       "primary": false
+      },
+      {
+       "name": "Starita LM",
+       "primary": false
+      }
+     ],
+     "abstract": "Clinical interpretation of missense variants is challenging because the majority identified by genetic testing are rare and their functional effects are unknown. Consequently, most variants are of uncertain significance and cannot be used for clinical diagnosis or management. Although not much can be done to ameliorate variant rarity, multiplexed assays of variant effect (MAVEs), where thousands of single-nucleotide variant effects are simultaneously measured experimentally, provide functional evidence that can help resolve variants of unknown significance (VUSs). However, a rigorous assessment of the clinical value of multiplexed functional data for variant interpretation is lacking. Thus, we systematically combined previously published BRCA1, TP53, and PTEN multiplexed functional data with phenotype and family history data for 324 VUSs identified by a single diagnostic testing laboratory. We curated 49,281 variant functional scores from MAVEs for these three genes and integrated four different TP53 multiplexed functional datasets into a single functional prediction for each variant by using machine learning. We then determined the strength of evidence provided by each multiplexed functional dataset and reevaluated 324 VUSs. Multiplexed functional data were effective in driving variant reclassification when combined with clinical data, eliminating 49% of VUSs for BRCA1, 69% for TP53, and 15% for PTEN. Thus, multiplexed functional data, which are being generated for numerous genes, are poised to have a major impact on clinical variant interpretation.",
+     "doi": "10.1016/j.ajhg.2021.11.001",
+     "publicationYear": 2021,
+     "publicationJournal": "Am J Hum Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/34793697",
+     "referenceHtml": "Fayer S, <i>et al</i>. Closing the gap: Systematic integration of multiplexed functional data resolves variants of uncertain significance in BRCA1, TP53, and PTEN. Am J Hum Genet. 2021; 108:2248-2258. 10.1016/j.ajhg.2021.11.001",
+     "id": 117
+    }
+   ],
+   "secondaryPublicationIdentifiers": [
+    {
+     "identifier": "30224644",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mutational processes shape the landscape of TP53 mutations in human cancer.",
+     "authors": [
+      {
+       "name": "Giacomelli, Andrew O",
+       "primary": true
+      },
+      {
+       "name": "Yang, Xiaoping",
+       "primary": false
+      },
+      {
+       "name": "Lintner, Robert E",
+       "primary": false
+      },
+      {
+       "name": "McFarland, James M",
+       "primary": false
+      },
+      {
+       "name": "Duby, Marc",
+       "primary": false
+      },
+      {
+       "name": "Kim, Jaegil",
+       "primary": false
+      },
+      {
+       "name": "Howard, Thomas P",
+       "primary": false
+      },
+      {
+       "name": "Takeda, David Y",
+       "primary": false
+      },
+      {
+       "name": "Ly, Seav Huong",
+       "primary": false
+      },
+      {
+       "name": "Kim, Eejung",
+       "primary": false
+      },
+      {
+       "name": "Gannon, Hugh S",
+       "primary": false
+      },
+      {
+       "name": "Hurhula, Brian",
+       "primary": false
+      },
+      {
+       "name": "Sharpe, Ted",
+       "primary": false
+      },
+      {
+       "name": "Goodale, Amy",
+       "primary": false
+      },
+      {
+       "name": "Fritchman, Briana",
+       "primary": false
+      },
+      {
+       "name": "Steelman, Scott",
+       "primary": false
+      },
+      {
+       "name": "Vazquez, Francisca",
+       "primary": false
+      },
+      {
+       "name": "Tsherniak, Aviad",
+       "primary": false
+      },
+      {
+       "name": "Aguirre, Andrew J",
+       "primary": false
+      },
+      {
+       "name": "Doench, John G",
+       "primary": false
+      },
+      {
+       "name": "Piccioni, Federica",
+       "primary": false
+      },
+      {
+       "name": "Roberts, Charles W M",
+       "primary": false
+      },
+      {
+       "name": "Meyerson, Matthew",
+       "primary": false
+      },
+      {
+       "name": "Getz, Gad",
+       "primary": false
+      },
+      {
+       "name": "Johannessen, Cory M",
+       "primary": false
+      },
+      {
+       "name": "Root, David E",
+       "primary": false
+      },
+      {
+       "name": "Hahn, William C",
+       "primary": false
+      }
+     ],
+     "abstract": "Unlike most tumor suppressor genes, the most common genetic alterations in tumor protein p53 (TP53) are missense mutations",
+     "doi": "10.1038/s41588-018-0204-y",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/30224644",
+     "referenceHtml": "Giacomelli AO, <i>et al</i>. Mutational processes shape the landscape of TP53 mutations in human cancer. <i>Nat. Genet</i>. 2018; <b>50</b>:1381-1387.",
+     "id": 26
+    },
+    {
+     "identifier": "31395785",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A dominant-negative effect drives selection of ",
+     "authors": [
+      {
+       "name": "Boettcher S",
+       "primary": true
+      },
+      {
+       "name": "Miller PG",
+       "primary": false
+      },
+      {
+       "name": "Sharma R",
+       "primary": false
+      },
+      {
+       "name": "McConkey M",
+       "primary": false
+      },
+      {
+       "name": "Leventhal M",
+       "primary": false
+      },
+      {
+       "name": "Krivtsov AV",
+       "primary": false
+      },
+      {
+       "name": "Giacomelli AO",
+       "primary": false
+      },
+      {
+       "name": "Wong W",
+       "primary": false
+      },
+      {
+       "name": "Kim J",
+       "primary": false
+      },
+      {
+       "name": "Chao S",
+       "primary": false
+      },
+      {
+       "name": "Kurppa KJ",
+       "primary": false
+      },
+      {
+       "name": "Yang X",
+       "primary": false
+      },
+      {
+       "name": "Milenkowic K",
+       "primary": false
+      },
+      {
+       "name": "Piccioni F",
+       "primary": false
+      },
+      {
+       "name": "Root DE",
+       "primary": false
+      },
+      {
+       "name": "R\u00fccker FG",
+       "primary": false
+      },
+      {
+       "name": "Flamand Y",
+       "primary": false
+      },
+      {
+       "name": "Neuberg D",
+       "primary": false
+      },
+      {
+       "name": "Lindsley RC",
+       "primary": false
+      },
+      {
+       "name": "J\u00e4nne PA",
+       "primary": false
+      },
+      {
+       "name": "Hahn WC",
+       "primary": false
+      },
+      {
+       "name": "Jacks T",
+       "primary": false
+      },
+      {
+       "name": "D\u00f6hner H",
+       "primary": false
+      },
+      {
+       "name": "Armstrong SA",
+       "primary": false
+      },
+      {
+       "name": "Ebert BL",
+       "primary": false
+      }
+     ],
+     "abstract": "TP53, which encodes the tumor suppressor p53, is the most frequently mutated gene in human cancer. The selective pressures shaping its mutational spectrum, dominated by missense mutations, are enigmatic, and neomorphic gain-of-function (GOF) activities have been implicated. We used CRISPR-Cas9 to generate isogenic human leukemia cell lines of the most common TP53 missense mutations. Functional, DNA-binding, and transcriptional analyses revealed loss of function but no GOF effects. Comprehensive mutational scanning of p53 single-amino acid variants demonstrated that missense variants in the DNA-binding domain exert a dominant-negative effect (DNE). In mice, the DNE of p53 missense variants confers a selective advantage to hematopoietic cells on DNA damage. Analysis of clinical outcomes in patients with acute myeloid leukemia showed no evidence of GOF for TP53 missense mutations. Thus, a DNE is the primary unit of selection for TP53 missense mutations in myeloid malignancies.",
+     "doi": "10.1126/science.aax3649",
+     "publicationYear": 2019,
+     "publicationJournal": "Science",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/31395785",
+     "referenceHtml": "Boettcher S, <i>et al</i>. A dominant-negative effect drives selection of . Science. 2019; 365:599-604. 10.1126/science.aax3649",
+     "id": 132
+    }
+   ],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-05-07",
+   "modificationDate": "2026-06-02",
+   "targetGenes": [
+    {
+     "name": "TP53",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7532,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATGCCAGAGGCTGCTCCCCGCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCGACATAGTGTGGTGGTGCCCTATGAGCCGCCTGAGGTTGGCTCTGACTGTACCACCATCCACTACAACTACATGTGTAACAGTTCCTGCATGGGCGGCATGAACCGGAGGCCCATCCTCACCATCATCACACTGGAAGACTCCAGTGGTAATCTACTGGGACGGAACAGCTTTGAGGTGCGTGTTTGTGCCTGTCCTGGGAGAGACCGGCGCACAGAGGAAGAGAATCTCCGCAAGAAAGGGGAGCCTCACCACGAGCTGCCCCCAGGGAGCACTAAGCGAGCACTGCCCAACAACACCAGCTCCTCTCCCCAGCCAAAGAAGAAACCACTGGATGGAGAATATTTCACCCTTCAGATCCGTGGGCGTGAGCGCTTCGAGATGTTCCGAGAGCTGAATGAGGCCTTGGAACTCAAGGATGCCCAGGCTGGGAAGGAGCCAGGGGGGAGCAGGGCTCACTCCAGCCACCTGAAGTCCAAAAAGGGTCAGTCTACCTCCCGCCATAAAAAACTCATGTTCAAGACAGAAGGGCCTGACTCAGACTAG",
+      "label": "TP53",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TP53",
+     "uniprotIdFromMappedMetadata": "P04637"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000095-b-1",
+   "title": "CYP2C9 abundance scores as measured by VAMP-seq",
+   "shortDescription": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq). This entry contains amino acid scores from the abundance assay using VAMP-seq in HEK293T cells.",
+   "publishedDate": "2022-06-08",
+   "replacesId": null,
+   "numVariants": 6821,
+   "experiment": {
+    "title": "CYP2C9 abundance scores",
+    "shortDescription": "CYP2C9 protein abundance measured by Variant Abundance by Massively Parallel sequencing (VAMP-seq).",
+    "abstractText": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq).\r\n\r\nThis entry contains amino acid scores from the abundance assay using VAMP-seq in HEK293T cells.",
+    "methodText": "CYP2C9 variant libraries were generated using inverse PCR with NNK primers. Variants were tagged with 18bp random sequence barcodes and the association between barcodes and variants was determined using PacBio sequencing. The barcoded abundance library was introduced into a HEK293T landing pad cell line.\r\n\r\nCells expressing CYP2C9 variants fused to EGFP were sorted into 4 bins by FACS. Genomic DNA was extracted and barcodes from each bin were sequenced. Three replicate sorts were performed. Barcodes from each bin were counted and associated with variant sequences using Enrich2. Variant abundance scores were calculated from the weighed average of variant frequencies in each bin, such that high abundance variants have a higher score and low abundance variants have a lower score. Abundance scores were normalized to the median synonymous variant score (set to 1) and the median nonsense variant score (set to 0). Confidence intervals and variance estimates are based on replicate scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000095-b",
+    "createdBy": {
+     "orcidId": "0000-0002-0730-2576",
+     "firstName": "Clara",
+     "lastName": "Amorosi",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-0730-2576",
+     "firstName": "Clara",
+     "lastName": "Amorosi",
+     "recordType": "User"
+    },
+    "creationDate": "2021-07-07",
+    "modificationDate": "2022-06-08",
+    "publishedDate": "2022-06-08",
+    "experimentSetUrn": "urn:mavedb:00000095",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "34314704",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+      "authors": [
+       {
+        "name": "Amorosi, Clara J",
+        "primary": true
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "McDonald, Matthew G",
+        "primary": false
+       },
+       {
+        "name": "Wong, Lai Hong",
+        "primary": false
+       },
+       {
+        "name": "Sitko, Katherine A",
+        "primary": false
+       },
+       {
+        "name": "Boyle, Gabriel",
+        "primary": false
+       },
+       {
+        "name": "Kowalski, John P",
+        "primary": false
+       },
+       {
+        "name": "Rettie, Allan E",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Dunham, Maitreya J",
+        "primary": false
+       }
+      ],
+      "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+      "doi": "10.1016/j.ajhg.2021.07.001",
+      "publicationYear": 2021,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+      "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+      "id": 74
+     },
+     {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Starita, Lea M",
+        "primary": false
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Martin, Beth",
+        "primary": false
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "Gray, Vanessa E",
+        "primary": false
+       },
+       {
+        "name": "Kircher, Martin",
+        "primary": false
+       },
+       {
+        "name": "Khechaduri, Arineh",
+        "primary": false
+       },
+       {
+        "name": "Dines, Jennifer N",
+        "primary": false
+       },
+       {
+        "name": "Hause, Ronald J",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Evans, William E",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Shendure, Jay",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+     }
+    ],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "GSE165412",
+      "id": 53,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165412"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000095-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [
+    {
+     "identifier": "34314704",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+     "authors": [
+      {
+       "name": "Amorosi, Clara J",
+       "primary": true
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "McDonald, Matthew G",
+       "primary": false
+      },
+      {
+       "name": "Wong, Lai Hong",
+       "primary": false
+      },
+      {
+       "name": "Sitko, Katherine A",
+       "primary": false
+      },
+      {
+       "name": "Boyle, Gabriel",
+       "primary": false
+      },
+      {
+       "name": "Kowalski, John P",
+       "primary": false
+      },
+      {
+       "name": "Rettie, Allan E",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Dunham, Maitreya J",
+       "primary": false
+      }
+     ],
+     "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+     "doi": "10.1016/j.ajhg.2021.07.001",
+     "publicationYear": 2021,
+     "publicationJournal": "Am J Hum Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+     "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+     "id": 74
+    },
+    {
+     "identifier": "29785012",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Starita, Lea M",
+       "primary": false
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Martin, Beth",
+       "primary": false
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "Gray, Vanessa E",
+       "primary": false
+      },
+      {
+       "name": "Kircher, Martin",
+       "primary": false
+      },
+      {
+       "name": "Khechaduri, Arineh",
+       "primary": false
+      },
+      {
+       "name": "Dines, Jennifer N",
+       "primary": false
+      },
+      {
+       "name": "Hause, Ronald J",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Evans, William E",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Shendure, Jay",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+     "doi": "10.1038/s41588-018-0122-z",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+     "id": 12
+    }
+   ],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2022-06-08",
+   "modificationDate": "2026-07-15",
+   "targetGenes": [
+    {
+     "name": "CYP2C9",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P11712",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P11712",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 300,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGATTCTCTTGTGGTCCTTGTGCTCTGTCTCTCATGTTTGCTTCTCCTTTCACTCTGGAGACAGAGCTCTGGGAGAGGAAAACTCCCTCCTGGCCCCACTCCTCTCCCAGTGATTGGAAATATCCTACAGATAGGTATTAAGGACATCAGCAAATCCTTAACCAATCTCTCAAAGGTCTATGGCCCTGTGTTCACTCTGTATTTTGGCCTGAAACCCATAGTGGTGCTGCATGGATATGAAGCAGTGAAGGAAGCCCTGATTGATCTTGGAGAGGAGTTTTCTGGAAGAGGCATTTTCCCACTGGCTGAAAGAGCTAACAGAGGATTTGGAATTGTTTTCAGCAATGGAAAGAAATGGAAGGAGATCCGGCGTTTCTCCCTCATGACGCTGCGGAATTTTGGGATGGGGAAGAGGAGCATTGAGGACCGTGTTCAAGAGGAAGCCCGCTGCCTTGTGGAGGAGTTGAGAAAAACCAAGGCCTCACCCTGTGATCCCACTTTCATCCTGGGCTGTGCTCCCTGCAATGTGATCTGTAGTATCATATTTCACAAGCGGTTCGACTATAAGGACCAGCAATTCTTGAACCTTATGGAGAAACTGAATGAGAATATCAAAATTCTCTCAAGTCCGTGGATTCAGATTTGCAACAACTTTAGTCCCATTATTGATTATTTTCCGGGAACACACAACAAATTGCTGAAAAATGTAGCTTTTATGAAAAGTTACATTCTCGAGAAAGTCAAAGAGCATCAAGAGTCAATGGATATGAACAATCCTCAAGACTTCATTGATTGCTTCTTGATGAAAATGGAAAAGGAGAAACACAACCAACCATCTGAGTTCACAATCGAGTCACTGGAAAACACGGCCGTAGATCTCTTTGGTGCGGGGACGGAGACAACGAGTACGACTCTTAGATACGCGCTCCTTTTGTTGCTGAAGCACCCAGAAGTCACCGCGAAGGTGCAAGAAGAAATCGAGCGGGTAATCGGACGAAACAGATCCCCTTGTATGCAGGATAGAAGTCACATGCCCTACACAGATGCTGTGGTGCACGAGGTCCAGAGATACATTGACCTTCTCCCCACCAGCCTGCCCCATGCAGTGACCTGTGACATTAAATTCAGAAACTATCTCATTCCCAAGGGCACAACCATATTAATTTCCCTGACTTCTGTGCTACATGACAACAAAGAATTTCCCAACCCAGAGATGTTTGACCCTCATCACTTTCTGGATGAAGGTGGCAATTTCAAGAAGAGCAAGTATTTCATGCCTTTCTCAGCAGGAAAACGGATTTGTGTGGGAGAAGCCCTGGCCGGCATGGAGCTGTTTTTATTCCTGACCTCCATTTTACAGAACTTTAACCTGAAATCTCTGGTTGACCCAAAGAACCTTGACACCACTCCAGTTGTCAATGGATTTGCCTCTGTGCCGCCCTTCTACCAGCTGTGCTTCATTCCTGTC",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "CYP2C9",
+     "uniprotIdFromMappedMetadata": "P11712"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000095-a-1",
+   "title": "CYP2C9 activity scores as measured by Click-seq",
+   "shortDescription": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq). This entry contains amino acid scores from the activity assay using Click-seq in humanized yeast cells.",
+   "publishedDate": "2022-06-08",
+   "replacesId": null,
+   "numVariants": 6524,
+   "experiment": {
+    "title": "CYP2C9 activity scores",
+    "shortDescription": "CYP2C9 activity measured by a yeast activity-based protein profiling assay (Click-seq)",
+    "abstractText": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq).\r\n\r\nThis entry contains amino acid scores from the activity assay in humanized yeast cells.",
+    "methodText": "CYP2C9 variant libraries were generated using inverse PCR with NNK primers. Variants were tagged with 18bp random sequence barcodes and the association between barcodes and variants was determined using PacBio sequencing. The barcoded activity library was introduced into a humanized yeast strain. \r\n\r\nCells expressing CYP2C9 variants were sorted into 4 bins by FACS. Plasmid DNA was extracted and barcodes from each bin were sequenced. Four replicate sorts were performed. Barcodes from each bin were counted and associated with variant sequences using Enrich2. Variant activity scores were calculated from the weighed average of variant frequencies in each bin, such that high activity variants have a higher score and low activity variants have a lower score. Activity scores were normalized to the median synonymous variant score (set to 1) and the median nonsense variant score (set to 0). Confidence intervals and variance estimates are based on replicate scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000095-a",
+    "createdBy": {
+     "orcidId": "0000-0002-0730-2576",
+     "firstName": "Clara",
+     "lastName": "Amorosi",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-0730-2576",
+     "firstName": "Clara",
+     "lastName": "Amorosi",
+     "recordType": "User"
+    },
+    "creationDate": "2021-07-08",
+    "modificationDate": "2022-06-08",
+    "publishedDate": "2022-06-08",
+    "experimentSetUrn": "urn:mavedb:00000095",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "34314704",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+      "authors": [
+       {
+        "name": "Amorosi, Clara J",
+        "primary": true
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "McDonald, Matthew G",
+        "primary": false
+       },
+       {
+        "name": "Wong, Lai Hong",
+        "primary": false
+       },
+       {
+        "name": "Sitko, Katherine A",
+        "primary": false
+       },
+       {
+        "name": "Boyle, Gabriel",
+        "primary": false
+       },
+       {
+        "name": "Kowalski, John P",
+        "primary": false
+       },
+       {
+        "name": "Rettie, Allan E",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Dunham, Maitreya J",
+        "primary": false
+       }
+      ],
+      "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+      "doi": "10.1016/j.ajhg.2021.07.001",
+      "publicationYear": 2021,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+      "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+      "id": 74
+     },
+     {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Starita, Lea M",
+        "primary": false
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Martin, Beth",
+        "primary": false
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "Gray, Vanessa E",
+        "primary": false
+       },
+       {
+        "name": "Kircher, Martin",
+        "primary": false
+       },
+       {
+        "name": "Khechaduri, Arineh",
+        "primary": false
+       },
+       {
+        "name": "Dines, Jennifer N",
+        "primary": false
+       },
+       {
+        "name": "Hause, Ronald J",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Evans, William E",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Shendure, Jay",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+     }
+    ],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "GSE165412",
+      "id": 53,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165412"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000095-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [
+    {
+     "identifier": "34314704",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+     "authors": [
+      {
+       "name": "Amorosi, Clara J",
+       "primary": true
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "McDonald, Matthew G",
+       "primary": false
+      },
+      {
+       "name": "Wong, Lai Hong",
+       "primary": false
+      },
+      {
+       "name": "Sitko, Katherine A",
+       "primary": false
+      },
+      {
+       "name": "Boyle, Gabriel",
+       "primary": false
+      },
+      {
+       "name": "Kowalski, John P",
+       "primary": false
+      },
+      {
+       "name": "Rettie, Allan E",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Dunham, Maitreya J",
+       "primary": false
+      }
+     ],
+     "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+     "doi": "10.1016/j.ajhg.2021.07.001",
+     "publicationYear": 2021,
+     "publicationJournal": "Am J Hum Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+     "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+     "id": 74
+    },
+    {
+     "identifier": "29785012",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Starita, Lea M",
+       "primary": false
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Martin, Beth",
+       "primary": false
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "Gray, Vanessa E",
+       "primary": false
+      },
+      {
+       "name": "Kircher, Martin",
+       "primary": false
+      },
+      {
+       "name": "Khechaduri, Arineh",
+       "primary": false
+      },
+      {
+       "name": "Dines, Jennifer N",
+       "primary": false
+      },
+      {
+       "name": "Hause, Ronald J",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Evans, William E",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Shendure, Jay",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+     "doi": "10.1038/s41588-018-0122-z",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+     "id": 12
+    }
+   ],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2022-06-08",
+   "modificationDate": "2026-07-15",
+   "targetGenes": [
+    {
+     "name": "CYP2C9",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 299,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGACTCCTTGGTTGTGTTGGTTCTGTGTTTATCTTGCTTACTATTGCTGAGCCTTTGGAGACAGTCTTCAGGAAGAGGTAAGTTGCCCCCGGGTCCTACACCCCTGCCTGTGATAGGTAATATATTACAGATCGGGATCAAAGATATCAGTAAGAGTCTGACTAATTTGTCCAAAGTGTATGGTCCAGTGTTTACTCTGTACTTTGGCTTGAAACCCATTGTGGTTTTGCACGGATACGAAGCTGTTAAGGAGGCACTAATCGATTTAGGCGAAGAATTCTCTGGAAGAGGCATTTTTCCATTGGCTGAAAGGGCAAACAGAGGTTTCGGTATCGTTTTTAGTAACGGAAAGAAGTGGAAGGAAATTAGAAGATTTAGTTTAATGACTCTGAGAAATTTCGGTATGGGTAAAAGATCAATTGAGGATAGAGTGCAAGAAGAAGCTCGTTGTCTTGTGGAAGAATTAAGGAAAACCAAAGCATCTCCTTGTGACCCCACTTTCATTCTAGGCTGCGCACCGTGTAACGTTATTTGCTCTATTATTTTTCATAAGAGATTTGACTATAAGGATCAACAATTCTTGAATTTAATGGAAAAGTTGAACGAAAATATTAAAATATTGTCATCACCTTGGATTCAGATTTGCAACAACTTCTCACCAATTATCGACTATTTCCCAGGTACCCACAACAAGCTACTGAAGAATGTGGCTTTCATGAAATCTTACATTCTTGAAAAAGTCAAAGAACACCAAGAATCCATGGACATGAACAATCCACAAGATTTCATTGACTGTTTCCTTATGAAAATGGAGAAGGAGAAGCACAACCAACCCTCAGAATTTACCATAGAATCCCTTGAAAATACCGCTGTCGATTTATTTGGCGCTGGAACAGAGACCACTTCAACTACCTTGCGTTACGCATTACTACTATTACTAAAACACCCAGAAGTGACCGCGAAGGTGCAAGAAGAGATTGAGAGAGTGATCGGCAGAAATAGATCTCCTTGTATGCAAGATAGATCCCATATGCCTTATACTGATGCAGTCGTACATGAAGTTCAACGTTACATCGACTTGTTGCCTACCAGCTTGCCGCATGCAGTTACTTGTGATATTAAGTTTAGGAATTACCTTATTCCGAAAGGTACCACTATTTTGATATCTCTTACCTCCGTCTTACACGATAATAAGGAGTTTCCTAATCCAGAAATGTTCGATCCTCATCACTTCCTTGACGAGGGAGGGAATTTCAAAAAAAGTAAATACTTTATGCCATTCTCAGCGGGAAAAAGAATATGCGTAGGCGAAGCCCTGGCGGGAATGGAATTGTTCTTATTCCTGACGTCCATTCTTCAAAACTTTAACTTGAAATCTCTTGTAGATCCTAAAAATTTAGATACAACTCCGGTTGTTAATGGATTTGCATCAGTGCCTCCTTTTTATCAGCTTTGTTTTATACCCGTT",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "CYP2C9",
+     "uniprotIdFromMappedMetadata": "P11712"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000093-a-1",
+   "title": "BASE_ACMG quantities derived from the RING domain M2H functional assay",
+   "shortDescription": "BASE_ACMG are the quantitatively defined ACMG strength of evidence categories and ACMG-scaled points. This score set reports the BASE_ACMG values for variants used in the RING domain M2H functional assays across multiple experiments.",
+   "publishedDate": "2021-12-23",
+   "replacesId": null,
+   "numVariants": 853,
+   "experiment": {
+    "title": "Functional Evaluation of BRCA1 RING Domain Missense Substitutions",
+    "shortDescription": "We tested every BRCA1 RING domain missense substitution that can be created by a single nucleotide change for its effect on heterodimerization with BARD1 in a Mammalian 2-hybrid assay.  The assay data collected were calibrated, validated, and integrated with other available data to arrive at clinically applicable classifications.  About 89% of the missense substitutions could be assigned clinical classifications with about 20% being pathogenic.",
+    "abstractText": "BRCA1 is a high-risk susceptibility gene for breast and ovarian cancer. Pathogenic protein truncating variants are scattered across the open reading frame, but all known missense substitutions that are pathogenic because of missense dysfunction are located in either the amino- terminal RING domain or the carboxy-terminal BRCT domain. Heterodimerization of the BRCA1 and BARD1 RING domains is a molecularly defined obligate activity. Hence, we tested every BRCA1 RING domain missense substitution that can be created by a single nucleotide change for heterodimerization with BARD1 in a Mammalian 2-hybrid assay. Downstream of the laboratory assay, we addressed three additional challenges: assay calibration, validation thereof, and integration of the calibrated results with other available data such as computational evidence and patient/population observational data to achieve clinically applicable classification. Overall, we found that 15%-20% of BRCA1 RING domain missense substitutions are pathogenic. Using a Bayesian point system for data integration and variant classification, we achieved clinical classification of 89% of observed missense substitutions. Moreover, among missense substitutions not present in the human observational data used here, we find an additional 45 with concordant computational and functional assay evidence in favor of pathogenicity plus 223 with concordant evidence in favor of benignity; these are particularly likely to be classified as Likely Pathogenic and Likely Benign, respectively, once human observational data become available.",
+    "methodText": "Pre-set analysis choices.\r\nA number of key analysis parameters were set before the resulting analyses were conducted. These included:\r\n1. Calibration would be based on some sort of multivariate logistic regression using human\r\nobservational data, and excluding computational or functional assay data.\r\n2. The calibration set of RING domain sequence variants used inclusion thresholds of published\r\nhuman observational data having Posterior probability of pathogenicity (Post_P)<0.10, or Post_P>0.90, starting from an assumed BRCA1/2 key domain prior probability in favor of pathogenicity (Prior_P) of 0.35 (Easton et al., PMID: 17924331. Li et al., PMID: 31853058).\r\n3. Because the calibration set had more pathogenic than benign calibrant variants, it was decided in advance to include the two presumed benign variants extracted from our existing protein multiple sequence alignment: p.K45R and p.C91H (Tavtigian et al., PMID: 18951461).\r\nConsiderations #2 and #3 resulted in a set of 30 \u201ccalibration series\u201d sequence variants (Table 1), 29 missense substitutions and one in-frame deletion. One of these, c.211A>G (p.R71G) was excluded from calibration because our prior analyses predicted that it would damage mRNA splicing and then it was shown to be pathogenic on that basis (Vallee et al., PMID: 26913838. Parsons et al., Parsons et al., PMID: 31131967)\r\nReporter cell line for the Mammalian 2-hybrid assay.\r\nA HEK293 cell line was prepared with two GAL4-responsive M2H reporters, one with ZsGreen readout and blasticidin resistance, and the other with Tdtomato and puromycin resistance.\r\n\r\nBRCA1 RING domain variant library generation.\r\nPlasmid libraries containing the variants to assay in the multiplexed format were generated using a HiFi assembly-based cloning strategy. We developed three different backbone vectors, based on pBIND (E245A; Promega) for cloning three 100 bp sections of the BRCA1 RING domain. Each backbone encoded the complete BRCA1 RING domain (amino acids 1-100, plus an additional 84 aa) fused to the GAL4 DNA binding domain, and the three vectors together allow mutagenesis of the entire RING domain. Following the GAL4 sequence, we inserted a P2A sequence followed by a BFP sequence. The BFP acts as a proxy for productive BRCA1 expression and allows gating on a tight range of BRCA1 expression during the sort step of the M2H assay. Oligonucleotide pools representing the three thirds of the ring domain were synthesized by Twist Bioscience with the following features: 1) the missense substitutions and in-frame indels to be tested; 2) each missense substitution or in-frame indel was synthesized with 4 different pairs of silent substitutions that acted as a barcode identifier (8 different 2 nt barcodes were designed for each third of the RING domain, with the silent substitutions chosen from alternate nucleotides that are wt in a non-human primate); 3) 5\u2019 and 3\u2019 sequence tails for HiFi assembly. Barcode combinations with the wildtype peptide sequence were generated for each barcode used, and synthesized at a 3:1 ratio to variants in the oligo pool to insure capture of all wildtype-barcode combinations in the assay. The oligo pool was amplified (12 cycles) in three separate reactions using primer sets corresponding to 5\u2019 and 3\u2019 ends of the three thirds of the ring domain, with the resulting amplified pools representing each third. Each amplified pool was cloned en masse into the corresponding backbone vector using NEB HiFi assembly mastermix (E2621) and transformed. Single colonies were picked and arrayed in a 96-well format for individual plasmid preps (Invitrogen) and resulting plasmid DNAs re-arrayed into the inner 60- wells of a 96-well plate (to avoid edge effects in the subsequent transfections), and then diluted to 25 ng/\u03bcl.\r\n\r\nThe BARD1 RING domain, encoded within the first 200 amino acids, fused to HA, was cloned into a modified pACT vector (E246A, Promega), with the VP16 sequence moved distal to the BARD1 coding sequence, to create a C-terminal fusion. Similar to the BRCA1-GAL4 construct, following the VP16 sequence, we inserted a P2A sequence followed by zsYellow sequence for gating purposes.\r\nMultiplexed mammalian 2-hybrid assay.\r\nIndividual transfection reactions for each plasmid were set up with 20,000 reporter cells per well and 50 ng of pACT_BARD1:zsYELLOW plus 50 ng of the corresponding BRCA1-GAL4:BFP plasmid (1:1 molar ratio) from the dilution plates described in the previous section. 48 hours post-infection, cells were harvested, pooled, and FACs sorted on a BD 5 laser FACSAria. The strategy relied first on gating a narrow range of zsYellow+/BFP+ to ensure evaluation of only cells productively transfected with both plasmids, and to limit the range of BRCA1-GAL4 and BARD1-VP16 expression. Gated cells were sorted into one of six bins based on increasing expression of both the dtTomato and zsGreen reporters. RNA was isolated from each bin using the Direct-zol RNA miniprep kit (Zymo Research); bins with less than 1 X106 cells were adjusted to 1 X106 with HEK293 cells to insure uniformity in RNA isolation. Total RNA was converted to cDNA using the SuperScript VILO cDNA Synthesis Kit (Invitrogen). The RING sequence of BRCA1 was then isolated by RT-PCR using primers corresponding to sequence 5 bp 5\u2019 of the intron engineered into the BRCA1 construct and nucleotides 305-330 of the BRCA1 CDS. Sequencing libraries were prepared using the Ovation Ultralow Library System (NUGEN # 0344NB-A01), excluding the end-repair step and using a different barcode for each of the bins. The libraries were sequenced on an Illumina MiSeq channel using the MiSeq 300 bp Cycle Paired-end sequencing protocol. Each paired-end read set was combined into one read using FLASH 25 and aligned to an index containing the individual BRCA1-RING domain variant sequences with barcodes using Novoalign. We counted each alignment as positive only if there was a perfect match along the 427 bp length of the amplicon. The distribution of positive counts exhibited a discontinuity at about 2,000, with values above 2,000 forming a smooth curve. The frequency of counts below 2,000 declined sharply, suggesting a threshold effect. Accordingly, we restricted further analyses to variant-barcode combinations with counts above 2,000; these were tabulated resulting in the counts per bin (1-6) data for each individual variant-barcode assayed, which was one of the input tables for the statistical analyses.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000093-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7160-7753",
+     "firstName": "Russell",
+     "lastName": "Bell",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7160-7753",
+     "firstName": "Russell",
+     "lastName": "Bell",
+     "recordType": "User"
+    },
+    "creationDate": "2021-11-04",
+    "modificationDate": "2022-01-22",
+    "publishedDate": "2021-12-23",
+    "experimentSetUrn": "urn:mavedb:00000093",
+    "doiIdentifiers": [
+     {
+      "identifier": "10.1101/092619",
+      "id": 27,
+      "recordType": "DoiIdentifier",
+      "url": "http://doi.org/10.1101/092619"
+     }
+    ],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000093-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [
+    {
+     "identifier": "32720330",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Fitting a naturally scaled point system to the ACMG/AMP variant classification guidelines.",
+     "authors": [
+      {
+       "name": "Tavtigian, Sean V",
+       "primary": true
+      },
+      {
+       "name": "Harrison, Steven M",
+       "primary": false
+      },
+      {
+       "name": "Boucher, Kenneth M",
+       "primary": false
+      },
+      {
+       "name": "Biesecker, Leslie G",
+       "primary": false
+      }
+     ],
+     "abstract": "Recently, we demonstrated that the qualitative American College of Medical Genetics and Genomics/Association for Medical Pathology (ACMG/AMP) guidelines for evaluation of Mendelian disease gene variants are fundamentally compatible with a quantitative Bayesian formulation. Here, we show that the underlying ACMG/AMP \"strength of evidence categories\" can be abstracted into a point system. These points are proportional to Log(odds), are additive, and produce a system that recapitulates the Bayesian formulation of the ACMG/AMP guidelines. The strengths of this system are its simplicity and that the connection between point values and odds of pathogenicity allows empirical calibration of the strength of evidence for individual data types. Weaknesses include that a narrow range of prior probabilities is locked in and that the Bayesian nature of the system is inapparent. We conclude that a points-based system has the practical attribute of user-friendliness and can be useful so long as the underlying Bayesian principles are acknowledged.",
+     "doi": "10.1002/humu.24088",
+     "publicationYear": 2020,
+     "publicationJournal": "Hum Mutat",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/32720330",
+     "referenceHtml": "Tavtigian SV, <i>et al</i>. Fitting a naturally scaled point system to the ACMG/AMP variant classification guidelines. Fitting a naturally scaled point system to the ACMG/AMP variant classification guidelines. 2020; 41:1734-1737. doi: 10.1002/humu.24088",
+     "id": 64
+    },
+    {
+     "identifier": "25741868",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology.",
+     "authors": [
+      {
+       "name": "Richards, Sue",
+       "primary": true
+      },
+      {
+       "name": "Aziz, Nazneen",
+       "primary": false
+      },
+      {
+       "name": "Bale, Sherri",
+       "primary": false
+      },
+      {
+       "name": "Bick, David",
+       "primary": false
+      },
+      {
+       "name": "Das, Soma",
+       "primary": false
+      },
+      {
+       "name": "Gastier-Foster, Julie",
+       "primary": false
+      },
+      {
+       "name": "Grody, Wayne W",
+       "primary": false
+      },
+      {
+       "name": "Hegde, Madhuri",
+       "primary": false
+      },
+      {
+       "name": "Lyon, Elaine",
+       "primary": false
+      },
+      {
+       "name": "Spector, Elaine",
+       "primary": false
+      },
+      {
+       "name": "Voelkerding, Karl",
+       "primary": false
+      },
+      {
+       "name": "Rehm, Heidi L",
+       "primary": false
+      },
+      {
+       "name": "None, None",
+       "primary": false
+      }
+     ],
+     "abstract": "The American College of Medical Genetics and Genomics (ACMG) previously developed guidance for the interpretation of sequence variants.(1) In the past decade, sequencing technology has evolved rapidly with the advent of high-throughput next-generation sequencing. By adopting and leveraging next-generation sequencing, clinical laboratories are now performing an ever-increasing catalogue of genetic testing spanning genotyping, single genes, gene panels, exomes, genomes, transcriptomes, and epigenetic assays for genetic disorders. By virtue of increased complexity, this shift in genetic testing has been accompanied by new challenges in sequence interpretation. In this context the ACMG convened a workgroup in 2013 comprising representatives from the ACMG, the Association for Molecular Pathology (AMP), and the College of American Pathologists to revisit and revise the standards and guidelines for the interpretation of sequence variants. The group consisted of clinical laboratory directors and clinicians. This report represents expert opinion of the workgroup with input from ACMG, AMP, and College of American Pathologists stakeholders. These recommendations primarily apply to the breadth of genetic tests used in clinical laboratories, including genotyping, single genes, panels, exomes, and genomes. This report recommends the use of specific standard terminology-\"pathogenic,\" \"likely pathogenic,\" \"uncertain significance,\" \"likely benign,\" and \"benign\"-to describe variants identified in genes that cause Mendelian disorders. Moreover, this recommendation describes a process for classifying variants into these five categories based on criteria using typical types of variant evidence (e.g., population data, computational data, functional data, segregation data). Because of the increased complexity of analysis and interpretation of clinical genetic testing described in this report, the ACMG strongly recommends that clinical molecular genetic testing should be performed in a Clinical Laboratory Improvement Amendments-approved laboratory, with results interpreted by a board-certified clinical molecular geneticist or molecular genetic pathologist or the equivalent.",
+     "doi": "10.1038/gim.2015.30",
+     "publicationYear": 2015,
+     "publicationJournal": "Genet Med",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/25741868",
+     "referenceHtml": "Richards S, <i>et al</i>. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. 2015; 17:405-24. doi: 10.1038/gim.2015.30",
+     "id": 65
+    },
+    {
+     "identifier": "33208383",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Combining evidence for and against pathogenicity for variants in cancer susceptibility genes: CanVIG-UK consensus recommendations.",
+     "authors": [
+      {
+       "name": "Garrett, Alice",
+       "primary": true
+      },
+      {
+       "name": "Durkie, Miranda",
+       "primary": false
+      },
+      {
+       "name": "Callaway, Alison",
+       "primary": false
+      },
+      {
+       "name": "Burghel, George J",
+       "primary": false
+      },
+      {
+       "name": "Robinson, Rachel",
+       "primary": false
+      },
+      {
+       "name": "Drummond, James",
+       "primary": false
+      },
+      {
+       "name": "Torr, Bethany",
+       "primary": false
+      },
+      {
+       "name": "Cubuk, Cankut",
+       "primary": false
+      },
+      {
+       "name": "Berry, Ian R",
+       "primary": false
+      },
+      {
+       "name": "Wallace, Andrew J",
+       "primary": false
+      },
+      {
+       "name": "Ellard, Sian",
+       "primary": false
+      },
+      {
+       "name": "Eccles, Diana M",
+       "primary": false
+      },
+      {
+       "name": "Tischkowitz, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hanson, Helen",
+       "primary": false
+      },
+      {
+       "name": "Turnbull, Clare",
+       "primary": false
+      },
+      {
+       "name": "None, None",
+       "primary": false
+      }
+     ],
+     "abstract": "Accurate classification of variants in cancer susceptibility genes (CSGs) is key for correct estimation of cancer risk and management of patients. Consistency in the weighting assigned to individual elements of evidence has been much improved by the American College of Medical Genetics (ACMG) 2015 framework for variant classification, UK Association for Clinical Genomic Science (UK-ACGS) Best Practice Guidelines and subsequent Cancer Variant Interpretation Group UK (CanVIG-UK) consensus specification for CSGs. However, considerable inconsistency persists regarding practice in the combination of evidence elements. CanVIG-UK is a national subspecialist multidisciplinary network for cancer susceptibility genomic variant interpretation, comprising clinical scientist and clinical geneticist representation from each of the 25 diagnostic laboratories/clinical genetic units across the UK and Republic of Ireland. Here, we summarise the aggregated evidence elements and combinations possible within different variant classification schemata currently employed for CSGs (ACMG, UK-ACGS, CanVIG-UK and ClinGen gene-specific guidance for PTEN, TP53 and CDH1). We present consensus recommendations from CanVIG-UK regarding (1) consistent scoring for combinations of evidence elements using a validated numerical 'exponent score' (2) new combinations of evidence elements constituting likely pathogenic' and 'pathogenic' classification categories, (3) which evidence elements can and cannot be used in combination for specific variant types and (4) classification of variants for which there are evidence elements for both pathogenicity and benignity.",
+     "doi": "10.1136/jmedgenet-2020-107248",
+     "publicationYear": 2021,
+     "publicationJournal": "J Med Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/33208383",
+     "referenceHtml": "Garrett A, <i>et al</i>. Combining evidence for and against pathogenicity for variants in cancer susceptibility genes: CanVIG-UK consensus recommendations. Combining evidence for and against pathogenicity for variants in cancer susceptibility genes: CanVIG-UK consensus recommendations. 2021; 58:297-304. doi: 10.1136/jmedgenet-2020-107248",
+     "id": 66
+    }
+   ],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2021-11-10",
+   "modificationDate": "2026-07-09",
+   "targetGenes": [
+    {
+     "name": "BRCA1 translation start through RING domain",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_007294.3",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_007294.3",
+        "referenceHtml": null
+       },
+       "offset": 233,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P38398",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P38398",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 276,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGATTTATCTGCTCTTCGCGTTGAAGAAGTACAAAATGTCATTAATGCTATGCAGAAAATCTTAGAGTGTCCCATCTGTCTGGAGTTGATCAAGGAACCTGTCTCCACAAAGTGTGACCACATATTTTGCAAATTTTGCATGCTGAAACTTCTCAACCAGAAGAAAGGGCCTTCACAGTGTCCTTTATGTAAGAATGATATAACCAAAAGGAGCCTACAAGAAAGTACGAGATTTAGTCAACTTGTTGAAGAGCTATTGAAAATCATTTGTGCTTTTCAGCTTGACACAGGTTTGGAG",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "BRCA1",
+     "uniprotIdFromMappedMetadata": "P38398"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001243-a-1",
+   "title": "LMNA Variant Imaging in U2OS Cells",
+   "shortDescription": "Deep mutational scan of LMNA between amino acids 178 and 273 in U2OS by imaging, using markers for DNA (DAPI), mEGFP-tagged Lamin A, actin (phalloidin), plasma membrane (wheat-germ agglutinin), mitochondria (mitoprobe).",
+   "publishedDate": "2025-07-03",
+   "replacesId": null,
+   "numVariants": 1766,
+   "experiment": {
+    "title": "LMNA Variant Imaging in U2OS Cells",
+    "shortDescription": "Deep mutational scan of LMNA between amino acids 178 and 273 in U2OS by imaging, using markers for DNA (DAPI), mEGFP-tagged Lamin A, actin (phalloidin), plasma membrane (wheat-germ agglutinin), mitochondria (mitoprobe).",
+    "abstractText": "Variant in situ Sequencing (VIS-seq) is a platform for optically profiling thousands of transgenically expressed protein-coding variants simultaneously. VIS-seq comprises a cassette with a promoter expressing a circular RNA containing one or more barcodes that are sequenced in situ to reveal the identity of the variant expressed in each cell and a second promoter expressing the protein variant. We used VIS-seq to create morphological profiles comprising a large set of measurements of the intensity, distribution and shape of different markers for >3,000 variants of lamin A and PTEN from ~11.4 million cell images. Lamin A variants were expressed in U2OS cells and PTEN variants in either iPS cells or derived neurons.",
+    "methodText": "The libraries were built by Golden-Gate cloning of oligo tiles containing variants with flanking WT gene blocks. They were then inserted into the VIS-seq expression vector and then integrated into cellular genomes using piggyBac transposase. Cells with the library were grown, plated, and then phenotyping and in situ sequencing was performed. For each cell, CellProfiler was used to extract ~1000 features (Lamin A) or ~3000 features (PTEN). For all cells corresponding to a variant, features medians and earth-mover distances were computed. Feature selection and z-score normalization was performed to generate morphological profiles.  Morphological impact scores describe the cosine distance between the synonymous median profile and the variant profile. To read detailed methods for VIS-seq, please visit the linked preprint..",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001243-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2025-07-03",
+    "modificationDate": "2025-07-03",
+    "publishedDate": "2025-07-03",
+    "experimentSetUrn": "urn:mavedb:00001243",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-3395-3417",
+      "recordType": "Contributor",
+      "givenName": "Sriram",
+      "familyName": "Pendyala"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Electroporation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "High-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": "VIS-seq",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001243-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-07-03",
+   "modificationDate": "2025-07-03",
+   "targetGenes": [
+    {
+     "name": "LMNA",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NP_733821.1",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": null,
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 7733,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "protein",
+      "sequence": "METPSQRRATRSGAQASSTPLSPTRITRLQEKEDLQELNDRLAVYIDRVRSLETENAGLRLRITESEEVVSREVSGIKAAYEAELGDARKTLDSVAKERARLQLELSKVREEFKELKARNTKKEGDLIAAQARLKDLEALLNSKEAALSTALSEKRTLEGELHDLRGQVAKLEAALGEAKKQLQDEMLRRVDAENRLQTMKEELDFQKNIYSEELRETKRRHETRLVEIDNGKQREFESRLADALQELRAQHEDQVEQYKKELEKTYSAKLDNARQSAERNSNLVGAAHEELQQSRIRIDSLSAQLSQLQKQLAAKEAKLRDLEDSLARERDTSRRLLAEKEREMAEMRARMQQQLDEYQELLDIKLALDMEIHAYRKLLEGEEERLRLSPSPTSQRSRGRASSHSSQTQGGGSVTKKRKLESTESRSSFSQHARTSGRVAVEEVDEEGKFVRLRNKSNEDQSMGNWQIKRQNGDDPLLTYRFPPKFTLKAGQVVTIWAAGAGATHSPPTDLVWKAQNTWGCGNSLRTALINSTGEEVAMRKLVRSVTVVEDDEDEDGDDLLHHHHGSHCSSSGDPAEYNLRSRTVLCGTCGQPADKASASGSGAQVGGPISSGSSASSVTVTRSYRSVGGSGGGSFGDNLVTRSYLLGNSSPRTQSPQNCSIM",
+      "label": "LMNA",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "P02545"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000102-0-1",
+   "title": "PTEN VAMP-seq Combined",
+   "shortDescription": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN (combination of original and fill-in datasets).",
+   "publishedDate": "2022-08-25",
+   "replacesId": null,
+   "numVariants": 5477,
+   "experiment": {
+    "title": "Meta-analysis of urn:mavedb:00000013-a-1, urn:mavedb:00000101-a-1",
+    "shortDescription": "Meta-analysis of urn:mavedb:00000013-a-1, urn:mavedb:00000101-a-1",
+    "abstractText": null,
+    "methodText": null,
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000102-0",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2022-08-25",
+    "modificationDate": "2022-08-25",
+    "publishedDate": "2022-08-25",
+    "experimentSetUrn": "urn:mavedb:00000102",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000102-0-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "34649609",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Ahler, Ethan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "BACKGROUND: PTEN is a multi-functional tumor suppressor protein\u00a0regulating cell growth, immune signaling, neuronal function, and genome stability. Experimental characterization can help guide the clinical interpretation of the thousands of germline or somatic PTEN variants observed in patients. Two large-scale mutational datasets, one for PTEN variant intracellular abundance encompassing 4112 missense variants and one for lipid phosphatase activity encompassing 7244 variants, were recently published. The combined information from these datasets can reveal variant-specific phenotypes that may underlie various clinical presentations, but this has not been comprehensively examined, particularly for somatic PTEN variants observed in cancers.\nMETHODS: Here, we add to these efforts by measuring the intracellular abundance of 764 new PTEN variants and refining abundance measurements for 3351 previously studied variants. We use this expanded and refined PTEN abundance dataset to explore the mutational patterns governing PTEN intracellular abundance, and then incorporate the phosphatase activity data to subdivide PTEN variants into four functionally distinct groups.\nRESULTS: This analysis revealed a set of highly abundant but lipid phosphatase defective variants that could act in a dominant-negative fashion to suppress PTEN activity. Two of these variants were, indeed, capable of dysregulating Akt signaling in cells harboring a WT PTEN allele. Both variants were observed in multiple breast or uterine tumors, demonstrating the disease relevance of these high abundance, inactive variants.\nCONCLUSIONS: We show that multidimensional, large-scale variant functional data, when paired with public cancer genomics datasets and follow-up assays, can improve understanding of uncharacterized cancer-associated variants, and provide better insights into how they contribute to oncogenesis.",
+     "doi": "10.1186/s13073-021-00984-x",
+     "publicationYear": 2021,
+     "publicationJournal": "Genome Med",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/34649609",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. 2021; 13:165. doi: 10.1186/s13073-021-00984-x",
+     "id": 80
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2022-08-25",
+   "modificationDate": "2025-01-04",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 358,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "P60484"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000055-a-1",
+   "title": "NUDT15 protein stability scores",
+   "shortDescription": "NUDT15 protein stability scores measured by VAMP-seq.",
+   "publishedDate": "2021-01-12",
+   "replacesId": null,
+   "numVariants": 3100,
+   "experiment": {
+    "title": "NUDT15 protein stability assay",
+    "shortDescription": "NUDT15 protein stability measured by VAMP-seq.",
+    "abstractText": "This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+    "methodText": "The NUDT15 variant library was synthesized by Twist Biosciences. The library included all possible single amino acid changes across the gene's coding region. Each variant was tagged with a random sequence barcode and the association between barcodes and variants was determined using PacBio SMRT sequencing as previously described for VAMP-seq. The barcoded library was introduced into a HEK293T landing pad cell line.\r\n\r\nCells expressing NUDT15 variants fused to EGFP were sorted into 4 bins based on EGFP signal normalized to mCherry by FACS. Genomic DNA was extracted from each bin and barcodes were sequenced on an Illumina HiSeq 2000 to obtain binwise variant-barcode counts. An unspecified number of replicates were performed.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000055-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2021-01-12",
+    "modificationDate": "2021-01-12",
+    "publishedDate": "2021-01-12",
+    "experimentSetUrn": "urn:mavedb:00000055",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Starita, Lea M",
+        "primary": false
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Martin, Beth",
+        "primary": false
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "Gray, Vanessa E",
+        "primary": false
+       },
+       {
+        "name": "Kircher, Martin",
+        "primary": false
+       },
+       {
+        "name": "Khechaduri, Arineh",
+        "primary": false
+       },
+       {
+        "name": "Dines, Jennifer N",
+        "primary": false
+       },
+       {
+        "name": "Hause, Ronald J",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Evans, William E",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Shendure, Jay",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+     },
+     {
+      "identifier": "32094176",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+      "authors": [
+       {
+        "name": "Suiter, Chase C",
+        "primary": true
+       },
+       {
+        "name": "Moriyama, Takaya",
+        "primary": false
+       },
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wentao",
+        "primary": false
+       },
+       {
+        "name": "Scaletti, Emma Rose",
+        "primary": false
+       },
+       {
+        "name": "Nishii, Rina",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Hoshitsuki, Keito",
+        "primary": false
+       },
+       {
+        "name": "Singh, Minu",
+        "primary": false
+       },
+       {
+        "name": "Trehan, Amita",
+        "primary": false
+       },
+       {
+        "name": "Parish, Chris",
+        "primary": false
+       },
+       {
+        "name": "Smith, Colton",
+        "primary": false
+       },
+       {
+        "name": "Li, Lie",
+        "primary": false
+       },
+       {
+        "name": "Bhojwani, Deepa",
+        "primary": false
+       },
+       {
+        "name": "Yuen, Liz Y P",
+        "primary": false
+       },
+       {
+        "name": "Li, Chi-Kong",
+        "primary": false
+       },
+       {
+        "name": "Li, Chak-Ho",
+        "primary": false
+       },
+       {
+        "name": "Yang, Yung-Li",
+        "primary": false
+       },
+       {
+        "name": "Walker, Gareth J",
+        "primary": false
+       },
+       {
+        "name": "Goodhand, James R",
+        "primary": false
+       },
+       {
+        "name": "Kennedy, Nicholas A",
+        "primary": false
+       },
+       {
+        "name": "Klussmann, Federico Antillon",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Kato, Motohiro",
+        "primary": false
+       },
+       {
+        "name": "Hori, Hiroki",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Prateek",
+        "primary": false
+       },
+       {
+        "name": "Ahmad, Tariq",
+        "primary": false
+       },
+       {
+        "name": "Yeoh, Allen E J",
+        "primary": false
+       },
+       {
+        "name": "Stenmark, P\u00e5l",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Yang, Jun J",
+        "primary": false
+       }
+      ],
+      "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+      "doi": "10.1073/pnas.1915680117",
+      "publicationYear": 2020,
+      "publicationJournal": "Proc Natl Acad Sci U S A",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+      "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+      "id": 38
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000055-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [
+    {
+     "identifier": "29785012",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Starita, Lea M",
+       "primary": false
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Martin, Beth",
+       "primary": false
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "Gray, Vanessa E",
+       "primary": false
+      },
+      {
+       "name": "Kircher, Martin",
+       "primary": false
+      },
+      {
+       "name": "Khechaduri, Arineh",
+       "primary": false
+      },
+      {
+       "name": "Dines, Jennifer N",
+       "primary": false
+      },
+      {
+       "name": "Hause, Ronald J",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Evans, William E",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Shendure, Jay",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+     "doi": "10.1038/s41588-018-0122-z",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+     "id": 12
+    },
+    {
+     "identifier": "32094176",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+     "authors": [
+      {
+       "name": "Suiter, Chase C",
+       "primary": true
+      },
+      {
+       "name": "Moriyama, Takaya",
+       "primary": false
+      },
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wentao",
+       "primary": false
+      },
+      {
+       "name": "Scaletti, Emma Rose",
+       "primary": false
+      },
+      {
+       "name": "Nishii, Rina",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Hoshitsuki, Keito",
+       "primary": false
+      },
+      {
+       "name": "Singh, Minu",
+       "primary": false
+      },
+      {
+       "name": "Trehan, Amita",
+       "primary": false
+      },
+      {
+       "name": "Parish, Chris",
+       "primary": false
+      },
+      {
+       "name": "Smith, Colton",
+       "primary": false
+      },
+      {
+       "name": "Li, Lie",
+       "primary": false
+      },
+      {
+       "name": "Bhojwani, Deepa",
+       "primary": false
+      },
+      {
+       "name": "Yuen, Liz Y P",
+       "primary": false
+      },
+      {
+       "name": "Li, Chi-Kong",
+       "primary": false
+      },
+      {
+       "name": "Li, Chak-Ho",
+       "primary": false
+      },
+      {
+       "name": "Yang, Yung-Li",
+       "primary": false
+      },
+      {
+       "name": "Walker, Gareth J",
+       "primary": false
+      },
+      {
+       "name": "Goodhand, James R",
+       "primary": false
+      },
+      {
+       "name": "Kennedy, Nicholas A",
+       "primary": false
+      },
+      {
+       "name": "Klussmann, Federico Antillon",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Kato, Motohiro",
+       "primary": false
+      },
+      {
+       "name": "Hori, Hiroki",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Prateek",
+       "primary": false
+      },
+      {
+       "name": "Ahmad, Tariq",
+       "primary": false
+      },
+      {
+       "name": "Yeoh, Allen E J",
+       "primary": false
+      },
+      {
+       "name": "Stenmark, P\u00e5l",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Yang, Jun J",
+       "primary": false
+      }
+     ],
+     "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+     "doi": "10.1073/pnas.1915680117",
+     "publicationYear": 2020,
+     "publicationJournal": "Proc Natl Acad Sci U S A",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+     "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+     "id": 38
+    }
+   ],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2021-01-12",
+   "modificationDate": "2026-06-30",
+   "targetGenes": [
+    {
+     "name": "NUDT15",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "Q9NV35",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/Q9NV35",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 189,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACGGCCAGCGCACAGCCGCGCGGGCGGCGGCCAGGAGTCGGAGTCGGAGTCGTGGTGACCAGCTGCAAGCATCCGCGTTGCGTCCTCCTGGGGAAGAGGAAAGGCTCGGTTGGAGCTGGCAGTTTCCAACTCCCTGGAGGTCATCTGGAGTTCGGTGAAACCTGGGAAGAATGTGCTCAAAGGGAAACCTGGGAAGAAGCAGCTCTTCACCTGAAAAATGTTCACTTTGCCTCAGTTGTGAATTCTTTCATTGAGAAGGAGAATTACCATTATGTTACTATATTAATGAAAGGAGAAGTGGATGTGACTCATGATTCAGAACCAAAGAATGTAGAGCCTGAAAAAAATGAAAGTTGGGAGTGGGTTCCTTGGGAAGAACTACCTCCCCTGGACCAGCTTTTCTGGGGACTGCGTTGTTTAAAAGAACAAGGCTATGATCCATTTAAAGAAGATCTGAACCATCTGGTGGGATACAAAGGAAATCATCTCTAG",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "NUDT15",
+     "uniprotIdFromMappedMetadata": "Q9NV35"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000054-a-1",
+   "title": "PTEN lipid phosphatase scores",
+   "shortDescription": "PTEN activity measured using a lipid phosphatase assay in a humanized yeast model.",
+   "publishedDate": "2021-01-03",
+   "replacesId": null,
+   "numVariants": 8681,
+   "experiment": {
+    "title": "PTEN Lipid Phosphatase",
+    "shortDescription": "PTEN activity measured using a lipid phosphatase assay in a humanized yeast model.",
+    "abstractText": "This study measured variant lipid phosphatase activity using massively parallel functional testing with a humanised yeast assay. It measured the effects of PTEN mutation on lipid phosphatase activity in vivo, which is vital for preventing the accumulation of phospholipids, and is therefore required for cell survival.",
+    "methodText": "Variant libraries were created using tiles and inverse PCR in a mutagenesis process similar to the mutagenesis integrated tiles (MITE) approach. PCR products were incorporated into plasmids using SLiCE-mediated recombination. Plasmid libraries were normalized and pooled to represent saturation mutagenesis for each quadrant of PTEN. p110$\\alpha$-CAAX-mediated selection was completed on each pool. Samples were then normalised, combined into a common pool, and sequenced across multiple runs using pair-ended 300 base-pair reads on Illumina MiSeq platform (v.3 reagent kit). Two biological replicates were performed, each with three technical replicate selections.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000054-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2021-01-03",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2021-01-03",
+    "experimentSetUrn": "urn:mavedb:00000054",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29706350",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A Saturation Mutagenesis Approach to Understanding PTEN Lipid Phosphatase Activity and Genotype-Phenotype Relationships.",
+      "authors": [
+       {
+        "name": "Mighell, Taylor L",
+        "primary": true
+       },
+       {
+        "name": "Evans-Dutson, Sara",
+        "primary": false
+       },
+       {
+        "name": "O''Roak, Brian J",
+        "primary": false
+       }
+      ],
+      "abstract": "Phosphatase and tensin homolog (PTEN) is a tumor suppressor frequently mutated in diverse cancers. Germline PTEN mutations are also associated with a range of clinical outcomes, including PTEN hamartoma tumor syndrome (PHTS) and autism spectrum disorder (ASD). To empower new insights into PTEN function and clinically relevant genotype-phenotype relationships, we systematically evaluated the effect of PTEN mutations on lipid phosphatase activity in\u00a0vivo. Using a massively parallel approach that leverages an artificial humanized yeast model, we derived high-confidence estimates of functional impact for 7,244 single amino acid PTEN variants (86% of possible). We identified 2,273 mutations with reduced cellular lipid phosphatase activity, which includes 1,789 missense mutations. These data recapitulated known functional findings but also uncovered new insights into PTEN protein structure, biochemistry, and mutation tolerance. Several residues in the catalytic pocket showed surprising mutational tolerance. We identified that the solvent exposure of wild-type residues is a critical determinant of mutational tolerance. Further, we created a comprehensive functional map by leveraging correlations between amino acid substitutions to impute functional scores for all variants, including those not present in the assay. Variant functional scores can reliably discriminate likely pathogenic from benign alleles. Further, 32% of ClinVar unclassified missense variants are phosphatase deficient in our assay, supporting their reclassification. ASD-associated mutations generally had less severe fitness scores relative to PHTS-associated mutations (p = 7.16\u00a0\u00d7 10",
+      "doi": "10.1016/j.ajhg.2018.03.018",
+      "publicationYear": 2018,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29706350",
+      "referenceHtml": "Mighell TL, <i>et al</i>. A Saturation Mutagenesis Approach to Understanding PTEN Lipid Phosphatase Activity and Genotype-Phenotype Relationships. <i>Am J Hum Genet</i>. 2018; <b>102</b>:943-955.",
+      "id": 37
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "PRJNA437337",
+      "id": 49,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/PRJNA437337"
+     }
+    ],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical or heat shock transformation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Microarray synthesis",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "mutagenesis by integrated tiles (MITE)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Catalytic and Lipid phosphatase activity",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000054-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29706350",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A Saturation Mutagenesis Approach to Understanding PTEN Lipid Phosphatase Activity and Genotype-Phenotype Relationships.",
+     "authors": [
+      {
+       "name": "Mighell, Taylor L",
+       "primary": true
+      },
+      {
+       "name": "Evans-Dutson, Sara",
+       "primary": false
+      },
+      {
+       "name": "O''Roak, Brian J",
+       "primary": false
+      }
+     ],
+     "abstract": "Phosphatase and tensin homolog (PTEN) is a tumor suppressor frequently mutated in diverse cancers. Germline PTEN mutations are also associated with a range of clinical outcomes, including PTEN hamartoma tumor syndrome (PHTS) and autism spectrum disorder (ASD). To empower new insights into PTEN function and clinically relevant genotype-phenotype relationships, we systematically evaluated the effect of PTEN mutations on lipid phosphatase activity in\u00a0vivo. Using a massively parallel approach that leverages an artificial humanized yeast model, we derived high-confidence estimates of functional impact for 7,244 single amino acid PTEN variants (86% of possible). We identified 2,273 mutations with reduced cellular lipid phosphatase activity, which includes 1,789 missense mutations. These data recapitulated known functional findings but also uncovered new insights into PTEN protein structure, biochemistry, and mutation tolerance. Several residues in the catalytic pocket showed surprising mutational tolerance. We identified that the solvent exposure of wild-type residues is a critical determinant of mutational tolerance. Further, we created a comprehensive functional map by leveraging correlations between amino acid substitutions to impute functional scores for all variants, including those not present in the assay. Variant functional scores can reliably discriminate likely pathogenic from benign alleles. Further, 32% of ClinVar unclassified missense variants are phosphatase deficient in our assay, supporting their reclassification. ASD-associated mutations generally had less severe fitness scores relative to PHTS-associated mutations (p = 7.16\u00a0\u00d7 10",
+     "doi": "10.1016/j.ajhg.2018.03.018",
+     "publicationYear": 2018,
+     "publicationJournal": "Am J Hum Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29706350",
+     "referenceHtml": "Mighell TL, <i>et al</i>. A Saturation Mutagenesis Approach to Understanding PTEN Lipid Phosphatase Activity and Genotype-Phenotype Relationships. <i>Am J Hum Genet</i>. 2018; <b>102</b>:943-955.",
+     "id": 37
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2021-01-03",
+   "modificationDate": "2026-06-30",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 184,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "PTEN",
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000013-a-1",
+   "title": "PTEN VAMP-seq",
+   "shortDescription": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN.",
+   "publishedDate": "2019-02-18",
+   "replacesId": null,
+   "numVariants": 4409,
+   "experiment": {
+    "title": "PTEN VAMP-seq",
+    "shortDescription": "Variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN.",
+    "abstractText": "This study demonstrated variant abundance by massively parallel sequencing (VAMP-seq), a technique for measuring the effect of protein variants on abundance using fluorescence. VAMP-seq is a generally-applicable assay for protein stability that can identify loss-of-function variants.",
+    "methodText": "Barcoded variant libraries were created using inverse PCR. Barcodes were associated with full-length variants using Pacific Biosciences SMRT sequencing to generate long reads. Each protein variant is fused to EGFP so that its abundance can be tracked using fluorescence. Cells were sorted into bins using FACS based on the ratio of EGFP to mCherry.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000013-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2019-02-18",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2019-02-18",
+    "experimentSetUrn": "urn:mavedb:00000013",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Starita, Lea M",
+        "primary": false
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Martin, Beth",
+        "primary": false
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "Gray, Vanessa E",
+        "primary": false
+       },
+       {
+        "name": "Kircher, Martin",
+        "primary": false
+       },
+       {
+        "name": "Khechaduri, Arineh",
+        "primary": false
+       },
+       {
+        "name": "Dines, Jennifer N",
+        "primary": false
+       },
+       {
+        "name": "Hause, Ronald J",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Evans, William E",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Shendure, Jay",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "PRJNA428380",
+      "id": 6,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/PRJNA428380"
+     }
+    ],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Reporter",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Immortalized human cells",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Homo sapiens (NCBI:txid9606)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Regulation of protein stability",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000013-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29785012",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Starita, Lea M",
+       "primary": false
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Martin, Beth",
+       "primary": false
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "Gray, Vanessa E",
+       "primary": false
+      },
+      {
+       "name": "Kircher, Martin",
+       "primary": false
+      },
+      {
+       "name": "Khechaduri, Arineh",
+       "primary": false
+      },
+      {
+       "name": "Dines, Jennifer N",
+       "primary": false
+      },
+      {
+       "name": "Hause, Ronald J",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Evans, William E",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Shendure, Jay",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+     "doi": "10.1038/s41588-018-0122-z",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+     "id": 12
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2019-02-18",
+   "modificationDate": "2026-06-01",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 38,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "PTEN",
+     "uniprotIdFromMappedMetadata": "P60484"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000101-a-1",
+   "title": "PTEN VAMP-seq Fill-in",
+   "shortDescription": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN (fill-in dataset).",
+   "publishedDate": "2022-08-25",
+   "replacesId": null,
+   "numVariants": 4514,
+   "experiment": {
+    "title": "PTEN VAMP-seq Fill-in",
+    "shortDescription": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN (fill-in dataset).",
+    "abstractText": "This experiment used massively parallel sequencing (VAMP-seq) to measure the abundance scores of new variants in the PTEN gene, as well as to validate abundance measurements for previously studied variants in the PTEN gene. The resulting PTEN abundance dataset demonstrates the ability of large-scale variant functional data paired with cancer genomics datasets and follow-up assays to understand how uncharacterized cancer-associated variants contribute to oncogenesis.",
+    "methodText": "The variant library was constructed to supply variants missing in the original PTEN site saturation mutagenesis library. 198 positions with low coverage in the initial experiment were re-amplified using degenerate NNK primers. Resulting PTEN library was fused to EGFP and tagged with a unique nucleotide barcode. Illumina sequencing and library sorting experiments were performed as described in (Matreyek et al., 2018).",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000101-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2022-08-25",
+    "modificationDate": "2022-08-25",
+    "publishedDate": "2022-08-25",
+    "experimentSetUrn": "urn:mavedb:00000101",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "34649609",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Ahler, Ethan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "BACKGROUND: PTEN is a multi-functional tumor suppressor protein\u00a0regulating cell growth, immune signaling, neuronal function, and genome stability. Experimental characterization can help guide the clinical interpretation of the thousands of germline or somatic PTEN variants observed in patients. Two large-scale mutational datasets, one for PTEN variant intracellular abundance encompassing 4112 missense variants and one for lipid phosphatase activity encompassing 7244 variants, were recently published. The combined information from these datasets can reveal variant-specific phenotypes that may underlie various clinical presentations, but this has not been comprehensively examined, particularly for somatic PTEN variants observed in cancers.\nMETHODS: Here, we add to these efforts by measuring the intracellular abundance of 764 new PTEN variants and refining abundance measurements for 3351 previously studied variants. We use this expanded and refined PTEN abundance dataset to explore the mutational patterns governing PTEN intracellular abundance, and then incorporate the phosphatase activity data to subdivide PTEN variants into four functionally distinct groups.\nRESULTS: This analysis revealed a set of highly abundant but lipid phosphatase defective variants that could act in a dominant-negative fashion to suppress PTEN activity. Two of these variants were, indeed, capable of dysregulating Akt signaling in cells harboring a WT PTEN allele. Both variants were observed in multiple breast or uterine tumors, demonstrating the disease relevance of these high abundance, inactive variants.\nCONCLUSIONS: We show that multidimensional, large-scale variant functional data, when paired with public cancer genomics datasets and follow-up assays, can improve understanding of uncharacterized cancer-associated variants, and provide better insights into how they contribute to oncogenesis.",
+      "doi": "10.1186/s13073-021-00984-x",
+      "publicationYear": 2021,
+      "publicationJournal": "Genome Med",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/34649609",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. 2021; 13:165. doi: 10.1186/s13073-021-00984-x",
+      "id": 80
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "GSE159469",
+      "id": 69,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159469"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000101-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "34649609",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Ahler, Ethan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "BACKGROUND: PTEN is a multi-functional tumor suppressor protein\u00a0regulating cell growth, immune signaling, neuronal function, and genome stability. Experimental characterization can help guide the clinical interpretation of the thousands of germline or somatic PTEN variants observed in patients. Two large-scale mutational datasets, one for PTEN variant intracellular abundance encompassing 4112 missense variants and one for lipid phosphatase activity encompassing 7244 variants, were recently published. The combined information from these datasets can reveal variant-specific phenotypes that may underlie various clinical presentations, but this has not been comprehensively examined, particularly for somatic PTEN variants observed in cancers.\nMETHODS: Here, we add to these efforts by measuring the intracellular abundance of 764 new PTEN variants and refining abundance measurements for 3351 previously studied variants. We use this expanded and refined PTEN abundance dataset to explore the mutational patterns governing PTEN intracellular abundance, and then incorporate the phosphatase activity data to subdivide PTEN variants into four functionally distinct groups.\nRESULTS: This analysis revealed a set of highly abundant but lipid phosphatase defective variants that could act in a dominant-negative fashion to suppress PTEN activity. Two of these variants were, indeed, capable of dysregulating Akt signaling in cells harboring a WT PTEN allele. Both variants were observed in multiple breast or uterine tumors, demonstrating the disease relevance of these high abundance, inactive variants.\nCONCLUSIONS: We show that multidimensional, large-scale variant functional data, when paired with public cancer genomics datasets and follow-up assays, can improve understanding of uncharacterized cancer-associated variants, and provide better insights into how they contribute to oncogenesis.",
+     "doi": "10.1186/s13073-021-00984-x",
+     "publicationYear": 2021,
+     "publicationJournal": "Genome Med",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/34649609",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. Integrating thousands of PTEN variant activity and abundance measurements reveals variant subgroups and new dominant negatives in cancers. 2021; 13:165. doi: 10.1186/s13073-021-00984-x",
+     "id": 80
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2022-08-25",
+   "modificationDate": "2025-01-03",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 357,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "P60484"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001244-b-1",
+   "title": "PTEN VIS-seq in hiPSCs",
+   "shortDescription": "Deep mutational scan of PTEN between amino acids 112 and 172 in hiPSC by imaging, using markers for DNA (DAPI), mEGFP-tagged PTEN, actin (phalloidin), phospho-AKT, and ER (Concanavalin A)",
+   "publishedDate": "2025-07-03",
+   "replacesId": null,
+   "numVariants": 1228,
+   "experiment": {
+    "title": "PTEN Variant Imaging in hiPSCs",
+    "shortDescription": "Deep mutational scan of PTEN between amino acids 112 and 172 in hiPSC by imaging, using markers for DNA (DAPI), mEGFP-tagged PTEN, actin (phalloidin), phospho-AKT, and ER (Concanavalin A)",
+    "abstractText": "Variant in situ Sequencing (VIS-seq) is a platform for optically profiling thousands of transgenically expressed protein-coding variants simultaneously. VIS-seq comprises a cassette with a promoter expressing a circular RNA containing one or more barcodes that are sequenced in situ to reveal the identity of the variant expressed in each cell and a second promoter expressing the protein variant. We used VIS-seq to create morphological profiles comprising a large set of measurements of the intensity, distribution and shape of different markers for >3,000 variants of lamin A and PTEN from ~11.4 million cell images. Lamin A variants were expressed in U2OS cells and PTEN variants in either iPS cells or derived neurons.",
+    "methodText": "The libraries were built by Golden-Gate cloning of oligo tiles containing variants with flanking WT gene blocks. They were then inserted into the VIS-seq expression vector and then integrated into cellular genomes using piggyBac transposase. Cells with the library were grown, plated, and then phenotyping and in situ sequencing was performed. For each cell, CellProfiler was used to extract ~1000 features (Lamin A) or ~3000 features (PTEN). For all cells corresponding to a variant, features medians and earth-mover distances were computed. Feature selection and z-score normalization was performed to generate morphological profiles.  Morphological impact scores describe the cosine distance between the synonymous median profile and the variant profile. To read detailed methods for VIS-seq, please visit the linked preprint.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001244-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2025-07-03",
+    "modificationDate": "2025-07-03",
+    "publishedDate": "2025-07-03",
+    "experimentSetUrn": "urn:mavedb:00001244",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-3395-3417",
+      "recordType": "Contributor",
+      "givenName": "Sriram",
+      "familyName": "Pendyala"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Electroporation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "High-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": "VIS-seq",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Induced pluripotent stem cells from human male",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001244-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-07-03",
+   "modificationDate": "2025-07-03",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NP_000305.3",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": null,
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 7729,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": "PTEN",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "P60484"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001244-a-1",
+   "title": "PTEN Variant Imaging in Neurons",
+   "shortDescription": "Deep mutational scan of PTEN between amino acids 112 and 172 in hiPSC by imaging, using markers for DNA (DAPI), mEGFP-tagged PTEN, actin (phalloidin), phospho-AKT, and ER (Concanavalin A)",
+   "publishedDate": "2025-07-03",
+   "replacesId": null,
+   "numVariants": 1228,
+   "experiment": {
+    "title": "PTEN Variant Imaging in Neurons",
+    "shortDescription": "Deep mutational scan of PTEN between amino acids 112 and 172 in neurons by imaging, using markers for DNA (DAPI), mEGFP-tagged PTEN, actin (phalloidin), phospho-AKT, and ER (Concanavalin A)",
+    "abstractText": "Variant in situ Sequencing (VIS-seq) is a platform for optically profiling thousands of transgenically expressed protein-coding variants simultaneously. VIS-seq comprises a cassette with a promoter expressing a circular RNA containing one or more barcodes that are sequenced in situ to reveal the identity of the variant expressed in each cell and a second promoter expressing the protein variant. We used VIS-seq to create morphological profiles comprising a large set of measurements of the intensity, distribution and shape of different markers for >3,000 variants of lamin A and PTEN from ~11.4 million cell images. Lamin A variants were expressed in U2OS cells and PTEN variants in either iPS cells or derived neurons.",
+    "methodText": "The libraries were built by Golden-Gate cloning of oligo tiles containing variants with flanking WT gene blocks. They were then inserted into the VIS-seq expression vector and then integrated into cellular genomes using piggyBac transposase. Cells with the library were grown, plated, and then phenotyping and in situ sequencing was performed. For each cell, CellProfiler was used to extract ~1000 features (Lamin A) or ~3000 features (PTEN). For all cells corresponding to a variant, features medians and earth-mover distances were computed. Feature selection and z-score normalization was performed to generate morphological profiles.  Morphological impact scores describe the cosine distance between the synonymous median profile and the variant profile. To read detailed methods for VIS-seq, please visit the linked preprint..",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001244-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2025-07-03",
+    "modificationDate": "2025-07-03",
+    "publishedDate": "2025-07-03",
+    "experimentSetUrn": "urn:mavedb:00001244",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-1474-605X",
+      "recordType": "Contributor",
+      "givenName": "Alan",
+      "familyName": "Rubin"
+     },
+     {
+      "orcidId": "0000-0003-3395-3417",
+      "recordType": "Contributor",
+      "givenName": "Sriram",
+      "familyName": "Pendyala"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Proprietary method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Electroporation",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "High-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Other",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": "VIS-seq",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Barcode sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Induced pluripotent stem cells from human male",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001244-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-07-03",
+   "modificationDate": "2025-07-03",
+   "targetGenes": [
+    {
+     "name": "PTEN",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NP_000305.3",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": null,
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P60484",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P60484",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 7730,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGACAGCCATCATCAAAGAGATCGTTAGCAGAAACAAAAGGAGATATCAAGAGGATGGATTCGACTTAGACTTGACCTATATTTATCCAAACATTATTGCTATGGGATTTCCTGCAGAAAGACTTGAAGGCGTATACAGGAACAATATTGATGATGTAGTAAGGTTTTTGGATTCAAAGCATAAAAACCATTACAAGATATACAATCTTTGTGCTGAAAGACATTATGACACCGCCAAATTTAATTGCAGAGTTGCACAATATCCTTTTGAAGACCATAACCCACCACAGCTAGAACTTATCAAACCCTTTTGTGAAGATCTTGACCAATGGCTAAGTGAAGATGACAATCATGTTGCAGCAATTCACTGTAAAGCTGGAAAGGGACGAACTGGTGTAATGATATGTGCATATTTATTACATCGGGGCAAATTTTTAAAGGCACAAGAGGCCCTAGATTTCTATGGGGAAGTAAGGACCAGAGACAAAAAGGGAGTAACTATTCCCAGTCAGAGGCGCTATGTGTATTATTATAGCTACCTGTTAAAGAATCATCTGGATTATAGACCAGTGGCACTGTTGTTTCACAAGATGATGTTTGAAACTATTCCAATGTTCAGTGGCGGAACTTGCAATCCTCAGTTTGTGGTCTGCCAGCTAAAGGTGAAGATATATTCCTCCAATTCAGGACCCACACGACGGGAAGACAAGTTCATGTACTTTGAGTTCCCTCAGCCGTTACCTGTGTGTGGTGATATCAAAGTAGAGTTCTTCCACAAACAGAACAAGATGCTAAAAAAGGACAAAATGTTTCACTTTTGGGTAAATACATTCTTCATACCAGGACCAGAGGAAACCTCAGAAAAAGTAGAAAATGGAAGTCTATGTGATCAAGAAATCGATAGCATTTGCAGTATAGAGCGTGCAGATAATGACAAGGAATATCTAGTACTTACTTTAACAAAAAATGATCTTGACAAAGCAAATAAAGACAAAGCCAACCGATACTTTTCTCCAAATTTTAAGGTGAAGCTGTACTTCACAAAAACAGTAGAGGAGCCGTCAAATCCAGAGGCTAGCAGTTCAACTTCTGTAACACCAGATGTTAGTGACAATGAACCTGATCATTATAGATATTCTGACACCACTGACTCTGATCCAGAGAATGAACCTTTTGATGAAGATCAGCATACACAAATTACAAAAGTCTGA",
+      "label": "PTEN",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "P60484"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000013-b-1",
+   "title": "TPMT VAMP-seq",
+   "shortDescription": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to TPMT.",
+   "publishedDate": "2019-02-18",
+   "replacesId": null,
+   "numVariants": 4028,
+   "experiment": {
+    "title": "TPMT VAMP-seq",
+    "shortDescription": "Variant abundance by massively parallel sequencing (VAMP-seq) applied to TPMT.",
+    "abstractText": "This study demonstrated variant abundance by massively parallel sequencing (VAMP-seq), a technique for measuring the effect of protein variants on abundance using fluorescence. VAMP-seq is a generally-applicable assay for protein stability that can identify loss-of-function variants.",
+    "methodText": "Barcoded variant libraries were created using inverse PCR. Barcodes were associated with full-length variants using Pacific Biosciences SMRT sequencing to generate long reads. Each protein variant is fused to EGFP so that its abundance can be tracked using fluorescence. Cells were sorted into bins using FACS based on the ratio of EGFP to mCherry.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000013-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1474-605X",
+     "firstName": "Alan",
+     "lastName": "Rubin",
+     "recordType": "User"
+    },
+    "creationDate": "2019-02-18",
+    "modificationDate": "2019-08-09",
+    "publishedDate": "2019-02-18",
+    "experimentSetUrn": "urn:mavedb:00000013",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+       {
+        "name": "Matreyek, Kenneth A",
+        "primary": true
+       },
+       {
+        "name": "Starita, Lea M",
+        "primary": false
+       },
+       {
+        "name": "Stephany, Jason J",
+        "primary": false
+       },
+       {
+        "name": "Martin, Beth",
+        "primary": false
+       },
+       {
+        "name": "Chiasson, Melissa A",
+        "primary": false
+       },
+       {
+        "name": "Gray, Vanessa E",
+        "primary": false
+       },
+       {
+        "name": "Kircher, Martin",
+        "primary": false
+       },
+       {
+        "name": "Khechaduri, Arineh",
+        "primary": false
+       },
+       {
+        "name": "Dines, Jennifer N",
+        "primary": false
+       },
+       {
+        "name": "Hause, Ronald J",
+        "primary": false
+       },
+       {
+        "name": "Bhatia, Smita",
+        "primary": false
+       },
+       {
+        "name": "Evans, William E",
+        "primary": false
+       },
+       {
+        "name": "Relling, Mary V",
+        "primary": false
+       },
+       {
+        "name": "Yang, Wenjian",
+        "primary": false
+       },
+       {
+        "name": "Shendure, Jay",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "PRJNA428380",
+      "id": 6,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/PRJNA428380"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000013-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29785012",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+     "authors": [
+      {
+       "name": "Matreyek, Kenneth A",
+       "primary": true
+      },
+      {
+       "name": "Starita, Lea M",
+       "primary": false
+      },
+      {
+       "name": "Stephany, Jason J",
+       "primary": false
+      },
+      {
+       "name": "Martin, Beth",
+       "primary": false
+      },
+      {
+       "name": "Chiasson, Melissa A",
+       "primary": false
+      },
+      {
+       "name": "Gray, Vanessa E",
+       "primary": false
+      },
+      {
+       "name": "Kircher, Martin",
+       "primary": false
+      },
+      {
+       "name": "Khechaduri, Arineh",
+       "primary": false
+      },
+      {
+       "name": "Dines, Jennifer N",
+       "primary": false
+      },
+      {
+       "name": "Hause, Ronald J",
+       "primary": false
+      },
+      {
+       "name": "Bhatia, Smita",
+       "primary": false
+      },
+      {
+       "name": "Evans, William E",
+       "primary": false
+      },
+      {
+       "name": "Relling, Mary V",
+       "primary": false
+      },
+      {
+       "name": "Yang, Wenjian",
+       "primary": false
+      },
+      {
+       "name": "Shendure, Jay",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      }
+     ],
+     "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+     "doi": "10.1038/s41588-018-0122-z",
+     "publicationYear": 2018,
+     "publicationJournal": "Nat Genet",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+     "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+     "id": 12
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2019-02-18",
+   "modificationDate": "2026-06-18",
+   "targetGenes": [
+    {
+     "name": "TPMT",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P51580",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P51580",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 39,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGATGGTACAAGAACTTCACTTGACATTGAAGAGTACTCGGATACTGAGGTACAGAAAAACCAAGTACTAACTCTGGAAGAATGGCAAGACAAGTGGGTGAACGGCAAGACTGCTTTTCATCAGGAACAAGGACATCAGCTATTAAAGAAGCATTTAGATACTTTCCTTAAAGGCAAGAGTGGACTGAGGGTATTTTTTCCTCTTTGCGGAAAAGCGGTTGAGATGAAATGGTTTGCAGACCGGGGACACAGTGTAGTTGGTGTGGAAATCAGTGAACTTGGGATACAAGAATTTTTTACAGAGCAGAATCTTTCTTACTCAGAAGAACCAATCACCGAAATTCCTGGAACCAAAGTATTTAAGAGTTCTTCGGGGAACATTTCATTGTACTGTTGCAGTATTTTTGATCTTCCCAGGACAAATATTGGCAAATTTGACATGATTTGGGATAGAGGAGCATTAGTTGCCATTAATCCAGGTGATCGCAAATGCTATGCAGATACAATGTTTTCCCTCCTGGGAAAGAAGTTTCAGTATCTCCTGTGTGTTCTTTCTTATGATCCAACTAAACATCCAGGTCCACCATTTTATGTTCCACATGCTGAAATTGAAAGGTTGTTTGGTAAAATATGCAATATACGTTGTCTTGAGAAGGTTGATGCTTTTGAAGAACGACATAAAAGTTGGGGAATTGACTGTCTTTTTGAAAAGTTATATCTACTTACAGAAAAGTAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TPMT",
+     "uniprotIdFromMappedMetadata": "P51580"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 13
+}

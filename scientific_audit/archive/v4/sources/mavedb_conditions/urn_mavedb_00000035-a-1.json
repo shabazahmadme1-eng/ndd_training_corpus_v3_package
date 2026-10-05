@@ -1,0 +1,125 @@
+{
+  "title": "HMGCR rosuvastatin imputed and refined",
+  "methodText": " ",
+  "abstractText": " ",
+  "shortDescription": "A deep mutational scan of HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast via DMS-TIleSeq in rosuvastatin media.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000035-a-1",
+  "numVariants": 18448,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2019-07-15",
+  "creationDate": "2019-07-15",
+  "modificationDate": "2026-06-22",
+  "createdBy": {
+    "orcidId": "0000-0002-4998-4368",
+    "firstName": "Rosanna",
+    "lastName": "Jiang",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-4998-4368",
+    "firstName": "Rosanna",
+    "lastName": "Jiang",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "HMGCR",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 82,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGTTGTCAAGACTTTTTCGAATGCATGGCCTCTTTGTGGCCTCCCATCCCTGGGAAGTCATAGTGGGGACAGTGACACTGACCATCTGCATGATGTCCATGAACATGTTTACTGGTAACAATAAGATCTGTGGTTGGAATTATGAATGTCCAAAGTTTGAAGAGGATGTTTTGAGCAGTGACATTATAATTCTGACAATAACACGATGCATAGCCATCCTGTATATTTACTTCCAGTTCCAGAATTTACGTCAACTTGGATCAAAATATATTTTGGGTATTGCTGGCCTTTTCACAATTTTCTCAAGTTTTGTATTCAGTACAGTTGTCATTCACTTCTTAGACAAAGAATTGACAGGCTTGAATGAAGCTTTGCCCTTTTTCCTACTTTTGATTGACCTTTCCAGAGCAAGCACATTAGCAAAGTTTGCCCTCAGTTCCAACTCACAGGATGAAGTAAGGGAAAATATTGCTCGTGGAATGGCAATTTTAGGTCCTACGTTTACCCTCGATGCTCTTGTTGAATGTCTTGTGATTGGAGTTGGTACCATGTCAGGGGTACGTCAGCTTGAAATTATGTGCTGCTTTGGCTGCATGTCAGTTCTTGCCAACTACTTCGTGTTCATGACTTTCTTCCCAGCTTGTGTGTCCTTGGTATTAGAGCTTTCTCGGGAAAGCCGCGAGGGTCGTCCAATTTGGCAGCTCAGCCATTTTGCCCGAGTTTTAGAAGAAGAAGAAAATAAGCCGAATCCTGTAACTCAGAGGGTCAAGATGATTATGTCTCTAGGCTTGGTTCTTGTTCATGCTCACAGTCGCTGGATAGCTGATCCTTCTCCTCAAAACAGTACAGCAGATACTTCTAAGGTTTCATTAGGACTGGATGAAAATGTGTCCAAGAGAATTGAACCAAGTGTTTCCCTCTGGCAGTTTTATCTCTCTAAAATGATCAGCATGGATATTGAACAAGTTATTACCCTAAGTTTAGCTCTCCTTCTGGCTGTCAAGTACATCTTCTTTGAACAAACAGAGACAGAATCTACACTCTCATTAAAAAACCCTATCACATCTCCTGTAGTGACACAAAAGAAAGTCCCAGACAATTGTTGTAGACGTGAACCTATGCTGGTCAGAAATAACCAGAAATGTGATTCAGTAGAGGAAGAGACAGGGATAAACCGAGAAAGAAAAGTTGAGGTTATAAAACCCTTAGTGGCTGAAACAGATACCCCAAACAGAGCTACATTTGTGGTTGGTAACTCCTCCTTACTCGATACTTCATCAGTACTGGTGACACAGGAACCTGAAATTGAACTTCCCAGGGAACCTCGGCCTAATGAAGAATGTCTACAGATACTTGGGAATGCAGAGAAAGGTGCAAAATTCCTTAGTGATGCTGAGATCATCCAGTTAGTCAATGCTAAGCATATCCCAGCCTACAAGTTGGAAACTCTGATGGAAACTCATGAGCGTGGTGTATCTATTCGCCGACAGTTACTTTCCAAGAAGCTTTCAGAACCTTCTTCTCTCCAGTACCTACCTTACAGGGATTATAATTACTCCTTGGTGATGGGAGCTTGTTGTGAGAATGTTATTGGATATATGCCCATCCCTGTTGGAGTGGCAGGACCCCTTTGCTTAGATGAAAAAGAATTTCAGGTTCCAATGGCAACAACAGAAGGTTGTCTTGTGGCCAGCACCAATAGAGGCTGCAGAGCAATAGGTCTTGGTGGAGGTGCCAGCAGCCGAGTCCTTGCAGATGGGATGACTCGTGGCCCAGTTGTGCGTCTTCCACGTGCTTGTGACTCTGCAGAAGTGAAAGCCTGGCTCGAAACATCTGAAGGGTTCGCAGTGATAAAGGAGGCATTTGACAGCACTAGCAGATTTGCACGTCTACAGAAACTTCATACAAGTATAGCTGGACGCAACCTTTATATCCGTTTCCAGTCCAGGTCAGGGGATGCCATGGGGATGAACATGATTTCAAAGGGTACAGAGAAAGCACTTTCAAAACTTCACGAGTATTTCCCTGAAATGCAGATTCTAGCCGTTAGTGGTAACTATTGTACTGACAAGAAACCTGCTGCTATAAATTGGATAGAGGGAAGAGGAAAATCTGTTGTTTGTGAAGCTGTCATTCCAGCCAAGGTTGTCAGAGAAGTATTAAAGACTACCACAGAGGCTATGATTGAGGTCAACATTAACAAGAATTTAGTGGGCTCTGCCATGGCTGGGAGCATAGGAGGCTACAACGCCCATGCAGCAAACATTGTCACCGCCATCTACATTGCCTGTGGACAGGATGCAGCACAGAATGTTGGTAGTTCAAACTGTATTACTTTAATGGAAGCAAGTGGTCCCACAAATGAAGATTTATATATCAGCTGCACCATGCCATCTATAGAGATAGGAACGGTGGGTGGTGGGACCAACCTACTACCTCAGCAAGCCTGTTTGCAGATGCTAGGTGTTCAAGGAGCATGCAAAGATAATCCTGGGGAAAATGCCCGGCAGCTTGCCCGAATTGTGTGTGGGACCGTAATGGCTGGGGAATTGTCACTTATGGCAGCATTGGCAGCAGGACATCTTGTCAAAAGTCACATGATTCACAACAGGTCGAAGATCAATTTACAAGACCTCCAAGGAGCTTGCACCAAGAAGACAGCCTGA",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "HMGCR",
+      "uniprotIdFromMappedMetadata": "P04035"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "se",
+      "exp.score",
+      "exp.se",
+      "df",
+      "pred.score"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "HMGCR yeast complementation",
+    "shortDescription": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast.",
+    "abstractText": "Coronary heart disease (CHD) is a leading cause of death worldwide. The risk of CHD can be reduced by LDL-cholesterol-lowering medications called statins that potently inhibit HMG-CoA reductase (HMGCR), the enzyme that catalyzes the rate-limiting reaction of the mevalonate pathway. Proactive maps of human HMGCR may be able to model patient response to statins and identify the statin with the greatest likelihood of efficacy.",
+    "methodText": "The yeast-based assay of HMGCR is a functional complementation assay that assesses the ability of human HMGCR to rescue the growth of an hmg1 hmg2 double deletion yeast strain in glucose media (Basson et al. 1988). We followed the TileSeq approach (Weile & Sun et al, MSB, 2017) to produce variant effect maps of HMGCR in glucose media without a statin, and media supplemented with atorvastatin or rosuvastatin.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000035-a",
+    "createdBy": {
+      "orcidId": "0000-0002-4998-4368",
+      "firstName": "Rosanna",
+      "lastName": "Jiang",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-4998-4368",
+      "firstName": "Rosanna",
+      "lastName": "Jiang",
+      "recordType": "User"
+    },
+    "creationDate": "2019-07-10",
+    "modificationDate": "2019-07-15",
+    "publishedDate": "2019-07-15",
+    "experimentSetUrn": "urn:mavedb:00000035",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000035-a-1",
+      "urn:mavedb:00000035-a-2",
+      "urn:mavedb:00000035-a-3"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 3,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

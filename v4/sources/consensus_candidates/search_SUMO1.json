@@ -1,0 +1,3878 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00000001-c-2",
+   "title": "Human Calmodulin imputed and refined",
+   "shortDescription": "A machine-learning imputed and refined Deep Mutational Scan of human Calmodulin using functional complementation in yeast.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 2980,
+   "experiment": {
+    "title": "Calmodulin yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of human Calmodulin using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of Calmodulin (*CALM1*) using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-c",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-29",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2018-06-29",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Calcium-mediated signaling",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "POPCode (Precision Oligo-Pool based Code Alteration)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-c-1",
+     "urn:mavedb:00000001-c-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "CALM1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000198668",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000198668",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_001363670.1",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_001363670.1",
+        "referenceHtml": null
+       },
+       "offset": 833,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P0DP23",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P0DP23",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 9,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGATCAGCTGACCGAAGAACAGATTGCTGAATTCAAGGAAGCCTTCTCCCTATTTGATAAAGATGGCGATGGCACCATCACAACAAAGGAACTTGGAACTGTCATGAGGTCACTGGGTCAGAACCCAACAGAAGCTGAATTGCAGGATATGATCAATGAAGTGGATGCTGATGGTAATGGCACCATTGACTTCCCCGAATTTTTGACTATGATGGCTAGAAAAATGAAAGATACAGATAGTGAAGAAGAAATCCGTGAGGCATTCCGAGTCTTTGACAAGGATGGCAATGGTTATATCAGTGCAGCAGAACTACGTCACGTCATGACAAACTTAGGAGAAAAACTAACAGATGAAGAAGTAGATGAAATGATCAGAGAAGCAGATATTGATGGAGACGGACAAGTCAACTATGAAGAATTCGTACAGATGATGACTGCAAAATGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "CALM1",
+     "uniprotIdFromMappedMetadata": "P0DP23"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-c-1",
+   "title": "Human Calmodulin DMS-TileSeq",
+   "shortDescription": "A Deep Mutational Scan of human Calmodulin using functional complementation in yeast via DMS-TileSeq.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 5957,
+   "experiment": {
+    "title": "Calmodulin yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of human Calmodulin using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of Calmodulin (*CALM1*) using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-c",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-29",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2018-06-29",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Calcium-mediated signaling",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "POPCode (Precision Oligo-Pool based Code Alteration)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-c-1",
+     "urn:mavedb:00000001-c-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-05-14",
+   "targetGenes": [
+    {
+     "name": "CALM1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000198668",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000198668",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_001363670.1",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_001363670.1",
+        "referenceHtml": null
+       },
+       "offset": 833,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P0DP23",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P0DP23",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 8,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGATCAGCTGACCGAAGAACAGATTGCTGAATTCAAGGAAGCCTTCTCCCTATTTGATAAAGATGGCGATGGCACCATCACAACAAAGGAACTTGGAACTGTCATGAGGTCACTGGGTCAGAACCCAACAGAAGCTGAATTGCAGGATATGATCAATGAAGTGGATGCTGATGGTAATGGCACCATTGACTTCCCCGAATTTTTGACTATGATGGCTAGAAAAATGAAAGATACAGATAGTGAAGAAGAAATCCGTGAGGCATTCCGAGTCTTTGACAAGGATGGCAATGGTTATATCAGTGCAGCAGAACTACGTCACGTCATGACAAACTTAGGAGAAAAACTAACAGATGAAGAAGTAGATGAAATGATCAGAGAAGCAGATATTGATGGAGACGGACAAGTCAACTATGAAGAATTCGTACAGATGATGACTGCAAAATGA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "CALM1",
+     "uniprotIdFromMappedMetadata": "P0DP23"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-b-2",
+   "title": "SUMO1 DMS-TileSeq",
+   "shortDescription": "A Deep Mutational Scan of the human SUMO1 using functional complementation in yeast via DMS-TileSeq",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 4698,
+   "experiment": {
+    "title": "SUMO1 yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO1 using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of SUMO1 using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-29",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-29",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-b-1",
+     "urn:mavedb:00000001-b-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "SUMO1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000116030",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000116030",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_001005781.1",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_001005781.1",
+        "referenceHtml": null
+       },
+       "offset": 149,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63165",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63165",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 6,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATGAATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTCATTCAACAGTTTAG",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "SUMO1",
+     "uniprotIdFromMappedMetadata": "P63165"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-b-1",
+   "title": "SUMO1 imputed and refined",
+   "shortDescription": "A machine-learning imputed and refined Deep Mutational Scan of the human SUMO1 using functional complementation in yeast.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 2020,
+   "experiment": {
+    "title": "SUMO1 yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO1 using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of SUMO1 using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-b",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-29",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-29",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-b-1",
+     "urn:mavedb:00000001-b-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 2,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "SUMO1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000116030",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000116030",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_001005781.1",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_001005781.1",
+        "referenceHtml": null
+       },
+       "offset": 149,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63165",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63165",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 7,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCTGACCAGGAGGCAAAACCTTCAACTGAGGACTTGGGGGATAAGAAGGAAGGTGAATATATTAAACTCAAAGTCATTGGACAGGATAGCAGTGAGATTCACTTCAAAGTGAAAATGACAACACATCTCAAGAAACTCAAAGAATCATACTGTCAAAGACAGGGTGTTCCAATGAATTCACTCAGGTTTCTCTTTGAGGGTCAGAGAATTGCTGATAATCATACTCCAAAAGAACTGGGAATGGAGGAAGAAGATGTGATTGAAGTTTATCAGGAACAAACGGGGGGTCATTCAACAGTTTAG",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "SUMO1",
+     "uniprotIdFromMappedMetadata": "P63165"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001251-a-1",
+   "title": "TPK1 DMS-TileSeq",
+   "shortDescription": "A Deep Mutational Scan of human TPK1 using functional complementation in yeast via DMS-TileSeq.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 9542,
+   "experiment": {
+    "title": "TPK1 yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of human thiamin pyrophosphokinase (TPK1) using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of TPK1 (thiamin pyrophosphokinase) using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001251-a",
+    "createdBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2025-10-21",
+    "modificationDate": "2025-10-21",
+    "publishedDate": "2025-10-21",
+    "experimentSetUrn": "urn:mavedb:00001251",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [
+     {
+      "orcidId": "0000-0003-1628-9390",
+      "recordType": "Contributor",
+      "givenName": "Jochen",
+      "familyName": "Weile"
+     }
+    ],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "POPCode (Precision Oligo-Pool based Code Alteration)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Catalytic and Thiamine diphosphokinase activity",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001251-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-06-05",
+   "targetGenes": [
+    {
+     "name": "TPK1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000196511",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000196511",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_022445.3",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_022445.3",
+        "referenceHtml": null
+       },
+       "offset": 104,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "Q9H3S4",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/Q9H3S4",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 10,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGAGCATGCCTTTACCCCGTTGGAGCCCCTGCTTTCCACTGGGAATTTGAAGTACTGCCTTGTAATTCTTAATCAGCCTTTGGACAACTATTTTCGTCATCTTTGGAACAAAGCTCTTTTAAGAGCCTGTGCCGATGGAGGTGCCAACCGCTTATATGATATCACCGAAGGAGAGAGAGAAAGCTTTTTGCCTGAATTCATCAATGGAGACTTTGATTCTATTAGGCCTGAAGTCAGAGAATACTATGCTACTAAGGGATGTGAGCTCATTTCAACTCCTGATCAAGACCACACTGACTTTACTAAGTGCCTTAAAATGCTCCAAAAGAAGATAGAAGAAAAAGACTTAAAGGGAAAGCACAGGTTGCATGTAGACACTGGAATGGAGGGTGATTGGTGTGGCCTTATTCCTGTTGGACAGCCTTGTATGCAGGTTACAACCACAGGCCTCAAGTGGAACCTCACAAATGATGTGCTTGCTTTTGGAACATTGGTCAGTACTTCCAATACCTACGACGGGTCTGGTGTTGTGACTGTGGAAACTGACCACCCACTCCTCTGGACCATGGCCATCAAAAGCTAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TPK1",
+     "uniprotIdFromMappedMetadata": "Q9H3S4"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-d-2",
+   "title": "TPK1 imputed and refined",
+   "shortDescription": "A machine-learning imputed and refined Deep Mutational Scan of human TPK1 using functional complementation in yeast.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 4860,
+   "experiment": {
+    "title": "TPK1 yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of human thiamin pyrophosphokinase (TPK1) using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of TPK1 (thiamin pyrophosphokinase) using functional complementation in yeast was performed using DMS-TileSeq and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-d",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0002-7565-2463",
+     "firstName": "Jeremy",
+     "lastName": "Stone",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-29",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2018-06-29",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Plasmid (not integrated)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo-directed mutagenic PCR",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": "POPCode (Precision Oligo-Pool based Code Alteration)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Single-segment (short read)",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Cell fitness",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Molecular Mechanism Assessed",
+       "label": "Catalytic and Thiamine diphosphokinase activity",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The biological or molecular process investigated by the assay"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-d-2"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-29",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "TPK1",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000196511",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000196511",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_022445.3",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_022445.3",
+        "referenceHtml": null
+       },
+       "offset": 104,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "Q9H3S4",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/Q9H3S4",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 11,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGAGCATGCCTTTACCCCGTTGGAGCCCCTGCTTTCCACTGGGAATTTGAAGTACTGCCTTGTAATTCTTAATCAGCCTTTGGACAACTATTTTCGTCATCTTTGGAACAAAGCTCTTTTAAGAGCCTGTGCCGATGGAGGTGCCAACCGCTTATATGATATCACCGAAGGAGAGAGAGAAAGCTTTTTGCCTGAATTCATCAATGGAGACTTTGATTCTATTAGGCCTGAAGTCAGAGAATACTATGCTACTAAGGGATGTGAGCTCATTTCAACTCCTGATCAAGACCACACTGACTTTACTAAGTGCCTTAAAATGCTCCAAAAGAAGATAGAAGAAAAAGACTTAAAGGGAAAGCACAGGTTGCATGTAGACACTGGAATGGAGGGTGATTGGTGTGGCCTTATTCCTGTTGGACAGCCTTGTATGCAGGTTACAACCACAGGCCTCAAGTGGAACCTCACAAATGATGTGCTTGCTTTTGGAACATTGGTCAGTACTTCCAATACCTACGACGGGTCTGGTGTTGTGACTGTGGAAACTGACCACCCACTCCTCTGGACCATGGCCATCAAAAGCTAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "TPK1",
+     "uniprotIdFromMappedMetadata": "Q9H3S4"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-a-3",
+   "title": "UBE2I DMS-TileSeq",
+   "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast via DMS-TileSeq.",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 7390,
+   "experiment": {
+    "title": "UBE2I yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of UBE2I using functional complementation in yeast was performed using two different methods: DMS-BarSeq and DMS-TileSeq, both datasets were combined and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-26",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-26",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109101",
+      "id": 2,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109101"
+     },
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-a-1",
+     "urn:mavedb:00000001-a-2",
+     "urn:mavedb:00000001-a-3",
+     "urn:mavedb:00000001-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-26",
+   "modificationDate": "2026-06-10",
+   "targetGenes": [
+    {
+     "name": "UBE2I",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000103275",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000103275",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_003345",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_003345",
+        "referenceHtml": null
+       },
+       "offset": 159,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63279",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63279",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 3,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCGGGGATCGCCCTCAGCAGACTCGCCCAGGAGAGGAAAGCATGGAGGAAAGACCACCCATTTGGTTTCGTGGCTGTCCCAACAAAAAATCCCGATGGCACGATGAACCTCATGAACTGGGAGTGCGCCATTCCAGGAAAGAAAGGGACTCCGTGGGAAGGAGGCTTGTTTAAACTACGGATGCTTTTCAAAGATGATTATCCATCTTCGCCACCAAAATGTAAATTCGAACCACCATTATTTCACCCGAATGTGTACCCTTCGGGGACAGTGTGCCTGTCCATCTTAGAGGAGGACAAGGACTGGAGGCCAGCCATCACAATCAAACAGATCCTATTAGGAATACAGGAACTTCTAAATGAACCAAATATCCAAGACCCAGCTCAAGCAGAGGCCTACACGATTTACTGCCAAAACAGAGTGGAGTACGAGAAAAGGGTCCGAGCACAAGCCAAGAAGTTTGCGCCCTCATAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "UBE2I",
+     "uniprotIdFromMappedMetadata": "P63279"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-a-4",
+   "title": "UBE2I joint data",
+   "shortDescription": "A joint Deep Mutational Scan dataset of the human SUMO E2 conjugase UBE2I using functional complementation in yeast, combining DMS-BarSeq and DMS-TileSeq",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 10438,
+   "experiment": {
+    "title": "UBE2I yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of UBE2I using functional complementation in yeast was performed using two different methods: DMS-BarSeq and DMS-TileSeq, both datasets were combined and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-26",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-26",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109101",
+      "id": 2,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109101"
+     },
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-a-1",
+     "urn:mavedb:00000001-a-2",
+     "urn:mavedb:00000001-a-3",
+     "urn:mavedb:00000001-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-26",
+   "modificationDate": "2026-06-10",
+   "targetGenes": [
+    {
+     "name": "UBE2I",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000103275",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000103275",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_003345",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_003345",
+        "referenceHtml": null
+       },
+       "offset": 159,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63279",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63279",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 4,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCGGGGATCGCCCTCAGCAGACTCGCCCAGGAGAGGAAAGCATGGAGGAAAGACCACCCATTTGGTTTCGTGGCTGTCCCAACAAAAAATCCCGATGGCACGATGAACCTCATGAACTGGGAGTGCGCCATTCCAGGAAAGAAAGGGACTCCGTGGGAAGGAGGCTTGTTTAAACTACGGATGCTTTTCAAAGATGATTATCCATCTTCGCCACCAAAATGTAAATTCGAACCACCATTATTTCACCCGAATGTGTACCCTTCGGGGACAGTGTGCCTGTCCATCTTAGAGGAGGACAAGGACTGGAGGCCAGCCATCACAATCAAACAGATCCTATTAGGAATACAGGAACTTCTAAATGAACCAAATATCCAAGACCCAGCTCAAGCAGAGGCCTACACGATTTACTGCCAAAACAGAGTGGAGTACGAGAAAAGGGTCCGAGCACAAGCCAAGAAGTTTGCGCCCTCATAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "UBE2I",
+     "uniprotIdFromMappedMetadata": "P63279"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-a-1",
+   "title": "UBE2I imputed & refined",
+   "shortDescription": "A joint Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast, combining DMS-BarSeq and DMS-TileSeq data, followed by machine-learning-based imputation and refinement.",
+   "publishedDate": "2018-06-26",
+   "replacesId": null,
+   "numVariants": 3180,
+   "experiment": {
+    "title": "UBE2I yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of UBE2I using functional complementation in yeast was performed using two different methods: DMS-BarSeq and DMS-TileSeq, both datasets were combined and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-26",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-26",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109101",
+      "id": 2,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109101"
+     },
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-a-1",
+     "urn:mavedb:00000001-a-2",
+     "urn:mavedb:00000001-a-3",
+     "urn:mavedb:00000001-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-26",
+   "modificationDate": "2026-06-10",
+   "targetGenes": [
+    {
+     "name": "UBE2I",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000103275",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000103275",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_003345",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_003345",
+        "referenceHtml": null
+       },
+       "offset": 159,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63279",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63279",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 5,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCGGGGATCGCCCTCAGCAGACTCGCCCAGGAGAGGAAAGCATGGAGGAAAGACCACCCATTTGGTTTCGTGGCTGTCCCAACAAAAAATCCCGATGGCACGATGAACCTCATGAACTGGGAGTGCGCCATTCCAGGAAAGAAAGGGACTCCGTGGGAAGGAGGCTTGTTTAAACTACGGATGCTTTTCAAAGATGATTATCCATCTTCGCCACCAAAATGTAAATTCGAACCACCATTATTTCACCCGAATGTGTACCCTTCGGGGACAGTGTGCCTGTCCATCTTAGAGGAGGACAAGGACTGGAGGCCAGCCATCACAATCAAACAGATCCTATTAGGAATACAGGAACTTCTAAATGAACCAAATATCCAAGACCCAGCTCAAGCAGAGGCCTACACGATTTACTGCCAAAACAGAGTGGAGTACGAGAAAAGGGTCCGAGCACAAGCCAAGAAGTTTGCGCCCTCATAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "UBE2I",
+     "uniprotIdFromMappedMetadata": "P63279"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00000001-a-2",
+   "title": "UBE2I DMS-BarSeq",
+   "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast via DMS-BarSeq",
+   "publishedDate": "2018-06-29",
+   "replacesId": null,
+   "numVariants": 3418,
+   "experiment": {
+    "title": "UBE2I yeast complementation",
+    "shortDescription": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast.",
+    "abstractText": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+    "methodText": "A Deep Mutational Scan of UBE2I using functional complementation in yeast was performed using two different methods: DMS-BarSeq and DMS-TileSeq, both datasets were combined and a machine-learning method was used to impute the effects of missing variants and refine measurements of lower confidence. See [**Weile *et al.* 2017**](http://msb.embopress.org/content/13/12/957) for details.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000001-a",
+    "createdBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-1628-9390",
+     "firstName": "Jochen",
+     "lastName": "Weile",
+     "recordType": "User"
+    },
+    "creationDate": "2018-06-26",
+    "modificationDate": "2019-08-08",
+    "publishedDate": "2018-06-26",
+    "experimentSetUrn": "urn:mavedb:00000001",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+     {
+      "identifier": "29269382",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "A framework for exhaustively mapping functional missense variants.",
+      "authors": [
+       {
+        "name": "Weile, Jochen",
+        "primary": true
+       },
+       {
+        "name": "Sun, Song",
+        "primary": false
+       },
+       {
+        "name": "Cote, Atina G",
+        "primary": false
+       },
+       {
+        "name": "Knapp, Jennifer",
+        "primary": false
+       },
+       {
+        "name": "Verby, Marta",
+        "primary": false
+       },
+       {
+        "name": "Mellor, Joseph C",
+        "primary": false
+       },
+       {
+        "name": "Wu, Yingzhou",
+        "primary": false
+       },
+       {
+        "name": "Pons, Carles",
+        "primary": false
+       },
+       {
+        "name": "Wong, Cassandra",
+        "primary": false
+       },
+       {
+        "name": "van Lieshout, Natascha",
+        "primary": false
+       },
+       {
+        "name": "Yang, Fan",
+        "primary": false
+       },
+       {
+        "name": "Tasan, Murat",
+        "primary": false
+       },
+       {
+        "name": "Tan, Guihong",
+        "primary": false
+       },
+       {
+        "name": "Yang, Shan",
+        "primary": false
+       },
+       {
+        "name": "Fowler, Douglas M",
+        "primary": false
+       },
+       {
+        "name": "Nussbaum, Robert",
+        "primary": false
+       },
+       {
+        "name": "Bloom, Jesse D",
+        "primary": false
+       },
+       {
+        "name": "Vidal, Marc",
+        "primary": false
+       },
+       {
+        "name": "Hill, David E",
+        "primary": false
+       },
+       {
+        "name": "Aloy, Patrick",
+        "primary": false
+       },
+       {
+        "name": "Roth, Frederick P",
+        "primary": false
+       }
+      ],
+      "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+      "doi": "10.15252/msb.20177908",
+      "publicationYear": 2017,
+      "publicationJournal": "Mol Syst Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+      "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+      "id": 3
+     }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+     {
+      "identifier": "SRP109101",
+      "id": 2,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109101"
+     },
+     {
+      "identifier": "SRP109119",
+      "id": 3,
+      "recordType": "RawReadIdentifier",
+      "url": "http://www.ebi.ac.uk/ena/data/view/SRP109119"
+     }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00000001-a-1",
+     "urn:mavedb:00000001-a-2",
+     "urn:mavedb:00000001-a-3",
+     "urn:mavedb:00000001-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "29269382",
+     "dbName": "PubMed",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "A framework for exhaustively mapping functional missense variants.",
+     "authors": [
+      {
+       "name": "Weile, Jochen",
+       "primary": true
+      },
+      {
+       "name": "Sun, Song",
+       "primary": false
+      },
+      {
+       "name": "Cote, Atina G",
+       "primary": false
+      },
+      {
+       "name": "Knapp, Jennifer",
+       "primary": false
+      },
+      {
+       "name": "Verby, Marta",
+       "primary": false
+      },
+      {
+       "name": "Mellor, Joseph C",
+       "primary": false
+      },
+      {
+       "name": "Wu, Yingzhou",
+       "primary": false
+      },
+      {
+       "name": "Pons, Carles",
+       "primary": false
+      },
+      {
+       "name": "Wong, Cassandra",
+       "primary": false
+      },
+      {
+       "name": "van Lieshout, Natascha",
+       "primary": false
+      },
+      {
+       "name": "Yang, Fan",
+       "primary": false
+      },
+      {
+       "name": "Tasan, Murat",
+       "primary": false
+      },
+      {
+       "name": "Tan, Guihong",
+       "primary": false
+      },
+      {
+       "name": "Yang, Shan",
+       "primary": false
+      },
+      {
+       "name": "Fowler, Douglas M",
+       "primary": false
+      },
+      {
+       "name": "Nussbaum, Robert",
+       "primary": false
+      },
+      {
+       "name": "Bloom, Jesse D",
+       "primary": false
+      },
+      {
+       "name": "Vidal, Marc",
+       "primary": false
+      },
+      {
+       "name": "Hill, David E",
+       "primary": false
+      },
+      {
+       "name": "Aloy, Patrick",
+       "primary": false
+      },
+      {
+       "name": "Roth, Frederick P",
+       "primary": false
+      }
+     ],
+     "abstract": "Although we now routinely sequence human genomes, we can confidently identify only a fraction of the sequence variants that have a functional impact. Here, we developed a deep mutational scanning framework that produces exhaustive maps for human missense variants by combining random codon mutagenesis and multiplexed functional variation assays with computational imputation and refinement. We applied this framework to four proteins corresponding to six human genes: UBE2I (encoding SUMO E2 conjugase), SUMO1 (small ubiquitin-like modifier), TPK1 (thiamin pyrophosphokinase), and CALM1/2/3 (three genes encoding the protein calmodulin). The resulting maps recapitulate known protein features and confidently identify pathogenic variation. Assays potentially amenable to deep mutational scanning are already available for 57% of human disease genes, suggesting that DMS could ultimately map functional variation for all human disease genes.",
+     "doi": "10.15252/msb.20177908",
+     "publicationYear": 2017,
+     "publicationJournal": "Mol Syst Biol",
+     "url": "http://www.ncbi.nlm.nih.gov/pubmed/29269382",
+     "referenceHtml": "Weile J, <i>et al</i>. A framework for exhaustively mapping functional missense variants. <i>Mol. Syst. Biol</i>. 2017; <b>13</b>:957.",
+     "id": 3
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2018-06-26",
+   "modificationDate": "2026-06-16",
+   "targetGenes": [
+    {
+     "name": "UBE2I",
+     "category": "protein_coding",
+     "externalIdentifiers": [
+      {
+       "identifier": {
+        "dbName": "Ensembl",
+        "identifier": "ENSG00000103275",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ensembl.org/id/ENSG00000103275",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "RefSeq",
+        "identifier": "NM_003345",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NM_003345",
+        "referenceHtml": null
+       },
+       "offset": 159,
+       "recordType": "ExternalGeneIdentifierOffset"
+      },
+      {
+       "identifier": {
+        "dbName": "UniProt",
+        "identifier": "P63279",
+        "recordType": "ExternalGeneIdentifier",
+        "dbVersion": null,
+        "url": "http://purl.uniprot.org/uniprot/P63279",
+        "referenceHtml": null
+       },
+       "offset": 0,
+       "recordType": "ExternalGeneIdentifierOffset"
+      }
+     ],
+     "id": 2,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCGGGGATCGCCCTCAGCAGACTCGCCCAGGAGAGGAAAGCATGGAGGAAAGACCACCCATTTGGTTTCGTGGCTGTCCCAACAAAAAATCCCGATGGCACGATGAACCTCATGAACTGGGAGTGCGCCATTCCAGGAAAGAAAGGGACTCCGTGGGAAGGAGGCTTGTTTAAACTACGGATGCTTTTCAAAGATGATTATCCATCTTCGCCACCAAAATGTAAATTCGAACCACCATTATTTCACCCGAATGTGTACCCTTCGGGGACAGTGTGCCTGTCCATCTTAGAGGAGGACAAGGACTGGAGGCCAGCCATCACAATCAAACAGATCCTATTAGGAATACAGGAACTTCTAAATGAACCAAATATCCAAGACCCAGCTCAAGCAGAGGCCTACACGATTTACTGCCAAAACAGAGTGGAGTACGAGAAAAGGGTCCGAGCACAAGCCAAGAAGTTTGCGCCCTCATAA",
+      "label": null,
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": "UBE2I",
+     "uniprotIdFromMappedMetadata": "P63279"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 10
+}

@@ -1,0 +1,1195 @@
+{
+  "title": "GCK variant abundance measured by DHFR-PCA",
+  "methodText": "\"Variant frequencies were first determined by sequencing the GCK gene library both before and after selection on methotrexate medium, where growth was reflected by protein abundance levels. The sequencing was performed across 14 overlapping tiles covering the entire GCK ORF, with each tile being sequenced on both strands to minimize base-calling errors. The raw sequencing reads were processed by the TileSeqMave and TileSeq mutation count bioinformatic pipelines, and the relative enrichment or depletion of each variant following selection was calculated. Potential PCR errors were accounted for by subtracting variant frequencies observed in a wild-type GCK control from those in both the non-selective and selective conditions. Unreliable data points were removed through quality filtering based on the agreement between replicate measurements and variant counts in the non-selective condition. The resulting abundance scores were statistically normalized so that a median score of zero was assigned to nonsense variants (which typically eliminate protein function), while a median score of one was assigned to synonymous variants (which generally maintain normal protein levels). Standard errors for these abundance scores were refined using Bayesian regularization, whereby empirical standard errors were combined with prior estimates obtained through linear regression of fitness scores against read counts, and more robust error estimates were provided particularly for variants with low read counts.\n\nA threshold of 0.58 was determined for the abundance scores by fitting the distribution with three Gaussian components, representing nonsense-like variants, intermediate variants, and synonymous-like variants. The intersection point between the second and third Gaussian distributions was selected as the cutoff value to objectively classify variants as having decreased or normal abundance. Variants were classified as having low abundance if their abundance score fell below the 0.58 threshold, while those with scores above this value were considered to have normal abundance. \"",
+  "abstractText": "This study assayed the abundance of human glucokinase (GCK) variants using DHFR-PCA. In BY4741 yeast cells, methotrexate-resistant DHFR was expressed as two fragments; one fragment was overexpressed freely while the other was fused to libraries of GCK variants. The yeast cells were grown on medium with methotrexate to inhibit the endogenous DHFR, such that yeast growth could be used as a read-out of GCK abundance.",
+  "shortDescription": "Cellular protein abundance of glucokinase (GCK) variants measured by DHFR-PCA in yeast.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000096-b-1",
+  "numVariants": 9201,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [
+    {
+      "identifier": "38627865",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Characterizing glucokinase variant mechanisms using a multiplexed abundance assay.",
+      "authors": [
+        {
+          "name": "Gersing S",
+          "primary": true
+        },
+        {
+          "name": "Schulze TK",
+          "primary": false
+        },
+        {
+          "name": "Cagiada M",
+          "primary": false
+        },
+        {
+          "name": "Stein A",
+          "primary": false
+        },
+        {
+          "name": "Roth FP",
+          "primary": false
+        },
+        {
+          "name": "Lindorff-Larsen K",
+          "primary": false
+        },
+        {
+          "name": "Hartmann-Petersen R",
+          "primary": false
+        }
+      ],
+      "abstract": "Amino acid substitutions can perturb protein activity in multiple ways. Understanding their mechanistic basis may pinpoint how residues contribute to protein function. Here, we characterize the mechanisms underlying variant effects in human glucokinase (GCK) variants, building on our previous comprehensive study on GCK variant activity. Using a yeast growth-based assay, we score the abundance of 95% of GCK missense and nonsense variants. When combining the abundance scores with our previously determined activity scores, we find that 43% of hypoactive variants also decrease cellular protein abundance. The low-abundance variants are enriched in the large domain, while residues in the small domain are tolerant to mutations with respect to abundance. Instead, many variants in the small domain perturb GCK conformational dynamics which are essential for appropriate activity. In this study, we identify residues important for GCK metabolic stability and conformational dynamics. These residues could be targeted to modulate GCK activity, and thereby affect glucose homeostasis.",
+      "doi": "10.1186/s13059-024-03238-2",
+      "publicationYear": 2024,
+      "publicationJournal": "Genome Biol",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/38627865",
+      "referenceHtml": "Gersing S, <i>et al</i>. Characterizing glucokinase variant mechanisms using a multiplexed abundance assay. Genome Biol. 2024; 25:98. 10.1186/s13059-024-03238-2",
+      "id": 143
+    }
+  ],
+  "secondaryPublicationIdentifiers": [],
+  "publishedDate": "2023-05-22",
+  "creationDate": "2023-03-02",
+  "modificationDate": "2026-05-28",
+  "createdBy": {
+    "orcidId": "0000-0001-5034-1952",
+    "firstName": "Sarah",
+    "lastName": "Gersing",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0001-5034-1952",
+    "firstName": "Sarah",
+    "lastName": "Gersing",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "GCK",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 403,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGTTAGATGACAGAGCAAGAATGGAAGCAGCCAAGAAGGAAAAGGTAGAACAAATATTAGCAGAATTTCAATTACAAGAAGAAGATTTGAAGAAAGTTATGAGAAGAATGCAAAAGGAAATGGATAGAGGTTTGAGATTAGAAACTCATGAAGAAGCTTCTGTTAAGATGTTGCCAACTTACGTTAGATCTACACCAGAAGGTTCAGAAGTTGGTGACTTTTTGTCATTAGATTTGGGTGGTACTAACTTCAGAGTTATGTTGGTTAAGGTTGGTGAAGGTGAAGAAGGTCAATGGTCTGTTAAGACAAAGCATCAAATGTACTCAATCCCAGAAGATGCTATGACTGGTACAGCAGAAATGTTGTTCGATTACATCTCTGAATGTATCTCAGATTTCTTGGATAAGCATCAAATGAAGCATAAGAAATTGCCATTGGGTTTTACTTTTTCTTTCCCAGTTAGACATGAAGATATCGATAAGGGTATCTTGTTGAACTGGACAAAGGGTTTTAAAGCTTCAGGTGCAGAAGGTAATAATGTTGTTGGTTTGTTGAGAGATGCTATTAAAAGAAGAGGTGACTTTGAAATGGATGTTGTTGCTATGGTTAACGATACTGTTGCAACAATGATCTCTTGTTACTACGAAGATCATCAATGTGAAGTTGGTATGATTGTTGGTACTGGTTGTAACGCATGTTACATGGAAGAAATGCAAAACGTTGAATTGGTTGAAGGTGACGAAGGTAGAATGTGTGTTAATACAGAATGGGGTGCTTTTGGTGACTCTGGTGAATTGGATGAATTCTTGTTGGAATACGATAGATTGGTTGATGAATCTTCAGCAAATCCAGGTCAACAATTGTACGAAAAGTTGATCGGTGGTAAATACATGGGTGAATTAGTTAGATTGGTTTTGTTGAGATTGGTTGATGAAAATTTGTTGTTCCATGGTGAAGCTTCTGAACAATTGAGAACTAGAGGTGCATTCGAAACAAGATTCGTTTCTCAAGTTGAATCAGATACTGGTGACAGAAAGCAAATCTATAACATCTTGTCTACATTAGGTTTAAGACCATCAACTACAGATTGTGATATTGTTAGAAGAGCTTGTGAATCTGTTTCAACTAGAGCTGCACATATGTGTTCTGCTGGTTTGGCAGGTGTTATTAATAGAATGAGAGAATCTAGATCAGAAGATGTTATGAGAATCACAGTTGGTGTTGATGGTTCTGTTTACAAGTTGCATCCATCTTTTAAAGAAAGATTCCATGCATCTGTTAGAAGATTGACTCCATCATGTGAAATCACTTTTATTGAATCTGAAGAAGGTTCAGGTAGAGGTGCCGCTTTAGTCAGTGCTGTTGCTTGTAAGAAGGCTTGTATGTTGGGTCAATAG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "GCK",
+      "uniprotIdFromMappedMetadata": "P35557"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "se",
+      "df"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {},
+  "contributors": [],
+  "scoreCalibrations": [
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: All Variants",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "functionalClassifications": [
+        {
+          "label": "Low abundance",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.58
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 24.0,
+          "id": 399,
+          "recordType": "FunctionalClassification",
+          "variantCount": 2910
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "38627865",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Characterizing glucokinase variant mechanisms using a multiplexed abundance assay.",
+          "authors": [
+            {
+              "name": "Gersing S",
+              "primary": true
+            },
+            {
+              "name": "Schulze TK",
+              "primary": false
+            },
+            {
+              "name": "Cagiada M",
+              "primary": false
+            },
+            {
+              "name": "Stein A",
+              "primary": false
+            },
+            {
+              "name": "Roth FP",
+              "primary": false
+            },
+            {
+              "name": "Lindorff-Larsen K",
+              "primary": false
+            },
+            {
+              "name": "Hartmann-Petersen R",
+              "primary": false
+            }
+          ],
+          "abstract": "Amino acid substitutions can perturb protein activity in multiple ways. Understanding their mechanistic basis may pinpoint how residues contribute to protein function. Here, we characterize the mechanisms underlying variant effects in human glucokinase (GCK) variants, building on our previous comprehensive study on GCK variant activity. Using a yeast growth-based assay, we score the abundance of 95% of GCK missense and nonsense variants. When combining the abundance scores with our previously determined activity scores, we find that 43% of hypoactive variants also decrease cellular protein abundance. The low-abundance variants are enriched in the large domain, while residues in the small domain are tolerant to mutations with respect to abundance. Instead, many variants in the small domain perturb GCK conformational dynamics which are essential for appropriate activity. In this study, we identify residues important for GCK metabolic stability and conformational dynamics. These residues could be targeted to modulate GCK activity, and thereby affect glucose homeostasis.",
+          "doi": "10.1186/s13059-024-03238-2",
+          "publicationYear": 2024,
+          "publicationJournal": "Genome Biol",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/38627865",
+          "referenceHtml": "Gersing S, <i>et al</i>. Characterizing glucokinase variant mechanisms using a multiplexed abundance assay. Genome Biol. 2024; 25:98. 10.1186/s13059-024-03238-2",
+          "id": 143
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [
+        {
+          "identifier": "31892348",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "authors": [
+            {
+              "name": "Brnich SE",
+              "primary": true
+            },
+            {
+              "name": "Abou Tayoun AN",
+              "primary": false
+            },
+            {
+              "name": "Couch FJ",
+              "primary": false
+            },
+            {
+              "name": "Cutting GR",
+              "primary": false
+            },
+            {
+              "name": "Greenblatt MS",
+              "primary": false
+            },
+            {
+              "name": "Heinen CD",
+              "primary": false
+            },
+            {
+              "name": "Kanavy DM",
+              "primary": false
+            },
+            {
+              "name": "Luo X",
+              "primary": false
+            },
+            {
+              "name": "McNulty SM",
+              "primary": false
+            },
+            {
+              "name": "Starita LM",
+              "primary": false
+            },
+            {
+              "name": "Tavtigian SV",
+              "primary": false
+            },
+            {
+              "name": "Wright MW",
+              "primary": false
+            },
+            {
+              "name": "Harrison SM",
+              "primary": false
+            },
+            {
+              "name": "Biesecker LG",
+              "primary": false
+            },
+            {
+              "name": "Berg JS",
+              "primary": false
+            },
+            {
+              "name": "Clinical Genome Resource Sequence Variant Interpretation Working Group",
+              "primary": false
+            }
+          ],
+          "abstract": "The American College of Medical Genetics and Genomics (ACMG)/Association for Molecular Pathology (AMP) clinical variant interpretation guidelines established criteria for different types of evidence. This includes the strong evidence codes PS3 and BS3 for \"well-established\" functional assays demonstrating a variant has abnormal or normal gene/protein function, respectively. However, they did not provide detailed guidance on how functional evidence should be evaluated, and differences in the application of the PS3/BS3 codes are a contributor to variant interpretation discordance between laboratories. This recommendation seeks to provide a more structured approach to the assessment of functional assays for variant interpretation and guidance on the use of various levels of strength based on assay validation. The Clinical Genome Resource (ClinGen) Sequence Variant Interpretation (SVI) Working Group used curated functional evidence from ClinGen Variant Curation Expert Panel-developed rule specifications and expert opinions to refine the PS3/BS3 criteria over multiple in-person and virtual meetings. We estimated the odds of pathogenicity for assays using various numbers of variant controls to determine the minimum controls required to reach moderate level evidence. Feedback from the ClinGen Steering Committee and outside experts were incorporated into the recommendations at multiple stages of development. The SVI Working Group developed recommendations for evaluators regarding the assessment of the clinical validity of functional data and a four-step provisional framework to determine the appropriate strength of evidence that can be applied in clinical variant interpretation. These steps are as follows: (1) define the disease mechanism, (2) evaluate the applicability of general classes of assays used in the field, (3) evaluate the validity of specific instances of assays, and (4) apply evidence to individual variant interpretation. We found that a minimum of 11 total pathogenic and benign variant controls are required to reach moderate-level evidence in the absence of rigorous statistical analysis. The recommendations and approach to functional evidence evaluation described here should help clarify the clinical variant interpretation process for functional assays. Further, we hope that these recommendations will help develop productive partnerships with basic scientists who have developed functional assays that are useful for interrogating the function of a variety of genes.",
+          "doi": "10.1186/s13073-019-0690-2",
+          "publicationYear": 2019,
+          "publicationJournal": "Genome Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31892348",
+          "referenceHtml": "Brnich SE, <i>et al</i>. Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework. Genome Med. 2019; 12:3. 10.1186/s13073-019-0690-2",
+          "id": 150
+        }
+      ],
+      "recordType": "ScoreCalibration",
+      "id": 731,
+      "urn": "urn:mavedb:calibration-bdc9a553-831f-4805-a5fc-53d5f83b463a",
+      "scoreSetId": 403,
+      "investigatorProvided": false,
+      "primary": true,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "IGVF Coding Variant Focus Group -- Controls: Missense Variants Only",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "functionalClassifications": [
+        {
+          "label": "Low abundance",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.58
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "oddspathsRatio": 4.195219124,
+          "id": 398,
+          "recordType": "FunctionalClassification",
+          "variantCount": 2910
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "38627865",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Characterizing glucokinase variant mechanisms using a multiplexed abundance assay.",
+          "authors": [
+            {
+              "name": "Gersing S",
+              "primary": true
+            },
+            {
+              "name": "Schulze TK",
+              "primary": false
+            },
+            {
+              "name": "Cagiada M",
+              "primary": false
+            },
+            {
+              "name": "Stein A",
+              "primary": false
+            },
+            {
+              "name": "Roth FP",
+              "primary": false
+            },
+            {
+              "name": "Lindorff-Larsen K",
+              "primary": false
+            },
+            {
+              "name": "Hartmann-Petersen R",
+              "primary": false
+            }
+          ],
+          "abstract": "Amino acid substitutions can perturb protein activity in multiple ways. Understanding their mechanistic basis may pinpoint how residues contribute to protein function. Here, we characterize the mechanisms underlying variant effects in human glucokinase (GCK) variants, building on our previous comprehensive study on GCK variant activity. Using a yeast growth-based assay, we score the abundance of 95% of GCK missense and nonsense variants. When combining the abundance scores with our previously determined activity scores, we find that 43% of hypoactive variants also decrease cellular protein abundance. The low-abundance variants are enriched in the large domain, while residues in the small domain are tolerant to mutations with respect to abundance. Instead, many variants in the small domain perturb GCK conformational dynamics which are essential for appropriate activity. In this study, we identify residues important for GCK metabolic stability and conformational dynamics. These residues could be targeted to modulate GCK activity, and thereby affect glucose homeostasis.",
+          "doi": "10.1186/s13059-024-03238-2",
+          "publicationYear": 2024,
+          "publicationJournal": "Genome Biol",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/38627865",
+          "referenceHtml": "Gersing S, <i>et al</i>. Characterizing glucokinase variant mechanisms using a multiplexed abundance assay. Genome Biol. 2024; 25:98. 10.1186/s13059-024-03238-2",
+          "id": 143
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [
+        {
+          "identifier": "31892348",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "authors": [
+            {
+              "name": "Brnich SE",
+              "primary": true
+            },
+            {
+              "name": "Abou Tayoun AN",
+              "primary": false
+            },
+            {
+              "name": "Couch FJ",
+              "primary": false
+            },
+            {
+              "name": "Cutting GR",
+              "primary": false
+            },
+            {
+              "name": "Greenblatt MS",
+              "primary": false
+            },
+            {
+              "name": "Heinen CD",
+              "primary": false
+            },
+            {
+              "name": "Kanavy DM",
+              "primary": false
+            },
+            {
+              "name": "Luo X",
+              "primary": false
+            },
+            {
+              "name": "McNulty SM",
+              "primary": false
+            },
+            {
+              "name": "Starita LM",
+              "primary": false
+            },
+            {
+              "name": "Tavtigian SV",
+              "primary": false
+            },
+            {
+              "name": "Wright MW",
+              "primary": false
+            },
+            {
+              "name": "Harrison SM",
+              "primary": false
+            },
+            {
+              "name": "Biesecker LG",
+              "primary": false
+            },
+            {
+              "name": "Berg JS",
+              "primary": false
+            },
+            {
+              "name": "Clinical Genome Resource Sequence Variant Interpretation Working Group",
+              "primary": false
+            }
+          ],
+          "abstract": "The American College of Medical Genetics and Genomics (ACMG)/Association for Molecular Pathology (AMP) clinical variant interpretation guidelines established criteria for different types of evidence. This includes the strong evidence codes PS3 and BS3 for \"well-established\" functional assays demonstrating a variant has abnormal or normal gene/protein function, respectively. However, they did not provide detailed guidance on how functional evidence should be evaluated, and differences in the application of the PS3/BS3 codes are a contributor to variant interpretation discordance between laboratories. This recommendation seeks to provide a more structured approach to the assessment of functional assays for variant interpretation and guidance on the use of various levels of strength based on assay validation. The Clinical Genome Resource (ClinGen) Sequence Variant Interpretation (SVI) Working Group used curated functional evidence from ClinGen Variant Curation Expert Panel-developed rule specifications and expert opinions to refine the PS3/BS3 criteria over multiple in-person and virtual meetings. We estimated the odds of pathogenicity for assays using various numbers of variant controls to determine the minimum controls required to reach moderate level evidence. Feedback from the ClinGen Steering Committee and outside experts were incorporated into the recommendations at multiple stages of development. The SVI Working Group developed recommendations for evaluators regarding the assessment of the clinical validity of functional data and a four-step provisional framework to determine the appropriate strength of evidence that can be applied in clinical variant interpretation. These steps are as follows: (1) define the disease mechanism, (2) evaluate the applicability of general classes of assays used in the field, (3) evaluate the validity of specific instances of assays, and (4) apply evidence to individual variant interpretation. We found that a minimum of 11 total pathogenic and benign variant controls are required to reach moderate-level evidence in the absence of rigorous statistical analysis. The recommendations and approach to functional evidence evaluation described here should help clarify the clinical variant interpretation process for functional assays. Further, we hope that these recommendations will help develop productive partnerships with basic scientists who have developed functional assays that are useful for interrogating the function of a variety of genes.",
+          "doi": "10.1186/s13073-019-0690-2",
+          "publicationYear": 2019,
+          "publicationJournal": "Genome Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31892348",
+          "referenceHtml": "Brnich SE, <i>et al</i>. Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework. Genome Med. 2019; 12:3. 10.1186/s13073-019-0690-2",
+          "id": 150
+        }
+      ],
+      "recordType": "ScoreCalibration",
+      "id": 730,
+      "urn": "urn:mavedb:calibration-e3c8a326-f9b2-4ece-aab8-b96f22c71994",
+      "scoreSetId": 403,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    },
+    {
+      "title": "ExCALIBR calibration",
+      "researchUseOnly": true,
+      "functionalClassifications": [
+        {
+          "label": "PS3 Supporting (1)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.445590222462809,
+            0.5140567203472532
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "SUPPORTING",
+            "points": 1,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6305,
+          "recordType": "FunctionalClassification",
+          "variantCount": 318
+        },
+        {
+          "label": "PS3 Moderate (2)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.38562887959506587,
+            0.445590222462809
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE",
+            "points": 2,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6306,
+          "recordType": "FunctionalClassification",
+          "variantCount": 282
+        },
+        {
+          "label": "PS3 Moderate+ (3)",
+          "functionalClassification": "abnormal",
+          "range": [
+            0.32588016560274025,
+            0.38562887959506587
+          ],
+          "inclusiveLowerBound": true,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "MODERATE_PLUS",
+            "points": 3,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6307,
+          "recordType": "FunctionalClassification",
+          "variantCount": 235
+        },
+        {
+          "label": "PS3 Strong (4)",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.32588016560274025
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "acmgClassification": {
+            "criterion": "PS3",
+            "evidenceStrength": "STRONG",
+            "points": 4,
+            "recordType": "ACMGClassification",
+            "creationDate": "2026-02-06",
+            "modificationDate": "2026-02-06"
+          },
+          "id": 6308,
+          "recordType": "FunctionalClassification",
+          "variantCount": 1682
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "evidenceSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "methodSources": [
+        {
+          "identifier": "2025.04.29.651326",
+          "dbName": "bioRxiv",
+          "recordType": "PublicationIdentifier",
+          "title": "Gene-based calibration of high-throughput functional assays for clinical variant classification",
+          "authors": [
+            {
+              "name": "Zeiberg, D.",
+              "primary": true
+            },
+            {
+              "name": "Tejura, M.",
+              "primary": false
+            },
+            {
+              "name": "McEwen, A. E.",
+              "primary": false
+            },
+            {
+              "name": "Fayer, S.",
+              "primary": false
+            },
+            {
+              "name": "Pejaver, V.",
+              "primary": false
+            },
+            {
+              "name": "Rubin, A. F.",
+              "primary": false
+            },
+            {
+              "name": "Starita, L. M.",
+              "primary": false
+            },
+            {
+              "name": "Fowler, D. M.",
+              "primary": false
+            },
+            {
+              "name": "O'Donnell-Luria, A.",
+              "primary": false
+            },
+            {
+              "name": "Radivojac, P.",
+              "primary": false
+            }
+          ],
+          "abstract": "High-throughput functional assays measure the effects of variants on macromolecular function and can aid in reclassifying the rapidly growing number of variants of uncertain significance. Under the current clinical variant classification guidelines, using functional data as a line of evidence to assert pathogenicity relies on determining assay score thresholds that define variants as functionally normal or functionally abnormal. These thresholds are designed to maximize the separation of variants with known clinical effects (benign, pathogenic) and often incorporate expert opinion. However, this approach lacks the rigor of calibration, in which a variants posterior probability of pathogenicity must be estimated from the raw experimental score and mapped to discrete evidence strengths. To build upon the existing guidelines, we introduce and evaluate a method for calibrating continuous high-throughput functional data as a line of evidence in clinical variant classification. Assay score distributions of synonymous variants and variants appearing in gnomAD for a given functional scoreset are jointly modeled with score distributions of known pathogenic and benign variants using a multi-sample skew normal mixture of distributions. This model is learned using a constrained expectation-maximization algorithm that provably preserves the monotonicity of pathogenicity posteriors and is subsequently used to calculate variant-specific evidence strengths for use in the clinic. Using 24 datasets from 14 genes, we first assess the models ability to capture assay score distributions. We then demonstrate its potential impact on reclassifying variants by comparing the evidence strengths assigned at the variant-level with those assigned uniformly to all functionally normal and abnormal variants under the existing ClinGen guidelines. An improved classification of variants will directly improve the accuracy of genetic diagnosis and subsequent medical management for individuals affected by Mendelian disorders.\n\nAvailabilityhttps://github.com/dzeiberg/mave_calibration",
+          "doi": "10.1101/2025.04.29.651326",
+          "publicationYear": 2025,
+          "publicationJournal": "Preprint",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651326",
+          "referenceHtml": "Zeiberg, D., <i>et al</i>. Gene-based calibration of high-throughput functional assays for clinical variant classification. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.04.29.651326",
+          "id": 176
+        }
+      ],
+      "calibrationMetadata": {
+        "prior_probability_pathogenicity": 0.4093477029
+      },
+      "recordType": "ScoreCalibration",
+      "id": 2313,
+      "urn": "urn:mavedb:calibration-9d6ae0b0-9217-4827-ae09-cca26f4fea02",
+      "scoreSetId": 403,
+      "investigatorProvided": false,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "AnonymousUser",
+        "recordType": "User"
+      },
+      "creationDate": "2026-02-24",
+      "modificationDate": "2026-02-24"
+    },
+    {
+      "title": "Investigator-provided functional classes",
+      "researchUseOnly": false,
+      "baselineScore": 1.0,
+      "functionalClassifications": [
+        {
+          "label": "Low abundance",
+          "functionalClassification": "abnormal",
+          "range": [
+            null,
+            0.58
+          ],
+          "inclusiveLowerBound": false,
+          "inclusiveUpperBound": false,
+          "id": 397,
+          "recordType": "FunctionalClassification",
+          "variantCount": 2910
+        }
+      ],
+      "thresholdSources": [
+        {
+          "identifier": "38627865",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Characterizing glucokinase variant mechanisms using a multiplexed abundance assay.",
+          "authors": [
+            {
+              "name": "Gersing S",
+              "primary": true
+            },
+            {
+              "name": "Schulze TK",
+              "primary": false
+            },
+            {
+              "name": "Cagiada M",
+              "primary": false
+            },
+            {
+              "name": "Stein A",
+              "primary": false
+            },
+            {
+              "name": "Roth FP",
+              "primary": false
+            },
+            {
+              "name": "Lindorff-Larsen K",
+              "primary": false
+            },
+            {
+              "name": "Hartmann-Petersen R",
+              "primary": false
+            }
+          ],
+          "abstract": "Amino acid substitutions can perturb protein activity in multiple ways. Understanding their mechanistic basis may pinpoint how residues contribute to protein function. Here, we characterize the mechanisms underlying variant effects in human glucokinase (GCK) variants, building on our previous comprehensive study on GCK variant activity. Using a yeast growth-based assay, we score the abundance of 95% of GCK missense and nonsense variants. When combining the abundance scores with our previously determined activity scores, we find that 43% of hypoactive variants also decrease cellular protein abundance. The low-abundance variants are enriched in the large domain, while residues in the small domain are tolerant to mutations with respect to abundance. Instead, many variants in the small domain perturb GCK conformational dynamics which are essential for appropriate activity. In this study, we identify residues important for GCK metabolic stability and conformational dynamics. These residues could be targeted to modulate GCK activity, and thereby affect glucose homeostasis.",
+          "doi": "10.1186/s13059-024-03238-2",
+          "publicationYear": 2024,
+          "publicationJournal": "Genome Biol",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/38627865",
+          "referenceHtml": "Gersing S, <i>et al</i>. Characterizing glucokinase variant mechanisms using a multiplexed abundance assay. Genome Biol. 2024; 25:98. 10.1186/s13059-024-03238-2",
+          "id": 143
+        }
+      ],
+      "evidenceSources": [],
+      "methodSources": [
+        {
+          "identifier": "31892348",
+          "dbName": "PubMed",
+          "recordType": "PublicationIdentifier",
+          "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "authors": [
+            {
+              "name": "Brnich SE",
+              "primary": true
+            },
+            {
+              "name": "Abou Tayoun AN",
+              "primary": false
+            },
+            {
+              "name": "Couch FJ",
+              "primary": false
+            },
+            {
+              "name": "Cutting GR",
+              "primary": false
+            },
+            {
+              "name": "Greenblatt MS",
+              "primary": false
+            },
+            {
+              "name": "Heinen CD",
+              "primary": false
+            },
+            {
+              "name": "Kanavy DM",
+              "primary": false
+            },
+            {
+              "name": "Luo X",
+              "primary": false
+            },
+            {
+              "name": "McNulty SM",
+              "primary": false
+            },
+            {
+              "name": "Starita LM",
+              "primary": false
+            },
+            {
+              "name": "Tavtigian SV",
+              "primary": false
+            },
+            {
+              "name": "Wright MW",
+              "primary": false
+            },
+            {
+              "name": "Harrison SM",
+              "primary": false
+            },
+            {
+              "name": "Biesecker LG",
+              "primary": false
+            },
+            {
+              "name": "Berg JS",
+              "primary": false
+            },
+            {
+              "name": "Clinical Genome Resource Sequence Variant Interpretation Working Group",
+              "primary": false
+            }
+          ],
+          "abstract": "The American College of Medical Genetics and Genomics (ACMG)/Association for Molecular Pathology (AMP) clinical variant interpretation guidelines established criteria for different types of evidence. This includes the strong evidence codes PS3 and BS3 for \"well-established\" functional assays demonstrating a variant has abnormal or normal gene/protein function, respectively. However, they did not provide detailed guidance on how functional evidence should be evaluated, and differences in the application of the PS3/BS3 codes are a contributor to variant interpretation discordance between laboratories. This recommendation seeks to provide a more structured approach to the assessment of functional assays for variant interpretation and guidance on the use of various levels of strength based on assay validation. The Clinical Genome Resource (ClinGen) Sequence Variant Interpretation (SVI) Working Group used curated functional evidence from ClinGen Variant Curation Expert Panel-developed rule specifications and expert opinions to refine the PS3/BS3 criteria over multiple in-person and virtual meetings. We estimated the odds of pathogenicity for assays using various numbers of variant controls to determine the minimum controls required to reach moderate level evidence. Feedback from the ClinGen Steering Committee and outside experts were incorporated into the recommendations at multiple stages of development. The SVI Working Group developed recommendations for evaluators regarding the assessment of the clinical validity of functional data and a four-step provisional framework to determine the appropriate strength of evidence that can be applied in clinical variant interpretation. These steps are as follows: (1) define the disease mechanism, (2) evaluate the applicability of general classes of assays used in the field, (3) evaluate the validity of specific instances of assays, and (4) apply evidence to individual variant interpretation. We found that a minimum of 11 total pathogenic and benign variant controls are required to reach moderate-level evidence in the absence of rigorous statistical analysis. The recommendations and approach to functional evidence evaluation described here should help clarify the clinical variant interpretation process for functional assays. Further, we hope that these recommendations will help develop productive partnerships with basic scientists who have developed functional assays that are useful for interrogating the function of a variety of genes.",
+          "doi": "10.1186/s13073-019-0690-2",
+          "publicationYear": 2019,
+          "publicationJournal": "Genome Med",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/31892348",
+          "referenceHtml": "Brnich SE, <i>et al</i>. Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework. Genome Med. 2019; 12:3. 10.1186/s13073-019-0690-2",
+          "id": 150
+        }
+      ],
+      "recordType": "ScoreCalibration",
+      "id": 729,
+      "urn": "urn:mavedb:calibration-22c182bc-baca-4a58-be29-8cd385130c0f",
+      "scoreSetId": 403,
+      "investigatorProvided": true,
+      "primary": false,
+      "private": false,
+      "createdBy": {
+        "orcidId": "0000-0001-5034-1952",
+        "firstName": "Sarah",
+        "lastName": "Gersing",
+        "recordType": "User"
+      },
+      "modifiedBy": {
+        "orcidId": "0000-0001-5034-1952",
+        "firstName": "Sarah",
+        "lastName": "Gersing",
+        "recordType": "User"
+      },
+      "creationDate": "2025-11-14",
+      "modificationDate": "2025-11-14"
+    }
+  ],
+  "experiment": {
+    "title": "GCK abundance measured by DHFR-PCA",
+    "shortDescription": "Cellular protein abundance of glucokinase (GCK) variants measured by DHFR-PCA in yeast.",
+    "abstractText": "In this study, we assayed the abundance of human glucokinase (GCK) variants using DHFR-PCA. In BY4741 yeast cells, methotrexate-resistant DHFR was expressed as two fragments; one fragment was overexpressed freely while the other was fused to libraries of GCK variants. The yeast cells were grown on medium with methotrexate to inhibit the endogenous DHFR, such that yeast growth could be used as a read-out of GCK abundance.",
+    "methodText": "GCK variant libraries were generated previously (Gersing et al., 2022, bioRxiv), and were cloned into a pDEST-DHFR-PCA vector. GCK variant abundance was assayed using DHFR-PCA. Variants were sequenced using the TileSeq approach on an Illumina NextSeq550. The two replicates pre-selection were taken from the same pool of yeast transformants, while the two replicates post-selection were derived from the same pool of yeast transformants that were selected for GCK abundance separately.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000096-b",
+    "createdBy": {
+      "orcidId": "0000-0001-5034-1952",
+      "firstName": "Sarah",
+      "lastName": "Gersing",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-7565-2463",
+      "firstName": "Jeremy",
+      "lastName": "Stone",
+      "recordType": "User"
+    },
+    "creationDate": "2023-03-02",
+    "modificationDate": "2025-09-21",
+    "publishedDate": "2023-05-22",
+    "experimentSetUrn": "urn:mavedb:00000096",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "38627865",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Characterizing glucokinase variant mechanisms using a multiplexed abundance assay.",
+        "authors": [
+          {
+            "name": "Gersing S",
+            "primary": true
+          },
+          {
+            "name": "Schulze TK",
+            "primary": false
+          },
+          {
+            "name": "Cagiada M",
+            "primary": false
+          },
+          {
+            "name": "Stein A",
+            "primary": false
+          },
+          {
+            "name": "Roth FP",
+            "primary": false
+          },
+          {
+            "name": "Lindorff-Larsen K",
+            "primary": false
+          },
+          {
+            "name": "Hartmann-Petersen R",
+            "primary": false
+          }
+        ],
+        "abstract": "Amino acid substitutions can perturb protein activity in multiple ways. Understanding their mechanistic basis may pinpoint how residues contribute to protein function. Here, we characterize the mechanisms underlying variant effects in human glucokinase (GCK) variants, building on our previous comprehensive study on GCK variant activity. Using a yeast growth-based assay, we score the abundance of 95% of GCK missense and nonsense variants. When combining the abundance scores with our previously determined activity scores, we find that 43% of hypoactive variants also decrease cellular protein abundance. The low-abundance variants are enriched in the large domain, while residues in the small domain are tolerant to mutations with respect to abundance. Instead, many variants in the small domain perturb GCK conformational dynamics which are essential for appropriate activity. In this study, we identify residues important for GCK metabolic stability and conformational dynamics. These residues could be targeted to modulate GCK activity, and thereby affect glucose homeostasis.",
+        "doi": "10.1186/s13059-024-03238-2",
+        "publicationYear": 2024,
+        "publicationJournal": "Genome Biol",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/38627865",
+        "referenceHtml": "Gersing S, <i>et al</i>. Characterizing glucokinase variant mechanisms using a multiplexed abundance assay. Genome Biol. 2024; 25:98. 10.1186/s13059-024-03238-2",
+        "id": 143
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [
+      {
+        "identifier": "GSE226732",
+        "id": 81,
+        "recordType": "RawReadIdentifier",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226732"
+      }
+    ],
+    "contributors": [],
+    "keywords": [
+      {
+        "keyword": {
+          "key": "Delivery Method",
+          "label": "Chemical or heat shock transformation",
+          "special": false,
+          "description": "How the variant library was delivered to the model system for phenotype evaluation."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method Mechanism",
+          "label": "Plasmid (not integrated)",
+          "special": false,
+          "description": "The mechanism for integration or expression of an exogenous construct"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "In Vitro Construct Library Method System",
+          "label": "Oligo-directed mutagenic PCR",
+          "special": false,
+          "description": "The type of method used to generate the library"
+        },
+        "description": "POPCode mutagenesis, degenerate NNK codon",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Dimensionality",
+          "label": "Single-dimensional data",
+          "special": false,
+          "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Mechanism",
+          "label": "Loss of function",
+          "special": false,
+          "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Model System",
+          "label": "Yeast",
+          "special": false,
+          "description": "The model system context that influences expression of the phenotype."
+        },
+        "description": "Saccharomyces cerevisiae (NCBI:txid4932)",
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Profiling Strategy",
+          "label": "Direct sequencing",
+          "special": false,
+          "description": "The strategy used to profile the variant library"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Sequencing Read Type",
+          "label": "Single-segment (short read)",
+          "special": false,
+          "description": "The sequencing method used"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Variant Library Creation Method",
+          "label": "In vitro construct library method",
+          "special": false,
+          "description": "A methodology for generating a variant library at an endogenous locus"
+        },
+        "recordType": "ExperimentControlledKeyword"
+      },
+      {
+        "keyword": {
+          "key": "Phenotypic Assay Method",
+          "label": "Reporter",
+          "special": false,
+          "description": "The assay method, defining the molecular properties interrogated."
+        },
+        "recordType": "ExperimentControlledKeyword"
+      }
+    ],
+    "scoreSetUrns": [
+      "urn:mavedb:00000096-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [
+    {
+      "badgeName": "MaveMD",
+      "name": "MaveMD",
+      "urn": "urn:mavedb:collection-603dafbf-4a3f-4d70-ab8c-aafb226fbff4",
+      "scoreSetUrns": [
+        "urn:mavedb:00000657-a-1",
+        "urn:mavedb:00000657-b-1",
+        "urn:mavedb:00000662-0-1",
+        "urn:mavedb:00001250-a-1",
+        "urn:mavedb:00001222-a-2",
+        "urn:mavedb:00001222-b-2",
+        "urn:mavedb:00000097-0-2",
+        "urn:mavedb:00001224-a-1",
+        "urn:mavedb:00001263-a-1",
+        "urn:mavedb:00001268-0-1",
+        "urn:mavedb:00001268-a-1",
+        "urn:mavedb:00001268-b-1",
+        "urn:mavedb:00001268-c-1",
+        "urn:mavedb:00001242-a-1",
+        "urn:mavedb:00000001-c-1",
+        "urn:mavedb:00001226-a-1",
+        "urn:mavedb:00001226-b-1",
+        "urn:mavedb:00000005-a-5",
+        "urn:mavedb:00000005-a-6",
+        "urn:mavedb:00001205-a-1",
+        "urn:mavedb:00001227-a-2",
+        "urn:mavedb:00001262-a-1",
+        "urn:mavedb:00001228-a-1",
+        "urn:mavedb:00001200-0-1",
+        "urn:mavedb:00001200-a-1",
+        "urn:mavedb:00001200-b-1",
+        "urn:mavedb:00001200-c-1",
+        "urn:mavedb:00001200-d-1",
+        "urn:mavedb:00001200-e-1",
+        "urn:mavedb:00001197-a-5",
+        "urn:mavedb:00001266-b-1",
+        "urn:mavedb:00000096-a-1",
+        "urn:mavedb:00000096-b-1",
+        "urn:mavedb:00000108-0-1",
+        "urn:mavedb:00000108-a-1",
+        "urn:mavedb:00000108-b-1",
+        "urn:mavedb:00001198-a-1",
+        "urn:mavedb:00000674-a-2",
+        "urn:mavedb:00000674-b-1",
+        "urn:mavedb:00000674-c-1",
+        "urn:mavedb:00001230-a-2",
+        "urn:mavedb:00001229-a-2",
+        "urn:mavedb:00001231-a-2",
+        "urn:mavedb:00000094-a-2",
+        "urn:mavedb:00000094-a-3",
+        "urn:mavedb:00001254-a-1",
+        "urn:mavedb:00000050-a-1",
+        "urn:mavedb:00000663-a-1",
+        "urn:mavedb:00000112-a-1",
+        "urn:mavedb:00001259-a-1",
+        "urn:mavedb:00000665-a-1",
+        "urn:mavedb:00000665-b-1",
+        "urn:mavedb:00000665-c-1",
+        "urn:mavedb:00000665-d-1",
+        "urn:mavedb:00000013-a-1",
+        "urn:mavedb:00000054-a-1",
+        "urn:mavedb:00000673-0-1",
+        "urn:mavedb:00001260-a-1",
+        "urn:mavedb:00000099-a-1",
+        "urn:mavedb:00000098-a-2",
+        "urn:mavedb:00001233-a-1",
+        "urn:mavedb:00000659-a-1",
+        "urn:mavedb:00000060-a-1",
+        "urn:mavedb:00000060-a-2",
+        "urn:mavedb:00001235-a-1",
+        "urn:mavedb:00001236-0-1",
+        "urn:mavedb:00000068-0-1",
+        "urn:mavedb:00000068-a-1",
+        "urn:mavedb:00000068-b-1",
+        "urn:mavedb:00000068-c-1",
+        "urn:mavedb:00001234-0-1",
+        "urn:mavedb:00001234-a-1",
+        "urn:mavedb:00001234-b-1",
+        "urn:mavedb:00001234-c-1",
+        "urn:mavedb:00001234-d-1",
+        "urn:mavedb:00001234-e-1",
+        "urn:mavedb:00001234-f-1",
+        "urn:mavedb:00001234-g-1",
+        "urn:mavedb:00001234-h-1",
+        "urn:mavedb:00001251-a-1",
+        "urn:mavedb:00001267-b-1",
+        "urn:mavedb:00000675-a-1",
+        "urn:mavedb:00001264-a-1",
+        "urn:mavedb:00001267-a-2"
+      ],
+      "experimentUrns": []
+    }
+  ],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

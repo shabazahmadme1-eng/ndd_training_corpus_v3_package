@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1016/j.jmb.2010.03.058\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "20363230",
+        "source": "MED",
+        "pmid": "20363230",
+        "pmcid": "PMC2896288",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2896288"
+          ]
+        },
+        "doi": "10.1016/j.jmb.2010.03.058",
+        "title": "Determinants of BH3 binding specificity for Mcl-1 versus Bcl-xL.",
+        "authorString": "Dutta S, Gull\u00e1 S, Chen TS, Fire E, Grant RA, Keating AE.",
+        "journalTitle": "J Mol Biol",
+        "issue": "5",
+        "journalVolume": "398",
+        "pubYear": "2010",
+        "journalIssn": "0022-2836; 1089-8638; ",
+        "pageInfo": "747-762",
+        "pubType": "research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 119,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2010-04-02",
+        "firstIndexDate": "2010-07-08"
+      }
+    ]
+  }
+}

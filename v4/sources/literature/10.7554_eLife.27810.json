@@ -1,0 +1,62 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.7554/eLife.27810\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28686159",
+        "source": "MED",
+        "pmid": "28686159",
+        "pmcid": "PMC5538825",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5538825"
+          ]
+        },
+        "doi": "10.7554/elife.27810",
+        "title": "Deconstruction of the Ras switching cycle through saturation mutagenesis.",
+        "authorString": "Bandaru P, Shah NH, Bhattacharyya M, Barton JP, Kondo Y, Cofsky JC, Gee CL, Chakraborty AK, Kortemme T, Ranganathan R, Kuriyan J.",
+        "journalTitle": "Elife",
+        "journalVolume": "6",
+        "pubYear": "2017",
+        "journalIssn": "2050-084x",
+        "pageInfo": "e27810",
+        "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 113,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "PDB"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pfam",
+            "pdb",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2017-07-07",
+        "firstIndexDate": "2017-07-08"
+      }
+    ]
+  }
+}

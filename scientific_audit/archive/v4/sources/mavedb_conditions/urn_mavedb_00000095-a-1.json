@@ -1,0 +1,412 @@
+{
+  "title": "CYP2C9 activity scores as measured by Click-seq",
+  "methodText": " ",
+  "abstractText": " ",
+  "shortDescription": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq). This entry contains amino acid scores from the activity assay using Click-seq in humanized yeast cells.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000095-a-1",
+  "numVariants": 6524,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [
+    {
+      "identifier": "34314704",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+      "authors": [
+        {
+          "name": "Amorosi, Clara J",
+          "primary": true
+        },
+        {
+          "name": "Chiasson, Melissa A",
+          "primary": false
+        },
+        {
+          "name": "McDonald, Matthew G",
+          "primary": false
+        },
+        {
+          "name": "Wong, Lai Hong",
+          "primary": false
+        },
+        {
+          "name": "Sitko, Katherine A",
+          "primary": false
+        },
+        {
+          "name": "Boyle, Gabriel",
+          "primary": false
+        },
+        {
+          "name": "Kowalski, John P",
+          "primary": false
+        },
+        {
+          "name": "Rettie, Allan E",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Dunham, Maitreya J",
+          "primary": false
+        }
+      ],
+      "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+      "doi": "10.1016/j.ajhg.2021.07.001",
+      "publicationYear": 2021,
+      "publicationJournal": "Am J Hum Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+      "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+      "id": 74
+    },
+    {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+        {
+          "name": "Matreyek, Kenneth A",
+          "primary": true
+        },
+        {
+          "name": "Starita, Lea M",
+          "primary": false
+        },
+        {
+          "name": "Stephany, Jason J",
+          "primary": false
+        },
+        {
+          "name": "Martin, Beth",
+          "primary": false
+        },
+        {
+          "name": "Chiasson, Melissa A",
+          "primary": false
+        },
+        {
+          "name": "Gray, Vanessa E",
+          "primary": false
+        },
+        {
+          "name": "Kircher, Martin",
+          "primary": false
+        },
+        {
+          "name": "Khechaduri, Arineh",
+          "primary": false
+        },
+        {
+          "name": "Dines, Jennifer N",
+          "primary": false
+        },
+        {
+          "name": "Hause, Ronald J",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Smita",
+          "primary": false
+        },
+        {
+          "name": "Evans, William E",
+          "primary": false
+        },
+        {
+          "name": "Relling, Mary V",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wenjian",
+          "primary": false
+        },
+        {
+          "name": "Shendure, Jay",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+    }
+  ],
+  "publishedDate": "2022-06-08",
+  "creationDate": "2022-06-08",
+  "modificationDate": "2026-07-15",
+  "createdBy": {
+    "orcidId": "0000-0002-0730-2576",
+    "firstName": "Clara",
+    "lastName": "Amorosi",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0002-0730-2576",
+    "firstName": "Clara",
+    "lastName": "Amorosi",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "CYP2C9",
+      "category": "protein_coding",
+      "externalIdentifiers": [],
+      "id": 299,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGGACTCCTTGGTTGTGTTGGTTCTGTGTTTATCTTGCTTACTATTGCTGAGCCTTTGGAGACAGTCTTCAGGAAGAGGTAAGTTGCCCCCGGGTCCTACACCCCTGCCTGTGATAGGTAATATATTACAGATCGGGATCAAAGATATCAGTAAGAGTCTGACTAATTTGTCCAAAGTGTATGGTCCAGTGTTTACTCTGTACTTTGGCTTGAAACCCATTGTGGTTTTGCACGGATACGAAGCTGTTAAGGAGGCACTAATCGATTTAGGCGAAGAATTCTCTGGAAGAGGCATTTTTCCATTGGCTGAAAGGGCAAACAGAGGTTTCGGTATCGTTTTTAGTAACGGAAAGAAGTGGAAGGAAATTAGAAGATTTAGTTTAATGACTCTGAGAAATTTCGGTATGGGTAAAAGATCAATTGAGGATAGAGTGCAAGAAGAAGCTCGTTGTCTTGTGGAAGAATTAAGGAAAACCAAAGCATCTCCTTGTGACCCCACTTTCATTCTAGGCTGCGCACCGTGTAACGTTATTTGCTCTATTATTTTTCATAAGAGATTTGACTATAAGGATCAACAATTCTTGAATTTAATGGAAAAGTTGAACGAAAATATTAAAATATTGTCATCACCTTGGATTCAGATTTGCAACAACTTCTCACCAATTATCGACTATTTCCCAGGTACCCACAACAAGCTACTGAAGAATGTGGCTTTCATGAAATCTTACATTCTTGAAAAAGTCAAAGAACACCAAGAATCCATGGACATGAACAATCCACAAGATTTCATTGACTGTTTCCTTATGAAAATGGAGAAGGAGAAGCACAACCAACCCTCAGAATTTACCATAGAATCCCTTGAAAATACCGCTGTCGATTTATTTGGCGCTGGAACAGAGACCACTTCAACTACCTTGCGTTACGCATTACTACTATTACTAAAACACCCAGAAGTGACCGCGAAGGTGCAAGAAGAGATTGAGAGAGTGATCGGCAGAAATAGATCTCCTTGTATGCAAGATAGATCCCATATGCCTTATACTGATGCAGTCGTACATGAAGTTCAACGTTACATCGACTTGTTGCCTACCAGCTTGCCGCATGCAGTTACTTGTGATATTAAGTTTAGGAATTACCTTATTCCGAAAGGTACCACTATTTTGATATCTCTTACCTCCGTCTTACACGATAATAAGGAGTTTCCTAATCCAGAAATGTTCGATCCTCATCACTTCCTTGACGAGGGAGGGAATTTCAAAAAAAGTAAATACTTTATGCCATTCTCAGCGGGAAAAAGAATATGCGTAGGCGAAGCCCTGGCGGGAATGGAATTGTTCTTATTCCTGACGTCCATTCTTCAAAACTTTAACTTGAAATCTCTTGTAGATCCTAAAAATTTAGATACAACTCCGGTTGTTAATGGATTTGCATCAGTGCCTCCTTTTTATCAGCTTTGTTTTATACCCGTT",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "CYP2C9",
+      "uniprotIdFromMappedMetadata": "P11712"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "sd",
+      "expts",
+      "se",
+      "lower_ci",
+      "upper_ci",
+      "score1",
+      "score2",
+      "score4",
+      "score5",
+      "exp1_w_ave",
+      "exp2_w_ave",
+      "exp4_w_ave",
+      "exp5_w_ave"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr10:94938682-94989025&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&CYP2C9_00000095-a-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "CYP2C9 activity scores",
+    "shortDescription": "CYP2C9 activity measured by a yeast activity-based protein profiling assay (Click-seq)",
+    "abstractText": "This study measured the functional consequences of mutations in CYP2C9, as measured by two different assays, one using Variant Abundance by Massively Parallel sequencing (VAMP-seq) in HEK293T cells, and one using a yeast activity-based protein profiling assay (Click-seq).\r\n\r\nThis entry contains amino acid scores from the activity assay in humanized yeast cells.",
+    "methodText": "CYP2C9 variant libraries were generated using inverse PCR with NNK primers. Variants were tagged with 18bp random sequence barcodes and the association between barcodes and variants was determined using PacBio sequencing. The barcoded activity library was introduced into a humanized yeast strain. \r\n\r\nCells expressing CYP2C9 variants were sorted into 4 bins by FACS. Plasmid DNA was extracted and barcodes from each bin were sequenced. Four replicate sorts were performed. Barcodes from each bin were counted and associated with variant sequences using Enrich2. Variant activity scores were calculated from the weighed average of variant frequencies in each bin, such that high activity variants have a higher score and low activity variants have a lower score. Activity scores were normalized to the median synonymous variant score (set to 1) and the median nonsense variant score (set to 0). Confidence intervals and variance estimates are based on replicate scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000095-a",
+    "createdBy": {
+      "orcidId": "0000-0002-0730-2576",
+      "firstName": "Clara",
+      "lastName": "Amorosi",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0002-0730-2576",
+      "firstName": "Clara",
+      "lastName": "Amorosi",
+      "recordType": "User"
+    },
+    "creationDate": "2021-07-08",
+    "modificationDate": "2022-06-08",
+    "publishedDate": "2022-06-08",
+    "experimentSetUrn": "urn:mavedb:00000095",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+      {
+        "identifier": "29785012",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+        "authors": [
+          {
+            "name": "Matreyek, Kenneth A",
+            "primary": true
+          },
+          {
+            "name": "Starita, Lea M",
+            "primary": false
+          },
+          {
+            "name": "Stephany, Jason J",
+            "primary": false
+          },
+          {
+            "name": "Martin, Beth",
+            "primary": false
+          },
+          {
+            "name": "Chiasson, Melissa A",
+            "primary": false
+          },
+          {
+            "name": "Gray, Vanessa E",
+            "primary": false
+          },
+          {
+            "name": "Kircher, Martin",
+            "primary": false
+          },
+          {
+            "name": "Khechaduri, Arineh",
+            "primary": false
+          },
+          {
+            "name": "Dines, Jennifer N",
+            "primary": false
+          },
+          {
+            "name": "Hause, Ronald J",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Smita",
+            "primary": false
+          },
+          {
+            "name": "Evans, William E",
+            "primary": false
+          },
+          {
+            "name": "Relling, Mary V",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wenjian",
+            "primary": false
+          },
+          {
+            "name": "Shendure, Jay",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          }
+        ],
+        "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+        "doi": "10.1038/s41588-018-0122-z",
+        "publicationYear": 2018,
+        "publicationJournal": "Nat Genet",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+        "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+        "id": 12
+      },
+      {
+        "identifier": "34314704",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Massively parallel characterization of CYP2C9 variant enzyme activity and abundance.",
+        "authors": [
+          {
+            "name": "Amorosi, Clara J",
+            "primary": true
+          },
+          {
+            "name": "Chiasson, Melissa A",
+            "primary": false
+          },
+          {
+            "name": "McDonald, Matthew G",
+            "primary": false
+          },
+          {
+            "name": "Wong, Lai Hong",
+            "primary": false
+          },
+          {
+            "name": "Sitko, Katherine A",
+            "primary": false
+          },
+          {
+            "name": "Boyle, Gabriel",
+            "primary": false
+          },
+          {
+            "name": "Kowalski, John P",
+            "primary": false
+          },
+          {
+            "name": "Rettie, Allan E",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Dunham, Maitreya J",
+            "primary": false
+          }
+        ],
+        "abstract": "CYP2C9 encodes a cytochrome P450 enzyme responsible for metabolizing up to 15% of small molecule drugs, and CYP2C9 variants can alter the safety and efficacy of these therapeutics. In particular, the anti-coagulant warfarin is prescribed to over 15 million people annually and polymorphisms in CYP2C9 can affect individual drug response and lead to an increased risk of hemorrhage. We developed click-seq, a pooled yeast-based activity assay, to test thousands of variants. Using click-seq, we measured the activity of 6,142 missense variants in yeast. We also measured the steady-state cellular abundance of 6,370 missense variants in a human cell line by using variant abundance by massively parallel sequencing (VAMP-seq). These data revealed that almost two-thirds of CYP2C9 variants showed decreased activity and that protein abundance accounted for half of the variation in CYP2C9 function. We also measured activity scores for 319 previously unannotated human variants, many of which may have clinical relevance.",
+        "doi": "10.1016/j.ajhg.2021.07.001",
+        "publicationYear": 2021,
+        "publicationJournal": "Am J Hum Genet",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/34314704",
+        "referenceHtml": "Amorosi CJ, <i>et al</i>. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. Massively parallel characterization of CYP2C9 variant enzyme activity and abundance. 2021; 108:1735-1751. doi: 10.1016/j.ajhg.2021.07.001",
+        "id": 74
+      }
+    ],
+    "rawReadIdentifiers": [
+      {
+        "identifier": "GSE165412",
+        "id": 53,
+        "recordType": "RawReadIdentifier",
+        "url": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165412"
+      }
+    ],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000095-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "complete"
+}

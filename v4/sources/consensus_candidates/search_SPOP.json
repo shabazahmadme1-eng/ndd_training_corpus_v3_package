@@ -1,0 +1,227 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001258-a-1",
+   "title": "Selection of loss-of-function SPOP via yeast survival assay",
+   "shortDescription": "An amino acid level deep mutational scan of human SPOP using yeast survival assay.",
+   "publishedDate": "2025-12-24",
+   "replacesId": null,
+   "numVariants": 7441,
+   "experiment": {
+    "title": "SPOP yeast growth inhibition",
+    "shortDescription": "Deep Mutational Scan of the human SPOP using yeast growth inhibition reveals comprehensive functional landscape of variants.",
+    "abstractText": "To comprehensively characterize the functional landscape of SPOP alteration, we performed a deep mutational screening (DMS), elucidating the functionality of 7,933 out of 8,228 possible single amino acid changes (96.4% coverage). Leveraging the observation that overexpression of human SPOP leads to yeast growth arrest, we assessed the functionality of each variant using a yeast proliferation assay.",
+    "methodText": "DMS library was synthesized through tile-based cloning. We observed that expression of wild-type SPOP inhibits yeast growth, whereas depletion of specific functional regions within wild-type SPOP, namely the MATH, BTB, and 3-box domains, rescues it. To take advantage of the complementary strengths of both platforms, we analyze our mutant libraries using short-read and long-read sequencing.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001258-a",
+    "createdBy": {
+     "orcidId": "0000-0003-4141-3015",
+     "firstName": "Jeongha",
+     "lastName": "Lee",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0003-4141-3015",
+     "firstName": "Jeongha",
+     "lastName": "Lee",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-17",
+    "modificationDate": "2025-12-24",
+    "publishedDate": "2025-12-24",
+    "experimentSetUrn": "urn:mavedb:00001258",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [
+     {
+      "keyword": {
+       "key": "Variant Library Creation Method",
+       "label": "In vitro construct library method",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A methodology for generating a variant library at an endogenous locus"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method System",
+       "label": "Oligo pool synthesis",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The type of method used to generate the library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "In Vitro Construct Library Method Mechanism",
+       "label": "Extra-local construct insertion",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The mechanism for integration or expression of an exogenous construct"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Dimensionality",
+       "label": "Single-dimensional data",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "A coding defining the dimensionality of the assay as single or multiple functional readouts."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Method",
+       "label": "Survival assessment assay",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The assay method, defining the molecular properties interrogated."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Model System",
+       "label": "Yeast",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The model system context that influences expression of the phenotype."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Profiling Strategy",
+       "label": "Direct sequencing",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The strategy used to profile the variant library"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Sequencing Read Type",
+       "label": "Multi-segment",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The sequencing method used"
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Phenotypic Assay Mechanism",
+       "label": "Loss of function",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "The Gene Ontology (GO) is a structured, standardized representation of biological knowledge."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     },
+     {
+      "keyword": {
+       "key": "Delivery Method",
+       "label": "Chemical-based transfection",
+       "system": null,
+       "code": null,
+       "version": null,
+       "special": false,
+       "description": "How the variant library was delivered to the model system for phenotype evaluation."
+      },
+      "description": null,
+      "recordType": "ExperimentControlledKeyword"
+     }
+    ],
+    "scoreSetUrns": [
+     "urn:mavedb:00001258-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-24",
+   "modificationDate": "2025-12-24",
+   "targetGenes": [
+    {
+     "name": "SPOP",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7928,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGTCAAGGGTTCCAAGTCCTCCACCTCCGGCAGAAATGTCGAGTGGCCCCGTAGCTGAGAGTTGGTGCTACACACAGATCAAGGTAGTGAAATTCTCCTACATGTGGACCATCAATAACTTTAGCTTTTGCCGGGAGGAAATGGGTGAAGTCATTAAAAGTTCTACATTTTCATCAGGAGCAAATGATAAACTGAAATGGTGTTTGCGAGTAAACCCCAAAGGGTTAGATGAAGAAAGCAAAGATTACCTGTCACTTTACCTGTTACTGGTCAGCTGTCCAAAGAGTGAAGTTCGGGCAAAATTCAAATTCTCCATCCTGAATGCCAAGGGAGAAGAAACCAAAGCTATGGAGAGTCAACGGGCATATAGGTTTGTGCAAGGCAAAGACTGGGGATTCAAGAAATTCATCCGTAGAGATTTTCTTTTGGATGAGGCCAACGGGCTTCTCCCTGATGACAAGCTTACCCTCTTCTGCGAGGTGAGTGTTGTGCAAGATTCTGTGAACATTTCTGGCCAGAATACCATGAACATGGTAAAGGTTCCTGAGTGCCGACTGGCAGATGAGTTAGGAGGACTGTGGGAGAATTCCCGGTTCACAGACTGCTGCTTGTGTGTTGCTGGCCAGGAATTCCAGGCTCACAAGGCTATCTTAGCAGCTCGTTCTCCGGTTTTTAGTGCCATGTTTGAACATGAAATGGAGGAGAGCAAAAAGAATCGAGTTGAAATCAATGATGTGGAGCCTGAAGTTTTTAAGGAAATGATGTGCTTCATTTACACGGGGAAGGCTCCAAACCTCGACAAAATGGCTGATGATTTGCTGGCAGCTGCTGACAAGTATGCCCTGGAGCGCTTAAAGGTCATGTGTGAGGATGCCCTCTGCAGTAACCTGTCCGTGGAGAACGCTGCAGAAATTCTCATCCTGGCCGACCTCCACAGTGCAGATCAGTTGAAAACTCAGGCAGTGGATTTCATCAACTATCATGCTTCGGATGTCTTGGAGACCTCTGGGTGGAAGTCAATGGTGGTGTCACATCCCCACTTGGTGGCTGAGGCATACCGCTCTCTGGCTTCAGCACAGTGCCCTTTTCTGGGACCCCCACGCAAACGCCTGAAGCAATCCTAA",
+      "label": "SPOP",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": "O43791"
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 1
+}

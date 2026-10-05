@@ -1,0 +1,451 @@
+{
+  "title": "NUDT15 activity scores",
+  "methodText": "Barcode-variant counts were used as input for the ABSSeq RNA-sequencing analysis pipeline (Yang et al., 2016). Variant scores are based on the fold change in variant frequency between drug treated and untreated populations.\r\n\r\nReported are the non-normalized average score and standard deviation for each missense change, but the nature of the averaging (e.g. distinct codons with synonymous consequences or replicate assays) was not specified.",
+  "abstractText": "This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+  "shortDescription": "NUDT15 activity scores measured by a thiopurine-cytotoxicity-based screen.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000055-b-1",
+  "numVariants": 3100,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [
+    "urn:mavedb:00000055-0-1"
+  ],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [
+    {
+      "identifier": "32094176",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+      "authors": [
+        {
+          "name": "Suiter, Chase C",
+          "primary": true
+        },
+        {
+          "name": "Moriyama, Takaya",
+          "primary": false
+        },
+        {
+          "name": "Matreyek, Kenneth A",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wentao",
+          "primary": false
+        },
+        {
+          "name": "Scaletti, Emma Rose",
+          "primary": false
+        },
+        {
+          "name": "Nishii, Rina",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wenjian",
+          "primary": false
+        },
+        {
+          "name": "Hoshitsuki, Keito",
+          "primary": false
+        },
+        {
+          "name": "Singh, Minu",
+          "primary": false
+        },
+        {
+          "name": "Trehan, Amita",
+          "primary": false
+        },
+        {
+          "name": "Parish, Chris",
+          "primary": false
+        },
+        {
+          "name": "Smith, Colton",
+          "primary": false
+        },
+        {
+          "name": "Li, Lie",
+          "primary": false
+        },
+        {
+          "name": "Bhojwani, Deepa",
+          "primary": false
+        },
+        {
+          "name": "Yuen, Liz Y P",
+          "primary": false
+        },
+        {
+          "name": "Li, Chi-Kong",
+          "primary": false
+        },
+        {
+          "name": "Li, Chak-Ho",
+          "primary": false
+        },
+        {
+          "name": "Yang, Yung-Li",
+          "primary": false
+        },
+        {
+          "name": "Walker, Gareth J",
+          "primary": false
+        },
+        {
+          "name": "Goodhand, James R",
+          "primary": false
+        },
+        {
+          "name": "Kennedy, Nicholas A",
+          "primary": false
+        },
+        {
+          "name": "Klussmann, Federico Antillon",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Smita",
+          "primary": false
+        },
+        {
+          "name": "Relling, Mary V",
+          "primary": false
+        },
+        {
+          "name": "Kato, Motohiro",
+          "primary": false
+        },
+        {
+          "name": "Hori, Hiroki",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Prateek",
+          "primary": false
+        },
+        {
+          "name": "Ahmad, Tariq",
+          "primary": false
+        },
+        {
+          "name": "Yeoh, Allen E J",
+          "primary": false
+        },
+        {
+          "name": "Stenmark, P\u00e5l",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Yang, Jun J",
+          "primary": false
+        }
+      ],
+      "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+      "doi": "10.1073/pnas.1915680117",
+      "publicationYear": 2020,
+      "publicationJournal": "Proc Natl Acad Sci U S A",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+      "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+      "id": 38
+    },
+    {
+      "identifier": "27488180",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "ABSSeq: a new RNA-Seq analysis method based on modelling absolute expression differences.",
+      "authors": [
+        {
+          "name": "Yang, Wentao",
+          "primary": true
+        },
+        {
+          "name": "Rosenstiel, Philip C",
+          "primary": false
+        },
+        {
+          "name": "Schulenburg, Hinrich",
+          "primary": false
+        }
+      ],
+      "abstract": "BACKGROUND: The recent advances in next generation sequencing technology have made the sequencing of RNA (i.e., RNA-Seq) an extemely popular approach for gene expression analysis. Identification of significant differential expression represents a crucial initial step in these analyses, on which most subsequent inferences of biological functions are built. Yet, for identification of these subsequently analysed genes, most studies use an additional minimal threshold of differential expression that is not captured by the applied statistical procedures.\nRESULTS: Here we introduce a new analysis approach, ABSSeq, which uses a negative binomal distribution to model absolute expression differences between conditions, taking into account variations across genes and samples as well as magnitude of differences. In comparison to alternative methods, ABSSeq shows higher performance on controling type I error rate and at least a similar ability to correctly identify differentially expressed genes.\nCONCLUSIONS: ABSSeq specifically considers the overall magnitude of expression differences, which enhances the power in detecting truly differentially expressed genes by reducing false positives at both very low and high expression level. In addition, ABSSeq offers to calculate shrinkage of fold change to facilitate gene ranking and effective outlier detection.",
+      "doi": "10.1186/s12864-016-2848-2",
+      "publicationYear": 2016,
+      "publicationJournal": "BMC Genomics",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/27488180",
+      "referenceHtml": "Yang W, <i>et al</i>. ABSSeq: a new RNA-Seq analysis method based on modelling absolute expression differences. <i>BMC Genomics</i>. 2016; <b>17</b>:541.",
+      "id": 39
+    }
+  ],
+  "publishedDate": "2021-01-12",
+  "creationDate": "2021-01-12",
+  "modificationDate": "2026-06-30",
+  "createdBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "NUDT15",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "Q9NV35",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/Q9NV35"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 190,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGACGGCCAGCGCACAGCCGCGCGGGCGGCGGCCAGGAGTCGGAGTCGGAGTCGTGGTGACCAGCTGCAAGCATCCGCGTTGCGTCCTCCTGGGGAAGAGGAAAGGCTCGGTTGGAGCTGGCAGTTTCCAACTCCCTGGAGGTCATCTGGAGTTCGGTGAAACCTGGGAAGAATGTGCTCAAAGGGAAACCTGGGAAGAAGCAGCTCTTCACCTGAAAAATGTTCACTTTGCCTCAGTTGTGAATTCTTTCATTGAGAAGGAGAATTACCATTATGTTACTATATTAATGAAAGGAGAAGTGGATGTGACTCATGATTCAGAACCAAAGAATGTAGAGCCTGAAAAAAATGAAAGTTGGGAGTGGGTTCCTTGGGAAGAACTACCTCCCCTGGACCAGCTTTTCTGGGGACTGCGTTGTTTAAAAGAACAAGGCTATGATCCATTTAAAGAAGATCTGAACCATCTGGTGGGATACAAAGGAAATCATCTCTAG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "NUDT15",
+      "uniprotIdFromMappedMetadata": "Q9NV35"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "sd"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr13:48037749-48045796&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&NUDT15_00000055-b-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "NUDT15 activity scores",
+    "shortDescription": "NUDT15 activity scores measured by a thiopurine-cytotoxicity-based screen.",
+    "abstractText": "This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+    "methodText": "The NUDT15 variant library was synthesized by Twist Biosciences. The library included all possible single amino acid changes across the gene's coding region. Each variant was tagged with a random sequence barcode and the association between barcodes and variants was determined using PacBio SMRT sequencing as previously described for VAMP-seq. The barcoded library was introduced into a HEK293T landing pad cell line.\r\nThiopurine cytotoxicity was measured by comparing cells that were treated with 3$\\mu$m 6-thioguanine or culture media for 6 days. After treatment, genomic DNA was extracted and barcodes were sequenced on an Illumina HiSeq 2000 to obtain variant-barcode counts. Each drug treatment had 4 replicates.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000055-b",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2021-01-12",
+    "modificationDate": "2021-01-12",
+    "publishedDate": "2021-01-12",
+    "experimentSetUrn": "urn:mavedb:00000055",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [
+      {
+        "identifier": "32094176",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+        "authors": [
+          {
+            "name": "Suiter, Chase C",
+            "primary": true
+          },
+          {
+            "name": "Moriyama, Takaya",
+            "primary": false
+          },
+          {
+            "name": "Matreyek, Kenneth A",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wentao",
+            "primary": false
+          },
+          {
+            "name": "Scaletti, Emma Rose",
+            "primary": false
+          },
+          {
+            "name": "Nishii, Rina",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wenjian",
+            "primary": false
+          },
+          {
+            "name": "Hoshitsuki, Keito",
+            "primary": false
+          },
+          {
+            "name": "Singh, Minu",
+            "primary": false
+          },
+          {
+            "name": "Trehan, Amita",
+            "primary": false
+          },
+          {
+            "name": "Parish, Chris",
+            "primary": false
+          },
+          {
+            "name": "Smith, Colton",
+            "primary": false
+          },
+          {
+            "name": "Li, Lie",
+            "primary": false
+          },
+          {
+            "name": "Bhojwani, Deepa",
+            "primary": false
+          },
+          {
+            "name": "Yuen, Liz Y P",
+            "primary": false
+          },
+          {
+            "name": "Li, Chi-Kong",
+            "primary": false
+          },
+          {
+            "name": "Li, Chak-Ho",
+            "primary": false
+          },
+          {
+            "name": "Yang, Yung-Li",
+            "primary": false
+          },
+          {
+            "name": "Walker, Gareth J",
+            "primary": false
+          },
+          {
+            "name": "Goodhand, James R",
+            "primary": false
+          },
+          {
+            "name": "Kennedy, Nicholas A",
+            "primary": false
+          },
+          {
+            "name": "Klussmann, Federico Antillon",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Smita",
+            "primary": false
+          },
+          {
+            "name": "Relling, Mary V",
+            "primary": false
+          },
+          {
+            "name": "Kato, Motohiro",
+            "primary": false
+          },
+          {
+            "name": "Hori, Hiroki",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Prateek",
+            "primary": false
+          },
+          {
+            "name": "Ahmad, Tariq",
+            "primary": false
+          },
+          {
+            "name": "Yeoh, Allen E J",
+            "primary": false
+          },
+          {
+            "name": "Stenmark, P\u00e5l",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Yang, Jun J",
+            "primary": false
+          }
+        ],
+        "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+        "doi": "10.1073/pnas.1915680117",
+        "publicationYear": 2020,
+        "publicationJournal": "Proc Natl Acad Sci U S A",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+        "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+        "id": 38
+      }
+    ],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000055-b-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "incomplete"
+}

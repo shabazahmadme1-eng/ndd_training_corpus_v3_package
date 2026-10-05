@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1021/acschembio.0c00339\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "32786289",
+        "source": "MED",
+        "pmid": "32786289",
+        "pmcid": "PMC7442712",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7442712"
+          ]
+        },
+        "doi": "10.1021/acschembio.0c00339",
+        "title": "Robust Sequence Determinants of \u03b1-Synuclein Toxicity in Yeast Implicate Membrane Binding.",
+        "authorString": "Newberry RW, Arhar T, Costello J, Hartoularos GC, Maxwell AM, Naing ZZC, Pittman M, Reddy NR, Schwarz DMC, Wassarman DR, Wu TS, Barrero D, Caggiano C, Catching A, Cavazos TB, Estes LS, Faust B, Fink EA, Goldman MA, Gomez YK, Gordon MG, Gunsalus LM, Hoppe N, Jaime-Garza M, Johnson MC, Jones MG, Kung AF, Lopez KE, Lumpe J, Martyn C, McCarthy EE, Miller-Vedam LE, Navarro EJ, Palar A, Pellegrino J, Saylor W, Stephens CA, Strickland J, Torosyan H, Wankowicz SA, Wong DR, Wong G, Redding S, Chow ED, DeGrado WF, Kampmann M.",
+        "journalTitle": "ACS Chem Biol",
+        "issue": "8",
+        "journalVolume": "15",
+        "pubYear": "2020",
+        "journalIssn": "1554-8929; 1554-8937; ",
+        "pageInfo": "2137-2153",
+        "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "bioproject"
+          ]
+        },
+        "firstPublicationDate": "2020-08-12",
+        "firstIndexDate": "2020-08-14"
+      }
+    ]
+  }
+}

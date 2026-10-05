@@ -1,0 +1,56 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1093/nar/gku689\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "25064858",
+        "source": "MED",
+        "pmid": "25064858",
+        "pmcid": "PMC4150791",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4150791"
+          ]
+        },
+        "doi": "10.1093/nar/gku689",
+        "title": "High-throughput mutagenesis reveals functional determinants for DNA targeting by activation-induced deaminase.",
+        "authorString": "Gajula KS, Huwe PJ, Mo CY, Crawford DJ, Stivers JT, Radhakrishnan R, Kohli RM.",
+        "journalTitle": "Nucleic Acids Res",
+        "issue": "15",
+        "journalVolume": "42",
+        "pubYear": "2014",
+        "journalIssn": "0305-1048; 1362-4962; ",
+        "pageInfo": "9964-9975",
+        "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 20,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "firstPublicationDate": "2014-07-26",
+        "firstIndexDate": "2014-07-28"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "gene": "GPR68",
+ "uniprot": "Q15743",
+ "role": "contrast",
+ "shared_missense": 7065,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00001207-a-2",
+   "title": "GPR68 mutational scan of surface eppression",
+   "license": "CC BY-NC-SA 4.0",
+   "n_variants": 9258,
+   "heuristic_task": "abundance",
+   "mapped_missense": 7081,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 365,
+   "experiment_urn": "urn:mavedb:00001207-a",
+   "experiment_title": "GPR68 Deep Mutational Scan",
+   "experiment_method": "GPR68 deep mutational scanning library generation\nOur DIMPLE platform was used to generate the GPR68 deep mutational library51. Briefly, we designed the library to contain all missense mutations at each position in GPR68. We additionally included synonymous mutations and insertions and deletions of 1, 2, and 3 amino acids at each position. These mutations were encoded in oligos with flanking BsaI sites and then ordered as a SurePrint Oligonucleotide library (Agilent Technologies)(Table S6). This DNA was resuspended and the sublibrary fragments were amplified using PrimeStar GXL DNA polymerase and fragment-specific primers (Table S7). These reactions were subjected to PCR cleanup using Zymo Clean and Concentrate-5 kits. The cDNA sequence of GPR68 WT was synthesized by Twist Bioscience in th Three proton-sensing G protein-coupled receptors (GPCRs), GPR4, GPR65, and GPR68, respond to changes in extracellular pH to regulate diverse physiology and are implicated in a wide range of diseases. A central challenge in determining how protons activate these receptors is identifying the set of residues that bind protons. Here, we determine structures of each receptor to understand the spatial a",
+   "published": "2024-09-06"
+  },
+  {
+   "urn": "urn:mavedb:00001207-a-3",
+   "title": "GPR68 cAMP signaling at pH 5.5",
+   "license": "CC BY-NC-SA 4.0",
+   "n_variants": 9258,
+   "heuristic_task": "activity",
+   "mapped_missense": 7092,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 365,
+   "experiment_urn": "urn:mavedb:00001207-a",
+   "experiment_title": "GPR68 Deep Mutational Scan",
+   "experiment_method": "GPR68 deep mutational scanning library generation\nOur DIMPLE platform was used to generate the GPR68 deep mutational library51. Briefly, we designed the library to contain all missense mutations at each position in GPR68. We additionally included synonymous mutations and insertions and deletions of 1, 2, and 3 amino acids at each position. These mutations were encoded in oligos with flanking BsaI sites and then ordered as a SurePrint Oligonucleotide library (Agilent Technologies)(Table S6). This DNA was resuspended and the sublibrary fragments were amplified using PrimeStar GXL DNA polymerase and fragment-specific primers (Table S7). These reactions were subjected to PCR cleanup using Zymo Clean and Concentrate-5 kits. The cDNA sequence of GPR68 WT was synthesized by Twist Bioscience in th Three proton-sensing G protein-coupled receptors (GPCRs), GPR4, GPR65, and GPR68, respond to changes in extracellular pH to regulate diverse physiology and are implicated in a wide range of diseases. A central challenge in determining how protons activate these receptors is identifying the set of residues that bind protons. Here, we determine structures of each receptor to understand the spatial a",
+   "published": "2024-09-06"
+  }
+ ]
+}

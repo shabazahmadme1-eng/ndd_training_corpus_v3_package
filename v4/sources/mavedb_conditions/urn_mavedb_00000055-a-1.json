@@ -1,0 +1,582 @@
+{
+  "title": "NUDT15 protein stability scores",
+  "methodText": "Barcode-variant counts were converted to variant counts and transformed to scores using a weighted average of counts in FACS bins as described by Matreyek et al. 2018.\r\n\r\nReported are the non-normalized average score and standard deviation for each missense change, but the nature of the averaging (e.g. distinct codons with synonymous consequences or replicate assays) was not specified.",
+  "abstractText": "This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+  "shortDescription": "NUDT15 protein stability scores measured by VAMP-seq.",
+  "extraMetadata": {},
+  "recordType": "ScoreSet",
+  "urn": "urn:mavedb:00000055-a-1",
+  "numVariants": 3100,
+  "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+  },
+  "metaAnalyzesScoreSetUrns": [],
+  "metaAnalyzedByScoreSetUrns": [
+    "urn:mavedb:00000055-0-1"
+  ],
+  "doiIdentifiers": [],
+  "primaryPublicationIdentifiers": [],
+  "secondaryPublicationIdentifiers": [
+    {
+      "identifier": "29785012",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+      "authors": [
+        {
+          "name": "Matreyek, Kenneth A",
+          "primary": true
+        },
+        {
+          "name": "Starita, Lea M",
+          "primary": false
+        },
+        {
+          "name": "Stephany, Jason J",
+          "primary": false
+        },
+        {
+          "name": "Martin, Beth",
+          "primary": false
+        },
+        {
+          "name": "Chiasson, Melissa A",
+          "primary": false
+        },
+        {
+          "name": "Gray, Vanessa E",
+          "primary": false
+        },
+        {
+          "name": "Kircher, Martin",
+          "primary": false
+        },
+        {
+          "name": "Khechaduri, Arineh",
+          "primary": false
+        },
+        {
+          "name": "Dines, Jennifer N",
+          "primary": false
+        },
+        {
+          "name": "Hause, Ronald J",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Smita",
+          "primary": false
+        },
+        {
+          "name": "Evans, William E",
+          "primary": false
+        },
+        {
+          "name": "Relling, Mary V",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wenjian",
+          "primary": false
+        },
+        {
+          "name": "Shendure, Jay",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        }
+      ],
+      "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+      "doi": "10.1038/s41588-018-0122-z",
+      "publicationYear": 2018,
+      "publicationJournal": "Nat Genet",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+      "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+      "id": 12
+    },
+    {
+      "identifier": "32094176",
+      "dbName": "PubMed",
+      "recordType": "PublicationIdentifier",
+      "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+      "authors": [
+        {
+          "name": "Suiter, Chase C",
+          "primary": true
+        },
+        {
+          "name": "Moriyama, Takaya",
+          "primary": false
+        },
+        {
+          "name": "Matreyek, Kenneth A",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wentao",
+          "primary": false
+        },
+        {
+          "name": "Scaletti, Emma Rose",
+          "primary": false
+        },
+        {
+          "name": "Nishii, Rina",
+          "primary": false
+        },
+        {
+          "name": "Yang, Wenjian",
+          "primary": false
+        },
+        {
+          "name": "Hoshitsuki, Keito",
+          "primary": false
+        },
+        {
+          "name": "Singh, Minu",
+          "primary": false
+        },
+        {
+          "name": "Trehan, Amita",
+          "primary": false
+        },
+        {
+          "name": "Parish, Chris",
+          "primary": false
+        },
+        {
+          "name": "Smith, Colton",
+          "primary": false
+        },
+        {
+          "name": "Li, Lie",
+          "primary": false
+        },
+        {
+          "name": "Bhojwani, Deepa",
+          "primary": false
+        },
+        {
+          "name": "Yuen, Liz Y P",
+          "primary": false
+        },
+        {
+          "name": "Li, Chi-Kong",
+          "primary": false
+        },
+        {
+          "name": "Li, Chak-Ho",
+          "primary": false
+        },
+        {
+          "name": "Yang, Yung-Li",
+          "primary": false
+        },
+        {
+          "name": "Walker, Gareth J",
+          "primary": false
+        },
+        {
+          "name": "Goodhand, James R",
+          "primary": false
+        },
+        {
+          "name": "Kennedy, Nicholas A",
+          "primary": false
+        },
+        {
+          "name": "Klussmann, Federico Antillon",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Smita",
+          "primary": false
+        },
+        {
+          "name": "Relling, Mary V",
+          "primary": false
+        },
+        {
+          "name": "Kato, Motohiro",
+          "primary": false
+        },
+        {
+          "name": "Hori, Hiroki",
+          "primary": false
+        },
+        {
+          "name": "Bhatia, Prateek",
+          "primary": false
+        },
+        {
+          "name": "Ahmad, Tariq",
+          "primary": false
+        },
+        {
+          "name": "Yeoh, Allen E J",
+          "primary": false
+        },
+        {
+          "name": "Stenmark, P\u00e5l",
+          "primary": false
+        },
+        {
+          "name": "Fowler, Douglas M",
+          "primary": false
+        },
+        {
+          "name": "Yang, Jun J",
+          "primary": false
+        }
+      ],
+      "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+      "doi": "10.1073/pnas.1915680117",
+      "publicationYear": 2020,
+      "publicationJournal": "Proc Natl Acad Sci U S A",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+      "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+      "id": 38
+    }
+  ],
+  "publishedDate": "2021-01-12",
+  "creationDate": "2021-01-12",
+  "modificationDate": "2026-06-30",
+  "createdBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "modifiedBy": {
+    "orcidId": "0000-0003-1474-605X",
+    "firstName": "Alan",
+    "lastName": "Rubin",
+    "recordType": "User"
+  },
+  "targetGenes": [
+    {
+      "name": "NUDT15",
+      "category": "protein_coding",
+      "externalIdentifiers": [
+        {
+          "identifier": {
+            "dbName": "UniProt",
+            "identifier": "Q9NV35",
+            "recordType": "ExternalGeneIdentifier",
+            "url": "http://purl.uniprot.org/uniprot/Q9NV35"
+          },
+          "offset": 0,
+          "recordType": "ExternalGeneIdentifierOffset"
+        }
+      ],
+      "id": 189,
+      "recordType": "TargetGene",
+      "targetSequence": {
+        "sequenceType": "dna",
+        "sequence": "ATGACGGCCAGCGCACAGCCGCGCGGGCGGCGGCCAGGAGTCGGAGTCGGAGTCGTGGTGACCAGCTGCAAGCATCCGCGTTGCGTCCTCCTGGGGAAGAGGAAAGGCTCGGTTGGAGCTGGCAGTTTCCAACTCCCTGGAGGTCATCTGGAGTTCGGTGAAACCTGGGAAGAATGTGCTCAAAGGGAAACCTGGGAAGAAGCAGCTCTTCACCTGAAAAATGTTCACTTTGCCTCAGTTGTGAATTCTTTCATTGAGAAGGAGAATTACCATTATGTTACTATATTAATGAAAGGAGAAGTGGATGTGACTCATGATTCAGAACCAAAGAATGTAGAGCCTGAAAAAAATGAAAGTTGGGAGTGGGTTCCTTGGGAAGAACTACCTCCCCTGGACCAGCTTTTCTGGGGACTGCGTTGTTTAAAAGAACAAGGCTATGATCCATTTAAAGAAGATCTGAACCATCTGGTGGGATACAAAGGAAATCATCTCTAG",
+        "recordType": "TargetSequence",
+        "taxonomy": {
+          "code": 9606,
+          "organismName": "Homo sapiens",
+          "commonName": "human",
+          "rank": "SPECIES",
+          "hasDescribedSpeciesName": true,
+          "articleReference": "NCBI:txid9606",
+          "genomeIdentifierId": 5,
+          "id": 15,
+          "recordType": "Taxonomy",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+        }
+      },
+      "mappedHgncName": "NUDT15",
+      "uniprotIdFromMappedMetadata": "Q9NV35"
+    }
+  ],
+  "datasetColumns": {
+    "scoreColumns": [
+      "score",
+      "sd"
+    ],
+    "countColumns": [],
+    "recordType": "DatasetColumns"
+  },
+  "externalLinks": {
+    "ucscGenomeBrowser": {
+      "url": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr13:48037749-48045796&hubUrl=https://public.gi.ucsc.edu/~cline/mavedb/hub/hub.txt&Variant_Effect_Maps_hideKids=1&NUDT15_00000055-a-1=dense"
+    }
+  },
+  "contributors": [],
+  "scoreCalibrations": [],
+  "experiment": {
+    "title": "NUDT15 protein stability assay",
+    "shortDescription": "NUDT15 protein stability measured by VAMP-seq.",
+    "abstractText": "This experiment identified candidate pharmacogenomic variants in NUDT15 that could contribute to thiopurine toxicity. Two functional assays were performed on the same variant library, one for NUDT15 activity and one for protein stability.",
+    "methodText": "The NUDT15 variant library was synthesized by Twist Biosciences. The library included all possible single amino acid changes across the gene's coding region. Each variant was tagged with a random sequence barcode and the association between barcodes and variants was determined using PacBio SMRT sequencing as previously described for VAMP-seq. The barcoded library was introduced into a HEK293T landing pad cell line.\r\n\r\nCells expressing NUDT15 variants fused to EGFP were sorted into 4 bins based on EGFP signal normalized to mCherry by FACS. Genomic DNA was extracted from each bin and barcodes were sequenced on an Illumina HiSeq 2000 to obtain binwise variant-barcode counts. An unspecified number of replicates were performed.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00000055-a",
+    "createdBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "modifiedBy": {
+      "orcidId": "0000-0003-1474-605X",
+      "firstName": "Alan",
+      "lastName": "Rubin",
+      "recordType": "User"
+    },
+    "creationDate": "2021-01-12",
+    "modificationDate": "2021-01-12",
+    "publishedDate": "2021-01-12",
+    "experimentSetUrn": "urn:mavedb:00000055",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+      {
+        "identifier": "29785012",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Multiplex assessment of protein variant abundance by massively parallel sequencing.",
+        "authors": [
+          {
+            "name": "Matreyek, Kenneth A",
+            "primary": true
+          },
+          {
+            "name": "Starita, Lea M",
+            "primary": false
+          },
+          {
+            "name": "Stephany, Jason J",
+            "primary": false
+          },
+          {
+            "name": "Martin, Beth",
+            "primary": false
+          },
+          {
+            "name": "Chiasson, Melissa A",
+            "primary": false
+          },
+          {
+            "name": "Gray, Vanessa E",
+            "primary": false
+          },
+          {
+            "name": "Kircher, Martin",
+            "primary": false
+          },
+          {
+            "name": "Khechaduri, Arineh",
+            "primary": false
+          },
+          {
+            "name": "Dines, Jennifer N",
+            "primary": false
+          },
+          {
+            "name": "Hause, Ronald J",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Smita",
+            "primary": false
+          },
+          {
+            "name": "Evans, William E",
+            "primary": false
+          },
+          {
+            "name": "Relling, Mary V",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wenjian",
+            "primary": false
+          },
+          {
+            "name": "Shendure, Jay",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          }
+        ],
+        "abstract": "Determining the pathogenicity of genetic variants is a critical challenge, and functional assessment is often the only option. Experimentally characterizing millions of possible missense variants in thousands of clinically important genes requires generalizable, scalable assays. We describe variant abundance by massively parallel sequencing (VAMP-seq), which measures the effects of thousands of missense variants of a protein on intracellular abundance simultaneously. We apply VAMP-seq to quantify the abundance of 7,801 single-amino-acid variants of PTEN and TPMT, proteins in which functional variants are clinically actionable. We identify 1,138 PTEN and 777 TPMT variants that result in low protein abundance, and may be pathogenic or alter drug metabolism, respectively. We observe selection for low-abundance PTEN variants in cancer, and show that p.Pro38Ser, which accounts for ~10% of PTEN missense variants in melanoma, functions via a dominant-negative mechanism. Finally, we demonstrate that VAMP-seq is applicable to other genes, highlighting its generalizability.",
+        "doi": "10.1038/s41588-018-0122-z",
+        "publicationYear": 2018,
+        "publicationJournal": "Nat Genet",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/29785012",
+        "referenceHtml": "Matreyek KA, <i>et al</i>. Multiplex assessment of protein variant abundance by massively parallel sequencing. <i>Nat. Genet</i>. 2018; <b>50</b>:874-882.",
+        "id": 12
+      },
+      {
+        "identifier": "32094176",
+        "dbName": "PubMed",
+        "recordType": "PublicationIdentifier",
+        "title": "Massively parallel variant characterization identifies NUDT15 alleles associated with thiopurine toxicity.",
+        "authors": [
+          {
+            "name": "Suiter, Chase C",
+            "primary": true
+          },
+          {
+            "name": "Moriyama, Takaya",
+            "primary": false
+          },
+          {
+            "name": "Matreyek, Kenneth A",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wentao",
+            "primary": false
+          },
+          {
+            "name": "Scaletti, Emma Rose",
+            "primary": false
+          },
+          {
+            "name": "Nishii, Rina",
+            "primary": false
+          },
+          {
+            "name": "Yang, Wenjian",
+            "primary": false
+          },
+          {
+            "name": "Hoshitsuki, Keito",
+            "primary": false
+          },
+          {
+            "name": "Singh, Minu",
+            "primary": false
+          },
+          {
+            "name": "Trehan, Amita",
+            "primary": false
+          },
+          {
+            "name": "Parish, Chris",
+            "primary": false
+          },
+          {
+            "name": "Smith, Colton",
+            "primary": false
+          },
+          {
+            "name": "Li, Lie",
+            "primary": false
+          },
+          {
+            "name": "Bhojwani, Deepa",
+            "primary": false
+          },
+          {
+            "name": "Yuen, Liz Y P",
+            "primary": false
+          },
+          {
+            "name": "Li, Chi-Kong",
+            "primary": false
+          },
+          {
+            "name": "Li, Chak-Ho",
+            "primary": false
+          },
+          {
+            "name": "Yang, Yung-Li",
+            "primary": false
+          },
+          {
+            "name": "Walker, Gareth J",
+            "primary": false
+          },
+          {
+            "name": "Goodhand, James R",
+            "primary": false
+          },
+          {
+            "name": "Kennedy, Nicholas A",
+            "primary": false
+          },
+          {
+            "name": "Klussmann, Federico Antillon",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Smita",
+            "primary": false
+          },
+          {
+            "name": "Relling, Mary V",
+            "primary": false
+          },
+          {
+            "name": "Kato, Motohiro",
+            "primary": false
+          },
+          {
+            "name": "Hori, Hiroki",
+            "primary": false
+          },
+          {
+            "name": "Bhatia, Prateek",
+            "primary": false
+          },
+          {
+            "name": "Ahmad, Tariq",
+            "primary": false
+          },
+          {
+            "name": "Yeoh, Allen E J",
+            "primary": false
+          },
+          {
+            "name": "Stenmark, P\u00e5l",
+            "primary": false
+          },
+          {
+            "name": "Fowler, Douglas M",
+            "primary": false
+          },
+          {
+            "name": "Yang, Jun J",
+            "primary": false
+          }
+        ],
+        "abstract": "As a prototype of genomics-guided precision medicine, individualized thiopurine dosing based on pharmacogenetics is a highly effective way to mitigate hematopoietic toxicity of this class of drugs. Recently, ",
+        "doi": "10.1073/pnas.1915680117",
+        "publicationYear": 2020,
+        "publicationJournal": "Proc Natl Acad Sci U S A",
+        "url": "http://www.ncbi.nlm.nih.gov/pubmed/32094176",
+        "referenceHtml": "Suiter CC, <i>et al</i>. Massively parallel variant characterization identifies . <i>Proc Natl Acad Sci U S A</i>. 2020; <b>117</b>:5394-5401.",
+        "id": 38
+      }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [],
+    "keywords": [],
+    "scoreSetUrns": [
+      "urn:mavedb:00000055-a-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "officialCollections": []
+  },
+  "officialCollections": [],
+  "private": false,
+  "processingState": "success",
+  "mappingState": "incomplete"
+}

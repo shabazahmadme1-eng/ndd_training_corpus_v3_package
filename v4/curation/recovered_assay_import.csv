@@ -1,0 +1,5 @@
+gene,task,status,urn,rows,consensus_rows,new_variants,recorded_rho,detail
+ASPA,abundance,imported,urn:mavedb:00000657-a-1,5843,5843,0,1.0,"VAMP-seq cellular abundance, HEK293T landing pad"
+FKRP,activity,imported,urn:mavedb:00001197-a-5,2878,2878,0,1.0,SMuRF alpha-dystroglycan glycosylation
+LARGE1,activity,imported,urn:mavedb:00001254-a-1,4484,4484,0,1.0,SMuRF alpha-dystroglycan glycosylation
+SPOP,fitness,imported,urn:mavedb:00001258-a-1,6261,6261,0,-1.0,yeast survival selection

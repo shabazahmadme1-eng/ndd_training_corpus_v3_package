@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-title-group><journal-title>Human Mutation</journal-title><abbrev-journal-title>Hum Mutat</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7027811</article-id><article-id pub-id-type="pmcaid">7027811</article-id><article-id pub-id-type="pmcaiid">7027811</article-id><article-id pub-id-type="pmid">30977563</article-id><article-id pub-id-type="doi">10.1002/humu.23762</article-id><title-group><article-title>Characterizing variants of unknown significance in rhodopsin: A functional genomics approach</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Wan</surname><given-names initials="A">Aliete</given-names></name><xref ref-type="aff" rid="humu23762-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Place</surname><given-names initials="E">Emily</given-names></name><xref ref-type="aff" rid="humu23762-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Pierce</surname><given-names initials="EA">Eric A</given-names></name><xref ref-type="aff" rid="humu23762-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Comander</surname><given-names initials="J">Jason</given-names></name><xref ref-type="aff" rid="humu23762-aff-0001">1</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib></contrib-group><aff id="humu23762-aff-0001"><label><sup>1</sup></label>Department of Ophthalmology, Ocular Genomics Institute, Berman‐Gund Laboratory for the Study of Retinal Degenerations, Massachusetts Eye and Ear, Harvard Medical School, Boston, Massachusetts</aff><author-notes><fn id="correspondenceTo"><label>*</label><p><bold>Correspondence</bold> Jason Comander, Department of Ophthalmology, Ocular Genomics Institute, Berman‐Gund Laboratory for the Study of Retinal Degenerations, Massachusetts Eye and Ear, 243 Charles Street, Boston, MA 02114. Email: <email>jason_comander_public@meei.harvard.edu</email></p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>22</day><month>6</month><year>2019</year></pub-date><volume>40</volume><issue>8</issue><fpage>1127</fpage><page-range>1127–1144</page-range><pub-history><event event-type="pmc-release"><date><day>24</day><month>2</month><year>2020</year></date></event></pub-history><permissions><copyright-statement>© 2019 The Authors. <italic>Human Mutation</italic> Published by Wiley Periodicals, Inc.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127.pdf" content-type="pmc-pdf"><?cloudpmc-path d1e3/7027811/dbd7ed2f0632/HUMU-40-1127.pdf?><?cloudpmc-bucket app?><?size 4642344?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (<italic>RHO</italic>) variants from literature and in‐house genetic diagnostic testing were created to efficiently detect pathogenic <italic>RHO</italic> variants that fail to express on the cell surface. This study, while focused on <italic>RHO</italic>, demonstrates a streamlined, generalizable method for detecting pathogenic VUS. A relatively simple next‐generation sequencing‐based readout was developed so that a flow cytometry‐based assay could be performed simultaneously on all variants in a pooled format, without the need for barcodes or viral transduction. The resulting dataset characterized the surface expression of every <italic>RHO</italic> library variant with a high degree of reproducibility (<italic>r</italic>
+<sup>2</sup> = 0.92–0.95), recategorizing 37 variants. For example, three retinitis pigmentosa pedigrees were solved by identifying VUS which showed low expression levels (p.G18D, p.G101V, and p.P180T). Results were validated across multiple assays and correlated with clinical disease severity. This study presents a parallelized, higher‐throughput cell‐based assay for the functional characterization of VUS in RHO, and can be applied more broadly to other inherited retinal disease genes and other disorders.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> functional genomics; inherited retinal diseases; next‐generation sequencing; retinitis pigmentosa; rhodopsin; variant library; variant pathogenicity, variant of unknown significance; VUS</p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><p>Characterizing the pathogenicity of DNA sequence variants of unknown significance (VUS) is a major bottleneck in human genetics, and is increasingly important in determining which patients with inherited retinal diseases could benefit from gene therapy. A library of 210 rhodopsin (RHO) variants was created to efficiently detect pathogenic RHO variants that fail to express on the cell surface. This study presents a parallelized, higher‐throughput cell‐based assay for the functional characterization of VUS in RHO.</p><boxed-text id="boxed-text1" position="anchor"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-1" xlink:href="HUMU-40-1127-g009.jpg"><?cloudpmc-path blobs/d1e3/7027811/72766db00ad1/HUMU-40-1127-g009.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 107?><?original-width 180?><?scaled-height 107?><?scaled-width 180?></graphic></boxed-text></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2018 Oct 31; Revised 2019 Mar 31; Accepted 2019 Apr 8; Issue date 2019 Aug.</p></sec></notes></front><body><sec id="humu23762-sec-0010" disp-level="1"><label>1.</label><title>INTRODUCTION</title><p>With the increasing availability and use of human DNA sequencing, the problem of accurately characterizing newly‐discovered DNA variants has become a major issue in human genetics (Lappalainen, <xref rid="humu23762-bib-0046" ref-type="bibr">2015</xref>; Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). Difficulties in predicting the pathogenicity of DNA “variants of unknown significance” (VUS), even with all available bioinformatic, functional, and human data, routinely produce an ambiguous final result of genetic testing (Bean, Tinker, da Silva, &amp; Hegde, <xref rid="humu23762-bib-0004" ref-type="bibr">2013</xref>; Davies et al., <xref rid="humu23762-bib-0026" ref-type="bibr">2012</xref>; Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). Dealing with this ambiguity is a major problem for medical geneticists and genetic counselors who have to manage this uncertainty with patients who are expecting clarity. For example, grading systems have been developed to rank each variant on a scale from one to five, representing “pathogenic”, “likely pathogenic”, “uncertain significance”, “likely benign”, and “benign”. Evidence supporting pathogenicity is divided into additional categories, and counting the number of evidence points from each evidence category results in a final rank (Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). Such complex systems can attempt to manage uncertainty in pathogenicity, but clearly, it would be preferable to have more information about a variant to decrease the uncertainty level.</p><p>Current bioinformatic approaches to predicting variant pathogenicity are impressive in that they efficiently produce large numbers of predictions about very complex biological systems, but they are not sufficient to meet the increasing expectations about the fidelity of these predictions (Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). For example, older algorithms for predicting the pathogenicity of missense mutations, many still in use, are only 65–80% accurate (Thusberg, Olatubosun, &amp; Vihinen, <xref rid="humu23762-bib-0068" ref-type="bibr">2011</xref>), and specificity for the predictions of pathogenicity of missense and splice variants can be low (Choi, Sims, Murphy, Miller, &amp; Chan, <xref rid="humu23762-bib-0016" ref-type="bibr">2012</xref>; Houdayer et al., <xref rid="humu23762-bib-0040" ref-type="bibr">2012</xref>; Kircher et al., <xref rid="humu23762-bib-0044" ref-type="bibr">2014</xref>). The latest techniques are raising the quality of the predictions, for example with ROC curve areas of 0.72–0.86 (Caminsky, Mucaki, &amp; Rogan, <xref rid="humu23762-bib-0014" ref-type="bibr">2014</xref>; Gray, Hause, Luebeck, Shendure, &amp; Fowler, <xref rid="humu23762-bib-0035" ref-type="bibr">2018</xref>), but in the end, the state‐of‐the‐art is that “it is not recommended that these (bioinformatic) predictions be used as a sole source of evidence to make a clinical assertion” about a potentially pathogenic variant (Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). In fact, “well‐established <italic>functional</italic> studies showing a deleterious effect” is considered two levels‐of‐evidence higher than “multiple lines of <italic>computational</italic> evidence support(ing) a deleterious effect on the gene/gene product” (italics added; Richards et al., <xref rid="humu23762-bib-0060" ref-type="bibr">2015</xref>). Again, while the bioinformatic predictions are becoming even more impressive, and expected to become even more accurate when trained with more empirical data (Gray et al., <xref rid="humu23762-bib-0035" ref-type="bibr">2018</xref>), empirical wet‐lab functional assays are still required to achieve the level of accuracy desired to, for example, decide whether a patient is eligible for gene therapy treatment (Cideciyan et al., <xref rid="humu23762-bib-0020" ref-type="bibr">2018</xref>).</p><p>VUS not only cloud the interpretation and utility of clinical diagnostic testing, but also can lead to outliers and ambiguities when analyzing structure‐function relationships of proteins of interest (Rakoczy, Kiel, McKeone, Stricher, &amp; Serrano, <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>). For example, when correlating the computational prediction of misfolding propensity and the age of onset of disease among rhodopsin (RHO) mutants, some mutations are considered outliers and excluded from the regression analyses (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>); however, it is not clear whether the outliers could be due to imperfect computational models or to miscategorization of the mutant. Thus, improving the characterization of DNA variants is scientific importance, and has been included U.S. federal research priorities and identified as a knowledge gap in the understanding of inherited retinal diseases (Duncan et al., <xref rid="humu23762-bib-0030" ref-type="bibr">2018</xref>; National Eye Institute, <xref rid="humu23762-bib-0054" ref-type="bibr">2012</xref>).</p><p>This study implements an improved method to characterize potentially pathogenic DNA variants causing retinitis pigmentosa (RP). RP accounts for up to 25% of blindness or visual impairment in working‐age people (21–60 years; Al‐Merjan, Pandova, Al‐Ghanim, Al‐Wayel, &amp; Al‐Mutairi, <xref rid="humu23762-bib-0002" ref-type="bibr">2005</xref>; Buch et al., <xref rid="humu23762-bib-0012" ref-type="bibr">2004</xref>; Hartong, Berson, &amp; Dryja, <xref rid="humu23762-bib-0036" ref-type="bibr">2006</xref>; Hata, Yonezawa, Nakanishi, Ri, &amp; Yanashima, <xref rid="humu23762-bib-0038" ref-type="bibr">2003</xref>), and therefore it is an important cause of vision loss. Although RP is a Mendelian disease, it is genetically very heterogeneous, with mutations in over 60 different genes that can cause nonsyndromic RP (Berger, Kloeckener‐Gruissem, &amp; Neidhardt, <xref rid="humu23762-bib-0006" ref-type="bibr">2010</xref>; Daiger, Rossiter, Greenberg, Christoffels, &amp; Hide, <xref rid="humu23762-bib-0025" ref-type="bibr">1998</xref>; RetNet, <xref rid="humu23762-bib-0059" ref-type="bibr">2017</xref>). Genetic testing to identify the cause of disease has become increasingly important as more clinical trials for RP focus on patient populations with specific genotypes, for example, studies recruiting <italic>MERTK‐, MYO7A‐, PDE6A‐, PDE6B‐, RPGR‐, or RLBP1‐</italic> affected RP patients (U.S. National Institutes of Health, <xref rid="humu23762-bib-0070" ref-type="bibr">2017</xref>), as well as the occasional RP patient due to RPE65 mutations who would be eligible for the first food and drug administration (FDA)‐approved gene therapy, voretigene neparvovec (Luxturna; Russell et al., <xref rid="humu23762-bib-0062" ref-type="bibr">2017</xref>). Patients without a genetic diagnosis are not eligible for gene‐specific treatments. Despite the practical importance of obtaining a genetic diagnosis, definitive causal variant(s) can be found in only about half of patients, and slightly more using the latest next‐generation sequencing (NGS) techniques (Consugar et al., <xref rid="humu23762-bib-0022" ref-type="bibr">2015</xref>; Corton et al., <xref rid="humu23762-bib-0024" ref-type="bibr">2013</xref>; Glockle et al., <xref rid="humu23762-bib-0034" ref-type="bibr">2014</xref>; Huang, Wu, Lv, Zhang, &amp; Jin, <xref rid="humu23762-bib-0041" ref-type="bibr">2015</xref>; Neveling et al., <xref rid="humu23762-bib-0055" ref-type="bibr">2012</xref>; Wang et al., <xref rid="humu23762-bib-0072" ref-type="bibr">2014</xref>). For this reason, improving the characterization of DNA variants in RP is also of practical importance.</p><p>This study focuses on <italic>RHO</italic> mutants because <italic>RHO</italic> has the largest set of known pathogenic variants of any dominant RP gene, and among those genes, the structural, biochemical, and cell biological understanding of <italic>RHO</italic> is unmatched (Athanasiou et al., <xref rid="humu23762-bib-0003" ref-type="bibr">2018</xref>; Behnen et al., <xref rid="humu23762-bib-0005" ref-type="bibr">2018</xref>; Dryja, Berson, Rao, &amp; Oprian, <xref rid="humu23762-bib-0028" ref-type="bibr">1993</xref>; Krebs et al., <xref rid="humu23762-bib-0045" ref-type="bibr">2010</xref>; McKeone, Wikstrom, Kiel, &amp; Rakoczy, <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; Mendes &amp; Cheetham, <xref rid="humu23762-bib-0051" ref-type="bibr">2008</xref>; Mendes, van der Spuy, Chapple, &amp; Cheetham, <xref rid="humu23762-bib-0053" ref-type="bibr">2005</xref>; Mendes, Zaccarini, &amp; Cheetham, <xref rid="humu23762-bib-0052" ref-type="bibr">2010</xref>; Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>). The rich body of existing data provides a context for interpreting data on new variants, and conversely, provides an opportunity to refine existing models of <italic>RHO</italic> structure and function (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>). A recent review (Athanasiou et al., <xref rid="humu23762-bib-0003" ref-type="bibr">2018</xref>) notes that ongoing questions about the pathogenicity of <italic>RHO</italic> variants “reinforce the need for thorough genetics, such as segregation analyses, and in‐depth functional analyses to confirm pathogenicity.” (Note that the term “variant” is used in this study to include any sequence change, whether that sequence change is a “mutant” i.e., known to be pathogenic, a VUS, or a benign change such as a synonymous control.)</p><p>Standard experimental methods of assaying <italic>RHO</italic> variants include assessment of surface expression/subcellular localization in cell‐based assays (Behnen et al., <xref rid="humu23762-bib-0005" ref-type="bibr">2018</xref>; Chen, Wang, Lin, &amp; Chen, <xref rid="humu23762-bib-0015" ref-type="bibr">2011</xref>; Chuang, Vega, Jun, &amp; Sung, <xref rid="humu23762-bib-0018" ref-type="bibr">2004</xref>; Davies et al., <xref rid="humu23762-bib-0026" ref-type="bibr">2012</xref>; Hollingsworth &amp; Gross, <xref rid="humu23762-bib-0039" ref-type="bibr">2013</xref>; Li et al., <xref rid="humu23762-bib-0047" ref-type="bibr">1998</xref>; Liu et al., <xref rid="humu23762-bib-0048" ref-type="bibr">2013</xref>; McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; Sung, Davenport, &amp; Nathans, <xref rid="humu23762-bib-0067" ref-type="bibr">1993</xref>; Toledo et al., <xref rid="humu23762-bib-0069" ref-type="bibr">2011</xref>; Yamasaki et al., <xref rid="humu23762-bib-0075" ref-type="bibr">2014</xref>) and assessment of bulk biochemical properties (Bosch, Ramon, Del Valle, &amp; Garriga, <xref rid="humu23762-bib-0008" ref-type="bibr">2003</xref>; Bosch‐Presegue, Ramon, Toledo, Cordomi, &amp; Garriga, <xref rid="humu23762-bib-0009" ref-type="bibr">2011</xref>; Dizhoor et al., <xref rid="humu23762-bib-0027" ref-type="bibr">2008</xref>; Krebs et al., <xref rid="humu23762-bib-0045" ref-type="bibr">2010</xref>; Opefi, South, Reynolds, Smith, &amp; Reeves, <xref rid="humu23762-bib-0057" ref-type="bibr">2013</xref>). These assays are performed on one variant at a time, and, especially for the biochemical assays, do not scale easily for larger numbers of variants.</p><p>The purpose of this study was to develop higher‐throughput cell‐biological methods to evaluate <italic>RHO</italic> variants for pathogenicity for example, a “functional genomics” approach. We hypothesized that this approach would result in the improved categorization of <italic>RHO</italic> DNA variants compared with using computational information alone. We also hypothesized that pedigrees with inconclusive genetic testing results and an <italic>RHO</italic> VUS could be solved using the functional data. This study presents a streamlined functional genomic screen (Figure <xref rid="humu23762-fig-0001" ref-type="fig">1</xref>) suitable for assaying hundreds of variants, using standard mutagenesis, transfection, flow cytometry, and NGS amplicon sequencing techniques that are broadly available. The bioinformatic analysis was custom‐built, but also straightforward.</p><fig id="humu23762-fig-0001" position="float" xml:lang="en"><?disp-level 2?><label>Figure 1</label><caption><p>Experimental design of library screening for VUS characterization. An expression plasmid library of <italic>RHO</italic> variants was constructed using mutagenesis. (Four variants are shown as an example.) Each variant plasmid was individually transfected into a well of cells, and the cells were then pooled after transfection. The cells, after expressing the desired variant, were stained using a fluorescent pathogenicity assay based on RHO surface expression (fluorescent antibody). Fluorescence‐activated cell sorting was used to separate high‐ and low‐expressing cells. Each transfected cell carries with it the DNA of the variant of interest, and this “tag” can be sequenced using NGS and therefore count the relative frequency of each DNA variant in each pool, quantifying the pathogenicity of each variant in parallel. NGS: next‐generation sequencing; RHO: rhodopsin; VUS: variants of unknown significance</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-3" xlink:href="HUMU-40-1127-g001.jpg"><?cloudpmc-path blobs/d1e3/7027811/119a5ad90ab8/HUMU-40-1127-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 268?><?original-width 450?><?scaled-height 268?><?scaled-width 450?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g001.gif"><?cloudpmc-path blobs/d1e3/7027811/b9114b268a71/HUMU-40-1127-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Figure <xref rid="humu23762-fig-0001" ref-type="fig">1</xref> (see legend) describes the design of the experimental screen. Specific design considerations included: the HEK293 cell line was chosen because it has been widely used in the literature to characterize RHO mutants (Chen et al., <xref rid="humu23762-bib-0015" ref-type="bibr">2011</xref>; Chuang et al., <xref rid="humu23762-bib-0018" ref-type="bibr">2004</xref>; Davies et al., <xref rid="humu23762-bib-0026" ref-type="bibr">2012</xref>; Hollingsworth &amp; Gross, <xref rid="humu23762-bib-0039" ref-type="bibr">2013</xref>; Li et al., <xref rid="humu23762-bib-0047" ref-type="bibr">1998</xref>; Liu et al., <xref rid="humu23762-bib-0048" ref-type="bibr">2013</xref>; McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; Sung et al., <xref rid="humu23762-bib-0067" ref-type="bibr">1993</xref>; Toledo et al., <xref rid="humu23762-bib-0069" ref-type="bibr">2011</xref>; Yamasaki et al., <xref rid="humu23762-bib-0075" ref-type="bibr">2014</xref>). Also, it is a robust transfection host, and for the multiplexed assays a high transfection rate was useful to preserve library diversity. The transfection was performed in an unpooled format (one variant per well), because preliminary experiments showed that a pooled transfection at limiting dilutions of DNA, such that each cell expresses a single variant, did not produce sufficient expression (not shown). The selected pathogenicity assay was a quantification of cell surface expression of RHO using antibody staining with indirect immunofluorescence, as reported (for example, McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; any mutant protein that misfolds and fails to be detected on the cell surface was identified as pathogenic, whether that mutation is dominantly or recessively inherited in humans). We then used two different methods to implement this pathogenicity assay on the transfected cells—first, we used an unpooled format using flow cytometry analysis of RHO surface expression, which is similar to published methods (e.g. McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>) and served as a validation of the system. Then, we used a method where the transfected cells from every variant were pooled (Figure <xref rid="humu23762-fig-0001" ref-type="fig">1</xref>), allowing for higher throughput, parallelized assay. Fluorescence‐activated cell sorting (FACS) was used because it allowed for a large number of cells (~10<sup>6</sup>) to be assayed and sorted into pools for NGS analysis in parallel. Amplicon sequencing of the entire RHO complementary DNA (cDNA) plasmid, rather than an implementation of plasmid barcodes for each variant, was a simpler approach given the number of variants under study (~10<sup>2</sup>, see Section 4).</p><p>More intricate functional genomic screens have been recently developed that interrogate thousands of variants at once (Melnikov, Rogov, Wang, Gnirke, &amp; Mikkelsen, <xref rid="humu23762-bib-0050" ref-type="bibr">2014</xref>; Brenan et al., <xref rid="humu23762-bib-0011" ref-type="bibr">2016</xref>; Findlay et al., <xref rid="humu23762-bib-0031" ref-type="bibr">2018</xref>; Gasperini, Starita, &amp; Shendure, <xref rid="humu23762-bib-0033" ref-type="bibr">2016</xref>) but these methods require specialized library construction techniques, lentivirus packaging, and viral transduction followed by selection, which were not needed for this study of 210 variants.</p><p>Overall, a functional genomics approach was used to create a library of <italic>RHO</italic> variants and precisely assay their surface expression in an efficient format.</p></sec><sec id="humu23762-sec-0020" disp-level="1"><label>2.</label><title>MATERIALS AND METHODS</title><sec id="humu23762-sec-0030" disp-level="2"><label>2.1.</label><title>Identification of RHO variants</title><p>A literature review (PubMed) and database search (HGMD, ClinVar) identified 211 known RHO variants. Twenty‐two database variants were not created due to technical complexity (large insertions, large deletions, in an intron, or in an untranslated region), due to likely incompatibility with pathogenicity (a high‐allele‐frequency synonymous allele), or due to never having been reported in humans (“synthetic”). See Table S1. The remaining 189 variants were added to the variant library and of those, 175 were known as pathogenic, causing dominant RP, recessive RP, or congenital stationary night blindness. (Table S1) 14 variants were of uncertain significance or thought to be benign polymorphisms. All of the variants were well distributed across the cDNA, except that there were no variants between bp 664 and 745, which corresponds to cytoplasmic loop 3 of RHO (Zhou, Melcher, &amp; Xu, <xref rid="humu23762-bib-0076" ref-type="bibr">2012</xref>; DNA descriptors in this study refer to <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/NM_000539.3" ext-link-type="uri">NM_000539.3</ext-link> and protein descriptors refer to <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/protein/NP_000530.1" ext-link-type="uri">NP_000530.1</ext-link> also known as RHO_v001).</p><p>A group of 11 individual synonymous mutations, expected to have a similar expression to wildtype and to serve as controls, was designed synthetically (Table S1). The mutations were placed near the 3′‐end of the gene to minimize any possible (though unexpected) changes to transcriptional or translational processes (Stoletzki &amp; Eyre‐Walker, <xref rid="humu23762-bib-0066" ref-type="bibr">2007</xref>). In addition, a search for rare (detected &lt;3 times in our internal database, ExAC allele frequency &lt;10<sup>−4</sup>) RHO VUS from patient DNA sequencing performed in our institution's genetic testing service (Consugar et al., <xref rid="humu23762-bib-0022" ref-type="bibr">2015</xref>), identified 10 variants spanning 11 probands. All of these variants were novel (previously unreported in patients) at the beginning of this study. Altogether, 232 RHO variants were identified and 210 were ultimately constructed as a variant library: 189 variants from literature/databases, 11 synonymous controls, and 10 novel VUS.</p><p>The study protocol adhered to the tenets of the Declaration of Helsinki and was approved by the Institutional Review Board of Massachusetts Eye and Ear.</p></sec><sec id="humu23762-sec-0040" disp-level="2"><label>2.2.</label><title>RHO variant cDNA library construction</title><p>A Gateway destination vector was created that contained: a CMV early enhancer/chicken β actin (CAG) promoter, V5 tag, Gateway cassette (Thermo Fisher Scientific, Waltham, MA), internal ribosome entry site (IRES), mCherry fluorescent protein marker (Addgene, Watertown, MA), and ampicillin resistance gene. Plasmids were propagated in ccdb survival cells (Thermo Fisher Scientific) with chloramphenicol and ampicillin. A pDONR entry clone containing the human RHO cDNA sequence was purchased (#GC‐T1321; GeneCopoeia, Rockville, MD). Each of the 210 <italic>RHO</italic> variants was created via site‐directed mutagenesis using a one‐primer modification to the QuikChange II protocol from Agilent (Braman, Papworth, &amp; Greener, <xref rid="humu23762-bib-0010" ref-type="bibr">1996</xref>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://qb3.berkeley.edu/macrolab/quick-change-mutagenesis/" ext-link-type="uri">http://qb3.berkeley.edu/macrolab/quick-change-mutagenesis/</ext-link>). Primers were synthesized in 96‐well plates by Integrated DNA Technologies (Coralville, IA). Entry clone plasmids were propagated in One Shot Top10 chemically competent <italic>E</italic>.coli (Thermo Fisher Scientific) with kanamycin 50 μg/ml. The 1,047 bp RHO insert and flanking at sites were Sanger sequenced in both directions to exclude second‐site mutations. Reracked positive clones were resequenced to verify the identity of each clone on each plate.</p><p>Expression clones (<italic>n</italic> = 210) were created by recombination of destination vector and each of the mutagenized entry clones, using LR Clonase II (Thermo Fisher Scientific). The resulting expression clone consisted of pCAG‐V5‐<italic>RHO</italic> (<italic>WT or variant</italic>)<italic>‐</italic>IRES‐mCherry and was propagated in Stbl3 cells (Thermo Fisher Scientific) with ampicillin 50–100 μg/ml. Clones were sequenced, reracked, and resequenced to verify the identity of each clone on each final library plate. DNA purification and sequencing (96‐well plate) were performed by the CCIB DNA Core Facility at Massachusetts General Hospital (Cambridge, MA).</p></sec><sec id="humu23762-sec-0050" disp-level="2"><label>2.3.</label><title>Cell culture</title><p>HEK293 cells (American Type Culture Collection) were cultured using aseptic technique and grown in 10% fetal bovine serum (FBS) in Dulbecco's modified Eagle's medium serum without antibiotics. Cells were grown at 37°C and 5% CO<sub>2</sub> in a standard cell culture incubator and passaged at subconfluent densities every 2–3 days as needed.</p></sec><sec id="humu23762-sec-0060" disp-level="2"><label>2.4.</label><title>
+<italic>RHO</italic> transfection and surface expression assays by immunofluorescence</title><p>All transfections were performed using Lipofectamine 2000 (11668019; Thermo Fisher Scientific) on HEK293 cells seeded at a density of 200 cells/mm<sup>2</sup> on tissue culture dishes. The day after seeding, the media was refreshed and the transfection mixture added as described below. Samples were collected 48 hr after transfection.</p><sec id="humu23762-sec-0070" disp-level="3"><label>2.4.1.</label><title>Immunofluorescence microscopy</title><p>Glass coverslips were placed in wells before cell seeding into six‐well dishes. Transfection was performed using 2 μg plasmid DNA and 3 μl Lipofectamine in 150 μl Opti‐MEM I (31985062; Thermo Fisher Scientific). At collection, cells on coverslips were fixed in 4% paraformaldehyde for 20 min and blocked with 3% bovine serum albumin in phosphate‐buffered saline for 10 min before applying Ret‐P1 anti‐RHO antibody (#O4886; Millipore, Sigma, Burlington, MA) at a final concentration of 1:1,000 in blocking buffer for 1 hr. After washing with PBS, Alexafluor‐488 goat anti‐mouse antibody (A‐11029; Thermo Fisher Scientific) was applied at a final concentration of 1:300 in blocking buffer for 1 hr and Hoechst 33342 (#H3570; Thermo Fisher Scientific) applied for 1–5 min at a concentration of 1:5,000. Coverslips were mounted onto slides with Fluoromount G and dried overnight at room temperature. Slides were kept at 4°C before viewing on a Nikon TI Eclipse microscope or Leica TCS SP5 confocal microscope.</p></sec><sec id="humu23762-sec-0080" disp-level="3"><label>2.4.2.</label><title>Flow cytometry</title><p>Transfection was performed in 24‐well plates using 0.5 μg plasmid and 1.5 μl Lipofectamine in 50 μl Opti‐MEM I. At collection, the cells were washed briefly with PBS and then 200 μl trypsin added and allowed to incubate for 4 min at 37°C. A 300 μl aliquot full media was then added, and cells collected into 2.2‐ml tubes. The cells were centrifuged at 400<italic>g</italic> in a floor centrifuge for 4 min and the supernatant aspirated. Cells were fixed in 4% PFA for 20 min and blocked with 3% BSA in PBS before applying the Ret‐P1 primary antibody at a final concentration of 1:1,000 in blocking buffer for 30 min. After washing with PBS, Alexfluor‐488 secondary antibody was applied at a final concentration of 1:300 in blocking buffer for 30 min. After a final PBS wash, cells were analyzed on a BD LSRII Flow Cytometer.</p><p>Flow cytometry results were analyzed with Flowing Software (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.flowingsoftware.com" ext-link-type="uri">http://www.flowingsoftware.com</ext-link>). The percentage of cells with high RHO surface expression was determined by setting the quadrants based on the WT and p.P23H controls in each experiment and then dividing the percent of cells in the top right quadrant (double‐positives) by the sum of the top right and bottom right quadrants (all transfected cells). Resulting data were averaged over independent transfections from different weeks (<italic>n</italic> = 1–3).</p></sec><sec id="humu23762-sec-0090" disp-level="3"><label>2.4.3.</label><title>FACS</title><p>Cells were prepared as described for flow cytometry analysis but pooled after transfection and then fixed in zinc‐based fixative (ZBF; #550523; BD Pharmingen) instead of 4% PFA (ZBF was used because PFA fixation/crosslinking prevented downstream PCR amplification of residual plasmid DNA [Wester et al., <xref rid="humu23762-bib-0073" ref-type="bibr">2003</xref>], while unfixed cells did not stain with Ret‐P1 antibody). All subsequent washes substituted Tris‐buffered saline (TBS) for PBS to reduce salt precipitation. Cells were sorted into TBS or PBS with 1% FBS using a BD SORP 5 Laser Vantage SE DIVA. Replicate samples were derived from independent transfections on different weeks (<italic>n</italic> = 3).</p><p>Additional experiments to implement a pooled transfection method were not effective; at standard plasmid concentrations, large numbers of different variants entered each cell causing every cell to stain similarly, while at low plasmid concentrations, not enough RHO expression was achieved for robust staining and cell sorting (not shown).</p></sec></sec><sec id="humu23762-sec-0100" disp-level="2"><label>2.5.</label><title>RHO cDNA OR RNA extraction and amplification from sorted cells</title><p>Immediately after sorting, cells (from 4 × 10<sup>4</sup> to 2.3 × 10<sup>6</sup>) were pelleted at 400<italic>g</italic> for 4 min and resuspended in 700 μl RLT buffer (Qiagen) with β‐mercaptoethanol (1:100), mixed and aliquoted into two samples of 350 μl each and stored at −80°C until extraction. Plasmid DNA and total RNA were isolated. Preliminary experiments (not shown) demonstrated that RNEasy mini columns (#74104; Qiagen) can isolate both RNA and the relatively low molecular weight plasmid DNA in one step using the manufacturer's standard RNA isolation protocol. However, as on‐column DNAse treatment performed more reliably for the RNA preparation, the cells were separated into two aliquots loaded on separate columns: For total RNA extraction, the manufacturer's standard RNEasy protocol was followed, including on‐column DNAse digestion (#79254; Qiagen). For plasmid DNA extraction, a separate aliquot of cells in RLT buffer was purified using RNEasy mini columns without DNAse digestion, and PCR performed without reverse transcription to avoid amplifying RNA. The final RNA or plasmid DNA/RNA mixture was eluted in 35 μl water, and 15 μl was used for the reverse transcription polymerase chain reaction (RT‐PCR) or PCR reaction described below.</p><p>For DNA‐extracted samples, PCR amplification was performed using forward primer 5′‐GTTTGTACAAAAAAGCAGG‐3′ and reverse primer 5′‐GGAATTTACGTAGCGGC‐3′, which were complementary to regions of the plasmid DNA flanking the RHO sequence. HotStarTaq polymerase (#203203; Qiagen) was used with the following PCR program: (a) 95°C for 15 min; (b) 36 cycles of: 94°C for 30 s, 50°C for 30 s, 72°C for 1 min; (c) 72°C for 10 min. For RNA‐extracted samples, One‐Step RT‐PCR reagent (#210212; Qiagen) was used to create cDNA and then the cDNA was amplified by PCR. The following program was used: (a) 50°C for 30 min; (b) 95°C for 15 min; (c) 36 cycles 94°C for 30 s, 50°C for 30 s, 72°C for 1 min; (d) 72°C for 10 min. One microliter of each 100 μl reaction was run on a Tapestation (Agilent) to determine approximate size and concentration and to confirm the presence of a single band of an amplified template. Negative control reactions (minus RT for RNA, plus DNAse for DNA) showed no cross‐amplification between samples that were intended to amplify RNA or DNA, respectively. PCR reactions were processed through a PCR clean‐up column (#28104; Qiagen, Germantown, MD), and the concentration determined using a QuBit dsDNA HS Assay (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/protein/Q32854" ext-link-type="uri">Q32854</ext-link>; Thermo Fisher Scientific).</p></sec><sec id="humu23762-sec-0110" disp-level="2"><label>2.6.</label><title>NGS amplicon sequencing without library barcodes</title><p>Smaller scale NGS sequencing (1/96 of a MiSeq run per sample) was performed by the CCIB DNA Core Facility at Massachusetts General Hospital (Cambridge, MA). For more read depth (~1/10 of a MiSeq run per sample), NGS sequencing was performed in the Ocular Genomics Institute facility (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oculargenomics.meei.harvard.edu/index.php/gc" ext-link-type="uri">https://oculargenomics.meei.harvard.edu/index.php/gc</ext-link>) using the following protocol: the PCR product was sheared on a Covaris E220 focused ultrasonicator set to a treatment time of 360 s, acoustic duty factor of 10%, peak incident power of 175 W and 200 cycles per burst. Library preparation was performed with the Truseq nano LT Kit (#FC‐121–4001; Illumina, San Diego, CA) but modified to use AMpure XP beads for the clean‐up steps (#A63881; Beckman Coulter, Indianapolis, IN). Briefly, steps included: clean‐up, quantification, end repair, clean‐up, A‐tail, adapter ligation, clean‐up, PCR enrichment, clean‐up, quantification and normalization, denature, and run on MiSeq using 2× 121 cycles with a 6 bp index. Because of relative overrepresentation of the amplicon ends, PhiX library (10%) was added to the final mixture.</p></sec><sec id="humu23762-sec-0120" disp-level="2"><label>2.7.</label><title>Bioinformatic quantitation of low‐frequency variants in NGS amplicon sequencing</title><p>Most variant callers are designed to work with diploid genomes and do not call variants present at less than about 50% frequency. Extensive testing with specialized low‐frequency variant callers (Spencer et al., <xref rid="humu23762-bib-0065" ref-type="bibr">2014</xref>) showed that these variant callers, including “lofreq” (Wilm et al., <xref rid="humu23762-bib-0074" ref-type="bibr">2012</xref>), did not accurately call all variants, particularly small insertions/deletions (a known limitation of alignment algorithms; Jiang, Turinsky, &amp; Brudno, <xref rid="humu23762-bib-0043" ref-type="bibr">2015</xref>). Additional analyses with MuTect (Cibulskis et al., <xref rid="humu23762-bib-0019" ref-type="bibr">2013</xref>) or MuTect2 showed low sensitivity using default settings, and settings with appropriate sensitivity and specificity were not identified (not shown). Multinucleotide polymorphisms (e.g. 511_512delCCinsGA) were particularly problematic.</p><p>Therefore, an alignment‐free approach was used to detect and quantify low‐frequency variants in NGS data when the variants are known. This algorithm uses no alignment step and simply counts the number of exact‐match occurrences of a 20 bp “probe” sequence string designed for each known variant. The “probes” (in analogy to Southern blot probes), were designed in silico containing each of the known 210 nucleotide changes. In most cases, the primer used for QuikChange mutagenesis was simply trimmed to 20 bp to create the “mutant probe”. A corresponding “wildtype probe” was created to quantify and normalize for variations in coverage. To estimate signal‐to‐noise ratio in the context of NGS sequencing errors (Fox, Reid‐Bayliss, Emond, &amp; Loeb, <xref rid="humu23762-bib-0032" ref-type="bibr">2014</xref>), a “noise probe” was manually created containing an alternate nucleotide change which was not present in the wildtype or mutant probes. Each occurrence of these 630 probes (wildtype, mutant, or noise × 210 variants) was counted in the text of each sample's FASTQ file using the Linux tool <italic>grep</italic>, similar to a strategy previously published (Bujakowska, White, Place, Consugar, &amp; Comander, <xref rid="humu23762-bib-0013" ref-type="bibr">2015</xref>). The coverage at both ends of the amplicon was overrepresented, presumably due to the sequencing of the residual unsheared amplicon.</p><p>Preliminary experiments showed that the signal‐to‐noise ratio was low for some variants, particularly at amplicon ends, where early MiSeq cycles had a lower base call quality value. Thus, before quantifying the frequency of each probe in each FASTQ file, a script was implemented to censor all FASTQ files on a base pair‐by‐base pair basis for a high‐quality Q score from 36 to 41 (“E” to “J”), resulting in improved signal‐to‐noise ratio (not shown). For graphing, signal‐to‐noise ratios were capped at 1,000 when zero noise probes were detected. Run‐time for quantification of the entire dataset was about 2 hr on our local computer cluster. These scripts are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/jcomand/VariantCounting" ext-link-type="uri">https://github.com/jcomand/VariantCounting</ext-link>.</p><p>The experimental design called for relative quantitation of each variant in two pools of transfected and sorted cells, in this case, “high” versus “low” surface‐RHO‐expressing cells. The raw read counts of each mutant probe were normalized to the read depth of the wildtype probe. that is the final “NGS ratio” used for analysis was the number of read counts: mutant probe_high/wildtype probe_high/mutant probe_low/wildtype probe_low. Three independent biological experiments (e.g. separate transfections on different weeks) were converted to log‐ratios for calculation of averages and standard errors for each variant. This log transformation was sufficient to produce approximately normally distributed ratios in this dataset with relatively large read counts (not shown); however for a dataset with small read counts, a transformation of the counts would be required (Viner, Dorman, Shirley, &amp; Rogan, <xref rid="humu23762-bib-0071" ref-type="bibr">2014</xref>).</p></sec><sec id="humu23762-sec-0130" disp-level="2"><label>2.8.</label><title>Predicting clinical disease severity</title><p>Clinical outcomes of subjects with <italic>RHO</italic> mutations have previously been published, including by our institution (Berson, Rosner, Weigel‐DiFranco, Dryja, &amp; Sandberg, <xref rid="humu23762-bib-0007" ref-type="bibr">2002</xref>). Electroretinography (ERG) data were analyzed from these subjects and subsequent subjects with <italic>RHO</italic> mutations from later years. The baseline (first visit) 30 Hz cone flicker ERG amplitude was used as the clinical outcome measure, as it has a broad dynamic range (&gt;3 log units) across disease severities (Berson et al., <xref rid="humu23762-bib-0007" ref-type="bibr">2002</xref>). Other ERG parameters or other outcomes such as visual field area and visual acuity were not used, to avoid multiple testing. To maximize sample size, data from DNA variants with the same amino acid change were pooled. Of the amino acid changes represented in the clinical data, class 2 (misfolding) mutations were the only biochemical category (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>) that had more than two mutations represented. The analysis was therefore limited to subjects with class 2 mutations (<italic>n</italic> = 69 subjects; class 2 mutations also have the best biological rationale and precedent for correlating with disease severity in this assay; Athanasiou et al., <xref rid="humu23762-bib-0003" ref-type="bibr">2018</xref>; Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>). Standard linear regression was used to predict the logged 30 Hz ERG amplitude based on the logged NGS‐based final surface expression ratio. A multivariate model (analysis of variance) was also used which adjusted for age at baseline visit, as younger subjects have higher baseline ERG amplitudes. For comparison with computationally‐derived datasets, ΔΔG values (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>) and pathogenicity predictions from the Envision dataset (Uniprot <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/protein/P08100" ext-link-type="uri">P08100</ext-link>; Gray et al., <xref rid="humu23762-bib-0035" ref-type="bibr">2018</xref>) were tested as predictors of clinical severity as well.</p></sec></sec><sec id="humu23762-sec-0140" disp-level="1"><label>3.</label><title>RESULTS</title><sec id="humu23762-sec-0150" disp-level="2"><label>3.1.</label><title>Example of inconclusive genetic testing results including a rare <italic>RHO</italic> VUS</title><p>This study hypothesizes that functional studies can help interpret DNA VUS found in patient samples. Figure <xref rid="humu23762-fig-0002" ref-type="fig">2</xref> shows an example of a clinical situation in which an inconclusive genetic testing result, including a rare RHO VUS, was obtained for a proband with RP. Of the 210 <italic>RHO</italic> variants identified for this study, 10 variants were from rare <italic>RHO</italic> VUS that were discovered in DNA samples from subjects with inherited retinal diseases (See Section 2 and Table S1). Figure <xref rid="humu23762-fig-0002" ref-type="fig">2</xref>a shows the fundus appearance of one of these 10 subjects (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/D00726" ext-link-type="uri">D00726</ext-link>) who was diagnosed with RP after a full clinical evaluation. In this Mendelian disorder, it is most likely that variant(s) in a single gene are truly pathogenic. Figure <xref rid="humu23762-fig-0002" ref-type="fig">2</xref>b shows the large number of VUS identified in genetic testing for this subject using panel‐based sequencing of inherited retinal disease genes (GEDi test; Consugar et al., <xref rid="humu23762-bib-0022" ref-type="bibr">2015</xref>). The <italic>RHO</italic> p.P180T variant (row 3) is predicted to be pathogenic, but so are other VUS to varying degrees, two of which are coding variants in genes that can cause dominantly‐inherited RP (SNRNP200 and RP1). An expert in ocular genetics may suspect that the <italic>RHO</italic> variant is the most likely to be pathogenic, but it is not conclusive. Therefore, additional functional data are needed.</p><fig id="humu23762-fig-0002" position="float" xml:lang="en"><?disp-level 3?><label>Figure 2</label><caption><p>Example subject (ID#<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/D00726" ext-link-type="uri">D00726</ext-link>) with multiple VUS. (a) Fundus photographs show midperipheral bone spicule pigmentation consistent with a diagnosis of RP. (b) DNA sequencing using the Gene Eye Disease panel revealed a large number of VUS, with annotations color coded (red/dark = supporting pathogenicity; green/light = supporting benign). An additional 31 rare, noncoding variants are not listed. *splice site potentially broken, Human Splice Finder −34%. RP: retinitis pigmentosa; VUS: variants of unknown significance</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-5" xlink:href="HUMU-40-1127-g002.jpg"><?cloudpmc-path blobs/d1e3/7027811/e870fe52d5fb/HUMU-40-1127-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 357?><?original-width 667?><?scaled-height 357?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g002.gif"><?cloudpmc-path blobs/d1e3/7027811/bb5a55d17315/HUMU-40-1127-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="humu23762-sec-0160" disp-level="2"><label>3.2.</label><title>Flow cytometry assay validation</title><p>RHO variant plasmids (<italic>n</italic> = 210) were created using site‐directed mutagenesis and these were then cloned into an expression vector suitable for transfection into cultured cells. The next step (Figure <xref rid="humu23762-fig-0001" ref-type="fig">1</xref>) was to optimize a fluorescent assay to identify which variants have pathogenic surface expression levels. Based on the assay by McKeone et al. (<xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>), Figure <xref rid="humu23762-fig-0003" ref-type="fig">3</xref> shows that indirect immunofluorescence staining successfully distinguishes between wildtype RHO and known mutant (p.P23H) RHO. In this case, whereas the wildtype RHO was expressed well on the cell surface, the p.P23H mutant did not express on the cell surface but rather was trapped inside the cell as expected. The results were validated using nonpermeabilized cells to ensure that only surface RHO was detected (Figures <xref rid="humu23762-fig-0003" ref-type="fig">3</xref>a,b); flow cytometry results corresponded to the immunofluorescence staining patterns (Figure <xref rid="humu23762-fig-0003" ref-type="fig">3</xref>c). By comparing flow cytometry results from wildtype and p.P23H mutant RHO as positive and negative controls, respectively, the assay to separate wildtype from p.P23H mutant RHO was highly reproducible (Z’ = 0.94; Figure <xref rid="humu23762-fig-0003" ref-type="fig">3</xref>d; Z’ is a measure of statistical effect size, used in high‐throughput screening to judge whether the response in a particular assay is large enough to warrant further attention). While this performance in distinguishing p.P23H versus wildtype RHO does not guarantee that all mutants will be detected with the same level of fidelity, it suggests that this assay is appropriate for use in a “high‐throughput screening” context.</p><fig id="humu23762-fig-0003" position="float" xml:lang="en"><?disp-level 3?><label>Figure 3</label><caption><p>Unpooled assay validation. (a) Indirect immunofluorescence without permeabilization using Ret‐P1/Alexafluor‐488 antibodies shows strong RHO surface expression (green) using the wildtype plasmid (WT; left column), but not with a known mutant construct (p.P23H; middle column) or no plasmid control (right column). Red: mCherry transfection control. Blue: nuclei (Hoechst). (b) With permeabilization, mutant RHO is detectable inside the cell (middle column). (c) When the same antibodies were used in flow cytometry (without permeabilization), the percentage of <italic>RHO</italic>
+<sup>+</sup>/transfection<sup>+</sup> cells (inset) correlates to the results obtained using immunofluorescence. (d) Replicate flow cytometry assays show high separation between positive and negative controls, and low noise, Z’ = 0.94. RHO: rhodopsin</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-7" xlink:href="HUMU-40-1127-g003.jpg"><?cloudpmc-path blobs/d1e3/7027811/21040d7b3b67/HUMU-40-1127-g003.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 535?><?original-width 450?><?scaled-height 535?><?scaled-width 450?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g003.gif"><?cloudpmc-path blobs/d1e3/7027811/f5acb1acc2a2/HUMU-40-1127-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Each of the 210 variants in the library was then tested by flow cytometry using two methods for comparison: (a) the standard unpooled flow cytometry assay in which each variant is maintained in a separate tube and analyzed separately (Figure S1); and (b) a pooled assay in which transfected cells are then pooled and FACS is used to sort RHO high‐expressing versus low‐expressing cells (Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>a). The entire cDNA within the transfected plasmid (inside the cell) serves as the “barcode” and allows deconvolution/quantitation of the level of each variant that is represented in the high and low pools. The residual plasmid is isolated from each cell pool, amplified by PCR and sequenced by NGS.</p><fig id="humu23762-fig-0004" position="float" xml:lang="en"><?disp-level 3?><label>Figure 4</label><caption><p>Pooled assay workflow and signal‐to‐noise ratio. (a) Gates used for FACS sorting cells with high or low rhodopsin (RHO) surface expression, based on a positive control wildtype RHO sample (green/upper) and a negative control mutant sample (red/lower). (b) Variant detection above background is demonstrated for each of 210 library variants, comparing sequencing results from of a pool of all variants (<italic>x</italic>‐axis) to those from a wildtype <italic>RHO</italic> amplicon with no variants (<italic>y</italic>‐axis). (c) Signal‐to‐noise ratio of the 210 variants as a function of location in the cDNA sequence. Error bars represent standard error of three independent replicates. Star = cluster of lower signal‐to‐noise probes‐ see text. cDNA: complementary DNA</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-9" xlink:href="HUMU-40-1127-g004.jpg"><?cloudpmc-path blobs/d1e3/7027811/860512fd79cd/HUMU-40-1127-g004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 854?><?original-width 333?><?scaled-height 854?><?scaled-width 333?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g004.gif"><?cloudpmc-path blobs/d1e3/7027811/a1d18bf4c937/HUMU-40-1127-g004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="humu23762-sec-0170" disp-level="2"><label>3.3.</label><title>Validation of string‐based pooled variant detection and quantification</title><p>All 210 library variants were detected at a coverage‐normalized frequency that was &gt;1.5 of that observed by sequencing a wildtype <italic>RHO</italic> amplicon with no variants (Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>b). Two hundred and seven of the 209 variants were seen at &gt;×2. One variant which was used in the positive control sample during flow cytometry (diamond) showed overrepresentation, possibly due to cross‐contamination at the flow cytometry stage; this was minimized in future iterations. Next, intra‐sample quality control was performed by evaluating the level of the “noise probes” as described in the Methods. Customized computational filtering of sequencing quality scores was needed to obtain high signal‐to‐noise data. Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>c shows the signal‐to‐noise (S‐N) ratio as a function of location in the cDNA. All variants were detected with a S‐N ratio &gt;1.5×, and with 208 of 210 detected at &gt;2× (Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>c).</p><p>The starred cluster of points (Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>c) with a lower, but acceptable, S‐N ratio is from variants located near a sequencing error‐prone sequence context that is GC rich with a poly‐C repeat (GGCCCCGGCC). There are a large number of reported variants in this region (Table S1), and in the 3′‐end of the coding region in general, forming a “hot spot” of reported variants. In contrast, there are no reported variants between bp 665–744.</p></sec><sec id="humu23762-sec-0180" disp-level="2"><label>3.4.</label><title>Validation and quality control of the final NGS‐based surface expression ratio</title><p>The final surface expression ratio was high when cells with a particular variant are primarily found by flow cytometry within the “Hi” gate (Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>a), with good surface expression, similar to wildtype RHO. The final ratio was low when cells with a particular variant are primarily found in the “Lo” gate, similar to known RHO mutants which do not express well on the cell surface. The characteristics of this ratio were evaluated both by comparing it to the standard unpooled flow cytometry assay and by its analytical and biological variability.</p><p>Figure <xref rid="humu23762-fig-0005" ref-type="fig">5</xref> demonstrates that there was very good concordance between the standard unpooled assay and the NGS‐based pooled assay, with an overall <italic>r</italic>
+<sup>2</sup> of 0.92. The pooled assay drastically reduced the number of samples (per biological replicate) that had to be examined by flow cytometry; unpooled: 210 samples analyzed, plus three controls. Pooled: two samples sorted, plus three controls. For the minor discrepancies/outliers in the intermediate range of the assays, it is not known which assay was more accurate. The red and pink areas contain variants with “very low” and “low” expression levels, respectively, consistent with those variants being pathogenic mutations. While hard cutoffs of such regions have no exact biological meaning, for practical purposes the regions were defined by 40% and 80% surface expression on the <italic>x</italic>‐axis, and the corresponding pooled assay ratios can be compared with positive and negative controls (Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref>). Of note, while the box‐and‐whiskers plot at the top of Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref> identifies the statistical range of the wildtype‐like synonymous controls, it is not necessarily the case that variants falling just below these levels would be pathogenic biologically. To be conservative about making claims of pathogenicity, the above cutoffs were used instead of cutoffs based on a statistical confidence interval.</p><fig id="humu23762-fig-0005" position="float" xml:lang="en"><?disp-level 3?><label>Figure 5</label><caption><p>Concordance between unpooled and pooled assays. The unpooled RHO surface expression flow cytometry assay performed on individual tubes (<italic>x</italic>‐axis) showed highly correlated results (quadratic fit; <italic>r</italic>
+<sup>2</sup> = 0.92) to the NGS‐based, pooled assay (<italic>y</italic>‐axis, log scale). Each point represents one variant. Red/dark = very low expression, pink/medium = low expression, and green/light = high expression. RHO: rhodopsin</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-11" xlink:href="HUMU-40-1127-g005.jpg"><?cloudpmc-path blobs/d1e3/7027811/37092ad62bd9/HUMU-40-1127-g005.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 251?><?original-width 333?><?scaled-height 251?><?scaled-width 333?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g005.gif"><?cloudpmc-path blobs/d1e3/7027811/96e99f8f2b92/HUMU-40-1127-g005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="humu23762-fig-0006" position="float" xml:lang="en"><?disp-level 3?><label>Figure 6</label><caption><p>Pooled assay results by variant class. RHO surface expression results are plotted by previously‐described biochemical classes. The color gradient (red/light‐black) is based on the <italic>x</italic>‐axis value, with pathogenic levels‐of expression to the left, and wildtype levels to the right. A vertical line is drawn at the lower bound of the box‐and‐whiskers plot, which shows the interquartile range and upper and lower data point values of the synonymous controls. Class 2*, following Athanasiou et a., (20018) might behave as class 4 after the 11‐cis‐retinal rescue and class 2** might behave as class 2 on overexpression, but class 4 in vivo. Labeled points are examples of variants previously considered class 2 mutants that unexpectedly show intermediate or high expression levels (upper) or VUS that were previously unclassified that are now likely to be class 2, 3, or 4 mutations (lower). RHO: rhodopsin</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-13" xlink:href="HUMU-40-1127-g006.jpg"><?cloudpmc-path blobs/d1e3/7027811/235339e3e393/HUMU-40-1127-g006.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 298?><?original-width 333?><?scaled-height 298?><?scaled-width 333?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g006.gif"><?cloudpmc-path blobs/d1e3/7027811/d24ebd34ebdd/HUMU-40-1127-g006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To evaluate variability, the pooled assay was performed on DNA from three separate biological replicates performed in different months. The resulting ratios showed high correlations between replicate experiments (<italic>r</italic>
+<sup>2</sup> = 0.86–0.88; see Figure S2). Of note, the data described above were derived from DNA amplification of the residual plasmid in the transfected cell. Ratios derived from RT‐PCR of RNA were much more variable, and while they showed similar trends, were less consistent (data not shown).</p><p>Next, the pooled assay results were graphed by the variant class derived from pre‐existing literature and database annotations (Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref>). The reported biochemical classes were obtained from the literature (Athanasiou et al., <xref rid="humu23762-bib-0003" ref-type="bibr">2018</xref>; Mendes et al., <xref rid="humu23762-bib-0053" ref-type="bibr">2005</xref>; Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>; additional historical categorizations have also been published; Krebs et al., <xref rid="humu23762-bib-0045" ref-type="bibr">2010</xref>; Sung et al., <xref rid="humu23762-bib-0067" ref-type="bibr">1993</xref>), as well as classifications that integrate pharmacologic response (Behnen et al., <xref rid="humu23762-bib-0005" ref-type="bibr">2018</xref>). The synonymous controls (top row) demonstrated high surface expression, as expected. Most of the known class 2 mutants exhibited very low surface expression as expected, but a minority (19%) expressed at levels that were unexpectedly high (p.L125R, p.E150K), intermediate (p.: A164V, G51V, F52Y, F56Y, T58M, K296M, and K296N), or moderately low (p.: G51R, T58R, L88P, G109R, C167R, S186W, M207R, M216K, and K296E). Class 3 variants showed intermediate levels. Class 4 variants showed low and high levels (see Section 4). Class 5–7 variants and benign variants show intermediate to high levels. Labeled variants that were previously considered VUS (p.L47R, p.G18D, p.G101V, and p.P180T) have now been demonstrated to express at pathogenic levels. Note that the variants with high expression levels are not necessarily all benign, as the assay does not detect all classes of mutations.</p><p>Next, six variants with new or unexpected findings were selected for further validation using immunofluorescence with confocal microscopy. p.A164V and p.G109R are class 2 mutants according to Athanasiou et al. (<xref rid="humu23762-bib-0003" ref-type="bibr">2018</xref>) and Rakoczy et al. (<xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>), but unexpectedly showed intermediate or relatively preserved surface RHO staining in all three assays—standard and pooled flow cytometry (Table <xref rid="humu23762-tbl-0001" ref-type="table">1</xref>) as well as confocal microscopy (Figure <xref rid="humu23762-fig-0007" ref-type="fig">7</xref>). The following variants were originally of unknown pathogenicity: p.L47R (literature) and p.G18D, p.G101V, p.P180T (internal VUS). All four of these variants showed low or very low surface expression in the standard and pooled flow cytometry assays and were further validated to have a low surface expression in the confocal immunofluorescence assay (Figure <xref rid="humu23762-fig-0007" ref-type="fig">7</xref>).</p><table-wrap id="humu23762-tbl-0001" position="float" xml:lang="en"><?disp-level 3?><label>Table 1</label><caption><p>New findings based on RHO surface expression assay results</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><tbody valign="top"><tr><td valign="top" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="HUMU-40-1127-g010.jpg"><?cloudpmc-path blobs/d1e3/7027811/169ba5752a23/HUMU-40-1127-g010.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?></graphic>
+</td></tr></tbody></table><table-wrap-foot><fn id="humu23762-tbl1-note-0001"><p>
+<italic>Note</italic>. RHO: rhodopsin; VUS: variants of unknown significance.</p></fn><fn id="humu23762-tbl1-note-0002"><p>Previously‐reported <italic>RHO</italic> mutation categories (“Previous class, detailed”) were revised (“Revised Class”) based on RHO surface expression results. Color‐coded gradients show pathogenic levels (red) and wild‐type levels (green). For standardized variant descriptions (HGVS format), add prefixes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/NM_000539.3" ext-link-type="uri">NM_000539.3</ext-link>: for DNA and RHO_v001: or <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/protein/NP_000530.1" ext-link-type="uri">NP_000530.1</ext-link>: for protein descriptions</p></fn></table-wrap-foot></table-wrap><fig id="humu23762-fig-0007" position="float" xml:lang="en"><?disp-level 3?><label>Figure 7</label><caption><p>Confocal immunofluorescence of selected mutants validates flow cytometry results. (a) Each column represents a transfection with a particular labeled variant, arranged from highest (left) to lowest (right) RHO expression (WT = wildtype). Top row: flow cytometry results showing surface RHO staining (<italic>y</italic>‐axis) and transfection marker (<italic>x</italic>‐axis), with the percent of transfected cells with high surface RHO as an inset. Confocal staining: green = RHO cell surface staining, purple = total RHO staining after cell permeabilization, blue = nuclear stain. Row (a): single‐slice confocal images demonstrate cell membrane staining for the left‐most three variants but fainter, punctate perinuclear staining for the other variants. A similar pattern of decreasing RHO intensity is seen in maximum projection images of (b) surface RHO and (c) total RHO. (d) Row shows a composite of all channels. RHO: rhodopsin</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-15" xlink:href="HUMU-40-1127-g007.jpg"><?cloudpmc-path blobs/d1e3/7027811/af766137eaf5/HUMU-40-1127-g007.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 575?><?original-width 667?><?scaled-height 575?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g007.gif"><?cloudpmc-path blobs/d1e3/7027811/93c6bea5daca/HUMU-40-1127-g007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="humu23762-sec-0190" disp-level="2"><label>3.5.</label><title>Probands with a rare <italic>RHO</italic> VUS</title><p>Eleven probands that had genetic testing through our departmental genetic testing service had a novel <italic>RHO</italic> VUS, as listed in Table <xref rid="humu23762-tbl-0002" ref-type="table">2</xref>. These variants were submitted to ClinVar (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/clinvar/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/clinvar/</ext-link>). These represent 10 unique VUS (as G18D was found in two probands; since the start of this project, the p.R147C variant has been added to the HGMD database as a pathogenic variant causing RP). Of the remaining nine VUS, three (33%) showed pathogenic surface expression levels. The variants that were pathogenic by the functional assay were not uniformly predicted to be damaging based on computational predictions alone (Table <xref rid="humu23762-tbl-0002" ref-type="table">2</xref>). Both of the subjects with the p.G18D mutation and the one subject with the p.G101V mutation had a phenotype of pericentral RP, as described in further detail (Comander et al., <xref rid="humu23762-bib-0021" ref-type="bibr">2017</xref>). The subject is shown in Figure <xref rid="humu23762-fig-0002" ref-type="fig">2</xref> who had RP and a p.P180T <italic>RHO</italic> variant now has been demonstrated to have a pathogenic <italic>RHO</italic> mutation.</p><table-wrap id="humu23762-tbl-0002" position="float" xml:lang="en"><?disp-level 3?><label>Table 2</label><caption><p>Comparison of information from computational methods and function assays to solve patient pedigrees</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" span="1"/><tbody valign="top"><tr><td valign="top" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="HUMU-40-1127-g011.jpg"><?cloudpmc-path blobs/d1e3/7027811/1dcb873cde21/HUMU-40-1127-g011.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?></graphic>
+</td></tr></tbody></table><table-wrap-foot><fn id="humu23762-tbl2-note-0001"><p>
+<italic>Note</italic>. RHO: rhodopsin; VUS: variants of unknown significance.</p></fn><fn id="humu23762-tbl2-note-0002"><p>Among nine rare VUS that were identified from our genetic testing service, three variants had measured pathogenic expression levels. Color coding for computational methods is based on arbitrary cutoffs for SIFT (Ng &amp; Henikoff, <xref rid="humu23762-bib-0056" ref-type="bibr">2003</xref>), PolyPhen (Adzhubei, Jordan, &amp; Sunyaev, <xref rid="humu23762-bib-0001" ref-type="bibr">2013</xref>), CADD scores (Kircher et al., <xref rid="humu23762-bib-0044" ref-type="bibr">2014</xref>), PhastCons (Siepel et al., <xref rid="humu23762-bib-0064" ref-type="bibr">2005</xref>), and GerpRS (Cooper et al., <xref rid="humu23762-bib-0023" ref-type="bibr">2005</xref>). Color coding for functional assays is based on the RHO surface expression final category. For standardized variant descriptions (HGVS format), add prefixes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/NM_000539.3" ext-link-type="uri">NM_000539.3</ext-link>:c. for DNA and RHO_v001:p. or <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/protein/NP_000530.1" ext-link-type="uri">NP_000530.1</ext-link>:p. for protein descriptions.</p></fn></table-wrap-foot></table-wrap></sec><sec id="humu23762-sec-0200" disp-level="2"><label>3.6.</label><title>Predicting clinical disease severity data from surface expression levels</title><p>Among known class 2 mutants, the level of surface RHO expression measured in vitro can predicted the clinical disease severity of class 2 mutants, with an observed increase of 0.67 of Ln ERG amplitude for each log of surface expression ratio (<italic>p</italic> = 0.0008; Figure <xref rid="humu23762-fig-0008" ref-type="fig">8</xref>). A multivariate model that takes an age‐at‐baseline visit into account gives similar results, with a 0.59 increase of Ln ERG amplitude for each log of surface expression ratio (<italic>p</italic> = 0.016). In contrast, ∆∆G values from Rakoczy et al. (<xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>), representing the computationally predicted misfolding propensity, did not predict ERG amplitudes alone, or in a combined model with age or age and NGS ratio (all <italic>p</italic> &gt; 0.05). Similarly, computational pathogenicity predictions from the Envision dataset (Gray et al., <xref rid="humu23762-bib-0035" ref-type="bibr">2018</xref>) did not correlate with clinical severity, with or without restriction of class 2 mutants (<italic>p</italic> &gt; 0.05).</p><fig id="humu23762-fig-0008" position="float" xml:lang="en"><?disp-level 3?><label>Figure 8</label><caption><p>Correlating <italic>RHO</italic> surface expression and clinical disease severity. Among known class 2 RHO mutants, increasing amounts of RHO surface expression correlated with a milder clinical phenotype, as represented by the baseline cone flicker ERG response amplitude (<italic>p</italic> = 0.012). Each point represents one patient. ERG: electroretinography; RHO: rhodopsin</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="nlm-graphic-17" xlink:href="HUMU-40-1127-g008.jpg"><?cloudpmc-path blobs/d1e3/7027811/b3b4621b8abe/HUMU-40-1127-g008.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 298?><?original-width 333?><?scaled-height 298?><?scaled-width 333?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="HUMU-40-1127-g008.gif"><?cloudpmc-path blobs/d1e3/7027811/6e66494eb7a5/HUMU-40-1127-g008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>A more robust observation was that class 1 mutants generally had a worse severity than class 2 mutants (baseline log cone flicker ERG amplitude of −0.56 + −0.17 versus 0.38+/−0.11, <italic>p</italic> &lt; 0.01), extending earlier findings (Berson et al., <xref rid="humu23762-bib-0007" ref-type="bibr">2002</xref>).</p></sec></sec><sec id="humu23762-sec-0210" disp-level="1"><label>4.</label><title>DISCUSSION</title><p>This study demonstrates the feasibility of a higher‐throughput cell‐based assay for the functional characterization of VUS in IRDs, compared with the standard approach of using a cell‐based assay for each variant individually (Chen et al., <xref rid="humu23762-bib-0015" ref-type="bibr">2011</xref>; Chuang et al., <xref rid="humu23762-bib-0018" ref-type="bibr">2004</xref>; Davies et al., <xref rid="humu23762-bib-0026" ref-type="bibr">2012</xref>; Hollingsworth &amp; Gross, <xref rid="humu23762-bib-0039" ref-type="bibr">2013</xref>; Li et al., <xref rid="humu23762-bib-0047" ref-type="bibr">1998</xref>; Liu et al., <xref rid="humu23762-bib-0048" ref-type="bibr">2013</xref>; McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; Sung et al., <xref rid="humu23762-bib-0067" ref-type="bibr">1993</xref>; Toledo et al., <xref rid="humu23762-bib-0069" ref-type="bibr">2011</xref>; Yamasaki et al., <xref rid="humu23762-bib-0075" ref-type="bibr">2014</xref>). A pooled, multiplexed assay for RHO variants can efficiently identify class 2, 3, or 4a mutants. This assay was used to identify pathogenic variants within a group of VUS, provisionally solving three pedigrees of typical or pericentral retinitis pigmentosa, including the proband in Figure <xref rid="humu23762-fig-0002" ref-type="fig">2</xref>.</p><p>The barcode‐free, pooled, NGS‐based assay for evaluating RHO surface expression was highly reproducible and quantitative, with good agreement with the standard unpooled assay. This was achieved by optimizing several segments of the schema in Figure <xref rid="humu23762-fig-0001" ref-type="fig">1</xref>, including extensive library validation, with sequencing on both DNA strands after mutagenesis and after it was recombined into the final expression vector; optimization of fixation and staining conditions to maintain high discrimination between positive and negative controls, while also using a fixative that preserved DNA integrity for subsequent PCR; and quality filtering of NGS basecalls to maintain signal‐to‐noise in variant quantification.</p><p>The data in Tables <xref rid="humu23762-tbl-0001" ref-type="table">1</xref> and S1 provide new information about previously‐uncharacterized variants, identify apparently misclassified variants, and confirm pathogenicity of known mutations. Of 80 known class 2 mutants, 71 (89%) were confirmed to show pathogenically low levels of RHO surface expression. However, 9 (11%) class 2 mutants unexpectedly showed high or intermediate levels, especially those found in transmembrane helix I 0.8 of 66 (12%) mutants in other mutation classes also showed pathogenic RHO surface expression levels, especially in class 3 and 4 mutants, which tended to have an intermediate phenotype. A total of 14 of 33 (42%) unclassified pathogenic variants showed pathogenic expression levels, which are likely class 2, 3, or 4 mutants.</p><p>For example, <italic>RHO</italic> A292E does not cause RP but instead causes the milder disease congenital stationary night blindness. <italic>RHO</italic> p.A292E is known to be constitutively active in activating transduction without a chromophore (class 6; Dryja et al., <xref rid="humu23762-bib-0028" ref-type="bibr">1993</xref>). Computation predictions based on misfolding propensity (ΔΔG; Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>) led to the conclusion that this mutant should also be grouped in class 2 (IIa), but the relatively normal actual expression level of this variant indicates that it should be categorized as class 6 only. Conversely, p.T193M was predicted to fold correctly (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>), but in this study, p.T193M is not expressed well on the cell surface. It is not known if this defect is due to misfolding or a hypothesized defect in dimerization (Rakoczy et al., <xref rid="humu23762-bib-0058" ref-type="bibr">2011</xref>).</p><p>This expanded dataset also provides more confidence in variant interpretation based on smaller numbers of variants or among different experimental systems. For example, D190N showed low expression levels in this study, in contrast to smaller studies showing moderate expression using a GFP fusion tag (McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>) or normal localization using a bovine sequence backbone (Liu et al., <xref rid="humu23762-bib-0048" ref-type="bibr">2013</xref>).</p><p>Some special variant classes deserve further discussion. Even though RHO surface expression in HEK293 cells has been widely used to demonstrate pathogenicity (Chen et al., <xref rid="humu23762-bib-0015" ref-type="bibr">2011</xref>; Chuang et al., <xref rid="humu23762-bib-0018" ref-type="bibr">2004</xref>; Davies et al., <xref rid="humu23762-bib-0026" ref-type="bibr">2012</xref>; Hollingsworth &amp; Gross, <xref rid="humu23762-bib-0039" ref-type="bibr">2013</xref>; Li et al., <xref rid="humu23762-bib-0047" ref-type="bibr">1998</xref>; Liu et al., <xref rid="humu23762-bib-0048" ref-type="bibr">2013</xref>; McKeone et al., <xref rid="humu23762-bib-0049" ref-type="bibr">2014</xref>; Sung et al., <xref rid="humu23762-bib-0067" ref-type="bibr">1993</xref>; Toledo et al., <xref rid="humu23762-bib-0069" ref-type="bibr">2011</xref>; Yamasaki et al., <xref rid="humu23762-bib-0075" ref-type="bibr">2014</xref>), recessive mutations do not show any special features in this assay, and are not distinguished from the dominant mutations. The recessive mutations are not clustered in a certain segment of the gene. However, because the number of known recessive mutants is small (6.6%; 12 of 181 according to Table S1), it is much more likely that any particular low‐expressed mutation is dominant. Therefore, this study provides good evidence that the “very low” and “low” expressing variants are pathogenic mutations, but cannot conclusively state that they are <italic>dominant</italic> pathogenic mutations (thus, the three families mentioned above are “provisionally” solved). Our initial experiments mixing together a known dominant mutation with a wildtype construct showed no effect on trafficking of the wildtype protein in this system (Figure S3). Modifications of the cell type used or of expression levels may be able to reveal such dominant negative or gain of function effects to distinguish dominant pathogenic mutations from recessive pathogenic mutations. In a different system using the SK‐N‐SH cell type, dominant negative effects of dominant mutants have been demonstrated (Mendes &amp; Cheetham, <xref rid="humu23762-bib-0051" ref-type="bibr">2008</xref>).</p><p>This assay was focused on identifying class 2 (misfolding) mutations, which is the most common class. Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref> shows that class 3 mutations (endocytosis) and some class 4 mutations (altered posttranslational modifications and reduced stability) also displayed low expression, though not quite as low as class 2, on average. Interestingly, the older Rakoczy classification separates the class 4 mutants slightly better, with the class IVa (affecting a glycosylation site; p.T4K, p.T17M, p.N15S) all showing pathogenic surface expression levels (note that three variants—p.T4K, p.P12R, and p.N15S are at or near the Ret‐P1 antibody epitope at amino acids 4–10, so the results from these variants should be interpreted with caution).</p><p>Additional assays are needed to detect and distinguish other mutation classes. For example, to identify mutations that are rescued by retinal binding (Behnen et al., <xref rid="humu23762-bib-0005" ref-type="bibr">2018</xref>; Krebs et al., <xref rid="humu23762-bib-0045" ref-type="bibr">2010</xref>; Mendes &amp; Cheetham, <xref rid="humu23762-bib-0051" ref-type="bibr">2008</xref>; Mendes et al., <xref rid="humu23762-bib-0052" ref-type="bibr">2010</xref>), the assay could be repeated in the presence of retinal (which was too toxic for use in the current transient transfection system; not shown). For context, the classical assay for analysis of RHO folding and retinal binding is ultraviolet‐visible spectroscopy. However, this assay does not scale well to hundreds of variants. Therefore this study makes a compromise in that it implements an assay that is not the gold standard but, in exchange, is amenable to higher throughput. The larger dataset produced by this higher throughput has the advantage that cross‐comparison within the dataset (e.g. Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref>) produces “internal calibrators” that increase the ability the interpret the data that is collected. However, working within the constraints of assays that can be parallelized will require some creativity to implement more general pathogenicity detectors. For the purpose of evaluating pathogenicity, general toxicity‐ or stress‐based assays would be ideal. In this cell culture system, expression of p.P23H or p.T17M mutants had no effect on cell death as measured by membrane permeability dyes, on apoptosis as measured by annexin V labeling, or on endoplasmic reticulum stress as measured by the pCAX‐XBP1delDBD‐venus reporter (Iwawaki, Akai, Kohno, &amp; Miura, <xref rid="humu23762-bib-0042" ref-type="bibr">2004</xref>; not shown). Other approaches to look for these more general effects might use different cell types or even in vivo. Thus, a panel of both general and specific assays is likely the best approach to identify all types of pathogenic mutations.</p><p>Truncating mutations (nonsense or frameshift) were expressed in the context of a cDNA without internal introns, after the synthetic intron in the CAG promoter. Because internal introns and their potential effects of nonsense‐mediated decay (Roman‐Sanchez, Wensel, &amp; Wilson, <xref rid="humu23762-bib-0061" ref-type="bibr">2016</xref>) were not included, the results for those mutants should be interpreted with caution. All truncating variants 5′ of a.a. 315 showed pathogenic expression levels, while all variants 3′ to a.a. 332, including 10 truncating variants, showed wildtype expression levels. These variants should preferably be retested in their full genomic context (Roman‐Sanchez et al., <xref rid="humu23762-bib-0061" ref-type="bibr">2016</xref>), which would also allow for testing of splice variants.</p><sec id="humu23762-sec-0220" disp-level="2"><label>4.1.</label><title>Screening small versus large variant libraries</title><p>This library construction strategy differs from larger‐scale screening strategies (Brenan et al., <xref rid="humu23762-bib-0011" ref-type="bibr">2016</xref>; Gasperini et al., <xref rid="humu23762-bib-0033" ref-type="bibr">2016</xref>; Melnikov et al., <xref rid="humu23762-bib-0050" ref-type="bibr">2014</xref>) (thousands of variants) in that this library, with 210 variants, was created with widely‐available techniques at lower technical complexity. The library itself was constructed using modified Quikchange mutagenesis reactions using inexpensive short oligos ordered in 96‐well plates (Synthetic DNA variant libraries may replace this step as prices continue to decrease). Each variant plasmid was introduced into cells using a standard transfection protocol, without the need for viral vectors. The disadvantage of this approach is that it does not scale well to larger sized libraries. Sequencing and reracking of individual clones, as well as the unpooled transfection, become more cumbersome with an increasing number of variants and wells. However, for biological questions such as the one addressed in this study involving about 200 variants or less, this approach is feasible and has the above advantages.</p><p>A smaller library size also has advantages in achieving a quantitative readout. In a very large, barcode‐free, pooled assay, NGS sequencing errors would set a lower boundary so that the rarest variants are harder to quantify, and therefore these assays would best be used to find highly enriched “hits”. In this study, because of the smaller number of variants, the quantitation of each variant could be maintained above the noise floor caused by sequencing errors. Therefore, smaller gradations in expression level were reproducibly quantified over the entire dynamic range of the assay (Figure S2), allowing for observations such as the “intermediate” expression phenotype of class 3 and 4 mutations described above. More specifically, for the quantitation of each of 210 plasmids in a mixed pool, the frequency of an individual plasmid (ideally ~1/210 = ~0.5%) has to be greater than the background noise of sequencing errors—theoretically 0.1% on the Illumina MiSeq at Q = 30, though sequence‐context and cycle number dependent. With library inhomogeneity and context‐dependent sequencing error rates, this ratio is not guaranteed to be maintained. Careful masking of low‐quality basecalls allowed for low‐frequency variant quantitation above the noise level (Section 2 and Figure <xref rid="humu23762-fig-0004" ref-type="fig">4</xref>b,c). For larger barcode‐free libraries, maintaining accurate quantification at low levels in the presence of read errors would not be solved by simply increasing read depth; specialized wet‐lab assays to lower the actual sequencing error rate (e.g. Schmitt et al., <xref rid="humu23762-bib-0063" ref-type="bibr">2012</xref>) could be considered. Alternatively, barcoded libraries designed to avoid barcode collisions in the presence of sequencing errors could be used.</p></sec><sec id="humu23762-sec-0230" disp-level="2"><label>4.2.</label><title>Predicting clinical disease severity data from surface expression levels</title><p>Among known class 2 mutants, the level of RHO surface expression measured in this study was better at predicting disease severity than computational folding predictions (Figure <xref rid="humu23762-fig-0008" ref-type="fig">8</xref> and Section 3). These approaches are not mutually exclusive, however, and structural biology can be used as a complementary approach to experimental observations. For example, folding calculations can be refined based on empirical data and then extended to new mutants. For variants that express well on the cell surface or where the mechanism is different (e.g. class 7 dimerization mutations) other classes of bioinformatic predictors are needed.</p><p>The outliers in Figure <xref rid="humu23762-fig-0008" ref-type="fig">8</xref> that do not follow the general trend of less severe disease with increasing surface expression can be informative as well. For example, p.Q184P shows low severity despite low expression, and p.L125R shows high severity despite high expression (Figure <xref rid="humu23762-fig-0008" ref-type="fig">8</xref>). These data suggest that these variants are likely not classic class 2 mutations and influence disease course through a different mechanism than simple misfolding.</p><p>The correlation between surface expression and disease severity can produce some clinically‐useful estimates. For example, a typical class 2 mutation with a low surface expression ratio of −1.5 would have a predicted baseline ERG which is 1.34 natural log units lower than a mutation with a higher expression ratio of 0.5. At an average rate of progression (0.091 Ln units per year; Berson et al., <xref rid="humu23762-bib-0007" ref-type="bibr">2002</xref>), this corresponds to an extra 15 years of vision. If outliers (e.g. Q184P, L125R) in the regression had been excluded, this estimated effect would be larger. These estimates are based on the average severity of a mutant. In particular, L125R is probably not a class 2 mutation (Figure <xref rid="humu23762-fig-0006" ref-type="fig">6</xref>). However, there is a large amount of variation between individual subjects, particularly notable for the p.P23H mutation which is common in our cohort (Dryja et al., 1990; Hartong et al., <xref rid="humu23762-bib-0037" ref-type="bibr">2009</xref>); additional modifying factors are yet to be identified, whether genetic, environmental, or stochastic (Chow, Kelsey, Wolfner, &amp; Clark, <xref rid="humu23762-bib-0017" ref-type="bibr">2016</xref>).</p><p>In summary, a functional genomics approach can be used to address the problem of VUS in inherited retinal diseases, which in general is currently one of the major bottlenecks in the diagnosis of human Mendelian diseases. Future studies may include generalizing these assays to more genes and more mutation types, as well as using more complex methods to screen larger numbers of variants.</p></sec></sec><sec id="sec24" disp-level="1"><title>Supporting information</title><supplementary-material id="supplementary-material1" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path d1e3/7027811/e379f20cb249/HUMU-40-1127-s001.pdf?><?cloudpmc-bucket app?><?size 897016?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="supplementary-material2" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s002.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path d1e3/7027811/1fe170ed38d9/HUMU-40-1127-s002.xlsx?><?cloudpmc-bucket app?><?size 91923?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="supplementary-material3" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s003.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path d1e3/7027811/573092e1798b/HUMU-40-1127-s003.docx?><?cloudpmc-bucket app?><?size 14131?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec><sec id="humu23762-sec-0240" sec-type="ack" disp-level="1"><title>ACKNOWLEDGMENTS</title><p>We would like to acknowledge Mark Consugar, Mindy Kwong, the CCIB DNA Core Facility at Massachusetts General Hospital for assistance with sequencing and colony processing, and David Dombrowski in the Massachusetts General Hospital Flow Cytometry Core for flow cytometry and flow sorting.</p><p>We are grateful for funding from NEI K12 EY016335‐10 (JC), the Foundation Fighting Blindness Enhanced Career Development Award (JC), the Research for Prevention of Blindness Career Development Award (JC), the Massachusetts Lions Foundation/Lions Eye Research Foundation, and NEI/NIH P30 EY014104.</p></sec><sec id="humu23762-sec-0250" sec-type="ack" disp-level="1"><title>DISCLOSURE</title><p>JC serves as a consultant on a Blue Cross Blue Shield advisory board for gene therapy policy. JC is/was a consultant for AGTC, Beam Therapeutics, RBS, Editas Medicine, Gensight, and Sanofi, not directly related to this study. EP receives research funding from Casebia Therapeutics, not directly related to this study. JC and EP are also investigators for gene therapy clinical trials, not directly related to this study.</p></sec><sec id="notes1" disp-level="1"><p>
+
+Wan A, Place E, Pierce EA, Comander J. Characterizing variants of unknown significance in rhodopsin: A functional genomics approach. Human Mutation. 2019;40:1127–1144. 10.1002/humu.23762
+
+</p></sec><sec id="humu23762-bibl-0001" sec-type="ref-list" disp-level="1"><title>References</title><sec id="humu23762-bibSec-0001" sec-type="ref-list" disp-level="2"><title>REFERENCES</title><sec id="humu23762-bibSec-0001_sec2" disp-level="3"><ref-list><ref id="humu23762-bib-0001"><mixed-citation id="humu23762-cit-0001"><named-content content-type="citation-string">
+
+Adzhubei, I.
+, 
+Jordan, D. M.
+, &amp; 
+Sunyaev, S. R.
+ (2013). Predicting functional effect of human missense mutations using PolyPhen‐2. Curr Protoc Hum Genet, Chapter 7, 76, 20–7.20.41. 10.1002/0471142905.hg0720s76
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/0471142905.hg0720s76"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4480630"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23315928"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr Protoc Hum Genet, Chapter 7&amp;title=Predicting functional effect of human missense mutations using PolyPhen‐2&amp;author=I. Adzhubei&amp;author=D. M. Jordan&amp;author=S. R. Sunyaev&amp;volume=76&amp;publication_year=2013&amp;pages=20-7.20.41&amp;pmid=23315928&amp;doi=10.1002/0471142905.hg0720s76&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0002"><mixed-citation id="humu23762-cit-0002"><named-content content-type="citation-string">
+
+Al‐Merjan, J. I.
+, 
+Pandova, M. G.
+, 
+Al‐Ghanim, M.
+, 
+Al‐Wayel, A.
+, &amp; 
+Al‐Mutairi, S.
+ (2005). Registered blindness and low vision in Kuwait. Ophthalmic Epidemiology, 12(4), 251–257.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/09286580591005813"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16033746"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ophthalmic Epidemiology&amp;title=Registered blindness and low vision in Kuwait&amp;author=J. I. Al‐Merjan&amp;author=M. G. Pandova&amp;author=M. Al‐Ghanim&amp;author=A. Al‐Wayel&amp;author=S. Al‐Mutairi&amp;volume=12&amp;issue=4&amp;publication_year=2005&amp;pages=251-257&amp;pmid=16033746&amp;doi=10.1080/09286580591005813&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0003"><mixed-citation id="humu23762-cit-0003"><named-content content-type="citation-string">
+
+Athanasiou, D.
+, 
+Aguila, M.
+, 
+Bellingham, J.
+, 
+Li, W.
+, 
+McCulley, C.
+, 
+Reeves, P. J.
+, &amp; 
+Cheetham, M. E.
+ (2018). The molecular and cellular basis of rhodopsin retinitis pigmentosa reveals potential strategies for therapy. Progress Retinal Eye Research, 62, 1–23. 10.1016/j.preteyeres.2017.10.002
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.preteyeres.2017.10.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5779616"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29042326"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Progress Retinal Eye Research&amp;title=The molecular and cellular basis of rhodopsin retinitis pigmentosa reveals potential strategies for therapy&amp;author=D. Athanasiou&amp;author=M. Aguila&amp;author=J. Bellingham&amp;author=W. Li&amp;author=C. McCulley&amp;volume=62&amp;publication_year=2018&amp;pages=1-23&amp;pmid=29042326&amp;doi=10.1016/j.preteyeres.2017.10.002&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0004"><mixed-citation id="humu23762-cit-0004"><named-content content-type="citation-string">
+
+Bean, L. J.
+, 
+Tinker, S. W.
+, 
+da Silva, C.
+, &amp; 
+Hegde, M. R.
+ (2013). Free the data: One laboratory's approach to knowledge‐based genomic variant classification and preparation for EMR integration of genomic data. Human Mutation, 34(9), 1183–1188. 10.1002/humu.22364
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/humu.22364"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23757202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Mutation&amp;title=Free the data: One laboratory's approach to knowledge‐based genomic variant classification and preparation for EMR integration of genomic data&amp;author=L. J. Bean&amp;author=S. W. Tinker&amp;author=C. da Silva&amp;author=M. R. Hegde&amp;volume=34&amp;issue=9&amp;publication_year=2013&amp;pages=1183-1188&amp;pmid=23757202&amp;doi=10.1002/humu.22364&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0005"><mixed-citation id="humu23762-cit-0005"><named-content content-type="citation-string">
+
+Behnen, P.
+, 
+Felline, A.
+, 
+Comitato, A.
+, 
+Di Salvo, M. T.
+, 
+Raimondi, F.
+, 
+Gulati, S.
+, … 
+Fanelli, F.
+ (2018). A small chaperone improves folding and routing of rhodopsin mutants linked to inherited blindness. Science, 4, 1–19. 10.1016/j.isci.2018.05.001
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.isci.2018.05.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6147235"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30240733"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=A small chaperone improves folding and routing of rhodopsin mutants linked to inherited blindness&amp;author=P. Behnen&amp;author=A. Felline&amp;author=A. Comitato&amp;author=M. T. Di Salvo&amp;author=F. Raimondi&amp;volume=4&amp;publication_year=2018&amp;pages=1-19&amp;pmid=30240733&amp;doi=10.1016/j.isci.2018.05.001&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0006"><mixed-citation id="humu23762-cit-0006"><named-content content-type="citation-string">
+
+Berger, W.
+, 
+Kloeckener‐Gruissem, B.
+, &amp; 
+Neidhardt, J.
+ (2010). The molecular basis of human retinal and vitreoretinal diseases. Progress in Retinal and Eye Research, 29(5), 335–375. 10.1016/j.preteyeres.2010.03.004
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.preteyeres.2010.03.004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20362068"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Progress in Retinal and Eye Research&amp;title=The molecular basis of human retinal and vitreoretinal diseases&amp;author=W. Berger&amp;author=B. Kloeckener‐Gruissem&amp;author=J. Neidhardt&amp;volume=29&amp;issue=5&amp;publication_year=2010&amp;pages=335-375&amp;pmid=20362068&amp;doi=10.1016/j.preteyeres.2010.03.004&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0007"><mixed-citation id="humu23762-cit-0007"><named-content content-type="citation-string">
+
+Berson, E. L.
+, 
+Rosner, B.
+, 
+Weigel‐DiFranco, C.
+, 
+Dryja, T. P.
+, &amp; 
+Sandberg, M. A.
+ (2002). Disease progression in patients with dominant retinitis pigmentosa and rhodopsin mutations. Investigative Ophthalmology &amp; Visual Science, 43(9), 3027–3036.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12202526"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Investigative Ophthalmology &amp; Visual Science&amp;title=Disease progression in patients with dominant retinitis pigmentosa and rhodopsin mutations&amp;author=E. L. Berson&amp;author=B. Rosner&amp;author=C. Weigel‐DiFranco&amp;author=T. P. Dryja&amp;author=M. A. Sandberg&amp;volume=43&amp;issue=9&amp;publication_year=2002&amp;pages=3027-3036&amp;pmid=12202526&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0008"><mixed-citation id="humu23762-cit-0008"><named-content content-type="citation-string">
+
+Bosch, L.
+, 
+Ramon, E.
+, 
+Del Valle, L. J.
+, &amp; 
+Garriga, P.
+ (2003). Structural and functional role of helices I and II in rhodopsin. A novel interplay evidenced by mutations at Gly‐51 and Gly‐89 in the transmembrane domain. The Journal of Biological Chemistry, 278(22), 20203–20209. 10.1074/jbc.M301319200
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M301319200"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12660238"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Structural and functional role of helices I and II in rhodopsin. A novel interplay evidenced by mutations at Gly‐51 and Gly‐89 in the transmembrane domain&amp;author=L. Bosch&amp;author=E. Ramon&amp;author=L. J. Del Valle&amp;author=P. Garriga&amp;volume=278&amp;issue=22&amp;publication_year=2003&amp;pages=20203-20209&amp;pmid=12660238&amp;doi=10.1074/jbc.M301319200&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0009"><mixed-citation id="humu23762-cit-0009"><named-content content-type="citation-string">
+
+Bosch‐Presegue, L.
+, 
+Ramon, E.
+, 
+Toledo, D.
+, 
+Cordomi, A.
+, &amp; 
+Garriga, P.
+ (2011). Alterations in the photoactivation pathway of rhodopsin mutants associated with retinitis pigmentosa. The FEBS journal, 278(9), 1493–1505. 10.1111/j.1742-4658.2011.08066.x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1742-4658.2011.08066.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21352497"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The FEBS journal&amp;title=Alterations in the photoactivation pathway of rhodopsin mutants associated with retinitis pigmentosa&amp;author=L. Bosch‐Presegue&amp;author=E. Ramon&amp;author=D. Toledo&amp;author=A. Cordomi&amp;author=P. Garriga&amp;volume=278&amp;issue=9&amp;publication_year=2011&amp;pages=1493-1505&amp;pmid=21352497&amp;doi=10.1111/j.1742-4658.2011.08066.x&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0010"><mixed-citation id="humu23762-cit-0010"><named-content content-type="citation-string">
+
+Braman, J.
+, 
+Papworth, C.
+, &amp; 
+Greener, A.
+ (1996). Site‐directed mutagenesis using double‐stranded plasmid DNA templates. Methods in molecular biology (Clifton, N.J.), 57, 31–44. 10.1385/0-89603-332-5:31
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1385/0-89603-332-5:31"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8849992"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Methods in molecular biology (Clifton, N.J.)&amp;title=Site‐directed mutagenesis using double‐stranded plasmid DNA templates&amp;author=J. Braman&amp;author=C. Papworth&amp;author=A. Greener&amp;volume=57&amp;publication_year=1996&amp;pages=31-44&amp;pmid=8849992&amp;doi=10.1385/0-89603-332-5:31&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0011"><mixed-citation id="humu23762-cit-0011"><named-content content-type="citation-string">
+
+Brenan, L.
+, 
+Andreev, A.
+, 
+Cohen, O.
+, 
+Pantel, S.
+, 
+Kamburov, A.
+, 
+Cacchiarelli, D.
+, … 
+Johannessen, C. M.
+ (2016). Phenotypic characterization of a comprehensive set of MAPK1/ERK2 missense mutants. Cell Reports, 17(4), 1171–1183. 10.1016/j.celrep.2016.09.061
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.celrep.2016.09.061"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5120861"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27760319"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Reports&amp;title=Phenotypic characterization of a comprehensive set of MAPK1/ERK2 missense mutants&amp;author=L. Brenan&amp;author=A. Andreev&amp;author=O. Cohen&amp;author=S. Pantel&amp;author=A. Kamburov&amp;volume=17&amp;issue=4&amp;publication_year=2016&amp;pages=1171-1183&amp;pmid=27760319&amp;doi=10.1016/j.celrep.2016.09.061&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0012"><mixed-citation id="humu23762-cit-0012"><named-content content-type="citation-string">
+
+Buch, H.
+, 
+Vinding, T.
+, 
+La, C. M.
+, 
+Appleyard, M.
+, 
+Jensen, G. B.
+, &amp; 
+Nielsen, N. V.
+ (2004). Prevalence and causes of visual impairment and blindness among 9980 Scandinavian adults: The Copenhagen City Eye Study. Ophthalmology, 111(1), 53–61.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ophtha.2003.05.010"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14711714"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ophthalmology&amp;title=Prevalence and causes of visual impairment and blindness among 9980 Scandinavian adults: The Copenhagen City Eye Study&amp;author=H. Buch&amp;author=T. Vinding&amp;author=C. M. La&amp;author=M. Appleyard&amp;author=G. B. Jensen&amp;volume=111&amp;issue=1&amp;publication_year=2004&amp;pages=53-61&amp;pmid=14711714&amp;doi=10.1016/j.ophtha.2003.05.010&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0013"><mixed-citation id="humu23762-cit-0013"><named-content content-type="citation-string">
+
+Bujakowska, K. M.
+, 
+White, J.
+, 
+Place, E.
+, 
+Consugar, M.
+, &amp; 
+Comander, J.
+ (2015). Efficient in silico identification of a common insertion in the MAK gene which causes retinitis pigmentosa. PLoS One, 10(11), e0142614
+10.1371/journal.pone.0142614
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0142614"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4641726"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26558903"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Efficient in silico identification of a common insertion in the MAK gene which causes retinitis pigmentosa&amp;author=K. M. Bujakowska&amp;author=J. White&amp;author=E. Place&amp;author=M. Consugar&amp;author=J. Comander&amp;volume=10&amp;issue=11&amp;publication_year=2015&amp;pages=e0142614&amp;pmid=26558903&amp;doi=10.1371/journal.pone.0142614&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0014"><mixed-citation id="humu23762-cit-0014"><named-content content-type="citation-string">
+
+Caminsky, N.
+, 
+Mucaki, E. J.
+, &amp; 
+Rogan, P. K.
+ (2014). Interpretation of mRNA splicing mutations in genetic disease: Review of the literature and guidelines for information‐theoretical analysis. F1000Research, 3, 282
+10.12688/f1000research.5654.1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.12688/f1000research.5654.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4329672"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25717368"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=F1000Research&amp;title=Interpretation of mRNA splicing mutations in genetic disease: Review of the literature and guidelines for information‐theoretical analysis&amp;author=N. Caminsky&amp;author=E. J. Mucaki&amp;author=P. K. Rogan&amp;volume=3&amp;publication_year=2014&amp;pages=282&amp;pmid=25717368&amp;doi=10.12688/f1000research.5654.1&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0015"><mixed-citation id="humu23762-cit-0015"><named-content content-type="citation-string">
+
+Chen, Y. F.
+, 
+Wang, I. J.
+, 
+Lin, L. L.
+, &amp; 
+Chen, M. S.
+ (2011). Examining rhodopsin retention in endoplasmic reticulum and intracellular localization in vitro and in vivo by using truncated rhodopsin fragments. Journal of Cellular Biochemistry, 112(2), 520–530. 10.1002/jcb.22942
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcb.22942"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21268073"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Cellular Biochemistry&amp;title=Examining rhodopsin retention in endoplasmic reticulum and intracellular localization in vitro and in vivo by using truncated rhodopsin fragments&amp;author=Y. F. Chen&amp;author=I. J. Wang&amp;author=L. L. Lin&amp;author=M. S. Chen&amp;volume=112&amp;issue=2&amp;publication_year=2011&amp;pages=520-530&amp;pmid=21268073&amp;doi=10.1002/jcb.22942&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0016"><mixed-citation id="humu23762-cit-0016"><named-content content-type="citation-string">
+
+Choi, Y.
+, 
+Sims, G. E.
+, 
+Murphy, S.
+, 
+Miller, J. R.
+, &amp; 
+Chan, A. P.
+ (2012). Predicting the functional effect of amino acid substitutions and indels. PLoS One, 7(10), e46688
+10.1371/journal.pone.0046688
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0046688"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3466303"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23056405"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Predicting the functional effect of amino acid substitutions and indels&amp;author=Y. Choi&amp;author=G. E. Sims&amp;author=S. Murphy&amp;author=J. R. Miller&amp;author=A. P. Chan&amp;volume=7&amp;issue=10&amp;publication_year=2012&amp;pages=e46688&amp;pmid=23056405&amp;doi=10.1371/journal.pone.0046688&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0017"><mixed-citation id="humu23762-cit-0017"><named-content content-type="citation-string">
+
+Chow, C. Y.
+, 
+Kelsey, K. J.
+, 
+Wolfner, M. F.
+, &amp; 
+Clark, A. G.
+ (2016). Candidate genetic modifiers of retinitis pigmentosa identified by exploiting natural variation in Drosophila. Human Molecular Genetics, 25(4), 651–659. 10.1093/hmg/ddv502ddv502
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/hmg/ddv502ddv502"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4743685"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26662796"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Molecular Genetics&amp;title=Candidate genetic modifiers of retinitis pigmentosa identified by exploiting natural variation in Drosophila&amp;author=C. Y. Chow&amp;author=K. J. Kelsey&amp;author=M. F. Wolfner&amp;author=A. G. Clark&amp;volume=25&amp;issue=4&amp;publication_year=2016&amp;pages=651-659&amp;pmid=26662796&amp;doi=10.1093/hmg/ddv502ddv502&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0018"><mixed-citation id="humu23762-cit-0018"><named-content content-type="citation-string">
+
+Chuang, J. Z.
+, 
+Vega, C.
+, 
+Jun, W.
+, &amp; 
+Sung, C. H.
+ (2004). Structural and functional impairment of endocytic pathways by retinitis pigmentosa mutant rhodopsin‐arrestin complexes. The Journal of Clinical Investigation, 114(1), 131–140. 10.1172/JCI21136
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1172/JCI21136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC437971"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15232620"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Clinical Investigation&amp;title=Structural and functional impairment of endocytic pathways by retinitis pigmentosa mutant rhodopsin‐arrestin complexes&amp;author=J. Z. Chuang&amp;author=C. Vega&amp;author=W. Jun&amp;author=C. H. Sung&amp;volume=114&amp;issue=1&amp;publication_year=2004&amp;pages=131-140&amp;pmid=15232620&amp;doi=10.1172/JCI21136&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0019"><mixed-citation id="humu23762-cit-0019"><named-content content-type="citation-string">
+
+Cibulskis, K.
+, 
+Lawrence, M. S.
+, 
+Carter, S. L.
+, 
+Sivachenko, A.
+, 
+Jaffe, D.
+, 
+Sougnez, C.
+, … 
+Getz, G.
+ (2013). Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples. Nature Biotechnology, 31(3), 213–219. 10.1038/nbt.2514
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nbt.2514"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3833702"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23396013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Biotechnology&amp;title=Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples&amp;author=K. Cibulskis&amp;author=M. S. Lawrence&amp;author=S. L. Carter&amp;author=A. Sivachenko&amp;author=D. Jaffe&amp;volume=31&amp;issue=3&amp;publication_year=2013&amp;pages=213-219&amp;pmid=23396013&amp;doi=10.1038/nbt.2514&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0020"><mixed-citation id="humu23762-cit-0020"><named-content content-type="citation-string">
+
+Cideciyan, A. V.
+, 
+Sudharsan, R.
+, 
+Dufour, V. L.
+, 
+Massengill, M. T.
+, 
+Iwabe, S.
+, 
+Swider, M.
+, … 
+Beltran, W. A.
+ (2018). Mutation‐independent rhodopsin gene therapy by knockdown and replacement with a single AAV vector. Proceedings of the National Academy of Sciences of the United States of America, 115(36), E8547–E8556. 10.1073/pnas.1805055115
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1805055115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6130384"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30127005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences of the United States of America&amp;title=Mutation‐independent rhodopsin gene therapy by knockdown and replacement with a single AAV vector&amp;author=A. V. Cideciyan&amp;author=R. Sudharsan&amp;author=V. L. Dufour&amp;author=M. T. Massengill&amp;author=S. Iwabe&amp;volume=115&amp;issue=36&amp;publication_year=2018&amp;pages=E8547-E8556&amp;pmid=30127005&amp;doi=10.1073/pnas.1805055115&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0021"><mixed-citation id="humu23762-cit-0021"><named-content content-type="citation-string">
+
+Comander, J.
+, 
+Weigel‐DiFranco, C.
+, 
+Maher, M.
+, 
+Place, E.
+, 
+Wan, A.
+, 
+Harper, S.
+, … 
+Pierce, E. A.
+ (2017). Thegenetic basis of pericentral retinitis pigmentosa‐A form of mild retinitis pigmentosa. Genes (Basel), 8(10) 10.3390/genes8100256
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/genes8100256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5664106"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28981474"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genes (Basel)&amp;title=Thegenetic basis of pericentral retinitis pigmentosa‐A form of mild retinitis pigmentosa&amp;author=J. Comander&amp;author=C. Weigel‐DiFranco&amp;author=M. Maher&amp;author=E. Place&amp;author=A. Wan&amp;volume=8&amp;issue=10&amp;publication_year=2017&amp;pmid=28981474&amp;doi=10.3390/genes8100256&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0022"><mixed-citation id="humu23762-cit-0022"><named-content content-type="citation-string">
+
+Consugar, M. B.
+, 
+Navarro‐Gomez, D.
+, 
+Place, E. M.
+, 
+Bujakowska, K. M.
+, 
+Sousa, M. E.
+, 
+Fonseca‐Kelly, Z. D.
+, … 
+Pierce, E. A.
+ (2015). Panel‐based genetic diagnostic testing for inherited eye diseases is highly accurate and reproducible, and more sensitive for variant detection, than exome sequencing. Genetics in Medicine: Official Journal of the American College of Medical Genetics, 17(4), 253–261. 10.1038/gim.2014.172
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/gim.2014.172"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4572572"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25412400"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genetics in Medicine: Official Journal of the American College of Medical Genetics&amp;title=Panel‐based genetic diagnostic testing for inherited eye diseases is highly accurate and reproducible, and more sensitive for variant detection, than exome sequencing&amp;author=M. B. Consugar&amp;author=D. Navarro‐Gomez&amp;author=E. M. Place&amp;author=K. M. Bujakowska&amp;author=M. E. Sousa&amp;volume=17&amp;issue=4&amp;publication_year=2015&amp;pages=253-261&amp;pmid=25412400&amp;doi=10.1038/gim.2014.172&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0023"><mixed-citation id="humu23762-cit-0023"><named-content content-type="citation-string">
+
+Cooper, G. M.
+, 
+Stone, E. A.
+, 
+Asimenos, G.
+, 
+Program, N. C. S.
+, 
+Green, E. D.
+, 
+Batzoglou, S.
+, &amp; 
+Sidow, A.
+ (2005). Distribution and intensity of constraint in mammalian genomic sequence. Genome Research, 15(7), 901–913. 10.1101/gr.3577405
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1101/gr.3577405"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC1172034"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15965027"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genome Research&amp;title=Distribution and intensity of constraint in mammalian genomic sequence&amp;author=G. M. Cooper&amp;author=E. A. Stone&amp;author=G. Asimenos&amp;author=N. C. S. Program&amp;author=E. D. Green&amp;volume=15&amp;issue=7&amp;publication_year=2005&amp;pages=901-913&amp;pmid=15965027&amp;doi=10.1101/gr.3577405&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0024"><mixed-citation id="humu23762-cit-0024"><named-content content-type="citation-string">
+
+Corton, M.
+, 
+Nishiguchi, K. M.
+, 
+Avila‐Fernandez, A.
+, 
+Nikopoulos, K.
+, 
+Riveiro‐Alvarez, R.
+, 
+Tatu, S. D.
+, … 
+Rivolta, C.
+ (2013). Exome sequencing of index patients with retinal dystrophies as a tool for molecular diagnosis. PLoS One, 8(6), e65574
+10.1371/journal.pone.0065574
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0065574"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3683009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23940504"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Exome sequencing of index patients with retinal dystrophies as a tool for molecular diagnosis&amp;author=M. Corton&amp;author=K. M. Nishiguchi&amp;author=A. Avila‐Fernandez&amp;author=K. Nikopoulos&amp;author=R. Riveiro‐Alvarez&amp;volume=8&amp;issue=6&amp;publication_year=2013&amp;pages=e65574&amp;pmid=23940504&amp;doi=10.1371/journal.pone.0065574&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0025"><mixed-citation id="humu23762-cit-0025"><named-content content-type="citation-string">
+
+Daiger, S. P.
+, 
+Rossiter, B. J. F.
+, 
+Greenberg, J.
+, 
+Christoffels, A.
+, &amp; 
+Hide, W.
+ (1998). <italic>Data services and software for identifying genes and mutations causing retinal degeneration</italic>.</named-content></mixed-citation></ref><ref id="humu23762-bib-0026"><mixed-citation id="humu23762-cit-0026"><named-content content-type="citation-string">
+
+Davies, W. I.
+, 
+Downes, S. M.
+, 
+Fu, J. K.
+, 
+Shanks, M. E.
+, 
+Copley, R. R.
+, 
+Lise, S.
+, … 
+Nemeth, A. H.
+ (2012). Next‐generation sequencing in health‐care delivery: Lessons from the functional analysis of rhodopsin. Genetics in Medicine: Official Journal of the American College of Medical Genetics, 14(11), 891–899. 10.1038/gim.2012.73
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/gim.2012.73"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22791210"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genetics in Medicine: Official Journal of the American College of Medical Genetics&amp;title=Next‐generation sequencing in health‐care delivery: Lessons from the functional analysis of rhodopsin&amp;author=W. I. Davies&amp;author=S. M. Downes&amp;author=J. K. Fu&amp;author=M. E. Shanks&amp;author=R. R. Copley&amp;volume=14&amp;issue=11&amp;publication_year=2012&amp;pages=891-899&amp;pmid=22791210&amp;doi=10.1038/gim.2012.73&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0027"><mixed-citation id="humu23762-cit-0027"><named-content content-type="citation-string">
+
+Dizhoor, A. M.
+, 
+Woodruff, M. L.
+, 
+Olshevskaya, E. V.
+, 
+Cilluffo, M. C.
+, 
+Cornwall, M. C.
+, 
+Sieving, P. A.
+, &amp; 
+Fain, G. L.
+ (2008). Night blindness and the mechanism of constitutive signaling of mutant G90D rhodopsin. The Journal of Neuroscience: the Official Journal of the Society for Neuroscience, 28(45), 11662–11672. 10.1523/JNEUROSCI.4006-08.2008
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1523/JNEUROSCI.4006-08.2008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2590870"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18987202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Neuroscience: the Official Journal of the Society for Neuroscience&amp;title=Night blindness and the mechanism of constitutive signaling of mutant G90D rhodopsin&amp;author=A. M. Dizhoor&amp;author=M. L. Woodruff&amp;author=E. V. Olshevskaya&amp;author=M. C. Cilluffo&amp;author=M. C. Cornwall&amp;volume=28&amp;issue=45&amp;publication_year=2008&amp;pages=11662-11672&amp;pmid=18987202&amp;doi=10.1523/JNEUROSCI.4006-08.2008&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0028"><mixed-citation id="humu23762-cit-0028"><named-content content-type="citation-string">
+
+Dryja, T. P.
+, 
+Berson, E. L.
+, 
+Rao, V. R.
+, &amp; 
+Oprian, D. D.
+ (1993). Heterozygous missense mutation in the rhodopsin gene as a cause of congenital stationary night blindness. Nature Genetics, 4(3), 280–283. 10.1038/ng0793-280
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ng0793-280"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8358437"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Genetics&amp;title=Heterozygous missense mutation in the rhodopsin gene as a cause of congenital stationary night blindness&amp;author=T. P. Dryja&amp;author=E. L. Berson&amp;author=V. R. Rao&amp;author=D. D. Oprian&amp;volume=4&amp;issue=3&amp;publication_year=1993&amp;pages=280-283&amp;pmid=8358437&amp;doi=10.1038/ng0793-280&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0029"><mixed-citation id="humu23762-cit-0029"><named-content content-type="citation-string">
+
+Dryja, T. P.
+, 
+McGee, T. L.
+, 
+Reichel, E.
+, 
+Hahn, L. B.
+, 
+Cowley, G. S.
+, 
+Yandell, D. W.
+, … 
+Berson, E. L.
+ (1990). A point mutation of the rhodopsin gene in one form of retinitis pigmentosa. Nature, 343(6256), 364–366. 10.1038/343364a0
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/343364a0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2137202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=A point mutation of the rhodopsin gene in one form of retinitis pigmentosa&amp;author=T. P. Dryja&amp;author=T. L. McGee&amp;author=E. Reichel&amp;author=L. B. Hahn&amp;author=G. S. Cowley&amp;volume=343&amp;issue=6256&amp;publication_year=1990&amp;pages=364-366&amp;pmid=2137202&amp;doi=10.1038/343364a0&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0030"><mixed-citation id="humu23762-cit-0030"><named-content content-type="citation-string">
+
+Duncan, J. L.
+, 
+Pierce, E. A.
+, 
+Laster, A. M.
+, 
+Daiger, S. P.
+, 
+Birch, D. G.
+, 
+Ash, J. D.
+, … 
+Zarbin, M. A.
+, and the Foundation Fighting Blindness Scientific Advisory, B.
+(2018). Inherited retinal degenerations: Current landscape and knowledge gaps. Translational Vision Science &amp; Technology, 7(4), 6
+10.1167/tvst.7.4.6
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1167/tvst.7.4.6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6052953"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30034950"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Translational Vision Science &amp; Technology&amp;title=Inherited retinal degenerations: Current landscape and knowledge gaps&amp;author=J. L. Duncan&amp;author=E. A. Pierce&amp;author=A. M. Laster&amp;author=S. P. Daiger&amp;author=D. G. Birch&amp;volume=7&amp;issue=4&amp;publication_year=2018&amp;pages=6&amp;pmid=30034950&amp;doi=10.1167/tvst.7.4.6&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0031"><mixed-citation id="humu23762-cit-0031"><named-content content-type="citation-string">
+
+Findlay, G. M.
+, 
+Daza, R. M.
+, 
+Martin, B.
+, 
+Zhang, M. D.
+, 
+Leith, A. P.
+, 
+Gasperini, M.
+, … 
+Shendure, J.
+ (2018). Accurate classification of BRCA1 variants with saturation genome editing. Nature, 562(7726), 217–222. 10.1038/s41586-018-0461-z
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-018-0461-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6181777"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30209399"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Accurate classification of BRCA1 variants with saturation genome editing&amp;author=G. M. Findlay&amp;author=R. M. Daza&amp;author=B. Martin&amp;author=M. D. Zhang&amp;author=A. P. Leith&amp;volume=562&amp;issue=7726&amp;publication_year=2018&amp;pages=217-222&amp;pmid=30209399&amp;doi=10.1038/s41586-018-0461-z&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0032"><mixed-citation id="humu23762-cit-0032"><named-content content-type="citation-string">
+
+Fox, E. J.
+, 
+Reid‐Bayliss, K. S.
+, 
+Emond, M. J.
+, &amp; 
+Loeb, L. A.
+ (2014). Accuracy of next generation sequencing platforms. Next Gener Seq Appl, 1, 10.4172/jngsa.1000106
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4172/jngsa.1000106"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4331009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25699289"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Next Gener Seq Appl&amp;title=Accuracy of next generation sequencing platforms&amp;author=E. J. Fox&amp;author=K. S. Reid‐Bayliss&amp;author=M. J. Emond&amp;author=L. A. Loeb&amp;volume=1&amp;publication_year=2014&amp;pmid=25699289&amp;doi=10.4172/jngsa.1000106&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0033"><mixed-citation id="humu23762-cit-0033"><named-content content-type="citation-string">
+
+Gasperini, M.
+, 
+Starita, L.
+, &amp; 
+Shendure, J.
+ (2016). The power of multiplexed functional analysis of genetic variants. Nature Protocols, 11(10), 1782–1787. 10.1038/nprot.2016.135
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nprot.2016.135"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6690347"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27583640"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Protocols&amp;title=The power of multiplexed functional analysis of genetic variants&amp;author=M. Gasperini&amp;author=L. Starita&amp;author=J. Shendure&amp;volume=11&amp;issue=10&amp;publication_year=2016&amp;pages=1782-1787&amp;pmid=27583640&amp;doi=10.1038/nprot.2016.135&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0034"><mixed-citation id="humu23762-cit-0034"><named-content content-type="citation-string">
+
+Glockle, N.
+, 
+Kohl, S.
+, 
+Mohr, J.
+, 
+Scheurenbrand, T.
+, 
+Sprecher, A.
+, 
+Weisschuh, N.
+, … 
+Neidhardt, J.
+ (2014). Panel‐based next generation sequencing as a reliable and efficient technique to detect mutations in unselected patients with retinal dystrophies. European Journal Of Human Genetics: EJHG, 22(1), 99–104. 10.1038/ejhg.2013.72
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ejhg.2013.72"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3865404"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23591405"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=European Journal Of Human Genetics: EJHG&amp;title=Panel‐based next generation sequencing as a reliable and efficient technique to detect mutations in unselected patients with retinal dystrophies&amp;author=N. Glockle&amp;author=S. Kohl&amp;author=J. Mohr&amp;author=T. Scheurenbrand&amp;author=A. Sprecher&amp;volume=22&amp;issue=1&amp;publication_year=2014&amp;pages=99-104&amp;pmid=23591405&amp;doi=10.1038/ejhg.2013.72&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0035"><mixed-citation id="humu23762-cit-0035"><named-content content-type="citation-string">
+
+Gray, V. E.
+, 
+Hause, R. J.
+, 
+Luebeck, J.
+, 
+Shendure, J.
+, &amp; 
+Fowler, D. M.
+ (2018). Quantitative missense variant effect prediction using large‐scale mutagenesis data. Cell Syst, 6(1), 116–124. 10.1016/j.cels.2017.11.003
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cels.2017.11.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5799033"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29226803"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Syst&amp;title=Quantitative missense variant effect prediction using large‐scale mutagenesis data&amp;author=V. E. Gray&amp;author=R. J. Hause&amp;author=J. Luebeck&amp;author=J. Shendure&amp;author=D. M. Fowler&amp;volume=6&amp;issue=1&amp;publication_year=2018&amp;pages=116-124&amp;pmid=29226803&amp;doi=10.1016/j.cels.2017.11.003&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0036"><mixed-citation id="humu23762-cit-0036"><named-content content-type="citation-string">
+
+Hartong, D. T.
+, 
+Berson, E. L.
+, &amp; 
+Dryja, T. P.
+ (2006). Retinitis pigmentosa. Lancet, 368(9549), 1795–1809.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(06)69740-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17113430"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet&amp;title=Retinitis pigmentosa&amp;author=D. T. Hartong&amp;author=E. L. Berson&amp;author=T. P. Dryja&amp;volume=368&amp;issue=9549&amp;publication_year=2006&amp;pages=1795-1809&amp;pmid=17113430&amp;doi=10.1016/S0140-6736(06)69740-7&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0037"><mixed-citation id="humu23762-cit-0037"><named-content content-type="citation-string">
+
+Hartong, D. T.
+, 
+McGee, T. L.
+, 
+Sandberg, M. A.
+, 
+Berson, E. L.
+, 
+Asselbergs, F. W.
+, 
+van der Harst, P.
+, … 
+Dryja, T. P.
+ (2009). Search for a correlation between telomere length and severity of retinitis pigmentosa due to the dominant rhodopsin Pro23His mutation. Molecular Vision, 15, 592–597. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/60" ext-link-type="uri">https://doi.org/60</ext-link>
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2661004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19325938"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Vision&amp;title=Search for a correlation between telomere length and severity of retinitis pigmentosa due to the dominant rhodopsin Pro23His mutation&amp;author=D. T. Hartong&amp;author=T. L. McGee&amp;author=M. A. Sandberg&amp;author=E. L. Berson&amp;author=F. W. Asselbergs&amp;volume=15&amp;publication_year=2009&amp;pages=592-597&amp;pmid=19325938&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0038"><mixed-citation id="humu23762-cit-0038"><named-content content-type="citation-string">
+
+Hata, H.
+, 
+Yonezawa, M.
+, 
+Nakanishi, T.
+, 
+Ri, T.
+, &amp; 
+Yanashima, K.
+ (2003). Causes of entering institutions for visually handicapped persons during the past fifteen years. Japanese Journal Clinical Ophthalmology, 57, 259–262.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Japanese Journal Clinical Ophthalmology&amp;title=Causes of entering institutions for visually handicapped persons during the past fifteen years&amp;author=H. Hata&amp;author=M. Yonezawa&amp;author=T. Nakanishi&amp;author=T. Ri&amp;author=K. Yanashima&amp;volume=57&amp;publication_year=2003&amp;pages=259-262&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0039"><mixed-citation id="humu23762-cit-0039"><named-content content-type="citation-string">
+
+Hollingsworth, T. J.
+, &amp; 
+Gross, A. K.
+ (2013). The severe autosomal dominant retinitis pigmentosa rhodopsin mutant Ter349Glu mislocalizes and induces rapid rod cell death. The Journal of Biological Chemistry, 288(40), 29047–29055. 10.1074/jbc.M113.495184
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M113.495184"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3790004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23940033"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=The severe autosomal dominant retinitis pigmentosa rhodopsin mutant Ter349Glu mislocalizes and induces rapid rod cell death&amp;author=T. J. Hollingsworth&amp;author=A. K. Gross&amp;volume=288&amp;issue=40&amp;publication_year=2013&amp;pages=29047-29055&amp;pmid=23940033&amp;doi=10.1074/jbc.M113.495184&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0040"><mixed-citation id="humu23762-cit-0040"><named-content content-type="citation-string">
+
+Houdayer, C.
+, 
+Caux‐Moncoutier, V.
+, 
+Krieger, S.
+, 
+Barrois, M.
+, 
+Bonnet, F.
+, 
+Bourdon, V.
+, … 
+Stoppa‐Lyonnet, D.
+ (2012). Guidelines for splicing analysis in molecular diagnosis derived from a set of 327 combined in silico/in vitro studies on BRCA1 and BRCA2 variants. Human Mutation, 33(8), 1228–1238. 10.1002/humu.22101
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/humu.22101"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22505045"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Mutation&amp;title=Guidelines for splicing analysis in molecular diagnosis derived from a set of 327 combined in silico/in vitro studies on BRCA1 and BRCA2 variants&amp;author=C. Houdayer&amp;author=V. Caux‐Moncoutier&amp;author=S. Krieger&amp;author=M. Barrois&amp;author=F. Bonnet&amp;volume=33&amp;issue=8&amp;publication_year=2012&amp;pages=1228-1238&amp;pmid=22505045&amp;doi=10.1002/humu.22101&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0041"><mixed-citation id="humu23762-cit-0041"><named-content content-type="citation-string">
+
+Huang, X. F.
+, 
+Wu, J.
+, 
+Lv, J. N.
+, 
+Zhang, X.
+, &amp; 
+Jin, Z. B.
+ (2015). Identification of false‐negative mutations missed by next‐generation sequencing in retinitis pigmentosa patients: A complementary approach to clinical genetic diagnostic testing. Genetics in Medicine: Official Journal of the American College of Medical Genetics, 17(4), 307–311. 10.1038/gim.2014.193
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/gim.2014.193"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25569437"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genetics in Medicine: Official Journal of the American College of Medical Genetics&amp;title=Identification of false‐negative mutations missed by next‐generation sequencing in retinitis pigmentosa patients: A complementary approach to clinical genetic diagnostic testing&amp;author=X. F. Huang&amp;author=J. Wu&amp;author=J. N. Lv&amp;author=X. Zhang&amp;author=Z. B. Jin&amp;volume=17&amp;issue=4&amp;publication_year=2015&amp;pages=307-311&amp;pmid=25569437&amp;doi=10.1038/gim.2014.193&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0042"><mixed-citation id="humu23762-cit-0042"><named-content content-type="citation-string">
+
+Iwawaki, T.
+, 
+Akai, R.
+, 
+Kohno, K.
+, &amp; 
+Miura, M.
+ (2004). A transgenic mouse model for monitoring endoplasmic reticulum stress. Nature Medicine, 10(1), 98–102. 10.1038/nm970
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nm970"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14702639"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Medicine&amp;title=A transgenic mouse model for monitoring endoplasmic reticulum stress&amp;author=T. Iwawaki&amp;author=R. Akai&amp;author=K. Kohno&amp;author=M. Miura&amp;volume=10&amp;issue=1&amp;publication_year=2004&amp;pages=98-102&amp;pmid=14702639&amp;doi=10.1038/nm970&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0043"><mixed-citation id="humu23762-cit-0043"><named-content content-type="citation-string">
+
+Jiang, Y.
+, 
+Turinsky, A. L.
+, &amp; 
+Brudno, M.
+ (2015). The missing indels: An estimate of indel variation in a human genome and analysis of factors that impede detection. Nucleic Acids Research, 43(15), 7217–7228. 10.1093/nar/gkv677
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gkv677"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4551921"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26130710"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Research&amp;title=The missing indels: An estimate of indel variation in a human genome and analysis of factors that impede detection&amp;author=Y. Jiang&amp;author=A. L. Turinsky&amp;author=M. Brudno&amp;volume=43&amp;issue=15&amp;publication_year=2015&amp;pages=7217-7228&amp;pmid=26130710&amp;doi=10.1093/nar/gkv677&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0044"><mixed-citation id="humu23762-cit-0044"><named-content content-type="citation-string">
+
+Kircher, M.
+, 
+Witten, D. M.
+, 
+Jain, P.
+, 
+O'Roak, B. J.
+, 
+Cooper, G. M.
+, &amp; 
+Shendure, J.
+ (2014). A general framework for estimating the relative pathogenicity of human genetic variants. Nature Genetics, 46(3), 310–315. 10.1038/ng.2892
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ng.2892"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3992975"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24487276"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Genetics&amp;title=A general framework for estimating the relative pathogenicity of human genetic variants&amp;author=M. Kircher&amp;author=D. M. Witten&amp;author=P. Jain&amp;author=B. J. O'Roak&amp;author=G. M. Cooper&amp;volume=46&amp;issue=3&amp;publication_year=2014&amp;pages=310-315&amp;pmid=24487276&amp;doi=10.1038/ng.2892&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0045"><mixed-citation id="humu23762-cit-0045"><named-content content-type="citation-string">
+
+Krebs, M. P.
+, 
+Holden, D. C.
+, 
+Joshi, P.
+, 
+Clark, C. L., 3rd
+, 
+Lee, A. H.
+, &amp; 
+Kaushal, S.
+ (2010). Molecular mechanisms of rhodopsin retinitis pigmentosa and the efficacy of pharmacological rescue. Journal of Molecular Biology, 395(5), 1063–1078. 10.1016/j.jmb.2009.11.015
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jmb.2009.11.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19913029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Molecular Biology&amp;title=Molecular mechanisms of rhodopsin retinitis pigmentosa and the efficacy of pharmacological rescue&amp;author=M. P. Krebs&amp;author=D. C. Holden&amp;author=P. Joshi&amp;author=C. L. Clark&amp;author=A. H. Lee&amp;volume=395&amp;issue=5&amp;publication_year=2010&amp;pages=1063-1078&amp;pmid=19913029&amp;doi=10.1016/j.jmb.2009.11.015&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0046"><mixed-citation id="humu23762-cit-0046"><named-content content-type="citation-string">
+
+Lappalainen, T.
+ (2015). Functional genomics bridges the gap between quantitative genetics and molecular biology. Genome Research, 25(10), 1427–1431. 10.1101/gr.190983.115
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1101/gr.190983.115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4579327"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26430152"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genome Research&amp;title=Functional genomics bridges the gap between quantitative genetics and molecular biology&amp;author=T. Lappalainen&amp;volume=25&amp;issue=10&amp;publication_year=2015&amp;pages=1427-1431&amp;pmid=26430152&amp;doi=10.1101/gr.190983.115&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0047"><mixed-citation id="humu23762-cit-0047"><named-content content-type="citation-string">
+
+Li, T.
+, 
+Sandberg, M. A.
+, 
+Pawlyk, B. S.
+, 
+Rosner, B.
+, 
+Hayes, K. C.
+, 
+Dryja, T. P.
+, &amp; 
+Berson, E. L.
+ (1998). Effect of vitamin A supplementation on rhodopsin mutants threonine‐17—&gt; methionine and proline‐347—&gt;serine in transgenic mice and in cell cultures. Proceedings of the National Academy of Sciences of the United States of America, 95(20), 11933–11938.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.95.20.11933"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC21743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9751768"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences of the United States of America&amp;title=Effect of vitamin A supplementation on rhodopsin mutants threonine‐17—&gt; methionine and proline‐347—&gt;serine in transgenic mice and in cell cultures&amp;author=T. Li&amp;author=M. A. Sandberg&amp;author=B. S. Pawlyk&amp;author=B. Rosner&amp;author=K. C. Hayes&amp;volume=95&amp;issue=20&amp;publication_year=1998&amp;pages=11933-11938&amp;pmid=9751768&amp;doi=10.1073/pnas.95.20.11933&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0048"><mixed-citation id="humu23762-cit-0048"><named-content content-type="citation-string">
+
+Liu, M. Y.
+, 
+Liu, J.
+, 
+Mehrotra, D.
+, 
+Liu, Y.
+, 
+Guo, Y.
+, 
+Baldera‐Aguayo, P. A.
+, … 
+Yan, E. C.
+ (2013). Thermal stability of rhodopsin and progression of retinitis pigmentosa: Comparison of S186W and D190N rhodopsin mutants. The Journal of Biological Chemistry, 288(24), 17698–17712. 10.1074/jbc.M112.397257
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M112.397257"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3682570"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23625926"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Thermal stability of rhodopsin and progression of retinitis pigmentosa: Comparison of S186W and D190N rhodopsin mutants&amp;author=M. Y. Liu&amp;author=J. Liu&amp;author=D. Mehrotra&amp;author=Y. Liu&amp;author=Y. Guo&amp;volume=288&amp;issue=24&amp;publication_year=2013&amp;pages=17698-17712&amp;pmid=23625926&amp;doi=10.1074/jbc.M112.397257&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0049"><mixed-citation id="humu23762-cit-0049"><named-content content-type="citation-string">
+
+McKeone, R.
+, 
+Wikstrom, M.
+, 
+Kiel, C.
+, &amp; 
+Rakoczy, P. E.
+ (2014). Assessing the correlation between mutant rhodopsin stability and the severity of retinitis pigmentosa. Molecular Vision, 20, 183–199.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3919671"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24520188"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Vision&amp;title=Assessing the correlation between mutant rhodopsin stability and the severity of retinitis pigmentosa&amp;author=R. McKeone&amp;author=M. Wikstrom&amp;author=C. Kiel&amp;author=P. E. Rakoczy&amp;volume=20&amp;publication_year=2014&amp;pages=183-199&amp;pmid=24520188&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0050"><mixed-citation id="humu23762-cit-0050"><named-content content-type="citation-string">
+
+Melnikov, A.
+, 
+Rogov, P.
+, 
+Wang, L.
+, 
+Gnirke, A.
+, &amp; 
+Mikkelsen, T. S.
+ (2014). Comprehensive mutational scanning of a kinase in vivo reveals substrate‐dependent fitness landscapes. Nucleic Acids Research, 42(14), e112–e112. 10.1093/nar/gku511
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gku511"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4132701"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24914046"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Research&amp;title=Comprehensive mutational scanning of a kinase in vivo reveals substrate‐dependent fitness landscapes&amp;author=A. Melnikov&amp;author=P. Rogov&amp;author=L. Wang&amp;author=A. Gnirke&amp;author=T. S. Mikkelsen&amp;volume=42&amp;issue=14&amp;publication_year=2014&amp;pages=e112-e112&amp;pmid=24914046&amp;doi=10.1093/nar/gku511&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0051"><mixed-citation id="humu23762-cit-0051"><named-content content-type="citation-string">
+
+Mendes, H. F.
+, &amp; 
+Cheetham, M. E.
+ (2008). Pharmacological manipulation of gain‐of‐function and dominant‐negative mechanisms in rhodopsin retinitis pigmentosa. Human Molecular Genetics, 17(19), 3043–3054. 10.1093/hmg/ddn202
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/hmg/ddn202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18635576"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Molecular Genetics&amp;title=Pharmacological manipulation of gain‐of‐function and dominant‐negative mechanisms in rhodopsin retinitis pigmentosa&amp;author=H. F. Mendes&amp;author=M. E. Cheetham&amp;volume=17&amp;issue=19&amp;publication_year=2008&amp;pages=3043-3054&amp;pmid=18635576&amp;doi=10.1093/hmg/ddn202&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0052"><mixed-citation id="humu23762-cit-0052"><named-content content-type="citation-string">
+
+Mendes, H. F.
+, 
+Zaccarini, R.
+, &amp; 
+Cheetham, M. E.
+ (2010). Pharmacological manipulation of rhodopsin retinitis pigmentosa. Advances in Experimental Medicine and Biology, 664, 317–323. 10.1007/978-1-4419-1399-9_36
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-4419-1399-9_36"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20238031"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Advances in Experimental Medicine and Biology&amp;title=Pharmacological manipulation of rhodopsin retinitis pigmentosa&amp;author=H. F. Mendes&amp;author=R. Zaccarini&amp;author=M. E. Cheetham&amp;volume=664&amp;publication_year=2010&amp;pages=317-323&amp;pmid=20238031&amp;doi=10.1007/978-1-4419-1399-9_36&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0053"><mixed-citation id="humu23762-cit-0053"><named-content content-type="citation-string">
+
+Mendes, H. F.
+, 
+van der Spuy, J.
+, 
+Chapple, J. P.
+, &amp; 
+Cheetham, M. E.
+ (2005). Mechanisms of cell death in rhodopsin retinitis pigmentosa: Implications for therapy. Trends in Molecular Medicine, 11(4), 177–185. 10.1016/j.molmed.2005.02.007
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.molmed.2005.02.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15823756"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends in Molecular Medicine&amp;title=Mechanisms of cell death in rhodopsin retinitis pigmentosa: Implications for therapy&amp;author=H. F. Mendes&amp;author=J. van der Spuy&amp;author=J. P. Chapple&amp;author=M. E. Cheetham&amp;volume=11&amp;issue=4&amp;publication_year=2005&amp;pages=177-185&amp;pmid=15823756&amp;doi=10.1016/j.molmed.2005.02.007&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0054"><mixed-citation id="humu23762-cit-0054"><named-content content-type="citation-string">
+National Eye Institute
+. (2012, ). Vision Research: Needs, Gaps, and Opportunities. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://nei.nih.gov/catalog/vision-research-needs-gaps-and-opportunities" ext-link-type="uri">https://nei.nih.gov/catalog/vision-research-needs-gaps-and-opportunities</ext-link>
+</named-content></mixed-citation></ref><ref id="humu23762-bib-0055"><mixed-citation id="humu23762-cit-0055"><named-content content-type="citation-string">
+
+Neveling, K.
+, 
+Collin, R. W.
+, 
+Gilissen, C.
+, 
+van Huet, R. A.
+, 
+Visser, L.
+, 
+Kwint, M. P.
+, … 
+Scheffer, H.
+ (2012). Next‐generation genetic testing for retinitis pigmentosa. Human Mutation, 33(6), 963–972. 10.1002/humu.22045
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/humu.22045"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3490376"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22334370"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Mutation&amp;title=Next‐generation genetic testing for retinitis pigmentosa&amp;author=K. Neveling&amp;author=R. W. Collin&amp;author=C. Gilissen&amp;author=R. A. van Huet&amp;author=L. Visser&amp;volume=33&amp;issue=6&amp;publication_year=2012&amp;pages=963-972&amp;pmid=22334370&amp;doi=10.1002/humu.22045&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0056"><mixed-citation id="humu23762-cit-0056"><named-content content-type="citation-string">
+
+Ng, P. C.
+, &amp; 
+Henikoff, S.
+ (2003). SIFT: Predicting amino acid changes that affect protein function. Nucleic Acids Research, 31(13), 3812–3814.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gkg509"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC168916"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12824425"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Research&amp;title=SIFT: Predicting amino acid changes that affect protein function&amp;author=P. C. Ng&amp;author=S. Henikoff&amp;volume=31&amp;issue=13&amp;publication_year=2003&amp;pages=3812-3814&amp;pmid=12824425&amp;doi=10.1093/nar/gkg509&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0057"><mixed-citation id="humu23762-cit-0057"><named-content content-type="citation-string">
+
+Opefi, C. A.
+, 
+South, K.
+, 
+Reynolds, C. A.
+, 
+Smith, S. O.
+, &amp; 
+Reeves, P. J.
+ (2013). Retinitis pigmentosa mutants provide insight into the role of the N‐terminal cap in rhodopsin folding, structure, and function. The Journal of Biological Chemistry, 288(47), 33912–33926. 10.1074/jbc.M113.483032
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M113.483032"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3837132"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24106275"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Biological Chemistry&amp;title=Retinitis pigmentosa mutants provide insight into the role of the N‐terminal cap in rhodopsin folding, structure, and function&amp;author=C. A. Opefi&amp;author=K. South&amp;author=C. A. Reynolds&amp;author=S. O. Smith&amp;author=P. J. Reeves&amp;volume=288&amp;issue=47&amp;publication_year=2013&amp;pages=33912-33926&amp;pmid=24106275&amp;doi=10.1074/jbc.M113.483032&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0058"><mixed-citation id="humu23762-cit-0058"><named-content content-type="citation-string">
+
+Rakoczy, E. P.
+, 
+Kiel, C.
+, 
+McKeone, R.
+, 
+Stricher, F.
+, &amp; 
+Serrano, L.
+ (2011). Analysis of disease‐linked rhodopsin mutations based on structure, function, and protein stability calculations. Journal of Molecular Biology, 405(2), 584–606. 10.1016/j.jmb.2010.11.003
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jmb.2010.11.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21094163"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Molecular Biology&amp;title=Analysis of disease‐linked rhodopsin mutations based on structure, function, and protein stability calculations&amp;author=E. P. Rakoczy&amp;author=C. Kiel&amp;author=R. McKeone&amp;author=F. Stricher&amp;author=L. Serrano&amp;volume=405&amp;issue=2&amp;publication_year=2011&amp;pages=584-606&amp;pmid=21094163&amp;doi=10.1016/j.jmb.2010.11.003&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0059"><mixed-citation id="humu23762-cit-0059"><named-content content-type="citation-string">
+RetNet
+. (2017, ). RetNet, the Retinal Information Network. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.sph.uth.tmc.edu/Retnet/" ext-link-type="uri">http://www.sph.uth.tmc.edu/Retnet/</ext-link>
+</named-content></mixed-citation></ref><ref id="humu23762-bib-0060"><mixed-citation id="humu23762-cit-0060"><named-content content-type="citation-string">
+
+Richards, S.
+, 
+Aziz, N.
+, 
+Bale, S.
+, 
+Bick, D.
+, 
+Das, S.
+, 
+Gastier‐Foster, J.
+, … 
+Rehm, H. L.
+ (2015). Standards and guidelines for the interpretation of sequence variants: A joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. Genetics in Medicine: Official Journal of the American College of Medical Genetics, 17(5), 405–424. 10.1038/gim.2015.30
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/gim.2015.30"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4544753"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25741868"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genetics in Medicine: Official Journal of the American College of Medical Genetics&amp;title=Standards and guidelines for the interpretation of sequence variants: A joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology&amp;author=S. Richards&amp;author=N. Aziz&amp;author=S. Bale&amp;author=D. Bick&amp;author=S. Das&amp;volume=17&amp;issue=5&amp;publication_year=2015&amp;pages=405-424&amp;pmid=25741868&amp;doi=10.1038/gim.2015.30&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0061"><mixed-citation id="humu23762-cit-0061"><named-content content-type="citation-string">
+
+Roman‐Sanchez, R.
+, 
+Wensel, T. G.
+, &amp; 
+Wilson, J. H.
+ (2016). Nonsense mutations in the rhodopsin gene that give rise to mild phenotypes trigger mRNA degradation in human cells by nonsense‐mediated decay. Experimental Eye Research, 145, 444–449. 10.1016/j.exer.2015.09.013
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.exer.2015.09.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4808503"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26416182"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Experimental Eye Research&amp;title=Nonsense mutations in the rhodopsin gene that give rise to mild phenotypes trigger mRNA degradation in human cells by nonsense‐mediated decay&amp;author=R. Roman‐Sanchez&amp;author=T. G. Wensel&amp;author=J. H. Wilson&amp;volume=145&amp;publication_year=2016&amp;pages=444-449&amp;pmid=26416182&amp;doi=10.1016/j.exer.2015.09.013&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0062"><mixed-citation id="humu23762-cit-0062"><named-content content-type="citation-string">
+
+Russell, S.
+, 
+Bennett, J.
+, 
+Wellman, J. A.
+, 
+Chung, D. C.
+, 
+Yu, Z. F.
+, 
+Tillman, A.
+, … 
+Maguire, A. M.
+ (2017). Efficacy and safety of voretigene neparvovec (AAV2‐hRPE65v2) in patients with RPE65‐mediated inherited retinal dystrophy: A randomised, controlled, open‐label, phase 3 trial. Lancet, 390(10097), 849–860. 10.1016/S0140-6736(17)31868-8
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(17)31868-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5726391"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28712537"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet&amp;title=Efficacy and safety of voretigene neparvovec (AAV2‐hRPE65v2) in patients with RPE65‐mediated inherited retinal dystrophy: A randomised, controlled, open‐label, phase 3 trial&amp;author=S. Russell&amp;author=J. Bennett&amp;author=J. A. Wellman&amp;author=D. C. Chung&amp;author=Z. F. Yu&amp;volume=390&amp;issue=10097&amp;publication_year=2017&amp;pages=849-860&amp;pmid=28712537&amp;doi=10.1016/S0140-6736(17)31868-8&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0063"><mixed-citation id="humu23762-cit-0063"><named-content content-type="citation-string">
+
+Schmitt, M. W.
+, 
+Kennedy, S. R.
+, 
+Salk, J. J.
+, 
+Fox, E. J.
+, 
+Hiatt, J. B.
+, &amp; 
+Loeb, L. A.
+ (2012). Detection of ultra‐rare mutations by next‐generation sequencing. Proceedings of the National Academy of Sciences of the United States of America, 109(36), 14508–14513. 10.1073/pnas.1208715109
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1208715109"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3437896"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22853953"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences of the United States of America&amp;title=Detection of ultra‐rare mutations by next‐generation sequencing&amp;author=M. W. Schmitt&amp;author=S. R. Kennedy&amp;author=J. J. Salk&amp;author=E. J. Fox&amp;author=J. B. Hiatt&amp;volume=109&amp;issue=36&amp;publication_year=2012&amp;pages=14508-14513&amp;pmid=22853953&amp;doi=10.1073/pnas.1208715109&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0064"><mixed-citation id="humu23762-cit-0064"><named-content content-type="citation-string">
+
+Siepel, A.
+, 
+Bejerano, G.
+, 
+Pedersen, J. S.
+, 
+Hinrichs, A. S.
+, 
+Hou, M.
+, 
+Rosenbloom, K.
+, … 
+Haussler, D.
+ (2005). Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes. Genome Research, 15(8), 1034–1050. 10.1101/gr.3715005
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1101/gr.3715005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC1182216"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16024819"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Genome Research&amp;title=Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes&amp;author=A. Siepel&amp;author=G. Bejerano&amp;author=J. S. Pedersen&amp;author=A. S. Hinrichs&amp;author=M. Hou&amp;volume=15&amp;issue=8&amp;publication_year=2005&amp;pages=1034-1050&amp;pmid=16024819&amp;doi=10.1101/gr.3715005&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0065"><mixed-citation id="humu23762-cit-0065"><named-content content-type="citation-string">
+
+Spencer, D. H.
+, 
+Tyagi, M.
+, 
+Vallania, F.
+, 
+Bredemeyer, A. J.
+, 
+Pfeifer, J. D.
+, 
+Mitra, R. D.
+, &amp; 
+Duncavage, E. J.
+ (2014). Performance of common analysis methods for detecting low‐frequency single nucleotide variants in targeted next‐generation sequence data. The Journal of Molecular Diagnostics: JMD, 16(1), 75–88. 10.1016/j.jmoldx.2013.09.003
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jmoldx.2013.09.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3873500"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24211364"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Journal of Molecular Diagnostics: JMD&amp;title=Performance of common analysis methods for detecting low‐frequency single nucleotide variants in targeted next‐generation sequence data&amp;author=D. H. Spencer&amp;author=M. Tyagi&amp;author=F. Vallania&amp;author=A. J. Bredemeyer&amp;author=J. D. Pfeifer&amp;volume=16&amp;issue=1&amp;publication_year=2014&amp;pages=75-88&amp;pmid=24211364&amp;doi=10.1016/j.jmoldx.2013.09.003&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0066"><mixed-citation id="humu23762-cit-0066"><named-content content-type="citation-string">
+
+Stoletzki, N.
+, &amp; 
+Eyre‐Walker, A.
+ (2007). Synonymous codon usage in <italic>Escherichia coli</italic>: Selection for translational accuracy. Molecular Biology and Evolution, 24(2), 374–381. 10.1093/molbev/msl166
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/molbev/msl166"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17101719"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Biology and Evolution&amp;title=Synonymous codon usage in Escherichia coli: Selection for translational accuracy&amp;author=N. Stoletzki&amp;author=A. Eyre‐Walker&amp;volume=24&amp;issue=2&amp;publication_year=2007&amp;pages=374-381&amp;pmid=17101719&amp;doi=10.1093/molbev/msl166&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0067"><mixed-citation id="humu23762-cit-0067"><named-content content-type="citation-string">
+
+Sung, C. H.
+, 
+Davenport, C. M.
+, &amp; 
+Nathans, J.
+ (1993). Rhodopsin mutations responsible for autosomal dominant retinitis pigmentosa. Clustering of functional classes along the polypeptide chain. Journal of Biological Chemistry, 268(35), 26645–26649.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8253795"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Biological Chemistry&amp;title=Rhodopsin mutations responsible for autosomal dominant retinitis pigmentosa. Clustering of functional classes along the polypeptide chain&amp;author=C. H. Sung&amp;author=C. M. Davenport&amp;author=J. Nathans&amp;volume=268&amp;issue=35&amp;publication_year=1993&amp;pages=26645-26649&amp;pmid=8253795&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0068"><mixed-citation id="humu23762-cit-0068"><named-content content-type="citation-string">
+
+Thusberg, J.
+, 
+Olatubosun, A.
+, &amp; 
+Vihinen, M.
+ (2011). Performance of mutation pathogenicity prediction methods on missense variants. Human Mutation, 32(4), 358–368. 10.1002/humu.21445
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/humu.21445"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21412949"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Human Mutation&amp;title=Performance of mutation pathogenicity prediction methods on missense variants&amp;author=J. Thusberg&amp;author=A. Olatubosun&amp;author=M. Vihinen&amp;volume=32&amp;issue=4&amp;publication_year=2011&amp;pages=358-368&amp;pmid=21412949&amp;doi=10.1002/humu.21445&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0069"><mixed-citation id="humu23762-cit-0069"><named-content content-type="citation-string">
+
+Toledo, D.
+, 
+Ramon, E.
+, 
+Aguila, M.
+, 
+Cordomi, A.
+, 
+Perez, J. J.
+, 
+Mendes, H. F.
+, … 
+Garriga, P.
+ (2011). Molecular mechanisms of disease for mutations at Gly‐90 in rhodopsin. Journal of Biological Chemistry, 286(46), 39993–40001. 10.1074/jbc.M110.201517
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M110.201517"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3220564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21940625"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Biological Chemistry&amp;title=Molecular mechanisms of disease for mutations at Gly‐90 in rhodopsin&amp;author=D. Toledo&amp;author=E. Ramon&amp;author=M. Aguila&amp;author=A. Cordomi&amp;author=J. J. Perez&amp;volume=286&amp;issue=46&amp;publication_year=2011&amp;pages=39993-40001&amp;pmid=21940625&amp;doi=10.1074/jbc.M110.201517&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0070"><mixed-citation id="humu23762-cit-0070"><named-content content-type="citation-string">
+U.S. National Institutes of Health
+. (2017). ClincalTrials.gov. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://clinicaltrials.gov/" ext-link-type="uri">http://clinicaltrials.gov/</ext-link>
+</named-content></mixed-citation></ref><ref id="humu23762-bib-0071"><mixed-citation id="humu23762-cit-0071"><named-content content-type="citation-string">
+
+Viner, C.
+, 
+Dorman, S. N.
+, 
+Shirley, B. C.
+, &amp; 
+Rogan, P. K.
+ (2014). Validation of predicted mRNA splicing mutations using high‐throughput transcriptome data. F1000Research, 3, 8
+10.12688/f1000research.3-8.v2
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.12688/f1000research.3-8.v2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3983938"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24741438"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=F1000Research&amp;title=Validation of predicted mRNA splicing mutations using high‐throughput transcriptome data&amp;author=C. Viner&amp;author=S. N. Dorman&amp;author=B. C. Shirley&amp;author=P. K. Rogan&amp;volume=3&amp;publication_year=2014&amp;pages=8&amp;pmid=24741438&amp;doi=10.12688/f1000research.3-8.v2&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0072"><mixed-citation id="humu23762-cit-0072"><named-content content-type="citation-string">
+
+Wang, J.
+, 
+Zhang, V. W.
+, 
+Feng, Y.
+, 
+Tian, X.
+, 
+Li, F. Y.
+, 
+Truong, C.
+, … 
+Wong, L. J.
+ (2014). Dependable and efficient clinical utility of target capture‐based deep sequencing in molecular diagnosis of retinitis pigmentosa. Investigative Ophthalmology &amp; Visual Science, 55(10), 6213–6223. 10.1167/iovs.14-14936
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1167/iovs.14-14936"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25097241"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Investigative Ophthalmology &amp; Visual Science&amp;title=Dependable and efficient clinical utility of target capture‐based deep sequencing in molecular diagnosis of retinitis pigmentosa&amp;author=J. Wang&amp;author=V. W. Zhang&amp;author=Y. Feng&amp;author=X. Tian&amp;author=F. Y. Li&amp;volume=55&amp;issue=10&amp;publication_year=2014&amp;pages=6213-6223&amp;pmid=25097241&amp;doi=10.1167/iovs.14-14936&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0073"><mixed-citation id="humu23762-cit-0073"><named-content content-type="citation-string">
+
+Wester, K.
+, 
+Asplund, A.
+, 
+Backvall, H.
+, 
+Micke, P.
+, 
+Derveniece, A.
+, 
+Hartmane, I.
+, … 
+Ponten, F.
+ (2003). Zinc‐based fixative improves preservation of genomic DNA and proteins in histoprocessing of human tissues. Laboratory Investigation, 83(6), 889–899.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1097/01.lab.0000074892.53211.a5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12808124"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Laboratory Investigation&amp;title=Zinc‐based fixative improves preservation of genomic DNA and proteins in histoprocessing of human tissues&amp;author=K. Wester&amp;author=A. Asplund&amp;author=H. Backvall&amp;author=P. Micke&amp;author=A. Derveniece&amp;volume=83&amp;issue=6&amp;publication_year=2003&amp;pages=889-899&amp;pmid=12808124&amp;doi=10.1097/01.lab.0000074892.53211.a5&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0074"><mixed-citation id="humu23762-cit-0074"><named-content content-type="citation-string">
+
+Wilm, A.
+, 
+Aw, P. P.
+, 
+Bertrand, D.
+, 
+Yeo, G. H.
+, 
+Ong, S. H.
+, 
+Wong, C. H.
+, … 
+Nagarajan, N.
+ (2012). LoFreq: A sequence‐quality aware, ultra‐sensitive variant caller for uncovering cell‐population heterogeneity from high‐throughput sequencing datasets. Nucleic Acids Research, 40(22), 11189–11201. 10.1093/nar/gks918
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gks918"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3526318"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23066108"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Research&amp;title=LoFreq: A sequence‐quality aware, ultra‐sensitive variant caller for uncovering cell‐population heterogeneity from high‐throughput sequencing datasets&amp;author=A. Wilm&amp;author=P. P. Aw&amp;author=D. Bertrand&amp;author=G. H. Yeo&amp;author=S. H. Ong&amp;volume=40&amp;issue=22&amp;publication_year=2012&amp;pages=11189-11201&amp;pmid=23066108&amp;doi=10.1093/nar/gks918&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0075"><mixed-citation id="humu23762-cit-0075"><named-content content-type="citation-string">
+
+Yamasaki, A.
+, 
+Hara, T.
+, 
+Maejima, I.
+, 
+Sato, M.
+, 
+Sato, K.
+, &amp; 
+Sato, K.
+ (2014). Rer1p regulates the ER retention of immature rhodopsin and modulates its intracellular trafficking. Scientific Reports, 4, 5973
+10.1038/srep05973
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/srep05973"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4122963"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25096327"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Rer1p regulates the ER retention of immature rhodopsin and modulates its intracellular trafficking&amp;author=A. Yamasaki&amp;author=T. Hara&amp;author=I. Maejima&amp;author=M. Sato&amp;author=K. Sato&amp;volume=4&amp;publication_year=2014&amp;pages=5973&amp;pmid=25096327&amp;doi=10.1038/srep05973&amp;"/></mixed-citation></ref><ref id="humu23762-bib-0076"><mixed-citation id="humu23762-cit-0076"><named-content content-type="citation-string">
+
+Zhou, X. E.
+, 
+Melcher, K.
+, &amp; 
+Xu, H. E.
+ (2012). Structure and activation of rhodopsin. Acta Pharmacologica Sinica, 33(3), 291–299. 10.1038/aps.2011.171
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/aps.2011.171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3677203"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22266727"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Pharmacologica Sinica&amp;title=Structure and activation of rhodopsin&amp;author=X. E. Zhou&amp;author=K. Melcher&amp;author=H. E. Xu&amp;volume=33&amp;issue=3&amp;publication_year=2012&amp;pages=291-299&amp;pmid=22266727&amp;doi=10.1038/aps.2011.171&amp;"/></mixed-citation></ref></ref-list></sec></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path d1e3/7027811/e379f20cb249/HUMU-40-1127-s001.pdf?><?cloudpmc-bucket app?><?size 897016?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s002.xlsx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet"><?cloudpmc-path d1e3/7027811/1fe170ed38d9/HUMU-40-1127-s002.xlsx?><?cloudpmc-bucket app?><?size 91923?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="db_ds_supplementary-material3_reqid_" position="float"><caption><p>Supporting information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="HUMU-40-1127-s003.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path d1e3/7027811/573092e1798b/HUMU-40-1127-s003.docx?><?cloudpmc-bucket app?><?size 14131?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></sec></body></article>

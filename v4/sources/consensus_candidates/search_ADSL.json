@@ -1,0 +1,975 @@
+{
+ "scoreSets": [
+  {
+   "urn": "urn:mavedb:00001257-0-1",
+   "title": "ADSL Estimated Enzyme Activities",
+   "shortDescription": "ADSL enzyme activities were inferred from the nonlinear relationship between low- and high-expression fitness scores using the Kacser\u2013Burns model.",
+   "publishedDate": "2025-12-03",
+   "replacesId": null,
+   "numVariants": 8901,
+   "experiment": {
+    "title": "ADSL Estimated Enzyme Activities (Metadata)",
+    "shortDescription": "ADSL enzyme activities were inferred from the nonlinear relationship between low- and high-expression fitness scores using the Kacser\u2013Burns model.",
+    "abstractText": "This metadata provides estimated enzyme activities for human ADSL coding variants.\n\nComparing low- and high-expression fitness scores revealed a nonlinear relationship, with a steeper slope at lower fitness. This pattern reflects the nonlinear mapping between enzymatic activity and fitness described by the Kacser\u2013Burns flux model. Cells are more sensitive to changes in enzyme activity at low expression, where small differences produce large fitness effects. At high expression, fitness gains plateau due to system saturation, allowing partial-loss-of-function (hypomorphic) variants to be partially compensated. Enzyme activities were estimated based on this nonlinear relationship.\n\nADSL Estimated Enzyme Activities: metadata derived from ADSL Low Expression (Dox+) and High Expression (Dox+) experiments.",
+    "methodText": "Enzyme activities were estimated from fitness scores using the Kacser\u2013Burns model, which relates enzymatic activity to cellular fitness. Additional details can be found in the related paper.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001257-0",
+    "createdBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-03",
+    "modificationDate": "2025-12-03",
+    "publishedDate": "2025-12-03",
+    "experimentSetUrn": "urn:mavedb:00001257",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-6203-4132",
+      "recordType": "Contributor",
+      "givenName": "Hasan",
+      "familyName": "\u00c7ubuk"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001257-0-1"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 1,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "10.1101/2025.08.15.670494",
+     "dbName": "Crossref",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+     "authors": [
+      {
+       "name": "Hasan \u00c7ubuk",
+       "primary": true
+      },
+      {
+       "name": "Marcin Plech",
+       "primary": false
+      },
+      {
+       "name": "Vahid Aslanzadeh",
+       "primary": false
+      },
+      {
+       "name": "Marie Zikanova",
+       "primary": false
+      },
+      {
+       "name": "Vaclava Skopova",
+       "primary": false
+      },
+      {
+       "name": "Stanislav Kmoch",
+       "primary": false
+      },
+      {
+       "name": "Yuxin Shen",
+       "primary": false
+      },
+      {
+       "name": "Joseph A. Marsh",
+       "primary": false
+      },
+      {
+       "name": "Grzegorz Kudla",
+       "primary": false
+      }
+     ],
+     "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+     "doi": "10.1101/2025.08.15.670494",
+     "publicationYear": 2025,
+     "publicationJournal": null,
+     "url": "https://doi.org/10.1101/2025.08.15.670494",
+     "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+     "id": 178
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-03",
+   "modificationDate": "2025-12-03",
+   "targetGenes": [
+    {
+     "name": "ADSL",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7910,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGCTGGCGGTGATCATGGTTCTCCAGATTCTTATAGATCTCCATTGGCTTCTAGATACGCTTCTCCAGAAATGTGTTTCGTTTTCTCCGACAGATACAAGTTTAGGACTTGGAGACAATTGTGGTTGTGGTTGGCTGAAGCTGAACAAACTTTGGGTTTGCCAATTACCGATGAACAGATCCAAGAAATGAAGTCCAACTTGGAAAACATCGATTTCAAAATGGCAGCCGAAGAAGAGAAGAGATTGAGACATGATGTTATGGCTCATGTTCATACTTTCGGTCATTGCTGTCCAAAAGCTGCTGGTATTATTCATTTGGGTGCTACCTCTTGTTACGTTGGTGATAACACCGATTTGATCATTTTGAGAAACGCCTTGGATTTGCTGTTGCCAAAATTGGCTAGAGTCATTTCTAGATTGGCTGACTTCGCTAAAGAAAGAGCTTCTTTGCCAACATTGGGTTTCACTCATTTTCAACCAGCTCAATTGACTACCGTTGGTAAGAGATGTTGTTTGTGGATTCAAGATTTGTGCATGGACTTGCAAAACTTGAAGAGGGTTAGAGATGACTTGAGATTCAGAGGTGTTAAGGGTACTACTGGTACTCAAGCTTCTTTCTTGCAACTGTTTGAAGGTGATGATCACAAGGTTGAACAATTGGATAAGATGGTTACTGAAAAGGCCGGTTTTAAGAGAGCCTTCATTATTACTGGTCAAACGTACACCAGAAAGGTTGATATCGAAGTTTTGTCCGTTTTGGCTTCTTTAGGTGCTTCTGTTCATAAGATCTGTACCGATATTAGGCTGCTGGCTAACTTGAAAGAAATGGAAGAACCATTCGAAAAGCAGCAGATTGGTTCTTCTGCTATGCCATACAAAAGAAACCCTATGAGATCTGAAAGATGCTGCTCTTTGGCTAGACATTTGATGACTTTGGTTATGGACCCATTGCAAACTGCTTCAGTTCAATGGTTTGAAAGAACCTTGGATGATTCCGCCAACAGAAGAATTTGTTTAGCTGAAGCTTTCTTGACCGCCGACACTATTTTGAACACATTGCAAAACATCTCCGAAGGTTTGGTTGTTTACCCAAAGGTTATCGAAAGAAGGATCAGACAAGAATTGCCATTCATGGCTACCGAAAACATTATTATGGCTATGGTTAAGGCTGGTGGTTCTAGACAAGATTGTCACGAAAAGATCAGAGTCTTGTCTCAACAAGCTGCATCTGTTGTTAAGCAAGAAGGTGGCGATAACGATTTGATTGAAAGAATCCAAGTTGACGCCTACTTCTCCCCAATTCATTCTCAATTGGATCATTTGTTGGACCCCTCATCTTTTACTGGTAGAGCTTCACAACAAGTCCAGAGATTTTTGGAAGAAGAAGTCTACCCTTTGTTGAAGCCATACGAATCTGTTATGAAGGTTAAGGCCGAATTGTGCTTGTAA",
+      "label": "ADSL",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001257-a-2",
+   "title": "ADSL High Expression (Dox-, Control)",
+   "shortDescription": "A deep mutational scan of human ADSL using yeast complementation, performed under a high-expression promoter without doxycycline treatment (presence of yeast ortholog).",
+   "publishedDate": "2025-12-03",
+   "replacesId": null,
+   "numVariants": 9422,
+   "experiment": {
+    "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+    "shortDescription": "Deep mutational scanning of human ADSL was conducted using a yeast functional complementation assay, and growth fitness was used as the quantitative readout.",
+    "abstractText": "This entry describes the yeast complementation assay, which was used to quantify the functional impact of human ADSL variants under low and high expression conditions.\n\nThese experiments assessed the functional effects of variants in the human ADSL gene, which is associated with the autosomal recessive disorder ADSL deficiency. The study aimed to create a comprehensive map of variant effects by measuring the impact of thousands of coding variants, including missense, stop-gain, and synonymous changes. A yeast (Saccharomyces cerevisiae) complementation assay was used, in which the human ADSL enzyme replaces the yeast enzyme (ADE13). Yeast growth fitness was measured to determine the function of each variant. Growth-based fitness scores were collected at two expression levels, low and high, and were analyzed to estimate the enzyme activity produced by each variant. The low-expression measurements were particularly informative, as they better reveal partial loss-of-function variants that are most relevant for understanding clinical cases.\n\nExperiments:\n\n- ADSL Low Expression (Dox+): Analysis of ADSL variants under low expression conditions (clinically most informative).\n- ADSL Low Expression (Dox-): Analysis of ADSL variants under low expression with co-expression of yeast ADE13.\n- ADSL High Expression (Dox+): Analysis of ADSL variants under high expression conditions.\n- ADSL High Expression (Dox-): Analysis of ADSL variants under high expression with co-expression of yeast ADE13.",
+    "methodText": "Variant Library Construction:\nThe human ADSL variant library was generated using a plasmid-based saturation mutagenesis protocol. Each variant was assigned one or more unique barcodes.\n\nGrowth Assay:\nVariants were screened in the yTHC-ADE13 yeast strain under doxycycline treatment for 5 days. Media were refreshed, and samples were collected every 12 hours.\n\nSequencing Strategy:\nLibrary composition and barcode-variant associations were determined using the PacBio Sequel II system. Samples from the functional assay were sequenced on an Illumina NextSeq 2000 (P2).\n\nReplicates and Scoring:\nEach variant was represented by multiple barcodes, serving as technical replicates. Fitness scores for each barcode were calculated using the Enrich2 weighted least squares regression. Variant-level scores were obtained by median-averaging across barcodes, and confidence intervals were estimated using the interquartile range of barcode scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001257-a",
+    "createdBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-03",
+    "modificationDate": "2025-12-03",
+    "publishedDate": "2025-12-03",
+    "experimentSetUrn": "urn:mavedb:00001257",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "10.1101/2025.08.15.670494",
+      "dbName": "Crossref",
+      "recordType": "PublicationIdentifier",
+      "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+      "authors": [
+       {
+        "name": "Hasan \u00c7ubuk",
+        "primary": true
+       },
+       {
+        "name": "Marcin Plech",
+        "primary": false
+       },
+       {
+        "name": "Vahid Aslanzadeh",
+        "primary": false
+       },
+       {
+        "name": "Marie Zikanova",
+        "primary": false
+       },
+       {
+        "name": "Vaclava Skopova",
+        "primary": false
+       },
+       {
+        "name": "Stanislav Kmoch",
+        "primary": false
+       },
+       {
+        "name": "Yuxin Shen",
+        "primary": false
+       },
+       {
+        "name": "Joseph A. Marsh",
+        "primary": false
+       },
+       {
+        "name": "Grzegorz Kudla",
+        "primary": false
+       }
+      ],
+      "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+      "doi": "10.1101/2025.08.15.670494",
+      "publicationYear": 2025,
+      "publicationJournal": null,
+      "url": "https://doi.org/10.1101/2025.08.15.670494",
+      "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+      "id": 178
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-6203-4132",
+      "recordType": "Contributor",
+      "givenName": "Hasan",
+      "familyName": "\u00c7ubuk"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001257-a-1",
+     "urn:mavedb:00001257-a-2",
+     "urn:mavedb:00001257-a-3",
+     "urn:mavedb:00001257-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "10.1101/2025.08.15.670494",
+     "dbName": "Crossref",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+     "authors": [
+      {
+       "name": "Hasan \u00c7ubuk",
+       "primary": true
+      },
+      {
+       "name": "Marcin Plech",
+       "primary": false
+      },
+      {
+       "name": "Vahid Aslanzadeh",
+       "primary": false
+      },
+      {
+       "name": "Marie Zikanova",
+       "primary": false
+      },
+      {
+       "name": "Vaclava Skopova",
+       "primary": false
+      },
+      {
+       "name": "Stanislav Kmoch",
+       "primary": false
+      },
+      {
+       "name": "Yuxin Shen",
+       "primary": false
+      },
+      {
+       "name": "Joseph A. Marsh",
+       "primary": false
+      },
+      {
+       "name": "Grzegorz Kudla",
+       "primary": false
+      }
+     ],
+     "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+     "doi": "10.1101/2025.08.15.670494",
+     "publicationYear": 2025,
+     "publicationJournal": null,
+     "url": "https://doi.org/10.1101/2025.08.15.670494",
+     "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+     "id": 178
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-03",
+   "modificationDate": "2025-12-03",
+   "targetGenes": [
+    {
+     "name": "ADSL",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7909,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGCTGGCGGTGATCATGGTTCTCCAGATTCTTATAGATCTCCATTGGCTTCTAGATACGCTTCTCCAGAAATGTGTTTCGTTTTCTCCGACAGATACAAGTTTAGGACTTGGAGACAATTGTGGTTGTGGTTGGCTGAAGCTGAACAAACTTTGGGTTTGCCAATTACCGATGAACAGATCCAAGAAATGAAGTCCAACTTGGAAAACATCGATTTCAAAATGGCAGCCGAAGAAGAGAAGAGATTGAGACATGATGTTATGGCTCATGTTCATACTTTCGGTCATTGCTGTCCAAAAGCTGCTGGTATTATTCATTTGGGTGCTACCTCTTGTTACGTTGGTGATAACACCGATTTGATCATTTTGAGAAACGCCTTGGATTTGCTGTTGCCAAAATTGGCTAGAGTCATTTCTAGATTGGCTGACTTCGCTAAAGAAAGAGCTTCTTTGCCAACATTGGGTTTCACTCATTTTCAACCAGCTCAATTGACTACCGTTGGTAAGAGATGTTGTTTGTGGATTCAAGATTTGTGCATGGACTTGCAAAACTTGAAGAGGGTTAGAGATGACTTGAGATTCAGAGGTGTTAAGGGTACTACTGGTACTCAAGCTTCTTTCTTGCAACTGTTTGAAGGTGATGATCACAAGGTTGAACAATTGGATAAGATGGTTACTGAAAAGGCCGGTTTTAAGAGAGCCTTCATTATTACTGGTCAAACGTACACCAGAAAGGTTGATATCGAAGTTTTGTCCGTTTTGGCTTCTTTAGGTGCTTCTGTTCATAAGATCTGTACCGATATTAGGCTGCTGGCTAACTTGAAAGAAATGGAAGAACCATTCGAAAAGCAGCAGATTGGTTCTTCTGCTATGCCATACAAAAGAAACCCTATGAGATCTGAAAGATGCTGCTCTTTGGCTAGACATTTGATGACTTTGGTTATGGACCCATTGCAAACTGCTTCAGTTCAATGGTTTGAAAGAACCTTGGATGATTCCGCCAACAGAAGAATTTGTTTAGCTGAAGCTTTCTTGACCGCCGACACTATTTTGAACACATTGCAAAACATCTCCGAAGGTTTGGTTGTTTACCCAAAGGTTATCGAAAGAAGGATCAGACAAGAATTGCCATTCATGGCTACCGAAAACATTATTATGGCTATGGTTAAGGCTGGTGGTTCTAGACAAGATTGTCACGAAAAGATCAGAGTCTTGTCTCAACAAGCTGCATCTGTTGTTAAGCAAGAAGGTGGCGATAACGATTTGATTGAAAGAATCCAAGTTGACGCCTACTTCTCCCCAATTCATTCTCAATTGGATCATTTGTTGGACCCCTCATCTTTTACTGGTAGAGCTTCACAACAAGTCCAGAGATTTTTGGAAGAAGAAGTCTACCCTTTGTTGAAGCCATACGAATCTGTTATGAAGGTTAAGGCCGAATTGTGCTTGTAA",
+      "label": "ADSL",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001257-a-1",
+   "title": "ADSL High Expression (Dox+)",
+   "shortDescription": "A deep mutational scan of human ADSL using yeast complementation, performed under a high-expression promoter with doxycycline treatment (absence of yeast ortholog).",
+   "publishedDate": "2025-12-03",
+   "replacesId": null,
+   "numVariants": 9422,
+   "experiment": {
+    "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+    "shortDescription": "Deep mutational scanning of human ADSL was conducted using a yeast functional complementation assay, and growth fitness was used as the quantitative readout.",
+    "abstractText": "This entry describes the yeast complementation assay, which was used to quantify the functional impact of human ADSL variants under low and high expression conditions.\n\nThese experiments assessed the functional effects of variants in the human ADSL gene, which is associated with the autosomal recessive disorder ADSL deficiency. The study aimed to create a comprehensive map of variant effects by measuring the impact of thousands of coding variants, including missense, stop-gain, and synonymous changes. A yeast (Saccharomyces cerevisiae) complementation assay was used, in which the human ADSL enzyme replaces the yeast enzyme (ADE13). Yeast growth fitness was measured to determine the function of each variant. Growth-based fitness scores were collected at two expression levels, low and high, and were analyzed to estimate the enzyme activity produced by each variant. The low-expression measurements were particularly informative, as they better reveal partial loss-of-function variants that are most relevant for understanding clinical cases.\n\nExperiments:\n\n- ADSL Low Expression (Dox+): Analysis of ADSL variants under low expression conditions (clinically most informative).\n- ADSL Low Expression (Dox-): Analysis of ADSL variants under low expression with co-expression of yeast ADE13.\n- ADSL High Expression (Dox+): Analysis of ADSL variants under high expression conditions.\n- ADSL High Expression (Dox-): Analysis of ADSL variants under high expression with co-expression of yeast ADE13.",
+    "methodText": "Variant Library Construction:\nThe human ADSL variant library was generated using a plasmid-based saturation mutagenesis protocol. Each variant was assigned one or more unique barcodes.\n\nGrowth Assay:\nVariants were screened in the yTHC-ADE13 yeast strain under doxycycline treatment for 5 days. Media were refreshed, and samples were collected every 12 hours.\n\nSequencing Strategy:\nLibrary composition and barcode-variant associations were determined using the PacBio Sequel II system. Samples from the functional assay were sequenced on an Illumina NextSeq 2000 (P2).\n\nReplicates and Scoring:\nEach variant was represented by multiple barcodes, serving as technical replicates. Fitness scores for each barcode were calculated using the Enrich2 weighted least squares regression. Variant-level scores were obtained by median-averaging across barcodes, and confidence intervals were estimated using the interquartile range of barcode scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001257-a",
+    "createdBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-03",
+    "modificationDate": "2025-12-03",
+    "publishedDate": "2025-12-03",
+    "experimentSetUrn": "urn:mavedb:00001257",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "10.1101/2025.08.15.670494",
+      "dbName": "Crossref",
+      "recordType": "PublicationIdentifier",
+      "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+      "authors": [
+       {
+        "name": "Hasan \u00c7ubuk",
+        "primary": true
+       },
+       {
+        "name": "Marcin Plech",
+        "primary": false
+       },
+       {
+        "name": "Vahid Aslanzadeh",
+        "primary": false
+       },
+       {
+        "name": "Marie Zikanova",
+        "primary": false
+       },
+       {
+        "name": "Vaclava Skopova",
+        "primary": false
+       },
+       {
+        "name": "Stanislav Kmoch",
+        "primary": false
+       },
+       {
+        "name": "Yuxin Shen",
+        "primary": false
+       },
+       {
+        "name": "Joseph A. Marsh",
+        "primary": false
+       },
+       {
+        "name": "Grzegorz Kudla",
+        "primary": false
+       }
+      ],
+      "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+      "doi": "10.1101/2025.08.15.670494",
+      "publicationYear": 2025,
+      "publicationJournal": null,
+      "url": "https://doi.org/10.1101/2025.08.15.670494",
+      "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+      "id": 178
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-6203-4132",
+      "recordType": "Contributor",
+      "givenName": "Hasan",
+      "familyName": "\u00c7ubuk"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001257-a-1",
+     "urn:mavedb:00001257-a-2",
+     "urn:mavedb:00001257-a-3",
+     "urn:mavedb:00001257-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "10.1101/2025.08.15.670494",
+     "dbName": "Crossref",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+     "authors": [
+      {
+       "name": "Hasan \u00c7ubuk",
+       "primary": true
+      },
+      {
+       "name": "Marcin Plech",
+       "primary": false
+      },
+      {
+       "name": "Vahid Aslanzadeh",
+       "primary": false
+      },
+      {
+       "name": "Marie Zikanova",
+       "primary": false
+      },
+      {
+       "name": "Vaclava Skopova",
+       "primary": false
+      },
+      {
+       "name": "Stanislav Kmoch",
+       "primary": false
+      },
+      {
+       "name": "Yuxin Shen",
+       "primary": false
+      },
+      {
+       "name": "Joseph A. Marsh",
+       "primary": false
+      },
+      {
+       "name": "Grzegorz Kudla",
+       "primary": false
+      }
+     ],
+     "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+     "doi": "10.1101/2025.08.15.670494",
+     "publicationYear": 2025,
+     "publicationJournal": null,
+     "url": "https://doi.org/10.1101/2025.08.15.670494",
+     "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+     "id": 178
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-03",
+   "modificationDate": "2025-12-03",
+   "targetGenes": [
+    {
+     "name": "ADSL",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7905,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGCTGGCGGTGATCATGGTTCTCCAGATTCTTATAGATCTCCATTGGCTTCTAGATACGCTTCTCCAGAAATGTGTTTCGTTTTCTCCGACAGATACAAGTTTAGGACTTGGAGACAATTGTGGTTGTGGTTGGCTGAAGCTGAACAAACTTTGGGTTTGCCAATTACCGATGAACAGATCCAAGAAATGAAGTCCAACTTGGAAAACATCGATTTCAAAATGGCAGCCGAAGAAGAGAAGAGATTGAGACATGATGTTATGGCTCATGTTCATACTTTCGGTCATTGCTGTCCAAAAGCTGCTGGTATTATTCATTTGGGTGCTACCTCTTGTTACGTTGGTGATAACACCGATTTGATCATTTTGAGAAACGCCTTGGATTTGCTGTTGCCAAAATTGGCTAGAGTCATTTCTAGATTGGCTGACTTCGCTAAAGAAAGAGCTTCTTTGCCAACATTGGGTTTCACTCATTTTCAACCAGCTCAATTGACTACCGTTGGTAAGAGATGTTGTTTGTGGATTCAAGATTTGTGCATGGACTTGCAAAACTTGAAGAGGGTTAGAGATGACTTGAGATTCAGAGGTGTTAAGGGTACTACTGGTACTCAAGCTTCTTTCTTGCAACTGTTTGAAGGTGATGATCACAAGGTTGAACAATTGGATAAGATGGTTACTGAAAAGGCCGGTTTTAAGAGAGCCTTCATTATTACTGGTCAAACGTACACCAGAAAGGTTGATATCGAAGTTTTGTCCGTTTTGGCTTCTTTAGGTGCTTCTGTTCATAAGATCTGTACCGATATTAGGCTGCTGGCTAACTTGAAAGAAATGGAAGAACCATTCGAAAAGCAGCAGATTGGTTCTTCTGCTATGCCATACAAAAGAAACCCTATGAGATCTGAAAGATGCTGCTCTTTGGCTAGACATTTGATGACTTTGGTTATGGACCCATTGCAAACTGCTTCAGTTCAATGGTTTGAAAGAACCTTGGATGATTCCGCCAACAGAAGAATTTGTTTAGCTGAAGCTTTCTTGACCGCCGACACTATTTTGAACACATTGCAAAACATCTCCGAAGGTTTGGTTGTTTACCCAAAGGTTATCGAAAGAAGGATCAGACAAGAATTGCCATTCATGGCTACCGAAAACATTATTATGGCTATGGTTAAGGCTGGTGGTTCTAGACAAGATTGTCACGAAAAGATCAGAGTCTTGTCTCAACAAGCTGCATCTGTTGTTAAGCAAGAAGGTGGCGATAACGATTTGATTGAAAGAATCCAAGTTGACGCCTACTTCTCCCCAATTCATTCTCAATTGGATCATTTGTTGGACCCCTCATCTTTTACTGGTAGAGCTTCACAACAAGTCCAGAGATTTTTGGAAGAAGAAGTCTACCCTTTGTTGAAGCCATACGAATCTGTTATGAAGGTTAAGGCCGAATTGTGCTTGTAA",
+      "label": "ADSL",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001257-a-3",
+   "title": "ADSL Low Expression (Dox+)",
+   "shortDescription": "A deep mutational scan of human ADSL using yeast complementation, performed under a low-expression promoter with doxycycline treatment (absence of yeast ortholog).",
+   "publishedDate": "2025-12-03",
+   "replacesId": null,
+   "numVariants": 9022,
+   "experiment": {
+    "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+    "shortDescription": "Deep mutational scanning of human ADSL was conducted using a yeast functional complementation assay, and growth fitness was used as the quantitative readout.",
+    "abstractText": "This entry describes the yeast complementation assay, which was used to quantify the functional impact of human ADSL variants under low and high expression conditions.\n\nThese experiments assessed the functional effects of variants in the human ADSL gene, which is associated with the autosomal recessive disorder ADSL deficiency. The study aimed to create a comprehensive map of variant effects by measuring the impact of thousands of coding variants, including missense, stop-gain, and synonymous changes. A yeast (Saccharomyces cerevisiae) complementation assay was used, in which the human ADSL enzyme replaces the yeast enzyme (ADE13). Yeast growth fitness was measured to determine the function of each variant. Growth-based fitness scores were collected at two expression levels, low and high, and were analyzed to estimate the enzyme activity produced by each variant. The low-expression measurements were particularly informative, as they better reveal partial loss-of-function variants that are most relevant for understanding clinical cases.\n\nExperiments:\n\n- ADSL Low Expression (Dox+): Analysis of ADSL variants under low expression conditions (clinically most informative).\n- ADSL Low Expression (Dox-): Analysis of ADSL variants under low expression with co-expression of yeast ADE13.\n- ADSL High Expression (Dox+): Analysis of ADSL variants under high expression conditions.\n- ADSL High Expression (Dox-): Analysis of ADSL variants under high expression with co-expression of yeast ADE13.",
+    "methodText": "Variant Library Construction:\nThe human ADSL variant library was generated using a plasmid-based saturation mutagenesis protocol. Each variant was assigned one or more unique barcodes.\n\nGrowth Assay:\nVariants were screened in the yTHC-ADE13 yeast strain under doxycycline treatment for 5 days. Media were refreshed, and samples were collected every 12 hours.\n\nSequencing Strategy:\nLibrary composition and barcode-variant associations were determined using the PacBio Sequel II system. Samples from the functional assay were sequenced on an Illumina NextSeq 2000 (P2).\n\nReplicates and Scoring:\nEach variant was represented by multiple barcodes, serving as technical replicates. Fitness scores for each barcode were calculated using the Enrich2 weighted least squares regression. Variant-level scores were obtained by median-averaging across barcodes, and confidence intervals were estimated using the interquartile range of barcode scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001257-a",
+    "createdBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-03",
+    "modificationDate": "2025-12-03",
+    "publishedDate": "2025-12-03",
+    "experimentSetUrn": "urn:mavedb:00001257",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "10.1101/2025.08.15.670494",
+      "dbName": "Crossref",
+      "recordType": "PublicationIdentifier",
+      "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+      "authors": [
+       {
+        "name": "Hasan \u00c7ubuk",
+        "primary": true
+       },
+       {
+        "name": "Marcin Plech",
+        "primary": false
+       },
+       {
+        "name": "Vahid Aslanzadeh",
+        "primary": false
+       },
+       {
+        "name": "Marie Zikanova",
+        "primary": false
+       },
+       {
+        "name": "Vaclava Skopova",
+        "primary": false
+       },
+       {
+        "name": "Stanislav Kmoch",
+        "primary": false
+       },
+       {
+        "name": "Yuxin Shen",
+        "primary": false
+       },
+       {
+        "name": "Joseph A. Marsh",
+        "primary": false
+       },
+       {
+        "name": "Grzegorz Kudla",
+        "primary": false
+       }
+      ],
+      "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+      "doi": "10.1101/2025.08.15.670494",
+      "publicationYear": 2025,
+      "publicationJournal": null,
+      "url": "https://doi.org/10.1101/2025.08.15.670494",
+      "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+      "id": 178
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-6203-4132",
+      "recordType": "Contributor",
+      "givenName": "Hasan",
+      "familyName": "\u00c7ubuk"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001257-a-1",
+     "urn:mavedb:00001257-a-2",
+     "urn:mavedb:00001257-a-3",
+     "urn:mavedb:00001257-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "10.1101/2025.08.15.670494",
+     "dbName": "Crossref",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+     "authors": [
+      {
+       "name": "Hasan \u00c7ubuk",
+       "primary": true
+      },
+      {
+       "name": "Marcin Plech",
+       "primary": false
+      },
+      {
+       "name": "Vahid Aslanzadeh",
+       "primary": false
+      },
+      {
+       "name": "Marie Zikanova",
+       "primary": false
+      },
+      {
+       "name": "Vaclava Skopova",
+       "primary": false
+      },
+      {
+       "name": "Stanislav Kmoch",
+       "primary": false
+      },
+      {
+       "name": "Yuxin Shen",
+       "primary": false
+      },
+      {
+       "name": "Joseph A. Marsh",
+       "primary": false
+      },
+      {
+       "name": "Grzegorz Kudla",
+       "primary": false
+      }
+     ],
+     "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+     "doi": "10.1101/2025.08.15.670494",
+     "publicationYear": 2025,
+     "publicationJournal": null,
+     "url": "https://doi.org/10.1101/2025.08.15.670494",
+     "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+     "id": 178
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-03",
+   "modificationDate": "2025-12-03",
+   "targetGenes": [
+    {
+     "name": "ADSL",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7904,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGCTGGCGGTGATCATGGTTCTCCAGATTCTTATAGATCTCCATTGGCTTCTAGATACGCTTCTCCAGAAATGTGTTTCGTTTTCTCCGACAGATACAAGTTTAGGACTTGGAGACAATTGTGGTTGTGGTTGGCTGAAGCTGAACAAACTTTGGGTTTGCCAATTACCGATGAACAGATCCAAGAAATGAAGTCCAACTTGGAAAACATCGATTTCAAAATGGCAGCCGAAGAAGAGAAGAGATTGAGACATGATGTTATGGCTCATGTTCATACTTTCGGTCATTGCTGTCCAAAAGCTGCTGGTATTATTCATTTGGGTGCTACCTCTTGTTACGTTGGTGATAACACCGATTTGATCATTTTGAGAAACGCCTTGGATTTGCTGTTGCCAAAATTGGCTAGAGTCATTTCTAGATTGGCTGACTTCGCTAAAGAAAGAGCTTCTTTGCCAACATTGGGTTTCACTCATTTTCAACCAGCTCAATTGACTACCGTTGGTAAGAGATGTTGTTTGTGGATTCAAGATTTGTGCATGGACTTGCAAAACTTGAAGAGGGTTAGAGATGACTTGAGATTCAGAGGTGTTAAGGGTACTACTGGTACTCAAGCTTCTTTCTTGCAACTGTTTGAAGGTGATGATCACAAGGTTGAACAATTGGATAAGATGGTTACTGAAAAGGCCGGTTTTAAGAGAGCCTTCATTATTACTGGTCAAACGTACACCAGAAAGGTTGATATCGAAGTTTTGTCCGTTTTGGCTTCTTTAGGTGCTTCTGTTCATAAGATCTGTACCGATATTAGGCTGCTGGCTAACTTGAAAGAAATGGAAGAACCATTCGAAAAGCAGCAGATTGGTTCTTCTGCTATGCCATACAAAAGAAACCCTATGAGATCTGAAAGATGCTGCTCTTTGGCTAGACATTTGATGACTTTGGTTATGGACCCATTGCAAACTGCTTCAGTTCAATGGTTTGAAAGAACCTTGGATGATTCCGCCAACAGAAGAATTTGTTTAGCTGAAGCTTTCTTGACCGCCGACACTATTTTGAACACATTGCAAAACATCTCCGAAGGTTTGGTTGTTTACCCAAAGGTTATCGAAAGAAGGATCAGACAAGAATTGCCATTCATGGCTACCGAAAACATTATTATGGCTATGGTTAAGGCTGGTGGTTCTAGACAAGATTGTCACGAAAAGATCAGAGTCTTGTCTCAACAAGCTGCATCTGTTGTTAAGCAAGAAGGTGGCGATAACGATTTGATTGAAAGAATCCAAGTTGACGCCTACTTCTCCCCAATTCATTCTCAATTGGATCATTTGTTGGACCCCTCATCTTTTACTGGTAGAGCTTCACAACAAGTCCAGAGATTTTTGGAAGAAGAAGTCTACCCTTTGTTGAAGCCATACGAATCTGTTATGAAGGTTAAGGCCGAATTGTGCTTGTAA",
+      "label": "ADSL",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  },
+  {
+   "urn": "urn:mavedb:00001257-a-4",
+   "title": "ADSL Low Expression (Dox-, Control)",
+   "shortDescription": "A deep mutational scan of human ADSL using yeast complementation, performed under a low-expression promoter without doxycycline treatment (presence of yeast ortholog).",
+   "publishedDate": "2025-12-03",
+   "replacesId": null,
+   "numVariants": 9022,
+   "experiment": {
+    "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+    "shortDescription": "Deep mutational scanning of human ADSL was conducted using a yeast functional complementation assay, and growth fitness was used as the quantitative readout.",
+    "abstractText": "This entry describes the yeast complementation assay, which was used to quantify the functional impact of human ADSL variants under low and high expression conditions.\n\nThese experiments assessed the functional effects of variants in the human ADSL gene, which is associated with the autosomal recessive disorder ADSL deficiency. The study aimed to create a comprehensive map of variant effects by measuring the impact of thousands of coding variants, including missense, stop-gain, and synonymous changes. A yeast (Saccharomyces cerevisiae) complementation assay was used, in which the human ADSL enzyme replaces the yeast enzyme (ADE13). Yeast growth fitness was measured to determine the function of each variant. Growth-based fitness scores were collected at two expression levels, low and high, and were analyzed to estimate the enzyme activity produced by each variant. The low-expression measurements were particularly informative, as they better reveal partial loss-of-function variants that are most relevant for understanding clinical cases.\n\nExperiments:\n\n- ADSL Low Expression (Dox+): Analysis of ADSL variants under low expression conditions (clinically most informative).\n- ADSL Low Expression (Dox-): Analysis of ADSL variants under low expression with co-expression of yeast ADE13.\n- ADSL High Expression (Dox+): Analysis of ADSL variants under high expression conditions.\n- ADSL High Expression (Dox-): Analysis of ADSL variants under high expression with co-expression of yeast ADE13.",
+    "methodText": "Variant Library Construction:\nThe human ADSL variant library was generated using a plasmid-based saturation mutagenesis protocol. Each variant was assigned one or more unique barcodes.\n\nGrowth Assay:\nVariants were screened in the yTHC-ADE13 yeast strain under doxycycline treatment for 5 days. Media were refreshed, and samples were collected every 12 hours.\n\nSequencing Strategy:\nLibrary composition and barcode-variant associations were determined using the PacBio Sequel II system. Samples from the functional assay were sequenced on an Illumina NextSeq 2000 (P2).\n\nReplicates and Scoring:\nEach variant was represented by multiple barcodes, serving as technical replicates. Fitness scores for each barcode were calculated using the Enrich2 weighted least squares regression. Variant-level scores were obtained by median-averaging across barcodes, and confidence intervals were estimated using the interquartile range of barcode scores.",
+    "extraMetadata": {},
+    "recordType": "Experiment",
+    "urn": "urn:mavedb:00001257-a",
+    "createdBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "modifiedBy": {
+     "orcidId": "0000-0001-6203-4132",
+     "firstName": "Hasan",
+     "lastName": "\u00c7ubuk",
+     "recordType": "User"
+    },
+    "creationDate": "2025-12-03",
+    "modificationDate": "2025-12-03",
+    "publishedDate": "2025-12-03",
+    "experimentSetUrn": "urn:mavedb:00001257",
+    "doiIdentifiers": [],
+    "primaryPublicationIdentifiers": [],
+    "secondaryPublicationIdentifiers": [
+     {
+      "identifier": "10.1101/2025.08.15.670494",
+      "dbName": "Crossref",
+      "recordType": "PublicationIdentifier",
+      "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+      "authors": [
+       {
+        "name": "Hasan \u00c7ubuk",
+        "primary": true
+       },
+       {
+        "name": "Marcin Plech",
+        "primary": false
+       },
+       {
+        "name": "Vahid Aslanzadeh",
+        "primary": false
+       },
+       {
+        "name": "Marie Zikanova",
+        "primary": false
+       },
+       {
+        "name": "Vaclava Skopova",
+        "primary": false
+       },
+       {
+        "name": "Stanislav Kmoch",
+        "primary": false
+       },
+       {
+        "name": "Yuxin Shen",
+        "primary": false
+       },
+       {
+        "name": "Joseph A. Marsh",
+        "primary": false
+       },
+       {
+        "name": "Grzegorz Kudla",
+        "primary": false
+       }
+      ],
+      "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+      "doi": "10.1101/2025.08.15.670494",
+      "publicationYear": 2025,
+      "publicationJournal": null,
+      "url": "https://doi.org/10.1101/2025.08.15.670494",
+      "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+      "id": 178
+     }
+    ],
+    "rawReadIdentifiers": [],
+    "contributors": [
+     {
+      "orcidId": "0000-0001-6203-4132",
+      "recordType": "Contributor",
+      "givenName": "Hasan",
+      "familyName": "\u00c7ubuk"
+     }
+    ],
+    "keywords": [],
+    "scoreSetUrns": [
+     "urn:mavedb:00001257-a-1",
+     "urn:mavedb:00001257-a-2",
+     "urn:mavedb:00001257-a-3",
+     "urn:mavedb:00001257-a-4"
+    ],
+    "externalLinks": {},
+    "numScoreSets": 4,
+    "processingState": null,
+    "officialCollections": []
+   },
+   "primaryPublicationIdentifiers": [
+    {
+     "identifier": "10.1101/2025.08.15.670494",
+     "dbName": "Crossref",
+     "recordType": "SavedPublicationIdentifier",
+     "title": "Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects",
+     "authors": [
+      {
+       "name": "Hasan \u00c7ubuk",
+       "primary": true
+      },
+      {
+       "name": "Marcin Plech",
+       "primary": false
+      },
+      {
+       "name": "Vahid Aslanzadeh",
+       "primary": false
+      },
+      {
+       "name": "Marie Zikanova",
+       "primary": false
+      },
+      {
+       "name": "Vaclava Skopova",
+       "primary": false
+      },
+      {
+       "name": "Stanislav Kmoch",
+       "primary": false
+      },
+      {
+       "name": "Yuxin Shen",
+       "primary": false
+      },
+      {
+       "name": "Joseph A. Marsh",
+       "primary": false
+      },
+      {
+       "name": "Grzegorz Kudla",
+       "primary": false
+      }
+     ],
+     "abstract": "\n            Interpreting the effects of genetic variants remains a major challenge in recessive diseases, where clinical outcomes often depend on interactions between alleles. Multiplex assays of variant effects (MAVEs) measure variant function at scale, but nonlinear relationships with biochemical activity complicate the interpretation of MAVE scores. Here, we describe a broadly applicable approach to estimate enzymatic activities for thousands of genetic variants using a pair of fitness assays conducted at different expression levels, by modelling the nonlinear relationship between activity and fitness. Activity scores from two alleles are then combined into a single pathogenicity metric that captures their joint effect. We applied this approach to adenylosuccinate lyase (ADSL), a purine biosynthesis enzyme mutated in the autosomal recessive disorder ADSL deficiency. Using a yeast-based MAVE, we quantified the functional impact of over 8,000 coding variants. Our framework distinguished pathogenic from benign alleles based on estimated activity, and the integrated pathogenicity score correlated strongly with biochemical measurements from patient-derived cells, outperforming existing computational predictors. This dual innovation\u2014the mechanistic transformation of MAVE data and allelic integration\u2014offers a generalizable strategy for probing enzyme function and interpreting genetic variation in recessive disorders.",
+     "doi": "10.1101/2025.08.15.670494",
+     "publicationYear": 2025,
+     "publicationJournal": null,
+     "url": "https://doi.org/10.1101/2025.08.15.670494",
+     "referenceHtml": "Hasan \u00c7ubuk, <i>et al</i>. Mechanistic Modelling of Recessive Disease through Allelic Integration of Variant Effects. (None). 2025; (Unknown volume):(Unknown pages). 10.1101/2025.08.15.670494",
+     "id": 178
+    }
+   ],
+   "secondaryPublicationIdentifiers": [],
+   "license": {
+    "longName": "CC0 (Public domain)",
+    "shortName": "CC0",
+    "active": true,
+    "link": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "version": "1.0",
+    "id": 1,
+    "recordType": "ShortLicense"
+   },
+   "creationDate": "2025-12-03",
+   "modificationDate": "2025-12-03",
+   "targetGenes": [
+    {
+     "name": "ADSL",
+     "category": "protein_coding",
+     "externalIdentifiers": [],
+     "id": 7908,
+     "recordType": "ShortTargetGene",
+     "targetSequence": {
+      "sequenceType": "dna",
+      "sequence": "ATGGCTGCTGGCGGTGATCATGGTTCTCCAGATTCTTATAGATCTCCATTGGCTTCTAGATACGCTTCTCCAGAAATGTGTTTCGTTTTCTCCGACAGATACAAGTTTAGGACTTGGAGACAATTGTGGTTGTGGTTGGCTGAAGCTGAACAAACTTTGGGTTTGCCAATTACCGATGAACAGATCCAAGAAATGAAGTCCAACTTGGAAAACATCGATTTCAAAATGGCAGCCGAAGAAGAGAAGAGATTGAGACATGATGTTATGGCTCATGTTCATACTTTCGGTCATTGCTGTCCAAAAGCTGCTGGTATTATTCATTTGGGTGCTACCTCTTGTTACGTTGGTGATAACACCGATTTGATCATTTTGAGAAACGCCTTGGATTTGCTGTTGCCAAAATTGGCTAGAGTCATTTCTAGATTGGCTGACTTCGCTAAAGAAAGAGCTTCTTTGCCAACATTGGGTTTCACTCATTTTCAACCAGCTCAATTGACTACCGTTGGTAAGAGATGTTGTTTGTGGATTCAAGATTTGTGCATGGACTTGCAAAACTTGAAGAGGGTTAGAGATGACTTGAGATTCAGAGGTGTTAAGGGTACTACTGGTACTCAAGCTTCTTTCTTGCAACTGTTTGAAGGTGATGATCACAAGGTTGAACAATTGGATAAGATGGTTACTGAAAAGGCCGGTTTTAAGAGAGCCTTCATTATTACTGGTCAAACGTACACCAGAAAGGTTGATATCGAAGTTTTGTCCGTTTTGGCTTCTTTAGGTGCTTCTGTTCATAAGATCTGTACCGATATTAGGCTGCTGGCTAACTTGAAAGAAATGGAAGAACCATTCGAAAAGCAGCAGATTGGTTCTTCTGCTATGCCATACAAAAGAAACCCTATGAGATCTGAAAGATGCTGCTCTTTGGCTAGACATTTGATGACTTTGGTTATGGACCCATTGCAAACTGCTTCAGTTCAATGGTTTGAAAGAACCTTGGATGATTCCGCCAACAGAAGAATTTGTTTAGCTGAAGCTTTCTTGACCGCCGACACTATTTTGAACACATTGCAAAACATCTCCGAAGGTTTGGTTGTTTACCCAAAGGTTATCGAAAGAAGGATCAGACAAGAATTGCCATTCATGGCTACCGAAAACATTATTATGGCTATGGTTAAGGCTGGTGGTTCTAGACAAGATTGTCACGAAAAGATCAGAGTCTTGTCTCAACAAGCTGCATCTGTTGTTAAGCAAGAAGGTGGCGATAACGATTTGATTGAAAGAATCCAAGTTGACGCCTACTTCTCCCCAATTCATTCTCAATTGGATCATTTGTTGGACCCCTCATCTTTTACTGGTAGAGCTTCACAACAAGTCCAGAGATTTTTGGAAGAAGAAGTCTACCCTTTGTTGAAGCCATACGAATCTGTTATGAAGGTTAAGGCCGAATTGTGCTTGTAA",
+      "label": "ADSL",
+      "recordType": "SavedTargetSequence",
+      "taxonomy": {
+       "code": 9606,
+       "organismName": "Homo sapiens",
+       "commonName": "human",
+       "rank": "SPECIES",
+       "hasDescribedSpeciesName": true,
+       "articleReference": "NCBI:txid9606",
+       "genomeIdentifierId": 5,
+       "id": 15,
+       "recordType": "Taxonomy",
+       "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=info&id=9606"
+      }
+     },
+     "targetAccession": null,
+     "mappedHgncName": null,
+     "uniprotIdFromMappedMetadata": null
+    }
+   ],
+   "private": false,
+   "recordType": "ShortScoreSet"
+  }
+ ],
+ "numScoreSets": 5
+}

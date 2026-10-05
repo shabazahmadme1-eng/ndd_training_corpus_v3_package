@@ -1,0 +1,45 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1021/acs.molpharmaceut.9b00418\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31242389",
+        "source": "MED",
+        "pmid": "31242389",
+        "doi": "10.1021/acs.molpharmaceut.9b00418",
+        "title": "Retargeting CD19 Chimeric Antigen Receptor T Cells via Engineered CD19-Fusion Proteins.",
+        "authorString": "Klesmith JR, Su L, Wu L, Schrack IA, Dufort FJ, Birt A, Ambrose C, Hackel BJ, Lobb RR, Rennert PD.",
+        "journalTitle": "Mol Pharm",
+        "issue": "8",
+        "journalVolume": "16",
+        "pubYear": "2019",
+        "journalIssn": "1543-8384; 1543-8392; ",
+        "pageInfo": "3544-3558",
+        "pubType": "research support, non-u.s. gov't; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 38,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2019-07-15",
+        "firstIndexDate": "2019-06-27"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:\"10.1038/s41587-021-01201-1\"",
+    "resultType": "lite",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35190686",
+        "source": "MED",
+        "pmid": "35190686",
+        "doi": "10.1038/s41587-021-01201-1",
+        "title": "Saturation variant interpretation using CRISPR prime editing.",
+        "authorString": "Erwood S, Bily TMI, Lequyer J, Yan J, Gulati N, Brewer RA, Zhou L, Pelletier L, Ivakine EA, Cohn RD.",
+        "journalTitle": "Nat Biotechnol",
+        "issue": "6",
+        "journalVolume": "40",
+        "pubYear": "2022",
+        "journalIssn": "1087-0156; 1546-1696; ",
+        "pageInfo": "885-895",
+        "pubType": "research support, non-u.s. gov't; journal article",
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 175,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasTMAccessionNumbers": "N",
+        "firstPublicationDate": "2022-02-21",
+        "firstIndexDate": "2022-02-23"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+fold,test_gene,test_reference,train_gene,train_reference,local_score,identity,test_coverage,measured_site_coverage,possible_homolog
+83,PTEN,PTEN__9606__2675a6cc9460,PALB2,PALB2__9606__848e1c837f05,57.0,0.227,0.218,0.218,False
+83,PTEN,PTEN__9606__2675a6cc9460,BRCA2,BRCA2__9606__02fa9247ce63,55.0,0.302,0.107,0.107,False
+83,PTEN,PTEN__9606__2675a6cc9460,LARGE1,LARGE1__9606__69e472d47028,52.0,0.307,0.251,0.251,False
+83,PTEN,PTEN__9606__2675a6cc9460,SPOP,SPOP__9606__9947d2c5b5dd,50.0,0.24,0.186,0.186,False
+83,PTEN,PTEN__9606__2675a6cc9460,BRCA1,BRCA1__9606__80d7199c8d15,48.0,0.29,0.248,0.248,False

@@ -1,0 +1,38 @@
+{
+ "gene": "LDLR",
+ "uniprot": "P01130",
+ "role": "contrast",
+ "shared_missense": 14617,
+ "sets": [
+  {
+   "urn": "urn:mavedb:00001269-b-1",
+   "title": "LDLR missense variant effects on LDLR cell-surface abundance.",
+   "license": "CC0",
+   "n_variants": 16796,
+   "heuristic_task": "abundance",
+   "mapped_missense": 15011,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 860,
+   "experiment_urn": "urn:mavedb:00001269-b",
+   "experiment_title": "The functional landscape of coding variation in the familial hypercholesterolemia gene LDLR.",
+   "experiment_method": "We applied a multiplexed in vitro assay measuring LDLR cell-surface abundance via immunofluorescence. Barcoded cDNA libraries collectively containing nearly all possible single amino acid substitutions in LDLR were introduced at a genomically integrated Bxb1 \u201clanding pad\u201d in HeLa cells lacking endogenous LDLR. Cells were selected for LDL uptake via fluorescence-activated cell sorting. Functional scores were calculated by comparing barcode abundance in selected and unselected populations and scaled such that scores of 0 and 1 correspond to the median behaviour of nonsense and synonymous variants. Variants in the familial hypercholesterolemia gene LDLR can raise circulating low-density lipoprotein (LDL) cholesterol concentrations and increase the risk of premature atherosclerosis. Definitive classifications are lacking for nearly half of clinically encountered LDLR missense variants.",
+   "published": "2026-02-17"
+  },
+  {
+   "urn": "urn:mavedb:00001269-a-1",
+   "title": "LDLR missense variant effects on LDL uptake.",
+   "license": "CC0",
+   "n_variants": 17390,
+   "heuristic_task": "activity",
+   "mapped_missense": 15507,
+   "wt_mismatch": 0,
+   "uniprot_offset": 0,
+   "target_len": 860,
+   "experiment_urn": "urn:mavedb:00001269-a",
+   "experiment_title": "The functional landscape of coding variation in the familial hypercholesterolemia gene LDLR.",
+   "experiment_method": "We applied a multiplexed in vitro assay measuring the binding and internalization of LDL particles. Barcoded cDNA libraries collectively containing nearly all possible single amino acid substitutions in LDLR were introduced at a genomically integrated Bxb1 \u201clanding pad\u201d in HeLa cells lacking endogenous LDLR. Cells were selected for LDL uptake via fluorescence-activated cell sorting. Functional scores were calculated by comparing barcode abundance in selected and unselected populations and scaled such that scores of 0 and 1 correspond to the median behaviour of nonsense and synonymous variants. Variants in the familial hypercholesterolemia gene LDLR can raise circulating low-density lipoprotein (LDL) cholesterol concentrations and increase the risk of premature atherosclerosis. Definitive classifications are lacking for nearly half of clinically encountered LDLR missense variants.",
+   "published": "2026-02-17"
+  }
+ ]
+}
